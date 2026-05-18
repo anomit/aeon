@@ -1,0 +1,242 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Radar — Epoch 25122154"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "heading1",
+        "grid1",
+        "alert1"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "6 trades above $1,000 detected:"
+      }
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "6 trades above $1,000 detected:"
+      }
+    },
+    "grid1": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5",
+        "trade6"
+      ]
+    },
+    "trade1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade1-1",
+        "trade1-2",
+        "trade1-3"
+      ]
+    },
+    "trade1-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Swap $8,954 — Pool 0x6546...E5dA"
+      }
+    },
+    "trade1-2": {
+      "type": "Text",
+      "props": {
+        "text": "1.96 token0 → 8,931 token1"
+      }
+    },
+    "trade1-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x7ab4...a0ca"
+      }
+    },
+    "trade2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade2-1",
+        "trade2-2",
+        "trade2-3"
+      ]
+    },
+    "trade2-1": {
+      "type": "Text",
+      "props": {
+        "text": "2. Swap $7,051 — Pool 0xc7bb...0e9b"
+      }
+    },
+    "trade2-2": {
+      "type": "Text",
+      "props": {
+        "text": "3.27 token0 → 7,049 token1"
+      }
+    },
+    "trade2-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xc40b...8dc0"
+      }
+    },
+    "trade3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade3-1",
+        "trade3-2",
+        "trade3-3"
+      ]
+    },
+    "trade3-1": {
+      "type": "Text",
+      "props": {
+        "text": "3. Swap $5,366 — Pool 0x5ae1...4082"
+      }
+    },
+    "trade3-2": {
+      "type": "Text",
+      "props": {
+        "text": "1.18 ETH → 5,366 USDC"
+      }
+    },
+    "trade3-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x4cf6...3e31"
+      }
+    },
+    "trade4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade4-1",
+        "trade4-2",
+        "trade4-3"
+      ]
+    },
+    "trade4-1": {
+      "type": "Text",
+      "props": {
+        "text": "4. Mint $4,001 — Pool 0x88e6...5640 (USDC/WETH)"
+      }
+    },
+    "trade4-2": {
+      "type": "Text",
+      "props": {
+        "text": "4,000 USDC liquidity added"
+      }
+    },
+    "trade4-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x044d...658f"
+      }
+    },
+    "trade5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade5-1",
+        "trade5-2",
+        "trade5-3"
+      ]
+    },
+    "trade5-1": {
+      "type": "Text",
+      "props": {
+        "text": "5. Swap $3,459 — Pool 0xe055...939f"
+      }
+    },
+    "trade5-2": {
+      "type": "Text",
+      "props": {
+        "text": "3,458 token0 → 1.61 token1"
+      }
+    },
+    "trade5-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x9e7a...17b2"
+      }
+    },
+    "trade6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade6-1",
+        "trade6-2",
+        "trade6-3"
+      ]
+    },
+    "trade6-1": {
+      "type": "Text",
+      "props": {
+        "text": "6. Swap $1,041 — Pool 0xe21a...2CF6"
+      }
+    },
+    "trade6-2": {
+      "type": "Text",
+      "props": {
+        "text": "1,665 token0 → 0.48 token1"
+      }
+    },
+    "trade6-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x168d...269d"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "message": "CID: bafkreib2hq57viwk2kfribjv4zcbudakq4jmlogbccqbyacj2ldbjuud5y\nProject: allTradesSnapshot:0x4198...641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH\nETH price: $2,151.32"
+      }
+    }
+  }
+}

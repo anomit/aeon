@@ -1,23 +1,31 @@
-🐋 Whale Radar — Epoch 25122058
+🐋 Whale Radar — Epoch 25122154
 
-8 trades above $1K across 8 pools (3 transactions).
+6 trades above $1,000 detected:
 
-Multi-pool WETH accumulation by 0xBdb3... (tx 0xcf29fb):
-• 24.83 WETH bought via USDC/WETH 0.05% — $53,301
-• 3.06 WETH bought via WETH/stable pool — $6,562
-• 2.64 WETH bought via USDC/WETH 0.3% — $5,664
-• 2.14 WETH bought via WETH/USDT 0.05% — $4,587
-• Route hops via pools 0x99ac & 0x4548 — $6,471
+1. Swap $8,954 — Pool 0x6546...E5dA
+   1.96 token0 → 8,931 token1
+   Tx: 0x7ab4...a0ca
 
-Total: ~$76.6K WETH accumulated in single tx
+2. Swap $7,051 — Pool 0xc7bb...0e9b
+   3.27 token0 → 7,049 token1
+   Tx: 0xc40b...8dc0
 
-Other alerts:
-• $4,821 swap on pool 0xb191 (tx 0x00aaae, sender 0x6747)
-• $1,933 WETH→stable on pool 0xc7bB (tx 0x21b665, sender 0x4C82)
+3. Swap $5,366 — Pool 0x5ae1...4082
+   1.18 ETH → 5,366 USDC
+   Tx: 0x4cf6...3e31
 
-7 trades below $1K skipped.
+4. Mint $4,001 — Pool 0x88e6...5640 (USDC/WETH)
+   4,000 USDC liquidity added
+   Tx: 0x044d...658f
 
-✅ Verified on-chain
-   cid: bafkreiccfvh2njndc6ltfkkz2aeriku7bt4o77sndmb3fq73h3m6m6wfha
-   epoch: 25122058
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+5. Swap $3,459 — Pool 0xe055...939f
+   3,458 token0 → 1.61 token1
+   Tx: 0x9e7a...17b2
+
+6. Swap $1,041 — Pool 0xe21a...2CF6
+   1,665 token0 → 0.48 token1
+   Tx: 0x168d...269d
+
+✅ Verified on-chain — CID: bafkreib2hq57viwk2kfribjv4zcbudakq4jmlogbccqbyacj2ldbjuud5y
+   Project: allTradesSnapshot:0x4198...641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+   ETH price: $2,151.32
