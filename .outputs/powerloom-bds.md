@@ -1,17 +1,21 @@
-🐋 Whale Radar — Epoch 25124101
+🐳 4 whale alerts — epoch 25124577
 
-22 trades above $1K detected. Highlights:
+1. 0.068 WBTC → 2.47 ETH — $5,227
+   Pool: 0x4585FE77225b41b697C938B018E2Ac67Ac5a20c0
+   Tx: 0x744fc7c55eced1cf10d0cc6754ec66782c723dcd4e3b9aef307ba0732e1bdb8c
 
-• $4.86M liquidity reposition in USDC/WETH 0.3% pool (0xE0554a) — Mint + Burn pair via 0x1f2F10...387. Follow-up swaps of $86.5K and $80K in same block.
+2. 18,820 USDC → 8.89 ETH — $18,819
+   Pool: 0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36
+   Tx: 0xa328cd08d038e817a29dd441419af1db18f3c07dc251f644940ad32a91b06f9d
 
-• $96.7K swap in USDC/WETH 0.05% (0x88e6A0) — bought ~46 WETH. Tx: 0x42da71
+3. 8,364 USDC → 3.95 ETH — $8,364
+   Pool: 0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36
+   Tx: 0xcfcfb8f65e89b24c5cc8e74815332e86159eaff2408156fe01a8a8dd3de01b91
 
-• $37.6K swap in pool 0x4585FE — Tx: 0x1fda69
+4. 4,830 USDC → 2.28 ETH — $4,836
+   Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
+   Tx: 0x605ab1c8a5ad44e201ef5c6ff062d3a4636eb58c33a56573f8df954680a9682e
 
-• $25K swap in WETH/WBTC (0x109830) — via 1inch router. Tx: 0x4eb32d
-
-• $10.4K swap in USDC/WETH 0.05% — via 1inch. Tx: 0x4eb32d
-
-• 17 additional swaps $1K–$8.8K across USDC/WETH, USDT/USDC, and WETH/USDT pools.
-
-Epoch: 25124101 | Verified on-chain via Powerloom BDS consensus
+✅ Verified on-chain
+   cid: bafkreidktnyhgtk5io27z4hxkzh7agekt6hhjjzys6gareygqtys5jp5fm
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH

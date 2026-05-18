@@ -1,0 +1,198 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 4 whale alerts — epoch 25124577",
+        "description": "Powerloom BDS on-chain whale transaction alerts"
+      },
+      "children": [
+        "stack-transactions"
+      ]
+    },
+    "stack-transactions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transaction-1",
+        "transaction-2",
+        "transaction-3",
+        "transaction-4",
+        "separator-verification",
+        "verification-info"
+      ]
+    },
+    "transaction-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. 0.068 WBTC → 2.47 ETH — $5,227",
+        "variant": "lead"
+      }
+    },
+    "transaction-1-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-pool-1",
+        "text-tx-1"
+      ]
+    },
+    "text-pool-1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x4585FE77225b41b697C938B018E2Ac67Ac5a20c0",
+        "variant": "caption"
+      }
+    },
+    "text-tx-1": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x744fc7c55eced1cf10d0cc6754ec66782c723dcd4e3b9aef307ba0732e1bdb8c",
+        "variant": "caption"
+      }
+    },
+    "transaction-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. 18,820 USDC → 8.89 ETH — $18,819",
+        "variant": "lead"
+      }
+    },
+    "transaction-2-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-pool-2",
+        "text-tx-2"
+      ]
+    },
+    "text-pool-2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+        "variant": "caption"
+      }
+    },
+    "text-tx-2": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xa328cd08d038e817a29dd441419af1db18f3c07dc251f644940ad32a91b06f9d",
+        "variant": "caption"
+      }
+    },
+    "transaction-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. 8,364 USDC → 3.95 ETH — $8,364",
+        "variant": "lead"
+      }
+    },
+    "transaction-3-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-pool-3",
+        "text-tx-3"
+      ]
+    },
+    "text-pool-3": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+        "variant": "caption"
+      }
+    },
+    "text-tx-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xcfcfb8f65e89b24c5cc8e74815332e86159eaff2408156fe01a8a8dd3de01b91",
+        "variant": "caption"
+      }
+    },
+    "transaction-4": {
+      "type": "Text",
+      "props": {
+        "text": "4. 4,830 USDC → 2.28 ETH — $4,836",
+        "variant": "lead"
+      }
+    },
+    "transaction-4-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-pool-4",
+        "text-tx-4"
+      ]
+    },
+    "text-pool-4": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "caption"
+      }
+    },
+    "text-tx-4": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x605ab1c8a5ad44e201ef5c6ff062d3a4636eb58c33a56573f8df954680a9682e",
+        "variant": "caption"
+      }
+    },
+    "separator-verification": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verification-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-verified",
+        "text-cid",
+        "text-project"
+      ]
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreidktnyhgtk5io27z4hxkzh7agekt6hhjjzys6gareygqtys5jp5fm",
+        "variant": "muted"
+      }
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "muted"
+      }
+    }
+  }
+}
