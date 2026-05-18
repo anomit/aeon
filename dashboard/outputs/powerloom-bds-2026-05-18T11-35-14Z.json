@@ -1,0 +1,203 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 3 whale trades | Epoch 25121803"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "separator1",
+        "verification1"
+      ]
+    },
+    "trade1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "text2",
+        "text3",
+        "link1"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🐳 WETH → USDC  $13,260",
+        "level": "h3"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "6.27 WETH → 13,254 USDC | Wallet: 0xBdb3...47B6"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx:"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "0xb577e9d6...7e0b",
+        "href": "0xb577e9d6...7e0b"
+      }
+    },
+    "trade2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading2",
+        "text4",
+        "text5",
+        "text6",
+        "link2"
+      ]
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "🐳 Token1 → Token0  $25,000",
+        "level": "h3"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x4e665157291DBcb25152ebB01061E4012F58aDd2"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "25K token1 → 25,035 token0 (likely stablecoin pair) | Via: Uniswap Router"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "Tx:"
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "0x5e2abae4...9a44",
+        "href": "0x5e2abae4...9a44"
+      }
+    },
+    "trade3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading3",
+        "text7",
+        "text8",
+        "text9",
+        "link3"
+      ]
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "🐳 Token0 → Token1  $1,618",
+        "level": "h3"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xf763Bb342eB3d23C02ccB86312422fe0c1c17E94"
+      }
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "6.25 token0 → 1,602 token1 | Wallet: 0xEff6...A167"
+      }
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "Tx:"
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "0x36c9f2f6...bb9c",
+        "href": "0x36c9f2f6...bb9c"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verification1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text10",
+        "text11",
+        "text12"
+      ]
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain"
+      }
+    },
+    "text11": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreidhgugvocsbo6rck54o2pmm7bu5urblps7cwlzulhfu5nj3pj5k5m"
+      }
+    },
+    "text12": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      }
+    }
+  }
+}
