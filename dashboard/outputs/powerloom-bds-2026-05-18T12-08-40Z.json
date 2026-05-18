@@ -1,0 +1,168 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Radar — Epoch 25121964"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "desc",
+        "heading-trades",
+        "trades-stack",
+        "separator1",
+        "summary",
+        "separator2",
+        "verified"
+      ]
+    },
+    "desc": {
+      "type": "Text",
+      "props": {
+        "text": "14 trades above $1K threshold detected. Heavy WETH sell pressure this epoch.",
+        "variant": "body"
+      }
+    },
+    "heading-trades": {
+      "type": "Heading",
+      "props": {
+        "text": "TOP TRADES:",
+        "level": "h3"
+      }
+    },
+    "trades-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5",
+        "trade6",
+        "trade7",
+        "trade8",
+        "trade9",
+        "trade10",
+        "trade11"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH (0x88e6): SELL 53.4 WETH → $114,350\n  Tx: 0x5f5e9fb1...86fb",
+        "variant": "body"
+      }
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT (0xc7bb): SELL 47.9 WETH → $102,430\n  Tx: 0xcf5c7ec2...51ba",
+        "variant": "body"
+      }
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT (0xc7bb): BUY 42.0 WETH ← $89,891\n  Tx: 0x81cbf2f3...f660",
+        "variant": "body"
+      }
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH (0x88e6): SELL 41.9 WETH → $89,711\n  Tx: 0x81cbf2f3...f660",
+        "variant": "body"
+      }
+    },
+    "trade5": {
+      "type": "Text",
+      "props": {
+        "text": "• Pool 0x5653: 0.90 token0 → $69,849\n  Tx: 0x0904e970...ef96",
+        "variant": "body"
+      }
+    },
+    "trade6": {
+      "type": "Text",
+      "props": {
+        "text": "• Pool 0x5653: 0.56 token0 → $43,402\n  Tx: 0xa41563f4...1ef5",
+        "variant": "body"
+      }
+    },
+    "trade7": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH 0.3% (0xe055): SELL 5.0 WETH → $10,671\n  Tx: 0x5f5e9fb1...86fb",
+        "variant": "body"
+      }
+    },
+    "trade8": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT 0.3% (0x11b8): SELL 4.0 WETH → $8,668\n  Tx: 0x5f5e9fb1...86fb",
+        "variant": "body"
+      }
+    },
+    "trade9": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT (0xc7bb): SELL 4.2 WETH → $8,981\n  Tx: 0x5f5e9fb1...86fb",
+        "variant": "body"
+      }
+    },
+    "trade10": {
+      "type": "Text",
+      "props": {
+        "text": "• Pool 0x4585: $6,314\n  Tx: 0xa2be9da9...ec4b",
+        "variant": "body"
+      }
+    },
+    "trade11": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT (0xc7bb): BUY 2.95 WETH ← $6,315\n  Tx: 0xa2be9da9...ec4b",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "SUMMARY: ~$334K net WETH sold vs ~$96K bought across 7 pools. Net bearish flow: ~$238K selling.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain\n   cid: bafkreidjjwnybkk3rob37bwnbipymvamajvbjdwsn42pfdy7ngvptm5cxy\n   epoch: 25121964\n   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      }
+    }
+  }
+}
