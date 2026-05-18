@@ -47,6 +47,9 @@ skills:
   unlock-monitor: { enabled: false, schedule: "0 10 * * 1" } # weekly token unlock/vesting tracker
   aixbt-pulse: { enabled: false, schedule: "0 9,21 * * *", model: "claude-sonnet-4-6" } # twice daily — AIXBT free grounding endpoint: cross-domain market pulse (crypto/macro/tradfi/geopolitics) with taxonomy refresh
 
+  # --- Powerloom BDS (whale radar, token flow, pulse, defi analyst) ---
+  powerloom-bds: { enabled: false, schedule: "*/1 * * * *", model: "glm-5" } # every 1 minutes — verified on-chain whale alerts from Powerloom BDS
+
   # --- Afternoon (2 PM UTC) ---
   article: { enabled: false, schedule: "0 14 * * *" }
   technical-explainer: { enabled: false, schedule: "30 14 * * *" } # visual technical explanation with AI-generated hero image
@@ -159,6 +162,7 @@ skills:
   auto-workflow: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — var: URL to analyze
   onboard: { enabled: false, schedule: "workflow_dispatch", var: "" } # one-shot setup validator — checks secrets/workflows/memory writability and notifies a checklist with fix commands; pair with ./onboard CLI
 
+  powerloom-bds: { enabled: true, schedule: "*/5 * * * *" }
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 8,14,20 * * *" }
 
@@ -208,10 +212,10 @@ chains:
 model: claude-opus-4-7
 
 # AI Gateway — route Claude Code requests through an LLM gateway.
-# provider: direct (default, uses ANTHROPIC_API_KEY) | bankr (uses BANKR_LLM_KEY)
-# Bankr docs: https://docs.bankr.bot/llm-gateway/overview
+# provider: direct (default, uses ANTHROPIC_API_KEY) | bankr (uses BANKR_LLM_KEY) | zai (uses ZAI_API_KEY)
+# ZAI docs: https://z.ai
 gateway:
-  provider: direct
+  provider: zai
 
 # Output channels
 channels:

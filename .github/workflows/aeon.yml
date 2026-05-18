@@ -163,6 +163,8 @@ jobs:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          BDS_API_KEY: ${{ secrets.BDS_API_KEY }}
           SKILL_VAR: ${{ inputs.var }}
         run: |
           # Run all scripts/prefetch-*.sh before Claude starts (outside sandbox).
@@ -186,6 +188,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           BANKR_LLM_KEY: ${{ secrets.BANKR_LLM_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -208,6 +211,7 @@ jobs:
           DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
           NEYNAR_API_KEY: ${{ secrets.NEYNAR_API_KEY }}
           NEYNAR_SIGNER_UUID: ${{ secrets.NEYNAR_SIGNER_UUID }}
+          BDS_API_KEY: ${{ secrets.BDS_API_KEY }}
           JSONRENDER_ENABLED: ${{ vars.JSONRENDER_ENABLED || 'true' }}
           SKILL_VAR: ${{ inputs.var }}
         run: |
@@ -245,6 +249,16 @@ jobs:
             unset ANTHROPIC_API_KEY
             unset CLAUDE_CODE_OAUTH_TOKEN
             echo "::notice::Routing through Bankr Gateway (https://llm.bankr.bot)"
+          elif [ "$GATEWAY" = "zai" ]; then
+            if [ -z "${ZAI_API_KEY:-}" ]; then
+              echo "::error::gateway.provider=zai but ZAI_API_KEY secret is not set"
+              exit 1
+            fi
+            export ANTHROPIC_BASE_URL="https://api.z.ai/api/anthropic"
+            export ANTHROPIC_AUTH_TOKEN="$ZAI_API_KEY"
+            unset ANTHROPIC_API_KEY
+            unset CLAUDE_CODE_OAUTH_TOKEN
+            echo "::notice::Routing through ZAI Gateway (https://api.z.ai)"
           else
             echo "::notice::Using direct Anthropic API"
           fi
@@ -499,6 +513,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           BANKR_LLM_KEY: ${{ secrets.BANKR_LLM_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
         run: |
           SKILL="${{ steps.skill.outputs.name }}"
 
@@ -509,6 +524,11 @@ jobs:
           if [ "${{ steps.run.outputs.GATEWAY }}" = "bankr" ] && [ -n "${BANKR_LLM_KEY:-}" ]; then
             export ANTHROPIC_BASE_URL="https://llm.bankr.bot"
             export ANTHROPIC_AUTH_TOKEN="$BANKR_LLM_KEY"
+            unset ANTHROPIC_API_KEY
+            unset CLAUDE_CODE_OAUTH_TOKEN
+          elif [ "${{ steps.run.outputs.GATEWAY }}" = "zai" ] && [ -n "${ZAI_API_KEY:-}" ]; then
+            export ANTHROPIC_BASE_URL="https://api.z.ai/api/anthropic"
+            export ANTHROPIC_AUTH_TOKEN="$ZAI_API_KEY"
             unset ANTHROPIC_API_KEY
             unset CLAUDE_CODE_OAUTH_TOKEN
           fi
@@ -600,10 +620,16 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           BANKR_LLM_KEY: ${{ secrets.BANKR_LLM_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
         run: |
           if [ "${{ steps.run.outputs.GATEWAY }}" = "bankr" ] && [ -n "${BANKR_LLM_KEY:-}" ]; then
             export ANTHROPIC_BASE_URL="https://llm.bankr.bot"
             export ANTHROPIC_AUTH_TOKEN="$BANKR_LLM_KEY"
+            unset ANTHROPIC_API_KEY
+            unset CLAUDE_CODE_OAUTH_TOKEN
+          elif [ "${{ steps.run.outputs.GATEWAY }}" = "zai" ] && [ -n "${ZAI_API_KEY:-}" ]; then
+            export ANTHROPIC_BASE_URL="https://api.z.ai/api/anthropic"
+            export ANTHROPIC_AUTH_TOKEN="$ZAI_API_KEY"
             unset ANTHROPIC_API_KEY
             unset CLAUDE_CODE_OAUTH_TOKEN
           fi
