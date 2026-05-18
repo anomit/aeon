@@ -58,46 +58,52 @@ echo "Fetching latest trades snapshot using bds-agent..."
 export BDS_BASE_URL="${BDS_BASE_URL:-https://bds.powerloom.io/api}"
 
 # Fetch using bds-agent client - it knows the correct endpoints
+# NOTE: fetch() is async, must use asyncio.run()
 python3 << 'PYTHON'
 import os
 import json
+import asyncio
 from bds_agent.client import fetch
 
-base_url = os.environ.get("BDS_BASE_URL", "https://bds.powerloom.io/api")
-api_key = os.environ.get("BDS_API_KEY")
+async def main():
+    base_url = os.environ.get("BDS_BASE_URL", "https://bds.powerloom.io/api")
+    api_key = os.environ.get("BDS_API_KEY")
+    
+    try:
+        # Fetch latest allTrades snapshot (no epoch = latest)
+        # fetch() is async, must await it
+        result = await fetch(
+            base_url,
+            "/mpp/snapshot/allTrades",
+            api_key
+        )
+        
+        # Write to cache
+        with open(".bds-cache/latest.json", "w") as f:
+            json.dump(result.data, f, indent=2)
+        
+        # Log credit balance if available
+        if result.credit_balance:
+            print(f"BDS Credit Balance: {result.credit_balance}")
+        
+        # Extract epoch for tracking
+        if hasattr(result, 'data') and isinstance(result.data, dict):
+            epoch = result.data.get('epoch') or result.data.get('verification', {}).get('epoch')
+            if epoch:
+                with open(".bds-cache/last_epoch.txt", "w") as f:
+                    f.write(str(epoch))
+                print(f"Cached epoch: {epoch}")
+        
+        print("Successfully cached BDS data")
+        
+    except Exception as e:
+        print(f"ERROR: Failed to fetch BDS data: {e}")
+        # Write error to cache so skill knows what happened
+        with open(".bds-cache/latest.json", "w") as f:
+            json.dump({"error": str(e)}, f)
+        exit(1)
 
-try:
-    # Fetch latest allTrades snapshot (no epoch = latest)
-    result = fetch(
-        base_url=base_url,
-        endpoint="/mpp/snapshot/allTrades",
-        api_key=api_key
-    )
-    
-    # Write to cache
-    with open(".bds-cache/latest.json", "w") as f:
-        json.dump(result.data, f, indent=2)
-    
-    # Log credit balance if available
-    if result.credit_balance:
-        print(f"BDS Credit Balance: {result.credit_balance}")
-    
-    # Extract epoch for tracking
-    if hasattr(result, 'data') and isinstance(result.data, dict):
-        epoch = result.data.get('epoch') or result.data.get('verification', {}).get('epoch')
-        if epoch:
-            with open(".bds-cache/last_epoch.txt", "w") as f:
-                f.write(str(epoch))
-            print(f"Cached epoch: {epoch}")
-    
-    print("Successfully cached BDS data")
-    
-except Exception as e:
-    print(f"ERROR: Failed to fetch BDS data: {e}")
-    # Write error to cache so skill knows what happened
-    with open(".bds-cache/latest.json", "w") as f:
-        json.dump({"error": str(e)}, f)
-    exit(1)
+asyncio.run(main())
 PYTHON
 
 # For pulse mode, also fetch time series data
