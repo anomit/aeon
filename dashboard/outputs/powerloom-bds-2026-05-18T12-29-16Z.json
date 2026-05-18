@@ -1,0 +1,140 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Radar — Epoch 25122058"
+      },
+      "children": [
+        "main_heading",
+        "intro_text",
+        "main_section",
+        "total_note",
+        "other_alerts",
+        "skipped_trades",
+        "verification"
+      ]
+    },
+    "main_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "8 trades above $1K across 8 pools (3 transactions)",
+        "level": "h3"
+      }
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-pool WETH accumulation by 0xBdb3...",
+        "variant": "lead"
+      }
+    },
+    "main_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade_item_1",
+        "trade_item_2",
+        "trade_item_3",
+        "trade_item_4",
+        "route_info"
+      ]
+    },
+    "trade_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "• 24.83 WETH bought via USDC/WETH 0.05% — $53,301"
+      }
+    },
+    "trade_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "• 3.06 WETH bought via WETH/stable pool — $6,562"
+      }
+    },
+    "trade_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "• 2.64 WETH bought via USDC/WETH 0.3% — $5,664"
+      }
+    },
+    "trade_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "• 2.14 WETH bought via WETH/USDT 0.05% — $4,587"
+      }
+    },
+    "route_info": {
+      "type": "Text",
+      "props": {
+        "text": "• Route hops via pools 0x99ac & 0x4548 — $6,471"
+      }
+    },
+    "total_note": {
+      "type": "Text",
+      "props": {
+        "text": "Total: ~$76.6K WETH accumulated in single tx"
+      }
+    },
+    "other_alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_item_1",
+        "alert_item_2"
+      ]
+    },
+    "alert_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "• $4,821 swap on pool 0xb191 (tx 0x00aaae, sender 0x6747)"
+      }
+    },
+    "alert_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "• $1,933 WETH→stable on pool 0xc7bB (tx 0x21b665, sender 0x4C82)"
+      }
+    },
+    "skipped_trades": {
+      "type": "Text",
+      "props": {
+        "text": "7 trades below $1K skipped.",
+        "variant": "muted"
+      }
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification_badge",
+        "verification_details"
+      ]
+    },
+    "verification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "verification_details": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreiccfvh2njndc6ltfkkz2aeriku7bt4o77sndmb3fq73h3m6m6wfha\n   epoch: 25122058\n   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "muted"
+      }
+    }
+  }
+}

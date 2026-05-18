@@ -1,34 +1,23 @@
-🐳 Whale Radar — Epoch 25121964
+🐋 Whale Radar — Epoch 25122058
 
-14 trades above $1K threshold detected. Heavy WETH sell pressure this epoch.
+8 trades above $1K across 8 pools (3 transactions).
 
-TOP TRADES:
-• USDC/WETH (0x88e6): SELL 53.4 WETH → $114,350
-  Tx: 0x5f5e9fb1...86fb
-• WETH/USDT (0xc7bb): SELL 47.9 WETH → $102,430
-  Tx: 0xcf5c7ec2...51ba
-• WETH/USDT (0xc7bb): BUY 42.0 WETH ← $89,891
-  Tx: 0x81cbf2f3...f660
-• USDC/WETH (0x88e6): SELL 41.9 WETH → $89,711
-  Tx: 0x81cbf2f3...f660
-• Pool 0x5653: 0.90 token0 → $69,849
-  Tx: 0x0904e970...ef96
-• Pool 0x5653: 0.56 token0 → $43,402
-  Tx: 0xa41563f4...1ef5
-• USDC/WETH 0.3% (0xe055): SELL 5.0 WETH → $10,671
-  Tx: 0x5f5e9fb1...86fb
-• WETH/USDT 0.3% (0x11b8): SELL 4.0 WETH → $8,668
-  Tx: 0x5f5e9fb1...86fb
-• WETH/USDT (0xc7bb): SELL 4.2 WETH → $8,981
-  Tx: 0x5f5e9fb1...86fb
-• Pool 0x4585: $6,314
-  Tx: 0xa2be9da9...ec4b
-• WETH/USDT (0xc7bb): BUY 2.95 WETH ← $6,315
-  Tx: 0xa2be9da9...ec4b
+Multi-pool WETH accumulation by 0xBdb3... (tx 0xcf29fb):
+• 24.83 WETH bought via USDC/WETH 0.05% — $53,301
+• 3.06 WETH bought via WETH/stable pool — $6,562
+• 2.64 WETH bought via USDC/WETH 0.3% — $5,664
+• 2.14 WETH bought via WETH/USDT 0.05% — $4,587
+• Route hops via pools 0x99ac & 0x4548 — $6,471
 
-SUMMARY: ~$334K net WETH sold vs ~$96K bought across 7 pools. Net bearish flow: ~$238K selling.
+Total: ~$76.6K WETH accumulated in single tx
+
+Other alerts:
+• $4,821 swap on pool 0xb191 (tx 0x00aaae, sender 0x6747)
+• $1,933 WETH→stable on pool 0xc7bB (tx 0x21b665, sender 0x4C82)
+
+7 trades below $1K skipped.
 
 ✅ Verified on-chain
-   cid: bafkreidjjwnybkk3rob37bwnbipymvamajvbjdwsn42pfdy7ngvptm5cxy
-   epoch: 25121964
+   cid: bafkreiccfvh2njndc6ltfkkz2aeriku7bt4o77sndmb3fq73h3m6m6wfha
+   epoch: 25122058
    project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
