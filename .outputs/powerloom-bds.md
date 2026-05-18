@@ -1,13 +1,8 @@
-## Summary
+🐋 Whale alert: 0.58 WETH sold for $1,236.28
 
-**Powerloom BDS skill run — `POWERLOOM_BDS_CACHE_MISS`**
-
-- **Mode**: whale-radar (configured)
-- **Result**: No alerts sent. The pre-fetch script (`scripts/prefetch-bds.sh`) ran but the BDS API returned an error: the endpoint `/mpp/snapshot/allTrades/latest` treats `latest` as a `block_number` path parameter and rejects it — it expects an integer.
-- **Files modified**:
-  - `memory/logs/2026-05-18.md` — appended cache miss log entry
-  - `memory/powerloom-bds-state.json` — created with run status
-- **Follow-up needed**: The pre-fetch script needs to be updated to either:
-  1. Use a different BDS endpoint that accepts `latest` as a query parameter instead of a path segment
-  2. Query the current block number first and pass that integer to the snapshot endpoint
-  3. Consult the Powerloom BDS docs at https://docs.powerloom.io/agents-and-bds/quickstart for the correct endpoint format
+Pool: 0x14424eEeCbfF345B38187d0B8b749E56FAA68539
+Epoch: 25121752
+Tx: 0xef457ac0be7f49c8a7bf8acc0a1be27ad110106cbeeb9664facd4cd8250fccec
+✅ Verified on-chain
+   cid: bafkreiakkehmrzxdkmvgp2umt3ilyow6gdgatpufugq4a7hccrlbselpwe
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641

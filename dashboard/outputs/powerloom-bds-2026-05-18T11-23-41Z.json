@@ -1,0 +1,97 @@
+{
+  "root": "card-whale-alert",
+  "state": {},
+  "elements": {
+    "card-whale-alert": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert: WETH Sale",
+        "description": "Large WETH transaction detected"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-alert",
+        "badge-verified",
+        "separator-1",
+        "stack-details",
+        "separator-2",
+        "text-cid"
+      ]
+    },
+    "text-alert": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 Whale alert: 0.58 WETH sold for $1,236.28",
+        "variant": "lead"
+      }
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-pool",
+        "text-epoch",
+        "text-tx"
+      ]
+    },
+    "text-pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x14424eEeCbfF345B38187d0B8b749E56FAA68539",
+        "variant": "body"
+      }
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25121752",
+        "variant": "body"
+      }
+    },
+    "text-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xef457ac0be7f49c8a7bf8acc0a1be27ad110106cbeeb9664facd4cd8250fccec",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiakkehmrzxdkmvgp2umt3ilyow6gdgatpufugq4a7hccrlbselpwe",
+        "variant": "caption"
+      }
+    }
+  }
+}
