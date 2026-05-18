@@ -1,0 +1,167 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Alert: USDC → WETH $2,092"
+      },
+      "children": [
+        "alert_main",
+        "pool_info",
+        "transaction_info",
+        "verification"
+      ]
+    },
+    "alert_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 Whale Alert: USDC → WETH $2,092",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pool_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pool_label",
+        "pool_value"
+      ]
+    },
+    "pool_label": {
+      "type": "Text",
+      "props": {
+        "text": "Pool:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pool_value": {
+      "type": "Text",
+      "props": {
+        "text": "0xE0554a476A092703abdB3Ef35c80e0D76d32939F"
+      },
+      "children": []
+    },
+    "transaction_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "epoch_label",
+        "epoch_value",
+        "tx_label",
+        "tx_value"
+      ]
+    },
+    "epoch_label": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "epoch_value": {
+      "type": "Text",
+      "props": {
+        "text": "25123299"
+      },
+      "children": []
+    },
+    "tx_label": {
+      "type": "Text",
+      "props": {
+        "text": "Tx:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tx_value": {
+      "type": "Text",
+      "props": {
+        "text": "0x6a983b246c2bb260d18112798f7cd9a8012c420088be0e2c573cdfab5029e54d"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verified_badge",
+        "cid_info",
+        "project_info"
+      ]
+    },
+    "verified_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "cid_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid_label",
+        "cid_value"
+      ]
+    },
+    "cid_label": {
+      "type": "Text",
+      "props": {
+        "text": "   cid:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cid_value": {
+      "type": "Text",
+      "props": {
+        "text": "bafkreigrxuldnj4eaqob5hjbwdfy36k47lu6uu5evcgyjmwrpnlntq5o6a"
+      },
+      "children": []
+    },
+    "project_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "project_label",
+        "project_value"
+      ]
+    },
+    "project_label": {
+      "type": "Text",
+      "props": {
+        "text": "   project:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "project_value": {
+      "type": "Text",
+      "props": {
+        "text": "allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      },
+      "children": []
+    }
+  }
+}
