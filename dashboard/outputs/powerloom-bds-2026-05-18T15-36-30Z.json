@@ -1,0 +1,148 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 4 whale swaps detected — Epoch 25123002",
+        "description": "Detected large token swaps verified on-chain"
+      },
+      "children": [
+        "swap1",
+        "swap2",
+        "swap3",
+        "swap4",
+        "verified"
+      ]
+    },
+    "swap1": {
+      "type": "Card",
+      "props": {
+        "description": "5,000 token → 2.39 ETH ($4,999)"
+      },
+      "children": [
+        "pool1",
+        "tx1"
+      ]
+    },
+    "pool1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE055...939F",
+        "variant": "muted"
+      }
+    },
+    "tx1": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x738033b6...dde7",
+        "href": "https://etherscan.io/tx/0x738033b6...dde7"
+      }
+    },
+    "swap2": {
+      "type": "Card",
+      "props": {
+        "description": "10,669 token → 1,620 token ($1,625)"
+      },
+      "children": [
+        "pool2",
+        "tx2"
+      ]
+    },
+    "pool2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xFf29...8086",
+        "variant": "muted"
+      }
+    },
+    "tx2": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x1b03f9f3...2f5f",
+        "href": "https://etherscan.io/tx/0x1b03f9f3...2f5f"
+      }
+    },
+    "swap3": {
+      "type": "Card",
+      "props": {
+        "description": "3.88 ETH → 8,138 token ($8,134)"
+      },
+      "children": [
+        "pool3",
+        "tx3"
+      ]
+    },
+    "pool3": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bB...0e9b",
+        "variant": "muted"
+      }
+    },
+    "tx3": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0xb58f5037...4481",
+        "href": "https://etherscan.io/tx/0xb58f5037...4481"
+      }
+    },
+    "swap4": {
+      "type": "Card",
+      "props": {
+        "description": "10,643 token → 1.75 ETH ($3,665)"
+      },
+      "children": [
+        "pool4",
+        "tx4"
+      ]
+    },
+    "pool4": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xcFeC...7D38",
+        "variant": "muted"
+      }
+    },
+    "tx4": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x675f9813...0144",
+        "href": "https://etherscan.io/tx/0x675f9813...0144"
+      }
+    },
+    "verified": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain"
+      },
+      "children": [
+        "cid",
+        "project",
+        "epoch"
+      ]
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibfafu5ebmdmjcpcxitdw4sm7ukusozdlmtvw4yrmckruxrfuwwje",
+        "variant": "muted"
+      }
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81...3f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "muted"
+      }
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "epoch: 25123002",
+        "variant": "muted"
+      }
+    }
+  }
+}
