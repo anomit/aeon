@@ -1,12 +1,15 @@
-🐋 Whale alert: token0 → token1  $8,744
+3 whale alerts detected (epoch 25123698)
 
-Pool: 0x95DBB3C7546F22BCE375900AbFdd64a4E5bD73d6
-Amount: 7,504 token0 swapped for 8,744 token1
-Sender: 0x66a9...A8Af (1inch)
-Recipient: 0xae54...2acc
+WHALE: 503.48 → 2.25 ETH | $4,751
+Pool: 0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83
+Tx: 0x6e9c8cc7c4abf0ee7dc7692d1f4744499ea908cd2706f74cdf1aae5131f8b01a
 
-Epoch: 25123600
-Tx: 0x4e56...07f6
-✅ Verified on-chain
-   cid: bafkreib7zb2ro2zyhg7zrks7rzksuqrytkzr4e77ztcx5pm4jjz53cg5ea
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+WHALE: 1.48 ETH → 330.72 | $3,121
+Pool: 0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83
+Tx: 0x977a62a1eb23beb6c43b3fe251a42455166918faf17f72e6c72fd34790e6fb81
+
+WHALE: 97,000 → 100,594 | $96,910
+Pool: 0xABfCA96716cf2911bBB50A4CDBcBAffA2ef8EcDa
+Tx: 0x8e77ce09cc858d2af62aa54e262614a56de574a8b7c3cdd90039b4381ffaf486
+
+Verified on-chain | CID: bafkreihbgqgnwxi4hawg2fc42hcnhmafcrdacz67rj4w7a4xpid4zc7pqa

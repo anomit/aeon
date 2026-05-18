@@ -1,0 +1,241 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "3 whale alerts detected (epoch 25123698)"
+      },
+      "children": [
+        "stack-alerts"
+      ]
+    },
+    "stack-alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-1",
+        "alert-2",
+        "alert-3"
+      ]
+    },
+    "alert-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale-1-amount",
+        "whale-1-pool",
+        "whale-1-tx"
+      ]
+    },
+    "whale-1-amount": {
+      "type": "Text",
+      "props": {
+        "text": "WHALE: 503.48 → 2.25 ETH | $4,751",
+        "variant": "lead"
+      }
+    },
+    "whale-1-pool": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pool-label-1",
+        "pool-link-1"
+      ]
+    },
+    "pool-label-1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: "
+      }
+    },
+    "pool-link-1": {
+      "type": "Link",
+      "props": {
+        "label": "0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83",
+        "href": "https://etherscan.io/address/0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83"
+      }
+    },
+    "whale-1-tx": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tx-label-1",
+        "tx-link-1"
+      ]
+    },
+    "tx-label-1": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: "
+      }
+    },
+    "tx-link-1": {
+      "type": "Link",
+      "props": {
+        "label": "0x6e9c8cc7c4abf0ee7dc7692d1f4744499ea908cd2706f74cdf1aae5131f8b01a",
+        "href": "https://etherscan.io/tx/0x6e9c8cc7c4abf0ee7dc7692d1f4744499ea908cd2706f74cdf1aae5131f8b01a"
+      }
+    },
+    "alert-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale-2-amount",
+        "whale-2-pool",
+        "whale-2-tx"
+      ]
+    },
+    "whale-2-amount": {
+      "type": "Text",
+      "props": {
+        "text": "WHALE: 1.48 ETH → 330.72 | $3,121",
+        "variant": "lead"
+      }
+    },
+    "whale-2-pool": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pool-label-2",
+        "pool-link-2"
+      ]
+    },
+    "pool-label-2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: "
+      }
+    },
+    "pool-link-2": {
+      "type": "Link",
+      "props": {
+        "label": "0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83",
+        "href": "https://etherscan.io/address/0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83"
+      }
+    },
+    "whale-2-tx": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tx-label-2",
+        "tx-link-2"
+      ]
+    },
+    "tx-label-2": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: "
+      }
+    },
+    "tx-link-2": {
+      "type": "Link",
+      "props": {
+        "label": "0x977a62a1eb23beb6c43b3fe251a42455166918faf17f72e6c72fd34790e6fb81",
+        "href": "https://etherscan.io/tx/0x977a62a1eb23beb6c43b3fe251a42455166918faf17f72e6c72fd34790e6fb81"
+      }
+    },
+    "alert-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale-3-amount",
+        "whale-3-pool",
+        "whale-3-tx"
+      ]
+    },
+    "whale-3-amount": {
+      "type": "Text",
+      "props": {
+        "text": "WHALE: 97,000 → 100,594 | $96,910",
+        "variant": "lead"
+      }
+    },
+    "whale-3-pool": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pool-label-3",
+        "pool-link-3"
+      ]
+    },
+    "pool-label-3": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: "
+      }
+    },
+    "pool-link-3": {
+      "type": "Link",
+      "props": {
+        "label": "0xABfCA96716cf2911bBB50A4CDBcBAffA2ef8EcDa",
+        "href": "https://etherscan.io/address/0xABfCA96716cf2911bBB50A4CDBcBAffA2ef8EcDa"
+      }
+    },
+    "whale-3-tx": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tx-label-3",
+        "tx-link-3"
+      ]
+    },
+    "tx-label-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: "
+      }
+    },
+    "tx-link-3": {
+      "type": "Link",
+      "props": {
+        "label": "0x8e77ce09cc858d2af62aa54e262614a56de574a8b7c3cdd90039b4381ffaf486",
+        "href": "https://etherscan.io/tx/0x8e77ce09cc858d2af62aa54e262614a56de574a8b7c3cdd90039b4381ffaf486"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "Verified on-chain | CID: bafkreihbgqgnwxi4hawg2fc42hcnhmafcrdacz67rj4w7a4xpid4zc7pqa",
+        "variant": "caption"
+      }
+    }
+  }
+}
