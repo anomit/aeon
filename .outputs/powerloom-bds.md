@@ -1,8 +1,8 @@
-🐳 Whale alert: Swap ~25,023 → 25,022 tokens ($25,025) — stablecoin pair on UniswapV3
+🐋 Whale alert: 2,351.77 token0 → 0.51 token1  $1,086.59
 
-Pool: 0x970A7749EcAA4394C8B2Bf5F2471F41FD6b79288
-Epoch: 25122449
-Tx: 0xf04d7e49e0716ded25527409f3a693375ab811bd74f75d76df92979873d22115
+Pool: 0xb1914469141Ebb6e244e75cEe3f35d43BF6B85e5
+Epoch: 25122552
+Tx: 0xe10356ea4d11a68c92e26d4620f8e74e727280b5f50ba58d26ae5da4e55b7396
 ✅ Verified on-chain
-   cid: bafkreienrfqvv7upztv3unpmek5i2eq6ar7pz2vklpiajn3cbopgj3qr54
+   cid: bafkreiavnhagkpf3xceq7kvjvuo4l62z6o5bp7hz75hhfcs7gfowih6wfu
    project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH

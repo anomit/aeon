@@ -1,0 +1,64 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "alert",
+        "pool",
+        "epoch",
+        "tx",
+        "verified",
+        "cid",
+        "project"
+      ]
+    },
+    "alert": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 Whale alert: 2,351.77 token0 → 0.51 token1  $1,086.59",
+        "variant": "lead"
+      }
+    },
+    "pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xb1914469141Ebb6e244e75cEe3f35d43BF6B85e5"
+      }
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25122552"
+      }
+    },
+    "tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xe10356ea4d11a68c92e26d4620f8e74e727280b5f50ba58d26ae5da4e55b7396"
+      }
+    },
+    "verified": {
+      "type": "Alert",
+      "props": {
+        "message": "Verified on-chain"
+      }
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiavnhagkpf3xceq7kvjvuo4l62z6o5bp7hz75hhfcs7gfowih6wfu"
+      }
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      }
+    }
+  }
+}
