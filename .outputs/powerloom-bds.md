@@ -1,16 +1,13 @@
 ## Summary
 
-**Powerloom BDS skill — `whale-radar` mode**: ended with `POWERLOOM_BDS_CACHE_MISS`.
+**Powerloom BDS skill run — `POWERLOOM_BDS_CACHE_MISS`**
 
-The skill cannot execute because:
-1. **No pre-fetch script** — `scripts/prefetch-bds.sh` doesn't exist in the repo
-2. **No cached data** — `.bds-cache/latest.json` was never created
-3. **No `BDS_API_KEY`** GitHub secret configured (needed by the pre-fetch script to call the BDS API)
-
-**To set up this skill**, you need to:
-1. Get a BDS API key from https://bds-metering.powerloom.io/metering
-2. Add it as a GitHub secret named `BDS_API_KEY`
-3. Create `scripts/prefetch-bds.sh` that calls the BDS API and writes results to `.bds-cache/latest.json`
-4. Ensure the workflow runs the pre-fetch script before Claude starts (per the sandbox pattern in CLAUDE.md)
-
-**Files**: Created `memory/logs/2026-05-18.md` with the cache-miss log entry.
+- **Mode**: whale-radar (configured)
+- **Result**: No alerts sent. The pre-fetch script (`scripts/prefetch-bds.sh`) ran but the BDS API returned an error: the endpoint `/mpp/snapshot/allTrades/latest` treats `latest` as a `block_number` path parameter and rejects it — it expects an integer.
+- **Files modified**:
+  - `memory/logs/2026-05-18.md` — appended cache miss log entry
+  - `memory/powerloom-bds-state.json` — created with run status
+- **Follow-up needed**: The pre-fetch script needs to be updated to either:
+  1. Use a different BDS endpoint that accepts `latest` as a query parameter instead of a path segment
+  2. Query the current block number first and pass that integer to the snapshot endpoint
+  3. Consult the Powerloom BDS docs at https://docs.powerloom.io/agents-and-bds/quickstart for the correct endpoint format
