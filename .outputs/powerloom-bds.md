@@ -1,22 +1,17 @@
-🐳 4 whale swaps detected — Epoch 25123002
+🐋 11 whale trades detected — epoch 25123099
 
-1) 5,000 token → 2.39 ETH ($4,999)
-   Pool: 0xE055...939F
-   Tx: 0x738033b6...dde7
+Top moves:
+• $59,933 — stablecoin swap — pool 0xbafead7c
+  tx: 0xeaa9ab76...467f9
+• $24,976 — token→ETH — pool 0xa6Cc3C25
+  tx: 0x6b2150ea...cf9f5
+• $5,007 — USDC→ETH — pool 0xe0554a47
+  tx: 0x8296d952...dc61
 
-2) 10,669 token → 1,620 token ($1,625)
-   Pool: 0xFf29...8086
-   Tx: 0x1b03f9f3...2f5f
+Plus 8 more ($1K–$2.2K):
+$2,243 ETH→USDC | $2,051 token→ETH | $1,986 ETH→token | $1,837 token→ETH | $1,432 ETH→USDC | $1,244 token→ETH | $1,209 token swap | $1,042 ETH→token
 
-3) 3.88 ETH → 8,138 token ($8,134)
-   Pool: 0xc7bB...0e9b
-   Tx: 0xb58f5037...4481
-
-4) 10,643 token → 1.75 ETH ($3,665)
-   Pool: 0xcFeC...7D38
-   Tx: 0x675f9813...0144
-
+29 trades scanned · 11 whale alerts · threshold $1K
 ✅ Verified on-chain
-   cid: bafkreibfafu5ebmdmjcpcxitdw4sm7ukusozdlmtvw4yrmckruxrfuwwje
-   project: allTradesSnapshot:0x4198Bf81...3f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
-   epoch: 25123002
+   cid: bafkreigcewqu4leff2fngs4f743ybr6gez6nildjyslam7ydb7uzoprif4
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH

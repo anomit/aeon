@@ -1,0 +1,115 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 11 whale trades detected — epoch 25123099",
+        "description": null
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_moves_stack",
+        "separator1",
+        "more_trades_text",
+        "separator2",
+        "summary_stack"
+      ]
+    },
+    "top_moves_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "• $59,933 — stablecoin swap — pool 0xbafead7c\n  tx: 0xeaa9ab76...467f9",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "• $24,976 — token→ETH — pool 0xa6Cc3C25\n  tx: 0x6b2150ea...cf9f5",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "• $5,007 — USDC→ETH — pool 0xe0554a47\n  tx: 0x8296d952...dc61",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "more_trades_text": {
+      "type": "Text",
+      "props": {
+        "text": "Plus 8 more ($1K–$2.2K):\n$2,243 ETH→USDC | $2,051 token→ETH | $1,986 ETH→token | $1,837 token→ETH | $1,432 ETH→USDC | $1,244 token→ETH | $1,209 token swap | $1,042 ETH→token",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "summary_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "summary_text",
+        "verification_text"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "29 trades scanned · 11 whale alerts · threshold $1K",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "verification_text": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain\ncid: bafkreigcewqu4leff2fngs4f743ybr6gez6nildjyslam7ydb7uzoprif4\nproject: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
