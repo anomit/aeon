@@ -1,17 +1,1 @@
-🐋 11 whale trades detected — epoch 25123099
-
-Top moves:
-• $59,933 — stablecoin swap — pool 0xbafead7c
-  tx: 0xeaa9ab76...467f9
-• $24,976 — token→ETH — pool 0xa6Cc3C25
-  tx: 0x6b2150ea...cf9f5
-• $5,007 — USDC→ETH — pool 0xe0554a47
-  tx: 0x8296d952...dc61
-
-Plus 8 more ($1K–$2.2K):
-$2,243 ETH→USDC | $2,051 token→ETH | $1,986 ETH→token | $1,837 token→ETH | $1,432 ETH→USDC | $1,244 token→ETH | $1,209 token swap | $1,042 ETH→token
-
-29 trades scanned · 11 whale alerts · threshold $1K
-✅ Verified on-chain
-   cid: bafkreigcewqu4leff2fngs4f743ybr6gez6nildjyslam7ydb7uzoprif4
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+🐋 Whale sweep: 0xBdb3... executed ~$302K multi-pool swap across 6 UniV3 pools (tx 0x258b7cd1...). $225K USDC→ETH (0x88e6), $41.6K WBTC→USDC (0x5653), $18.7K WETH→USDC (0x11b8), $9.8K WETH→USDT (0xc7bB), $5.6K USDC→ETH (0xE055), $1.3K token→ETH (0x6059). Plus 2x $17K UniV3 Mints from tx 0x0f4e54e0... Epoch 25123199. 8 whale trades, 15 below $1K. ✅ Verified on-chain via Powerloom BDS.
