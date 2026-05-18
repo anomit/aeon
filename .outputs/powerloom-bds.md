@@ -1,9 +1,8 @@
-🐋 Whale alert: USDC → WETH $2,092
+🐋 Whale alert: USDC → ETH  $2,098.19
 
 Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25123299
-Tx: 0x6a983b246c2bb260d18112798f7cd9a8012c420088be0e2c573cdfab5029e54d
-
+Epoch: 25123399
+Tx: 0x430fcd94c20c75c18b445384b8427389b4bcfb9d0478724f0e816c216d2863e1
 ✅ Verified on-chain
-   cid: bafkreigrxuldnj4eaqob5hjbwdfy36k47lu6uu5evcgyjmwrpnlntq5o6a
+   cid: bafkreianqsir4jg5cqbj66qoyt3krgkstt5pb335wnw2xjuxjm6skwrqau
    project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH

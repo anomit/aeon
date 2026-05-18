@@ -1,0 +1,83 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-1",
+        "badge-1",
+        "text-1",
+        "text-2",
+        "alert-1",
+        "separator-1",
+        "text-3",
+        "text-4"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 Whale alert: USDC → ETH $2,098.19",
+        "level": "h2"
+      }
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "outline"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25123399"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x430fcd94c20c75c18b445384b8427389b4bcfb9d0478724f0e816c216d2863e1"
+      }
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "type": "success"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreianqsir4jg5cqbj66qoyt3krgkstt5pb335wnw2xjuxjm6skwrqau"
+      }
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      }
+    }
+  }
+}
