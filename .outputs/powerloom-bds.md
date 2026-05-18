@@ -1,21 +1,12 @@
-🐳 4 whale alerts — epoch 25124577
+## Summary
 
-1. 0.068 WBTC → 2.47 ETH — $5,227
-   Pool: 0x4585FE77225b41b697C938B018E2Ac67Ac5a20c0
-   Tx: 0x744fc7c55eced1cf10d0cc6754ec66782c723dcd4e3b9aef307ba0732e1bdb8c
+**Powerloom BDS (whale-radar) — Epoch 25124919**
 
-2. 18,820 USDC → 8.89 ETH — $18,819
-   Pool: 0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36
-   Tx: 0xa328cd08d038e817a29dd441419af1db18f3c07dc251f644940ad32a91b06f9d
-
-3. 8,364 USDC → 3.95 ETH — $8,364
-   Pool: 0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36
-   Tx: 0xcfcfb8f65e89b24c5cc8e74815332e86159eaff2408156fe01a8a8dd3de01b91
-
-4. 4,830 USDC → 2.28 ETH — $4,836
-   Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-   Tx: 0x605ab1c8a5ad44e201ef5c6ff062d3a4636eb58c33a56573f8df954680a9682e
-
-✅ Verified on-chain
-   cid: bafkreidktnyhgtk5io27z4hxkzh7agekt6hhjjzys6gareygqtys5jp5fm
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+- **Trades scanned:** 3 across 3 Uniswap V3 pools
+- **Whale alerts sent:** 0 — all trades below $1K threshold
+  - $200.60 — pool 0x4674... (token → ETH)
+  - $175.48 — pool 0x2A4d... (ETH → token)
+  - $157.75 — pool 0x62e0... (token → token)
+- **State updated:** `lastStreamEpoch` advanced to 25124919, 3 new fingerprints recorded
+- **CID:** `bafkreigzxz7tjdoj25ud5y2xebh4xyccsq5rkjjttmd6guzfqitfkgfmiy`
+- **Files modified:** `memory/powerloom-bds-state.json`, `memory/logs/2026-05-18.md`
