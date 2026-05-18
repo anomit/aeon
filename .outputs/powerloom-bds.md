@@ -1,12 +1,19 @@
-🐋 6 whale trades detected — epoch 25122825
+🐋 Epoch 25122926 — 9 whale alerts across 6 pools
 
-• USDC → WETH | $98,699 | pool 0x88e6...5640 | tx 0xf10b...c4af
-• WETH → USDC | $11,007 | pool 0x11b8...97F6 | tx 0xd6f5...967b
-• WETH → USDC | $6,172 | pool 0xc7bB...0e9b | tx 0x4071...e58c
-• USDC → WETH | $5,504 | pool 0xE055...939F | tx 0x2c53...1316
-• Trade | $5,049 | pool 0x5653...83b2 | tx 0x64e9...cdf0
-• Trade | $1,204 | pool 0x9a77...7D16 | tx 0x2279...0325
+Top trades:
+• $30,222 USDC→WETH (0x88e6, tx 0x5549e0)
+• $12,566 USDC→WETH (0x11b8, tx 0x99a22d)
+• $11,988 WETH→USDC (0x11b8, tx 0x859700)
+• $8,412 USDC→WETH (0xE055, tx 0x06e3ae)
+• $5,347 USDC→WETH (0x11b8, tx 0xfabd3d)
+• $5,224 USDT→WETH (0xc7bB, tx 0x28d546)
+• $1,983 USDT→WETH (0xc7bB, tx 0x458ab3)
+• $1,344 multi-pool swap (0x371A+0xc7bB, tx 0x8d447d)
+• $1,036 token swap (0x371A, tx 0xfeb146)
+
+Pattern: 0x51C7...2a7F accumulated ~$56.6K WETH across 4 UniV3 pools. 0xBdb3... bought another $5.2K WETH. Net buying pressure — ~$67K WETH bought vs $12K sold.
 
 ✅ Verified on-chain
-cid: bafkreifganoznt5kce4h6vbqh6bhh3j26324kav6fq4iqr76ridisp7b5m
-project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+   cid: bafkreicxxl523cymhuuwoj3ebr25aiq3bdn37xfohtyvxerf4morngqpyq
+   epoch: 25122926
+   project: allTradesSnapshot:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
