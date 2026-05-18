@@ -18,12 +18,6 @@ fi
 # Create cache directory
 mkdir -p .bds-cache
 
-# Install bds-agent if not present
-if ! command -v bds-agent &> /dev/null; then
-    echo "Installing bds-agent from PyPI..."
-    pip install bds-agent
-fi
-
 # Read config to determine what to fetch
 CONFIG_FILE="memory/powerloom-bds.yml"
 if [ ! -f "$CONFIG_FILE" ]; then
@@ -56,19 +50,13 @@ BDS_BASE_URL="${BDS_BASE_URL:-https://bds.powerloom.io/api}"
 
 # Fetch latest all-trades snapshot (covers all pools)
 echo "Fetching latest trades snapshot from BDS..."
-EPOCH_PARAM=""
-if [ -f ".bds-cache/last_epoch.txt" ]; then
-    LAST_EPOCH=$(cat .bds-cache/last_epoch.txt)
-    EPOCH_PARAM="?from_epoch=$((LAST_EPOCH + 1))"
-    echo "Resuming from epoch $((LAST_EPOCH + 1))"
-fi
 
 # Use curl to fetch the snapshot
 # Response includes X-BDS-Credit-Balance header
 curl -s -D .bds-cache/headers.txt \
     -H "Authorization: Bearer $BDS_API_KEY" \
     -H "Accept: application/json" \
-    "${BDS_BASE_URL}/mpp/snapshot/allTrades/latest${EPOCH_PARAM}" \
+    "${BDS_BASE_URL}/mpp/snapshot/allTrades/latest" \
     -o .bds-cache/latest.json 2>&1 || true
 
 # Check response
