@@ -1,0 +1,145 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Radar — Epoch 25124101",
+        "description": "22 trades above $1K detected. Highlights:"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "separator-1",
+        "text-7",
+        "badge-1"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "• $4.86M liquidity reposition in USDC/WETH 0.3% pool (0xE0554a) — Mint + Burn pair via 0x1f2F10...387. Follow-up swaps of $86.5K and $80K in same block.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "• $96.7K swap in USDC/WETH 0.05% (0x88e6A0) — bought ~46 WETH. Tx: ",
+        "variant": "body"
+      },
+      "children": [
+        "link-1"
+      ]
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "0x42da71",
+        "href": "https://etherscan.io/tx/0x42da71"
+      },
+      "children": []
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "• $37.6K swap in pool 0x4585FE — Tx: ",
+        "variant": "body"
+      },
+      "children": [
+        "link-2"
+      ]
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "0x1fda69",
+        "href": "https://etherscan.io/tx/0x1fda69"
+      },
+      "children": []
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "• $25K swap in WETH/WBTC (0x109830) — via 1inch router. Tx: ",
+        "variant": "body"
+      },
+      "children": [
+        "link-3"
+      ]
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "0x4eb32d",
+        "href": "https://etherscan.io/tx/0x4eb32d"
+      },
+      "children": []
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "• $10.4K swap in USDC/WETH 0.05% — via 1inch. Tx: ",
+        "variant": "body"
+      },
+      "children": [
+        "link-4"
+      ]
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "0x4eb32d",
+        "href": "https://etherscan.io/tx/0x4eb32d"
+      },
+      "children": []
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "• 17 additional swaps $1K–$8.8K across USDC/WETH, USDT/USDC, and WETH/USDT pools.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-7": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25124101 | Verified on-chain via Powerloom BDS consensus",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Epoch 25124101",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
