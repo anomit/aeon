@@ -18,6 +18,12 @@ fi
 # Create cache directory
 mkdir -p .bds-cache
 
+# Install bds-agent if not present
+if ! command -v bds-agent &> /dev/null; then
+    echo "Installing bds-agent from PyPI..."
+    pip install bds-agent
+fi
+
 # Read config to determine what to fetch
 CONFIG_FILE="memory/powerloom-bds.yml"
 if [ ! -f "$CONFIG_FILE" ]; then
@@ -45,58 +51,54 @@ fi
 MODE=$(grep -E '^mode:' "$CONFIG_FILE" | awk '{print $2}' || echo "whale-radar")
 echo "Mode: $MODE"
 
-# BDS base URL
-BDS_BASE_URL="${BDS_BASE_URL:-https://bds.powerloom.io/api}"
+# Use bds-agent to fetch latest all-trades snapshot
+# bds-agent handles the API endpoint correctly
+echo "Fetching latest trades snapshot using bds-agent..."
 
-# Fetch latest all-trades snapshot (covers all pools)
-echo "Fetching latest trades snapshot from BDS..."
+export BDS_BASE_URL="${BDS_BASE_URL:-https://bds.powerloom.io/api}"
 
-# Use curl to fetch the snapshot
-# Response includes X-BDS-Credit-Balance header
-curl -s -D .bds-cache/headers.txt \
-    -H "Authorization: Bearer $BDS_API_KEY" \
-    -H "Accept: application/json" \
-    "${BDS_BASE_URL}/mpp/snapshot/allTrades/latest" \
-    -o .bds-cache/latest.json 2>&1 || true
-
-# Check response
-if [ ! -s .bds-cache/latest.json ]; then
-    echo "ERROR: Empty response from BDS API"
-    exit 1
-fi
-
-# Check for errors in response
-if grep -q '"error"' .bds-cache/latest.json 2>/dev/null; then
-    echo "ERROR: BDS API returned error:"
-    cat .bds-cache/latest.json
-    exit 1
-fi
-
-# Extract epoch from response for next run
-EPOCH=$(python3 -c "
+# Fetch using bds-agent client - it knows the correct endpoints
+python3 << 'PYTHON'
+import os
 import json
-with open('.bds-cache/latest.json') as f:
-    data = json.load(f)
-    if 'epoch' in data:
-        print(data['epoch'])
-    elif 'verification' in data and 'epoch' in data.get('verification', {}):
-        print(data['verification']['epoch'])
-    else:
-        print('unknown')
-" 2>/dev/null || echo "unknown")
+from bds_agent.client import fetch
 
-if [ "$EPOCH" != "unknown" ]; then
-    echo "$EPOCH" > .bds-cache/last_epoch.txt
-    echo "Cached epoch: $EPOCH"
-fi
+base_url = os.environ.get("BDS_BASE_URL", "https://bds.powerloom.io/api")
+api_key = os.environ.get("BDS_API_KEY")
 
-# Log credit balance if available
-if [ -f ".bds-cache/headers.txt" ]; then
-    CREDITS=$(grep -i "X-BDS-Credit-Balance" .bds-cache/headers.txt | awk '{print $2}' | tr -d '\r\n')
-    if [ -n "$CREDITS" ]; then
-        echo "BDS Credit Balance: $CREDITS"
-    fi
-fi
+try:
+    # Fetch latest allTrades snapshot (no epoch = latest)
+    result = fetch(
+        base_url=base_url,
+        endpoint="/mpp/snapshot/allTrades",
+        api_key=api_key
+    )
+    
+    # Write to cache
+    with open(".bds-cache/latest.json", "w") as f:
+        json.dump(result.data, f, indent=2)
+    
+    # Log credit balance if available
+    if result.credit_balance:
+        print(f"BDS Credit Balance: {result.credit_balance}")
+    
+    # Extract epoch for tracking
+    if hasattr(result, 'data') and isinstance(result.data, dict):
+        epoch = result.data.get('epoch') or result.data.get('verification', {}).get('epoch')
+        if epoch:
+            with open(".bds-cache/last_epoch.txt", "w") as f:
+                f.write(str(epoch))
+            print(f"Cached epoch: {epoch}")
+    
+    print("Successfully cached BDS data")
+    
+except Exception as e:
+    print(f"ERROR: Failed to fetch BDS data: {e}")
+    # Write error to cache so skill knows what happened
+    with open(".bds-cache/latest.json", "w") as f:
+        json.dump({"error": str(e)}, f)
+    exit(1)
+PYTHON
 
 # For pulse mode, also fetch time series data
 if [ "$MODE" = "pulse" ]; then
