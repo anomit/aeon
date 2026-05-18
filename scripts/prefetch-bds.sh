@@ -34,7 +34,7 @@ if [ ! -f "$CONFIG_FILE" ]; then
 mode: whale-radar
 
 thresholds:
-  whale_usd: 25000
+  whale_usd: 10000
 
 pulse:
   window_minutes: 5
@@ -51,15 +51,27 @@ fi
 MODE=$(grep -E '^mode:' "$CONFIG_FILE" | awk '{print $2}' || echo "whale-radar")
 echo "Mode: $MODE"
 
-# Use bds-agent to fetch latest all-trades snapshot
-# bds-agent handles the API endpoint correctly
-echo "Fetching latest trades snapshot using bds-agent..."
+# Read last epoch from state file (for epoch cursor)
+STATE_FILE="memory/powerloom-bds-state.json"
+LAST_EPOCH=""
+if [ -f "$STATE_FILE" ]; then
+    LAST_EPOCH=$(python3 -c "import json; d=json.load(open('$STATE_FILE')); print(d.get('lastStreamEpoch', ''))" 2>/dev/null || echo "")
+fi
+
+if [ -n "$LAST_EPOCH" ] && [ "$LAST_EPOCH" != "null" ] && [ "$LAST_EPOCH" != "None" ]; then
+    echo "Resuming from epoch: $LAST_EPOCH"
+    FROM_EPOCH=$((LAST_EPOCH + 1))
+    echo "Fetching from epoch: $FROM_EPOCH"
+else
+    echo "No previous epoch found, fetching latest"
+    FROM_EPOCH=""
+fi
 
 export BDS_BASE_URL="${BDS_BASE_URL:-https://bds.powerloom.io/api}"
 
-# Fetch using bds-agent client - it knows the correct endpoints
-# NOTE: fetch() is async, must use asyncio.run()
-python3 << 'PYTHON'
+# bds_agent.client.fetch is async — must use asyncio.run()
+# Pass from_epoch if we have a cursor
+python3 << PYTHON
 import os
 import json
 import asyncio
@@ -68,62 +80,53 @@ from bds_agent.client import fetch
 async def main():
     base_url = os.environ.get("BDS_BASE_URL", "https://bds.powerloom.io/api")
     api_key = os.environ.get("BDS_API_KEY")
+    from_epoch = os.environ.get("FROM_EPOCH", "")
     
-    try:
-        # Fetch latest allTrades snapshot (no epoch = latest)
-        # fetch() is async, must await it
-        result = await fetch(
-            base_url,
-            "/mpp/snapshot/allTrades",
-            api_key
-        )
-        
-        # Write to cache
-        with open(".bds-cache/latest.json", "w") as f:
-            json.dump(result.data, f, indent=2)
-        
-        # Log credit balance if available
-        if result.credit_balance:
-            print(f"BDS Credit Balance: {result.credit_balance}")
-        
-        # Extract epoch for tracking
-        if hasattr(result, 'data') and isinstance(result.data, dict):
-            epoch = result.data.get('epoch') or result.data.get('verification', {}).get('epoch')
-            if epoch:
-                with open(".bds-cache/last_epoch.txt", "w") as f:
-                    f.write(str(epoch))
-                print(f"Cached epoch: {epoch}")
-        
-        print("Successfully cached BDS data")
-        
-    except Exception as e:
-        print(f"ERROR: Failed to fetch BDS data: {e}")
-        # Write error to cache so skill knows what happened
-        with open(".bds-cache/latest.json", "w") as f:
-            json.dump({"error": str(e)}, f)
-        exit(1)
+    # Build params
+    params = {"max_events": 100}
+    if from_epoch:
+        params["from_epoch"] = int(from_epoch)
+    
+    # Fetch allTrades snapshot
+    # fetch(base_url, endpoint, api_key, **params)
+    result = await fetch(
+        base_url,
+        "/mpp/snapshot/allTrades",
+        api_key,
+        **params
+    )
 
-asyncio.run(main())
+    # Write to cache
+    with open(".bds-cache/latest.json", "w") as f:
+        json.dump(result.data, f, indent=2)
+
+    # Log credit balance if available
+    if result.credit_balance:
+        print(f"BDS Credit Balance: {result.credit_balance}")
+
+    # Extract epoch range for tracking
+    if isinstance(result.data, dict):
+        epoch_data = result.data.get('epoch', {})
+        epoch_start = epoch_data.get('begin')
+        epoch_end = epoch_data.get('end')
+        if epoch_end:
+            with open(".bds-cache/epoch_range.txt", "w") as f:
+                f.write(f"{epoch_start or 0}\n{epoch_end}\n")
+            print(f"Epoch range: {epoch_start or '?'} - {epoch_end}")
+
+    print("Successfully cached BDS data")
+
+try:
+    asyncio.run(main())
+except Exception as e:
+    print(f"ERROR: Failed to fetch BDS data: {e}")
+    with open(".bds-cache/latest.json", "w") as f:
+        json.dump({"error": str(e)}, f)
+    exit(1)
 PYTHON
 
-# For pulse mode, also fetch time series data
-if [ "$MODE" = "pulse" ]; then
-    echo "Fetching time series data for pulse analysis..."
-    curl -s -H "Authorization: Bearer $BDS_API_KEY" \
-        "${BDS_BASE_URL}/mpp/timeSeries/ethPrice?window=1h" \
-        -o .bds-cache/timeseries.json 2>/dev/null || true
-fi
-
-# For defi-analyst mode, fetch additional context
-if [ "$MODE" = "defi-analyst" ]; then
-    echo "Fetching additional context for DeFi analysis..."
-    curl -s -H "Authorization: Bearer $BDS_API_KEY" \
-        "${BDS_BASE_URL}/mpp/dailyActiveTokens" \
-        -o .bds-cache/active-tokens.json 2>/dev/null || true
-    curl -s -H "Authorization: Bearer $BDS_API_KEY" \
-        "${BDS_BASE_URL}/mpp/dailyActivePools" \
-        -o .bds-cache/active-pools.json 2>/dev/null || true
-fi
+# Export FROM_EPOCH for the Python block
+export FROM_EPOCH
 
 echo "=== Pre-fetch complete ==="
 echo "Cached data in .bds-cache/"
