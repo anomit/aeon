@@ -1,0 +1,72 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_text",
+        "details_grid",
+        "verification"
+      ]
+    },
+    "alert_text": {
+      "type": "Text",
+      "props": {
+        "text": "🐳 Whale alert: Swap ~25,023 → 25,022 tokens ($25,025) — stablecoin pair on UniswapV3",
+        "variant": "lead"
+      }
+    },
+    "details_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "pool_text",
+        "epoch_text",
+        "tx_text"
+      ]
+    },
+    "pool_text": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x970A7749EcAA4394C8B2Bf5F2471F41FD6b79288"
+      }
+    },
+    "epoch_text": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25122449"
+      }
+    },
+    "tx_text": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xf04d7e49e0716ded25527409f3a693375ab811bd74f75d76df92979873d22115"
+      }
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "message": "cid: bafkreienrfqvv7upztv3unpmek5i2eq6ar7pz2vklpiajn3cbopgj3qr54\nproject: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "type": "success"
+      }
+    }
+  }
+}
