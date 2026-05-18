@@ -1,15 +1,14 @@
-3 whale alerts detected (epoch 25123698)
+🐋 3 whale alerts — Epoch 25123799
 
-WHALE: 503.48 → 2.25 ETH | $4,751
-Pool: 0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83
-Tx: 0x6e9c8cc7c4abf0ee7dc7692d1f4744499ea908cd2706f74cdf1aae5131f8b01a
+1) $797,846 swap — pool 0xbAFeAd7c60Ea473758ED6c6021505E8BBd7e8E5d (~798K tokens each direction, near 1:1 pair)
+   Tx: 0xcba76c008c2f72b8f0e835363823733e30d27672523d765d73d418b152952832
 
-WHALE: 1.48 ETH → 330.72 | $3,121
-Pool: 0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83
-Tx: 0x977a62a1eb23beb6c43b3fe251a42455166918faf17f72e6c72fd34790e6fb81
+2) $8,193 swap — pool 0xABfCA96716cf2911bBB50A4CDBcBAffA2ef8EcDa
+   Tx: 0x42549f0d569316130527c7052803bea5e51ca441453f7e95b4f68a29fb9ad644
 
-WHALE: 97,000 → 100,594 | $96,910
-Pool: 0xABfCA96716cf2911bBB50A4CDBcBAffA2ef8EcDa
-Tx: 0x8e77ce09cc858d2af62aa54e262614a56de574a8b7c3cdd90039b4381ffaf486
+3) $1,369 swap — pool 0xE0554a476A092703abdB3Ef35c80e0D76d32939F (→ 0.651 ETH)
+   Tx: 0x6edc492a91c1fe05a9bdf70da2cfd3cffa2176e78a9b87f5796d36f0436f6ef2
 
-Verified on-chain | CID: bafkreihbgqgnwxi4hawg2fc42hcnhmafcrdacz67rj4w7a4xpid4zc7pqa
+✅ Verified on-chain
+   cid: bafkreig3njhibmayenjwugwdphnhbbqezutvmxrerum2kf3mhy7uj7ueme
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
