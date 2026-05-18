@@ -1,0 +1,258 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Trades Alert",
+        "description": "Epoch 25122650"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "badge1",
+        "separator1",
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5",
+        "trade6",
+        "trade7",
+        "trade8",
+        "trade9",
+        "trade10",
+        "trade11",
+        "separator2",
+        "alert1"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Volume",
+        "value": "$355,783",
+        "delta": "+97%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "11 whale trades detected",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 **$355,783** — 167.72 ETH → USDC (0x88e6…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade1_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0xf5c84ddc…25122650",
+        "href": "https://etherscan.io/tx/0xf5c84ddc25122650"
+      },
+      "children": []
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 **$97,033** — 1.27 WBTC → USDC (0x5653…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade2_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0x47a998ec…25122650",
+        "href": "https://etherscan.io/tx/0x47a998ec25122650"
+      },
+      "children": []
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 **$40,866** — 19.26 ETH → USDT (0xc7bB…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade3_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0xdeb450af…25122650",
+        "href": "https://etherscan.io/tx/0xdeb450af25122650"
+      },
+      "children": []
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 **$31,780** — 15.00 ETH → USDT (0x11b8…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade4_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0xa3ae5705…25122650",
+        "href": "https://etherscan.io/tx/0xa3ae570525122650"
+      },
+      "children": []
+    },
+    "trade5": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 **$23,945** — 11.29 ETH → USDC (0xE055…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade5_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0xc16cc8da…25122650",
+        "href": "https://etherscan.io/tx/0xc16cc8da25122650"
+      },
+      "children": []
+    },
+    "trade6": {
+      "type": "Text",
+      "props": {
+        "text": "**$6,918** — 15,340 token0 → ETH (0xb191…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade6_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0xc2fa85fd…25122650",
+        "href": "https://etherscan.io/tx/0xc2fa85fd25122650"
+      },
+      "children": []
+    },
+    "trade7": {
+      "type": "Text",
+      "props": {
+        "text": "**$3,878** — 0.05 WBTC → USDC (0x9a77…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade7_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0xabf78830…25122650",
+        "href": "https://etherscan.io/tx/0xabf7883025122650"
+      },
+      "children": []
+    },
+    "trade8": {
+      "type": "Text",
+      "props": {
+        "text": "**$2,797** — 7,936 token0 → ETH (0xcFeC…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade8_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0xa3dc49b5…25122650",
+        "href": "https://etherscan.io/tx/0xa3dc49b525122650"
+      },
+      "children": []
+    },
+    "trade9": {
+      "type": "Text",
+      "props": {
+        "text": "**$2,537** — 1.20 ETH → USDC (0x88e6…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade9_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0x50ad07ef…25122650",
+        "href": "https://etherscan.io/tx/0x50ad07ef25122650"
+      },
+      "children": []
+    },
+    "trade10": {
+      "type": "Text",
+      "props": {
+        "text": "**$2,169** — 2,168 USDC → ETH (0x6059…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade10_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0xf75f00b8…25122650",
+        "href": "https://etherscan.io/tx/0xf75f00b825122650"
+      },
+      "children": []
+    },
+    "trade11": {
+      "type": "Text",
+      "props": {
+        "text": "**$2,119** — 2,120 USDT → ETH (0xc7bB…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade11_tx": {
+      "type": "Link",
+      "props": {
+        "label": "tx: 0xfafea800…25122650",
+        "href": "https://etherscan.io/tx/0xfafea80025122650"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "message": "cid: bafkreicec4tvlqvgfdb53bjuruaxcp4brbgsif67yc3ztd7kohujqbze4e\nepoch: 25122650\nproject: allTradesSnapshot:0x4198…mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
