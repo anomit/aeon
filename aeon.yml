@@ -48,7 +48,7 @@ skills:
   aixbt-pulse: { enabled: false, schedule: "0 9,21 * * *", model: "claude-sonnet-4-6" } # twice daily — AIXBT free grounding endpoint: cross-domain market pulse (crypto/macro/tradfi/geopolitics) with taxonomy refresh
 
   # --- Powerloom BDS (whale radar, token flow, pulse, defi analyst) ---
-  powerloom-bds: { enabled: false, schedule: "*/1 * * * *", model: "glm-5" } # every 1 minutes — verified on-chain whale alerts from Powerloom BDS
+  # Moved to enabled section below
 
   # --- Afternoon (2 PM UTC) ---
   article: { enabled: false, schedule: "0 14 * * *" }
@@ -162,7 +162,9 @@ skills:
   auto-workflow: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — var: URL to analyze
   onboard: { enabled: false, schedule: "workflow_dispatch", var: "" } # one-shot setup validator — checks secrets/workflows/memory writability and notifies a checklist with fix commands; pair with ./onboard CLI
 
-  powerloom-bds: { enabled: true, schedule: "*/5 * * * *" }
+  # --- Powerloom BDS (whale radar, token flow, pulse, defi analyst) ---
+  powerloom-bds: { enabled: true, schedule: "*/5 * * * *", model: "glm-5" } # every 5 min — verified on-chain whale alerts from Powerloom BDS
+
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 8,14,20 * * *" }
 
