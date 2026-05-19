@@ -1,0 +1,143 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Radar - Epoch 25130719"
+      },
+      "children": [
+        "stack-1",
+        "separator-1",
+        "heading-1",
+        "table-1",
+        "stat-1",
+        "separator-2",
+        "alert-1",
+        "badge-1",
+        "text-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-2"
+      ]
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "14 whale trades detected (>$1K). Top moves:",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Whale Trades",
+        "level": "h3"
+      }
+    },
+    "table-1": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Value",
+          "Amount",
+          "From/To",
+          "Wallet",
+          "Transaction"
+        ],
+        "rows": [
+          [
+            "1",
+            "$64.8K",
+            "30.55 ETH",
+            "ETH → USDC",
+            "0x88e6...5640",
+            "0x77de...4b12"
+          ],
+          [
+            "2",
+            "$56.0K",
+            "26.33 ETH",
+            "ETH → USDC",
+            "0x4e68...Fa36",
+            "0x26eb...43f7"
+          ],
+          [
+            "3",
+            "$12.5K",
+            "0.16 WETH",
+            "WETH → USDT",
+            "0x51c2...8e50",
+            "0x958c...47af"
+          ],
+          [
+            "4",
+            "$10.3K",
+            "4.87 ETH",
+            "ETH → USDC",
+            "0xc7bB...0e9b",
+            "0xe82a...94ce"
+          ],
+          [
+            "5",
+            "$9.2K",
+            "0.12 WETH",
+            "WETH → USDT",
+            "0x9Db9...425B",
+            "0x2746...89fb"
+          ]
+        ]
+      }
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Volume",
+        "value": "$188.4K",
+        "delta": "+$33.9K from 9 trades",
+        "trend": "up"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Verified on-chain",
+        "type": "success"
+      }
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Epoch: 25130719",
+        "variant": "secondary"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreidggrvlqnuonp4qwmlirxapq4egvzdkj3ysgum2z3kuirshq7vksi"
+      }
+    }
+  }
+}
