@@ -1,8 +1,12 @@
-🐳 Whale alert: WETH → USDC  $1,733.06
+🐋 Whale Radar — Epoch 25132228
 
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25131813
-Tx: 0x99dfce05acda04a374ea40a69547aae951772ca79a7a9f3e53841d65573b253c
-✅ Verified on-chain
-   cid: bafkreihsp2woraxgcbe2bdun3hmvbhx5suaqno66mc4hz6uxo7ve3rrctq
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+6 swaps above $1,000:
+
+$28,150 USDC → WETH | Pool 0x88e6…5640 | Tx 0xfdda…1889
+$4,755 | Pool 0xe8f7…e124 | Tx 0x5893…4e9a
+$2,546 | Pool 0x168E…FdE7 | Tx 0x2297…64a7
+$1,587 | Pool 0xE055…939F | Tx 0xf3a2…a44a
+$1,306 | Pool 0xf8e3…c533 | Tx 0x2c80…892f
+$1,126 | Pool 0x168E…FdE7 | Tx 0xb503…b931
+
+✅ Verified on-chain · cid: bafkrei…46hyq · epoch 25132228
