@@ -1,0 +1,109 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Radar — Epoch 25125625",
+        "description": null
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "stat2",
+        "stat3",
+        "separator1",
+        "verification1"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Pool 0x9C7e...FcBB",
+        "value": "$5,112",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "Pool 0x9B72...28EA",
+        "value": "$2,035",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "Pool 0x4e68...Fa36",
+        "value": "$1,268",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3",
+        "text4"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiawijficu6idijtyw7yryvjbjabs7tvubfzbf3ae7a6nmjiuyrpzq",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "epoch: 25125625",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
