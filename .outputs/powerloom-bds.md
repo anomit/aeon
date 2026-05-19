@@ -1,18 +1,7 @@
-🐋 Whale Radar — Epoch 25125625
+## Summary
 
-1️⃣ $5,112 | Pool 0x9C7e...FcBB
-   2.38 ETH → 101,527 Token0
-   Tx: 0xe2011...b52f
-
-2️⃣ $2,035 | Pool 0x9B72...28EA
-   2,038 Token0 → 28.74 ETH
-   Tx: 0x2fc37...b0ef
-
-3️⃣ $1,268 | Pool 0x4e68...Fa36
-   0.594 ETH → 1,264 Token1
-   Tx: 0x3450a...5d00
-
-✅ Verified on-chain
-   cid: bafkreiawijficu6idijtyw7yryvjbjabs7tvubfzbf3ae7a6nmjiuyrpzq
-   epoch: 25125625
-   project: allTradesSnapshot:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+- **Epoch**: 25126916 (advanced from 25125625, catching up 1291 epochs)
+- **Trades scanned**: 12 trades across 10 Uniswap V3 pools
+- **Whale alerts**: 0 — largest trade was $763.73 (USDC/ETH pool `0xE055...`), below the $1,000 threshold
+- **State updated**: `lastStreamEpoch` advanced to 25126916, all fingerprints preserved
+- **Log appended**: `memory/logs/2026-05-.md`
