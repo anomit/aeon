@@ -1,12 +1,21 @@
-🐋 Whale Radar — Epoch 25132228
+🐋 Whale Radar — 4 alerts | Epoch 25133196
 
-6 swaps above $1,000:
+1. LP Mint: 50.0M tokens → 0x7DA5…B96a
+   Value: $90,777
+   Tx: 0x7b16…573a
 
-$28,150 USDC → WETH | Pool 0x88e6…5640 | Tx 0xfdda…1889
-$4,755 | Pool 0xe8f7…e124 | Tx 0x5893…4e9a
-$2,546 | Pool 0x168E…FdE7 | Tx 0x2297…64a7
-$1,587 | Pool 0xE055…939F | Tx 0xf3a2…a44a
-$1,306 | Pool 0xf8e3…c533 | Tx 0x2c80…892f
-$1,126 | Pool 0x168E…FdE7 | Tx 0xb503…b931
+2. Swap: 876,664 token → 0.75 ETH
+   Pool: 0x7DA5…B96a | $1,592
+   Tx: 0xdd0f…f65c
 
-✅ Verified on-chain · cid: bafkrei…46hyq · epoch 25132228
+3. Swap: 2,421 USDC → 1.15 ETH
+   Pool: 0xE055…939F | $2,422
+   Tx: 0xe80e…5f8c
+
+4. Swap: 1,486 USDC → 0.705 ETH
+   Pool: 0xc7bB…0e9b | $1,485
+   Tx: 0xbb22…3362
+
+✅ Verified on-chain
+   cid: bafkreiezxszal23quaqk24lc2uveflpjtb4lwq5hropftyzx2iepif6diu
+   epoch: 25133196

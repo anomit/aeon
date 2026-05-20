@@ -1,0 +1,272 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Radar — 4 alerts | Epoch 25133196"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alerts_grid",
+        "verification"
+      ]
+    },
+    "alerts_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "md"
+      },
+      "children": [
+        "alert_1",
+        "alert_2",
+        "alert_3",
+        "alert_4"
+      ]
+    },
+    "alert_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_1_heading",
+        "alert_1_details"
+      ]
+    },
+    "alert_1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "LP Mint: 50.0M tokens → 0x7DA5…B96a",
+        "level": "h3"
+      }
+    },
+    "alert_1_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "alert_1_value",
+        "alert_1_tx"
+      ]
+    },
+    "alert_1_value": {
+      "type": "Stat",
+      "props": {
+        "label": "Value",
+        "value": "$90,777",
+        "trend": "neutral"
+      }
+    },
+    "alert_1_tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x7b16…573a",
+        "variant": "muted"
+      }
+    },
+    "alert_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_2_heading",
+        "alert_2_details"
+      ]
+    },
+    "alert_2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Swap: 876,664 token → 0.75 ETH",
+        "level": "h3"
+      }
+    },
+    "alert_2_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "alert_2_pool",
+        "alert_2_value",
+        "alert_2_tx"
+      ]
+    },
+    "alert_2_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x7DA5…B96a",
+        "variant": "muted"
+      }
+    },
+    "alert_2_value": {
+      "type": "Stat",
+      "props": {
+        "label": "Value",
+        "value": "$1,592",
+        "trend": "neutral"
+      }
+    },
+    "alert_2_tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xdd0f…f65c",
+        "variant": "muted"
+      }
+    },
+    "alert_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_3_heading",
+        "alert_3_details"
+      ]
+    },
+    "alert_3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Swap: 2,421 USDC → 1.15 ETH",
+        "level": "h3"
+      }
+    },
+    "alert_3_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "alert_3_pool",
+        "alert_3_value",
+        "alert_3_tx"
+      ]
+    },
+    "alert_3_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE055…939F",
+        "variant": "muted"
+      }
+    },
+    "alert_3_value": {
+      "type": "Stat",
+      "props": {
+        "label": "Value",
+        "value": "$2,422",
+        "trend": "neutral"
+      }
+    },
+    "alert_3_tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xe80e…5f8c",
+        "variant": "muted"
+      }
+    },
+    "alert_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_4_heading",
+        "alert_4_details"
+      ]
+    },
+    "alert_4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Swap: 1,486 USDC → 0.705 ETH",
+        "level": "h3"
+      }
+    },
+    "alert_4_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "alert_4_pool",
+        "alert_4_value",
+        "alert_4_tx"
+      ]
+    },
+    "alert_4_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bB…0e9b",
+        "variant": "muted"
+      }
+    },
+    "alert_4_value": {
+      "type": "Stat",
+      "props": {
+        "label": "Value",
+        "value": "$1,485",
+        "trend": "neutral"
+      }
+    },
+    "alert_4_tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xbb22…3362",
+        "variant": "muted"
+      }
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "verification_status",
+        "verification_cid",
+        "verification_epoch"
+      ]
+    },
+    "verification_status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "verification_cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiezxszal23quaqk24lc2uveflpjtb4lwq5hropftyzx2iepif6diu",
+        "variant": "muted"
+      }
+    },
+    "verification_epoch": {
+      "type": "Text",
+      "props": {
+        "text": "epoch: 25133196",
+        "variant": "muted"
+      }
+    }
+  }
+}
