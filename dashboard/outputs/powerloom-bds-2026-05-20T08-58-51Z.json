@@ -1,0 +1,133 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale alert: Liquidity removal",
+        "description": "~$1,000,112"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat",
+        "pool-info",
+        "transaction-info",
+        "separator",
+        "verification",
+        "project-info"
+      ]
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Amount",
+        "value": "~$1,000,112"
+      },
+      "children": []
+    },
+    "pool-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pool-text",
+        "amount0-text",
+        "amount1-text"
+      ]
+    },
+    "pool-text": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x5B70A1582135BD04e39CA94A6a56Fc3A828e3115",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "amount0-text": {
+      "type": "Text",
+      "props": {
+        "text": "Amount0: 438,281.75",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "amount1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Amount1: 545,104.89",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transaction-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "epoch-text",
+        "tx-link"
+      ]
+    },
+    "epoch-text": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25135379",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x350575ad2eb3752287f1639071b2125d355f8c1304af515d5b0e482dbf4eab75",
+        "href": "https://etherscan.io/tx/0x350575ad2eb3752287f1639071b2125d355f8c1304af515d5b0e482dbf4eab75"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "project-info": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiegmvkzn7dajxo57uxq7jyxtk55t7bgggscfi5jgikikymsrt5xii",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "project-link": {
+      "type": "Link",
+      "props": {
+        "label": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "href": "https://etherscan.io/address/0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641"
+      },
+      "children": []
+    }
+  }
+}
