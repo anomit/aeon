@@ -1,0 +1,80 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🦑 MEGA whale: 500M token LP position opened $11.5M"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "main_info",
+        "pool_address",
+        "epoch",
+        "transaction",
+        "tick_range",
+        "verification",
+        "details"
+      ]
+    },
+    "main_info": {
+      "type": "Heading",
+      "props": {
+        "text": "🦑 MEGA whale: 500M token LP position opened $11.5M",
+        "level": "h2"
+      }
+    },
+    "pool_address": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xBec7A56a027B964416bF808572DE6096Fa9AD26E",
+        "variant": "body"
+      }
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25139272",
+        "variant": "body"
+      }
+    },
+    "transaction": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x4027bf30c19e9e097457037fef893aafa1f23d132b66fb89f3be1b618f8f4eab",
+        "variant": "body"
+      }
+    },
+    "tick_range": {
+      "type": "Text",
+      "props": {
+        "text": "Tick range: -114360 to 887220",
+        "variant": "body"
+      }
+    },
+    "verification": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "details": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreie7ebc5tewikqyhjjt5iu3iellorvutgoicbdtl2c5o2z27haszvu\n   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "muted"
+      }
+    }
+  }
+}
