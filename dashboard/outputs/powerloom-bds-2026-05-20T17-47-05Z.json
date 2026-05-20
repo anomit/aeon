@@ -1,0 +1,113 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "4 whale trades - epoch 25138001 ($1K+ threshold)"
+      },
+      "children": [
+        "heading",
+        "stack",
+        "separator",
+        "summary",
+        "separator2",
+        "verification"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4 whale trades - epoch 25138001 ($1K+ threshold)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "$4,797 USDC -> WETH -> token (multi-hop via 2 pools) | tx: 0x2773bb...06a2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "$3,347 stablecoin swap (3,468 -> 3,351 tokens, pool 0xABfC...EcDa) | tx: 0x80d9...1e32",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "$2,800 WETH -> USDC (sold 1.31 ETH, pool 0xE055...939F) | tx: 0x62e1...23cd",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "$1,071 WETH -> token (0.5 ETH out, 1,072 tokens in, pool 0xc7bB...0e9b) | tx: 0x3147...c40d",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "13 trades scanned across 11 pools. 4 unique whale txs.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "Verified on-chain | ",
+        "variant": "body"
+      },
+      "children": [
+        "cid_link"
+      ]
+    },
+    "cid_link": {
+      "type": "Link",
+      "props": {
+        "label": "cid: bafkreiahpljlvy3fhe2dvqup7argqmbewwyrh3csj4fzft7hbmkdh27gwi",
+        "href": "ipfs://bafkreiahpljlvy3fhe2dvqup7argqmbewwyrh3csj4fzft7hbmkdh27gwi"
+      },
+      "children": []
+    }
+  }
+}
