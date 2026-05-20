@@ -1,0 +1,231 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 PowerLoom BDS Whale Trades",
+        "description": "5 whale trades detected — Epoch 25138674"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5",
+        "separator",
+        "verification",
+        "netflow"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "1. USDC → WETH | $14,898"
+      }
+    },
+    "trade1_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade1_pool",
+        "trade1_tx"
+      ]
+    },
+    "trade1_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640",
+        "variant": "caption"
+      }
+    },
+    "trade1_tx": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x4f108b04bfd01b41953c03a899013f66d1f4b7af88afc64eb8490f150c534ad1",
+        "href": "https://etherscan.io/tx/0x4f108b04bfd01b41953c03a899013f66d1f4b7af88afc64eb8490f150c534ad1"
+      }
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "2. USDC → WETH | $2,082"
+      }
+    },
+    "trade2_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade2_pool",
+        "trade2_tx"
+      ]
+    },
+    "trade2_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "caption"
+      }
+    },
+    "trade2_tx": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x404098a9297096bddf82316bb11312c9ea8485b2ed49ebf6e3fed9553bd9084a",
+        "href": "https://etherscan.io/tx/0x404098a9297096bddf82316bb11312c9ea8485b2ed49ebf6e3fed9553bd9084a"
+      }
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "3. WETH → USDC | $1,884"
+      }
+    },
+    "trade3_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade3_pool",
+        "trade3_tx"
+      ]
+    },
+    "trade3_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "caption"
+      }
+    },
+    "trade3_tx": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x345d00b8b5afc184733662d5b5ede09c4d513f67c0b28ee52eef00e6f97b89e5",
+        "href": "https://etherscan.io/tx/0x345d00b8b5afc184733662d5b5ede09c4d513f67c0b28ee52eef00e6f97b89e5"
+      }
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "4. USDC → WETH | $1,098"
+      }
+    },
+    "trade4_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade4_pool",
+        "trade4_tx"
+      ]
+    },
+    "trade4_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "caption"
+      }
+    },
+    "trade4_tx": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x5b2f8904c9a1710b4dbea2621c1561194f65f6f5ec427a86f137f9f09d87c1ad",
+        "href": "https://etherscan.io/tx/0x5b2f8904c9a1710b4dbea2621c1561194f65f6f5ec427a86f137f9f09d87c1ad"
+      }
+    },
+    "trade5": {
+      "type": "Text",
+      "props": {
+        "text": "5. USDC → WETH | $1,081"
+      }
+    },
+    "trade5_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade5_pool",
+        "trade5_tx"
+      ]
+    },
+    "trade5_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "caption"
+      }
+    },
+    "trade5_tx": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x3a4e8faa71f4bb125f94bfa008d0406c8713cdad9f8e1898b3540bc21a690f0a",
+        "href": "https://etherscan.io/tx/0x3a4e8faa71f4bb125f94bfa008d0406c8713cdad9f8e1898b3540bc21a690f0a"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain"
+      }
+    },
+    "verification_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "verification_cid",
+        "verification_project"
+      ]
+    },
+    "verification_cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreidvwv3oz4ahbls4d4fb3ewyk3ouflc22ibjx7wlzl4hlwoozqbgui",
+        "variant": "caption"
+      }
+    },
+    "verification_project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81...3f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      }
+    },
+    "netflow": {
+      "type": "Text",
+      "props": {
+        "text": "Net flow: 4 buys vs 1 sell — ETH accumulation pressure"
+      }
+    }
+  }
+}
