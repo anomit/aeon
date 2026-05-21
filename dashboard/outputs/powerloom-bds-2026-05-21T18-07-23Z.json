@@ -1,0 +1,88 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert",
+        "description": "Large ETH → USDC swap detected"
+      },
+      "children": [
+        "main-alert",
+        "details"
+      ]
+    },
+    "main-alert": {
+      "type": "Heading",
+      "props": {
+        "text": "🐳 Whale alert: 2.78 ETH → 5,958.97 USDC ($5,958)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verification",
+        "pool",
+        "epoch",
+        "tx",
+        "chain-id",
+        "project"
+      ]
+    },
+    "verification": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25145292",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x41ff4973a61419321afe58e695f4dfa72602bd0f6ed2fb867ce2198b41ef813a",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "chain-id": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibevmsazul4iusw6ptr655e4ti3bzqulqodrefqs2phpxij3yjlwa",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
