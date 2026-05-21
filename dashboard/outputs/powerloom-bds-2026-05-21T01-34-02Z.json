@@ -1,0 +1,128 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Alert",
+        "description": "Large token swap detected"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "separator1",
+        "stack2",
+        "separator2",
+        "stack3"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "0.019 token0 → 1,499.91 token1",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "$1,493.55"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text2",
+        "text3"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x56534741CD8B152df6d48AdF7ac51f75169A83b2"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25140333"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "link1",
+        "text4",
+        "text5"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0xd3afcbb4a183bdd4451505db47fb351cb5f7a865e2a662f2bc88db2b3abe9a0f",
+        "href": "https://etherscan.io/tx/0xd3afcbb4a183bdd4451505db47fb351cb5f7a865e2a662f2bc88db2b3abe9a0f"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreihuwsu6jojgmp7zyzmqcsec2gpbu7nbzhpu5o7nfgtzthaoh5qmku"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      },
+      "children": []
+    }
+  }
+}
