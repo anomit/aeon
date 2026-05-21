@@ -1,0 +1,175 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 PowerLoom Whale Alerts",
+        "description": "Large token sales detected on Uniswap V3"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator_1",
+        "alert_1",
+        "separator_2",
+        "alert_2"
+      ]
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_1": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 Whale Alert #1: SELL 2,004.78 tokens → 0.936 ETH ($2,004.21)",
+        "description": "Large sell transaction verified on-chain"
+      },
+      "children": [
+        "stack_alert_1"
+      ]
+    },
+    "stack_alert_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_pool_1",
+        "text_epoch_1",
+        "text_tx_1",
+        "text_status_1",
+        "text_cid_1",
+        "text_project_1"
+      ]
+    },
+    "text_pool_1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      }
+    },
+    "text_epoch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25145912",
+        "variant": "body"
+      }
+    },
+    "text_tx_1": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0xd885f03eed3e68dabe114c7ed3ad1f904632a6c864c4e5dd197ce1fb12a7bd4f",
+        "href": "https://etherscan.io/tx/0xd885f03eed3e68dabe114c7ed3ad1f904632a6c864c4e5dd197ce1fb12a7bd4f"
+      }
+    },
+    "text_status_1": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "body"
+      }
+    },
+    "text_cid_1": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreicgwsvqroyqhc5udui5x7tp35tuwcb2bdjrkug7cshifhigh6jw4m",
+        "variant": "caption"
+      }
+    },
+    "text_project_1": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_2": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 Whale Alert #2: SELL 1,071.58 tokens → 0.500 ETH ($1,071.28)",
+        "description": "Large sell transaction verified on-chain"
+      },
+      "children": [
+        "stack_alert_2"
+      ]
+    },
+    "stack_alert_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_pool_2",
+        "text_epoch_2",
+        "text_tx_2",
+        "text_status_2",
+        "text_cid_2",
+        "text_project_2"
+      ]
+    },
+    "text_pool_2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      }
+    },
+    "text_epoch_2": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25145912",
+        "variant": "body"
+      }
+    },
+    "text_tx_2": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0xc644f3edf24454ff4b2305db3c3c0471ba2bfc9c8c811b51092b307d3b760ca4",
+        "href": "https://etherscan.io/tx/0xc644f3edf24454ff4b2305db3c3c0471ba2bfc9c8c811b51092b307d3b760ca4"
+      }
+    },
+    "text_status_2": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "body"
+      }
+    },
+    "text_cid_2": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreicgwsvqroyqhc5udui5x7tp35tuwcb2bdjrkug7cshifhigh6jw4m",
+        "variant": "caption"
+      }
+    },
+    "text_project_2": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      }
+    }
+  }
+}
