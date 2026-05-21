@@ -1,0 +1,104 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Alert"
+      },
+      "children": [
+        "alert",
+        "separator1",
+        "pool",
+        "epoch",
+        "tx",
+        "separator2",
+        "verification"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Large whale detected",
+        "message": "1.19 ETH → 2,544.49 USDC $2,543.48",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25141638",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xf4748d40807a19521d13b084b4ef376c228c8abe3d84bc64ee534e231308884f",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verified",
+        "cid",
+        "project"
+      ]
+    },
+    "verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibv2oq2ovmgkkekl7agnn33mmtqlqqpxojvpkwf35dhpqzstu4ghi",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
