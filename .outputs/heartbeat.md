@@ -1,17 +1,10 @@
+HEARTBEAT_OK · STATUS_PAGE=OK
+
 ## Summary
 
-**HEARTBEAT_OK** · STATUS_PAGE=OK
-
-**P0 check:** No failed or stuck skills
-- powerloom-bds: 100% success (51 runs, 0 consecutive failures)
-- heartbeat: 100% success (9 runs, last run <36h ago)
-
-**P1 check:** No open PRs or urgent issues
-
-**P2 check:** No flagged memory items
-
-**P3 check:** All enabled skills running on schedule
-
-**Files modified:**
-- `docs/status.md` — regenerated with current fleet health
-- `memory/logs/2026-05-21.md` — logged heartbeat run
+- **Status page regenerated**: `docs/status.md` (🟢 OK)
+- **P0 check**: No failed or stuck skills. powerloom-bds at 100% success (53 runs), heartbeat healthy.
+- **P1 check**: No stalled PRs or urgent issues.
+- **P2 check**: No flagged memory items requiring follow-up.
+- **P3 check**: All enabled skills (powerloom-bds, heartbeat) running on schedule.
+- **Logged**: Added heartbeat entry to `memory/logs/2026-05-21.md`
