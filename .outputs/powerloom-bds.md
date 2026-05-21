@@ -1,8 +1,7 @@
-🐋 Whale alert: 1.19 ETH → 2,544.49 USDC  $2,543.48
+## Summary
 
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25141638
-Tx: 0xf4748d40807a19521d13b084b4ef376c228c8abe3d84bc64ee534e231308884f
-✅ Verified on-chain
-   cid: bafkreibv2oq2ovmgkkekl7agnn33mmtqlqqpxojvpkwf35dhpqzstu4ghi
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+- **Epoch**: 25141638 → 25142570 (cursor advanced)
+- **Trades scanned**: 4 across 3 pools (0x32D9, 0xc593, 0xf763)
+- **Whale alerts**: 0 — largest trade was $125.23 (threshold: $1,000)
+- **State updated**: `memory/powerloom-bds-state.json` — lastStreamEpoch set to 25142570
+- **Log appended**: `memory/logs/2026-05-21.md`
