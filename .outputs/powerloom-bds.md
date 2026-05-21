@@ -1,9 +1,8 @@
-## Summary
+🐋 Whale alert: WETH → USDC  $1,037
 
-**Powerloom BDS (whale-radar)** — epoch 25142570 → 25143599
-
-- **Trades scanned:** 1 (UniswapV3 Swap on pool `0xf7Fd...A2e1`, 1871 tokens → 67.4 ETH, $67.41 USD)
-- **Whale alerts:** 0 — the single trade was $67.41, well below the $1,000 threshold
-- **State updated:** `lastStreamEpoch` advanced to 25143599, cursor written to `memory/powerloom-bds-state.json`
-- **Log appended:** entry added to `memory/logs/2026-05-21.md`
-- Status: `POWERLOOM_BDS_OK`
+Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b
+Epoch: 25144657
+Tx: 0x346c82002370ffa97d6a5ef8d41c4017197d92265a078855efb8def82127a4e4
+✅ Verified on-chain
+   cid: bafkreib3qx2lh4aac5paujartrm6epv4ydvrzuqxlx5daj3tf46vbas77q
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
