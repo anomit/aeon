@@ -1,349 +1,328 @@
 {
   "epoch": {
-    "begin": 25147107,
-    "end": 25147107
+    "begin": 25148441,
+    "end": 25148441
   },
   "tradeData": {
-    "0x155738f4Da7d7b55876f5398bB0195d027400127": {
-      "address": "0x155738f4Da7d7b55876f5398bB0195d027400127",
+    "0x241fC1CdBF9f741933e5Fa515C5b884da93b81b6": {
+      "address": "0x241fC1CdBF9f741933e5Fa515C5b884da93b81b6",
       "epoch": {
-        "begin": 25147107,
-        "end": 25147107
+        "begin": 25148441,
+        "end": 25148441
       },
       "trades": [
         {
           "tradeType": "Swap",
           "log": {
-            "_score": 25147107000082,
-            "address": "0x155738f4da7d7b55876f5398bb0195d027400127",
-            "blockNumber": 25147107,
-            "data": "0xffffffffffffffffffffffffffffffffffffffffffffffefc2aec9634cd9ad990000000000000000000000000000000000000000000000000000000000de98ee0000000000000000000000000000000000000000000003b3b49dc6f00b713e1700000000000000000000000000000000000000000000000002e6ce3f3a2b8d68fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb528b",
+            "_score": 25148441000018,
+            "address": "0x241fc1cdbf9f741933e5fa515c5b884da93b81b6",
+            "blockNumber": 25148441,
+            "data": "0xffffffffffffffffffffffffffffffffffffffffffffff97784230bd036b8e90000000000000000000000000000000000000000000000000008cba3891d9a6c2000000000000000000000000000000000000000001279ac1069ddc74c54903e50000000000000000000000000000000000000000000004b2f6e870b2eb3de3c2fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe59ff",
             "eventName": "Swap",
             "filterName": "uniswapv3_pool_events",
-            "logIndex": 116,
+            "logIndex": 103,
+            "topics": [
+              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+              "0x00000000000000000000000088cc0800464fcef3e643a369e8a0532990995eee",
+              "0x00000000000000000000000088cc0800464fcef3e643a369e8a0532990995eee"
+            ],
+            "transactionHash": "0x5576787ef70204fc1bfa553d997355d8c6febd6b07efe5528cf3e75a928cb648",
+            "transactionIndex": 18
+          },
+          "data": {
+            "amount0": -1928242585518124331376,
+            "amount1": 39611248867387074,
+            "block_timestamp": 1779424499,
+            "calculated_eth_price": 2136.9540379701566,
+            "calculated_token0_amount": 1928.2425855181243,
+            "calculated_token1_amount": 0.039611248867387074,
+            "calculated_trade_amount_usd": 84.6474182162036,
+            "liquidity": 22190777970840561378242,
+            "recipient": "0x88CC0800464FCEF3E643A369e8a0532990995EEe",
+            "sender": "0x88CC0800464FCEF3E643A369e8a0532990995EEe",
+            "sqrtPriceX96": 357363921923063287500047333,
+            "tick": -108033
+          }
+        }
+      ],
+      "previousSnapshots": []
+    },
+    "0x2982d3295A0E1a99e6E88Ece0E93FfDfc5c761ae": {
+      "address": "0x2982d3295A0E1a99e6E88Ece0E93FfDfc5c761ae",
+      "epoch": {
+        "begin": 25148441,
+        "end": 25148441
+      },
+      "trades": [
+        {
+          "tradeType": "Swap",
+          "log": {
+            "_score": 25148441000044,
+            "address": "0x2982d3295a0e1a99e6e88ece0e93ffdfc5c761ae",
+            "blockNumber": 25148441,
+            "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffcd92ebf2000000000000000000000000000000000000000000000000018e572d23b998c70000000000000000000000000000000000002ce7fe03f9b742036190bf33e23600000000000000000000000000000000000000000000000000becc183e22174a000000000000000000000000000000000000000000000000000000000002da7c",
+            "eventName": "Swap",
+            "filterName": "uniswapv3_pool_events",
+            "logIndex": 192,
+            "topics": [
+              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+              "0x000000000000000000000000bdb3ba9ffe392549e1f8658dd2630c141fdf47b6",
+              "0x000000000000000000000000bdb3ba9ffe392549e1f8658dd2630c141fdf47b6"
+            ],
+            "transactionHash": "0x626ba5a7515d5acbdd4feaf5a938f25cc91347c181d1c9e08dc4fc83378dc1b8",
+            "transactionIndex": 44
+          },
+          "data": {
+            "amount0": -846009358,
+            "amount1": 112122892115351751,
+            "block_timestamp": 1779424499,
+            "calculated_eth_price": 2136.9540379701566,
+            "calculated_token0_amount": 0.846009358,
+            "calculated_token1_amount": 0.11212289211535176,
+            "calculated_trade_amount_usd": 239.60146705479318,
+            "liquidity": 53704650068727626,
+            "recipient": "0xBdb3ba9ffe392549E1f8658DD2630c141fDF47B6",
+            "sender": "0xBdb3ba9ffe392549E1f8658DD2630c141fDF47B6",
+            "sqrtPriceX96": 910806342099990406282067578184246,
+            "tick": 187004
+          }
+        }
+      ],
+      "previousSnapshots": []
+    },
+    "0x403b1b747b1EFB309070436c9aC99Bf476f299ea": {
+      "address": "0x403b1b747b1EFB309070436c9aC99Bf476f299ea",
+      "epoch": {
+        "begin": 25148441,
+        "end": 25148441
+      },
+      "trades": [
+        {
+          "tradeType": "Swap",
+          "log": {
+            "_score": 25148441000034,
+            "address": "0x403b1b747b1efb309070436c9ac99bf476f299ea",
+            "blockNumber": 25148441,
+            "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffff91e19cf2a700000000000000000000000000000000000000000000000000315092a0a0bc4000000000000000000000000000000000000000aa77857ebec8fafac89038cb1600000000000000000000000000000000000000000000000009dda3a61316505e0000000000000000000000000000000000000000000000000000000000019177",
+            "eventName": "Swap",
+            "filterName": "uniswapv3_pool_events",
+            "logIndex": 174,
+            "topics": [
+              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+              "0x0000000000000000000000007f54f05635d15cde17a49502fedb9d1803a3be8a",
+              "0x0000000000000000000000007f54f05635d15cde17a49502fedb9d1803a3be8a"
+            ],
+            "transactionHash": "0xd1f10b486557f863edf979e1dc7d048506802ef4cf8369c48e63ba4aba3171cc",
+            "transactionIndex": 34
+          },
+          "data": {
+            "amount0": -472956210521,
+            "amount1": 13880864549157952,
+            "block_timestamp": 1779424499,
+            "calculated_eth_price": 2136.9540379701566,
+            "calculated_token0_amount": 4729562.10521,
+            "calculated_token1_amount": 0.013880864549157951,
+            "calculated_trade_amount_usd": 29.662769548839883,
+            "liquidity": 710904249874534494,
+            "recipient": "0x7f54F05635d15Cde17A49502fEdB9D1803A3Be8A",
+            "sender": "0x7f54F05635d15Cde17A49502fEdB9D1803A3Be8A",
+            "sqrtPriceX96": 13505777729265226578632151452438,
+            "tick": 102775
+          }
+        }
+      ],
+      "previousSnapshots": []
+    },
+    "0x433a00819C771b33FA7223a5B3499b24FBCd1bBC": {
+      "address": "0x433a00819C771b33FA7223a5B3499b24FBCd1bBC",
+      "epoch": {
+        "begin": 25148441,
+        "end": 25148441
+      },
+      "trades": [
+        {
+          "tradeType": "Swap",
+          "log": {
+            "_score": 25148441000007,
+            "address": "0x433a00819c771b33fa7223a5b3499b24fbcd1bbc",
+            "blockNumber": 25148441,
+            "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff4d2fa1c200000000000000000000000000000000000000000000000005845513a667b7270000000000000000000000000000000000002cbde2564c766e4b678ba4f3951c0000000000000000000000000000000000000000000000000ddaf963f87ce38c000000000000000000000000000000000000000000000000000000000002da33",
+            "eventName": "Swap",
+            "filterName": "uniswapv3_pool_events",
+            "logIndex": 53,
+            "topics": [
+              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+              "0x000000000000000000000000e60fae7817aeee84f378cde1ea2587795694347e",
+              "0x00000000000000000000000067336cec42645f55059eff241cb02ea5cc52ff86"
+            ],
+            "transactionHash": "0x834c80243b90dc0b18cf0ace15f849f06a12538d12821bb4c82f628f5317e71f",
+            "transactionIndex": 7
+          },
+          "data": {
+            "amount0": -3000000062,
+            "amount1": 397536210000000807,
+            "block_timestamp": 1779424499,
+            "calculated_eth_price": 2136.9540379701566,
+            "calculated_token0_amount": 3.000000062,
+            "calculated_token1_amount": 0.39753621000000083,
+            "calculated_trade_amount_usd": 849.516609198854,
+            "liquidity": 998384475181998988,
+            "recipient": "0x67336Cec42645F55059EfF241Cb02eA5cC52fF86",
+            "sender": "0xe60fAE7817aEee84F378CDE1ea2587795694347e",
+            "sqrtPriceX96": 907470193216794085361107342693660,
+            "tick": 186931
+          }
+        }
+      ],
+      "previousSnapshots": []
+    },
+    "0x57aF956d3E2cCa3B86f3D8C6772C03ddca3eAacB": {
+      "address": "0x57aF956d3E2cCa3B86f3D8C6772C03ddca3eAacB",
+      "epoch": {
+        "begin": 25148441,
+        "end": 25148441
+      },
+      "trades": [
+        {
+          "tradeType": "Swap",
+          "log": {
+            "_score": 25148441000147,
+            "address": "0x57af956d3e2cca3b86f3d8c6772c03ddca3eaacb",
+            "blockNumber": 25148441,
+            "data": "0x000000000000000000000000000000000000000000000009e13a57d382f86100fffffffffffffffffffffffffffffffffffffffffffffffffda65fdc8ffc10e1000000000000000000000000000000000000000007d09f793a9bc2c844ceca2d000000000000000000000000000000000000000000000fac6297366c5855f1f4fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeef65",
+            "eventName": "Swap",
+            "filterName": "uniswapv3_pool_events",
+            "logIndex": 614,
             "topics": [
               "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
               "0x000000000000000000000000278d858f05b94576c1e6f73285886876ff6ef8d2",
               "0x000000000000000000000000278d858f05b94576c1e6f73285886876ff6ef8d2"
             ],
-            "transactionHash": "0xb8275fdbf29cb388a551c1f6541ed50c51cb9cf6b37cfd0e246b62f05d88b026",
-            "transactionIndex": 82
+            "transactionHash": "0x58a11f725dc5fc76f885d4d205b5bb2fc2f240489c3da42a7eafde5e6a6a8c63",
+            "transactionIndex": 147
           },
           "data": {
-            "amount0": -299566277935428424295,
-            "amount1": 14588142,
-            "block_timestamp": 1779408431,
-            "calculated_eth_price": 2131.3815467463123,
-            "calculated_token0_amount": 299.56627793542845,
-            "calculated_token1_amount": 14.588142,
-            "calculated_trade_amount_usd": 14.588142,
-            "liquidity": 209081203673501032,
+            "amount0": 182250077436516000000,
+            "amount1": -169342535066709791,
+            "block_timestamp": 1779424499,
+            "calculated_eth_price": 2136.9540379701566,
+            "calculated_token0_amount": 182.250077436516,
+            "calculated_token1_amount": 0.1693425350667098,
+            "calculated_trade_amount_usd": 362.9389110054269,
+            "liquidity": 74015441430498887725556,
             "recipient": "0x278d858f05b94576C1E6f73285886876ff6eF8D2",
             "sender": "0x278d858f05b94576C1E6f73285886876ff6eF8D2",
-            "sqrtPriceX96": 17482081415035402403351,
-            "tick": -306549
+            "sqrtPriceX96": 2418604731779250782850697773,
+            "tick": -69787
           }
         }
       ],
       "previousSnapshots": []
     },
-    "0x168E9B3c9ddFB013A4130276F9c500A3CE50FdE7": {
-      "address": "0x168E9B3c9ddFB013A4130276F9c500A3CE50FdE7",
+    "0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b": {
+      "address": "0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
       "epoch": {
-        "begin": 25147107,
-        "end": 25147107
+        "begin": 25148441,
+        "end": 25148441
       },
       "trades": [
         {
           "tradeType": "Swap",
           "log": {
-            "_score": 25147107000063,
-            "address": "0x168e9b3c9ddfb013a4130276f9c500a3ce50fde7",
-            "blockNumber": 25147107,
-            "data": "0x000000000000000000000000000000000000000000000000000000002be5a934fffffffffffffffffffffffffffffffffffffffffffffffffff8336725aeea5800000000000000000000000000000000000006c0c73ebd81bf047089f25bf9da000000000000000000000000000000000000000000000000000c31c863b7cc6a0000000000000000000000000000000000000000000000000000000000024676",
+            "_score": 25148441000018,
+            "address": "0xc7bbec68d12a0d1830360f8ec58fa599ba1b0e9b",
+            "blockNumber": 25148441,
+            "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffabbee0d6c451a8000000000000000000000000000000000000000000000000000000000305d5020000000000000000000000000000000000000000000307cb0d98d9c9abe78e52000000000000000000000000000000000000000000000000058a08157b2e42b2fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf425",
             "eventName": "Swap",
             "filterName": "uniswapv3_pool_events",
-            "logIndex": 80,
+            "logIndex": 96,
             "topics": [
               "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996",
-              "0x0000000000000000000000008f10b468b06c6fd214b65f87778827f7d113f996"
+              "0x00000000000000000000000088cc0800464fcef3e643a369e8a0532990995eee",
+              "0x00000000000000000000000088cc0800464fcef3e643a369e8a0532990995eee"
             ],
-            "transactionHash": "0xdeb0326c9bb6482518c2c8f5591a0aba7c943612281fdbb26355e8b4a395571d",
-            "transactionIndex": 63
+            "transactionHash": "0x5576787ef70204fc1bfa553d997355d8c6febd6b07efe5528cf3e75a928cb648",
+            "transactionIndex": 18
           },
           "data": {
-            "amount0": 736471348,
-            "amount1": -2195281706816936,
-            "block_timestamp": 1779408431,
-            "calculated_eth_price": 2131.3815467463123,
-            "calculated_token0_amount": 736.471348,
-            "calculated_token1_amount": 2195281.706816936,
-            "calculated_trade_amount_usd": 736.471348,
-            "liquidity": 3432436456737898,
-            "recipient": "0x8F10B468b06c6FD214B65F87778827F7D113f996",
-            "sender": "0x8F10B468b06c6FD214B65F87778827F7D113f996",
-            "sqrtPriceX96": 136967928189924698635299416963546,
-            "tick": 149110
+            "amount0": -23715500135263832,
+            "amount1": 50713858,
+            "block_timestamp": 1779424499,
+            "calculated_eth_price": 2136.9540379701566,
+            "calculated_token0_amount": 0.023715500135263832,
+            "calculated_token1_amount": 50.713858,
+            "calculated_trade_amount_usd": 50.71864994077992,
+            "liquidity": 399140405329674930,
+            "recipient": "0x88CC0800464FCEF3E643A369e8a0532990995EEe",
+            "sender": "0x88CC0800464FCEF3E643A369e8a0532990995EEe",
+            "sqrtPriceX96": 3663579693043317228408402,
+            "tick": -199643
           }
-        }
-      ],
-      "previousSnapshots": []
-    },
-    "0x3416cF6C708Da44DB2624D63ea0AAef7113527C6": {
-      "address": "0x3416cF6C708Da44DB2624D63ea0AAef7113527C6",
-      "epoch": {
-        "begin": 25147107,
-        "end": 25147107
-      },
-      "trades": [
+        },
         {
           "tradeType": "Swap",
           "log": {
-            "_score": 25147107000062,
-            "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
-            "blockNumber": 25147107,
-            "data": "0x00000000000000000000000000000000000000000000000000000000042c1d80fffffffffffffffffffffffffffffffffffffffffffffffffffffffffbd34fb300000000000000000000000000000000000000010014de3da8ba754f43fa74e70000000000000000000000000000000000000000000000000056869be6990ca70000000000000000000000000000000000000000000000000000000000000006",
+            "_score": 25148441000024,
+            "address": "0xc7bbec68d12a0d1830360f8ec58fa599ba1b0e9b",
+            "blockNumber": 25148441,
+            "data": "0x000000000000000000000000000000000000000000000000061b31ab352c0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffc7ee73720000000000000000000000000000000000000000000307c0ee52abc1ca970e1f000000000000000000000000000000000000000000000000058a08157b2e42b2fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf424",
             "eventName": "Swap",
             "filterName": "uniswapv3_pool_events",
-            "logIndex": 65,
+            "logIndex": 134,
             "topics": [
               "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x000000000000000000000000e592427a0aece92de3edee1f18e0157c05861564",
-              "0x000000000000000000000000e592427a0aece92de3edee1f18e0157c05861564"
+              "0x0000000000000000000000007f54f05635d15cde17a49502fedb9d1803a3be8a",
+              "0x0000000000000000000000007f54f05635d15cde17a49502fedb9d1803a3be8a"
             ],
-            "transactionHash": "0xded424b44187f84ade1f54ab4c2b35a454d9ff771e11533e3415ac28c0e386b3",
-            "transactionIndex": 62
+            "transactionHash": "0xf0350fef24751a94642727bf69132ec221d2fea8575f96036242b7ab990c46f8",
+            "transactionIndex": 24
           },
           "data": {
-            "amount0": 70000000,
-            "amount1": -70037581,
-            "block_timestamp": 1779408431,
-            "calculated_eth_price": 2131.3815467463123,
-            "calculated_token0_amount": 70.0,
-            "calculated_token1_amount": 70.037581,
-            "calculated_trade_amount_usd": 70.0,
-            "liquidity": 24354852143959207,
-            "recipient": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
-            "sender": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
-            "sqrtPriceX96": 79253390533425374861901591783,
-            "tick": 6
+            "amount0": 440000000000000000,
+            "amount1": -940674190,
+            "block_timestamp": 1779424499,
+            "calculated_eth_price": 2136.9540379701566,
+            "calculated_token0_amount": 0.44,
+            "calculated_token1_amount": 940.67419,
+            "calculated_trade_amount_usd": 940.7630740878892,
+            "liquidity": 399140405329674930,
+            "recipient": "0x7f54F05635d15Cde17A49502fEdB9D1803A3Be8A",
+            "sender": "0x7f54F05635d15Cde17A49502fEdB9D1803A3Be8A",
+            "sqrtPriceX96": 3663392972063305207582239,
+            "tick": -199644
           }
-        }
-      ],
-      "previousSnapshots": []
-    },
-    "0x54252A8124eF08a4dB8Edb530c0a153c33406c53": {
-      "address": "0x54252A8124eF08a4dB8Edb530c0a153c33406c53",
-      "epoch": {
-        "begin": 25147107,
-        "end": 25147107
-      },
-      "trades": [
+        },
         {
           "tradeType": "Swap",
           "log": {
-            "_score": 25147107000053,
-            "address": "0x54252a8124ef08a4db8edb530c0a153c33406c53",
-            "blockNumber": 25147107,
-            "data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffab3b10a000000000000000000000000000000000000000000000908474bc5904dc1600000000000000000000000000000000000014ec762a1d8d10dc933db95a40892a000000000000000000000000000000000000000000000000003b671154c36436500000000000000000000000000000000000000000000000000000000000528ad",
+            "_score": 25148441000055,
+            "address": "0xc7bbec68d12a0d1830360f8ec58fa599ba1b0e9b",
+            "blockNumber": 25148441,
+            "data": "0x00000000000000000000000000000000000000000000000000225ba1df288800fffffffffffffffffffffffffffffffffffffffffffffffffffffffffec489040000000000000000000000000000000000000000000307c0b55f1812a1264694000000000000000000000000000000000000000000000000058a08157b2e42b2fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf424",
             "eventName": "Swap",
             "filterName": "uniswapv3_pool_events",
-            "logIndex": 43,
+            "logIndex": 210,
             "topics": [
               "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45",
-              "0x000000000000000000000000f9b6a1eb0190bf76274b0876957ee9f4f508af41"
+              "0x000000000000000000000000bc1d9760bd6ca468ca9fb5ff2cfbeac35d86c973",
+              "0x00000000000000000000000078ace9b2ee9a31737fad748015266a59f32dc79a"
             ],
-            "transactionHash": "0xb185ab13c6dad23cf8e55d947c6e88431609d56412911638697133c5c378cbbb",
-            "transactionIndex": 53
+            "transactionHash": "0xdfa0f48cd86044bf1d1b3d354ef4fd1a1b5763ded46ff8ab2b40e1e4fb4de7be",
+            "transactionIndex": 55
           },
           "data": {
-            "amount0": -88887030,
-            "amount1": 42654009715440000000000,
-            "block_timestamp": 1779408431,
-            "calculated_eth_price": 2131.3815467463123,
-            "calculated_token0_amount": 88.88703,
-            "calculated_token1_amount": 42654.00971544,
-            "calculated_trade_amount_usd": 88.88703,
-            "liquidity": 267525564161999717,
-            "recipient": "0xF9b6a1EB0190bf76274B0876957Ee9F4f508Af41",
-            "sender": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
-            "sqrtPriceX96": 1738271164710887295422717185957073568,
-            "tick": 338093
-          }
-        }
-      ],
-      "previousSnapshots": []
-    },
-    "0x75A5A265D21bC89eC130F18EdDe2b49a4B200dac": {
-      "address": "0x75A5A265D21bC89eC130F18EdDe2b49a4B200dac",
-      "epoch": {
-        "begin": 25147107,
-        "end": 25147107
-      },
-      "trades": [
-        {
-          "tradeType": "Swap",
-          "log": {
-            "_score": 25147107000131,
-            "address": "0x75a5a265d21bc89ec130f18edde2b49a4b200dac",
-            "blockNumber": 25147107,
-            "data": "0x00000000000000000000000000000000000000000000000057984acb4476dc00fffffffffffffffffffffffffffffffffffffffffffffffffffffffffe4b22450000000000000000000000000000000000000000000023c8ce6a74b54d9332670000000000000000000000000000000000000000000000000300b21751497a3cfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc03ca",
-            "eventName": "Swap",
-            "filterName": "uniswapv3_pool_events",
-            "logIndex": 201,
-            "topics": [
-              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45",
-              "0x00000000000000000000000080f816ae67a0fdece85c918c653fa0e9d50de0fc"
-            ],
-            "transactionHash": "0xb71e6e39bcba9b8cec1cd5ea07c07338530c516c4baa4ba90b2f75cc9591810a",
-            "transactionIndex": 131
-          },
-          "data": {
-            "amount0": 6311877114647206912,
-            "amount1": -28630459,
-            "block_timestamp": 1779408431,
-            "calculated_eth_price": 2131.3815467463123,
-            "calculated_token0_amount": 6.311877114647207,
-            "calculated_token1_amount": 28.630459,
-            "calculated_trade_amount_usd": 28.64265479149655,
-            "liquidity": 216368595331545660,
-            "recipient": "0x80F816AE67A0FDece85c918c653fa0e9d50de0fC",
-            "sender": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
-            "sqrtPriceX96": 168987049544220876681831,
-            "tick": -261174
-          }
-        }
-      ],
-      "previousSnapshots": []
-    },
-    "0xCdb688457DBDc486d22f1D51C8c3C5AFD31d1967": {
-      "address": "0xCdb688457DBDc486d22f1D51C8c3C5AFD31d1967",
-      "epoch": {
-        "begin": 25147107,
-        "end": 25147107
-      },
-      "trades": [
-        {
-          "tradeType": "Swap",
-          "log": {
-            "_score": 25147107000062,
-            "address": "0xcdb688457dbdc486d22f1d51c8c3c5afd31d1967",
-            "blockNumber": 25147107,
-            "data": "0x00000000000000000000000000000000000000000000000000000000042cb04dffffffffffffffffffffffffffffffffffffffffffffa796b5d5d75afab6971d00000000000000000000000000000000048e312078c6dae22fddcfef992e128700000000000000000000000000000000000000000000000003357865de6bb6870000000000000000000000000000000000000000000000000000000000058a2f",
-            "eventName": "Swap",
-            "filterName": "uniswapv3_pool_events",
-            "logIndex": 68,
-            "topics": [
-              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x000000000000000000000000e592427a0aece92de3edee1f18e0157c05861564",
-              "0x000000000000000000000000c3e81499719bbd477030aec94f29002a7d9fbb84"
-            ],
-            "transactionHash": "0xded424b44187f84ade1f54ab4c2b35a454d9ff771e11533e3415ac28c0e386b3",
-            "transactionIndex": 62
-          },
-          "data": {
-            "amount0": 70037581,
-            "amount1": -417510502748865333651683,
-            "block_timestamp": 1779408431,
-            "calculated_eth_price": 2131.3815467463123,
-            "calculated_token0_amount": 70.037581,
-            "calculated_token1_amount": 417510.50274886534,
-            "calculated_trade_amount_usd": 71.29754165411366,
-            "liquidity": 231223334798079623,
-            "recipient": "0xC3e81499719BBd477030aEc94f29002A7d9fBb84",
-            "sender": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
-            "sqrtPriceX96": 6055214547801990542327807710780592775,
-            "tick": 363055
-          }
-        }
-      ],
-      "previousSnapshots": []
-    },
-    "0xD7F70A72e1693804a42Afd9D73c77b2f1F8f8F6d": {
-      "address": "0xD7F70A72e1693804a42Afd9D73c77b2f1F8f8F6d",
-      "epoch": {
-        "begin": 25147107,
-        "end": 25147107
-      },
-      "trades": [
-        {
-          "tradeType": "Swap",
-          "log": {
-            "_score": 25147107000065,
-            "address": "0xd7f70a72e1693804a42afd9d73c77b2f1f8f8f6d",
-            "blockNumber": 25147107,
-            "data": "0x0000000000000000000000000000000000000000000223f996bad1a86288d44bfffffffffffffffffffffffffffffffffffffffffffffffffff733a6240769370000000000000000000000000000000000000000000207a4c093e53d7c3e8a3b000000000000000000000000000000000000000000001d84ce9650c8b06d17abfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcd4d5",
-            "eventName": "Swap",
-            "filterName": "uniswapv3_pool_events",
-            "logIndex": 97,
-            "topics": [
-              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x0000000000000000000000004c82d1fbfe28c977cbb58d8c7ff8fcf9f70a2cca",
-              "0x0000000000000000000000004c82d1fbfe28c977cbb58d8c7ff8fcf9f70a2cca"
-            ],
-            "transactionHash": "0x88e84bc0e3444a218f6b95be027ae4bc92900dee1f0a8a301b6f233a36572b98",
-            "transactionIndex": 65
-          },
-          "data": {
-            "amount0": 2587738566628022105461835,
-            "amount1": -2476486128342729,
-            "block_timestamp": 1779408431,
-            "calculated_eth_price": 2131.3815467463123,
-            "calculated_token0_amount": 2587738.566628022,
-            "calculated_token1_amount": 0.002476486128342729,
-            "calculated_trade_amount_usd": 5.29118459029509,
-            "liquidity": 139398484395390575384491,
-            "recipient": "0x4C82D1fBFe28C977cBB58D8C7FF8FCF9F70a2cCA",
-            "sender": "0x4C82D1fBFe28C977cBB58D8C7FF8FCF9F70a2cCA",
-            "sqrtPriceX96": 2453947347324363331242555,
-            "tick": -207659
-          }
-        }
-      ],
-      "previousSnapshots": []
-    },
-    "0xe21a3956A7E73c607Bf1519CfC6154f46e622CF6": {
-      "address": "0xe21a3956A7E73c607Bf1519CfC6154f46e622CF6",
-      "epoch": {
-        "begin": 25147107,
-        "end": 25147107
-      },
-      "trades": [
-        {
-          "tradeType": "Mint",
-          "log": {
-            "_score": 25147107000059,
-            "address": "0xe21a3956a7e73c607bf1519cfc6154f46e622cf6",
-            "blockNumber": 25147107,
-            "data": "0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88000000000000000000000000000000000000000000000004a49133b258363579000000000000000000000000000000000000000000000019695b9c8ed015fc6100000000000000000000000000000000000000000000000002c68af0bb140000",
-            "eventName": "Mint",
-            "filterName": "uniswapv3_pool_events",
-            "logIndex": 57,
-            "topics": [
-              "0x7a53080ba414158be7ec69b987b5fb7d07dee101fe85488f0853ae16239d0bde",
-              "0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88",
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffec910",
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffedbd0"
-            ],
-            "transactionHash": "0x133d8fc08f701ca9039854d99c7ad4e5660b52314796539f447e323f0002f43a",
-            "transactionIndex": 59
-          },
-          "data": {
-            "amount": 85645292429758575993,
-            "amount0": 468760435576792284257,
-            "amount1": 200000000000000000,
-            "block_timestamp": 1779408431,
-            "calculated_eth_price": 2131.3815467463123,
-            "calculated_token0_amount": 468.7604355767923,
-            "calculated_token1_amount": 0.2,
-            "calculated_trade_amount_usd": 867.9143070143157,
-            "owner": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
-            "sender": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
-            "tickLower": -79600,
-            "tickUpper": -74800
+            "amount0": 9670900000000000,
+            "amount1": -20674300,
+            "block_timestamp": 1779424499,
+            "calculated_eth_price": 2136.9540379701566,
+            "calculated_token0_amount": 0.0096709,
+            "calculated_token1_amount": 20.6743,
+            "calculated_trade_amount_usd": 20.676253509852597,
+            "liquidity": 399140405329674930,
+            "recipient": "0x78Ace9b2EE9A31737Fad748015266A59F32dC79A",
+            "sender": "0xBc1D9760bd6ca468CA9fB5Ff2CFbEAC35d86c973",
+            "sqrtPriceX96": 3663388868277239219111572,
+            "tick": -199644
           }
         }
       ],
@@ -352,809 +331,809 @@
   },
   "previousSnapshots": [
     [
-      25146889,
-      "bafkreigdtg6quxbr2nmxvqgf5esrl76qio3ntu2gqvgesixq7kdjm3bhju"
+      25148231,
+      "bafkreiatbbdouahacwvcl2j63iibjdqw6mdxs427murt3kqb5qtjzppi3q"
     ],
     [
-      25146890,
-      "bafkreibxsqmbclo2qatmf6wmqpc5dtsvsc7rldtjg5dwmw6gnlj6rnc6hy"
+      25148232,
+      "bafkreide7fqjt3gpjcgszku2uvaq3xrrvskmstrbx2nks6zu2ri53bvqlq"
     ],
     [
-      25146891,
-      "bafkreia4muegil7neywvefizw5vaeozm6rsalnptvdbd4qkgish7gvl36q"
+      25148233,
+      "bafkreidupvcyjnapdljvjpfaosvouctnn66svmenj4ylkhs7l5mtjoy6zu"
     ],
     [
-      25146892,
-      "bafkreifvf3csevetwkpq4okn336lqfc2ksqmyuj6ovgjlt3qjv4acqq7eu"
+      25148234,
+      "bafkreie5rmnimi5wcrkzw6yxtpa3gaeiocifj45g5mfztevp7hihndzi4a"
     ],
     [
-      25146894,
-      "bafkreigcn4s4cpk2ajspwxfdh5zjlyerhgs45pvpuj3k2e5n5i24rsonee"
+      25148235,
+      "bafkreighyla7eulhnhizy7z3tfuvposjvwkjta2k2kiqhexop7x5fmwfvm"
     ],
     [
-      25146896,
-      "bafkreido6nspzqxg7ngkpucsdax3kc4c457u6u7dc6r5yxco2rcxabixnm"
+      25148236,
+      "bafkreigf44qxn3luao5vno34m6gncz6ovv5tw5ejinubwgb7q5mo367l2u"
     ],
     [
-      25146897,
-      "bafkreic7ymdg33ncrmac54gmno4hgqcdmv336x4kwpunrwaigkmq5unene"
+      25148237,
+      "bafkreic3zr2tw5ccjpgtx3wxamtcr3d5cwbtmh2q5id7srchyyhcpwzkpm"
     ],
     [
-      25146898,
-      "bafkreifxq247tlxhemqhjb5eph3lazjwhnajsybpends6sysxcjsd2rmya"
+      25148238,
+      "bafkreif367khunxii5234sksz2k7dqiq3x7roovxsuk7ch5cqz42x2uqr4"
     ],
     [
-      25146899,
-      "bafkreifmjkpmxwqzoa6el64be2pi6yutn4caxwgz5c54yuhegs7x5exnfa"
+      25148239,
+      "bafkreih3qpeasqsz26e4ydtn3ctp4kprjn26vs6ljkb5wvc6brsxdx43yi"
     ],
     [
-      25146900,
-      "bafkreibowvgewkdp6lpuad37o4vh36ty5huyot7nr2f4y453mpnhodhlgq"
+      25148240,
+      "bafkreigusptzjmbbzpgvjoa2iadoopz37oexv6wwiyzg7enurgp36nbuxi"
     ],
     [
-      25146904,
-      "bafkreiaatsuk23ku7oufzm7fib5rgbcyld3vtgxfdazzob7r36vgmxwr4q"
+      25148241,
+      "bafkreib56f6apmljphmlervfudvbmn4bzxmrziz2mio2eglvmqdywds24y"
     ],
     [
-      25146903,
-      "bafkreiacawetgmgh2expv5355nu3vyozl57spo5f626iidv2nxuunrurie"
+      25148242,
+      "bafkreibnsopwaeddxak4m4wen34csdurqrn2veflpczk4s7mpy2genm4wi"
     ],
     [
-      25146905,
-      "bafkreibefd4ma533edmwlxjqcpf2sj7ywp2r5kvpv3ams625glfuiftzpq"
+      25148243,
+      "bafkreiaw43yxxosqkgdpgf5s265v2p6ateirpi4lc5id5bsbueeacgzara"
     ],
     [
-      25146906,
-      "bafkreidudhoxumiwzwm372z4kng6m4pvfnajn2zul7zz2oj2hwdsbyo6gm"
+      25148244,
+      "bafkreid3h4smxdpjiwh4r2buicciqgrozpi4bgcdge3fvii6gmd7lluo3a"
     ],
     [
-      25146907,
-      "bafkreigx5v6shwgiuml7hkhck5eig2zq62fc6kknvzdxhr3dzyd3cptn3u"
+      25148245,
+      "bafkreifmkzj7kh7l37wsuhp6rurbnfcw4byg44sbbjsjfhrklwdsrss4h4"
     ],
     [
-      25146908,
-      "bafkreia4kayu7svze4gro76ovqm7ybtcpmhc2ybkoqqd6vvhs6cglxt3ee"
+      25148246,
+      "bafkreiftv3znqktzs3ioxtdbkk6lrw3suekxhbtmxmel4eno5myphey554"
     ],
     [
-      25146909,
-      "bafkreifba73i65gifhlsuyysjfwieikplwejlh3ln7tpsvqvrhl4rdksji"
+      25148247,
+      "bafkreidbmdvygjgjll7r4zo26krgoqic3ee5ldyqrgozmuenan4okbcfdm"
     ],
     [
-      25146910,
-      "bafkreigp3wmbtnnqgwniz5mzgqw7xcthyi4zpd6e774e3b33q653a2iifq"
+      25148248,
+      "bafkreigr76gxx7but3dj65ccurfxvruae6dlij4ee43tvldowllvedtn54"
     ],
     [
-      25146911,
-      "bafkreies4bbhnoauhzjjcnu2yjigmirniiv7fbunhbw3paaqi6cepa6u7u"
+      25148249,
+      "bafkreiahupw5euvubezgfbos5v6ga427k262vgf3ievpqbmhgdcbbgxmn4"
     ],
     [
-      25146913,
-      "bafkreigtk7d3rhu3akrm2rwlbqcicetqvouw4j2y5en2t2nmhrffl4vim4"
+      25148250,
+      "bafkreic34n6vh4majnsmgzzkj3w3dbep7c5rb363luihlbwhbxtqnewa2a"
     ],
     [
-      25146914,
-      "bafkreidiio6miayprlr4eik35mkpnrkpri4qbnix5snzr7a4ufktswiuuq"
+      25148251,
+      "bafkreihuriufrxdyam7pdvby6hvqosc24qa5n4oi3semibvst7cg4s5via"
     ],
     [
-      25146915,
-      "bafkreifdc6bqtjnojz6kun4ims5pzcqzbnfw6ktxe7rgzxjltvgdhnsdti"
+      25148252,
+      "bafkreiajdg7itbokple4izy7w2annerafrqjryv6qoe5btkt6antpvsxju"
     ],
     [
-      25146916,
-      "bafkreiaxrgcokkdxpuqs5qxewktefzghz5tqtjbcg5q4otxjok53o6luiq"
+      25148253,
+      "bafkreienkwfbwyrzeu3ffzn2dyu5qildlggcac54ksagldcdsolupwh3ya"
     ],
     [
-      25146917,
-      "bafkreiafhiiim33calzaul6euy2x7ggks5w2nvkhbel627qwlpn24g4hxm"
+      25148254,
+      "bafkreia3gx2tpji4oemke3n5lwk7pkrf2l3amn53izwddfluphodn6gknu"
     ],
     [
-      25146918,
-      "bafkreigqjps45t5xotmdhzqbzezajnm7znqejuiry3xhb2or4gkui3rejy"
+      25148255,
+      "bafkreiaozveswru6q6zowumj4me32vd765m7gu6jaympqxutmzf2lpcuym"
     ],
     [
-      25146919,
-      "bafkreib2vybu6onfmet7zgbsb73ve6iipo274zqtmzywauhjqvy4imptte"
+      25148256,
+      "bafkreicgblkfnuglbjwtpv64vnwquoyz34oqlefkybgqfziiqta3d5qbxi"
     ],
     [
-      25146920,
-      "bafkreieousm4r3ijddrkqzg5fjtbnauhoymwnwura6x2s3syxbp4mud32a"
+      25148257,
+      "bafkreihelrkxrscyysxpnspgazni5fo7iosnogeamyafeo6pf2gmql6ppq"
     ],
     [
-      25146921,
-      "bafkreihuugxmcwrusuy7awn4ylcjuxegigomou62s4bl3bbllxlayjbtmq"
+      25148258,
+      "bafkreigukzf5pssotbkd5p5jf4tp6iqcrugk2smrivjxo23su4onac67aa"
     ],
     [
-      25146922,
-      "bafkreihtzemopxwlpycpapwh3lyn7und3ojxk23emrerrfyh2kil7mspmq"
+      25148259,
+      "bafkreifkczqm2dasznes42fxfur4dhiujsc6n233frpbego442aop6knxq"
     ],
     [
-      25146923,
-      "bafkreiagnsza36imawdivum3wjo7r4vazw63xsqmyuztuh4fv2qhrwv4t4"
+      25148260,
+      "bafkreibi7fqjpwouij66islqzebdsovjzknz43dtmkxx4m7yjdthlhrm74"
     ],
     [
-      25146924,
-      "bafkreidndqdhyvvjbmekj7gcesmm2kortjzu2vblfajvrfxneehjpwvl7a"
+      25148262,
+      "bafkreidrsdojhlbdnkni42sp56b7ywecwaffu73bz7f3tpmggyd3rh436y"
     ],
     [
-      25146925,
-      "bafkreifczpk2tv3zlc4jxa4idvnmozsuqotmusdecla4tjta6ag2p4lwsq"
+      25148263,
+      "bafkreibzo2x5dvxybpxfjeqb5d63z5ryio6fu3pj76xfhmbrd53nx5xn7e"
     ],
     [
-      25146926,
-      "bafkreieevwzescgik5dpxgncivxapglotlguqjocayjugazjjrofkodb7i"
+      25148264,
+      "bafkreigtlededffm6gefhvbhwkiqlolhgqomll4w3kmavw5oa6rmpr6fjq"
     ],
     [
-      25146927,
-      "bafkreidcmya4uclg5ulg6ycpua6o4xwp5vlw6gtp4lrnf6zkqaknyorafa"
+      25148265,
+      "bafkreidsrztfqqn5nvashj3ewsaxj3mfnj63gxmmiwvrlq2o4e5z6awwfq"
     ],
     [
-      25146928,
-      "bafkreid7sjtwrllveckul54kzk3ykxax5lyylf2dpbklggnvinx2qjkjcq"
+      25148266,
+      "bafkreid6ez6niz52umclwzihfqmenpjabgq7dkzkkpjxb5egmdfvdp2x4m"
     ],
     [
-      25146929,
-      "bafkreidrxsy4s3tmj2og4cgyzuq5iy6fg56o32jkneno47kcjqdeo3xzeq"
+      25148267,
+      "bafkreigvt4tswztxfq33ak3nkumu3vi6ozjbjclpe7cg53dapebgol3ovi"
     ],
     [
-      25146930,
-      "bafkreib7eriumvwlqveh7z4imdu5xcni7bkm23o5phu5fjmkauedrqrxue"
+      25148268,
+      "bafkreifj3k3b5dmzwu722iuqwhcfw4evjbjpyenrhm6kgwifdruawv7peu"
     ],
     [
-      25146931,
-      "bafkreibojsbfxz5357zhugaw6h3tqhbitpzlklvzfcpvy2scnqvjfbmv5m"
+      25148269,
+      "bafkreib7bilu3ewf5adjv4w4wmnh6oz4bex6jyluedhvdmp367pw57n7xu"
     ],
     [
-      25146932,
-      "bafkreigvjvvpjouzerzxdinklfu22oxqc7fqxrn526tl3c76epoi7qwezq"
+      25148270,
+      "bafkreidnxiifvpx6ltkwccb3pyrar4yxpdvmvh7x7pmwqj4a6sdb5eeupi"
     ],
     [
-      25146933,
-      "bafkreie2pnrp4j6x2wxgydarxiwfqixzyx7ng6sg72cjrsaviixihgwnja"
+      25148271,
+      "bafkreielac5lpaobuy7neego6zzwohggn6cesitlq5c233rc27e7mdigtu"
     ],
     [
-      25146934,
-      "bafkreid6l6pw4xd7iko5syikgv4boy6zlo6iag5cuiamnko2sfv6yaoshe"
+      25148272,
+      "bafkreiafhuoqjtf2lgqtdz2u6n2fpcup7vmwgvo2jxiodgmmgeuujuvrra"
     ],
     [
-      25146935,
-      "bafkreieudy4r6wvamrotmdtxs6ezbtpselu7udtfdxhovumjrcztgrc3qi"
+      25148273,
+      "bafkreigpdzooypzlsrrqfh4ef2f2vospwmj7srbqkrqwflhwtzcmr43iai"
     ],
     [
-      25146936,
-      "bafkreialiq6wkcn7bddrvri4f5jub66qooiv4naqmrurywzb2vi7slvviq"
+      25148274,
+      "bafkreibrnu4gidbc4wu5gil2bjt5phxp73i2tc72o6b3jkmdsy3xl5bfoa"
     ],
     [
-      25146937,
-      "bafkreiamsf6izjs4fsqaejywporhzu6ro7iwvpamngwhy2ps2izcc3vm7m"
+      25148275,
+      "bafkreibephfml4satjhblrvzsjsekmqi5sl7go35l23iyvlo7oynnz36ry"
     ],
     [
-      25146939,
-      "bafkreihtk5hg6sf5j2weypf5fcfletfc355chnvb4y4ek5d6mbgxlg5zmu"
+      25148276,
+      "bafkreihhhabpj7pecn6n2qdncy74etsb45lu7xbll27aihlwltjsvnbed4"
     ],
     [
-      25146940,
-      "bafkreifu47ztr4yjtjj3zb5higt5gtgl5aiy7ecbcmtjeemtteyno5orbe"
+      25148277,
+      "bafkreicqruttpk7yiqxirqwpfl5qcuetechmmerrp7whkzyqt2p2nr75mi"
     ],
     [
-      25146941,
-      "bafkreiazbg3xyf7kklojz4bdp6o6wspq752oxemwtgfpypshtqskumxndq"
+      25148278,
+      "bafkreidd5fkvg5lirs4r7dbr6pm2uzca4b6dxtmwkq2lyrv33vv2ar3dmy"
     ],
     [
-      25146942,
-      "bafkreifcb3c2mzxacho3o2keuthay657s5wicp7t4zxod4pndwh32bli2a"
+      25148279,
+      "bafkreich3uja2arghligtxylrtaia3ep4cppw7h2kolxpb2qblvj3vflie"
     ],
     [
-      25146943,
-      "bafkreihclqtu4nwoglxs7m4fr2qp7kzetjn4fe5q4inbj4nq4ak7k5w35i"
+      25148280,
+      "bafkreichiwxeoxuddx4dmnsds4p7jz2mtvl5iz6x3y45ehxkzsqvaahsoe"
     ],
     [
-      25146944,
-      "bafkreibb5e3mdh4sazw2b7o32vap7j4ujhypsoz2wgqqk22yaufhbnvxhy"
+      25148283,
+      "bafkreibh266u32d3p55jl27shlum224v7rgwkilac6m37ymo7rqa2hejti"
     ],
     [
-      25146945,
-      "bafkreigih5qrnkw543avtoxdeyahnma4yyilcvwp4cuwd7l2e5k4akeue4"
+      25148282,
+      "bafkreiaa7pqz7657wq7keoynlhhypbe25oroxvqghpcu6cziunv32fifie"
     ],
     [
-      25146946,
-      "bafkreihvjhfkxtvi2b2y7i2wf6546cb7kefaonwpqmmigliianq7bgppae"
+      25148285,
+      "bafkreibkuqehjkproiimgmvc4xpofqpji6zwpqx6kfwdbk65yb62mnxnsy"
     ],
     [
-      25146947,
-      "bafkreibnxigurmfnnubi3m6rwl4ajyi65k7yneetd2pthvjckukbvd722y"
+      25148286,
+      "bafkreiapwir5fcivb44g4xeptd4nqzjoyk4krtqtmf6ofhm2u3z2xrj2ta"
     ],
     [
-      25146948,
-      "bafkreigxls2dgbyqx72o3dhwzgyl3kbsghhhslpryimrzu36hp4zpayomi"
+      25148287,
+      "bafkreidtdg6odqzq665vwvfr4dalikbjoc3adqfrk63rpzrt6esp4nwd4e"
     ],
     [
-      25146949,
-      "bafkreifok5f2ikpqgvkitqkmvfniq4qtuf6jx3g4chcjhj5nlkompldrkq"
+      25148288,
+      "bafkreign4vg2cih63hevqwyzkochvegtqrthfvdrgwowzfptyrlmt5rhm4"
     ],
     [
-      25146950,
-      "bafkreidv6v3sewoyst54ffumpzt6mr2c6k4q6a7ukw4brwh2aokqxaqvpy"
+      25148289,
+      "bafkreiab65vryysj2hb47stdwzip54zhtmrtqofld74as6u2yjh4eh27jm"
     ],
     [
-      25146951,
-      "bafkreifkmvpndvpbouzvdjixsdd3g656mm4tutp4qt6jfns4yf6zvjnoa4"
+      25148290,
+      "bafkreifzfcwxhmijs2s42yh62z4ik5c6mtfdn3hkvmdzblffk4ttwkfbqa"
     ],
     [
-      25146952,
-      "bafkreigk74la2feku5kzr2uwupin2twp4lmarrll4bg3wib2rp2duvlx2a"
+      25148291,
+      "bafkreidqbojhg76wsrh5cep4vk65mftlkxuliwnhtzav2gtormknpjkzre"
     ],
     [
-      25146953,
-      "bafkreialkfpeswmvtjttd6mrtqr7vco36yfvxd7ojhl2igtjb4jkwcnwmy"
+      25148292,
+      "bafkreid6gti7fzqhudcx7rfsswoiqhhlvzgx76coiei26yd2ygo2jclfpm"
     ],
     [
-      25146954,
-      "bafkreif7yx6iaeghi6lezimmcybnoyj5h2gby2fxbwmiggp7dq5bhpmdnm"
+      25148293,
+      "bafkreihlia25gyvor2uoyzn2bsn2qqximjvhzvhwhvowj3tbazjqerseoy"
     ],
     [
-      25146955,
-      "bafkreidiaz5gbuyaxwjuncar243zwbzmgnha3vpd6naybyqoyvgaglldry"
+      25148294,
+      "bafkreidddpwxflcj6mbojujzjfcia5kcph6od6k6ltvqfaxh6lr7asiz2u"
     ],
     [
-      25146956,
-      "bafkreibiesk3rnzgyqh5uzwsuhhglyfwohxlwj7omd45yqslsyhkge57lu"
+      25148295,
+      "bafkreiaanf6jtdu3jsdfmy4dgmww6bkpg4kxdbuobw3ig6xazwvbpr3gkq"
     ],
     [
-      25146957,
-      "bafkreidrrarf2cz67fcokf4vyw4jnn67wnyqchyriznj5xchcyzoef3nui"
+      25148296,
+      "bafkreiekjufdnyjpn3772japwkan4vcdlzsd7hzdzacmdxjennhutuj4wa"
     ],
     [
-      25146958,
-      "bafkreidx6uh6li7bewjfaykaeckebaxedudpnr6si3psjmdvqgpzkmeqza"
+      25148297,
+      "bafkreih4c6kkez4w2dvegtr7sh26yib6eqzlau2jwfk27fraeiqu6ic4ci"
     ],
     [
-      25146959,
-      "bafkreihsbze5zy3e3feh33prcrina7tgekudh5covjf3blm3ivcoqmfyfy"
+      25148298,
+      "bafkreifuqwuxvo6fdujeebjwgexggg65yllenbxo6ruiohuhk66va2qecy"
     ],
     [
-      25146960,
-      "bafkreihgq53g7xbbttdlfvx5bic3fertfskxvled4zvyfmnimkrn75s3lm"
+      25148299,
+      "bafkreid3q54zsizkm7waesged7gkqec5g7q3jc4mhdaes4udvghn3aag4q"
     ],
     [
-      25146961,
-      "bafkreiefwiafgrsvyolzmr6aciibslliymlujizr5pnlwqhbop52am2lw4"
+      25148300,
+      "bafkreiarkwndkl3qzu3vf4vtaztwlmoszh75rq7ntj3va62cy36rhgznem"
     ],
     [
-      25146963,
-      "bafkreiav524sn5lrjwmncnghhmjeepsqjgwf6mo6ejxyebzpclgm4bfwla"
+      25148301,
+      "bafkreiczkvh5pexvqryxxwfz667g7e3zgpjs3lbrtl2zoneeljntruby5q"
     ],
     [
-      25146964,
-      "bafkreiepwbhigmpk6dqvjojkta4cl5bq2dwlt3rdqo2j5oy35e2dzzcple"
+      25148302,
+      "bafkreifwcastcv54ka3t5rtadcsx3k562tyz5ntb55p7hum4ife4lef5cq"
     ],
     [
-      25146965,
-      "bafkreiajxiupb2kxxmevtcxdegm5fkrshk2iselx2loidqfyapx4zytoeu"
+      25148303,
+      "bafkreiatlrbx4kpvtpub7arllzkyepn2wbrd26pw33h2pliugzm64ja4be"
     ],
     [
-      25146966,
-      "bafkreia35kgweolh6p26klul4542sz6lo74nxvrucuep5o2cdibnk2stle"
+      25148304,
+      "bafkreib2csjrhlt6fncoktnhhmu5co6mevpgapsyjm46vqgbtp775c3idi"
     ],
     [
-      25146967,
-      "bafkreia7blosc3wnpu4mx5bsy5dzlyf66vk4kcy6slx36izeqpawhgl7wu"
+      25148305,
+      "bafkreidr7rhiw3qpxpcgq7id7g4qq32j35vt4wskywr4v3bb6zajzszila"
     ],
     [
-      25146968,
-      "bafkreiax45ws6o4q5kbigydvmb7xksctbxspludo2ptozuarv5drhyf5lu"
+      25148306,
+      "bafkreidswekozo45s7vz4bppb236dztjhniuzfiiwj3iao7pps4a2y4iji"
     ],
     [
-      25146971,
-      "bafkreigxkw3evj3p4cygf4f6y3byc6av4r4gbkm2n6wn3q6scwug6t5n34"
+      25148307,
+      "bafkreig6elj667if2je4jdihibmyro7v52h6cdkbqcf36nfhblyvk4uq44"
     ],
     [
-      25146972,
-      "bafkreicj6zvwgxrvkrcszh5u4ii2t5nnw7ds7ysyaelbaoaq3xj3bpafby"
+      25148308,
+      "bafkreigxj7tbuefrgncq4yho4wxa6u7srejgbkhidkrudw3rmjcaywvbmu"
     ],
     [
-      25146973,
-      "bafkreiayqqjpf52kwqu4w225q57q5chcxng4vimnuomhkaoyzzvphw5fku"
+      25148309,
+      "bafkreidhxs5deohivukuds3fxbu7xnu6773rvliwipiz4r2rxvqcmvctwm"
     ],
     [
-      25146974,
-      "bafkreia2qngaxaikx4k2r5x2pi2q3n3tehctpmwp32wjpw4h5y2evpm5ry"
+      25148310,
+      "bafkreiemopdufuh5tpwdizexp2gylh26iukkvqnlgdfkgrdl2eorpuridq"
     ],
     [
-      25146975,
-      "bafkreia3zdpqm4l6pzsbbu277knnpkj6dvbekwfgbgh4rj6q3tto7bqu5q"
+      25148311,
+      "bafkreigguzkzudptswiicvf5vfjc7kfb5gpfnh3i4priocpa3lcrh6seli"
     ],
     [
-      25146976,
-      "bafkreig4lbwxq6fo75ey3uhsvbieo6ubnjmt7cfefc35664yowurvjwywi"
+      25148312,
+      "bafkreih7iymdlpn6qwirom6szodw6oaaposduu66ra6pqita2zkhmtglra"
     ],
     [
-      25146979,
-      "bafkreifynb54lrucxfh77ekrwkjgp5avlptpsjphz6apwhicehnqjyodlq"
+      25148313,
+      "bafkreidi3fusx43qdktvsbxgkh7odknezd3dsbju75mrmf7seobegogfde"
     ],
     [
-      25146978,
-      "bafkreidlrk57exro5v7r6h6l3hticmpl2o4dgcf5efrhpzi6kkau4e624q"
+      25148314,
+      "bafkreiepx5xso2dgdmzezdnhailx5cq5nkcb4wuwna4hss2qzxkjsxstli"
     ],
     [
-      25146980,
-      "bafkreiff2q5zt3pwfmz77ui3a6dcv66zeary6lj5pzzwhiz76qh4f3yxaq"
+      25148316,
+      "bafkreig4zarxf3l3pfp6saatbhg2j4bvl53fmvcvgqsvyqfecui4rkmtmq"
     ],
     [
-      25146981,
-      "bafkreihfeanddtg2jfmwipaoc6ninxzvmg6ja7rqzft52emqpmj2zfm5la"
+      25148317,
+      "bafkreifbplteq3fuqcnz33o2xlgddjd5aheacxoksi47pv22dvd7jbthzm"
     ],
     [
-      25146982,
-      "bafkreih4theg4lzsy2oghgjg2fsz6kjezouwtzfncnmzxiq2s4wfifeqhq"
+      25148318,
+      "bafkreigsgtmkfawv5uymod6bpo6hrytybzwqx56mhrckbfdi6vkwrdcncu"
     ],
     [
-      25146983,
-      "bafkreiaz4rjssle4hco3rvxrhyzmcfcyg4wr6lhvh4zyx6u2yh2luhx2qm"
+      25148319,
+      "bafkreid32ossgjkyvvyvw6fbfrlftocox4svqutphupgurhmjoqfr3arkm"
     ],
     [
-      25146984,
-      "bafkreige3iifitm767yms4kpd3rmitfzmmxp6ovol2qoyertcltmx5vw3e"
+      25148320,
+      "bafkreicxo2kc4wx5hr5jzeolxs2va4i4wudrxrbyjf6vaf5lunmig4mf7a"
     ],
     [
-      25146985,
-      "bafkreihvtpcrjygb45b3hsqvxrvcovc6an7cmz6rgs3pgosb7bwkvltr2y"
+      25148321,
+      "bafkreihtgmulg67nw6dn2bbyet2nt53td65rmydmxzxnzohur4pqyxbabm"
     ],
     [
-      25146986,
-      "bafkreibq7xiohs7yqxjovj56xpmax3hljuptmsgk6v3qqf6z7jayxnruae"
+      25148322,
+      "bafkreida3ds2oxjdogufmlmgmjeyalixej7rrrvst4ryrqse7e5fnrbo2a"
     ],
     [
-      25146987,
-      "bafkreieegiz4zwrrnrfh27fje423dya5mrkokqdtlx3w6nvbeyey6bfv44"
+      25148323,
+      "bafkreia3jtmbbvga7hc5hjjjwljorpwean7cqvxuila3zgvkbrdqp7eyue"
     ],
     [
-      25146988,
-      "bafkreicnghros5eamacdls5kzyj4viupxynwuft2xbdpilsd27bhiqgwfu"
+      25148324,
+      "bafkreicozm2lxv64s2xor5pr5s5o3oygqnttamf5d2iumaq7e6hyymroam"
     ],
     [
-      25146989,
-      "bafkreihc5ep5rgwg2oxkrelbzpmchxlca2gdtvaihatxdqjpmjspmhb2qi"
+      25148325,
+      "bafkreihf2v3lyoq247afniz7iu77k57kgup6hyzddyn35rfuorw2kzsncq"
     ],
     [
-      25146990,
-      "bafkreiaxs3ccb2ne5lpy5yn6liipgz3lgdyyap5ersqj2e6tmxejdooxoy"
+      25148326,
+      "bafkreihoxycje7gcvvkiuu3ydcwwfhki2gy3sgimmd5ktdbbtlqri4bezu"
     ],
     [
-      25146992,
-      "bafkreicwdqunf4ssmqfc2nqpf4k4qan45a5vsejorht2bdnc7ttz444k3y"
+      25148327,
+      "bafkreib2fcpvbqxtlj2yj2uv3ytacq2qjfqzij46bz3d6a74horisicq54"
     ],
     [
-      25146993,
-      "bafkreiejw7kce52hfmztwd5rnbrm2bgzdqxwk3abjzncoxhkgoejtjnlcm"
+      25148328,
+      "bafkreiguwcu4kddjcmxjppvvowqmawimagssnekag7c4wmmrm5lbpdpksm"
     ],
     [
-      25146994,
-      "bafkreidescrbqwwc2obozczycsfvmkfe2rajkop3wse3xpo4345yurfjva"
+      25148329,
+      "bafkreiacemsjglapxkbhuvosw4xwpbhm45uvxpkpx5e47wjd3akuouzhy4"
     ],
     [
-      25146995,
-      "bafkreieporg3ogwfx75jrmgi42qshhflpre2possv6pck2p4y4fnqt6nfy"
+      25148330,
+      "bafkreiees3ui5qsa4aqo5qf26ct243da6ng33cxnlb2pffecrwg75scnsq"
     ],
     [
-      25146996,
-      "bafkreig5ul6mk5oauif5vmermts6iqpg6srqsu7e3b4nqcpg3zt3ub5fw4"
+      25148331,
+      "bafkreihntycplgzumrszx2h6fsmwp7f5n24h4avnr2roqrsiv6huxiae5m"
     ],
     [
-      25146997,
-      "bafkreiejpsdwwfwdqizcunqgfrjdh4w24lxzwxg7ufa2unsymxklscjwii"
+      25148332,
+      "bafkreigya6hkrd4fwlgods5m4wyel3mg2g2b7j2bf34zonxoqhkqhx3jtm"
     ],
     [
-      25146998,
-      "bafkreicwmi7ugl3cjqpdic7tgyzfwmozhb7clzkbrhuml476wxcmtiynm4"
+      25148333,
+      "bafkreic35brnqvrn5sfkackuluiosz2j7btpsg23olzqkna6lkvqhcfqee"
     ],
     [
-      25146999,
-      "bafkreifknwoq5vrwspwb4mxqkyc7sxwm6felgamk5eriw4wmbm2aiyi5ku"
+      25148334,
+      "bafkreihs3ilbqb6rspzn3em3mgmyubeor5jlj5gdo2ixyl4ihvnbvy6gfy"
     ],
     [
-      25147000,
-      "bafkreidxqnjkbdm6kd7rogbsyb6xd7uzroomgxehh4cmegwnozwvouin5m"
+      25148335,
+      "bafkreiflruegcdyh57wroepds3dxtyh2g6v774afxuhnugjenrw74quw4i"
     ],
     [
-      25147001,
-      "bafkreiaecktqvjh2ldkdqwybxsuixsxz4fczindq7ejyzx7c23ejzrxlpu"
+      25148337,
+      "bafkreiejwob4fpkhxtf246i2wq4ujg5f6jt55rdgzzrgi6frk3vb64bdba"
     ],
     [
-      25147002,
-      "bafkreiamvctof7puvjnxkipqplmqjssewcih4sipv7zqsz5j7ps7fycjty"
+      25148338,
+      "bafkreiflfq6luzh67lxumbu4rqfyob6ot46f5ghmq463q3gkr4uycuehau"
     ],
     [
-      25147003,
-      "bafkreidybhyio7un4vqggybdx2mpmvy2cp5j6j5txk5kcdxjlijofezlwq"
+      25148339,
+      "bafkreifqbtmpa4b6neb2wir7sayaq7pz73obr4lqa3aljrtiqcobjoqjxi"
     ],
     [
-      25147004,
-      "bafkreig7xim7jjvwxgyim3o3fy7pify6wec7dgb3xiu3fiywnpduscoy5a"
+      25148340,
+      "bafkreiatc5i2czed3hjfic3752ok52lial64h3lnultvmsje2bzf4nwd24"
     ],
     [
-      25147005,
-      "bafkreihuipgfr3iuak42fjsptzsikmvokjg3kaoyzq5eeheuopbyhn7g6q"
+      25148341,
+      "bafkreidu7sfzqiuuuo4q2woyvaygwo674l42uaoqwq67bw5e7esbsfbhmq"
     ],
     [
-      25147006,
-      "bafkreiebwlpesknxd3bo2ip5umsdk37ksclok6c6i3daqllyfxhef5kk4q"
+      25148342,
+      "bafkreiegjhvdjnri2tqobybmul5gja6tkkflsxbz5hwfic7ghkodoh532i"
     ],
     [
-      25147007,
-      "bafkreiglwngrxklvzoyl54vvmeyecd45n375qtjiespx2kubxpxzynxfri"
+      25148343,
+      "bafkreic2k2awbgew4kjdxqpjnymt2tmlfreenfhg6mw5pqsnb7izwg4zcm"
     ],
     [
-      25147008,
-      "bafkreicijixxnbunnx45afjy5tzu7rf2drdwhlnb5jwwcfki5e6e6yvkyu"
+      25148344,
+      "bafkreihbfcznifn2otozjxb4x4kahvwjl4e6memeucr337vxf7nsaskzau"
     ],
     [
-      25147009,
-      "bafkreigsyub24avjs3pmbvjeknrpdhz3hh5bpktyielohlimipxcrjpzsu"
+      25148345,
+      "bafkreicyvl3u3ct6j7xefos635k76du4mrtx3j6aj6lnagprmozx43pu3q"
     ],
     [
-      25147010,
-      "bafkreifdjdasr356zlcxem77v2tugurfi3dgxp6ddbvbfzziadqnnqzx5u"
+      25148346,
+      "bafkreidszb7ytovnpw6gp53z27baxi7egcwkf4dktw6l7yrni544tg6vgm"
     ],
     [
-      25147011,
-      "bafkreibv3mcfcso7673xlqevubds7z7zimgj2e5is7fcspxaznfreq4mja"
+      25148347,
+      "bafkreidlpshzdlutf2k7detaxctb5w3a6s7p4y4aytkvz7pvu4zstlppiq"
     ],
     [
-      25147012,
-      "bafkreigprblp4pzukvjw3aqqsbwijxbgtzllrjahiuj74ufyi5jaloms7m"
+      25148348,
+      "bafkreiagoa3ag3ydnkbewbi7l2p3lhq4vzmewjp6pxzlabxdtjb5nsj36y"
     ],
     [
-      25147013,
-      "bafkreibyrl4hzzow7umbueztpp4lvumjg25wi3a55lpdlkqwhhezs45daq"
+      25148349,
+      "bafkreibupii5krsfqwvplih6j6np2eewa7t3lsb5cd5rxsctrgaspol2cq"
     ],
     [
-      25147014,
-      "bafkreieg2n64gpwcvtlyl6nthr4wbbonb3lieeiyicilrcqckkypdwtze4"
+      25148350,
+      "bafkreicztgmt7i2cetam56egtyywsuwmixp7htwsztd27sak2ffzyeihou"
     ],
     [
-      25147015,
-      "bafkreifjqng4el4cihriqcdmwlzm2vqrdlr3d45dqhqdejoccc443gege4"
+      25148351,
+      "bafkreianto7nehgcvt7y72xpe2o6xnas4hxf4tg4jjb2ku2srflwawilpi"
     ],
     [
-      25147017,
-      "bafkreib7cuh3oofdlqsx6jjhrdx4tlzafgh5dxecvelssiqlkc23qwdvgy"
+      25148354,
+      "bafkreibhkoihcsqhpt6ybocjy5uttpxn4fanj5zwq7qryjhpzcm4gtvhqi"
     ],
     [
-      25147018,
-      "bafkreibhhydbtcgls3zdzkxemry35ipavu3dp2c73lashovtm56ln2eu3y"
+      25148353,
+      "bafkreiexk42lwviofg2baz2pzkvql6p65wzsek4iqzdkxhiv622b73sqhi"
     ],
     [
-      25147019,
-      "bafkreidyfo7qw653cy777tt5unzmqy24tpehvi3uolmcauglv6tdrt5zdq"
+      25148355,
+      "bafkreihpu5gdvwbnecxgrea6d766w2fo3zse3opb4qyfvmdbmscvtzmh2u"
     ],
     [
-      25147020,
-      "bafkreib752jutnc4zdhqftlwd4mdwdrm26wclhtcstmudi2rxtind3fjna"
+      25148356,
+      "bafkreicgmupega7vo7kumew5xnu3zow4atvb3zpcgd6i4z4tx3sxpuqiim"
     ],
     [
-      25147021,
-      "bafkreigb4rag5hdptd43lmxubnaky3olvgbvlxheul4khu2rkii4w7mcwu"
+      25148357,
+      "bafkreihzc3xztcuqbp65pljsfimujqgolmr73zitbiod2igmfdvz7uwv5u"
     ],
     [
-      25147022,
-      "bafkreicfbn5f6hllqsxqo32yfurs6toyr5vhcmccmoatwnlcaleun4bdb4"
+      25148358,
+      "bafkreibf5z4tzltegjqjrqvuk33sun6oxgc2hd4oejeztmas37xu76nqwa"
     ],
     [
-      25147023,
-      "bafkreifaj3j6ag7wcqnmdtxaccucepfqvsxt7ptrvc5ybmtui2pcvnacja"
+      25148359,
+      "bafkreiflnvphy7bzcdfv5p4nc5fe2wto3kenzh4dxzhs3f4fgo42i5xnlu"
     ],
     [
-      25147024,
-      "bafkreiecag3vxay2saxhjpeobo5ks73li7u6yqhjiv3zkujvpcf4kc4vq4"
+      25148360,
+      "bafkreiejhg2vvwh65qzbi6iqycnqk4jzw7gmqqq27sqo56a2ijedv2vp74"
     ],
     [
-      25147025,
-      "bafkreihmhsthwgyfk3sqegdk5yf2wttvfw5rd2dez4b3zaksaf4doudmki"
+      25148361,
+      "bafkreiczb27q7ogmeptzggxtr24oqa5yrlyfxzga67e76a3elojqlrklsi"
     ],
     [
-      25147026,
-      "bafkreihb5svxns2a7rearaufb6kdcbqo7yv4uliydpdljobhfegxcesyfy"
+      25148362,
+      "bafkreid2kpfienl2fu2qqmqo53abmabdrohizrzki4435l6gxeevgmzg4m"
     ],
     [
-      25147027,
-      "bafkreihiuhssn4ii5fd3tijflafx2buvkcfcdogtoy6eh2sxr5ovuljnqe"
+      25148363,
+      "bafkreiegaaysdsue34ywi5vd4qi5fjhctnxgqxbblcxmfhxpyeweagubka"
     ],
     [
-      25147028,
-      "bafkreihp6me5y26w2pptcjay6srifz2hjomtgrt6l5dqjfyelqtpvbsu7u"
+      25148364,
+      "bafkreiem2fweyq67issigkqckkckk2ecc3yyrmogtlcbxpsahnkivwxmby"
     ],
     [
-      25147029,
-      "bafkreig3ffsitp5zwmn4ggjbvur3zhls5wdv2xhgf2lewphnhjmm7xtn74"
+      25148365,
+      "bafkreibvwdxlsnpypay2wo7xcm6kvqex43f5m7uvo5mo6y4bsxbwz4mnm4"
     ],
     [
-      25147030,
-      "bafkreic2rcdngokwmww6gmsaaqakrcpgahlugwb4lml776us6skyeql65m"
+      25148366,
+      "bafkreib22zpwimdqpbj5zgqu4uj7cuzjl2n6rzgmdct7jvnaravbn64htm"
     ],
     [
-      25147031,
-      "bafkreif2rmqynigx3phq3rmddsf6iop3q7n6jj3mbx6thza6zzfyrhvup4"
+      25148367,
+      "bafkreibuzor3exrtiptxsxdrjkimep7262zdwodow25xupu3n6kgsswqzy"
     ],
     [
-      25147032,
-      "bafkreiaxjwxfa2qonjlfnm7il5eba4zb2jnyvtd7i3uvnfv765skmiwcqa"
+      25148368,
+      "bafkreidtyzkomjxsb6y3texl2hzsnjifofghhqj3sm7di6vvqmoksgp52m"
     ],
     [
-      25147033,
-      "bafkreifxiiddb37k7rkjmscdss2alhabnsffxoje4twh3z654amyhrthii"
+      25148369,
+      "bafkreihxxho6h5b3syjg55vdokumyxvd3dv4b2q7336ssuc4xle3ibedvq"
     ],
     [
-      25147035,
-      "bafkreiczos4h7pp7mylxafum7fuufv2xaopqz24py4ty2lbb2f53glw6ja"
+      25148370,
+      "bafkreihhcdba7wdctuky5e6shffhtvdcekxlicr4fjoe7tng5e7g3lkrgm"
     ],
     [
-      25147036,
-      "bafkreidomhi2wbcwph7otnbauxep2momigx64ih4zfs4gfjoaegnjkcqxm"
+      25148371,
+      "bafkreige7cga3jux2mepy43yg7rrotuk4fcs4csj7l7twp2azbgftunwuu"
     ],
     [
-      25147037,
-      "bafkreibkxjupgsldnue6zdfoa4iqntf5lfxct7wpuzap36kyxhc3ucr3km"
+      25148372,
+      "bafkreici75mzfw3kyb2hilz6z4dpsd4y23obegcq73qua3wafhuohscavy"
     ],
     [
-      25147038,
-      "bafkreigl4jot672avsdxz34go2f43wkrh7two4wx25un5o7e6ripf5cvmu"
+      25148373,
+      "bafkreiefehh56kf725zxvebwmudis3mzwpolfjitsneajhz2nyjzeem73i"
     ],
     [
-      25147039,
-      "bafkreicb5xksy6llucdgifu4pfsjxsn7zocjjf6sh3lrntkccokkep6rs4"
+      25148374,
+      "bafkreiao6fv2bjd542umzaafppcmnq54oibcy7zdejuooxqzgdenjp56je"
     ],
     [
-      25147040,
-      "bafkreihppfdwagyyv726tcp5odcu7cvitqaotjswf76gvfs7cbnwbyoxhm"
+      25148375,
+      "bafkreiegnhm4wq2eyvk2x6oc7get45qye6jkapbj4zlwxydfquf5mroo3q"
     ],
     [
-      25147042,
-      "bafkreig5vnccwy3vggeokr62juldh36uk56rukezlfgxwve6z7acu37bbe"
+      25148376,
+      "bafkreidsjhselad7ub3xymwtzerdueixsmr6bpmytl3d4ubr26wdhl7gha"
     ],
     [
-      25147043,
-      "bafkreibpl6fjwb6eirtxumcyofecbj6g3mhbosg4px7bbvbc4r5fhiu5ze"
+      25148377,
+      "bafkreigcu3l65fzd6cp6y7s6rtpxtdxqkdbrarstbfkjuip53anapuxo3m"
     ],
     [
-      25147044,
-      "bafkreic5pxo4p3muh6kli6xe63zc67ovpepo2q26yhmzoquvyy33dqbnyi"
+      25148378,
+      "bafkreiepk7yhqvplpuwyeiusudmjfaepm3ljlbcn45cpan3zqyjk4rhvqa"
     ],
     [
-      25147045,
-      "bafkreihlsjecl3hp4yipgkjelxmgfiunifosswz4gplcsp3acjo222ok5u"
+      25148379,
+      "bafkreics6cymanve4avwrbgjhoumxxzfmq3bw4mn3nzvw23jp3o5faen6i"
     ],
     [
-      25147046,
-      "bafkreigs73lo3iv7yjzq4vugbrhzgrqd2yg2scdpim5fun7vloja4sz6te"
+      25148380,
+      "bafkreibvmlqm75xmxcvxqm4cxatu5m7oupodcuu3n7omqctvm33lvcd3v4"
     ],
     [
-      25147047,
-      "bafkreicawtuwkowbbj57tekj7ksgbked6sn5e5jpkgyy6lihqd3hurquju"
+      25148381,
+      "bafkreihuak7uwu5tidi55klv2ttzv3ztbctsmjydbetngotyoyyivpjfem"
     ],
     [
-      25147048,
-      "bafkreifeugxqm3krfo7mfgy5vs5xcussddvmpri5z5lkyc54seux5bziyu"
+      25148383,
+      "bafkreiguvyhcobsan73vt45d6cj3u3fzjfxduncuwfaassxj2o6cm5pdqu"
     ],
     [
-      25147049,
-      "bafkreiezbveidfg27cgxftosakerzrg2v54s45ib4qffpjcbuc3pks5axe"
+      25148384,
+      "bafkreid25ecfdqiilrgpb7mb4bdjgofkas5qvrivpj35qtdxjxbcv5g4wi"
     ],
     [
-      25147051,
-      "bafkreia3ta2olujq7w7rctzt424xil66m27g5vb35fkp7xilw57kbieabm"
+      25148385,
+      "bafkreiaqabtwfgzx34y2mgq7n5snvaevnz6mceo3i4ins7lgyroizi7pae"
     ],
     [
-      25147052,
-      "bafkreibebzaki6swpsj26a3iv34wrmivvcditffz6sltg3gb4sg3wdsl6a"
+      25148386,
+      "bafkreibjzcuuwpnho3qjwf3olr6xiyeohz5ixsb3xvr3n77p3ny3dvdeiy"
     ],
     [
-      25147054,
-      "bafkreighgldcqy5kr7nczf4aj4i7y3rzybs465t76odjnobnh6yqziqtey"
+      25148387,
+      "bafkreiausmas4q4fnvwroo7yiiqgvokob5jaocbfusltudjyiojlewb5de"
     ],
     [
-      25147055,
-      "bafkreidqs6cz6jfqjcgqtzwl7gy3xpa4fzd432lfku2jw3qj6doxjbimke"
+      25148388,
+      "bafkreiccjadhz4kf26cqbjulkrjuv2pe3wz4q6wukjywzmkyw7zvxwevsu"
     ],
     [
-      25147056,
-      "bafkreiegmaqpfcwwwpw2resiaxkvccotcbmeqpnubv4rlw4stue2ktvdqy"
+      25148389,
+      "bafkreih5onuieqy6zxaoebhiy3o324nqkncw4m7d6wdjbfpfohastpojoq"
     ],
     [
-      25147057,
-      "bafkreie32s3fghe43newsi6i6z6dbaq3pxwqzruhv5clili2cgdb5n6voy"
+      25148390,
+      "bafkreidqrywdbm2snrre3hzc7zw3mvt4sbkuqdfzfnotvadfwje3rjwamy"
     ],
     [
-      25147058,
-      "bafkreiczqalbzeykbnjtm2jqbbujjkhrrwxtrc7ew2jyolscobxnnyzp4u"
+      25148391,
+      "bafkreiflfhhhvq3bvchv6lbj7ttcytwhpixlqpx4nd2dmxqza2ieet43cu"
     ],
     [
-      25147059,
-      "bafkreieevuske7m6ouce2wyfafgob3c7yx2urqts6o6opmuxkcovyzbieu"
+      25148392,
+      "bafkreidqmyixnbzzz6k4y7ek243cczlgkfwl5wndyhwfpovjk2qanvuon4"
     ],
     [
-      25147060,
-      "bafkreibkjdepxonebbusozwgjeqrbwxsohl4jgrrqpm7jfbw4mzk7urq6a"
+      25148393,
+      "bafkreignc3khjt6ccng2povbkeuzo6kjxwiyzzzoou3srxpoipiw5t4gbe"
     ],
     [
-      25147061,
-      "bafkreifrrxy6nb6ycx47cff5h5z3f7gfixeojdqy3wojk46s7azsfxjpdy"
+      25148394,
+      "bafkreietsr3u6n42to4wfw4oxgjmm6qlye4alfwafeax2spafn6n2gc6ii"
     ],
     [
-      25147062,
-      "bafkreibluhevxr6tu7agn7jhl3gfvrm5unggncyv2boz6ffxcrlobn57gy"
+      25148395,
+      "bafkreigaez6w5rgh6vahwiaj6nyx5hdps56gy765njrzxpp2sa2mtjeog4"
     ],
     [
-      25147063,
-      "bafkreiem6xdfoxdu5xsuhmiuxn552dxdc5gk6lsq6zz6nqvufxksj62kd4"
+      25148396,
+      "bafkreibbipamvzz7if55d7k6kcsjkpvinrytye3pztrp3ntewpenbfglyi"
     ],
     [
-      25147064,
-      "bafkreigkelmpm4vy2jtpegalg52mjt3u45mvzwqw6hfus5vr6kldlvhut4"
+      25148397,
+      "bafkreicsp22ibyw6z3g7biyr3joiymrbcunshsqvmr3iwcsdzz7exflg64"
     ],
     [
-      25147065,
-      "bafkreifuwinth3cauct6ss5ayihdwchkt4lqmbllimtw3dhbqgkvin3wvu"
+      25148398,
+      "bafkreifjyusgthf6mrq7z74nqizueqhpmle2niuvkrce3bnlbg5dvwaboe"
     ],
     [
-      25147066,
-      "bafkreicraq3ques2usisqxkllipxyx7sktvs4vec6hwctekn6vvgrtnsvq"
+      25148399,
+      "bafkreia44a2dvkurobbgrzhs6x447p27fxzxfvbl72cxdnby675hcxdvqq"
     ],
     [
-      25147067,
-      "bafkreigu2jo3bvw4msrwunzv47va2vg2yvzjrmxwvm7xt3b4dawwq2jszm"
+      25148400,
+      "bafkreidqwhoahswd7ebnlwunlca7qd2pgy5n7wzzaqodtrjjnfdp2m2q6a"
     ],
     [
-      25147068,
-      "bafkreifwfcxumvl7nwnay5cbknerfnnnvppeusild3w3eiifsvn3sc4pva"
+      25148401,
+      "bafkreibiv3xoew4nt7gdkaxijqlw5ujpoomtnfn7alg3jp632uq6b3ka7i"
     ],
     [
-      25147069,
-      "bafkreiardotgm7pttp6qcoxof3saoxjmgedj2qb23agkhoonbwbqe3y7wq"
+      25148402,
+      "bafkreifjtqiqspscbfxhcfxabuiqnh3zh6g2j2ru4oqlxsx6bu5zqx4k3a"
     ],
     [
-      25147070,
-      "bafkreifzpdev6mbb6j3tt2w3pomdoshruw4a43eaw44nua6e5jj7zcpe7y"
+      25148403,
+      "bafkreicywpbjhl4g7dfu2hqzjdp4ujoakwztdxernvpwew75xkcatauqbu"
     ],
     [
-      25147071,
-      "bafkreiclwe6a4t67idijctm7xocehgw6w6gvoednnd7jtkd7fuvmkernti"
+      25148404,
+      "bafkreickxh3z6oawon6g5v3fgej5is6sdniysbaehhjmp2rktogevhvy6a"
     ],
     [
-      25147072,
-      "bafkreif64ynymxo2j5a5b5w46q4wvrzl3qh5mlc7cmghzqny4snnxhqdka"
+      25148405,
+      "bafkreihr2bra6uhmjr2d2mzgik7o3x3zhv7nigxot2wvxe7flej5so4eeq"
     ],
     [
-      25147073,
-      "bafkreib224skqcjclxa5xnmqwy3ivxkcxgnumk7igv2r5bvbmnzykbnkfa"
+      25148406,
+      "bafkreib5qjuh2frvjgumajbh5jxsnj5y2zwp2hn2awyz25pn5jzdes3w54"
     ],
     [
-      25147074,
-      "bafkreignjxsea3gjvjpkilwcss53xocias5a3pn2yfehcoipedfc52qm5q"
+      25148407,
+      "bafkreiapxmflpdh5ktwgeqzsuiwvjnxcdlsrv3zm6wfgpeznunrykomrnq"
     ],
     [
-      25147076,
-      "bafkreich5bsknejkfj4lvg56ritdiirffr72mmjp7rk7tj63pbf2ctzgv4"
+      25148408,
+      "bafkreibjneg5apvwe4mddoynl5i335vyllhyhqp7bb6yvnpspioenuo6hq"
     ],
     [
-      25147077,
-      "bafkreibliu7wztga24wa4q2gbw35hwizfb7bum6fceigaotq7hifzkgqtm"
+      25148410,
+      "bafkreifsoaibmrmr7gon6fzk565sk3hcgzykyylhhu62hmva2julzutshi"
     ],
     [
-      25147078,
-      "bafkreigpvpvjoiekttatzmevx7h5sm3oqwpttxionulc6w5hoggfixke2e"
+      25148411,
+      "bafkreieygwhc4t7pt42tonortfdkxzthxb3gie53lbckdlhs6zvxwmctmy"
     ],
     [
-      25147079,
-      "bafkreib5xxntpj6csaz6liw576u4hfvmmkt2x6gknthkzpaay72ocqulcu"
+      25148412,
+      "bafkreidczr4fsvytpnip4sjjyu25jsaz4ecyi55n6qwnrfmfxiugjjua4y"
     ],
     [
-      25147080,
-      "bafkreihgrnk7fi2apqrmtmuroq6ebavcrjcwtcjgg7e6xvek6eaxb7zfx4"
+      25148413,
+      "bafkreiex6me7sfob5frll4a5atprg357ecgay5brl35zajncypbjtwfa3y"
     ],
     [
-      25147081,
-      "bafkreieyum56th5ujfaxj56hc3z2phmtsqr3owur5rwbatgzhlhwg2plnu"
+      25148414,
+      "bafkreicruwzjckyc5azxqozo66236mkoufadyxtydpefvxjx6bagn3a2re"
     ],
     [
-      25147082,
-      "bafkreiettf7aswa24fm25hf2oosq5jkqij4cttqgscqtq4jhrcmrjsyx5m"
+      25148415,
+      "bafkreigdt6bgupyx4uiudiev65xikje6a6nfepc24fvx37erxisjj57l7m"
     ],
     [
-      25147083,
-      "bafkreieupr34lfyscze4jmdbbiuoimnqhcj7jkm5jat76zhyxq4qxe2hiu"
+      25148416,
+      "bafkreidh7xnjfmih35sp6jfxcwnzrir37k2cx23kax4ij7bgk63sxw5t3u"
     ],
     [
-      25147084,
-      "bafkreigilrvrewlwfsa4xvzycj4ocdugpsuze4gkfctnwiumq45sfaoomm"
+      25148417,
+      "bafkreibvpsw4qbag3pwgpnghm34qrvjs45ueh6vbgp5di3vfv5toetjf3y"
     ],
     [
-      25147085,
-      "bafkreihh77wmv2doagkbnqtbhkiiifjhxjdkqk6l4o2kivbbagmisqbzli"
+      25148418,
+      "bafkreigczq7ckyeq6lxbwst2blqywiqsyxfhjv7oq2jmhqobqvan7f3uzy"
     ],
     [
-      25147086,
-      "bafkreiacqznb6ntp3bffrtcdo6oktye3vxt7aggpaco2w4utkektxrnnfu"
+      25148419,
+      "bafkreib4kp6zlalq5tf7etytoj7lu7ktu6wm7xyontblajvsx4b7pbeqii"
     ],
     [
-      25147087,
-      "bafkreigjbghu6ruifoyi3txjnmvftcaik56dqcafm42w47gsuxeakacg2e"
+      25148420,
+      "bafkreiaqvqip7hwliqumhego5ddv53gegt3midn6vnly6ph4eoje7hpowy"
     ],
     [
-      25147088,
-      "bafkreiakfmch57blww3x4h5fzhfcgstpuwphurxusxrymagreldhl7yp44"
+      25148421,
+      "bafkreiefhe4impbeuetdvw5mg36lf54clebl4mx2hb5eamv7qb2dslfok4"
     ],
     [
-      25147089,
-      "bafkreignq64zj7iihg4ghu3xmdlm6morbfvi5yfy5aysz6zjatzafujzna"
+      25148422,
+      "bafkreibkflvhfbn773adbsc5nukjwdcendqmo2v5hprwmxluhf74jnf5qa"
     ],
     [
-      25147090,
-      "bafkreiftqsavllis3ww5siti5ufufdbe7i5r6dpcn47epx4mwn3u35a2iu"
+      25148424,
+      "bafkreigdnzvkd4hsvyweftrwucub444n6hyvkwke7vsvxwe3eyzr4zxysy"
     ],
     [
-      25147091,
-      "bafkreiepof567dh6bzzsm4qz27jshsebwjhlm66zcokwzm42ycgujudkvi"
+      25148425,
+      "bafkreibu6ucrfwmtjxlvivbktv6ncbvng5m3ko7kvht5ontdnqdrpqmzr4"
     ],
     [
-      25147092,
-      "bafkreihs7uae764mteqlguf2sbr5moqnzr5aftha4yyslgrc2fosovqn2m"
+      25148426,
+      "bafkreibsg7e735swmy73hhxlbdspton52my4vaokihtilt42in2kgt34zq"
     ],
     [
-      25147093,
-      "bafkreiero6ar5dzbosn42tdpg2bk5ud47c37pgloadfgnmc3vdcnxsyoe4"
+      25148427,
+      "bafkreigkut3uzwzb2quyftj2cud4xpxo5ajpkqc5hqhtkdupcrubak4thq"
     ],
     [
-      25147094,
-      "bafkreihayclezcqpgiz6mcpdjsershz2spppfcw5kbmeiljgx5mqj5ezn4"
+      25148428,
+      "bafkreigcduk2vqnub7xopsdmknfzqhtbubawdipmpeoxrqtr7urdeqohfm"
     ],
     [
-      25147095,
-      "bafkreiad2k3sujibsuu7zfylapqqaffu2eghhgp4sgmi5spbm75ka4kvpe"
+      25148429,
+      "bafkreihzwqxrjejdqx7bsetixdl23ksvxbtkx4tjsx7j4w5yhvgb4a34a4"
     ],
     [
-      25147096,
-      "bafkreib5evs6vq2lks6misa62uohznlixh2m47vm4pzg4vnatmlik3qzxu"
+      25148430,
+      "bafkreicmjau36dn5fbfydssmoxf36ly2isulba4qwj4546lqjvknzghrzm"
     ],
     [
-      25147098,
-      "bafkreieoovvs6olxaoakp4a7s3iugiljzzovnhl6obceznqhfjwq6nmtfi"
+      25148431,
+      "bafkreiffqwotvwav2auzzrcm2hfl3i2g6675yfzhcmpqsen3b2tbk6kkfm"
     ],
     [
-      25147099,
-      "bafkreiafiok33cs6atoplu2m4f2jbwhfxxtgefvmlp74g6yzwwbh7uoj2q"
+      25148432,
+      "bafkreie5lle3xtea2fsdm6fdc2yux4mdytgzbejmbtzmkd4piir37iyj5m"
     ],
     [
-      25147100,
-      "bafkreib75hn5j6gygh2lbrhw6spmhrdsyarxvuav25ztp55wngi7phvcfq"
+      25148433,
+      "bafkreigrtygx3shemxfsgkczs74kddsaadzwbwdabc3bjd6qr4c7wcicci"
     ],
     [
-      25147101,
-      "bafkreid24yirziqxkwraljdlhtvdswtxj6h7s24644haqzpqp2wnikuyey"
+      25148434,
+      "bafkreie6o4h5kjtw3wk4rujslqydxyi26fyblz56nqskko5jpsdeywsw2y"
     ],
     [
-      25147102,
-      "bafkreigaeb3xmdwfyxmyemtp3zxyp75crdqpcptmg2u4h5kafj7pxnbyz4"
+      25148435,
+      "bafkreifghmfgm6nysa7wkhl5dqcoshwatp7dwpkvo24xj6xxermk4aoiqi"
     ],
     [
-      25147103,
-      "bafkreigbh3saywilzyjq55swjfgvjfzggueqlezslzrt3zapesbqor4y4a"
+      25148436,
+      "bafkreie3kxtdl2pvftmqgknk7irzxsitsajpijhybng27vgopkccydv2eq"
     ],
     [
-      25147104,
-      "bafkreieaag7fssa5mispxdleon6pb7gahuhwdz7xivmv663ijxi2iwznei"
+      25148437,
+      "bafkreigly2dpz3ucbldidvica524rhf2z7tf5j3gqph43uzyixombcwyvu"
     ],
     [
-      25147105,
-      "bafkreictgzsngjyixz3ko6j3v6hd4x5bkuh377dg3dfl2n447nwwr7uy44"
+      25148439,
+      "bafkreicfe632kq6d5dnwdjyj7sau4b4bn4pm7v25mmgdjdneovteybqx4e"
     ],
     [
-      25147106,
-      "bafkreibyyyfxalasj5bjshc5re5q2dd7psrwumgrrzg7lwsstgblgzy4cy"
+      25148440,
+      "bafkreie4wbzpmrgoslrag2cbbch5y7sbuo6u3jspykeie7ojk7md67ecpe"
     ]
   ],
   "verification": {
-    "cid": "bafkreic5cjxrkqzafgntdrqd32s3l7g43owh5skn2eup4rhadsubhbhqgu",
-    "epochId": 25147107,
+    "cid": "bafkreifbzkqjdxb7io3qigs5oqjetbtcob3hwy6qjicffeb7h774fbctkm",
+    "epochId": 25148441,
     "projectId": "allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
     "protocolState": "0xa1100CB00Acd3cA83a7C8F4DAA42701D1Eaf4A6c",
     "dataMarket": "0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641"
