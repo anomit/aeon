@@ -1,8 +1,11 @@
-🐋 Whale alert: WETH → USDC  $1,748
+🐋 Whale Alert: 4 swaps in epoch 25153451
 
-Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b
-Epoch: 25153069
-Tx: 0xd4e53f0f38fec458db33f96307240149ad0d984c8b94925e8a82552897e9e533
-✅ Verified on-chain
-   cid: bafkreicljwpmfgrhe4lb7mvkfae5s6mvqmt2y45ag5d3z7usefbslt2wje
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+$2,246.76 — 235.51 tokens → 1.08 ETH | Pool 0xA6cc3c25...8693e8 | Tx 0x6cfd25...0484c
+
+$1,997.77 — 568.65 tokens → 0.96 ETH | Pool 0x1d42064F...Bd801 | Tx 0x038085...817a
+
+$1,450.99 — 1451 tokens swapped (multi-pool) | Pool 0x3416cF6C...7C6 | Tx 0x12454b...862f
+
+$1,267.99 — 0.61 ETH → 1269.40 tokens | Pool 0xC7bBeC68...0e9b | Tx 0x719898...4005
+
+✅ Verified on-chain | cid: bafkreiatnmdsbnhzryhltdmrfs3ek763eykiftyvqyxvdlgp3hfgb36tmy | epoch: 25153451 | project: BDS_MAINNET_ALPHA_UNISWAPV3-ETH

@@ -1,0 +1,124 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert: 4 swaps in epoch 25153451"
+      },
+      "children": [
+        "swap1",
+        "swap2",
+        "swap3",
+        "swap4",
+        "separator",
+        "footer"
+      ]
+    },
+    "swap1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "swap1_amount",
+        "swap1_details"
+      ]
+    },
+    "swap1_amount": {
+      "type": "Text",
+      "props": {
+        "text": "$2,246.76 — 235.51 tokens → 1.08 ETH"
+      }
+    },
+    "swap1_details": {
+      "type": "Text",
+      "props": {
+        "text": "Pool 0xA6cc3c25...8693e8 | Tx 0x6cfd25...0484c"
+      }
+    },
+    "swap2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "swap2_amount",
+        "swap2_details"
+      ]
+    },
+    "swap2_amount": {
+      "type": "Text",
+      "props": {
+        "text": "$1,997.77 — 568.65 tokens → 0.96 ETH"
+      }
+    },
+    "swap2_details": {
+      "type": "Text",
+      "props": {
+        "text": "Pool 0x1d42064F...Bd801 | Tx 0x038085...817a"
+      }
+    },
+    "swap3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "swap3_amount",
+        "swap3_details"
+      ]
+    },
+    "swap3_amount": {
+      "type": "Text",
+      "props": {
+        "text": "$1,450.99 — 1451 tokens swapped (multi-pool)"
+      }
+    },
+    "swap3_details": {
+      "type": "Text",
+      "props": {
+        "text": "Pool 0x3416cF6C...7C6 | Tx 0x12454b...862f"
+      }
+    },
+    "swap4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "swap4_amount",
+        "swap4_details"
+      ]
+    },
+    "swap4_amount": {
+      "type": "Text",
+      "props": {
+        "text": "$1,267.99 — 0.61 ETH → 1269.40 tokens"
+      }
+    },
+    "swap4_details": {
+      "type": "Text",
+      "props": {
+        "text": "Pool 0xC7bBeC68...0e9b | Tx 0x719898...4005"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain | cid: bafkreiatnmdsbnhzryhltdmrfs3ek763eykiftyvqyxvdlgp3hfgb36tmy | epoch: 25153451 | project: BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      }
+    }
+  }
+}
