@@ -1,0 +1,89 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "separator",
+        "text3",
+        "text4",
+        "text5",
+        "separator",
+        "text6",
+        "text7",
+        "text8"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "🐳 Whale alert: ~1,771 USDC → 0.83 ETH $1,771",
+        "variant": "body"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25146411",
+        "variant": "body"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x39f8774b3790f13956bf9bbc0f10b4eb7995052a02ec8c95035ccdd4c629c3bd",
+        "variant": "body"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "body"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreicekqjt7sxjq4zswcmmpuzn3vhjhlsxtds4kjb63jur2py5jgksgu",
+        "variant": "body"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      }
+    }
+  }
+}
