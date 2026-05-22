@@ -1,0 +1,152 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-whales",
+        "alert-1",
+        "alert-2",
+        "alert-3",
+        "separator-1",
+        "verification-info"
+      ]
+    },
+    "badge-whales": {
+      "type": "Badge",
+      "props": {
+        "text": "3 whale alerts"
+      },
+      "children": []
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "message": "1341.89 token → 1.23 ETH ($2,624)",
+        "type": "info"
+      },
+      "children": [
+        "pool-info-1",
+        "tx-link-1"
+      ]
+    },
+    "pool-info-1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x4b62Fa30Fea125e43780DC425C2BE5acb4BA743b",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tx-link-1": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x4bacfb7e...933873",
+        "href": "https://etherscan.io/tx/0x4bacfb7e933873"
+      },
+      "children": []
+    },
+    "alert-2": {
+      "type": "Alert",
+      "props": {
+        "message": "1726.18 token → 0.82 ETH ($1,726)",
+        "type": "info"
+      },
+      "children": [
+        "pool-info-2",
+        "tx-link-2"
+      ]
+    },
+    "pool-info-2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tx-link-2": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x24b46fc2...5655d",
+        "href": "https://etherscan.io/tx/0x24b46fc25655d"
+      },
+      "children": []
+    },
+    "alert-3": {
+      "type": "Alert",
+      "props": {
+        "message": "0.59 ETH → 1249.62 token ($1,249)",
+        "type": "info"
+      },
+      "children": [
+        "pool-info-3",
+        "tx-link-3"
+      ]
+    },
+    "pool-info-3": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tx-link-3": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0xc6e7b646...5dfe",
+        "href": "https://etherscan.io/tx/0xc6e7b6465dfe"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification-info": {
+      "type": "Alert",
+      "props": {
+        "message": "✅ Verified on-chain",
+        "type": "success"
+      },
+      "children": [
+        "cid-text",
+        "project-text"
+      ]
+    },
+    "cid-text": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreifymqv...qoroee",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "project-text": {
+      "type": "Text",
+      "props": {
+        "text": "Project: UniswapV3 ETH mainnet",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,9 +1,16 @@
-State and log updated.
+🐳 3 whale alerts — Epoch 25152468
 
-## Summary
+**1341.89 token → 1.23 ETH ($2,624)**
+Pool: 0x4b62Fa30Fea125e43780DC425C2BE5acb4BA743b
+Tx: 0x4bacfb7e...933873
 
-- **powerloom-bds (run 4)**: Processed epoch 25151890 with 4 trades across 4 Uniswap V3 pools
-- All trades below $1000 whale threshold (largest: $191.67 on pool 0xc7bB...0e9b)
-- Cursor advanced from epoch 25151151 to 25151890
-- No alerts dispatched — **POWERLOOM_BDS_OK**
-- Updated `memory/powerloom-bds-state.json` and `memory/logs/2026-05-22.md`
+**1726.18 token → 0.82 ETH ($1,726)**
+Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
+Tx: 0x24b46fc2...5655d
+
+**0.59 ETH → 1249.62 token ($1,249)**
+Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b
+Tx: 0xc6e7b646...5dfe
+
+✅ Verified on-chain — cid: bafkreifymqv...qoroee
+Project: UniswapV3 ETH mainnet
