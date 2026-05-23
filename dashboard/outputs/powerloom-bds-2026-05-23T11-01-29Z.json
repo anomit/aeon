@@ -1,0 +1,152 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 2 whale alerts"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "alert-1",
+        "alert-2",
+        "separator",
+        "verification"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "epoch 25157514",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert-1": {
+      "type": "Card",
+      "props": {
+        "description": "LP Mint"
+      },
+      "children": [
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "0.32 ETH + 681.50 USDC ($1,331)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36"
+      },
+      "children": []
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xbacacc0c5ba46daa8f262edbe49303a25bbfabc69f591ef01c92adb4ae63717b"
+      },
+      "children": []
+    },
+    "alert-2": {
+      "type": "Card",
+      "props": {
+        "description": "Swap"
+      },
+      "children": [
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8"
+      ]
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "1015.64 USDC → 0.5 ETH ($1,015)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b"
+      },
+      "children": []
+    },
+    "text-7": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x653ab93d0309592c9ad331fac5fa82cb7eedcc8fc6814834753084781c533f8e"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Card",
+      "props": {
+        "description": "Verification"
+      },
+      "children": [
+        "badge",
+        "text-9",
+        "text-10",
+        "text-11"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain"
+      },
+      "children": []
+    },
+    "text-9": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiajewebjbcuhjcto6mrhkc4hmsak774gex2idj5ljm6jpdk6cnmki"
+      },
+      "children": []
+    },
+    "text-10": {
+      "type": "Text",
+      "props": {
+        "text": "epoch: 25157514"
+      },
+      "children": []
+    },
+    "text-11": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      },
+      "children": []
+    }
+  }
+}
