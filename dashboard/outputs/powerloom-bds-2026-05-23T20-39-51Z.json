@@ -1,0 +1,131 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Radar — 2 alerts (epoch 25160403)"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_1",
+        "alert_2",
+        "footer_separator",
+        "footer"
+      ]
+    },
+    "alert_1": {
+      "type": "Text",
+      "props": {
+        "text": "1) Swap $4,160 — 0.056 → 0.056",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alert_1_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x17156Ad656A9Bf1cE4c917B702aE366D48c37428"
+      },
+      "children": []
+    },
+    "alert_1_tx": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x32d9b14bf61ac501df88d92255ee3ac617150531f2e1b9802de17085698f1d42",
+        "href": "https://etherscan.io/tx/0x32d9b14bf61ac501df88d92255ee3ac617150531f2e1b9802de17085698f1d42"
+      },
+      "children": []
+    },
+    "alert_1_verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain"
+      },
+      "children": []
+    },
+    "alert_1_cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibxl2zpux5eg3erj4qekk3xqtxwg2capddtwd4svbolzib3j7g4tu"
+      },
+      "children": []
+    },
+    "alert_1_project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      },
+      "children": []
+    },
+    "alert_2": {
+      "type": "Text",
+      "props": {
+        "text": "2) Swap $1,254 — 0.600 → 1,254",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alert_2_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b"
+      },
+      "children": []
+    },
+    "alert_2_tx": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0xd7c4641cc2b67b9aeabcc42f5001d588745a461d89ab50b3a5dcecf379cb6a61",
+        "href": "https://etherscan.io/tx/0xd7c4641cc2b67b9aeabcc42f5001d588745a461d89ab50b3a5dcecf379cb6a61"
+      },
+      "children": []
+    },
+    "alert_2_verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain"
+      },
+      "children": []
+    },
+    "alert_2_cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibxl2zpux5eg3erj4qekk3xqtxwg2capddtwd4svbolzib3j7g4tu"
+      },
+      "children": []
+    },
+    "alert_2_project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      },
+      "children": []
+    },
+    "footer_separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25160403 | 15 trades scanned | 2 above $1k threshold",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
