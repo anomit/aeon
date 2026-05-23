@@ -1,0 +1,160 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack-whale-swaps",
+        "separator",
+        "block-verified"
+      ]
+    },
+    "stack-whale-swaps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-heading",
+        "swap-1",
+        "swap-2",
+        "swap-3"
+      ]
+    },
+    "text-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 3 whale swaps detected — epoch 25158431",
+        "level": "h2"
+      }
+    },
+    "swap-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-swap-1-amount",
+        "text-swap-1-details"
+      ]
+    },
+    "text-swap-1-amount": {
+      "type": "Stat",
+      "props": {
+        "value": "$37,466"
+      }
+    },
+    "text-swap-1-details": {
+      "type": "Text",
+      "props": {
+        "text": "token0→token1 (0.50 → 0.50)"
+      }
+    },
+    "swap-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-swap-2-amount",
+        "text-swap-2-details"
+      ]
+    },
+    "text-swap-2-amount": {
+      "type": "Stat",
+      "props": {
+        "value": "$14,246"
+      }
+    },
+    "text-swap-2-details": {
+      "type": "Text",
+      "props": {
+        "text": "USDC→WETH (14,235 → 6.97 ETH)"
+      }
+    },
+    "swap-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-swap-3-amount",
+        "text-swap-3-details"
+      ]
+    },
+    "text-swap-3-amount": {
+      "type": "Stat",
+      "props": {
+        "value": "$1,817"
+      }
+    },
+    "text-swap-3-details": {
+      "type": "Text",
+      "props": {
+        "text": "USDC→WETH (1,819 → 0.89 ETH)"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "block-verified": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-verified",
+        "verified-details"
+      ]
+    },
+    "text-verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "verified-details": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "verified-item-1",
+        "verified-item-2",
+        "verified-item-3"
+      ]
+    },
+    "verified-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiarepqex6odooowdtlpnzhung4vgoebjeo3yuueqthv5l7wglxnji"
+      }
+    },
+    "verified-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "epoch: 25158431"
+      }
+    },
+    "verified-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      }
+    }
+  }
+}
