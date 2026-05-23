@@ -1,0 +1,145 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds",
+        "description": "🐋 4 whale alerts — Epoch 25156556"
+      },
+      "children": [
+        "lp-burn",
+        "swap1",
+        "swap2",
+        "swap3",
+        "verification"
+      ]
+    },
+    "lp-burn": {
+      "type": "Card",
+      "props": {
+        "title": "🔥 LP Burn on 0xD3e9...29D8",
+        "description": "$10,564"
+      },
+      "children": [
+        "lp-burn-details",
+        "lp-burn-tx"
+      ]
+    },
+    "lp-burn-details": {
+      "type": "Text",
+      "props": {
+        "text": "364,070.67 token0 + 2.04 token1 removed from pool",
+        "variant": "body"
+      }
+    },
+    "lp-burn-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x7428b...2e79",
+        "variant": "body"
+      }
+    },
+    "swap1": {
+      "type": "Card",
+      "props": {
+        "title": "🔄 Swap on 0xE055...939F",
+        "description": "$1,084"
+      },
+      "children": [
+        "swap1-details",
+        "swap1-tx"
+      ]
+    },
+    "swap1-details": {
+      "type": "Text",
+      "props": {
+        "text": "token1 → 1,082.85 token0",
+        "variant": "body"
+      }
+    },
+    "swap1-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xa400e...1078",
+        "variant": "body"
+      }
+    },
+    "swap2": {
+      "type": "Card",
+      "props": {
+        "title": "🔄 Swap on 0xa6Cc...93e8",
+        "description": "$6,861"
+      },
+      "children": [
+        "swap2-details",
+        "swap2-tx"
+      ]
+    },
+    "swap2-details": {
+      "type": "Text",
+      "props": {
+        "text": "token1 → 738.89 token0",
+        "variant": "body"
+      }
+    },
+    "swap2-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x9530a...9a6b",
+        "variant": "body"
+      }
+    },
+    "swap3": {
+      "type": "Card",
+      "props": {
+        "title": "🔄 Swap on 0xc756...dD42",
+        "description": "$6,561"
+      },
+      "children": [
+        "swap3-details",
+        "swap3-tx"
+      ]
+    },
+    "swap3-details": {
+      "type": "Text",
+      "props": {
+        "text": "token1 → 1.46 token0",
+        "variant": "body"
+      }
+    },
+    "swap3-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x2aae8...f2c6",
+        "variant": "body"
+      }
+    },
+    "verification": {
+      "type": "Card",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "description": "cid: bafkreifun4ournzd2byndd5vl7owleiwodsicw4a232wbsvp6c3xzcdy6y"
+      },
+      "children": [
+        "epoch-info",
+        "project-info"
+      ]
+    },
+    "epoch-info": {
+      "type": "Text",
+      "props": {
+        "text": "epoch: 25156556",
+        "variant": "body"
+      }
+    },
+    "project-info": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      }
+    }
+  }
+}
