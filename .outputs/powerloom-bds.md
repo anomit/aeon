@@ -1,14 +1,11 @@
-🐋 2 whale alerts — epoch 25157514
+🐋 7 whale trades detected (epoch 25157845)
 
-1) LP Mint: 0.32 ETH + 681.50 USDC ($1,331)
-   Pool: 0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36
-   Tx: 0xbacacc0c5ba46daa8f262edbe49303a25bbfabc69f591ef01c92adb4ae63717b
+• $22,706 USDC→ETH (0x88e6A) — tx bfff...47c2
+• $7,223 token→USDC (0x5653) — tx 4dd2...d96c
+• $5,397 token→ETH (0xcFeC) — tx ffda...e947
+• $1,985 token→ETH (0x1195) — tx fadb...a9a9
+• $1,299 ETH→USDT (0x11b8) — tx 84bc...a05d
+• $1,152 ETH→token (0x7b1E) — tx 5654...2cdc
+• $1,015 ETH→USDC (0xc7bB) — tx 7c6b...1ea2
 
-2) Swap: 1015.64 USDC → 0.5 ETH ($1,015)
-   Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b
-   Tx: 0x653ab93d0309592c9ad331fac5fa82cb7eedcc8fc6814834753084781c533f8e
-
-✅ Verified on-chain
-   cid: bafkreiajewebjbcuhjcto6mrhkc4hmsak774gex2idj5ljm6jpdk6cnmki
-   epoch: 25157514
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+✅ Verified on-chain · cid: bafkreib7tde5w3gucuaq54o57bb5345qmbsz3h7e33po6fodu3bq677wga · epoch 25157845

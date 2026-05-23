@@ -1,0 +1,81 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 7 whale trades detected",
+        "description": "Epoch 25157845"
+      },
+      "children": [
+        "trades-stack",
+        "verification"
+      ]
+    },
+    "trades-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade-1",
+        "trade-2",
+        "trade-3",
+        "trade-4",
+        "trade-5",
+        "trade-6",
+        "trade-7"
+      ]
+    },
+    "trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "• $22,706 USDC→ETH (0x88e6A) — tx bfff...47c2"
+      }
+    },
+    "trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "• $7,223 token→USDC (0x5653) — tx 4dd2...d96c"
+      }
+    },
+    "trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "• $5,397 token→ETH (0xcFeC) — tx ffda...e947"
+      }
+    },
+    "trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "• $1,985 token→ETH (0x1195) — tx fadb...a9a9"
+      }
+    },
+    "trade-5": {
+      "type": "Text",
+      "props": {
+        "text": "• $1,299 ETH→USDT (0x11b8) — tx 84bc...a05d"
+      }
+    },
+    "trade-6": {
+      "type": "Text",
+      "props": {
+        "text": "• $1,152 ETH→token (0x7b1E) — tx 5654...2cdc"
+      }
+    },
+    "trade-7": {
+      "type": "Text",
+      "props": {
+        "text": "• $1,015 ETH→USDC (0xc7bB) — tx 7c6b...1ea2"
+      }
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain · cid: bafkreib7tde5w3gucuaq54o57bb5345qmbsz3h7e33po6fodu3bq677wga · epoch 25157845"
+      }
+    }
+  }
+}
