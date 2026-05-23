@@ -1,8 +1,16 @@
-🐋 Whale alert: 25,237.53 tokens → 0.854 ETH  $1,758.20
+State updated and log appended.
 
-Pool: 0x9C7eD68B00DC4f45243b07Ce71a54A86e8f8FcBB
-Epoch: 25159099
-Tx: 0xeddd76076fba512a4e1125f74ec7ac22a79f02c8c9f3e9c3171dfefc7a31b846
-✅ Verified on-chain
-   cid: bafkreichoadzvd464pr7da3rgp3am5hsewct7vbrmurzjvkdxzdosp5gfu
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+## Summary
+
+**powerloom-bds run 10** — Epoch 25159475 (advanced from 25159099)
+
+- **18 trades** scanned across 10 pools
+- **5 whale alerts** dispatched (threshold: $1,000):
+  - **$498,413** — large stablecoin swap (pool 0xe8f7c89C, 6.63 → 6.61)
+  - **$38,470** — pool 0x64869c8D, 0.51 → 0.51
+  - **$10,528** — pool 0x73A38006, 0.14 → 0.15
+  - **$1,846** — pool 0x7486FF76, 0.02 → 0.89
+  - **$1,288** — token → 0.62 ETH (pool 0xE0554a47)
+- All alerts include on-chain verification (CID: `bafkreiggebb75dbgsuuoedsnpfe7hcufp3kqysrzwhs5imytyop4vb7a2u`)
+- State cursor advanced to epoch 25159475, 5 new fingerprints added to dedup list
+- Files modified: `memory/powerloom-bds-state.json`, `memory/logs/2026-05-23.md`
