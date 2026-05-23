@@ -1,10 +1,8 @@
-## Summary
+🐋 Whale alert: USDC → ETH  $1,117.76
 
-**Powerloom BDS (whale-radar) — run 9** completed for epoch 25154157.
-
-- **Epoch range**: 25154157 (advanced from 25153808)
-- **Trades scanned**: 10 across 8 Uniswap V3 pools
-- **Whale alerts**: 0 (largest trade was $934.76, below $1,000 threshold)
-- **State updated**: `memory/powerloom-bds-state.json` — cursor moved to 25154157
-- **Log appended**: `memory/logs/2026-05-22.md`
-- **Committed**: `da53605`
+Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
+Epoch: 25154687
+Tx: 0xfbd02732a2b11e3542e61fa02ad7ded6e2cf09713433f627273b761bbdf92d2e
+✅ Verified on-chain
+   cid: bafkreid6ov36jdvrjjk7iev7g2roabmrvvpmdgkovt6oybp24jnavgu3xu
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
