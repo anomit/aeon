@@ -1,0 +1,100 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_batch",
+        "stack_trades",
+        "text_verified",
+        "stack_verification_details"
+      ]
+    },
+    "text_batch": {
+      "type": "Text",
+      "props": {
+        "text": "🐳 Whale alerts (batch): 4 more from epoch 25159810",
+        "variant": "lead"
+      }
+    },
+    "stack_trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_trade_1",
+        "text_trade_2",
+        "text_trade_3"
+      ]
+    },
+    "text_trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "1) ETH → token  $1,122 | pool 0x5aB53E | tx 0x6b5d...3f87",
+        "variant": "body"
+      }
+    },
+    "text_trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "2) ETH → USDC  $3,845 | pool 0xc7bBeC | tx 0xf331...34d7",
+        "variant": "body"
+      }
+    },
+    "text_trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "3) token → USDC  $3,386 | pool 0x565347 | tx 0x42a8...704f",
+        "variant": "body"
+      }
+    },
+    "text_verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "stack_verification_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_cid",
+        "text_project"
+      ]
+    },
+    "text_cid": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreibj3vrixpimkuxt2xnxyyfyvpvtcmao4nvcjlph7g5q4tolkgd2g4",
+        "variant": "caption"
+      }
+    },
+    "text_project": {
+      "type": "Text",
+      "props": {
+        "text": "   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      }
+    }
+  }
+}
