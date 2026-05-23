@@ -1,8 +1,9 @@
-🐋 Whale alert: USDC → ETH  $1,117.76
+## Summary
 
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25154687
-Tx: 0xfbd02732a2b11e3542e61fa02ad7ded6e2cf09713433f627273b761bbdf92d2e
-✅ Verified on-chain
-   cid: bafkreid6ov36jdvrjjk7iev7g2roabmrvvpmdgkovt6oybp24jnavgu3xu
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+- **Epoch processed**: 25155790 (advanced from 25154687)
+- **Trades scanned**: 1 (pool `0x4d68`)
+- **Whale alerts**: 0 — the single trade was $212.61, below the $1,000 threshold
+- **Verification CID**: `bafkreiezfy3gr3lul34bdenegki53xuzj5opf5rcrlm6zj3of4jd6qs4ka`
+- **Status**: POWERLOOM_BDS_OK
+- **Files updated**: `memory/powerloom-bds-state.json`, `memory/logs/2026-05-23.md`, `.bds-cache/epoch_range.txt`
+- **Committed**: `ebf168d` on main
