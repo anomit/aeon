@@ -1,22 +1,8 @@
-🐋 4 whale alerts — Epoch 25156556
+🐋 Whale alert: 5,000.00 → 4,999.87  $5,000.37
 
-🔥 LP Burn on 0xD3e9...29D8 — $10,564
-364,070.67 token0 + 2.04 token1 removed from pool
-Tx: 0x7428b...2e79
-
-🔄 Swap on 0xE055...939F — $1,084
-token1 → 1,082.85 token0
-Tx: 0xa400e...1078
-
-🔄 Swap on 0xa6Cc...93e8 — $6,861
-token1 → 738.89 token0
-Tx: 0x9530a...9a6b
-
-🔄 Swap on 0xc756...dD42 — $6,561
-token1 → 1.46 token0
-Tx: 0x2aae8...f2c6
-
+Pool: 0x970A7749EcAA4394C8B2Bf5F2471F41FD6b79288
+Epoch: 25157077
+Tx: 0x1e051785de5b8e1ec5334459b431035e0e6232c5c53f2539a0ec7023c99b72dc
 ✅ Verified on-chain
-  cid: bafkreifun4ournzd2byndd5vl7owleiwodsicw4a232wbsvp6c3xzcdy6y
-  epoch: 25156556
-  project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+   cid: bafkreibp5mojuyvyheqpoh2foea4nv6tsa5wrwvanxl53czdegnkwxctma
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH

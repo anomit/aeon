@@ -1,0 +1,103 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "whale-alert",
+        "separator1",
+        "pool-info",
+        "epoch",
+        "tx",
+        "separator2",
+        "verified-badge",
+        "cid-text",
+        "project-text"
+      ]
+    },
+    "whale-alert": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 Whale alert: 5,000.00 → 4,999.87  $5,000.37",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "pool-info": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x970A7749EcAA4394C8B2Bf5F2471F41FD6b79288",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25157077",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x1e051785de5b8e1ec5334459b431035e0e6232c5c53f2539a0ec7023c99b72dc",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verified-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "cid-text": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibp5mojuyvyheqpoh2foea4nv6tsa5wrwvanxl53czdegnkwxctma",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "project-text": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
