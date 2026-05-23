@@ -1,8 +1,8 @@
-## Summary
+🐋 Whale alert: 25,237.53 tokens → 0.854 ETH  $1,758.20
 
-**powerloom-bds (run 8)** — Epoch 25158792 (prev: 25158431)
-
-- Scanned 4 trades across 3 pools. Largest was $263.96 — all below the $1,000 whale threshold.
-- 0 alerts dispatched. Cursor advanced to epoch 25158792.
-- State updated in `memory/powerloom-bds-state.json`, log appended to `memory/logs/2026-05-23.md`.
-- Status: POWERLOOM_BDS_OK
+Pool: 0x9C7eD68B00DC4f45243b07Ce71a54A86e8f8FcBB
+Epoch: 25159099
+Tx: 0xeddd76076fba512a4e1125f74ec7ac22a79f02c8c9f3e9c3171dfefc7a31b846
+✅ Verified on-chain
+   cid: bafkreichoadzvd464pr7da3rgp3am5hsewct7vbrmurzjvkdxzdosp5gfu
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
