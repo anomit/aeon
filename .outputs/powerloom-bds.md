@@ -1,19 +1,8 @@
-🐋 Whale alert: 3.0 WETH → 6,354 USDC  $6,345
+## Summary
 
-Pool: 0x11b815efB8f581194ae79006d24E0d814B7697F6
-Epoch: 25163160
-Tx: 0x7eacc7da8b5104c6920d3e07accb78e6bf0579626c29e42be2c81e897846914a
-✅ Verified on-chain
-   cid: bafkreibc7h342n6bjlgp24c5cr66qg7r2o5m2m7hksfhljalwbamidkrqe
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
-
----
-
-🐋 Whale alert: 1,080.7 TOKEN → 0.511 ETH  $1,081
-
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25163160
-Tx: 0xb74e23d0d42094d3a5a8649d671397998581a9641960865e4e571cc56d71fa43
-✅ Verified on-chain
-   cid: bafkreibc7h342n6bjlgp24c5cr66qg7r2o5m2m7hksfhljalwbamidkrqe
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+- **Epoch**: 25164473 (advanced from 25163862)
+- **Trades scanned**: 5 (all Swaps across 5 pools)
+- **Whale alerts**: 0 — largest trade was $550.64 (USDC/TOKEN swap), below the $1,000 threshold
+- **State updated**: `memory/powerloom-bds-state.json` cursor moved to 25164473
+- **Log appended**: `memory/logs/2026-05-24.md`
+- **Status**: POWERLOOM_BDS_OK
