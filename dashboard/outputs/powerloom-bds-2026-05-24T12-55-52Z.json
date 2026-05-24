@@ -1,0 +1,125 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale-alerts-text",
+        "alert-group",
+        "dedup-info",
+        "verification"
+      ]
+    },
+    "whale-alerts-text": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 2 whale alerts (epoch 25165251):"
+      }
+    },
+    "alert-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-1",
+        "alert-2"
+      ]
+    },
+    "alert-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-1",
+        "tx-1"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "$7,828",
+        "value": "0.105 → 0.105",
+        "trend": "neutral"
+      }
+    },
+    "tx-1": {
+      "type": "Text",
+      "props": {
+        "text": "(tx 0x941285…786a8)"
+      }
+    },
+    "alert-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-2",
+        "tx-2"
+      ]
+    },
+    "stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "$1,336",
+        "value": "340.5 → 1,336 USDC",
+        "trend": "up"
+      }
+    },
+    "tx-2": {
+      "type": "Text",
+      "props": {
+        "text": "(tx 0x6a9421…2f39)"
+      }
+    },
+    "dedup-info": {
+      "type": "Text",
+      "props": {
+        "text": "1 deduped (multi-hop swap)."
+      }
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "cid"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreidrtlys…"
+      }
+    }
+  }
+}

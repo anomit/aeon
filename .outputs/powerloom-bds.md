@@ -1,8 +1,1 @@
-🐋 Whale alert: USDC → ETH  $2,764
-
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25164930
-Tx: 0x5e8f066a4c87439ac6daf5382582318d8cbf5e0b2a69e2bcd78eb39835782bf0
-✅ Verified on-chain
-   cid: bafkreigby6z2qbo4znrjeircasmx23oglgw57trgfcjrkn6tbg4zc7dx3i
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+🐋 2 whale alerts (epoch 25165251): $7,828 — 0.105 → 0.105 (tx 0x941285…786a8) and $1,336 — 340.5 → 1,336 USDC (tx 0x6a9421…2f39). 1 deduped (multi-hop swap). ✅ Verified on-chain · cid: bafkreidrtlys…
