@@ -1,0 +1,146 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack-alerts"
+      ]
+    },
+    "stack-alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-1",
+        "separator-1",
+        "alert-2"
+      ]
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "🐋 Whale alert: 3.0 WETH → 6,354 USDC $6,345"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-2": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "🐋 Whale alert: 1,080.7 TOKEN → 0.511 ETH $1,081"
+      },
+      "children": []
+    },
+    "text-pool-1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x11b815efB8f581194ae79006d24E0d814B7697F6",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch-1": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25163160",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tx-1": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x7eacc7da8b5104c6920d3e07accb78e6bf0579626c29e42be2c81e897846914a",
+        "href": "0x7eacc7da8b5104c6920d3e07accb78e6bf0579626c29e42be2c81e897846914a"
+      },
+      "children": []
+    },
+    "text-status-1": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-cid-1": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibc7h342n6bjlgp24c5cr66qg7r2o5m2m7hksfhljalwbamidkrqe",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-project-1": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-pool-2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch-2": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25163160",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tx-2": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0xb74e23d0d42094d3a5a8649d671397998581a9641960865e4e571cc56d71fa43",
+        "href": "0xb74e23d0d42094d3a5a8649d671397998581a9641960865e4e571cc56d71fa43"
+      },
+      "children": []
+    },
+    "text-status-2": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-cid-2": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibc7h342n6bjlgp24c5cr66qg7r2o5m2m7hksfhljalwbamidkrqe",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-project-2": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
