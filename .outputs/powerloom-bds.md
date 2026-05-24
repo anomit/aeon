@@ -1,8 +1,7 @@
-🐋 Whale alert: Mint (LP provision) $4,285.83
+## Summary
 
-Pool: 0x24EE2c6B9597F035088CDa8575E9D5e15a84B9DF
-Epoch: 25166419
-Tx: 0xaa862fbdd2c210bff6bfd4b4420a7cbb9248631f62ed88c47b06f5abfe4e1ec5
-✅ Verified on-chain
-   cid: bafkreicmhj5ijwandebhme3tq72cb7edni5huhrnjkzilddsobn72gjpbe
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+- **Epoch processed**: 25166726 (advanced from 25166419)
+- **Trades scanned**: 7 swaps across 6 pools
+- **Whale alerts**: 0 — largest trade was $623.37 (pool `0xE0554a476A...`), below the $1,000 threshold
+- **State updated**: `memory/powerloom-bds-state.json` — cursor moved to 25166726, 5 new fingerprints added to dedup list
+- **Log appended**: `memory/logs/2026-05-24.md` with POWERLOOM_BDS_OK entry
