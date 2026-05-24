@@ -1,0 +1,78 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale alert: Mint (LP provision) $4,285.83"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "pool-text",
+        "epoch-text",
+        "tx-text",
+        "cid-text",
+        "project-text"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "pool-text": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x24EE2c6B9597F035088CDa8575E9D5e15a84B9DF",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch-text": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25166419",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx-text": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xaa862fbdd2c210bff6bfd4b4420a7cbb9248631f62ed88c47b06f5abfe4e1ec5",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cid-text": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreicmhj5ijwandebhme3tq72cb7edni5huhrnjkzilddsobn72gjpbe",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "project-text": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

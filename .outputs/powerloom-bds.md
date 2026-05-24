@@ -1,8 +1,8 @@
-🐋 Whale alert: 28.98 tokens → 1.11 ETH  $2,327
+🐋 Whale alert: Mint (LP provision) $4,285.83
 
 Pool: 0x24EE2c6B9597F035088CDa8575E9D5e15a84B9DF
-Epoch: 25166099
-Tx: 0x5bab0abcd3c750de235e8e1dc4015e65471b997e0c50cfbd48b3b0d4ff02fb40
+Epoch: 25166419
+Tx: 0xaa862fbdd2c210bff6bfd4b4420a7cbb9248631f62ed88c47b06f5abfe4e1ec5
 ✅ Verified on-chain
-   cid: bafkreidbofcezop5tcfsdsbavvdeewox7vc5jp7cjjpkln7jvad32b5wri
+   cid: bafkreicmhj5ijwandebhme3tq72cb7edni5huhrnjkzilddsobn72gjpbe
    project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
