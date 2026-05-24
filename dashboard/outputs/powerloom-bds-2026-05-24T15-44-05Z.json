@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "alert",
+        "content",
+        "separator",
+        "details"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info"
+      },
+      "children": [
+        "alertText"
+      ]
+    },
+    "alertText": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 Whale alert: 28.98 tokens → 1.11 ETH  $2,327"
+      }
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat",
+        "transaction"
+      ]
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Transaction Value",
+        "value": "$2,327"
+      }
+    },
+    "transaction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pool",
+        "epoch",
+        "tx"
+      ]
+    },
+    "pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x24EE2c6B9597F035088CDa8575E9D5e15a84B9DF"
+      }
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25166099"
+      }
+    },
+    "tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x5bab0abcd3c750de235e8e1dc4015e65471b997e0c50cfbd48b3b0d4ff02fb40"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verified",
+        "cid",
+        "project"
+      ]
+    },
+    "verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain"
+      }
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreidbofcezop5tcfsdsbavvdeewox7vc5jp7cjjpkln7jvad32b5wri"
+      }
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      }
+    }
+  }
+}
