@@ -1,11 +1,21 @@
-Epoch range already matches — no update needed.
+🐋 4 whale trades detected — Epoch 25167743
 
-## Summary
+1. 0.50 WETH → 1,048.31 USDC ($1,046.91)
+   Pool: 0x11b815efB8f581194ae79006d24E0d814B7697F6
+   Tx: 0xe1ba820753d1163413adece78c74031dea14861290fafd4d6adcfa41e52492fd
 
-**powerloom-bds** (whale-radar mode) — Epoch 25167411 processed.
+2. 20,998.49 USDC → 21,000.00 DAI ($21,000.53)
+   Pool: 0x5777d92f208679DB4b9778590Fa3CAB3aC9e2168
+   Tx: 0xa1cfc30267117483dfd57f5d77f8b845004b48f7cefe51421028dedc7b48b5c7
 
-- **Trades scanned**: 1 swap in USDC/WETH 0.05% pool (0x88e6)
-- **Whale alerts**: 0 — single trade was $499.65, below $1,000 threshold
-- **State updated**: `lastStreamEpoch` advanced from 25167065 → 25167411, fingerprint recorded
-- **Files modified**: `memory/powerloom-bds-state.json`, `memory/logs/2026-05-24.md`
-- **Status**: POWERLOOM_BDS_OK
+3. 1.43 WETH → 2,994.76 USDC ($2,997.02)
+   Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
+   Tx: 0x5e2f59e453447c23255e1965df90df3565cb0dba993c008ee4366027a61f27c9
+
+4. 0.82 WETH → 1,727.27 USDC ($1,725.42)
+   Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b
+   Tx: 0x5c2981f187a3f898cf2537b73d9f5fef1678e12d6367548e205ea58a5aa63884
+
+✅ Verified on-chain
+   cid: bafkreigr4dvd5e3lqarlydbcjjix54gvppqmwhdepnbld4ggzasz533gbu
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH

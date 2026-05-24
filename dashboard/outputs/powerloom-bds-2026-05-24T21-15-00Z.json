@@ -1,0 +1,169 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "4 whale trades detected — Epoch 25167743"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "separator",
+        "verification"
+      ]
+    },
+    "trade1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade1text",
+        "tx1"
+      ]
+    },
+    "trade1text": {
+      "type": "Text",
+      "props": {
+        "text": "1. 0.50 WETH → 1,048.31 USDC ($1,046.91)\n   Pool: 0x11b815efB8f581194ae79006d24E0d814B7697F6",
+        "variant": "body"
+      }
+    },
+    "tx1": {
+      "type": "Link",
+      "props": {
+        "label": "0xe1ba8207...",
+        "href": "https://etherscan.io/tx/0xe1ba820753d1163413adece78c74031dea14861290fafd4d6adcfa41e52492fd"
+      }
+    },
+    "trade2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade2text",
+        "tx2"
+      ]
+    },
+    "trade2text": {
+      "type": "Text",
+      "props": {
+        "text": "2. 20,998.49 USDC → 21,000.00 DAI ($21,000.53)\n   Pool: 0x5777d92f208679DB4b9778590Fa3CAB3aC9e2168",
+        "variant": "body"
+      }
+    },
+    "tx2": {
+      "type": "Link",
+      "props": {
+        "label": "0xa1cfc302...",
+        "href": "https://etherscan.io/tx/0xa1cfc30267117483dfd57f5d77f8b845004b48f7cefe51421028dedc7b48b5c7"
+      }
+    },
+    "trade3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade3text",
+        "tx3"
+      ]
+    },
+    "trade3text": {
+      "type": "Text",
+      "props": {
+        "text": "3. 1.43 WETH → 2,994.76 USDC ($2,997.02)\n   Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      }
+    },
+    "tx3": {
+      "type": "Link",
+      "props": {
+        "label": "0x5e2f59e4...",
+        "href": "https://etherscan.io/tx/0x5e2f59e453447c23255e1965df90df3565cb0dba993c008ee4366027a61f27c9"
+      }
+    },
+    "trade4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade4text",
+        "tx4"
+      ]
+    },
+    "trade4text": {
+      "type": "Text",
+      "props": {
+        "text": "4. 0.82 WETH → 1,727.27 USDC ($1,725.42)\n   Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      }
+    },
+    "tx4": {
+      "type": "Link",
+      "props": {
+        "label": "0x5c2981f1...",
+        "href": "https://etherscan.io/tx/0x5c2981f187a3f898cf2537b73d9f5fef1678e12d6367548e205ea58a5aa63884"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verified",
+        "cid",
+        "project"
+      ]
+    },
+    "verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreigr4dvd5e3lqarlydbcjjix54gvppqmwhdepnbld4ggzasz533gbu",
+        "variant": "caption"
+      }
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      }
+    }
+  }
+}
