@@ -1,17 +1,25 @@
-🐋 3 whale alerts — Epoch 25168049
+🐳 Whale Alert Batch — Epoch 25168373 (7 trades ≥ $1,000)
 
-🐋 5,185 USDC → 2.47 WETH ($5,185)
-Pool: 0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640
-Tx: 0xedce0129204a1ece47282e772f0f0124478c3240e5d3fdcdfe1f2622d6985325
+1. $12,239 — ETH → USDC (5.84 ETH)
+   Pool: 0x88e6…5640 | Tx: 0xf414…bff5
 
-🐋 4,979 token0 → 4,982 token1 ($3,456)
-Pool: 0x73A38006d23517a1d383C88929B2014F8835B38B
-Tx: 0xe83cd736261bcd05b491de6098133b59aac97247324db4e053c60161bc8e7469
+2. $3,413 — Swap on 0x9Db9…425B
+   Tx: 0x5b39…48e2
 
-🐋 1,932 USDC → 0.92 WETH ($1,932)
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Tx: 0x98819c5706d7a5a73934d5587a2f7bf0d389e60063aaa3ad15fc050e1276c8a5
+3. $2,418 — ETH → USDC (1.16 ETH)
+   Pool: 0xE055…939F | Tx: 0x1928…0f7f
 
-✅ Verified on-chain
-   cid: bafkreieykq2cde2nsiubqqdr43yif3wrb37rhypdtpr6gos3n2bg5r2bti
-   project: allTradesSnapshot:0x4198Bf81...3f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+4. $1,399 — Swap on 0xc7bB…0e9b
+   Tx: 0x29f2…52a3
+
+5. $1,338 — Swap on 0xc7bB…0e9b
+   Tx: 0xe481…de33
+
+6. $1,241 — Swap on 0x4548…aE49
+   Tx: 0x2ccd…fb24
+
+7. $1,003 — Swap on 0x5aE1…4082
+   Tx: 0xccbb…0334
+
+✅ Verified on-chain | cid: bafkreiaeygsjlatlcjdv7xj33rvwjfwx66zmdmfk5wx2ojir5prgvxsmlu
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH

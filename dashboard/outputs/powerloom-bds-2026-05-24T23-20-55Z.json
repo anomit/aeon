@@ -1,0 +1,123 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 Whale Alert Batch"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "badge1",
+        "grid1",
+        "text1",
+        "text2"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Epoch 25168373 (7 trades ≥ $1,000)"
+      },
+      "children": []
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "7 trades",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "grid1": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5",
+        "trade6",
+        "trade7"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "$12,239 — ETH → USDC (5.84 ETH)"
+      },
+      "children": []
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "$3,413 — Swap on 0x9Db9…425B"
+      },
+      "children": []
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "$2,418 — ETH → USDC (1.16 ETH)"
+      },
+      "children": []
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "$1,399 — Swap on 0xc7bB…0e9b"
+      },
+      "children": []
+    },
+    "trade5": {
+      "type": "Text",
+      "props": {
+        "text": "$1,338 — Swap on 0xc7bB…0e9b"
+      },
+      "children": []
+    },
+    "trade6": {
+      "type": "Text",
+      "props": {
+        "text": "$1,241 — Swap on 0x4548…aE49"
+      },
+      "children": []
+    },
+    "trade7": {
+      "type": "Text",
+      "props": {
+        "text": "$1,003 — Swap on 0x5aE1…4082"
+      },
+      "children": []
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain | cid: bafkreiaeygsjlatlcjdv7xj33rvwjfwx66zmdmfk5wx2ojir5prgvxsmlu"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      },
+      "children": []
+    }
+  }
+}
