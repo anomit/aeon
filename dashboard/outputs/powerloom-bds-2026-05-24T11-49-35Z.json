@@ -1,0 +1,83 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Alert: USDC → ETH $2,764",
+        "description": "Large cryptocurrency transaction detected and verified"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pool-info",
+        "epoch-info",
+        "tx-info",
+        "verification",
+        "project-info"
+      ]
+    },
+    "pool-info": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      }
+    },
+    "epoch-info": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25164930",
+        "variant": "body"
+      }
+    },
+    "tx-info": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x5e8f066a4c87439ac6daf5382582318d8cbf5e0b2a69e2bcd78eb39835782bf0",
+        "variant": "body"
+      }
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "type": "success"
+      }
+    },
+    "project-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid-info",
+        "project-name"
+      ]
+    },
+    "cid-info": {
+      "type": "Text",
+      "props": {
+        "text": "   CID: bafkreigby6z2qbo4znrjeircasmx23oglgw57trgfcjrkn6tbg4zc7dx3i",
+        "variant": "caption"
+      }
+    },
+    "project-name": {
+      "type": "Text",
+      "props": {
+        "text": "   Project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      }
+    }
+  }
+}
