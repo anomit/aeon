@@ -1,47 +1,133 @@
 {
   "epoch": {
-    "begin": 25163864,
-    "end": 25163864
+    "begin": 25163862,
+    "end": 25163862
   },
   "tradeData": {
-    "0x4d68B530920D26c3b01C99fecC19e21011B72bBD": {
-      "address": "0x4d68B530920D26c3b01C99fecC19e21011B72bBD",
+    "0x3198CA64EBfF6d008860f2c450CfCBf1fAaC7677": {
+      "address": "0x3198CA64EBfF6d008860f2c450CfCBf1fAaC7677",
       "epoch": {
-        "begin": 25163864,
-        "end": 25163864
+        "begin": 25163862,
+        "end": 25163862
       },
       "trades": [
         {
           "tradeType": "Swap",
           "log": {
-            "_score": 25163864000066,
-            "address": "0x4d68b530920d26c3b01c99fecc19e21011b72bbd",
-            "blockNumber": 25163864,
-            "data": "0x0000000000000000000000000000000000000000000000c303f70518bb15c100fffffffffffffffffffffffffffffffffffffffffffffffffffffffff91d7aa1000000000000000000000000000000000000000000000301c684305813d6a6aa000000000000000000000000000000000000000000000000718b23725c4804e5fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb424c",
+            "_score": 25163862000065,
+            "address": "0x3198ca64ebff6d008860f2c450cfcbf1faac7677",
+            "blockNumber": 25163862,
+            "data": "0xffffffffffffffffffffffffffffffffffffffffffffffc02a9b615049e113f30000000000000000000000000000000000000000000000000000000002911788000000000000000000000000000000000000000000000335cc74f8fa140201d6000000000000000000000000000000000000000000000000029f8be432a16bdefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb4768",
             "eventName": "Swap",
             "filterName": "uniswapv3_pool_events",
-            "logIndex": 178,
+            "logIndex": 325,
             "topics": [
               "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
               "0x000000000000000000000000278d858f05b94576c1e6f73285886876ff6ef8d2",
               "0x000000000000000000000000278d858f05b94576c1e6f73285886876ff6ef8d2"
             ],
-            "transactionHash": "0x9b1b94c2d798ba1e61132a5d0fc31eb0ef430af6103c3b2c02b869934f6b70e7",
-            "transactionIndex": 66
+            "transactionHash": "0x4fb2ba84a26445a2572bf0cf4e5773b006c7d02ae4157bb9ef829c3d41e99b2f",
+            "transactionIndex": 65
           },
           "data": {
-            "amount0": 3597400797078500000000,
-            "amount1": -115508575,
-            "block_timestamp": 1779610223,
+            "amount0": -1177521466148963413005,
+            "amount1": 43063176,
+            "block_timestamp": 1779610199,
             "calculated_eth_price": 2118.3996141880784,
-            "calculated_token0_amount": 3597.4007970785,
-            "calculated_token1_amount": 115.508575,
-            "calculated_trade_amount_usd": 107.39800939959622,
-            "liquidity": 8181672122130105573,
+            "calculated_token0_amount": 1177.5214661489633,
+            "calculated_token1_amount": 43.063176,
+            "calculated_trade_amount_usd": 43.11019307947319,
+            "liquidity": 189023521591094238,
             "recipient": "0x278d858f05b94576C1E6f73285886876ff6eF8D2",
             "sender": "0x278d858f05b94576C1E6f73285886876ff6eF8D2",
-            "sqrtPriceX96": 14199850804153928820394,
-            "tick": -310708
+            "sqrtPriceX96": 15159509558549538800086,
+            "tick": -309400
+          }
+        }
+      ],
+      "previousSnapshots": []
+    },
+    "0x4B2C930F88a87D1BfFaC291b6a7e01c9F13dD03e": {
+      "address": "0x4B2C930F88a87D1BfFaC291b6a7e01c9F13dD03e",
+      "epoch": {
+        "begin": 25163862,
+        "end": 25163862
+      },
+      "trades": [
+        {
+          "tradeType": "Swap",
+          "log": {
+            "_score": 25163862000036,
+            "address": "0x4b2c930f88a87d1bffac291b6a7e01c9f13dd03e",
+            "blockNumber": 25163862,
+            "data": "0xfffffffffffffffffffffffffffffffffffffffffffff1242563c1ac8d050f1800000000000000000000000000000000000000000000000000da8e255f8f0ba50000000000000000000000000000000000000000003d0e5a7e5fb5b10ea7669100000000000000000000000000000000000000000004967fcea78d3e34a37080fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffddec5",
+            "eventName": "Swap",
+            "filterName": "uniswapv3_pool_events",
+            "logIndex": 62,
+            "topics": [
+              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+              "0x0000000000000000000000007f54f05635d15cde17a49502fedb9d1803a3be8a",
+              "0x0000000000000000000000007f54f05635d15cde17a49502fedb9d1803a3be8a"
+            ],
+            "transactionHash": "0xb0da8707af35d727cebaec5382d9f2a1ba537359f6ac10ceb15c5d50dfe53690",
+            "transactionIndex": 36
+          },
+          "data": {
+            "amount0": -70168720246442192204008,
+            "amount1": 61517836091067301,
+            "block_timestamp": 1779610199,
+            "calculated_eth_price": 2118.3996141880784,
+            "calculated_token0_amount": 70168.72024644219,
+            "calculated_token1_amount": 0.0615178360910673,
+            "calculated_trade_amount_usd": 130.3193602410024,
+            "liquidity": 5546415878412315828383872,
+            "recipient": "0x7f54F05635d15Cde17A49502fEdB9D1803A3Be8A",
+            "sender": "0x7f54F05635d15Cde17A49502fEdB9D1803A3Be8A",
+            "sqrtPriceX96": 73812257440415932175836817,
+            "tick": -139579
+          }
+        }
+      ],
+      "previousSnapshots": []
+    },
+    "0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83": {
+      "address": "0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83",
+      "epoch": {
+        "begin": 25163862,
+        "end": 25163862
+      },
+      "trades": [
+        {
+          "tradeType": "Swap",
+          "log": {
+            "_score": 25163862000006,
+            "address": "0x5d4f3c6fa16908609bac31ff148bd002aa6b8c83",
+            "blockNumber": 25163862,
+            "data": "0x0000000000000000000000000000000000000000000000052f7ec1e69880c000fffffffffffffffffffffffffffffffffffffffffffffffffa05aaf082ca33c80000000000000000000000000000000000000000112e50c54a71be0006ba1aa3000000000000000000000000000000000000000000000509e3735da2b4846a4fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff2cf1",
+            "eventName": "Swap",
+            "filterName": "uniswapv3_pool_events",
+            "logIndex": 29,
+            "topics": [
+              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+              "0x00000000000000000000000051c72848c68a965f66fa7a88855f9f7784502a7f",
+              "0x00000000000000000000000051c72848c68a965f66fa7a88855f9f7784502a7f"
+            ],
+            "transactionHash": "0xed8b8e78b1cb370fde5be3e82c841cb237962fa32c092710668addff097ebfe8",
+            "transactionIndex": 6
+          },
+          "data": {
+            "amount0": 95656106331541127168,
+            "amount1": -430750239380851768,
+            "block_timestamp": 1779610199,
+            "calculated_eth_price": 2118.3996141880784,
+            "calculated_token0_amount": 95.65610633154112,
+            "calculated_token1_amount": 0.4307502393808518,
+            "calculated_trade_amount_usd": 912.7114239038854,
+            "liquidity": 23794242657433938061903,
+            "recipient": "0x51C72848c68a965f66FA7a88855F9f7784502a7F",
+            "sender": "0x51C72848c68a965f66FA7a88855F9f7784502a7F",
+            "sqrtPriceX96": 5317237183356628741253634723,
+            "tick": -54031
           }
         }
       ],
@@ -50,203 +136,203 @@
     "0xE0554a476A092703abdB3Ef35c80e0D76d32939F": {
       "address": "0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
       "epoch": {
-        "begin": 25163864,
-        "end": 25163864
+        "begin": 25163862,
+        "end": 25163862
       },
       "trades": [
         {
           "tradeType": "Swap",
           "log": {
-            "_score": 25163864000073,
+            "_score": 25163862000003,
             "address": "0xe0554a476a092703abdb3ef35c80e0d76d32939f",
-            "blockNumber": 25163864,
-            "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffec31edb8000000000000000000000000000000000000000000000000022d6bb7fd42400000000000000000000000000000000000000054e147c90050fe202933b480997f0000000000000000000000000000000000000000000000000864f60d907a397f0000000000000000000000000000000000000000000000000000000000030c3a",
+            "blockNumber": 25163862,
+            "data": "0x00000000000000000000000000000000000000000000000000000000000c5f38fffffffffffffffffffffffffffffffffffffffffffffffffffea3e4ca53010700000000000000000000000000000000000054dff3ad1704781dd06a9591b5760000000000000000000000000000000000000000000000000864f60d907a397f0000000000000000000000000000000000000000000000000000000000030c39",
             "eventName": "Swap",
             "filterName": "uniswapv3_pool_events",
-            "logIndex": 199,
+            "logIndex": 21,
             "topics": [
               "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x00000000000000000000000066a9893cc07d91d95644aedd05d03f95e1dba8af",
-              "0x00000000000000000000000066a9893cc07d91d95644aedd05d03f95e1dba8af"
+              "0x0000000000000000000000008a1a18a7a13253dc17148a4aba1760af291c5965",
+              "0x000000000000000000000000ca29358a0bbf2f1d6ae0911c3bc839623a3ee4a7"
             ],
-            "transactionHash": "0x34c136c10560e096908df9dfee1b4bef2510d905f7b04a8339435f8d032253a5",
-            "transactionIndex": 73
+            "transactionHash": "0xa967bc4d26c735d57b3ccfc8bea1ad401ab4e4d0ddc7a66a2f8ab8b8cf03f15b",
+            "transactionIndex": 3
           },
           "data": {
-            "amount0": -332272200,
-            "amount1": 156900000000000000,
-            "block_timestamp": 1779610223,
+            "amount0": 810808,
+            "amount1": -382746911112953,
+            "block_timestamp": 1779610199,
             "calculated_eth_price": 2118.3996141880784,
-            "calculated_token0_amount": 332.2722,
-            "calculated_token1_amount": 0.1569,
-            "calculated_trade_amount_usd": 332.37689946610953,
+            "calculated_token0_amount": 0.810808,
+            "calculated_token1_amount": 0.000382746911112953,
+            "calculated_trade_amount_usd": 0.8108109088333584,
             "liquidity": 604878788093426047,
-            "recipient": "0x66a9893cC07D91D95644AEDD05D03f95e1dBA8Af",
-            "sender": "0x66a9893cC07D91D95644AEDD05D03f95e1dBA8Af",
-            "sqrtPriceX96": 1721570959703730900817743773211007,
-            "tick": 199738
-          }
-        }
-      ],
-      "previousSnapshots": []
-    },
-    "0xFAD57d2039C21811C8F2B5D5B65308aa99D31559": {
-      "address": "0xFAD57d2039C21811C8F2B5D5B65308aa99D31559",
-      "epoch": {
-        "begin": 25163864,
-        "end": 25163864
-      },
-      "trades": [
-        {
-          "tradeType": "Swap",
-          "log": {
-            "_score": 25163864000023,
-            "address": "0xfad57d2039c21811c8f2b5d5b65308aa99d31559",
-            "blockNumber": 25163864,
-            "data": "0x000000000000000000000000000000000000000000000000edaad6049740f680fffffffffffffffffffffffffffffffffffffffffffffffffffffffff643c9180000000000000000000000000000000000000000000033e2b9e9d9b655fed5cd00000000000000000000000000000000000000000000000004ce5384b45b8d34fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc20d1",
-            "eventName": "Swap",
-            "filterName": "uniswapv3_pool_events",
-            "logIndex": 39,
-            "topics": [
-              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x000000000000000000000000bdb3ba9ffe392549e1f8658dd2630c141fdf47b6",
-              "0x000000000000000000000000bdb3ba9ffe392549e1f8658dd2630c141fdf47b6"
-            ],
-            "transactionHash": "0x6048d99e0e546b948fc0491fe2ac9c3410e1782765058ebf8f4335b1584da250",
-            "transactionIndex": 23
-          },
-          "data": {
-            "amount0": 17125735848235562624,
-            "amount1": -163329768,
-            "block_timestamp": 1779610223,
-            "calculated_eth_price": 2118.3996141880784,
-            "calculated_token0_amount": 17.125735848235564,
-            "calculated_token1_amount": 163.329768,
-            "calculated_trade_amount_usd": 163.79625246992865,
-            "liquidity": 346306050780794164,
-            "recipient": "0xBdb3ba9ffe392549E1f8658DD2630c141fDF47B6",
-            "sender": "0xBdb3ba9ffe392549E1f8658DD2630c141fDF47B6",
-            "sqrtPriceX96": 245023051264954004854221,
-            "tick": -253743
-          }
-        }
-      ],
-      "previousSnapshots": []
-    },
-    "0xFbB81382CCe6b9cE58F8645353F70d9DB1bB69af": {
-      "address": "0xFbB81382CCe6b9cE58F8645353F70d9DB1bB69af",
-      "epoch": {
-        "begin": 25163864,
-        "end": 25163864
-      },
-      "trades": [
-        {
-          "tradeType": "Swap",
-          "log": {
-            "_score": 25163864000069,
-            "address": "0xfbb81382cce6b9ce58f8645353f70d9db1bb69af",
-            "blockNumber": 25163864,
-            "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffff62bb3807d79d1b00000000000000000000000000000000000000000000001e8d894ceb87602d000000000000000000000000000000000000000070ab73978aa13e194c8705f9e8000000000000000000000000000000000000000000000f8333ccd976c9a90f57000000000000000000000000000000000000000000000000000000000001711d",
-            "eventName": "Swap",
-            "filterName": "uniswapv3_pool_events",
-            "logIndex": 189,
-            "topics": [
-              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x000000000000000000000000278d858f05b94576c1e6f73285886876ff6ef8d2",
-              "0x000000000000000000000000278d858f05b94576c1e6f73285886876ff6ef8d2"
-            ],
-            "transactionHash": "0xb159cfc55b0b85cd97edb188be740b928b0bf15fb1c21f9c0c26dcf3215f0408",
-            "transactionIndex": 69
-          },
-          "data": {
-            "amount0": -44267196996149989,
-            "amount1": 563601089616916000000,
-            "block_timestamp": 1779610223,
-            "calculated_eth_price": 2118.3996141880784,
-            "calculated_token0_amount": 0.04426719699614999,
-            "calculated_token1_amount": 563.601089616916,
-            "calculated_trade_amount_usd": 94.05138296602681,
-            "liquidity": 73255753313996025433943,
-            "recipient": "0x278d858f05b94576C1E6f73285886876ff6eF8D2",
-            "sender": "0x278d858f05b94576C1E6f73285886876ff6eF8D2",
-            "sqrtPriceX96": 8926615880380919846977432582632,
-            "tick": 94493
-          }
-        }
-      ],
-      "previousSnapshots": []
-    },
-    "0xe76532bae172876B6c7170Ce02309715502c360B": {
-      "address": "0xe76532bae172876B6c7170Ce02309715502c360B",
-      "epoch": {
-        "begin": 25163864,
-        "end": 25163864
-      },
-      "trades": [
-        {
-          "tradeType": "Swap",
-          "log": {
-            "_score": 25163864000060,
-            "address": "0xe76532bae172876b6c7170ce02309715502c360b",
-            "blockNumber": 25163864,
-            "data": "0xfffffffffffffffffffffffffffffffffffffffffffffffe9db4206edd5ab6d6000000000000000000000000000000000000000000000000000000000049185a000000000000000000000000000000000000000000000741b987ffa78228e837000000000000000000000000000000000000000000000000028d9ad31edd2729fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb8721",
-            "eventName": "Swap",
-            "filterName": "uniswapv3_pool_events",
-            "logIndex": 160,
-            "topics": [
-              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45",
-              "0x000000000000000000000000d63920a336f325ddc293830a1840f4d894d6e935"
-            ],
-            "transactionHash": "0x5a3c2a2eb9cdebefc8ef9f01b6b4babfe4373c844057e1377f181d00565f2b74",
-            "transactionIndex": 60
-          },
-          "data": {
-            "amount0": -25529744727124298026,
-            "amount1": 4790362,
-            "block_timestamp": 1779610223,
-            "calculated_eth_price": 2118.3996141880784,
-            "calculated_token0_amount": 25.5297447271243,
-            "calculated_token1_amount": 4.790362,
-            "calculated_trade_amount_usd": 4.790362,
-            "liquidity": 183973391338645289,
-            "recipient": "0xd63920a336F325dDc293830A1840f4d894D6E935",
-            "sender": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
-            "sqrtPriceX96": 34268972679992418297911,
-            "tick": -293087
+            "recipient": "0xca29358a0BBF2F1D6ae0911C3bC839623A3eE4a7",
+            "sender": "0x8A1a18A7a13253dC17148A4AbA1760Af291C5965",
+            "sqrtPriceX96": 1721465701057671514462988503463286,
+            "tick": 199737
           }
         },
         {
           "tradeType": "Swap",
           "log": {
-            "_score": 25163864000062,
-            "address": "0xe76532bae172876b6c7170ce02309715502c360b",
-            "blockNumber": 25163864,
-            "data": "0x00000000000000000000000000000000000000000000000b8a31a00ac0979bfefffffffffffffffffffffffffffffffffffffffffffffffffffffffffda26f85000000000000000000000000000000000000000000000740cc58f063bba8318c000000000000000000000000000000000000000000000000028d9ad31edd2729fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb8717",
+            "_score": 25163862000061,
+            "address": "0xe0554a476a092703abdb3ef35c80e0d76d32939f",
+            "blockNumber": 25163862,
+            "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffc51713630000000000000000000000000000000000000000000000000679ec74ffd6030500000000000000000000000000000000000054e0b9290fdf004313a810829fdd0000000000000000000000000000000000000000000000000864f60d907a397f0000000000000000000000000000000000000000000000000000000000030c39",
             "eventName": "Swap",
             "filterName": "uniswapv3_pool_events",
-            "logIndex": 167,
+            "logIndex": 315,
             "topics": [
               "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
-              "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45",
-              "0x00000000000000000000000087095ed2b1f6736861ee833730f1703f0c587506"
+              "0x000000000000000000000000bdb3ba9ffe392549e1f8658dd2630c141fdf47b6",
+              "0x000000000000000000000000bdb3ba9ffe392549e1f8658dd2630c141fdf47b6"
             ],
-            "transactionHash": "0xc8ca780abc8ce42ef4259552211010863afbfe4a48f1bcd0eb70d24d4c3f7072",
-            "transactionIndex": 62
+            "transactionHash": "0xde9fed4e7f7629cd2225aaf8b7228bf55f3f47af0cbc81043570c865873126be",
+            "transactionIndex": 61
           },
           "data": {
-            "amount0": 212872101029939223550,
-            "amount1": -39686267,
-            "block_timestamp": 1779610223,
+            "amount0": -988343453,
+            "amount1": 466664023662134021,
+            "block_timestamp": 1779610199,
             "calculated_eth_price": 2118.3996141880784,
-            "calculated_token0_amount": 212.87210102993922,
-            "calculated_token1_amount": 39.686267,
-            "calculated_trade_amount_usd": 39.78583269485131,
-            "liquidity": 183973391338645289,
-            "recipient": "0x87095Ed2B1F6736861ee833730F1703f0c587506",
-            "sender": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
-            "sqrtPriceX96": 34251881784097756426636,
-            "tick": -293097
+            "calculated_token0_amount": 988.343453,
+            "calculated_token1_amount": 0.466664023662134,
+            "calculated_trade_amount_usd": 988.580887681321,
+            "liquidity": 604878788093426047,
+            "recipient": "0xBdb3ba9ffe392549E1f8658DD2630c141fDF47B6",
+            "sender": "0xBdb3ba9ffe392549E1f8658DD2630c141fDF47B6",
+            "sqrtPriceX96": 1721526819477660220321951100608477,
+            "tick": 199737
+          }
+        }
+      ],
+      "previousSnapshots": []
+    },
+    "0xE6D7EbB9f1a9519dc06D557e03C522d53520e76A": {
+      "address": "0xE6D7EbB9f1a9519dc06D557e03C522d53520e76A",
+      "epoch": {
+        "begin": 25163862,
+        "end": 25163862
+      },
+      "trades": [
+        {
+          "tradeType": "Swap",
+          "log": {
+            "_score": 25163862000037,
+            "address": "0xe6d7ebb9f1a9519dc06d557e03c522d53520e76a",
+            "blockNumber": 25163862,
+            "data": "0x0000000000000000000000000000000000000000000000022f42e3295b65d74ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd9960180000000000000000000000000000000000000000000010c62b9cf82da2c471fe000000000000000000000000000000000000000000000109a7c571d937b5d848fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbc898",
+            "eventName": "Swap",
+            "filterName": "uniswapv3_pool_events",
+            "logIndex": 74,
+            "topics": [
+              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+              "0x0000000000000000000000001f8db310f32d48b6180ff902ec60c586128cef47",
+              "0x0000000000000000000000001f8db310f32d48b6180ff902ec60c586128cef47"
+            ],
+            "transactionHash": "0xb364b63b1eda158a7263b30f7f935d87557f1af240c2ea54adfbb449aa14ec90",
+            "transactionIndex": 37
+          },
+          "data": {
+            "amount0": 40299022182431184719,
+            "amount1": -40280040,
+            "block_timestamp": 1779610199,
+            "calculated_eth_price": 2118.3996141880784,
+            "calculated_token0_amount": 40.29902218243119,
+            "calculated_token1_amount": 40.28004,
+            "calculated_trade_amount_usd": 40.28406858577489,
+            "liquidity": 4900476373485533648968,
+            "recipient": "0x1f8dB310f32D48B6180fF902EC60C586128cEf47",
+            "sender": "0x1f8dB310f32D48B6180fF902EC60C586128cEf47",
+            "sqrtPriceX96": 79213461712023700402686,
+            "tick": -276328
+          }
+        }
+      ],
+      "previousSnapshots": []
+    },
+    "0xac5A2c404EbBa22a869998089AC7893ff4E1F0a7": {
+      "address": "0xac5A2c404EbBa22a869998089AC7893ff4E1F0a7",
+      "epoch": {
+        "begin": 25163862,
+        "end": 25163862
+      },
+      "trades": [
+        {
+          "tradeType": "Swap",
+          "log": {
+            "_score": 25163862000008,
+            "address": "0xac5a2c404ebba22a869998089ac7893ff4e1f0a7",
+            "blockNumber": 25163862,
+            "data": "0x000000000000000000000000000000000000000000000003210563c77cb38000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffdf28527e0000000000000000000000000000000000000000000033e9273a5e4eafa472e7000000000000000000000000000000000000000000000000113dcf05e6f64a7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc20db",
+            "eventName": "Swap",
+            "filterName": "uniswapv3_pool_events",
+            "logIndex": 35,
+            "topics": [
+              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+              "0x00000000000000000000000051c72848c68a965f66fa7a88855f9f7784502a7f",
+              "0x00000000000000000000000051c72848c68a965f66fa7a88855f9f7784502a7f"
+            ],
+            "transactionHash": "0xd80f94ce1a34129613f2a1d86243ec4034bfa9a490e36ac10c578c15315f11a3",
+            "transactionIndex": 8
+          },
+          "data": {
+            "amount0": 57719649907705610240,
+            "amount1": -551005570,
+            "block_timestamp": 1779610199,
+            "calculated_eth_price": 2118.3996141880784,
+            "calculated_token0_amount": 57.71964990770561,
+            "calculated_token1_amount": 551.00557,
+            "calculated_trade_amount_usd": 551.3863398129469,
+            "liquidity": 1242376696480811647,
+            "recipient": "0x51C72848c68a965f66FA7a88855F9f7784502a7F",
+            "sender": "0x51C72848c68a965f66FA7a88855F9f7784502a7F",
+            "sqrtPriceX96": 245141608670934407082727,
+            "tick": -253733
+          }
+        }
+      ],
+      "previousSnapshots": []
+    },
+    "0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b": {
+      "address": "0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+      "epoch": {
+        "begin": 25163862,
+        "end": 25163862
+      },
+      "trades": [
+        {
+          "tradeType": "Swap",
+          "log": {
+            "_score": 25163862000043,
+            "address": "0xc7bbec68d12a0d1830360f8ec58fa599ba1b0e9b",
+            "blockNumber": 25163862,
+            "data": "0x0000000000000000000000000000000000000000000000000038b6a6eab2ecaefffffffffffffffffffffffffffffffffffffffffffffffffffffffffdfba37800000000000000000000000000000000000000000003047e6aada760d98107df0000000000000000000000000000000000000000000000000561c8ffbef22625fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf3cf",
+            "eventName": "Swap",
+            "filterName": "uniswapv3_pool_events",
+            "logIndex": 101,
+            "topics": [
+              "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+              "0x00000000000000000000000049e55995ef73717895a638074de5af89fa1e301c",
+              "0x00000000000000000000000049e55995ef73717895a638074de5af89fa1e301c"
+            ],
+            "transactionHash": "0x03fce39be8995dfb035a2690528d4e44af7d1bc1395771eeec5a23fe676374ca",
+            "transactionIndex": 43
+          },
+          "data": {
+            "amount0": 15963426714217646,
+            "amount1": -33840264,
+            "block_timestamp": 1779610199,
+            "calculated_eth_price": 2118.3996141880784,
+            "calculated_token0_amount": 0.015963426714217646,
+            "calculated_token1_amount": 33.840264,
+            "calculated_trade_amount_usd": 33.83635943916592,
+            "liquidity": 387812043676329509,
+            "recipient": "0x49E55995ef73717895A638074DE5af89FA1E301c",
+            "sender": "0x49E55995ef73717895A638074DE5af89FA1E301c",
+            "sqrtPriceX96": 3647998901512826907592671,
+            "tick": -199729
           }
         }
       ],
@@ -254,6 +340,10 @@
     }
   },
   "previousSnapshots": [
+    [
+      25163641,
+      "bafkreigtg7ubrp27ttnz3cmq6kat5rgbnvgkhrqlqkw2dxtdqhbolugiyi"
+    ],
     [
       25163643,
       "bafkreifzlkhmroiuvbppx7bj6baqnoxfqlf44wfrtr4v5byxyrs62wiosa"
@@ -1049,15 +1139,11 @@
     [
       25163861,
       "bafkreibw2aenfgybfamjzvjm3smzzen55fzwtjilcf6olz33wzqqpyrlp4"
-    ],
-    [
-      25163862,
-      "bafkreiaxul6nqe6ptzqwut5xux4u2oiltjxkmkx3dngm62h4vj73zyhpvu"
     ]
   ],
   "verification": {
-    "cid": "bafkreibhzah3wrnb256mrsh6j5w2pnrxkuqyl2o6kzucxseac33uulydyq",
-    "epochId": 25163864,
+    "cid": "bafkreiaxul6nqe6ptzqwut5xux4u2oiltjxkmkx3dngm62h4vj73zyhpvu",
+    "epochId": 25163862,
     "projectId": "allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
     "protocolState": "0xa1100CB00Acd3cA83a7C8F4DAA42701D1Eaf4A6c",
     "dataMarket": "0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641"
