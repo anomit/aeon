@@ -1,0 +1,93 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale alert: 0.99 ETH → 2,092 USDC $2,090",
+        "description": "Cryptocurrency transaction alert"
+      },
+      "children": [
+        "alert-content",
+        "separator",
+        "details-section"
+      ]
+    },
+    "alert-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-text",
+        "pool-info",
+        "epoch-info",
+        "tx-info"
+      ]
+    },
+    "alert-text": {
+      "type": "Text",
+      "props": {
+        "text": "🐳 Whale alert: 0.99 ETH → 2,092 USDC $2,090",
+        "variant": "lead"
+      }
+    },
+    "pool-info": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b"
+      }
+    },
+    "epoch-info": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25161957"
+      }
+    },
+    "tx-info": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x5f256dfe768a67f117c0965ce69a1e7a9f38afab4cad8e008a9f8d17b7696332"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "cid-info": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreig73wu77p2myf5uk5khteu66vnoympczhfx2z5lo6h7pmlcopnf7y"
+      }
+    },
+    "project-info": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      }
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification-badge",
+        "cid-info",
+        "project-info"
+      ]
+    }
+  }
+}

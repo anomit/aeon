@@ -1,30 +1,8 @@
-🐳 Whale alert: USDC → ETH  $3,049.31
-
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25161320
-Tx: 0xbc40c046447541c41c39044e4d33563d1910a20cc887fe819cdd1286604492df
-✅ Verified on-chain
-   cid: bafkreigox4pu2oayzrowzok24x5mrfu3kem4lnzsgc6au3n4ku47h3bvz4
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
-
----
-
-🐳 Whale alert: ETH → USDC  $1,058.68
-
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25161320
-Tx: 0x255131d565e9c139ec323cbda7ae9715fbd89d8aa76ac4188c50ebd0f51041d6
-✅ Verified on-chain
-   cid: bafkreigox4pu2oayzrowzok24x5mrfu3kem4lnzsgc6au3n4ku47h3bvz4
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
-
----
-
-🐳 Whale alert: USDC → ETH  $3,114.06
+🐳 Whale alert: 0.99 ETH → 2,092 USDC  $2,090
 
 Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b
-Epoch: 25161320
-Tx: 0x0c9c3728ae7bec342cb355431a48769cadc6cfe552a95ea0944c5dd5b5693c0e
+Epoch: 25161957
+Tx: 0x5f256dfe768a67f117c0965ce69a1e7a9f38afab4cad8e008a9f8d17b7696332
 ✅ Verified on-chain
-   cid: bafkreigox4pu2oayzrowzok24x5mrfu3kem4lnzsgc6au3n4ku47h3bvz4
+   cid: bafkreig73wu77p2myf5uk5khteu66vnoympczhfx2z5lo6h7pmlcopnf7y
    project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
