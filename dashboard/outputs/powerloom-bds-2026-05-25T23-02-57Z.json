@@ -1,0 +1,199 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "heading",
+        "summary",
+        "trades_grid",
+        "separator",
+        "verification"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5 whale trades detected",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch 25175456"
+      },
+      "children": []
+    },
+    "trades_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "md"
+      },
+      "children": [
+        "trade_1",
+        "trade_2",
+        "trade_3",
+        "trade_4",
+        "trade_5"
+      ]
+    },
+    "trade_1": {
+      "type": "Card",
+      "props": {
+        "description": "150K USDT>USDC"
+      },
+      "children": [
+        "pool_1",
+        "tx_1"
+      ]
+    },
+    "pool_1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE6D7...e76A"
+      },
+      "children": []
+    },
+    "tx_1": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: d49f...b643"
+      },
+      "children": []
+    },
+    "trade_2": {
+      "type": "Card",
+      "props": {
+        "description": "105.7K WETH>USDC"
+      },
+      "children": [
+        "pool_2",
+        "tx_2"
+      ]
+    },
+    "pool_2": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x88e6...5640"
+      },
+      "children": []
+    },
+    "tx_2": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 5723...5d85"
+      },
+      "children": []
+    },
+    "trade_3": {
+      "type": "Card",
+      "props": {
+        "description": "12.7K WETH>USDC"
+      },
+      "children": [
+        "pool_3",
+        "tx_3"
+      ]
+    },
+    "pool_3": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x11b8...97F6"
+      },
+      "children": []
+    },
+    "tx_3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 886e...3ea3"
+      },
+      "children": []
+    },
+    "trade_4": {
+      "type": "Card",
+      "props": {
+        "description": "7.4K WETH>USDC"
+      },
+      "children": [
+        "pool_4",
+        "tx_4"
+      ]
+    },
+    "pool_4": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE055...939F"
+      },
+      "children": []
+    },
+    "tx_4": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: ddac...9e7e"
+      },
+      "children": []
+    },
+    "trade_5": {
+      "type": "Card",
+      "props": {
+        "description": "3.7K WETH>USDC"
+      },
+      "children": [
+        "pool_5",
+        "tx_5"
+      ]
+    },
+    "pool_5": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bB...0e9b"
+      },
+      "children": []
+    },
+    "tx_5": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 271b...029d"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Card",
+      "props": {
+        "description": "Verified on-chain"
+      },
+      "children": [
+        "cid",
+        "project"
+      ]
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkrei...ch3u"
+      },
+      "children": []
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198...f641"
+      },
+      "children": []
+    }
+  }
+}

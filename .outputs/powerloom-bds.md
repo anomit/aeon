@@ -1,8 +1,9 @@
-🐋 Whale alert: 0.79 ETH → 1,893 USDC  ($1,893)
+5 whale trades detected (epoch 25175456)
 
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25175131
-Tx: 0xc31dccf79dcbbee7334699cdb5f258be29599c28b99a3676c47b88fbc724372d
-✅ Verified on-chain
-   cid: bafkreihzsbqfjzpkj47ptpmyzyegcx5uesqulflviiahboy532vtmq5hhy
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+150K USDT>USDC | Pool: 0xE6D7...e76A | Tx: d49f...b643
+105.7K WETH>USDC | Pool: 0x88e6...5640 | Tx: 5723...5d85
+12.7K WETH>USDC | Pool: 0x11b8...97F6 | Tx: 886e...3ea3
+7.4K WETH>USDC | Pool: 0xE055...939F | Tx: ddac...9e7e
+3.7K WETH>USDC | Pool: 0xc7bB...0e9b | Tx: 271b...029d
+
+Verified on-chain | cid: bafkrei...ch3u | project: allTradesSnapshot:0x4198...f641
