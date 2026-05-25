@@ -1,13 +1,8 @@
-🐋 2 whale alerts — epoch 25173286
+🐳 Whale alert: 3,447 USDC → 0.711 ETH ($1,515)
 
-1) $1,319 — 1,318.93 token0 → 1,320.00 token1
-   Pool: 0x3416cF6C708Da44DB2624D63ea0AAef7113527C6
-   Tx: 0x0f45e2805000aab45d29ad9d1d52e27dd0a4b4fe5d77b3e56a1f7a908e6c96ea
-
-2) $1,597 — 4,564.26 token0 → 0.7516 token1 (ETH)
-   Pool: 0xcFeCC1C9F3cB6190CB1Ff7F65a130BFbE5107D38
-   Tx: 0x866ae6aa7ab16f9218ce753620d38f09c79b0597f0690997cb170b2397a37eae
-
+Pool: 0x7b1E5D984A43eE732de195628d20d05CFaBc3cC7
+Epoch: 25173797
+Tx: 0xfd41b22af6a866664817c56ec302005dbe8ccd263068d0251ada9a7ed40af784
 ✅ Verified on-chain
-   cid: bafkreifullomk5seldjicoailjf4zlkj7p4snjxdisiitidvvrnrfou7si
+   cid: bafkreiaknepgjhh663yefh4spjeftvsb54637fo76kl4z2v5rlimcsr4pu
    project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
