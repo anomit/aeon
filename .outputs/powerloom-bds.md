@@ -1,25 +1,14 @@
-🐳 Whale Alert Batch — Epoch 25168373 (7 trades ≥ $1,000)
+🐳 7 whale swaps detected — epoch 25168678
 
-1. $12,239 — ETH → USDC (5.84 ETH)
-   Pool: 0x88e6…5640 | Tx: 0xf414…bff5
+token1→token0 $1,764 — 0x4548...9e49
+token0→token1 $6,601 — 0x5653...83b2
+token0→token1 $4,019 — 0x99ac...bc35
+token0→token1 $2,284 — 0x9Db9...425b
+token1→token0 $2,829 — 0xE055...939f
+token1→token0 $5,299 — 0xc756...dD42
+token0→token1 $1,088 — 0xc7bB...0e9b
 
-2. $3,413 — Swap on 0x9Db9…425B
-   Tx: 0x5b39…48e2
-
-3. $2,418 — ETH → USDC (1.16 ETH)
-   Pool: 0xE055…939F | Tx: 0x1928…0f7f
-
-4. $1,399 — Swap on 0xc7bB…0e9b
-   Tx: 0x29f2…52a3
-
-5. $1,338 — Swap on 0xc7bB…0e9b
-   Tx: 0xe481…de33
-
-6. $1,241 — Swap on 0x4548…aE49
-   Tx: 0x2ccd…fb24
-
-7. $1,003 — Swap on 0x5aE1…4082
-   Tx: 0xccbb…0334
-
-✅ Verified on-chain | cid: bafkreiaeygsjlatlcjdv7xj33rvwjfwx66zmdmfk5wx2ojir5prgvxsmlu
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+✅ Verified on-chain
+   cid: bafkreieifsiwyualv6svhyhdplhjtogbkrb7fkwawryggym5o3b6mfm74m
+   project: allTradesSnapshot:0x4198Bf81:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+   epoch: 25168678
