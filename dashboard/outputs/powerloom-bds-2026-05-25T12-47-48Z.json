@@ -1,0 +1,145 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert: ETH → USDC",
+        "description": "$1,476 Transaction"
+      },
+      "children": [
+        "stack_main",
+        "separator1",
+        "stack_details",
+        "separator2",
+        "stack_verification"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_transaction",
+        "stack_values"
+      ]
+    },
+    "text_transaction": {
+      "type": "Text",
+      "props": {
+        "text": "ETH → USDC Swap",
+        "variant": "lead"
+      }
+    },
+    "stack_values": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_eth",
+        "stat_usdc"
+      ]
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH Amount",
+        "value": "0.697",
+        "delta": "$1,476",
+        "trend": "up"
+      }
+    },
+    "stat_usdc": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC Amount",
+        "value": "1,475",
+        "delta": "Received",
+        "trend": "neutral"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_pool",
+        "text_epoch",
+        "text_tx"
+      ]
+    },
+    "text_pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      }
+    },
+    "text_epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25172390",
+        "variant": "body"
+      }
+    },
+    "text_tx": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x94ce46130a830d0fd433b224e4a3241c3f7b766a0b8e6a2b199937c788c96775",
+        "href": "https://etherscan.io/tx/0x94ce46130a830d0fd433b224e4a3241c3f7b766a0b8e6a2b199937c788c96775"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_verified",
+        "text_cid",
+        "text_project"
+      ]
+    },
+    "badge_verified": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "text_cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreifj365guraotukfkj5hr7vgu3ewego4so5k6em577svnc447jjcem",
+        "variant": "caption"
+      }
+    },
+    "text_project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      }
+    }
+  }
+}
