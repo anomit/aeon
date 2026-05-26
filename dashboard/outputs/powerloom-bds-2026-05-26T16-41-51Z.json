@@ -1,0 +1,119 @@
+{
+  "root": "card-whale-alert",
+  "state": {},
+  "elements": {
+    "card-whale-alert": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert: $165,573.93",
+        "description": "Large transaction detected and verified on-chain"
+      },
+      "children": [
+        "stack-main",
+        "separator-verified"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-whale",
+        "stat-amount",
+        "text-pool",
+        "text-epoch",
+        "text-transaction",
+        "text-block"
+      ]
+    },
+    "badge-whale": {
+      "type": "Badge",
+      "props": {
+        "text": "🐳 Whale alert",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Amount",
+        "value": "$165,573.93"
+      },
+      "children": []
+    },
+    "text-pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xCc6D2f26D363836f85a42D249E145eC0320d3E55",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25180751",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-transaction": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x954dd7295f4e4e8f84b94e0757a5387924010a00825a700ce48e8b0ee1009acc",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25180751",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-verified": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreiel4ay6f7ee2czhj3yn7dv5ucsudqpbxbdbx6w4t2eyqafkf22hvq",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-epoch-id": {
+      "type": "Text",
+      "props": {
+        "text": "   epoch_id: 25180751",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
