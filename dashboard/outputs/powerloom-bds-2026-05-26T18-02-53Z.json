@@ -1,0 +1,106 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-amount",
+        "text-pool",
+        "text-epoch",
+        "text-block",
+        "link-tx",
+        "badge-verified",
+        "text-cid",
+        "text-project",
+        "text-epoch-id"
+      ]
+    },
+    "stat-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Whale alert",
+        "value": "$3,194.02",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25181152",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25181152",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tx": {
+      "type": "Link",
+      "props": {
+        "label": "0x0d75b57e018e9e164b712a4011100004719bf144a12e948f9d3148cc24a10d97",
+        "href": "https://etherscan.io/tx/0x0d75b57e018e9e164b712a4011100004719bf144a12e948f9d3148cc24a10d97"
+      },
+      "children": []
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiaeepz3rnkxkzmyagx44lfjopsptke5hswtdhej7x6sks25ofvqgq",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-epoch-id": {
+      "type": "Text",
+      "props": {
+        "text": "epoch_id: 25181152",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
