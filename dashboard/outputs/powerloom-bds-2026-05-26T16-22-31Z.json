@@ -1,0 +1,88 @@
+{
+  "root": "card-whale-alert",
+  "state": {},
+  "elements": {
+    "card-whale-alert": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Whale Alert"
+      },
+      "children": [
+        "stat-amount",
+        "text-pool",
+        "text-epoch",
+        "text-tx",
+        "text-block",
+        "badge-verified",
+        "text-cid",
+        "text-project"
+      ]
+    },
+    "stat-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Amount",
+        "value": "$4,039.50",
+        "delta": null,
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "text-pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25180652",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x71b593d2233a685f67bb5e857282e5ddcc91b82c989a35183f8fdab06d4f73e5",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25180652",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreihcn3fxd7hnccmaek5yfguwjd4vl6ma2z72xnzksa7i4nebrczrnq",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
