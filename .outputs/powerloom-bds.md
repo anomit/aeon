@@ -1,9 +1,6 @@
-The state already shows `POWERLOOM_BDS_OK` and the latest epoch is 25178262. No changes needed to state — the skill instructs not to rewrite state unless processing failed.
-
 ## Summary
 
-- **Skill**: powerloom-bds (whale-radar mode)
-- **Result**: No alerts cache (`.bds-cache/alerts.json` missing). No new alerts to dispatch.
-- **Log**: Appended `powerloom-bds — no alerts` entry to `memory/logs/2026-05-26.md`
-- **State**: Unchanged — `lastStreamEpoch` remains 25178262, `last_status` already `POWERLOOM_BDS_OK`
-- **Exit code**: `POWERLOOM_BDS_OK` (silent, no alerts)
+- Read skill `skills/powerloom-bds/SKILL.md` — dispatches whale alerts from pre-processed BDS cache
+- Checked `.bds-cache/alerts.json` — file does not exist (prefetch fetched `latest.json` at epoch 25180377 but `process-bds-skill.py` didn't produce alerts)
+- Per error handling: logged `POWERLOOM_BDS_CACHE_MISS` to `memory/logs/2026-05-26.md` and ended silently
+- No notifications sent (no alerts to dispatch)

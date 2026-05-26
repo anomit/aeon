@@ -1,10 +1,12 @@
 {
   "skill": "powerloom-bds",
-  "last_analyzed": "2026-05-26T14:22:44Z",
-  "quality_score": 4,
-  "assessment": "Skill completed successfully with proper state management - no alerts to process, unchanged state, and appropriate logging",
-  "flags": [],
-  "avg_score": 4.23,
+  "last_analyzed": "2026-05-26T15:27:10Z",
+  "quality_score": 3,
+  "assessment": "Acceptable — handled missing cache file gracefully, but no actionable output",
+  "flags": [
+    "empty_output"
+  ],
+  "avg_score": 4.17,
   "history": [
     {
       "date": "2026-05-22",
@@ -12,10 +14,6 @@
     },
     {
       "date": "2026-05-22",
-      "score": 5
-    },
-    {
-      "date": "2026-05-22",
       "score": 4
     },
     {
@@ -125,6 +123,10 @@
     {
       "date": "2026-05-26",
       "score": 4
+    },
+    {
+      "date": "2026-05-26",
+      "score": 3
     }
   ]
 }
