@@ -1,0 +1,89 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "whale-alert",
+        "verification",
+        "details-stack"
+      ]
+    },
+    "whale-alert": {
+      "type": "Heading",
+      "props": {
+        "text": "🐳 Whale alert: ~1,164.84 stable → 0.55 ETH $1,164.87",
+        "level": "h2"
+      }
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain"
+      }
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pool",
+        "epoch",
+        "tx",
+        "cid",
+        "project"
+      ]
+    },
+    "pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      }
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25175831",
+        "variant": "body"
+      }
+    },
+    "tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x6ba3a51b581ada94be01d00ed716668a18707fcfae1fda65202300f70544b3b8",
+        "variant": "body"
+      }
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreigt52bto5rc7cbo6gzkbqjvaoi7aldyduo2nhnlcnvk7sxaoim4sq",
+        "variant": "body"
+      }
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      }
+    }
+  }
+}
