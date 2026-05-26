@@ -1,9 +1,9 @@
-🐋 5 whale trades on Uniswap V3 (epoch 25177144)
+The state already shows `POWERLOOM_BDS_OK` and the latest epoch is 25178262. No changes needed to state — the skill instructs not to rewrite state unless processing failed.
 
-76.6K swap — pool 0x6546...E5dA — 16.9 token0 ↔ 76.5K token1 — tx 0x17f3...1b74
-16.1K swap — pool 0x5aE1...4082 — 3.6 token0 ↔ 16.1K token1 — tx 0x7fe7...7e30
-1.6K swap — pool 0xE8a1...57aD — 0.02 token0 ↔ 0.36 token1 — tx 0xdd23...cc6e
-1.6K swap — pool 0x433a...1bBC — 5.8 token0 ↔ 0.78 token1 — tx 0xf775...7b8f
-1.5K swap — pool 0x0e55...c282 — 0.72 token0 ↔ 7.0M token1 — tx 0x41a7...96cd
+## Summary
 
-✅ Verified on-chain · cid: bafkreia3rsmayhvtutcqrvwayiwq3znv7w54mfsijcot3mexs4yw7wny4q
+- **Skill**: powerloom-bds (whale-radar mode)
+- **Result**: No alerts cache (`.bds-cache/alerts.json` missing). No new alerts to dispatch.
+- **Log**: Appended `powerloom-bds — no alerts` entry to `memory/logs/2026-05-26.md`
+- **State**: Unchanged — `lastStreamEpoch` remains 25178262, `last_status` already `POWERLOOM_BDS_OK`
+- **Exit code**: `POWERLOOM_BDS_OK` (silent, no alerts)
