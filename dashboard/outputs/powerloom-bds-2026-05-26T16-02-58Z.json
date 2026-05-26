@@ -1,0 +1,264 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert",
+        "description": "PowerLoom BDS on-chain verification"
+      },
+      "children": [
+        "whale_alert",
+        "separator_1",
+        "pool_info",
+        "separator_2",
+        "transaction_info",
+        "separator_3",
+        "verification"
+      ]
+    },
+    "whale_alert": {
+      "type": "Text",
+      "props": {
+        "text": "🐳 Whale alert: $4,945.32",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pool_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pool_label",
+        "pool_address"
+      ]
+    },
+    "pool_label": {
+      "type": "Text",
+      "props": {
+        "text": "Pool:",
+        "variant": "caption"
+      }
+    },
+    "pool_address": {
+      "type": "Text",
+      "props": {
+        "text": "0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transaction_info": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "md"
+      },
+      "children": [
+        "epoch_row",
+        "tx_row",
+        "block_row"
+      ]
+    },
+    "epoch_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "epoch_label",
+        "epoch_value"
+      ]
+    },
+    "epoch_label": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch:",
+        "variant": "caption"
+      }
+    },
+    "epoch_value": {
+      "type": "Text",
+      "props": {
+        "text": "25180554",
+        "variant": "body"
+      }
+    },
+    "tx_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tx_label",
+        "tx_value"
+      ]
+    },
+    "tx_label": {
+      "type": "Text",
+      "props": {
+        "text": "Tx:",
+        "variant": "caption"
+      }
+    },
+    "tx_value": {
+      "type": "Text",
+      "props": {
+        "text": "0x028f90263ee228d92591899710ec7b70e5b527f7aa960c27858ba111caa6369b",
+        "variant": "body"
+      }
+    },
+    "block_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "block_label",
+        "block_value"
+      ]
+    },
+    "block_label": {
+      "type": "Text",
+      "props": {
+        "text": "Block:",
+        "variant": "caption"
+      }
+    },
+    "block_value": {
+      "type": "Text",
+      "props": {
+        "text": "25180554",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verified_status",
+        "verification_details"
+      ]
+    },
+    "verified_status": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "type": "success"
+      }
+    },
+    "verification_details": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "cid_row",
+        "project_row",
+        "epoch_id_row"
+      ]
+    },
+    "cid_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cid_label",
+        "cid_value"
+      ]
+    },
+    "cid_label": {
+      "type": "Text",
+      "props": {
+        "text": "cid:",
+        "variant": "caption"
+      }
+    },
+    "cid_value": {
+      "type": "Text",
+      "props": {
+        "text": "bafkreie6kv7qjsox5x4gdppmwzbcfdpfg655ny62y6iytqn2n7srnnpt7m",
+        "variant": "body"
+      }
+    },
+    "project_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "project_label",
+        "project_value"
+      ]
+    },
+    "project_label": {
+      "type": "Text",
+      "props": {
+        "text": "project:",
+        "variant": "caption"
+      }
+    },
+    "project_value": {
+      "type": "Text",
+      "props": {
+        "text": "allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      }
+    },
+    "epoch_id_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "epoch_id_label",
+        "epoch_id_value"
+      ]
+    },
+    "epoch_id_label": {
+      "type": "Text",
+      "props": {
+        "text": "epoch_id:",
+        "variant": "caption"
+      }
+    },
+    "epoch_id_value": {
+      "type": "Text",
+      "props": {
+        "text": "25180554",
+        "variant": "body"
+      }
+    }
+  }
+}
