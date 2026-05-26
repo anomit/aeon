@@ -1,0 +1,127 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "PowerLoom BDS Whale Alert",
+        "description": "Large on-chain transaction detected"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-amount",
+        "stack-details",
+        "badge-verified",
+        "stack-verification"
+      ]
+    },
+    "stat-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Whale Transaction",
+        "value": "$1,637.25",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-pool",
+        "text-tx",
+        "text-block",
+        "text-epoch"
+      ]
+    },
+    "text-pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x71c6a1b674d250f49d899e37124808ecd4e8a126c6046e170ef6684e77168536",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25182345",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25182345",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "stack-verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-cid",
+        "text-project",
+        "text-epoch-id"
+      ]
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreid4rbnrdr5do6zaxcjvbsz4sic4co6umaq2xtcnazzof4safh32ge",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-epoch-id": {
+      "type": "Text",
+      "props": {
+        "text": "epoch_id: 25182345",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
