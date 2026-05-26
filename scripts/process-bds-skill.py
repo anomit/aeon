@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import json
 import sys
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,12 +21,20 @@ ALERTS = ROOT / ".bds-cache" / "alerts.json"
 PENDING = ROOT / ".pending-notify"
 
 
+def _yaml_scalar(raw: str) -> str:
+    """Strip inline YAML comments and surrounding quotes."""
+    value = raw.split("#", 1)[0].strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+        value = value[1:-1].strip()
+    return value
+
+
 def _load_yaml_mode() -> str:
     if not CONFIG.is_file():
         return "whale-radar"
     for line in CONFIG.read_text().splitlines():
         if line.strip().startswith("mode:"):
-            return line.split(":", 1)[1].strip() or "whale-radar"
+            return _yaml_scalar(line.split(":", 1)[1]) or "whale-radar"
     return "whale-radar"
 
 
@@ -40,7 +48,7 @@ def _load_threshold() -> float:
             in_thresholds = True
             continue
         if in_thresholds and stripped.startswith("whale_usd:"):
-            raw = stripped.split(":", 1)[1].strip()
+            raw = _yaml_scalar(stripped.split(":", 1)[1])
             try:
                 return float(raw)
             except ValueError:
@@ -109,6 +117,26 @@ def _trade_usd(trade: dict) -> float:
 def _flatten_trades(body: dict) -> list[dict]:
     if not isinstance(body, dict):
         return []
+
+    trade_data = body.get("tradeData")
+    if isinstance(trade_data, dict):
+        trades: list[dict] = []
+        for pool_raw, pool_snap in trade_data.items():
+            if not isinstance(pool_snap, dict):
+                continue
+            raw = pool_snap.get("trades") or []
+            if not isinstance(raw, list):
+                continue
+            pool = str(pool_raw)
+            for trade in raw:
+                if not isinstance(trade, dict):
+                    continue
+                if not trade.get("poolAddress"):
+                    trade = {**trade, "poolAddress": pool}
+                trades.append(trade)
+        if trades:
+            return trades
+
     for key in ("trades",):
         val = body.get(key)
         if isinstance(val, list):
@@ -119,6 +147,11 @@ def _flatten_trades(body: dict) -> list[dict]:
         if isinstance(val, list):
             return [t for t in val if isinstance(t, dict)]
     return []
+
+
+def _write_alerts(alerts: list[str], epoch_end: int | None) -> None:
+    CACHE.parent.mkdir(parents=True, exist_ok=True)
+    ALERTS.write_text(json.dumps({"alerts": alerts, "epoch_end": epoch_end}, indent=2) + "\n")
 
 
 def _format_alert(trade: dict, usd: float, epoch_end: int | None, verification: dict | None) -> str:
@@ -202,15 +235,14 @@ def main() -> int:
         state["lastStreamEpoch"] = epoch_end
     state["lastEmittedBlock"] = max_block
     state["emittedFingerprints"] = emitted
-    state["last_run"] = datetime.now(tz=UTC).isoformat()
+    state["last_run"] = datetime.now(tz=timezone.utc).isoformat()
     state["alerts_sent"] = len(alerts)
     state["mode"] = mode
     if epoch_begin is not None and epoch_end is not None:
         state["last_epoch_range"] = f"{epoch_begin}-{epoch_end}"
     _save_state(state)
 
-    CACHE.parent.mkdir(parents=True, exist_ok=True)
-    ALERTS.write_text(json.dumps({"alerts": alerts, "epoch_end": epoch_end}, indent=2) + "\n")
+    _write_alerts(alerts, epoch_end)
 
     if alerts:
         PENDING.mkdir(parents=True, exist_ok=True)
