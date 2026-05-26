@@ -1,0 +1,106 @@
+{
+  "root": "card-whale-alert",
+  "state": {},
+  "elements": {
+    "card-whale-alert": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 Whale Alert: $3,082.80",
+        "description": "Large transaction detected and verified on-chain"
+      },
+      "children": [
+        "stack-main-content",
+        "separator-1",
+        "stack-verification"
+      ]
+    },
+    "stack-main-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-pool",
+        "text-epoch",
+        "text-tx",
+        "text-block"
+      ]
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-verified",
+        "text-cid",
+        "text-project",
+        "text-epoch-id"
+      ]
+    },
+    "text-pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      }
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25181749",
+        "variant": "body"
+      }
+    },
+    "text-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x8d99b9715ca063e9da17c388826c729e8bfc95ce0b470b93e0f7cfae916cf2f8",
+        "variant": "body"
+      }
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25181749",
+        "variant": "body"
+      }
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      }
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiabm3wnpvmo53owmxk7ru6twi4jpc4xtjmu6ghsd7my7vomd7in2i",
+        "variant": "caption"
+      }
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      }
+    },
+    "text-epoch-id": {
+      "type": "Text",
+      "props": {
+        "text": "epoch_id: 25181749",
+        "variant": "caption"
+      }
+    }
+  }
+}
