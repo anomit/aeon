@@ -1,0 +1,99 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack-1",
+        "separator-1",
+        "stack-2"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "whale-alert",
+        "pool-info",
+        "epoch-info",
+        "tx-info",
+        "block-info"
+      ]
+    },
+    "whale-alert": {
+      "type": "Text",
+      "props": {
+        "text": "🐳 Whale alert: $3,291,758,658,949,130,551,482,915,969,488,691,247,542,435,840.00",
+        "variant": "lead"
+      }
+    },
+    "pool-info": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x4d68B530920D26c3b01C99fecC19e21011B72bBD"
+      }
+    },
+    "epoch-info": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25182047"
+      }
+    },
+    "tx-info": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x41bd1ad27e56725c933dde76f5ebc11d48f95fe0700db484bbf74a01707322ff"
+      }
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25182047"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verification-badge",
+        "cid-info",
+        "project-info"
+      ]
+    },
+    "verification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified on-chain",
+        "variant": "default"
+      }
+    },
+    "cid-info": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreid6vlfzdmwhnn4fbkz5zywj3lkuiuhvn3rjags4nnwsxfy25s7i2q"
+      }
+    },
+    "project-info": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      }
+    }
+  }
+}
