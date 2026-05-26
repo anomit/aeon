@@ -1,1 +1,9 @@
-Powerloom BDS Whale Radar - Epoch 25180950: 13 whale alerts totaling approximately 211,428 USD. Largest: 122,649.87 USD in USDC/ETH pool (0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640), 43,273.85 USD in WETH/USDC pool, 13,223.54 USD, 6,742.35 USD, 5,006.45 USD, plus 8 more in the 1K-4K range. All verified on-chain. CID: bafkreibu2woo73chtu3v7tenrmv6ye4ifn5p7q7cfi2d4mh4vsiou67hme. Project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+🐳 Whale alert: $26,392.28
+Pool: 0x4585FE77225b41b697C938B018E2Ac67Ac5a20c0
+Epoch: 25181051
+Tx: 0x4a71a27e88b888a45ea5052d4922263d72857b183328889732d8a2dd1615768d
+Block: 25181051
+✅ Verified on-chain
+   cid: bafkreiabymxqujygwpygnp242w4odtykjbuuc2kzgsipkw5arpa37uu6dm
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+   epoch_id: 25181051
