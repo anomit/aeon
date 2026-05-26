@@ -1,0 +1,108 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 Whale alert: $1,460.45"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "grid",
+        "alert",
+        "verification-stack"
+      ]
+    },
+    "grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "pool",
+        "epoch",
+        "tx",
+        "block"
+      ]
+    },
+    "pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x99ac8cA7087fA4A2A1FB6357269965A2014ABc35",
+        "variant": "body"
+      }
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25181548",
+        "variant": "body"
+      }
+    },
+    "tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x06664c45729fb570eb70b84bee0eb50c6a8b9e5033a2270a43176132b2d91dae",
+        "variant": "body"
+      }
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25181548",
+        "variant": "body"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "type": "success"
+      }
+    },
+    "verification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid",
+        "project",
+        "epoch-id"
+      ]
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreigbbphv4ztcpfriayzhxot7257lh7qoxg67a7mdmubvxv65uj2kua",
+        "variant": "caption"
+      }
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      }
+    },
+    "epoch-id": {
+      "type": "Text",
+      "props": {
+        "text": "epoch_id: 25181548",
+        "variant": "caption"
+      }
+    }
+  }
+}
