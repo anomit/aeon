@@ -1,9 +1,9 @@
-🐳 Whale alert: $2,203.69
-Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
-Epoch: 25182744
-Tx: 0x817ea4ba494559c54f86489d84dde567ba5a23f3a0f9c4c041fe4ddbf9398feb
-Block: 25182744
-✅ Verified on-chain
-   cid: bafkreih4rhg43wnvk24bexztq47q5whindced77ys7voirnpyxuyl2jd3e
-   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
-   epoch_id: 25182744
+## Summary
+
+Dispatched 4 whale alerts from epoch 25182845 via `./notify`:
+- $15,596.12 — Pool `0x11b8...7F6`
+- $565,379.30 — Pool `0x4e68...a36`
+- $13,553,094.03 — Pool `0x6f7A...057` (largest)
+- $1,120.90 — Pool `0xE055...39F`
+
+All verified on-chain (CID: `bafkreid3mnwzyupt4owvbwcwlrdsa7h2pwp5orauwtscgvylejg4x56l3q`). Logged to `memory/logs/2026-05-26.md`.
