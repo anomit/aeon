@@ -1,0 +1,99 @@
+{
+  "root": "card-whale-alert",
+  "state": {},
+  "elements": {
+    "card-whale-alert": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds Whale alert",
+        "description": "Blockchain whale transaction alert"
+      },
+      "children": [
+        "stat-whale-amount",
+        "separator-horizontal",
+        "text-pool-address",
+        "text-epoch",
+        "text-transaction-hash",
+        "text-block",
+        "separator-horizontal",
+        "alert-verification",
+        "separator-horizontal",
+        "text-cid",
+        "text-project"
+      ]
+    },
+    "stat-whale-amount": {
+      "type": "Stat",
+      "props": {
+        "value": "$2,203.69",
+        "delta": "",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "separator-horizontal": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-pool-address": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25182744",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-transaction-hash": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x817ea4ba494559c54f86489d84dde567ba5a23f3a0f9c4c041fe4ddbf9398feb",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25182744",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert-verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "message": "Transaction verified on blockchain",
+        "type": "success"
+      },
+      "children": []
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreih4rhg43wnvk24bexztq47q5whindced77ys7voirnpyxuyl2jd3e",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
