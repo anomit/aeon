@@ -1,9 +1,9 @@
-🐳 Whale alert: $3,082.80
-Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b
-Epoch: 25181749
-Tx: 0x8d99b9715ca063e9da17c388826c729e8bfc95ce0b470b93e0f7cfae916cf2f8
-Block: 25181749
+🐳 Whale alert: $1,111.08
+Pool: 0x3198CA64EBfF6d008860f2c450CfCBf1fAaC7677
+Epoch: 25181846
+Tx: 0x78e9e5e11c35b9d77c09a1ec79c2e8c04422b088a2200a00b54ea4334d696d23
+Block: 25181846
 ✅ Verified on-chain
-   cid: bafkreiabm3wnpvmo53owmxk7ru6twi4jpc4xtjmu6ghsd7my7vomd7in2i
+   cid: bafkreide4qcwm4l52ocotp6tu753xkpmvrwxz2sjl4wpwjlfv3vqgyaf7e
    project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
-   epoch_id: 25181749
+   epoch_id: 25181846

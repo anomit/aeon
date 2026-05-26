@@ -1,0 +1,113 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds",
+        "description": null
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "whale-alert",
+        "pool-text",
+        "epoch-text",
+        "tx-link",
+        "block-text",
+        "verified-text",
+        "separator",
+        "cid-text",
+        "project-text"
+      ]
+    },
+    "whale-alert": {
+      "type": "Text",
+      "props": {
+        "text": "🐳 Whale alert: $1,111.08",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pool-text": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x3198CA64EBfF6d008860f2c450CfCBf1fAaC7677",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch-text": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25181846",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "Tx: 0x78e9e5e11c35b9d77c09a1ec79c2e8c04422b088a2200a00b54ea4334d696d23",
+        "href": "https://etherscan.io/tx/0x78e9e5e11c35b9d77c09a1ec79c2e8c04422b088a2200a00b54ea4334d696d23"
+      },
+      "children": []
+    },
+    "block-text": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25181846",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "verified-text": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "cid-text": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreide4qcwm4l52ocotp6tu753xkpmvrwxz2sjl4wpwjlfv3vqgyaf7e",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "project-text": {
+      "type": "Text",
+      "props": {
+        "text": "   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "epoch-id-text": {
+      "type": "Text",
+      "props": {
+        "text": "   epoch_id: 25181846",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
