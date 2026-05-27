@@ -1,0 +1,138 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "main-content"
+      ]
+    },
+    "main-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "title-text",
+        "top-movers",
+        "active-pairs",
+        "active-wallets"
+      ]
+    },
+    "title-text": {
+      "type": "Heading",
+      "props": {
+        "text": "BDS Whale Radar — Epochs 25187467–25187473 (7 epochs, 58 trades)"
+      }
+    },
+    "top-movers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical"
+      },
+      "children": [
+        "movers-label",
+        "mover-item-1",
+        "mover-item-2",
+        "mover-item-3",
+        "mover-item-4",
+        "mover-item-5",
+        "mover-item-6"
+      ]
+    },
+    "movers-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top movers:",
+        "level": "h3"
+      }
+    },
+    "mover-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $201.3K — 0xBdb3ba9f"
+      }
+    },
+    "mover-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $156K (x2) — 0x1f2F10D1"
+      }
+    },
+    "mover-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $128.3K — 0xBdb3ba9f"
+      }
+    },
+    "mover-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $66.1K — 0x4C82D1fB"
+      }
+    },
+    "mover-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $40.2K — 0xBdb3ba9f"
+      }
+    },
+    "mover-item-6": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $35.8K — 0x149d330C"
+      }
+    },
+    "active-pairs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical"
+      },
+      "children": [
+        "pairs-label",
+        "pairs-list"
+      ]
+    },
+    "pairs-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Active pairs:",
+        "level": "h3"
+      }
+    },
+    "pairs-list": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH, WETH/USDT, RLB/USDC, PAXG/USDC, WBTC/WETH, AAVE/WETH, LINK/WETH, LDO/WETH, USDC/ASTEROID, WBTC/USDT, XAUt/USDT"
+      }
+    },
+    "active-wallets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical"
+      },
+      "children": [
+        "wallets-label",
+        "wallets-list"
+      ]
+    },
+    "wallets-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Most active wallets:",
+        "level": "h3"
+      }
+    },
+    "wallets-list": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (9 trades), 0x51C72848 (8), 0x4C82D1fB (6), 0x1f2F10D1 (3)"
+      }
+    }
+  }
+}
