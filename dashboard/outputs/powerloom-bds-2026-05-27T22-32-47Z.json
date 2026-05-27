@@ -1,0 +1,152 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_alert",
+        "stack_signal",
+        "text_amount",
+        "separator_details",
+        "stack_details",
+        "separator_verification",
+        "stack_verification"
+      ]
+    },
+    "heading_alert": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 BUY QNT/WETH on Uniswap V3 (30%)",
+        "level": "h3"
+      }
+    },
+    "stack_signal": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal",
+        "stat_amount"
+      ]
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "30%",
+        "variant": "success"
+      }
+    },
+    "stat_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$1.4K"
+      }
+    },
+    "text_amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $1.4K swapped",
+        "variant": "lead"
+      }
+    },
+    "separator_details": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_qnt",
+        "text_weth",
+        "text_wallet",
+        "text_block",
+        "link_tx"
+      ]
+    },
+    "text_qnt": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 18.8277 QNT"
+      }
+    },
+    "text_weth": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 0.67639833 WETH"
+      }
+    },
+    "text_wallet": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x76600115…EE5EFe"
+      }
+    },
+    "text_block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25189666"
+      }
+    },
+    "link_tx": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x7a0fa84a77ada16f5fc6cfebda38e26b872d23de943cca1644d93370b289a127",
+        "href": "https://etherscan.io/tx/0x7a0fa84a77ada16f5fc6cfebda38e26b872d23de943cca1644d93370b289a127"
+      }
+    },
+    "separator_verification": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_verified",
+        "text_verification"
+      ]
+    },
+    "badge_verified": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified",
+        "variant": "success"
+      }
+    },
+    "text_verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "muted"
+      }
+    }
+  }
+}

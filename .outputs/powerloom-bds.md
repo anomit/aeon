@@ -1,22 +1,15 @@
-BDS Whale Radar Digest — Epochs 25189565–25189574 (8 epochs, 62 alerts)
+🟢 🐋 WHALE ALERT 🟢
 
-TOP TRADES:
-• USDC/WETH $261.1K (0x51C72848, blk 25189573)
-• USDC/WETH $130.8K (0x51C72848, blk 25189570)
-• USDC/WETH $91.8K (0x51C72848, blk 25189572)
-• wstETH/WETH $74.5K (0xfD0b31d2, blk 25189574)
-• WBTC/WETH $29.4K (0xBdb3ba9f, blk 25189569)
-• WBTC/USDT $21.9K (0x51C72848, blk 25189573)
-• WBTC/USDT $21.6K (0xBdb3ba9f, blk 25189565)
-• USDC/WETH $20.2K (blk 25189574)
-• WETH/USDT $18.6K (0x51C72848, blk 25189573)
-• WBTC/USDT $18.7K (0xBdb3ba9f, blk 25189570)
+🟢 BUY QNT/WETH on Uniswap V3 (30%)
+💰 $1.4K swapped
 
-ACTIVE WALLETS:
-• 0x51C72848 — 14+ trades (~$700K+)
-• 0xBdb3ba9f — 12+ trades (~$200K+)
-• 0xE592427A — 6+ trades (~$60K+)
+▸ ⇢ 18.8277 QNT
+▸ ⇠ 0.67639833 WETH
+▸ 🦊 0x76600115…EE5EFe
+▸ 📦 Block 25189666
+▸ 🔍 TX: https://etherscan.io/tx/0x7a0fa84a77ada16f5fc6cfebda38e26b872d23de943cca1644d93370b289a127
 
-PAIRS: USDC/WETH (22), WETH/USDT (14), WBTC/USDT (6), QNT/WETH (3), DAI/WETH (2), PAXG/XAUt, wstETH/WETH, USDC/SEI, USD0/USDC, wM/USDC, WETH/RAIL
-
-1 ZAMA/USDT alert with uint256 overflow (recurring data anomaly).
+✅ Verified on-chain:
+  ├ CID: bafkreialjutsy6xxpcbyas45ymu…
+  ├ Epoch: 25189666
+  └ Project: allTradesSnapshot
