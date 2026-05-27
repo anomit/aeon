@@ -1,0 +1,114 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 Whale Alert"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-1",
+        "text-pool",
+        "text-epoch",
+        "text-tx",
+        "text-block",
+        "badge-verified",
+        "stack-details"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "value": "$1,579.17"
+      },
+      "children": []
+    },
+    "text-pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25184342",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x26410ee0110c740c68704f4af6ec97e74d463e24d626a4aa05b726f53615a9c8",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25184342",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-cid",
+        "text-project",
+        "text-epoch-detail"
+      ]
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreihl57eye2r3zm6qfi25dtspvhbqe7ambhpylvumahno2lzusphyme",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-epoch-detail": {
+      "type": "Text",
+      "props": {
+        "text": "   epoch_id: 25184342",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
