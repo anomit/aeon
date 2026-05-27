@@ -1,22 +1,7 @@
-The rm command keeps getting blocked — the dispatch-alerts.sh file can be cleaned up later. It's harmless.
+🐋 BDS Digest — Epochs 25189362–25189371 (10 epochs, 56 alerts)
 
-## Summary
+Top trades: USDC/WETH $117.5K (0xBdb3ba9f), USDC/WETH $92.3K (0x51C72848), WBTC/WETH $30.8K (0x51C72848), USDC/WETH $66.9K (0xBdb3ba9f), ENA/WETH $16.0K, WBTC/WETH $14.7K (0x51C72848), WETH/USDT $14.1K (0xBdb3ba9f), WBTC/USDT $12.6K (0xBdb3ba9f), WETH/USDT $12.0K (0x51C72848), WBTC/USDT $12.5K (0x51C72848).
 
-**Powerloom BDS whale-radar skill executed.**
+Active wallets: 0xBdb3ba9f (14 trades, ~$235K), 0x51C72848 (12 trades, ~$195K), 0x7cDa585e (7 trades, ~$18K), 0x7f54F056 (5 trades, ~$15K).
 
-- **Epoch range:** 25189261–25189270 (9 epochs processed)
-- **Alerts dispatched:** 18 individual alert files written to `.pending-notify/` for post-run delivery
-- **Status:** OK
-
-**Notable trades:**
-- msUSD/USDC $126.8K (0xE592427A)
-- msUSD/USDC $113.5K (0xa7A2097C)
-- uPEG/USDC $2.97M x2 (likely data anomaly — tiny uPEG amounts yielding inflated dollar values)
-- USDC/WETH $15.5K, msUSD/USDC $51K x2
-- 2 ZAMA/USDT alerts with recurring uint256/decimal overflow in dollar values
-
-**Files modified:**
-- `.pending-notify/1779916410.md` through `.pending-notify/1779916428.md` (18 alert files)
-- `memory/logs/2026-05-27.md` (log entry appended)
-
-**Note:** Sandbox hook blocked `./notify` with dynamic alert text (same as prior runs). Used file-based fallback — alerts land in `.pending-notify/` for postprocess delivery.
+Pairs: USDC/WETH (18), WETH/USDT (10), WBTC/WETH (6), WBTC/USDT (4), USDC/SEI (5), LDO/WETH (2), AAVE/WETH (2). 2 ZAMA/USDT alerts show uint256 overflow (recurring). All 56 alerts in .pending-notify/ for delivery.
