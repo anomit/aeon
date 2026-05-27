@@ -1,0 +1,187 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "text_epoch_range",
+        "heading2",
+        "grid1",
+        "heading3",
+        "grid2",
+        "heading4",
+        "grid3"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Alert Summary",
+        "level": "h2"
+      }
+    },
+    "text_epoch_range": {
+      "type": "Text",
+      "props": {
+        "text": "37 alerts across epochs 25189761-25189769 (9 epochs)"
+      }
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pairs",
+        "level": "h3"
+      }
+    },
+    "grid1": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3",
+        "text4",
+        "text5"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/USDT"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "ZAMA/USDT (uint256 overflow)"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "WBTC/WETH"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/SEI"
+      }
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable Amounts",
+        "level": "h3"
+      }
+    },
+    "grid2": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "stat1",
+        "stat2",
+        "stat3"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA/WETH",
+        "value": "17.1K"
+      }
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC/WETH",
+        "value": "55.1K"
+      }
+    },
+    "stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "WBTC/USDT",
+        "value": "11.5K"
+      }
+    },
+    "heading4": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Wallets",
+        "level": "h3"
+      }
+    },
+    "grid3": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "wallet1",
+        "wallet2",
+        "wallet3",
+        "wallet4",
+        "wallet5"
+      ]
+    },
+    "wallet1": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f"
+      }
+    },
+    "wallet2": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848"
+      }
+    },
+    "wallet3": {
+      "type": "Text",
+      "props": {
+        "text": "0x1f2F10D1"
+      }
+    },
+    "wallet4": {
+      "type": "Text",
+      "props": {
+        "text": "0x4C82D1fB"
+      }
+    },
+    "wallet5": {
+      "type": "Text",
+      "props": {
+        "text": "0xC0b7D8dE"
+      }
+    }
+  }
+}
