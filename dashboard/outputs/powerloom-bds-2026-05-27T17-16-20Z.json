@@ -1,0 +1,219 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Powerloom BDS — Whale Radar Summary"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "heading1",
+        "stack2",
+        "heading2",
+        "table1",
+        "heading3",
+        "table2",
+        "text9"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25188066–25188075 | 49 trades detected",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔥 Notable:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "text6",
+        "text7",
+        "text8",
+        "text10",
+        "text11"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "• RLB/USDC — $2.97M BUY (30% pool) × 2 txs → block 25188068"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "TX: 0x9d58af…4af0 / 0x8b69e7…2095"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH — $90.3K BUY → 0x51C72848"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "• PAXG/USDC — $46.4K BUY → 0xBdb3ba9f"
+      },
+      "children": []
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH — $79.1K BUY → 0x51C72848"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/ETH — $16.4K swap via 0xRouter"
+      },
+      "children": []
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "• XAUt/USDT — $18.6K BUY → 0x51C72848"
+      },
+      "children": []
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT — $15.8K BUY → 0x51C72848"
+      },
+      "children": []
+    },
+    "text11": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT — $12.4K BUY → 0x51C72848"
+      },
+      "children": []
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Breakdown by pair:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table1": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Pair",
+          "Trades",
+          "Value Range"
+        ],
+        "rows": [
+          [
+            "WETH/USDT",
+            "11",
+            "$1K–$12.4K"
+          ],
+          [
+            "USDC/WETH",
+            "11",
+            "$1.2K–$90.3K"
+          ],
+          [
+            "RLB/USDC",
+            "4",
+            "$2K–$2.97M"
+          ],
+          [
+            "WBTC",
+            "5",
+            "$1.1K–$16.4K"
+          ],
+          [
+            "Gold (PAXG/XAUt)",
+            "4",
+            "$15.7K–$46.4K"
+          ],
+          [
+            "Others (NEXO, wTAO, ICP, LINK, SEI, ZAMA)",
+            "14",
+            "Various"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "🐳 Top wallets:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table2": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Wallet",
+          "Trades"
+        ],
+        "rows": [
+          [
+            "0x51C72848…502a7F",
+            "15"
+          ],
+          [
+            "0xBdb3ba9f…DF47B6",
+            "6"
+          ],
+          [
+            "0x4C82D1fB…0a2cCA",
+            "4"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS"
+      },
+      "children": []
+    }
+  }
+}
