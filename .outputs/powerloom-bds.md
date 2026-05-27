@@ -1,15 +1,15 @@
 🟢 🐋 WHALE ALERT 🟢
 
-🟢 BUY LDO/WETH on Uniswap V3 (5%)
-💰 $2.1K swapped
+🟢 BUY USDC/WETH on Uniswap V3 (1%)
+💰 $4.3K swapped
 
-▸ ⇢ 6,277.1259 LDO
-▸ ⇠ 1.0438 WETH
-▸ 🦊 0x51C72848…502a7F
-▸ 📦 Block 25188666
-▸ 🔍 TX: https://etherscan.io/tx/0xf120d63d735b11201f7a20d0460f5f98ca0744f565eca0eb587d68b66e7e5040
+▸ ⇢ 4,274.6085 USDC
+▸ ⇠ 2.0804 WETH
+▸ 🐳 0xBdb3ba9f…DF47B6
+▸ 📦 Block 25188767
+▸ 🔍 TX: https://etherscan.io/tx/0xf1af945f5e453d84e8801b3fe742e5b5acd49c4d8d9fed6fdb7ddddc38946193
 
 ✅ Verified on-chain:
-  ├ CID: bafkreifmnuonrd4iofk2kwv5ors…
-  ├ Epoch: 25188666
+  ├ CID: bafkreigvd6mi2khwbl33nvqss5u…
+  ├ Epoch: 25188767
   └ Project: allTradesSnapshot

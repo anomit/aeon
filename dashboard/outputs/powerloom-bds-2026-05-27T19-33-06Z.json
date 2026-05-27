@@ -1,0 +1,141 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "Large USDC/WETH transaction detected"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-1",
+        "stat-1",
+        "stack-2",
+        "stack-3"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "BUY USDC/WETH on Uniswap V3 (1%)",
+        "variant": "lead"
+      }
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "value": "$4.3K swapped"
+      }
+    },
+    "stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-1",
+        "badge-2",
+        "badge-3"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "⇢ 4,274.6085 USDC",
+        "variant": "default"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "⇠ 2.0804 WETH",
+        "variant": "default"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "🐳 0xBdb3ba9f…DF47B6",
+        "variant": "default"
+      }
+    },
+    "stack-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-4",
+        "link-1"
+      ]
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "📦 Block 25188767",
+        "variant": "secondary"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0xf1af945f5e453d84e8801b3fe742e5b5acd49c4d8d9fed6fdb7ddddc38946193",
+        "href": "https://etherscan.io/tx/0xf1af945f5e453d84e8801b3fe742e5b5acd49c4d8d9fed6fdb7ddddc38946193"
+      }
+    },
+    "stack-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-2",
+        "badge-5",
+        "badge-6",
+        "badge-7"
+      ]
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      }
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "├ CID: bafkreigvd6mi2khwbl33nvqss5u…",
+        "variant": "secondary"
+      }
+    },
+    "badge-6": {
+      "type": "Badge",
+      "props": {
+        "text": "├ Epoch: 25188767",
+        "variant": "secondary"
+      }
+    },
+    "badge-7": {
+      "type": "Badge",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "secondary"
+      }
+    }
+  }
+}
