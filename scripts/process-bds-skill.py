@@ -13,7 +13,12 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+SCRIPT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPT_DIR))
+
+from bds_normalize import normalize_bds_event  # noqa: E402
+
+ROOT = SCRIPT_DIR.parent
 CACHE = ROOT / ".bds-cache" / "latest.json"
 STREAM_EVENTS = ROOT / ".bds-cache" / "stream-events.json"
 CONFIG = ROOT / "memory" / "powerloom-bds.yml"
@@ -176,7 +181,11 @@ def _load_snapshots() -> list[dict]:
         except (OSError, json.JSONDecodeError):
             data = None
         if isinstance(data, list):
-            return [item for item in data if isinstance(item, dict) and not item.get("error")]
+            return [
+                normalize_bds_event(item)
+                for item in data
+                if isinstance(item, dict) and not item.get("error")
+            ]
 
     if not CACHE.is_file():
         return []
@@ -186,7 +195,7 @@ def _load_snapshots() -> list[dict]:
     except (OSError, json.JSONDecodeError):
         return []
     if isinstance(body, dict) and not body.get("error"):
-        return [body]
+        return [normalize_bds_event(body)]
     return []
 
 
