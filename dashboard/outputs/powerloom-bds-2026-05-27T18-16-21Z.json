@@ -1,0 +1,116 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "BDS Digest",
+        "description": "Epochs 25188363-25188372"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trades-stat",
+        "trades-heading",
+        "top-trades-list",
+        "wallet-info",
+        "overflow-info"
+      ]
+    },
+    "trades-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Trades",
+        "value": "40",
+        "trend": "neutral"
+      }
+    },
+    "trades-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Trades",
+        "level": "h3"
+      }
+    },
+    "top-trades-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade-1",
+        "trade-2",
+        "trade-3",
+        "trade-4",
+        "trade-5",
+        "trade-6"
+      ]
+    },
+    "trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH 182.3K",
+        "variant": "body"
+      }
+    },
+    "trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH 100.3K",
+        "variant": "body"
+      }
+    },
+    "trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH 49.9K",
+        "variant": "body"
+      }
+    },
+    "trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/USDT 26.4K",
+        "variant": "body"
+      }
+    },
+    "trade-5": {
+      "type": "Text",
+      "props": {
+        "text": "WBTC/USDT 24.8K",
+        "variant": "body"
+      }
+    },
+    "trade-6": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH 22.8K",
+        "variant": "body"
+      }
+    },
+    "wallet-info": {
+      "type": "Text",
+      "props": {
+        "text": "Wallet 0x51C72848 active with 13 trades",
+        "variant": "body"
+      }
+    },
+    "overflow-info": {
+      "type": "Alert",
+      "props": {
+        "message": "1 ZAMA/USDT overflow",
+        "type": "warning"
+      }
+    }
+  }
+}

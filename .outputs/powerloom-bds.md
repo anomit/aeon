@@ -1,1 +1,1 @@
-Whale Radar: 21 trades epochs 25188266-25188275. Notable: WBTC/WETH buys by 0x51C7 (7 trades, 40K total), USDC/WETH 53.2K swap, QNT/WETH 30 percent pool trades. All verified on-chain via Powerloom BDS.
+BDS Digest - Epochs 25188363-25188372: 40 trades. Top: USDC/WETH 182.3K, USDC/WETH 100.3K, USDC/WETH 49.9K, WETH/USDT 26.4K, WBTC/USDT 24.8K, USDC/WETH 22.8K. Wallet 0x51C72848 active with 13 trades. 1 ZAMA/USDT overflow.
