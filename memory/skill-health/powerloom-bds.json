@@ -1,15 +1,13 @@
 {
   "skill": "powerloom-bds",
-  "last_analyzed": "2026-05-27T09:42:37Z",
+  "last_analyzed": "2026-05-27T10:08:22Z",
   "quality_score": 3,
-  "assessment": "Acceptable — completed the task adequately",
-  "flags": [],
+  "assessment": "Completed the core task of fetching and caching BDS whale alerts, but failed on the notification delivery due to sandbox limitations",
+  "flags": [
+    "rate_limited"
+  ],
   "avg_score": 3.87,
   "history": [
-    {
-      "date": "2026-05-26",
-      "score": 3
-    },
     {
       "date": "2026-05-26",
       "score": 3
@@ -117,6 +115,10 @@
     {
       "date": "2026-05-27",
       "score": 4
+    },
+    {
+      "date": "2026-05-27",
+      "score": 3
     },
     {
       "date": "2026-05-27",
