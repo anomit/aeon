@@ -1,0 +1,143 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert",
+        "description": "Powerloom BDS On-Chain Verification"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "separator1",
+        "stack2",
+        "separator2",
+        "stack3"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Whale Alert Amount",
+        "value": "$1,747.31",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pool",
+        "epoch",
+        "tx",
+        "block"
+      ]
+    },
+    "pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xf8e349d1d827a6EdF17eE673664CFAd4ca78C533",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25184939",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xf4b063c2b994874c5d092297a7420e8d0551b6025af42014e26c2dad693359f3",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25184939",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verified",
+        "cid",
+        "project",
+        "epoch_id"
+      ]
+    },
+    "verified": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreidwpvxy3wqatys6fitv3gqqd6j4hxyjm7pd4r6ems7hs4ixgw7xym",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch_id": {
+      "type": "Text",
+      "props": {
+        "text": "epoch_id: 25184939",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
