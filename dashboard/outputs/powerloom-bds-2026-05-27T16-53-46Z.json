@@ -1,0 +1,152 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BDS Digest",
+        "description": "Epochs 25187965–25187974 · 40 alerts"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "top-trades",
+        "active-wallets",
+        "pairs",
+        "overflow-alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top trades:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "top-trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade-1",
+        "trade-2",
+        "trade-3",
+        "trade-4",
+        "trade-5",
+        "trade-6",
+        "trade-7",
+        "trade-8",
+        "trade-9"
+      ]
+    },
+    "trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $125.5K (0x51C728…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/ULTI $95.5K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $70.6K (0x51C728…)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "• LINK/WETH $26.0K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-5": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT $20.9K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-6": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT $15.8K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-7": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $16.5K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-8": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $16.7K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-9": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $11.1K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "active-wallets": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets: 0xBdb3ba9f (12 trades), 0x51C72848 (7 trades)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pairs": {
+      "type": "Text",
+      "props": {
+        "text": "Pairs: USDC/WETH (13), WETH/USDT (7), WBTC/USDT (3), ZAMA/USDT (2 overflow)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "overflow-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "2 ZAMA/USDT uint256/decimal overflow alerts (recurring)",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
