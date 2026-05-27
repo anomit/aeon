@@ -1,1 +1,16 @@
-powerloom-bds: 24 whale alerts queued for epochs 25187270-25187274 including USDC/WETH, WBTC/USDT, LINK/WETH, LDO/WETH, ASTEROID, ICP/WETH, TEL/WETH, SEI trades. Largest: 30K USDC/ASTEROID. All verified on-chain.
+🟢 Powerloom BDS Whale Radar — Epochs 25187368-25187377 (10 epochs)
+
+34 whale alerts detected. Top trades:
+• WBTC/WETH $22.5K — 0x51C72848
+• PAXG/USDC $28.5K — 0x51C72848  
+• USDC/WETH $91.3K — 0xBdb3ba9f
+• WBTC/USDT $20.2K — 0x51C72848
+• PAXG/USDC $17.0K — 0x51C72848
+• LINK/WETH $18.9K — 0x51C72848
+• XAUt/USDT $15.0K — 0x51C72848
+
+Active wallets: 0x51C72848 (bulk trades), 0xBdb3ba9f (3 large USDC/WETH), 0x6747BcaF, 0xA5F91E59
+
+Pairs: WETH/USDT, USDC/WETH, WBTC/USDT, PAXG/USDC, LINK/WETH, ASTEROID/USDC, SPX/WETH, AAVE/WETH, WBTC/WETH, DAI/USDT, ZAMA/USDT, wOCT/WETH, TRAC/WETH, EURAU/USDT, XAUt/USDT
+
+All alerts verified on-chain via Powerloom BDS.

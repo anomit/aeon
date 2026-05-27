@@ -1,0 +1,137 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Whale Radar"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "stat",
+        "epochs",
+        "top-trades",
+        "active-wallets",
+        "pairs",
+        "verification"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25187368-25187377 (10 epochs)",
+        "variant": "lead"
+      }
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "value": "34",
+        "label": "Whale alerts detected"
+      }
+    },
+    "epochs": {
+      "type": "Text",
+      "props": {
+        "text": "34 whale alerts detected. Top trades:",
+        "variant": "body"
+      }
+    },
+    "top-trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5",
+        "trade6",
+        "trade7"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/WETH $22.5K — 0x51C72848",
+        "variant": "body"
+      }
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "• PAXG/USDC $28.5K — 0x51C72848",
+        "variant": "body"
+      }
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $91.3K — 0xBdb3ba9f",
+        "variant": "body"
+      }
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT $20.2K — 0x51C72848",
+        "variant": "body"
+      }
+    },
+    "trade5": {
+      "type": "Text",
+      "props": {
+        "text": "• PAXG/USDC $17.0K — 0x51C72848",
+        "variant": "body"
+      }
+    },
+    "trade6": {
+      "type": "Text",
+      "props": {
+        "text": "• LINK/WETH $18.9K — 0x51C72848",
+        "variant": "body"
+      }
+    },
+    "trade7": {
+      "type": "Text",
+      "props": {
+        "text": "• XAUt/USDT $15.0K — 0x51C72848",
+        "variant": "body"
+      }
+    },
+    "active-wallets": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets: 0x51C72848 (bulk trades), 0xBdb3ba9f (3 large USDC/WETH), 0x6747BcaF, 0xA5F91E59",
+        "variant": "body"
+      }
+    },
+    "pairs": {
+      "type": "Text",
+      "props": {
+        "text": "Pairs: WETH/USDT, USDC/WETH, WBTC/USDT, PAXG/USDC, LINK/WETH, ASTEROID/USDC, SPX/WETH, AAVE/WETH, WBTC/WETH, DAI/USDT, ZAMA/USDT, wOCT/WETH, TRAC/WETH, EURAU/USDT, XAUt/USDT",
+        "variant": "body"
+      }
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "message": "All alerts verified on-chain via Powerloom BDS."
+      }
+    }
+  }
+}
