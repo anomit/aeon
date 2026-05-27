@@ -1,17 +1,4 @@
-🐋 BDS BATCH ALERT — Remaining trades (Epochs 25187666-25187671)
-
-• WETH/ASTEROID $1.0K BUY — 0x4C82D1fB…0a2cCA — block 25187666
-  TX: https://etherscan.io/tx/0xe126eba63d7157cba020620a794f0daca4afc265dcf4db45d78549dea2a9b073
-
-• WETH/ASTEROID $1.9K BUY — 0x4C82D1fB…0a2cCA — block 25187669
-  TX: https://etherscan.io/tx/0xb6ff7d485e0f67041a84bedc0072d845834401deef831e1bd3549c6b0c21e977
-
-• ZAMA/USDT BUY — 0xBdb3ba9f…DF47B6 — block 25187669
-  25,597 ZAMA swapped for 655 USDT
-  TX: https://etherscan.io/tx/0xb09adc8e127b3809abb42e4b2d2c9205ec7ba00a055f24d1eebb1006253b1bd6
-
-• ZAMA/USDT BUY — 0x278d858f…6eF8D2 — block 25187671
-  18,274 ZAMA swapped for 655 USDT
-  TX: https://etherscan.io/tx/0x46ef110cb4250b4a115c4cefa41e76a9904ceb9820d9320514f923cd26aae821
-
-✅ All verified on-chain via Powerloom BDS
+🐋 BDS Digest — Epochs 25187766–25187775 (10 epochs)
+39 trades dispatched | Top: USDC/WETH $92.8K, USDC/WETH $43.6K, USDC/WETH $34.3K, DAI/USDC $10.3K, AUSD/USDT $9.1K
+Pairs: WETH/USDT, USDC/WETH, WBTC/WETH, WETH/INJ, ZAMA/USDT, sUSDe/USDT, WBTC/USDT, AUSD/USDT, DAI/USDC, WETH/ASTEROID
+⚠ 1 ZAMA/USDT uint256 overflow (recurring)
