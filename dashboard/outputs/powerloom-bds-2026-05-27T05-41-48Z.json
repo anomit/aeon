@@ -1,0 +1,88 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "whale-alert",
+        "pool-info",
+        "epoch-info",
+        "tx-info",
+        "block-info",
+        "verification-section"
+      ]
+    },
+    "whale-alert": {
+      "type": "Text",
+      "props": {
+        "text": "🐳 Whale alert: $1,394.58",
+        "variant": "lead"
+      }
+    },
+    "pool-info": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640",
+        "variant": "body"
+      }
+    },
+    "epoch-info": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25184641",
+        "variant": "body"
+      }
+    },
+    "tx-info": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xf67b22e974fff4c51d2a11899e25823b6d8d2e36c55967960ca7b220388dcbd7",
+        "variant": "body"
+      }
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25184641",
+        "variant": "body"
+      }
+    },
+    "verification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Verified on-chain",
+        "type": "success"
+      },
+      "children": [
+        "cid-info",
+        "project-info",
+        "epoch-id-info"
+      ]
+    },
+    "cid-info": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibli6hqog4jsmppt4wc7ef6xi7iueg5fqc3k52dzwqy3pf5fgshwe",
+        "variant": "muted"
+      }
+    },
+    "project-info": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "muted"
+      }
+    },
+    "epoch-id-info": {
+      "type": "Text",
+      "props": {
+        "text": "epoch_id: 25184641",
+        "variant": "muted"
+      }
+    }
+  }
+}
