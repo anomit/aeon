@@ -1,13 +1,7 @@
-BDS Whale Radar — Epochs 25187467–25187473 (7 epochs, 58 trades)
+BDS Whale Digest - Epochs 25187567-25187576 (9 epochs, 63 alerts)
 
-Top movers:
-• USDC/WETH $201.3K — 0xBdb3ba9f
-• WETH/USDT $156K (x2) — 0x1f2F10D1
-• USDC/WETH $128.3K — 0xBdb3ba9f
-• WETH/USDT $66.1K — 0x4C82D1fB
-• WETH/USDT $40.2K — 0xBdb3ba9f
-• USDC/WETH $35.8K — 0x149d330C
-
-Active pairs: USDC/WETH, WETH/USDT, RLB/USDC, PAXG/USDC, WBTC/WETH, AAVE/WETH, LINK/WETH, LDO/WETH, USDC/ASTEROID, WBTC/USDT, XAUt/USDT
-
-Most active wallets: 0xBdb3ba9f (9 trades), 0x51C72848 (8), 0x4C82D1fB (6), 0x1f2F10D1 (3)
+Top trades: USDC/WETH 178.3K, WETH/USDT 116.8K, USDC/WETH 130.4K, USDC/WETH 106.6K, AAVE/WETH 75.9K, PAXG/USDC 52.9K
+Active wallets: 0x51C72848 (bulk trader), 0x7f54F056, 0xBdb3ba9f, 0xEff6cb8b
+Pairs: USDC/WETH, WETH/USDT, WBTC/USDT, PAXG/USDC, XAUt/USDT dominate
+Data flags: ZAMA/USDT uint256 overflow (recurring), AAVE/WETH shows 0 token amount
+63 individual alerts queued in .pending-notify/

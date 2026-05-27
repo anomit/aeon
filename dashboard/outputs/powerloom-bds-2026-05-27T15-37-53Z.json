@@ -1,0 +1,243 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BDS Whale Digest"
+      },
+      "children": [
+        "heading",
+        "stack",
+        "separator",
+        "stack2",
+        "separator2",
+        "stack3",
+        "separator3",
+        "stack4",
+        "stat",
+        "separator4",
+        "stack5"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Epochs 25187567-25187576",
+        "level": "h2"
+      }
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "text1"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "9 epochs, 63 alerts",
+        "variant": "secondary"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Top trades:",
+        "variant": "lead"
+      }
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "text6",
+        "text7"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH 178.3K"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT 116.8K"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH 130.4K"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH 106.6K"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "• AAVE/WETH 75.9K"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "• PAXG/USDC 52.9K"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text8",
+        "stack4_inner"
+      ]
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets:",
+        "variant": "lead"
+      }
+    },
+    "stack4_inner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text9",
+        "text10",
+        "text11",
+        "text12"
+      ]
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x51C72848 (bulk trader)"
+      }
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x7f54F056"
+      }
+    },
+    "text11": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f"
+      }
+    },
+    "text12": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xEff6cb8b"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text13",
+        "text14"
+      ]
+    },
+    "text13": {
+      "type": "Text",
+      "props": {
+        "text": "Pairs:",
+        "variant": "lead"
+      }
+    },
+    "text14": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH, WETH/USDT, WBTC/USDT, PAXG/USDC, XAUt/USDT dominate"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text15",
+        "text16"
+      ]
+    },
+    "text15": {
+      "type": "Text",
+      "props": {
+        "text": "Data flags:",
+        "variant": "lead"
+      }
+    },
+    "text16": {
+      "type": "Text",
+      "props": {
+        "text": "ZAMA/USDT uint256 overflow (recurring), AAVE/WETH shows 0 token amount"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Alerts queued",
+        "value": "63",
+        "trend": "neutral"
+      }
+    }
+  }
+}
