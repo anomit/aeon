@@ -1,0 +1,70 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": null
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-1",
+        "stat-1",
+        "text-2",
+        "link-1",
+        "text-3"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "BUY WBTC/WETH on Uniswap V3 (5%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "value": "$13.1K",
+        "label": "swapped"
+      },
+      "children": []
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 0.17354483 WBTC\n▸ ⇠ 6.2995 WETH\n▸ 🦊 0xBdb3ba9f…DF47B6\n▸ 📦 Block 25185638",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0x46a3860751e9751bffddb2fb85b35b116d9fd47260e0e530b8e45b739e9d6f51",
+        "href": "https://etherscan.io/tx/0x46a3860751e9751bffddb2fb85b35b116d9fd47260e0e530b8e45b739e9d6f51"
+      },
+      "children": []
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:\n  ├ CID: bafkreih6so2lufyfc6cekjeaejm…\n  ├ Epoch: 25185638\n  └ Project: allTradesSnapshot",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
