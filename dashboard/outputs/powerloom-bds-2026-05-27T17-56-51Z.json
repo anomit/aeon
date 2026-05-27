@@ -1,0 +1,79 @@
+{
+  "root": "card-whale-radar",
+  "state": {},
+  "elements": {
+    "card-whale-radar": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Radar"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-summary",
+        "stack-notable",
+        "text-verification"
+      ]
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "21 trades epochs 25188266-25188275",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-wbtc",
+        "text-usdc",
+        "text-qnt"
+      ]
+    },
+    "text-wbtc": {
+      "type": "Text",
+      "props": {
+        "text": "WBTC/WETH buys by 0x51C7 (7 trades, 40K total)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-usdc": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH 53.2K swap",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-qnt": {
+      "type": "Text",
+      "props": {
+        "text": "QNT/WETH 30 percent pool trades",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-verification": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom BDS",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

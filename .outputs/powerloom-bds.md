@@ -1,13 +1,1 @@
-WHALE ALERT BATCH - 28 trades detected (epochs 25188167-25188174)
-
-Highlights:
-PAXG/USDC 25.4K BUY - 0x51C72848 (block 25188167)
-USDC/WETH 27.7K BUY - 0x51C72848 (block 25188167)
-WETH/USDT 20.6K BUY - 0x8F10B468 (block 25188168)
-WBTC/USDT 8.6K BUY - 0x51C72848 (block 25188167)
-WETH/USDT 13.9K BUY - 0xBdb3ba9f (block 25188168)
-HEX/WETH 5.3K BUY - 0xC36442b4 (block 25188171)
-
-Top wallets: 0x51C72848, 0xBdb3ba9f, 0x8F10B468, 0x7cDa585e
-Pairs: WETH/USDT, USDC/WETH, WBTC/USDT, PAXG/USDC, XAUt/USDT, LCAI/WETH, WETH/CFG, HEX/WETH
-9 epochs processed | All verified on-chain via Powerloom BDS
+Whale Radar: 21 trades epochs 25188266-25188275. Notable: WBTC/WETH buys by 0x51C7 (7 trades, 40K total), USDC/WETH 53.2K swap, QNT/WETH 30 percent pool trades. All verified on-chain via Powerloom BDS.
