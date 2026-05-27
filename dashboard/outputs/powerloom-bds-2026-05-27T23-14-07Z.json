@@ -1,0 +1,76 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "details",
+        "transaction",
+        "wallet"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "WHALE: BUY PAXG/USDC on Uniswap V3 (5%)",
+        "variant": "lead"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "amount1",
+        "amount2"
+      ]
+    },
+    "amount1": {
+      "type": "Stat",
+      "props": {
+        "label": "PAXG",
+        "value": "1.75"
+      }
+    },
+    "amount2": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC",
+        "value": "7,802",
+        "delta": "$7.8K",
+        "trend": "up"
+      }
+    },
+    "transaction": {
+      "type": "Link",
+      "props": {
+        "label": "TX: etherscan.io/tx/0xee11aa907dd19b3cd66eb4b9d7b5c17867b54cb6e4f3ebd951267a723419f8b0",
+        "href": "https://etherscan.io/tx/0xee11aa907dd19b3cd66eb4b9d7b5c17867b54cb6e4f3ebd951267a723419f8b0"
+      }
+    },
+    "wallet": {
+      "type": "Badge",
+      "props": {
+        "text": "by 0x51C72848",
+        "variant": "outline"
+      }
+    }
+  }
+}

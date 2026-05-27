@@ -1,1 +1,1 @@
-powerloom-bds digest: 37 alerts across epochs 25189761-25189769 (9 epochs). Top pairs: USDC/WETH, WETH/USDT, ZAMA/USDT (uint256 overflow), WBTC/WETH, USDC/SEI. Notable: ENA/WETH 17.1K, USDC/WETH 55.1K, WBTC/USDT 11.5K. Active wallets: 0xBdb3ba9f, 0x51C72848, 0x1f2F10D1, 0x4C82D1fB, 0xC0b7D8dE.
+WHALE: BUY PAXG/USDC on Uniswap V3 (5%) - 1.75 PAXG for 7,802 USDC ($7.8K) by 0x51C72848 | Block 25189870 | TX: etherscan.io/tx/0xee11aa907dd19b3cd66eb4b9d7b5c17867b54cb6e4f3ebd951267a723419f8b0
