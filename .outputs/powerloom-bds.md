@@ -1,4 +1,1 @@
-🐋 BDS Digest — Epochs 25187766–25187775 (10 epochs)
-39 trades dispatched | Top: USDC/WETH $92.8K, USDC/WETH $43.6K, USDC/WETH $34.3K, DAI/USDC $10.3K, AUSD/USDT $9.1K
-Pairs: WETH/USDT, USDC/WETH, WBTC/WETH, WETH/INJ, ZAMA/USDT, sUSDe/USDT, WBTC/USDT, AUSD/USDT, DAI/USDC, WETH/ASTEROID
-⚠ 1 ZAMA/USDT uint256 overflow (recurring)
+BDS Whale Radar: 23 alerts across epochs 25187866-25187875. Top trades: PAXG/USDC 32.3K, WETH/ETHFI 33.2K, USDC/WETH 6.8K, WBTC/WETH 7.2K. Full alerts queued in .pending-notify/ for delivery.

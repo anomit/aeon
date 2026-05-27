@@ -1,0 +1,97 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "alerts_stat",
+        "epoch_text",
+        "trades_section",
+        "delivery_text"
+      ]
+    },
+    "alerts_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BDS Alerts",
+        "value": "23",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "epoch_text": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs: 25187866-25187875",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trades_section": {
+      "type": "Card",
+      "props": {
+        "title": "Top Trades"
+      },
+      "children": [
+        "trades_grid"
+      ]
+    },
+    "trades_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "PAXG/USDC: 32.3K",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/ETHFI: 33.2K",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH: 6.8K",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "WBTC/WETH: 7.2K",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "delivery_text": {
+      "type": "Text",
+      "props": {
+        "text": "Full alerts queued in .pending-notify/ for delivery.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
