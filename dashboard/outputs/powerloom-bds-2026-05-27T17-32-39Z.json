@@ -1,0 +1,101 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT BATCH - 28 trades detected (epochs 25188167-25188174)"
+      },
+      "children": [
+        "heading-highlights",
+        "text-highlights",
+        "separator-1",
+        "heading-wallets",
+        "text-wallets",
+        "separator-2",
+        "heading-pairs",
+        "text-pairs",
+        "separator-3",
+        "text-verification"
+      ]
+    },
+    "heading-highlights": {
+      "type": "Heading",
+      "props": {
+        "text": "Highlights:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-highlights": {
+      "type": "Text",
+      "props": {
+        "text": "PAXG/USDC 25.4K BUY - 0x51C72848 (block 25188167)\nUSDC/WETH 27.7K BUY - 0x51C72848 (block 25188167)\nWETH/USDT 20.6K BUY - 0x8F10B468 (block 25188168)\nWBTC/USDT 8.6K BUY - 0x51C72848 (block 25188167)\nWETH/USDT 13.9K BUY - 0xBdb3ba9f (block 25188168)\nHEX/WETH 5.3K BUY - 0xC36442b4 (block 25188171)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-wallets": {
+      "type": "Heading",
+      "props": {
+        "text": "Top wallets:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-wallets": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848, 0xBdb3ba9f, 0x8F10B468, 0x7cDa585e",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-pairs": {
+      "type": "Heading",
+      "props": {
+        "text": "Pairs:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-pairs": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/USDT, USDC/WETH, WBTC/USDT, PAXG/USDC, XAUt/USDT, LCAI/WETH, WETH/CFG, HEX/WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-verification": {
+      "type": "Text",
+      "props": {
+        "text": "9 epochs processed | All verified on-chain via Powerloom BDS",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

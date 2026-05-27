@@ -1,29 +1,13 @@
-🐋 Powerloom BDS — Whale Radar Summary
+WHALE ALERT BATCH - 28 trades detected (epochs 25188167-25188174)
 
-Epochs 25188066–25188075 | 49 trades detected
+Highlights:
+PAXG/USDC 25.4K BUY - 0x51C72848 (block 25188167)
+USDC/WETH 27.7K BUY - 0x51C72848 (block 25188167)
+WETH/USDT 20.6K BUY - 0x8F10B468 (block 25188168)
+WBTC/USDT 8.6K BUY - 0x51C72848 (block 25188167)
+WETH/USDT 13.9K BUY - 0xBdb3ba9f (block 25188168)
+HEX/WETH 5.3K BUY - 0xC36442b4 (block 25188171)
 
-🔥 Notable:
-• RLB/USDC — $2.97M BUY (30% pool) × 2 txs → block 25188068
-  TX: 0x9d58af…4af0 / 0x8b69e7…2095
-• USDC/WETH — $90.3K BUY → 0x51C72848
-• PAXG/USDC — $46.4K BUY → 0xBdb3ba9f
-• USDC/WETH — $79.1K BUY → 0x51C72848
-• WBTC/ETH — $16.4K swap via 0xRouter
-• XAUt/USDT — $18.6K BUY → 0x51C72848
-• WBTC/USDT — $15.8K BUY → 0x51C72848
-• WETH/USDT — $12.4K BUY → 0x51C72848
-
-📊 Breakdown by pair:
-WETH/USDT: 11 trades ($1K–$12.4K)
-USDC/WETH: 11 trades ($1.2K–$90.3K)
-RLB/USDC: 4 trades ($2K–$2.97M)
-WBTC: 5 trades ($1.1K–$16.4K)
-Gold (PAXG/XAUt): 4 trades ($15.7K–$46.4K)
-Others: NEXO, wTAO, ICP, LINK, SEI, ZAMA
-
-🐳 Top wallets:
-0x51C72848…502a7F — 15 trades
-0xBdb3ba9f…DF47B6 — 6 trades
-0x4C82D1fB…0a2cCA — 4 trades
-
-✅ All verified on-chain via Powerloom BDS
+Top wallets: 0x51C72848, 0xBdb3ba9f, 0x8F10B468, 0x7cDa585e
+Pairs: WETH/USDT, USDC/WETH, WBTC/USDT, PAXG/USDC, XAUt/USDT, LCAI/WETH, WETH/CFG, HEX/WETH
+9 epochs processed | All verified on-chain via Powerloom BDS
