@@ -1,0 +1,69 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat",
+        "text-pool",
+        "text-epoch",
+        "text-tx",
+        "text-cid"
+      ]
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Whale Alert",
+        "value": "$4,051.12"
+      },
+      "children": []
+    },
+    "text-pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x27941A235804f33D81aDaBb2d56589c5f6Ea6556",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25185140",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xfaea46a13cf48b5197af3d909f7e0ec70f8d9f79b06b5188b7a6947369f261f2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "Verified on-chain cid: bafkreicxw6tpbd3mvabt725wrvlaxafcsdcm4k5avft6ifjuyz3xkzlw5y",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
