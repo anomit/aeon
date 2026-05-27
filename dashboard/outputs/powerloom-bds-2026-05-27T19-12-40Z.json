@@ -1,0 +1,166 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "stat1",
+        "stack2",
+        "stack3",
+        "link1",
+        "stack4",
+        "badge1",
+        "stack5"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY LDO/WETH on Uniswap V3 (5%)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$2.1K"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "text2",
+        "text3"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 6,277.1259 LDO"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1.0438 WETH"
+      },
+      "children": []
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text4",
+        "text5"
+      ]
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "🦊 0x51C72848…502a7F"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25188666"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0xf120d63d735b11201f7a20d0460f5f98ca0744f565eca0eb587d68b66e7e5040",
+        "href": "https://etherscan.io/tx/0xf120d63d735b11201f7a20d0460f5f98ca0744f565eca0eb587d68b66e7e5040"
+      },
+      "children": []
+    },
+    "stack4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "separator1",
+        "stack5"
+      ]
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text6",
+        "text7",
+        "text8"
+      ]
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreifmnuonrd4iofk2kwv5ors…"
+      },
+      "children": []
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25188666"
+      },
+      "children": []
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    }
+  }
+}

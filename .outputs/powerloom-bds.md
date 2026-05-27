@@ -1,9 +1,15 @@
-🐋 BDS Whale Digest — Epochs 25188563-25188572 (10 epochs, 25 trades)
+🟢 🐋 WHALE ALERT 🟢
 
-Top: USDC/WETH $66.4K (0xBdb3ba9f), USDC/WETH $38.7K (0xBdb3ba9f), USDC/WETH $33.5K (0x51C72848), WBTC/USDT $16.8K (0xBdb3ba9f), WETH/USDT $7.1K, WBTC/WETH $4.8K, USDC/WETH $5.0K
+🟢 BUY LDO/WETH on Uniswap V3 (5%)
+💰 $2.1K swapped
 
-Active wallets: 0xBdb3ba9f (10 trades, ~$140K), 0x51C72848 (5 trades, ~$43K), 0x7cDa585e (3 trades), 0xE592427A (3 trades)
+▸ ⇢ 6,277.1259 LDO
+▸ ⇠ 1.0438 WETH
+▸ 🦊 0x51C72848…502a7F
+▸ 📦 Block 25188666
+▸ 🔍 TX: https://etherscan.io/tx/0xf120d63d735b11201f7a20d0460f5f98ca0744f565eca0eb587d68b66e7e5040
 
-Pairs: USDC/WETH (4), WETH/USDT (5), WBTC/USDT (2), LDO/WETH (3), ICP/WETH (2), USDC/SEI (2), WBTC/WETH (1), WETH/SPX (1), ZAMA/USDT (1, uint256 overflow)
-
-✅ All on-chain verified via Powerloom BDS
+✅ Verified on-chain:
+  ├ CID: bafkreifmnuonrd4iofk2kwv5ors…
+  ├ Epoch: 25188666
+  └ Project: allTradesSnapshot
