@@ -1,0 +1,105 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert",
+        "description": "$3,675.57"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pool-info",
+        "epoch-info",
+        "tx-info",
+        "block-info",
+        "separator",
+        "verification",
+        "cid-info",
+        "project-info",
+        "epoch-id-info"
+      ]
+    },
+    "pool-info": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xcFeCC1C9F3cB6190CB1Ff7F65a130BFbE5107D38",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch-info": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25184743",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx-info": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xbb33bb4bda904626f8d24a086ab999a95b4bfa6c0f5c7de7f4bab5bf8bcb3402",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25184743",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "cid-info": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreibg263mhuje3tnhnfs5m3jv7vudjorv2umt73nbxlw35cuj6epi64",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "project-info": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch-id-info": {
+      "type": "Text",
+      "props": {
+        "text": "epoch_id: 25184743",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
