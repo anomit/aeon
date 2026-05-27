@@ -1,0 +1,40 @@
+#!/bin/bash
+./notify '🐳 Whale alert: $1,403,688.05
+Pool: 0x300093633fdb5dFBE0a34f0e3eE344f715F275e8
+Epoch: 25185041
+Tx: 0x1e1042cd9c616fdcb1c128c101b701332cf131ffc36ba6209a7c1caa5bdec964
+Block: 25185041
+✅ Verified on-chain
+   cid: bafkreieh66x7qjcn4gilflavwiiz2nsjioj7umq2qow6ok7yz6i4ezpwra
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+   epoch_id: 25185041'
+
+./notify '🐳 Whale alert: $3,691.13
+Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F
+Epoch: 25185041
+Tx: 0x2c8a9789ef61d0c7115b8211f8fb1ea8e6f774809c8e6a0844d2a22c2907178a
+Block: 25185041
+✅ Verified on-chain
+   cid: bafkreieh66x7qjcn4gilflavwiiz2nsjioj7umq2qow6ok7yz6i4ezpwra
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+   epoch_id: 25185041'
+
+./notify '🐳 Whale alert: $5,318.68
+Pool: 0xf8e349d1d827a6EdF17eE673664CFAd4ca78C533
+Epoch: 25185041
+Tx: 0x9c1f13ef31c0ceee337248f8b3ef8465eef66701577d6aeccd12ee19e87aeae9
+Block: 25185041
+✅ Verified on-chain
+   cid: bafkreieh66x7qjcn4gilflavwiiz2nsjioj7umq2qow6ok7yz6i4ezpwra
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+   epoch_id: 25185041'
+
+./notify '🐳 Whale alert: $15,742.61
+Pool: 0xf8e349d1d827a6EdF17eE673664CFAd4ca78C533
+Epoch: 25185041
+Tx: 0x18f818d1c837ac7f2e7f12c9a543fdeb03cfc8a5fd0472ec9bf1b1d506d6f8d1
+Block: 25185041
+✅ Verified on-chain
+   cid: bafkreieh66x7qjcn4gilflavwiiz2nsjioj7umq2qow6ok7yz6i4ezpwra
+   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH
+   epoch_id: 25185041'
