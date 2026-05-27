@@ -1,0 +1,90 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE BUY USDC/WETH $16.2K on Uniswap V3 (5%)",
+        "description": "Large whale transaction detected"
+      },
+      "children": [
+        "stack",
+        "separator",
+        "badge"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat",
+        "swap_details",
+        "wallet",
+        "block",
+        "tx_hash",
+        "cid"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified",
+        "variant": "success"
+      }
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Transaction Value",
+        "value": "$16,247",
+        "delta": "$16.2K",
+        "trend": "up"
+      }
+    },
+    "swap_details": {
+      "type": "Text",
+      "props": {
+        "text": "16,247 USDC → 7.9272 WETH",
+        "variant": "body"
+      }
+    },
+    "wallet": {
+      "type": "Text",
+      "props": {
+        "text": "Wallet: 0x51C72848",
+        "variant": "muted"
+      }
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25188471",
+        "variant": "muted"
+      }
+    },
+    "tx_hash": {
+      "type": "Text",
+      "props": {
+        "text": "TX: 0x543bdc57...4c0263",
+        "variant": "muted"
+      }
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "Verified CID: bafkreicygb...",
+        "variant": "muted"
+      }
+    }
+  }
+}
