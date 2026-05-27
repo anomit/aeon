@@ -23,6 +23,13 @@ from bds_normalize import epoch_begin, epoch_end, normalize_bds_event  # noqa: E
 ROOT = SCRIPT_DIR.parent
 CACHE_DIR = ROOT / ".bds-cache"
 MAX_EPOCHS = int(os.environ.get("BDS_MAX_EPOCHS_PER_RUN", "100"))
+# Blocks within this distance of BDS tip: 404 means "not finalized yet" — stop catch-up.
+# Farther behind tip: 404 is a gap — skip block and keep scanning forward.
+FINALIZATION_BUFFER = int(os.environ.get("BDS_FINALIZATION_BUFFER", "5"))
+# Upper bound on HTTP attempts per run (successful + skipped 404s).
+MAX_BLOCK_ATTEMPTS = int(
+    os.environ.get("BDS_MAX_BLOCK_ATTEMPTS", str(max(MAX_EPOCHS * 10, 500))),
+)
 
 
 def _collect_pool_addresses(snapshots: list[dict]) -> set[str]:
@@ -133,17 +140,29 @@ async def main() -> int:
         print(f"Already caught up (cursor ahead of tip: {start_epoch - 1} >= {tip})")
         snapshots: list[dict] = []
     else:
-        end_epoch = min(tip, start_epoch + MAX_EPOCHS - 1)
         snapshots = []
         block = start_epoch
-        while block <= end_epoch:
+        attempts = 0
+        skipped_gaps = 0
+        while block <= tip and len(snapshots) < MAX_EPOCHS and attempts < MAX_BLOCK_ATTEMPTS:
+            attempts += 1
             try:
                 snap = await _fetch_epoch(base_url, api_key, block)
             except BdsClientError as exc:
                 msg = str(exc)
                 if "404" in msg or "not found" in msg.lower():
-                    print(f"Epoch {block} not available yet — stopping at {block - 1}")
-                    break
+                    near_tip = block >= tip - FINALIZATION_BUFFER
+                    if near_tip:
+                        print(
+                            f"Epoch {block} not finalized yet (tip={tip}) — "
+                            f"stopping after {len(snapshots)} snapshot(s)",
+                        )
+                        break
+                    skipped_gaps += 1
+                    if skipped_gaps <= 3 or skipped_gaps % 50 == 0:
+                        print(f"WARN: no snapshot at block {block} (404) — skipping gap")
+                    block += 1
+                    continue
                 print(f"ERROR epoch {block}: {exc}")
                 return 1
 
@@ -151,14 +170,22 @@ async def main() -> int:
                 snapshots.append(snap)
             block += 1
 
+        if attempts >= MAX_BLOCK_ATTEMPTS and len(snapshots) < MAX_EPOCHS and block <= tip - FINALIZATION_BUFFER:
+            print(
+                f"WARN: hit max block attempts ({MAX_BLOCK_ATTEMPTS}) with "
+                f"{len(snapshots)} snapshot(s); will resume from cursor next run",
+            )
+
         if snapshots:
             begins = [epoch_begin(s) for s in snapshots]
             ends = [epoch_end(s) for s in snapshots]
             begins = [b for b in begins if b is not None]
             ends = [e for e in ends if e is not None]
+            gap_note = f", {skipped_gaps} gap(s) skipped" if skipped_gaps else ""
             print(
                 f"Fetched {len(snapshots)} snapshot(s): "
-                f"{min(begins) if begins else '?'} - {max(ends) if ends else '?'}",
+                f"{min(begins) if begins else '?'} - {max(ends) if ends else '?'}"
+                f"{gap_note}",
             )
 
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
