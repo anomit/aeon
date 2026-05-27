@@ -1,15 +1,14 @@
-🟢 🐋 WHALE ALERT 🟢
+Powerloom BDS Digest — Epochs 25188861-25188867 (7 epochs, 21 trades)
 
-🟢 BUY USDC/WETH on Uniswap V3 (1%)
-💰 $4.3K swapped
+Top trades:
+- USDC/WETH $59.5K BUY (0xBdb3ba9f) — Block 25188866
+- WETH/USDT $9.8K BUY (0xBdb3ba9f) — Block 25188867
+- WETH/USDT $7.3K BUY (0xBdb3ba9f) — Block 25188866
+- USDC/WETH $4.2K BUY (0x4C82D1fB) — Block 25188865
 
-▸ ⇢ 4,274.6085 USDC
-▸ ⇠ 2.0804 WETH
-▸ 🐳 0xBdb3ba9f…DF47B6
-▸ 📦 Block 25188767
-▸ 🔍 TX: https://etherscan.io/tx/0xf1af945f5e453d84e8801b3fe742e5b5acd49c4d8d9fed6fdb7ddddc38946193
+Active wallets:
+- 0xBdb3ba9f — 6 trades (~$83K total)
+- 0x51C72848 — 2 trades (~$3.3K)
+- 0xe60fAE78 — 2 trades (~$7.1K)
 
-✅ Verified on-chain:
-  ├ CID: bafkreigvd6mi2khwbl33nvqss5u…
-  ├ Epoch: 25188767
-  └ Project: allTradesSnapshot
+Pairs: USDC/WETH (5), WETH/USDT (5), XAUt/USDT, LCAI/WETH, LDO/WETH, wM/USDC, wOCT/WETH, USDC/SEI (2), USDC/USDT

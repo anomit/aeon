@@ -1,0 +1,123 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Digest"
+      },
+      "children": [
+        "subtitle",
+        "sep1",
+        "trades_heading",
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "sep2",
+        "wallets_heading",
+        "wallet1",
+        "wallet2",
+        "wallet3",
+        "sep3",
+        "pairs_heading",
+        "pairs_text"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25188861-25188867 (7 epochs, 21 trades)",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trades_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Top trades:",
+        "variant": "lead"
+      }
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $59.5K BUY (0xBdb3ba9f) — Block 25188866"
+      }
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $9.8K BUY (0xBdb3ba9f) — Block 25188867"
+      }
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $7.3K BUY (0xBdb3ba9f) — Block 25188866"
+      }
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $4.2K BUY (0x4C82D1fB) — Block 25188865"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "wallets_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets:",
+        "variant": "lead"
+      }
+    },
+    "wallet1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f — 6 trades (~$83K total)"
+      }
+    },
+    "wallet2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x51C72848 — 2 trades (~$3.3K)"
+      }
+    },
+    "wallet3": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xe60fAE78 — 2 trades (~$7.1K)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pairs_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Pairs:",
+        "variant": "lead"
+      }
+    },
+    "pairs_text": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH (5), WETH/USDT (5), XAUt/USDT, LCAI/WETH, LDO/WETH, wM/USDC, wOCT/WETH, USDC/SEI (2), USDC/USDT"
+      }
+    }
+  }
+}
