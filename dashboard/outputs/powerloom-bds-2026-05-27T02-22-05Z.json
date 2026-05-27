@@ -1,0 +1,97 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat",
+        "pool",
+        "epoch",
+        "tx",
+        "block",
+        "badge",
+        "separator",
+        "verification"
+      ]
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Whale alert",
+        "value": "$2,543.45",
+        "delta": "",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25183644",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xae9f42d3f7eecb8e2669170e606cfd32b1b6a3d320c4b1aad4307087b3c43bf1",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25183644",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiaaxcwdpcqfa2pc35zjfhwck3lqwtiqekjbf6j3av3rycporaj5lu\nproject: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH\nepoch_id: 25183644",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
