@@ -1,0 +1,221 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BDS Whale Radar Digest — Epochs 25189565–25189574"
+      },
+      "children": [
+        "header",
+        "trades-section",
+        "wallets-section",
+        "pairs-section",
+        "alert-section"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "8 epochs, 62 alerts",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "trades-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trades-heading",
+        "trades-list"
+      ]
+    },
+    "trades-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TOP TRADES:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trades-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "trade-1",
+        "trade-2",
+        "trade-3",
+        "trade-4",
+        "trade-5",
+        "trade-6",
+        "trade-7",
+        "trade-8",
+        "trade-9",
+        "trade-10"
+      ]
+    },
+    "trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $261.1K (0x51C72848, blk 25189573)"
+      },
+      "children": []
+    },
+    "trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $130.8K (0x51C72848, blk 25189570)"
+      },
+      "children": []
+    },
+    "trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $91.8K (0x51C72848, blk 25189572)"
+      },
+      "children": []
+    },
+    "trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "• wstETH/WETH $74.5K (0xfD0b31d2, blk 25189574)"
+      },
+      "children": []
+    },
+    "trade-5": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/WETH $29.4K (0xBdb3ba9f, blk 25189569)"
+      },
+      "children": []
+    },
+    "trade-6": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT $21.9K (0x51C72848, blk 25189573)"
+      },
+      "children": []
+    },
+    "trade-7": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT $21.6K (0xBdb3ba9f, blk 25189565)"
+      },
+      "children": []
+    },
+    "trade-8": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $20.2K (blk 25189574)"
+      },
+      "children": []
+    },
+    "trade-9": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $18.6K (0x51C72848, blk 25189573)"
+      },
+      "children": []
+    },
+    "trade-10": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT $18.7K (0xBdb3ba9f, blk 25189570)"
+      },
+      "children": []
+    },
+    "wallets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wallets-heading",
+        "wallets-list"
+      ]
+    },
+    "wallets-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ACTIVE WALLETS:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "wallets-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "wallet-1",
+        "wallet-2",
+        "wallet-3"
+      ]
+    },
+    "wallet-1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x51C72848 — 14+ trades (~$700K+)"
+      },
+      "children": []
+    },
+    "wallet-2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f — 12+ trades (~$200K+)"
+      },
+      "children": []
+    },
+    "wallet-3": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xE592427A — 6+ trades (~$60K+)"
+      },
+      "children": []
+    },
+    "pairs-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pairs-heading",
+        "pairs-text"
+      ]
+    },
+    "pairs-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PAIRS:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pairs-text": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH (22), WETH/USDT (14), WBTC/USDT (6), QNT/WETH (3), DAI/WETH (2), PAXG/XAUt, wstETH/WETH, USDC/SEI, USD0/USDC, wM/USDC, WETH/RAIL"
+      },
+      "children": []
+    },
+    "alert-section": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "1 ZAMA/USDT alert with uint256 overflow (recurring data anomaly)."
+      },
+      "children": []
+    }
+  }
+}
