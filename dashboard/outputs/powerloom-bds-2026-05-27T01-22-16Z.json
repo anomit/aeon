@@ -1,0 +1,116 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale alert"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "whale-stat",
+        "info-section",
+        "verification-badge",
+        "details-section"
+      ]
+    },
+    "whale-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Whale alert",
+        "value": "$1,774.20"
+      },
+      "children": []
+    },
+    "info-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pool-text",
+        "epoch-text",
+        "tx-text",
+        "block-text"
+      ]
+    },
+    "pool-text": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch-text": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25183343",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx-text": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0xc306272f50b32cd9539ec588ed001eb4e3d6e49dafc233c544ee9716b1bdaa66",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block-text": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25183343",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "verification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid-text",
+        "project-text"
+      ]
+    },
+    "cid-text": {
+      "type": "Text",
+      "props": {
+        "text": "   cid: bafkreicp5hscwkffr4smecdtst7c3r3dbpuij4cdwqdbcjefawttwqvvry",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "project-text": {
+      "type": "Text",
+      "props": {
+        "text": "   project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
