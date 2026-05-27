@@ -1,0 +1,95 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Alert",
+        "description": "Large transaction detected on-chain"
+      },
+      "children": [
+        "stat-1",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "separator-1",
+        "badge-1",
+        "text-5",
+        "text-6"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Transaction Value",
+        "value": "$7,191.73"
+      },
+      "children": []
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0x11b815efB8f581194ae79006d24E0d814B7697F6",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25185240",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x5a7e60eec5b32cdde48a96b1dabf855922c1021e7bbc3e368d5bb6b858fc9126",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25185240",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "CID: bafkreidxgfff7gpoubh3u4hudozpqywps77tq6m3q45nmwykknbhdbxicq",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "Project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
