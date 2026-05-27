@@ -1,0 +1,267 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 BDS Whale Digest — Epochs 25188563-25188572 (10 epochs, 25 trades)"
+      },
+      "children": [
+        "top-trades-section",
+        "active-wallets-section",
+        "pairs-section",
+        "verification-footer"
+      ]
+    },
+    "top-trades-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-trades-heading",
+        "top-trades-list"
+      ]
+    },
+    "top-trades-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top:",
+        "level": "h3"
+      }
+    },
+    "top-trades-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trade-1",
+        "trade-2",
+        "trade-3",
+        "trade-4",
+        "trade-5",
+        "trade-6",
+        "trade-7"
+      ]
+    },
+    "trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH $66.4K (0xBdb3ba9f)",
+        "variant": "body"
+      }
+    },
+    "trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH $38.7K (0xBdb3ba9f)",
+        "variant": "body"
+      }
+    },
+    "trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH $33.5K (0x51C72848)",
+        "variant": "body"
+      }
+    },
+    "trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "WBTC/USDT $16.8K (0xBdb3ba9f)",
+        "variant": "body"
+      }
+    },
+    "trade-5": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/USDT $7.1K",
+        "variant": "body"
+      }
+    },
+    "trade-6": {
+      "type": "Text",
+      "props": {
+        "text": "WBTC/WETH $4.8K",
+        "variant": "body"
+      }
+    },
+    "trade-7": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH $5.0K",
+        "variant": "body"
+      }
+    },
+    "active-wallets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "active-wallets-heading",
+        "active-wallets-list"
+      ]
+    },
+    "active-wallets-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Active wallets:",
+        "level": "h3"
+      }
+    },
+    "active-wallets-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wallet-1",
+        "wallet-2",
+        "wallet-3",
+        "wallet-4"
+      ]
+    },
+    "wallet-1": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (10 trades, ~$140K)",
+        "variant": "body"
+      }
+    },
+    "wallet-2": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (5 trades, ~$43K)",
+        "variant": "body"
+      }
+    },
+    "wallet-3": {
+      "type": "Text",
+      "props": {
+        "text": "0x7cDa585e (3 trades)",
+        "variant": "body"
+      }
+    },
+    "wallet-4": {
+      "type": "Text",
+      "props": {
+        "text": "0xE592427A (3 trades)",
+        "variant": "body"
+      }
+    },
+    "pairs-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pairs-heading",
+        "pairs-list"
+      ]
+    },
+    "pairs-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Pairs:",
+        "level": "h3"
+      }
+    },
+    "pairs-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pair-1",
+        "pair-2",
+        "pair-3",
+        "pair-4",
+        "pair-5",
+        "pair-6",
+        "pair-7",
+        "pair-8",
+        "pair-9"
+      ]
+    },
+    "pair-1": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH (4)",
+        "variant": "body"
+      }
+    },
+    "pair-2": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/USDT (5)",
+        "variant": "body"
+      }
+    },
+    "pair-3": {
+      "type": "Text",
+      "props": {
+        "text": "WBTC/USDT (2)",
+        "variant": "body"
+      }
+    },
+    "pair-4": {
+      "type": "Text",
+      "props": {
+        "text": "LDO/WETH (3)",
+        "variant": "body"
+      }
+    },
+    "pair-5": {
+      "type": "Text",
+      "props": {
+        "text": "ICP/WETH (2)",
+        "variant": "body"
+      }
+    },
+    "pair-6": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/SEI (2)",
+        "variant": "body"
+      }
+    },
+    "pair-7": {
+      "type": "Text",
+      "props": {
+        "text": "WBTC/WETH (1)",
+        "variant": "body"
+      }
+    },
+    "pair-8": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/SPX (1)",
+        "variant": "body"
+      }
+    },
+    "pair-9": {
+      "type": "Text",
+      "props": {
+        "text": "ZAMA/USDT (1, uint256 overflow)",
+        "variant": "body"
+      }
+    },
+    "verification-footer": {
+      "type": "Alert",
+      "props": {
+        "title": "Verification",
+        "message": "All on-chain verified via Powerloom BDS",
+        "type": "success"
+      }
+    }
+  }
+}
