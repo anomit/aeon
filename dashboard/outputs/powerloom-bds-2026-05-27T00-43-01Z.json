@@ -1,0 +1,80 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Alert",
+        "description": "Whale alert detected on blockchain"
+      },
+      "children": [
+        "stat-amount",
+        "text-pool",
+        "text-epoch",
+        "link-tx",
+        "badge-verified",
+        "text-cid",
+        "text-project"
+      ]
+    },
+    "stat-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Transaction Value",
+        "value": "$2,229.93",
+        "trend": "up",
+        "delta": "whale alert"
+      },
+      "children": []
+    },
+    "text-pool": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch/Block: 25183145",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tx": {
+      "type": "Link",
+      "props": {
+        "label": "0xa7afe18ff55e2ecc9757b5228963f417d0cb9dcf951dd9931bd8de9c818c5f79",
+        "href": "0xa7afe18ff55e2ecc9757b5228963f417d0cb9dcf951dd9931bd8de9c818c5f79"
+      },
+      "children": []
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified on-chain",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreiav6ee4c4a2xx2g6osdivk3xw3ieecy5v4dpdwsl7qdw4ifb4ceia",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
