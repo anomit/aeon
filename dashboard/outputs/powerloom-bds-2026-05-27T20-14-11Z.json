@@ -1,0 +1,158 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "BDS Alert Digest — Epochs 25188961-25188970"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "separator1",
+        "heading1",
+        "stack2",
+        "separator2",
+        "heading2",
+        "stack3"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "81 whale alerts across 10 epochs."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Top moves:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "text6",
+        "text7"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $2.40M x2 (0x1f2F10D1, block 25188962) — mega-swaps"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $61.4K / $56.4K / $56.4K (0x51C72848, 0xBdb3ba9f)"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $59.3K / $52.0K / $51.6K (0x51C72848, 0xBdb3ba9f)"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $46.9K / $30.5K (0x51C72848)"
+      },
+      "children": []
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/WETH $19.6K (0xE592427A)"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "• ENA/WETH $17.3K (block 25188961)"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Active wallets:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text8",
+        "text9",
+        "text10"
+      ]
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x51C72848 — ~38 trades, $400K+ (WETH/USDT, USDC/WETH, WBTC/USDT, WBTC/USDC, DAI/WETH, USDC/cbBTC)"
+      },
+      "children": []
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f — ~14 trades, $170K+ (WETH/USDT, USDC/WETH, WBTC/USDT)"
+      },
+      "children": []
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x1f2F10D1 — 2 trades, $4.80M (WETH/USDT mega-swaps)"
+      },
+      "children": []
+    }
+  }
+}
