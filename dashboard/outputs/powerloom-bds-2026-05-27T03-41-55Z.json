@@ -1,0 +1,93 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack-1",
+        "separator-1",
+        "alert-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-1",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5"
+      ]
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain"
+      }
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Whale alert",
+        "value": "$3,140.88"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Pool: 0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25183944"
+      }
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "Tx: 0x101e98d6893d1e5fbf57f51bb14f312ba3d6ab53af5cd2fbaeefe4fdedcdc126"
+      }
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25183944"
+      }
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "cid: bafkreicvifdvpk4mdmh6qmqdixcqnhqx5lvypialn37gfl6flnkmjwyfx4"
+      }
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "project: allTradesSnapshot:0x4198Bf81B55EE4Af6f9Ddc176F8021960813f641:mainnet-BDS_MAINNET_ALPHA_UNISWAPV3-ETH"
+      }
+    },
+    "text-7": {
+      "type": "Text",
+      "props": {
+        "text": "epoch_id: 25183944"
+      }
+    }
+  }
+}
