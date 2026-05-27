@@ -1,15 +1,1 @@
-🟢 🐋 WHALE ALERT 🟢
-
-🟢 BUY LIT/WETH on Uniswap V3 (1%)
-💰 $1.6K swapped
-
-▸ ⇒ 1,368.5 LIT
-▸ ⇐ 0.791501 WETH
-▸ 🐳 0x68b34658…65Fc45
-▸ 📦 Block 25187180
-▸ 🔍 TX: https://etherscan.io/tx/0xf606bfc918a54120a688684784a1adf3ff5545468aa6e682630a167aa0a7e668
-
-✅ Verified on-chain:
-  ├ CID: bafkreicqcwwfxq3l646ehlxvezt…
-  ├ Epoch: 25187180
-  └ Project: allTradesSnapshot
+powerloom-bds: 24 whale alerts queued for epochs 25187270-25187274 including USDC/WETH, WBTC/USDT, LINK/WETH, LDO/WETH, ASTEROID, ICP/WETH, TEL/WETH, SEI trades. Largest: 30K USDC/ASTEROID. All verified on-chain.

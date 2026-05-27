@@ -1,0 +1,61 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds",
+        "description": "Whale trading alerts"
+      },
+      "children": [
+        "heading-1",
+        "text-1",
+        "badge-1",
+        "text-2",
+        "stat-1",
+        "badge-2"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "powerloom-bds",
+        "level": "h1"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "24 whale alerts queued for epochs 25187270-25187274"
+      }
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "24 alerts",
+        "variant": "default"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Trading pairs: USDC/WETH, WBTC/USDT, LINK/WETH, LDO/WETH, ASTEROID, ICP/WETH, TEL/WETH, SEI"
+      }
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Largest Trade",
+        "value": "30K USDC/ASTEROID"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified On-Chain",
+        "variant": "success"
+      }
+    }
+  }
+}
