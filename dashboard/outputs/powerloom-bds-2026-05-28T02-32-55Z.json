@@ -1,0 +1,90 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT BATCH — Epochs 25190854–25190861",
+        "description": "7 epochs, 38 trades"
+      },
+      "children": [
+        "stack-notable",
+        "stack-wallets",
+        "alert-anomaly",
+        "verified"
+      ]
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-notable",
+        "text-notable-description"
+      ]
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable trades:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-notable-description": {
+      "type": "Text",
+      "props": {
+        "text": "• $179.2K USDC→WETH (0x51C72848)\n• $20.7K PAXG→USDC (0x51C72848)\n• $20.6K WBTC→WETH (0x51C72848)\n• $19.3K WBTC→USDC (0xE592427A)\n• $15.5K WBTC→USDT (0x42E213a3)\n• $11.9K FLUX→DAM (0xC36442b4)\n• $11.7K XAUt→USDT (0x51C72848)\n• $10.7K USDC→WETH (0x51C72848)\n• $8.0K WETH→USDT x2 (0x76600115, 0x51C72848)\n• $5.7K USDC→WETH + $5.7K USDC→SEI (0x51C72848)\n• $5.0K USDC→WETH, $4.8K WETH→USDT x2, $4.5K SKY→WETH\n• $4.1K USDC→WETH, $4.0K WBTC→WETH, $3.8K WETH→USDT\n• $3.0K WETH→USDT, $2.7K WETH→USDT, $2.6K WETH→USDT\n• $2.5K USDC→WETH, $2.4K WETH→ONDO, $2.3K WETH→ONDO\n• $2.2K SKY→WETH, $2.2K USDC→WETH, $1.9K USDC→WETH\n• $1.5K USDC→WETH, $1.4K USDC→WETH, $1.1K USDC→WETH x2\n• $1.1K UNI→WBTC, $1.1K ICP→WETH, $3.6K USDC→SEI",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert-anomaly": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ ZAMA/USDT oracle anomaly detected",
+        "message": "displayed $159T, actual ~$8 USDT",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "stack-wallets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-wallets",
+        "text-wallets"
+      ]
+    },
+    "heading-wallets": {
+      "type": "Heading",
+      "props": {
+        "text": "Active wallets:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-wallets": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (15 trades), 0xBdb3ba9f (6), 0x4c3ccC98 (4), 0xE592427A (2), 0x7cDa585e (1)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All trades verified on-chain via Powerloom BDS",
+        "variant": "success"
+      },
+      "children": []
+    }
+  }
+}
