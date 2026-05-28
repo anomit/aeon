@@ -1,0 +1,60 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "MEGA-WHALE: $1.71M USDC → USDT on Uniswap V3 (1%)"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3",
+        "link"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "⇒ 1.55M USDC → 164,631 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 anon",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25192251",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 View Transaction",
+        "href": "https://etherscan.io/tx/0x09b3dc1bb28550e9601920bb31aa2dd8850c4b44088d7010069d4bdc0ca50dfc"
+      },
+      "children": []
+    }
+  }
+}
