@@ -1,0 +1,124 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale alerts consolidated",
+        "description": "27 alerts epochs 25191651-25191660"
+      },
+      "children": [
+        "stack-main",
+        "separator",
+        "alert-anomaly"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-trades",
+        "stack-trades"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-anomaly": {
+      "type": "Alert",
+      "props": {
+        "title": "ZAMA/USDT oracle anomaly",
+        "message": "x2",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "heading-trades": {
+      "type": "Heading",
+      "props": {
+        "text": "Top trades:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-1",
+        "stat-2",
+        "stat-3",
+        "stat-4",
+        "stat-5",
+        "stat-6"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "value": "13.9K",
+        "label": "WBTC/WETH"
+      },
+      "children": []
+    },
+    "stat-2": {
+      "type": "Stat",
+      "props": {
+        "value": "10.8K",
+        "label": "USDC/WETH"
+      },
+      "children": []
+    },
+    "stat-3": {
+      "type": "Stat",
+      "props": {
+        "value": "8.2K",
+        "label": "USDC/WETH"
+      },
+      "children": []
+    },
+    "stat-4": {
+      "type": "Stat",
+      "props": {
+        "value": "5.8K",
+        "label": "EURCV/USDC"
+      },
+      "children": []
+    },
+    "stat-5": {
+      "type": "Stat",
+      "props": {
+        "value": "4.9K",
+        "label": "WETH/RAIL"
+      },
+      "children": []
+    },
+    "stat-6": {
+      "type": "Stat",
+      "props": {
+        "value": "4.5K",
+        "label": "USDC/SEI"
+      },
+      "children": []
+    },
+    "wallets-section": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets: 0x51C72848 (7), 0x4C82D1fB (3), 0xe60fAE78 (3)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
