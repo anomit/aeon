@@ -1,0 +1,185 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS — Epochs 25191751–25191760 (10 epochs)",
+        "description": "43 trades detected | 3 ZAMA/USDT oracle anomalies excluded"
+      },
+      "children": [
+        "stack-top-trades",
+        "stack-wallets-pairs"
+      ]
+    },
+    "stack-top-trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-top-trades",
+        "stack-trades"
+      ]
+    },
+    "heading-top-trades": {
+      "type": "Heading",
+      "props": {
+        "text": "Top trades:",
+        "level": "h3"
+      }
+    },
+    "stack-trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade-1",
+        "trade-2",
+        "trade-3",
+        "trade-4",
+        "trade-5",
+        "trade-6",
+        "trade-7",
+        "trade-8",
+        "trade-9",
+        "trade-10"
+      ]
+    },
+    "trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "• $60.0K WBTC/USDT (anon, block 25191760)",
+        "variant": "body"
+      }
+    },
+    "trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "• $54.9K USDC/WETH (0x51C72848, block 25191760)",
+        "variant": "body"
+      }
+    },
+    "trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "• $45.3K WBTC/USDC (anon, block 25191758)",
+        "variant": "body"
+      }
+    },
+    "trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "• $41.0K USDC/WETH (0x4C82D1fB, block 25191760)",
+        "variant": "body"
+      }
+    },
+    "trade-5": {
+      "type": "Text",
+      "props": {
+        "text": "• $23.3K USDC/WETH (0x149d330C, block 25191760)",
+        "variant": "body"
+      }
+    },
+    "trade-6": {
+      "type": "Text",
+      "props": {
+        "text": "• $21.5K XAUt/USDT (0x51C72848, block 25191751)",
+        "variant": "body"
+      }
+    },
+    "trade-7": {
+      "type": "Text",
+      "props": {
+        "text": "• $19.2K USDC/WETH (0xBdb3ba9f, block 25191752)",
+        "variant": "body"
+      }
+    },
+    "trade-8": {
+      "type": "Text",
+      "props": {
+        "text": "• $15.4K USDC/WETH (0x51C72848, block 25191758)",
+        "variant": "body"
+      }
+    },
+    "trade-9": {
+      "type": "Text",
+      "props": {
+        "text": "• $13.7K XAUt/USDT (0xBdb3ba9f, block 25191759)",
+        "variant": "body"
+      }
+    },
+    "trade-10": {
+      "type": "Text",
+      "props": {
+        "text": "• $12.1K XAUt/USDT (0x51C72848, block 25191758)",
+        "variant": "body"
+      }
+    },
+    "stack-wallets-pairs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "stack-wallets",
+        "stack-pairs"
+      ]
+    },
+    "stack-wallets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-wallets",
+        "text-wallets"
+      ]
+    },
+    "heading-wallets": {
+      "type": "Heading",
+      "props": {
+        "text": "Active wallets:",
+        "level": "h3"
+      }
+    },
+    "text-wallets": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (15 trades), 0xBdb3ba9f (5), 0x4C82D1fB (4), 0x8F10B468 (2), anon (2)",
+        "variant": "body"
+      }
+    },
+    "stack-pairs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-pairs",
+        "text-pairs"
+      ]
+    },
+    "heading-pairs": {
+      "type": "Heading",
+      "props": {
+        "text": "Pairs:",
+        "level": "h3"
+      }
+    },
+    "text-pairs": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH (12), WETH/USDT (5), XAUt/USDT (4), WBTC/USDT (3), PAXG/USDC (2), ZAMA/USDT (3 anomalous), LDO/WETH (2), others (5)",
+        "variant": "body"
+      }
+    }
+  }
+}
