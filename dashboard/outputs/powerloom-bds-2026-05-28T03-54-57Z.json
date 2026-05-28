@@ -1,0 +1,101 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE RADAR",
+        "description": "Epochs 25191251-25191260"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-1",
+        "heading-1",
+        "table-1",
+        "heading-2",
+        "text-1",
+        "alert-1"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Trades",
+        "value": "52"
+      }
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Mega Trades",
+        "level": "h3"
+      }
+    },
+    "table-1": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Trade",
+          "Volume"
+        ],
+        "rows": [
+          [
+            "wstETH/WETH",
+            "567K"
+          ],
+          [
+            "USDC/WETH",
+            "344K"
+          ],
+          [
+            "DAI/USDT",
+            "100K"
+          ],
+          [
+            "USDC/USDT",
+            "100K"
+          ],
+          [
+            "USDC/WETH",
+            "67K"
+          ],
+          [
+            "USDC/WETH",
+            "57K"
+          ]
+        ]
+      }
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Wallets",
+        "level": "h3"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (15+ trades), 0xE592427A (6 bot-like), 0xBdb3ba9f (4)",
+        "variant": "body"
+      }
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "message": "ZAMA/USDT oracle anomaly. All verified on-chain via Powerloom BDS.",
+        "type": "warning"
+      }
+    }
+  }
+}
