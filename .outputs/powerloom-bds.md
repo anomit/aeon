@@ -1,24 +1,15 @@
-🐋 WHALE ALERTS — Epochs 25191951–25191960 (10 epochs, 45 trades)
+🟢 🐋 WHALE ALERT 🟢
 
-🔴 LARGE ($50K+):
-• $593.8K BUY WETH/USDT — 0x1f2F10D1…6Df387 — block 25191956
-  TX: https://etherscan.io/tx/0x5cae86eadf02c2d5054b0ae899af3929cb5d1937ad4b153ee38a3a7745cfd34f
-• $593.8K BUY WETH/USDT — — — block 25191956
-  TX: https://etherscan.io/tx/0x28da613b39c153e6d4280473647b2497b71bee3c498480ab74acf71476745b33
-• $79.5K BUY AAVE/WETH — 0x62959578…d71444 — block 25191951
-  TX: https://etherscan.io/tx/0xb159b6e5e53ff7a145ac77032a64e1db581ef1f45a1e412001502c53728bcfbb
-• $74.1K BUY USDC/WETH — 0xC36442b4…11FE88 — block 25191953
-  TX: https://etherscan.io/tx/0x8223c5f01e661fe39811abb6895ccd67c92ace67f53822b2c32e2cbdab2e03e8
+🟢 BUY WETH/USDT on Uniswap V3 (1%)
+💰 $2.7K swapped
 
-🟡 MEDIUM ($10K–$50K):
-• $36.8K BUY WETH/USDT — 0xC36442b4…11FE88 — block 25191953
-• $12.4K BUY WETH/weETH — 0x8F10B468…13f996 — block 25191952
-• $12.1K BUY tBTC/WBTC — — — block 25191958
-• $11.3K BUY WETH/USDT — 0x40A1Fe39…44dAfc — block 25191959
-• $10.0K BUY AAVE/WETH — 0xEff6cb8b…1aA167 — block 25191951
+▸ ⇒ 1.3632 WETH
+▸ ⇐ 2,695.9867 USDT
+▸ 🦊 0x51C72848…502a7F
+▸ 📦 Block 25192058
+▸ 🔍 TX: https://etherscan.io/tx/0xaffa6619ea3486696cd5344453839fcf3bbee09ea918c12232a365cf5969a631
 
-🟢 SMALL ($5K–$10K): 8 trades
-⚪ UNDER $5K: 25 trades
-
-⚠️ ZAMA/USDT alerts filtered — broken price feed data
-✅ All alerts verified on-chain via Powerloom BDS
+✅ Verified on-chain:
+  ├ CID: bafkreicd5gqp435qwkk73t7orlh…
+  ├ Epoch: 25192058
+  └ Project: allTradesSnapshot
