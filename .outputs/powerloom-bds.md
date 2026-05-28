@@ -1,12 +1,15 @@
-Powerloom BDS Digest — Epochs 25190059–25190067 (9 epochs, 29 trades)
+🟢 🐋 WHALE ALERT 🟢
 
-Top moves:
-- WETH/USDT $2.28M x2 (0x1f2F10D1) — mega-swaps
-- wM/USDC $25.0K (0xE592427A)
-- PAXG/USDC $23.0K (0x51C72848)
-- USDC/WETH $22.1K (0xBdb3ba9f)
-- WBTC/USDT $15.4K (0xBdb3ba9f)
-- USDC/WETH $6.3K (0x51C72848)
-- USDC/WETH $5.8K (0x365084B0)
+🟢 BUY WBTC/WETH on Uniswap V3 (1%)
+💰 $1.8K swapped
 
-Active wallets: 0x51C72848 (7 trades ~$39K), 0xBdb3ba9f (4 trades ~$44K), 0xE592427A (3 trades ~$28K), 0x1f2F10D1 (2 trades $4.56M). 3 ZAMA/USDT uint256 overflow (recurring).
+▸ ⇢ 0.02435741 WBTC
+▸ ⇠ 0.89325943 WETH
+▸ 🐳 0x51C72848…502a7F
+▸ 📦 Block 25190166
+▸ 🔍 TX: https://etherscan.io/tx/0xad048a3850a45cdb0e69f4fd659fc74e6cae1ec871a5a729adfbbac08d46426e
+
+✅ Verified on-chain:
+  ├ CID: bafkreifm73v6nouxhyqngjwo2zs…
+  ├ Epoch: 25190166
+  └ Project: allTradesSnapshot
