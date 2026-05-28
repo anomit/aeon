@@ -1,0 +1,80 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": ""
+      },
+      "children": [
+        "alert",
+        "swap-details",
+        "transaction-info",
+        "verification"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "🟢 BUY WETH/USDT on Uniswap V3 (1%)",
+        "message": "💰 $3.7K swapped",
+        "type": "info"
+      },
+      "children": []
+    },
+    "swap-details": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.8564 WETH\n▸ ⇠ 3,750.7581 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transaction-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wallet-address",
+        "block-number",
+        "tx-link"
+      ]
+    },
+    "wallet-address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦂 0x51C72848…502a7F",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "block-number": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25190763",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x19a7fc0d3d6e24450231039ab66aab9170670e2e1a786ae7a29b08de05805efe",
+        "href": "https://etherscan.io/tx/0x19a7fc0d3d6e24450231039ab66aab9170670e2e1a786ae7a29b08de05805efe"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:\n  ├ CID: bafkreie7a6dkmxa6ehtoc4gazs2…\n  ├ Epoch: 25190763\n  └ Project: allTradesSnapshot",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
