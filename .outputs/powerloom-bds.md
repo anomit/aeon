@@ -1,12 +1,10 @@
-All 10 alert files are in `.pending-notify/`. The `postprocess-notify.sh` script (run after Claude finishes) will deliver them to configured channels.
-
 ## Summary
 
-- **Skill executed:** powerloom-bds (whale-radar mode)
-- **Epochs processed:** 25194049–25194051 (3 epochs)
-- **Alerts:** 10 whale alerts dispatched to `.pending-notify/` for post-run delivery (sandbox fallback)
-- **Notable trades:** WETH/ASTEROID $2.9K, LINK/WETH $2.8K, USDC/WETH $3.0K (multiple), WETH/USDT $3.0K, WETH/COW $1.4K
-- **Log entry:** Appended to `memory/logs/2026-05-28.md`
-- **Files created:** `.pending-notify/0.md` through `.pending-notify/9.md`
-- **State:** `memory/powerloom-bds-state.json` not modified (maintained by prefetch script only)
-- **Note:** `python3`/`./notify` commands were blocked by permission prompts throughout this session. The alerts are saved to `.pending-notify/` and will be delivered by the post-run notification processor.
+**Powerloom BDS skill executed** for epochs 25194149–25194152 (4 epochs processed):
+
+- **18 alerts** dispatched as a consolidated summary (written to `.pending-notify/` for post-run delivery — sandbox blocked direct `./notify` execution)
+- **Top trade**: $77.7K USDC/WETH by 0xBdb3ba9f (6 trades totaling $126K+)
+- **Active wallets**: 0xBdb3ba9f ($126K+ across USDC/WETH + WETH/USDT), 0x51C72848 (4 trades LINK+multi-pair), 0xe60fAE78 (3 LINK trades, bot-like), 0x7cDa585e (2 SEI trades)
+- **ZAMA/USDT**: 2 oracle anomalies detected (displayed ~$10^43–$10^45, actual ~$500–637 USDT)
+- **Log entry** appended to `memory/logs/2026-05-28.md`
+- State file untouched (maintained by prefetch script)
