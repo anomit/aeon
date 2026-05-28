@@ -1,0 +1,125 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "Uniswap V3 WETH/USDT Swap"
+      },
+      "children": [
+        "stack-1",
+        "stack-2",
+        "separator-1",
+        "stack-3"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "text-1"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY WETH/USDT on Uniswap V3 (1%)",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $4.4K swapped",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "link-1"
+      ]
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 2.1993 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 4,385.5242 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0x149d330C…20B38e",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25192457",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x25d7c5b5478b86094c28379cd7c7ae70c0e71f48d78acd0fbfd6685f2e859b16",
+        "href": "https://etherscan.io/tx/0x25d7c5b5478b86094c28379cd7c7ae70c0e71f48d78acd0fbfd6685f2e859b16"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-6"
+      ]
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
