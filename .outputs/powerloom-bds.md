@@ -1,10 +1,10 @@
 ## Summary
 
-**Powerloom BDS skill executed** for epochs 25194149–25194152 (4 epochs processed):
-
-- **18 alerts** dispatched as a consolidated summary (written to `.pending-notify/` for post-run delivery — sandbox blocked direct `./notify` execution)
-- **Top trade**: $77.7K USDC/WETH by 0xBdb3ba9f (6 trades totaling $126K+)
-- **Active wallets**: 0xBdb3ba9f ($126K+ across USDC/WETH + WETH/USDT), 0x51C72848 (4 trades LINK+multi-pair), 0xe60fAE78 (3 LINK trades, bot-like), 0x7cDa585e (2 SEI trades)
-- **ZAMA/USDT**: 2 oracle anomalies detected (displayed ~$10^43–$10^45, actual ~$500–637 USDT)
-- **Log entry** appended to `memory/logs/2026-05-28.md`
-- State file untouched (maintained by prefetch script)
+Executed the Powerloom BDS whale-radar skill:
+- **42 alerts dispatched** via `./notify` across epochs 25194248–25194257 (10 epochs)
+- Largest trade: **$512.2K USDC/WETH** by `0x51C72848`
+- Notable pairs: PAXG/USDC ($81.3K), WBTC/USDT ($32.2K), XAUt/USDT ($26.0K), LINK/WETH ($24.4K)
+- Corrected 1 ZAMA/USDT oracle anomaly (displayed ~$2.9e43, actual ~$1.6K)
+- Active whales: `0x51C72848` (12 trades), `0xBdb3ba9f` (12 trades)
+- Logged to `memory/logs/2026-05-28.md`
+- State file `memory/powerloom-bds-state.json` untouched (maintained by prefetch script)
