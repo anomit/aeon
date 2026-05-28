@@ -1,0 +1,336 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE RADAR · Epochs 25193548–25193557 (10 epochs, 28 trades)"
+      },
+      "children": [
+        "header",
+        "top_trades",
+        "separator1",
+        "mid_trades",
+        "separator2",
+        "small_trades",
+        "separator3",
+        "wallets",
+        "separator4",
+        "anomalies",
+        "footer"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 WHALE RADAR · Epochs 25193548–25193557 (10 epochs, 28 trades)",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "top_trades": {
+      "type": "Heading",
+      "props": {
+        "text": "TOP TRADES:",
+        "level": "h3"
+      }
+    },
+    "top_trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $92.9K USDC→WETH (0x4C82D1fB)",
+        "variant": "body"
+      }
+    },
+    "top_trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $98.3K REQ→WETH (0x1f2F10D1) [1 trade shows 0 REQ — oracle anomaly]",
+        "variant": "body"
+      }
+    },
+    "top_trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $36.6K WETH→RAIL (0xC10eE903)",
+        "variant": "body"
+      }
+    },
+    "top_trade_4": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $24.0K USDC→WETH (0x51C72848)",
+        "variant": "body"
+      }
+    },
+    "top_trade_5": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $22.6K USDC→WETH (0x51C72848)",
+        "variant": "body"
+      }
+    },
+    "mid_trades": {
+      "type": "Heading",
+      "props": {
+        "text": "MID:",
+        "level": "h3"
+      }
+    },
+    "mid_trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "$8.9K WETH/USDT",
+        "variant": "body"
+      }
+    },
+    "mid_trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "$5.6K WETH/ASTEROID",
+        "variant": "body"
+      }
+    },
+    "mid_trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "$5.5K WETH/USDT",
+        "variant": "body"
+      }
+    },
+    "mid_trade_4": {
+      "type": "Text",
+      "props": {
+        "text": "$5.0K USDC/WETH",
+        "variant": "body"
+      }
+    },
+    "mid_trade_5": {
+      "type": "Text",
+      "props": {
+        "text": "$4.9K XAUt/USDT",
+        "variant": "body"
+      }
+    },
+    "mid_trade_6": {
+      "type": "Text",
+      "props": {
+        "text": "$4.7K WETH/USDT",
+        "variant": "body"
+      }
+    },
+    "mid_trade_7": {
+      "type": "Text",
+      "props": {
+        "text": "$4.2K USDC/WETH",
+        "variant": "body"
+      }
+    },
+    "mid_trade_8": {
+      "type": "Text",
+      "props": {
+        "text": "$3.6K WBTC/USDT",
+        "variant": "body"
+      }
+    },
+    "mid_trade_9": {
+      "type": "Text",
+      "props": {
+        "text": "$3.4K USDC/WETH",
+        "variant": "body"
+      }
+    },
+    "mid_trade_10": {
+      "type": "Text",
+      "props": {
+        "text": "$3.0K LINK/WETH",
+        "variant": "body"
+      }
+    },
+    "mid_trade_11": {
+      "type": "Text",
+      "props": {
+        "text": "$2.5K USDC/USDT",
+        "variant": "body"
+      }
+    },
+    "mid_trade_12": {
+      "type": "Text",
+      "props": {
+        "text": "$2.3K USDC/WETH",
+        "variant": "body"
+      }
+    },
+    "mid_trade_13": {
+      "type": "Text",
+      "props": {
+        "text": "$2.1K KEKIUS/WETH",
+        "variant": "body"
+      }
+    },
+    "small_trades": {
+      "type": "Heading",
+      "props": {
+        "text": "SMALL:",
+        "level": "h3"
+      }
+    },
+    "small_trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "$2.1K WETH/USDT",
+        "variant": "body"
+      }
+    },
+    "small_trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "$1.9K WETH/USDT",
+        "variant": "body"
+      }
+    },
+    "small_trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "$1.6K WETH/USDT",
+        "variant": "body"
+      }
+    },
+    "small_trade_4": {
+      "type": "Text",
+      "props": {
+        "text": "$1.4K USDC/ASTEROID",
+        "variant": "body"
+      }
+    },
+    "small_trade_5": {
+      "type": "Text",
+      "props": {
+        "text": "$1.4K WETH/USDT",
+        "variant": "body"
+      }
+    },
+    "small_trade_6": {
+      "type": "Text",
+      "props": {
+        "text": "$1.2K USDC/WETH",
+        "variant": "body"
+      }
+    },
+    "small_trade_7": {
+      "type": "Text",
+      "props": {
+        "text": "$1.0K WETH/USDT",
+        "variant": "body"
+      }
+    },
+    "small_trade_8": {
+      "type": "Text",
+      "props": {
+        "text": "$1.0K USDC/USDx",
+        "variant": "body"
+      }
+    },
+    "wallets": {
+      "type": "Heading",
+      "props": {
+        "text": "WALLETS:",
+        "level": "h3"
+      }
+    },
+    "wallet_1": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (10 trades)",
+        "variant": "body"
+      }
+    },
+    "wallet_2": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (6)",
+        "variant": "body"
+      }
+    },
+    "wallet_3": {
+      "type": "Text",
+      "props": {
+        "text": "0x4C82D1fB",
+        "variant": "body"
+      }
+    },
+    "wallet_4": {
+      "type": "Text",
+      "props": {
+        "text": "0x1f2F10D1",
+        "variant": "body"
+      }
+    },
+    "wallet_5": {
+      "type": "Text",
+      "props": {
+        "text": "0xC10eE903 ($36.6K RAIL)",
+        "variant": "body"
+      }
+    },
+    "anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "ANOMALIES:",
+        "level": "h3"
+      }
+    },
+    "anomaly_1": {
+      "type": "Text",
+      "props": {
+        "text": "ZAMA/USDT: 3 oracle anomalies (displayed ~10^39–10^43, skipped)",
+        "variant": "body"
+      }
+    },
+    "anomaly_2": {
+      "type": "Text",
+      "props": {
+        "text": "REQ/WETH: 1 trade with 0 REQ input (oracle flag)",
+        "variant": "body"
+      }
+    },
+    "anomaly_3": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/ASTEROID: 1 trade with 0 WETH input (oracle flag)",
+        "variant": "body"
+      }
+    },
+    "footer": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ On-chain verified · Powerloom BDS",
+        "type": "success"
+      }
+    }
+  }
+}
