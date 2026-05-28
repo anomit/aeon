@@ -1,9 +1,11 @@
 ## Summary
 
-- **Skill**: Powerloom BDS (whale-radar mode)
-- **Epochs processed**: 25193149–25193151 (3 epochs)
-- **Alerts dispatched**: 9 written to `.pending-notify/` as individual `.md` files for post-run delivery via Telegram/Discord/Slack
-- **Skipped**: 3 ZAMA/USDT alerts with oracle anomalies (displayed values in the $10^42–$10^43 range)
-- **Dedup hashes**: Registered in `.notify-sent-hashes`
-- **Notable trades**: $16.5K XAUt/USDT, $5.6K XAUt/USDT, $3.8K PAXG/USDC — all from wallet 0x51C72848
-- **Log**: Appended to `memory/logs/2026-05-28.md`
+**powerloom-bds** skill executed successfully.
+
+- **Epochs processed:** 25193248–25193257 (9 epochs)
+- **Alerts dispatched:** 25 via `./notify`
+- **Notable trades:** $64.1K USDC/WETH, $50.1K USDC/WETH, $35.0K AUSD/USDC, $24.3K LINK/WETH, $16.9K USDC/WETH
+- **ZAMA/USDT:** 2 oracle anomalies corrected (displayed ~$10^42–$10^43, actual ~$268–$487 USDT)
+- **Top wallets:** 0xBdb3ba9f (6 trades), 0x4C82D1fB (4 trades)
+- **Log updated:** `memory/logs/2026-05-28.md`
+- **Status:** OK
