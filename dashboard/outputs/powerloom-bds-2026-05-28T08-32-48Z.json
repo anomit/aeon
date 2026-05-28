@@ -1,0 +1,117 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "text2",
+        "grid1",
+        "text3",
+        "link1",
+        "alert1"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 🐋 WHALE ALERT 🟢",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY USDT/wA7A5 on Uniswap V3 (5%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $2.7K swapped",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "grid1": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "text3",
+        "text4",
+        "text5",
+        "text6"
+      ]
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 2,712.4647 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 185,522.9301 wA7A5",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0x8D7512e5…b8EAbE",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25192652",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0xa22ebd4adbbabd2e53b18151cc711a4aa0d4563c7c936e2af7c0d80cf3f9a11e",
+        "href": "https://etherscan.io/tx/0xa22ebd4adbbabd2e53b18151cc711a4aa0d4563c7c936e2af7c0d80cf3f9a11e"
+      },
+      "children": []
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:",
+        "message": "├ CID: bafkreiekbecyknjtpsed43n5ymq…\n├ Epoch: 25192652\n└ Project: allTradesSnapshot",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
