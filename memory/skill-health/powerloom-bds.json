@@ -1,15 +1,13 @@
 {
   "skill": "powerloom-bds",
-  "last_analyzed": "2026-05-28T02:16:50Z",
-  "quality_score": 5,
-  "assessment": "Excellent - Successfully processed 10 epochs, detected high-value trades, corrected oracle anomalies, and maintained clean state tracking",
-  "flags": [],
+  "last_analyzed": "2026-05-28T02:58:34Z",
+  "quality_score": 4,
+  "assessment": "Good substantive output with meaningful whale alert analysis, includes specific trade values and wallet activity, though contains a notable data anomaly",
+  "flags": [
+    "stale_data"
+  ],
   "avg_score": 3.8,
   "history": [
-    {
-      "date": "2026-05-27",
-      "score": 4
-    },
     {
       "date": "2026-05-27",
       "score": 4
@@ -125,6 +123,10 @@
     {
       "date": "2026-05-28",
       "score": 5
+    },
+    {
+      "date": "2026-05-28",
+      "score": 4
     }
   ]
 }

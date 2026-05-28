@@ -1,0 +1,134 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT",
+        "description": "Powerloom BDS Transaction Notification"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-buy-info",
+        "stat-value",
+        "swap-details",
+        "separator",
+        "verified-section"
+      ]
+    },
+    "text-buy-info": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY WETH/USDT on Uniswap V3 (1%)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat-value": {
+      "type": "Stat",
+      "props": {
+        "label": "Swap Value",
+        "value": "$3.0K"
+      },
+      "children": []
+    },
+    "swap-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-swap-1",
+        "text-swap-2",
+        "text-address",
+        "text-block",
+        "text-link"
+      ]
+    },
+    "text-swap-1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.5 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-swap-2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 3,028.438 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xe60fAE78…94347e",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25190961",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-link": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🔍 TX: https://etherscan.io/tx/0x7b558c6a2266e12bdca123ec2afcca1b0bf8cf40d9cd3dc6245ad6999ea562c0",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verified-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-verified",
+        "text-verified"
+      ]
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "text-verified": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ CID: bafkreib6rs7gpitic3fw2xlzfy7…\n  ├ Epoch: 25190961\n  └ Project: allTradesSnapshot",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
