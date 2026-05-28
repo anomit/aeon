@@ -1,7 +1,1 @@
-## Summary
-
-- **Alerts dispatched**: 13 alerts from epochs 25192949–25192953 (5 epochs), written to `.pending-notify/bds-alerts.txt` for post-run delivery
-- **Notable trades**: $507K USDC/WETH (anon, 255 WETH), $79.9K USDC/USDT (bot-like), $54.3K WETH/USDT, $19.3K WETH/USDT
-- **Active wallets**: 0xC36442b4 (4 trades), 0x51C72848 (4 trades), 0xE592427A (3 trades, bot-like)
-- **Log entry**: Appended to `memory/logs/2026-05-28.md`, committed as `33968bb`
-- **Status**: OK
+BDS Batch: 28 more alerts epochs 25193048-25193057 | Notable: 70.5K WETH/USDT (0xC36442b4), 37.1K WETH/USDT (0x68b34658), 33.9K USDC/WETH (0x51C72848), 29.1K USDC/WETH (0x51C72848), 25.7K USDC/WETH (0x1f2F10D1), 25.3K WETH/USDT (0xBdb3ba9f), 17.6K XAUt/USDT (0x51C72848), 15.0K WBTC/WETH (0x7f54F056), 8.5K USDC/SEI, 8.4K XAUt/USDT, 8.0K WBTC/USDT, 8.9K WETH/USDT | Top wallets: 0x51C72848 (15+ trades), 0x1f2F10D1 (mega-buyer 2.8M+), 0xBdb3ba9f (4 trades), 0xa0F1C3aD (3 WBTC trades), 0x149d330C (3 trades), 0xC36442b4 (2 trades), 0x6747BcaF (2 trades), 0x7cDa585e (3 SEI trades) | All verified on-chain via Powerloom BDS
