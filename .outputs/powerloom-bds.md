@@ -1,19 +1,8 @@
-🟢 Powerloom BDS — Epochs 25191751–25191760 (10 epochs)
+WHALE ALERT - $1.6K WETH/USDT on Uniswap V3 (30%) - no counterparty
+Token in: 0.80 WETH | Block: 25191850
+TX: https://etherscan.io/tx/0xfd42c0e263234917f7889780c0b4b14d818db5b4da34b3387f0a2ff176abb70e
 
-43 trades detected | 3 ZAMA/USDT oracle anomalies excluded
-
-Top trades:
-• $60.0K WBTC/USDT (anon, block 25191760)
-• $54.9K USDC/WETH (0x51C72848, block 25191760)
-• $45.3K WBTC/USDC (anon, block 25191758)
-• $41.0K USDC/WETH (0x4C82D1fB, block 25191760)
-• $23.3K USDC/WETH (0x149d330C, block 25191760)
-• $21.5K XAUt/USDT (0x51C72848, block 25191751)
-• $19.2K USDC/WETH (0xBdb3ba9f, block 25191752)
-• $15.4K USDC/WETH (0x51C72848, block 25191758)
-• $13.7K XAUt/USDT (0xBdb3ba9f, block 25191759)
-• $12.1K XAUt/USDT (0x51C72848, block 25191758)
-
-Active wallets: 0x51C72848 (15 trades), 0xBdb3ba9f (5), 0x4C82D1fB (4), 0x8F10B468 (2), anon (2)
-
-Pairs: USDC/WETH (12), WETH/USDT (5), XAUt/USDT (4), WBTC/USDT (3), PAXG/USDC (2), ZAMA/USDT (3 anomalous), LDO/WETH (2), others (5)
+WHALE ALERT - $1.6K WETH/USDT on Uniswap V3 (30%) - no counterparty
+Token in: 0.79 WETH | Block: 25191853
+TX: https://etherscan.io/tx/0xa31bd6d612052dbed1130dacd250b99264a80562e9026e4c2cb3ec1261d893e4
+All verified on-chain | Epochs: 25191850-25191853

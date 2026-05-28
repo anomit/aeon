@@ -1,0 +1,103 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS - Whale Alerts",
+        "description": "WETH/USDT Uniswap V3 (30%) swaps"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert1_stack",
+        "alert2_stack",
+        "verification"
+      ]
+    },
+    "alert1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert1_text",
+        "alert1_details",
+        "alert1_tx"
+      ]
+    },
+    "alert1_text": {
+      "type": "Text",
+      "props": {
+        "text": "WHALE ALERT - $1.6K WETH/USDT on Uniswap V3 (30%) - no counterparty"
+      },
+      "children": []
+    },
+    "alert1_details": {
+      "type": "Text",
+      "props": {
+        "text": "Token in: 0.80 WETH | Block: 25191850"
+      },
+      "children": []
+    },
+    "alert1_tx": {
+      "type": "Link",
+      "props": {
+        "label": "TX: 0xfd42c0e2...",
+        "href": "https://etherscan.io/tx/0xfd42c0e263234917f7889780c0b4b14d818db5b4da34b3387f0a2ff176abb70e"
+      },
+      "children": []
+    },
+    "alert2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert2_text",
+        "alert2_details",
+        "alert2_tx"
+      ]
+    },
+    "alert2_text": {
+      "type": "Text",
+      "props": {
+        "text": "WHALE ALERT - $1.6K WETH/USDT on Uniswap V3 (30%) - no counterparty"
+      },
+      "children": []
+    },
+    "alert2_details": {
+      "type": "Text",
+      "props": {
+        "text": "Token in: 0.79 WETH | Block: 25191853"
+      },
+      "children": []
+    },
+    "alert2_tx": {
+      "type": "Link",
+      "props": {
+        "label": "TX: 0xa31bd6d6...",
+        "href": "https://etherscan.io/tx/0xa31bd6d612052dbed1130dacd250b99264a80562e9026e4c2cb3ec1261d893e4"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain | Epochs: 25191850-25191853"
+      },
+      "children": []
+    }
+  }
+}
