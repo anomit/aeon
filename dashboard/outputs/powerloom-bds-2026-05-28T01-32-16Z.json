@@ -1,0 +1,138 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE RADAR — Epochs 25190557–25190561 (5 epochs)"
+      },
+      "children": [
+        "mega-whale-section",
+        "notable-trades-section",
+        "anomaly-section",
+        "bot-clusters-section",
+        "summary-section"
+      ]
+    },
+    "mega-whale-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mega-whale-heading",
+        "mega-whale-text",
+        "tx-links"
+      ]
+    },
+    "mega-whale-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔥 MEGA-WHALE: 2x $1.13M USDC→WETH buys (epoch 25190561)",
+        "level": "h3"
+      }
+    },
+    "mega-whale-text": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x1f2F10D1: 132.8K USDC → 494.6 WETH\n▸ Anonymous: 128.8K USDC → 496.5 WETH"
+      }
+    },
+    "tx-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tx1-link",
+        "tx2-link"
+      ]
+    },
+    "tx1-link": {
+      "type": "Link",
+      "props": {
+        "label": "TXs: etherscan.io/tx/0x82937c...2ecfb",
+        "href": "https://etherscan.io/tx/0x82937c...2ecfb"
+      }
+    },
+    "tx2-link": {
+      "type": "Link",
+      "props": {
+        "label": "etherscan.io/tx/0xbbe8a7...0c9d2",
+        "href": "https://etherscan.io/tx/0xbbe8a7...0c9d2"
+      }
+    },
+    "notable-trades-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-trades-heading",
+        "trades-list"
+      ]
+    },
+    "notable-trades-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "💎 NOTABLE TRADES:",
+        "level": "h3"
+      }
+    },
+    "trades-list": {
+      "type": "Text",
+      "props": {
+        "text": "▸ $43.6K XAGM/USDC buy (epoch 25190557)\n▸ $16.6K wTAO/WETH buy (epoch 25190561)\n▸ $13.6K PAXG/USDC buy — 0x51C72848 (epoch 25190561)\n▸ $16.5K WETH/USDT buy — 0xBdb3ba9f (epoch 25190557)\n▸ $11.5K USDC/USDT swap — 0xE592427A (epoch 25190561)"
+      }
+    },
+    "anomaly-section": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ ZAMA/USDT oracle anomaly",
+        "message": "displayed $895T for ~$46 actual (epoch 25190558)",
+        "type": "warning"
+      }
+    },
+    "bot-clusters-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bot-clusters-heading",
+        "bot-clusters-list"
+      ]
+    },
+    "bot-clusters-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🤖 BOT CLUSTERS:",
+        "level": "h3"
+      }
+    },
+    "bot-clusters-list": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xE592427A: 18+ USDC/WETH swaps ($1-3K each)\n▸ 0xBdb3ba9f: 4 trades (WETH/USDT, WBTC/USDT, USDC/WETH)\n▸ 0xE3435241: 2 small USDC/WETH swaps"
+      }
+    },
+    "summary-section": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Total: 50 alerts | 5 epochs | ✅ Verified on-chain",
+        "variant": "lead"
+      }
+    }
+  }
+}
