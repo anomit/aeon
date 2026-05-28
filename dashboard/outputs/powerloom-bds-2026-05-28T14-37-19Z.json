@@ -1,0 +1,110 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "POWERLOOM BDS Whale Alerts",
+        "description": "38 whale alerts detected across epochs 25194449-25194456"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "trades-table",
+        "key-whale-section",
+        "footer"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Trades",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trades-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Trade",
+          "Platform",
+          "Wallet",
+          "Block"
+        ],
+        "rows": [
+          [
+            "120.1K USDC > 60.4 WETH",
+            "Uniswap V3 5%",
+            "0xBdb3 B6",
+            "25194455"
+          ],
+          [
+            "84.3K USDC > 42.4 WETH",
+            "Uniswap V3 5%",
+            "0x2591 BA",
+            "25194452"
+          ],
+          [
+            "73.9K PAXG > 73.9K USDC",
+            "Uniswap V3 5%",
+            "0xBdb3 B6",
+            "25194456"
+          ],
+          [
+            "60.4K USDC > 30.4 WETH",
+            "Uniswap V3 5%",
+            "0xBdb3 B6",
+            "25194456"
+          ],
+          [
+            "43.6K XAUt > 43.7K USDT",
+            "Uniswap V3 5%",
+            "0x51C7 7F",
+            "25194456"
+          ],
+          [
+            "25.9K WBTC > 13.0 WETH",
+            "Uniswap V3 5%",
+            "0xBdb3 B6",
+            "25194454"
+          ],
+          [
+            "19.7K WBTC > 19.7K USDT",
+            "Uniswap V3 5%",
+            "0x51C7 7F",
+            "25194456"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "key-whale-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Key Whale",
+        "message": "0xBdb3ba9f DF47B6 active across 19 trades",
+        "type": "info"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom BDS",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
