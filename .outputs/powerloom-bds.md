@@ -1,8 +1,11 @@
 ## Summary
 
-- **Powerloom BDS skill executed**: 4 epochs processed (25193347–25193351), 13 alerts found
-- **Notification dispatched**: Consolidated summary sent via `./notify` to `.pending-notify/` for post-run delivery
-- **Notable trades**: $31.7K XAUt/USDT (largest), $13.3K WBTC/WETH, $9.0K USDC/SEI
-- **ZAMA/USDT oracle anomaly flagged**: 1 trade with ~$4.8e42 displayed value (actual ~$266)
-- **Log entry appended** to `memory/logs/2026-05-28.md`
-- **Status**: POWERLOOM_BDS_OK
+Executed Powerloom BDS skill (whale-radar mode):
+
+- **Epochs processed**: 25193448–25193457 (10 epochs, 25 trades)
+- **Alerts dispatched**: 25 via consolidated notification
+- **Mega-whale**: $50K USDC/WETH (0x68b34658)
+- **Notable**: $25.2K USDC/WETH, $22.5K WETH/RAIL, $12.6K WBTC/USDT
+- **ZAMA/USDT**: 2 oracle anomalies flagged (displayed ~10^42–10^45, actual ~$195–$488)
+- **Log updated**: `memory/logs/2026-05-28.md`
+- **Committed**: `4a6bda2`
