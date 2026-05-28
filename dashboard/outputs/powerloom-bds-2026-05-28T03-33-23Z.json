@@ -1,0 +1,307 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE RADAR — Epochs 25191153–25191162 (10 epochs)"
+      },
+      "children": [
+        "mega_trades_section",
+        "large_trades_section",
+        "notable_section",
+        "active_wallets_section",
+        "anomaly_warning",
+        "total_stats"
+      ]
+    },
+    "mega_trades_section": {
+      "type": "Heading",
+      "props": {
+        "text": "MEGA TRADES:",
+        "level": "h3"
+      }
+    },
+    "mega_trades_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mega_trade_1",
+        "mega_trade_2",
+        "mega_trade_3"
+      ]
+    },
+    "mega_trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $2.90M USDC→WETH (0x1f2F10D1) [25191157]",
+        "variant": "lead"
+      }
+    },
+    "mega_trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $2.90M USDC→WETH (anon) [25191157]",
+        "variant": "lead"
+      }
+    },
+    "mega_trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $449K USDC→USDT (0xE592427A) [25191162]",
+        "variant": "lead"
+      }
+    },
+    "large_trades_section": {
+      "type": "Heading",
+      "props": {
+        "text": "LARGE TRADES:",
+        "level": "h3"
+      }
+    },
+    "large_trades_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "large_trade_1",
+        "large_trade_2",
+        "large_trade_3",
+        "large_trade_4",
+        "large_trade_5",
+        "large_trade_6",
+        "large_trade_7",
+        "large_trade_8"
+      ]
+    },
+    "large_trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "🔵 $290.2K USDC→WETH (0x51C72848) [25191159]",
+        "variant": "body"
+      }
+    },
+    "large_trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "🔵 $162K USDC→WETH (0x51C72848) [25191154]",
+        "variant": "body"
+      }
+    },
+    "large_trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "🔵 $150.1K USDC→WETH (0xEff6cb8b) [25191162]",
+        "variant": "body"
+      }
+    },
+    "large_trade_4": {
+      "type": "Text",
+      "props": {
+        "text": "🔵 $76.2K USDC→WETH (0xbd9D6848) [25191162]",
+        "variant": "body"
+      }
+    },
+    "large_trade_5": {
+      "type": "Text",
+      "props": {
+        "text": "🔵 $63.4K WBTC→WETH (0x51C72848) [25191154]",
+        "variant": "body"
+      }
+    },
+    "large_trade_6": {
+      "type": "Text",
+      "props": {
+        "text": "🔵 $58.1K USDC→WETH (0x91f56424) [25191162]",
+        "variant": "body"
+      }
+    },
+    "large_trade_7": {
+      "type": "Text",
+      "props": {
+        "text": "🔵 $49K USDC→USDT (0xd2269974) [25191162]",
+        "variant": "body"
+      }
+    },
+    "large_trade_8": {
+      "type": "Text",
+      "props": {
+        "text": "🔵 $48.1K WETH→USDT x2 (0x1f2F10D1) [25191153]",
+        "variant": "body"
+      }
+    },
+    "notable_section": {
+      "type": "Heading",
+      "props": {
+        "text": "NOTABLE:",
+        "level": "h3"
+      }
+    },
+    "notable_trades_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable_trade_1",
+        "notable_trade_2",
+        "notable_trade_3",
+        "notable_trade_4",
+        "notable_trade_5",
+        "notable_trade_6",
+        "notable_trade_7",
+        "notable_trade_8",
+        "notable_trade_9",
+        "notable_trade_10"
+      ]
+    },
+    "notable_trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $44.4K WBTC→USDT (0x51C72848)",
+        "variant": "body"
+      }
+    },
+    "notable_trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $26.2K USDC→SEI (0x51C72848)",
+        "variant": "body"
+      }
+    },
+    "notable_trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $25K USDC→WETH (0xEff6cb8b)",
+        "variant": "body"
+      }
+    },
+    "notable_trade_4": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $24K EURC→USDC (0x6747BcaF)",
+        "variant": "body"
+      }
+    },
+    "notable_trade_5": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $21K WETH→USDT (0x51C72848)",
+        "variant": "body"
+      }
+    },
+    "notable_trade_6": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $8K EURC→USDC (0x6747BcaF)",
+        "variant": "body"
+      }
+    },
+    "notable_trade_7": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $6.8K XAGM→USDC",
+        "variant": "body"
+      }
+    },
+    "notable_trade_8": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $6.5K LCAI→WETH",
+        "variant": "body"
+      }
+    },
+    "notable_trade_9": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $6K WBTC→USDT x2 (0x25913A6f)",
+        "variant": "body"
+      }
+    },
+    "notable_trade_10": {
+      "type": "Text",
+      "props": {
+        "text": "▪️ $5.7K PAXG→XAUt",
+        "variant": "body"
+      }
+    },
+    "active_wallets_section": {
+      "type": "Heading",
+      "props": {
+        "text": "ACTIVE WALLETS:",
+        "level": "h3"
+      }
+    },
+    "active_wallets_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "active_wallet_1",
+        "active_wallet_2",
+        "active_wallet_3",
+        "active_wallet_4",
+        "active_wallet_5"
+      ]
+    },
+    "active_wallet_1": {
+      "type": "Text",
+      "props": {
+        "text": "🔄 0x51C72848 — 20+ trades (multi-pair whale)",
+        "variant": "body"
+      }
+    },
+    "active_wallet_2": {
+      "type": "Text",
+      "props": {
+        "text": "🔄 0xE592427A — bot-like USDC/WETH (6 trades)",
+        "variant": "body"
+      }
+    },
+    "active_wallet_3": {
+      "type": "Text",
+      "props": {
+        "text": "🔄 0x4C82D1fB — 8 trades (LCAI, SERV, WETH)",
+        "variant": "body"
+      }
+    },
+    "active_wallet_4": {
+      "type": "Text",
+      "props": {
+        "text": "🔄 0x4c3ccC98 — 6 trades (WBTC, WETH, wTAO)",
+        "variant": "body"
+      }
+    },
+    "active_wallet_5": {
+      "type": "Text",
+      "props": {
+        "text": "🔄 0x1f2F10D1 — $6M+ mega-buyer",
+        "variant": "body"
+      }
+    },
+    "anomaly_warning": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ ZAMA/USDT Anomaly",
+        "message": "3 trades with oracle anomaly (displayed ~10^43, actual ~$387–$703)",
+        "type": "warning"
+      }
+    },
+    "total_stats": {
+      "type": "Text",
+      "props": {
+        "text": "Total: 91 verified on-chain trades | Epochs 25191153–25191162",
+        "variant": "lead"
+      }
+    }
+  }
+}

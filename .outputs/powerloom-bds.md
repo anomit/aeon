@@ -1,15 +1,40 @@
-🟢 🐋 WHALE ALERT 🟢
+🐋 WHALE RADAR — Epochs 25191153–25191162 (10 epochs)
 
-🟢 BUY USDC/WETH on Uniswap V3 (1%)
-💰 $5.3K swapped
+MEGA TRADES:
+💰 $2.90M USDC→WETH (0x1f2F10D1) [25191157]
+💰 $2.90M USDC→WETH (anon) [25191157]
+💰 $449K USDC→USDT (0xE592427A) [25191162]
 
-▸ ⇢ 5,267.2001 USDC
-▸ ⇠ 2.615 WETH
-▸ 🦊 0x6747BcaF…dfACB5
-▸ 📦 Block 25191063
-▸ 🔍 TX: https://etherscan.io/tx/0xbf753660fe25e4cb4bde8a3bdec84c33ac788f4a3326d34aec4327f8d99b9df9
+LARGE TRADES:
+🔵 $290.2K USDC→WETH (0x51C72848) [25191159]
+🔵 $162K USDC→WETH (0x51C72848) [25191154]
+🔵 $150.1K USDC→WETH (0xEff6cb8b) [25191162]
+🔵 $76.2K USDC→WETH (0xbd9D6848) [25191162]
+🔵 $63.4K WBTC→WETH (0x51C72848) [25191154]
+🔵 $58.1K USDC→WETH (0x91f56424) [25191162]
+🔵 $49K USDC→USDT (0xd2269974) [25191162]
+🔵 $48.1K WETH→USDT x2 (0x1f2F10D1) [25191153]
 
-✅ Verified on-chain:
-  ├ CID: bafkreigxqf47dkmdk5zdvazfr3s…
-  ├ Epoch: 25191063
-  └ Project: allTradesSnapshot
+NOTABLE:
+▪️ $44.4K WBTC→USDT (0x51C72848)
+▪️ $26.2K USDC→SEI (0x51C72848)
+▪️ $25K USDC→WETH (0xEff6cb8b)
+▪️ $24K EURC→USDC (0x6747BcaF)
+▪️ $21K WETH→USDT (0x51C72848)
+▪️ $8K EURC→USDC (0x6747BcaF)
+▪️ $6.8K XAGM→USDC
+▪️ $6.5K LCAI→WETH
+▪️ $6K WBTC→USDT x2 (0x25913A6f)
+▪️ $5.7K PAXG→XAUt
+▪️ $5.6K XAUt→USDT
+
+ACTIVE WALLETS:
+🔄 0x51C72848 — 20+ trades (multi-pair whale)
+🔄 0xE592427A — bot-like USDC/WETH (6 trades)
+🔄 0x4C82D1fB — 8 trades (LCAI, SERV, WETH)
+🔄 0x4c3ccC98 — 6 trades (WBTC, WETH, wTAO)
+🔄 0x1f2F10D1 — $6M+ mega-buyer
+
+⚠️ ZAMA/USDT: 3 trades with oracle anomaly (displayed ~10^43, actual ~$387–$703)
+
+Total: 91 verified on-chain trades | Epochs 25191153–25191162
