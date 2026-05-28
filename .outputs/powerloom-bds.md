@@ -1,1 +1,15 @@
-WHALE BATCH SUMMARY: Epochs 25194550-25194557, 8 epochs, 41 trades. Top: 42.6K USDe/USDT, 19.8K USDC/WETH, 12.4K WBTC/USDT, 12.1K WETH/USDT, 10.9K XAUt/USDT. Active wallets: 0x51C72848 (7), 0xBdb3ba9f (6), 0x7f54F056 (6). Pairs: USDC/WETH (11), WETH/USDT (9), SYRUP/WETH (3), TRX/USDC (3). All verified on-chain via Powerloom BDS.
+🟢 🐋 WHALE ALERT 🟢
+
+🟢 BUY USDC/WETH on Uniswap V3 (5%)
+💰 $44.7K swapped
+
+▸ ⇒ 44,674.0545 USDC
+▸ ⇐ 22.476 WETH
+▸ 🐳 0xa8F8296f…234C8b
+▸ 📦 Block 25194651
+▸ 🔍 TX: https://etherscan.io/tx/0xd3cff912a9e5684fe4f0d95122cae97d49414d6d4a5b0a70e569ec5e54c6f914
+
+✅ Verified on-chain:
+  ├ CID: bafkreifo2oatpskdihl2zojt5y2…
+  ├ Epoch: 25194651
+  └ Project: allTradesSnapshot
