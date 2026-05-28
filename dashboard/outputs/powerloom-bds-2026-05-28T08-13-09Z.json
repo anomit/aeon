@@ -1,0 +1,106 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Whale Radar",
+        "description": "39 whale trades across epochs 25192548-25192557"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat",
+        "table",
+        "wallets",
+        "verified"
+      ]
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Whale Trades",
+        "value": "39",
+        "delta": "across epochs 25192548-25192557"
+      },
+      "children": []
+    },
+    "table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Trading Pair",
+          "Count"
+        ],
+        "rows": [
+          [
+            "USDC/WETH",
+            "12"
+          ],
+          [
+            "WETH/USDT",
+            "9"
+          ],
+          [
+            "ZAMA/USDT",
+            "6"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "wallets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wallet1",
+        "wallet2",
+        "wallet3"
+      ]
+    },
+    "wallet1": {
+      "type": "Text",
+      "props": {
+        "text": "0x278d858f (ZAMA)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "wallet2": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (USDC/WETH ~157K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "wallet3": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (multi-pair)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "verified": {
+      "type": "Badge",
+      "props": {
+        "text": "On-chain verified",
+        "variant": "success"
+      },
+      "children": []
+    }
+  }
+}

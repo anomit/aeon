@@ -1,15 +1,1 @@
-🟢 🐋 WHALE ALERT 🟢
-
-🟢 BUY WETH/USDT on Uniswap V3 (1%)
-💰 $4.4K swapped
-
-▸ ⇢ 2.1993 WETH
-▸ ⇠ 4,385.5242 USDT
-▸ 🐳 0x149d330C…20B38e
-▸ 📦 Block 25192457
-▸ 🔍 TX: https://etherscan.io/tx/0x25d7c5b5478b86094c28379cd7c7ae70c0e71f48d78acd0fbfd6685f2e859b16
-
-✅ Verified on-chain:
-  ├ CID: bafkreid4qpnjutjzzchwixs4nwv…
-  ├ Epoch: 25192457
-  └ Project: allTradesSnapshot
+Powerloom BDS Whale Radar: 39 whale trades across epochs 25192548-25192557. USDC/WETH x12, WETH/USDT x9, ZAMA/USDT x6. Key wallets: 0x278d858f (ZAMA), 0xBdb3ba9f (USDC/WETH ~157K), 0x51C72848 (multi-pair). On-chain verified.
