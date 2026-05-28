@@ -1,0 +1,207 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "heading2",
+        "stack2",
+        "heading3",
+        "stack3",
+        "heading4",
+        "stack4",
+        "text2"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "WHALE BATCH SUMMARY",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25194550-25194557, 8 epochs, 41 trades"
+      },
+      "children": []
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Trades",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat1",
+        "stat2",
+        "stat3",
+        "stat4",
+        "stat5"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "USDe/USDT",
+        "value": "42.6K"
+      },
+      "children": []
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC/WETH",
+        "value": "19.8K"
+      },
+      "children": []
+    },
+    "stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "WBTC/USDT",
+        "value": "12.4K"
+      },
+      "children": []
+    },
+    "stat4": {
+      "type": "Stat",
+      "props": {
+        "label": "WETH/USDT",
+        "value": "12.1K"
+      },
+      "children": []
+    },
+    "stat5": {
+      "type": "Stat",
+      "props": {
+        "label": "XAUt/USDT",
+        "value": "10.9K"
+      },
+      "children": []
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Wallets",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text3",
+        "text4",
+        "text5"
+      ]
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (7 trades)"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (6 trades)"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "0x7f54F056 (6 trades)"
+      },
+      "children": []
+    },
+    "heading4": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading Pairs",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stack4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text6",
+        "text7",
+        "text8",
+        "text9"
+      ]
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH (11 trades)"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/USDT (9 trades)"
+      },
+      "children": []
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "SYRUP/WETH (3 trades)"
+      },
+      "children": []
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "TRX/USDC (3 trades)"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom BDS"
+      },
+      "children": []
+    }
+  }
+}
