@@ -1,9 +1,21 @@
-🐋 Whale Radar — 45 trades · Epochs 25195143–25195152 (10 epochs)
+POWERLOOM BDS Whale Radar Summary (Epochs 25195239-25195246)
 
-Top: $144.4K AUSD→USDC (0xE592427A), $59.3K WBTC→WETH, $44.8K USDC→WETH, $42.8K WBTC→WETH, $42.9K+$42.2K XAGM→USDC, $26K USDC→WETH (0xBdb3ba9f), $15.5K WBTC→USDT — all 0x51C72848 unless noted
+58 trades detected across 8 epochs on Uniswap V3.
 
-Active wallets: 0x51C72848 (21 trades, multi-pair whale WBTC/USDC/WETH/SEI/XAUt $200K+), 0xE592427A (6 trades bot-like incl $144K AUSD), 0xBdb3ba9f (6 trades USDC/WETH+SEI+SNT), 0x4c3ccC98 (3 trades), 0x278d858f (4 trades incl 3 ZAMA)
+Top swaps:
+- 206.4K USDC to WETH (0x51C7)
+- 131.7K USDC to WETH (0x51C7)
+- 109.2K WETH to USDT (0x51C7)
+- 97.7K USDC to WETH (0x51C7)
+- 39.9K WETH to USDT (0x51C7)
+- 26.1K USDC to WETH (0xBdb3)
+- 24.9K USDC to WETH (0xBdb3)
+- 21.1K WBTC to USDT (0xBdb3)
+- 15.9K WBTC to USDT (0xBdb3)
+- 14.2K USDC to SEI (0x51C7)
 
-⚠️ ZAMA/USDT: 3 oracle anomalies (displayed ~$10^43, actual ~$389–$535 USDT)
-⚠️ XAGM/USDC: 2 trades with 0 USDC output (oracle issue)
-✅ All verified on-chain via Powerloom BDS
+Active wallets: 0x51C72848, 0xBdb3ba9f, 0xE592427A dominate flow.
+
+Pairs: WETH/USDT, USDC/WETH, WBTC/USDT, WBTC/USDC, USDC/cbBTC, USDC/SEI, EURC/EURCV, DAI/WETH, ICP/WETH, SYRUP/WETH, LDO/WETH, AIOZ/WETH, wM/USDC, ZAMA/USDT, MNT/USDe
+
+Verified on-chain via Powerloom BDS allTradesSnapshot
