@@ -1,0 +1,120 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BDS Digest",
+        "description": "Epochs 25193948–25193954 (5 epochs)"
+      },
+      "children": [
+        "stack1",
+        "mega-whale",
+        "trade-tags",
+        "zama-alert",
+        "active-wallets",
+        "alerts-stat"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": []
+    },
+    "mega-whale": {
+      "type": "Stat",
+      "props": {
+        "label": "Mega-whale",
+        "value": "$3.15M WETH/USDT",
+        "delta": "1,582 WETH",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "trade-tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paxg-badge",
+        "usdc-badge",
+        "weth-badge",
+        "wtao-badge",
+        "icp-badge"
+      ]
+    },
+    "paxg-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PAXG/USDC: $48.6K + $35.5K + $11.0K (0xBdb3ba9f) — 21.6 PAXG total",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "usdc-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "USDC/WETH: $19.8K (anon) + $7.8K (0x66a9893c) + $3.5K (0xBdb3ba9f) + $3.4K (0xb7c2F4c2) + $2.4K (0xBc1D9760) + $2.2K (0xBdb3ba9f)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "weth-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WETH/USDT: $1.6K (0xBdb3ba9f)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "wtao-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "wTAO/WETH: $1.6K (0x2C0552e5)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "icp-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ICP/WETH: $1.0K (0xE592427A)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "zama-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "ZAMA/USDT: oracle anomaly",
+        "message": "displayed $5.88e42M, actual ~$321 USDT (8,683 ZAMA)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "active-wallets": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets: 0xBdb3ba9f (6 trades, PAXG+USDC/WETH+WETH/USDT), 0x66a9893c (1 trade), 0xE592427A (1 trade)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alerts-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Alerts",
+        "value": "14",
+        "delta": "Epoch end 25193954",
+        "trend": "neutral"
+      },
+      "children": []
+    }
+  }
+}
