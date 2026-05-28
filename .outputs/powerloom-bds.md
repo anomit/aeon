@@ -1,15 +1,13 @@
-🟢 🐋 WHALE ALERT 🟢
+## Summary
 
-🟢 BUY USDT/wA7A5 on Uniswap V3 (5%)
-💰 $2.7K swapped
+**powerloom-bds skill executed successfully.**
 
-▸ ⇢ 2,712.4647 USDT
-▸ ⇠ 185,522.9301 wA7A5
-▸ 🐳 0x8D7512e5…b8EAbE
-▸ 📦 Block 25192652
-▸ 🔍 TX: https://etherscan.io/tx/0xa22ebd4adbbabd2e53b18151cc711a4aa0d4563c7c936e2af7c0d80cf3f9a11e
-
-✅ Verified on-chain:
-  ├ CID: bafkreiekbecyknjtpsed43n5ymq…
-  ├ Epoch: 25192652
-  └ Project: allTradesSnapshot
+- **Epoch range:** 25192749–25192758 (10 epochs)
+- **Alerts dispatched:** 30 via `./notify`
+- **Key highlights:**
+  - Two $1.61M WETH/USDT mega-swaps at block 25192755 (0x1f2F10D1 + anonymous)
+  - $36.1K WETH/ASTEROID swap
+  - 6 ZAMA/USDT trades with oracle price display anomalies (actual values $161–$583 USDT, displayed as ~$10^42–$10^45)
+  - Active wallets: 0x51C72848 (5 trades), 0x278d858f (4 ZAMA), 0x4C82D1fB (4 trades)
+- **Files modified:** `memory/logs/2026-05-28.md` (appended log entry)
+- **Status:** OK
