@@ -1,0 +1,401 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BDS Batch Summary — Epochs 25194946–25194955",
+        "description": "30 trades (2 ZAMA/USDT oracle anomalies skipped)"
+      },
+      "children": [
+        "heading_top",
+        "heading_mid",
+        "heading_rest",
+        "heading_active",
+        "alert"
+      ]
+    },
+    "heading_top": {
+      "type": "Heading",
+      "props": {
+        "text": "🔥 Top",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "top_trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade_1",
+        "trade_2",
+        "trade_3",
+        "trade_4",
+        "trade_5"
+      ]
+    },
+    "trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "$37.4K WBTC/WETH (0x51C72848)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "$34.8K USDC/WETH (0xBdb3ba9f)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "$25.3K USDC/WETH (0xBdb3ba9f)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade_4": {
+      "type": "Text",
+      "props": {
+        "text": "$23.5K WBTC/USDT (0xBdb3ba9f)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade_5": {
+      "type": "Text",
+      "props": {
+        "text": "$17.4K USDC/WETH (0x8F10B468)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading_mid": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 Mid",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "mid_trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mid_trade_1",
+        "mid_trade_2",
+        "mid_trade_3",
+        "mid_trade_4",
+        "mid_trade_5",
+        "mid_trade_6",
+        "mid_trade_7",
+        "mid_trade_8",
+        "mid_trade_9",
+        "mid_trade_10"
+      ]
+    },
+    "mid_trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "$14.0K WBTC/WETH (0x7cDa585e)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "mid_trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "$13.0K WBTC/WETH (0x51C72848)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "mid_trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "$10.5K WETH/USDT (0xBdb3ba9f)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "mid_trade_4": {
+      "type": "Text",
+      "props": {
+        "text": "$8.9K WETH/RAIL (0x4c3ccC98)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "mid_trade_5": {
+      "type": "Text",
+      "props": {
+        "text": "$8.6K USDC/SEI (0x51C72848)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "mid_trade_6": {
+      "type": "Text",
+      "props": {
+        "text": "$7.1K WETH/USDT (0xBdb3ba9f)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "mid_trade_7": {
+      "type": "Text",
+      "props": {
+        "text": "$7.0K WETH/USDT (0xe60fAE78)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "mid_trade_8": {
+      "type": "Text",
+      "props": {
+        "text": "$6.6K USDC/WETH (0x51C72848)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "mid_trade_9": {
+      "type": "Text",
+      "props": {
+        "text": "$6.3K USDC/WETH (0xBdb3ba9f)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "mid_trade_10": {
+      "type": "Text",
+      "props": {
+        "text": "$5.9K WETH/USDT (0x51C72848)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading_rest": {
+      "type": "Heading",
+      "props": {
+        "text": "📦 Rest",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "rest_trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rest_trade_1",
+        "rest_trade_2",
+        "rest_trade_3",
+        "rest_trade_4",
+        "rest_trade_5",
+        "rest_trade_6",
+        "rest_trade_7",
+        "rest_trade_8",
+        "rest_trade_9",
+        "rest_trade_10",
+        "rest_trade_11",
+        "rest_trade_12",
+        "rest_trade_13",
+        "rest_trade_14",
+        "rest_trade_15",
+        "rest_trade_16",
+        "rest_trade_17",
+        "rest_trade_18",
+        "rest_trade_19",
+        "rest_trade_20"
+      ]
+    },
+    "rest_trade_1": {
+      "type": "Text",
+      "props": {
+        "text": "$5.7K USDC/SEI",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_2": {
+      "type": "Text",
+      "props": {
+        "text": "$4.8K WETH/USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_3": {
+      "type": "Text",
+      "props": {
+        "text": "$4.4K WETH/USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_4": {
+      "type": "Text",
+      "props": {
+        "text": "$3.3K LDO/WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_5": {
+      "type": "Text",
+      "props": {
+        "text": "$2.5K USDC/SEI",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_6": {
+      "type": "Text",
+      "props": {
+        "text": "$2.5K WETH/USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_7": {
+      "type": "Text",
+      "props": {
+        "text": "$1.8K WETH/USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_8": {
+      "type": "Text",
+      "props": {
+        "text": "$1.6K USDC/WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_9": {
+      "type": "Text",
+      "props": {
+        "text": "$1.5K PENDLE/WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_10": {
+      "type": "Text",
+      "props": {
+        "text": "$1.4K USDC/SEI x2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_11": {
+      "type": "Text",
+      "props": {
+        "text": "$1.3K WBTC/USDC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_12": {
+      "type": "Text",
+      "props": {
+        "text": "$1.3K USDC/WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rest_trade_13": {
+      "type": "Text",
+      "props": {
+        "text": "$1.2K USDC/WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading_active": {
+      "type": "Heading",
+      "props": {
+        "text": "👤 Active",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "active_traders": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader_1",
+        "trader_2",
+        "trader_3",
+        "trader_4",
+        "trader_5"
+      ]
+    },
+    "trader_1": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (9 trades $193K+)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trader_2": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (10 trades $157K+)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trader_3": {
+      "type": "Text",
+      "props": {
+        "text": "0x7cDa585e (4 trades)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trader_4": {
+      "type": "Text",
+      "props": {
+        "text": "0x4C82D1fB (3 trades)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trader_5": {
+      "type": "Text",
+      "props": {
+        "text": "0x68b34658 (2 trades)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ ZAMA/USDT: 2 oracle anomalies",
+        "message": "absurd price display, actual ~$500–700 USDT",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
