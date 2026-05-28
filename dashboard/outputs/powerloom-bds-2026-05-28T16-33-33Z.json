@@ -1,0 +1,152 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS — Epoch 25195045–25195054 (10 epochs)"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "trades-table",
+        "wallets-section",
+        "alert",
+        "summary"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top trades",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trades-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Amount",
+          "Pair",
+          "Wallet"
+        ],
+        "rows": [
+          [
+            "$34.7K",
+            "PAXG/USDC",
+            "0x51C72848"
+          ],
+          [
+            "$23.3K",
+            "WETH/USDT",
+            "0x51C72848"
+          ],
+          [
+            "$15.0K",
+            "DAI/USDC",
+            "0x4C82D1fB"
+          ],
+          [
+            "$10.6K",
+            "XAUt/USDT",
+            "0x51C72848"
+          ],
+          [
+            "$8.3K",
+            "WETH/USDT",
+            "0x51C72848"
+          ],
+          [
+            "$6.8K",
+            "WBTC/USDT",
+            "0x66a9893c"
+          ],
+          [
+            "$6.1K",
+            "WBTC/USDT",
+            "0x51C72848"
+          ],
+          [
+            "$6.0K",
+            "WETH/USDT",
+            "0x51C72848"
+          ],
+          [
+            "$5.8K",
+            "USDC/WETH",
+            "0xa8F8296f"
+          ],
+          [
+            "$5.8K",
+            "USDC/WETH",
+            "0x6747BcaF"
+          ],
+          [
+            "$4.6K",
+            "USDC/WETH",
+            "0x51C72848"
+          ],
+          [
+            "$4.5K",
+            "WETH/USDT",
+            "0x51C72848"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "wallets-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Active wallets",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "wallets-text": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (11 trades, multi-pair), 0xBdb3ba9f (4 trades), 0xe60fAE78 (3 trades bot-like WETH/USDT), 0xC36442b4 (2 trades incl $71.9K AAVE), 0x4C82D1fB (2 trades incl $15K DAI), 0x66a9893c (2 trades WBTC+USDC)"
+      },
+      "children": []
+    },
+    "wallets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wallets-heading",
+        "wallets-text"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Oracle Anomaly",
+        "message": "ZAMA/USDT: 4 oracle anomalies (displayed ~10^42–10^45, actual ~$297–570 USDT — skipped)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "37 valid alerts · All verified on-chain via Powerloom BDS"
+      },
+      "children": []
+    }
+  }
+}

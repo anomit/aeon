@@ -1,13 +1,21 @@
-📊 BDS Batch Summary — Epochs 25194946–25194955
+📊 Powerloom BDS — Epoch 25195045–25195054 (10 epochs)
 
-30 trades (2 ZAMA/USDT oracle anomalies skipped):
+Top trades:
+• $34.7K PAXG/USDC (0x51C72848)
+• $23.3K WETH/USDT (0x51C72848)
+• $15.0K DAI/USDC (0x4C82D1fB)
+• $10.6K XAUt/USDT (0x51C72848)
+• $8.3K WETH/USDT (0x51C72848)
+• $6.8K WBTC/USDT (0x66a9893c)
+• $6.1K WBTC/USDT (0x51C72848)
+• $6.0K WETH/USDT (0x51C72848)
+• $5.8K USDC/WETH (0xa8F8296f)
+• $5.8K USDC/WETH (0x6747BcaF)
+• $4.6K USDC/WETH (0x51C72848)
+• $4.5K WETH/USDT (0x51C72848)
 
-🔥 Top: $37.4K WBTC/WETH (0x51C72848) · $34.8K USDC/WETH (0xBdb3ba9f) · $25.3K USDC/WETH (0xBdb3ba9f) · $23.5K WBTC/USDT (0xBdb3ba9f) · $17.4K USDC/WETH (0x8F10B468)
+Active wallets: 0x51C72848 (11 trades, multi-pair), 0xBdb3ba9f (4 trades), 0xe60fAE78 (3 trades bot-like WETH/USDT), 0xC36442b4 (2 trades incl $71.9K AAVE), 0x4C82D1fB (2 trades incl $15K DAI), 0x66a9893c (2 trades WBTC+USDC)
 
-🐋 Mid: $14.0K WBTC/WETH (0x7cDa585e) · $13.0K WBTC/WETH (0x51C72848) · $10.5K WETH/USDT (0xBdb3ba9f) · $8.9K WETH/RAIL (0x4c3ccC98) · $8.6K USDC/SEI (0x51C72848) · $7.1K WETH/USDT (0xBdb3ba9f) · $7.0K WETH/USDT (0xe60fAE78) · $6.6K USDC/WETH (0x51C72848) · $6.3K USDC/WETH (0xBdb3ba9f) · $5.9K WETH/USDT (0x51C72848)
+⚠️ ZAMA/USDT: 4 oracle anomalies (displayed ~10^42–10^45, actual ~$297–570 USDT — skipped)
 
-📦 Rest: $5.7K USDC/SEI · $4.8K WETH/USDT · $4.4K WETH/USDT · $3.3K LDO/WETH · $2.5K USDC/SEI · $2.5K WETH/USDT · $1.8K WETH/USDT · $1.6K USDC/WETH · $1.5K PENDLE/WETH · $1.4K USDC/SEI x2 · $1.3K WBTC/USDC · $1.3K USDC/WETH · $1.2K USDC/WETH
-
-👤 Active: 0xBdb3ba9f (9 trades $193K+) · 0x51C72848 (10 trades $157K+) · 0x7cDa585e (4 trades) · 0x4C82D1fB (3 trades) · 0x68b34658 (2 trades)
-
-⚠️ ZAMA/USDT: 2 oracle anomalies (absurd price display, actual ~$500–700 USDT)
+37 valid alerts · All verified on-chain via Powerloom BDS
