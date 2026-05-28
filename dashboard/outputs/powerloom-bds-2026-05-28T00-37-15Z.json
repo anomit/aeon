@@ -1,0 +1,267 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE RADAR"
+      },
+      "children": [
+        "heading-1",
+        "stack-1",
+        "separator-1",
+        "heading-2",
+        "stack-2",
+        "separator-2",
+        "heading-3",
+        "stack-3",
+        "separator-3",
+        "heading-4",
+        "stack-4",
+        "text-1"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 🐋 WHALE RADAR — 56 trades across epochs 25190256–25190265 🟢",
+        "level": "h1"
+      }
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "56 trades",
+        "variant": "default"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "🔥 NOTABLE SWAPS:",
+        "level": "h2"
+      }
+    },
+    "stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11"
+      ]
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "• 1.13M USDC→WETH (0x1f2F10D1) — Block 25190263",
+        "variant": "body"
+      }
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "• 1.13M USDC→WETH (unknown) — Block 25190263",
+        "variant": "body"
+      }
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "• 144.6K USDC→WETH (0xBdb3ba9f) — Block 25190258",
+        "variant": "body"
+      }
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "• 77.7K USDC→WETH (0x51C72848) — Block 25190264",
+        "variant": "body"
+      }
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "• 64.9K USDC→WETH (0xBdb3ba9f) — Block 25190262",
+        "variant": "body"
+      }
+    },
+    "text-7": {
+      "type": "Text",
+      "props": {
+        "text": "• 51.5K USDC→WETH (0x51C72848) — Block 25190263",
+        "variant": "body"
+      }
+    },
+    "text-8": {
+      "type": "Text",
+      "props": {
+        "text": "• 21.6K ENA→WETH 30pct fee (0xC36442b4) — Block 25190260",
+        "variant": "body"
+      }
+    },
+    "text-9": {
+      "type": "Text",
+      "props": {
+        "text": "• 19.5K WBTC→USDT (0xBdb3ba9f) — Block 25190258",
+        "variant": "body"
+      }
+    },
+    "text-10": {
+      "type": "Text",
+      "props": {
+        "text": "• 16.7K USDC→WETH (0xA5F91E59) — Block 25190261",
+        "variant": "body"
+      }
+    },
+    "text-11": {
+      "type": "Text",
+      "props": {
+        "text": "• 15.2K WBTC→USDT (0x51C72848) — Block 25190264",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-3": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 BREAKDOWN:",
+        "level": "h2"
+      }
+    },
+    "stack-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-12",
+        "text-13",
+        "text-14",
+        "text-15",
+        "text-16"
+      ]
+    },
+    "text-12": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH: 17 trades (1K–1.13M)",
+        "variant": "body"
+      }
+    },
+    "text-13": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT: 16 trades (1.5K–6.5K)",
+        "variant": "body"
+      }
+    },
+    "text-14": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT: 6 trades (3K–19.5K)",
+        "variant": "body"
+      }
+    },
+    "text-15": {
+      "type": "Text",
+      "props": {
+        "text": "• ZAMA/USDT: 3 trades (price oracle issue)",
+        "variant": "body"
+      }
+    },
+    "text-16": {
+      "type": "Text",
+      "props": {
+        "text": "• Others: WLD, ENA, LDO, PAXG, XAUt, wM, weETH",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-4": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 TOP WALLETS:",
+        "level": "h2"
+      }
+    },
+    "stack-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-17",
+        "text-18",
+        "text-19"
+      ]
+    },
+    "text-17": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f — 12 trades (largest: 144.6K)",
+        "variant": "body"
+      }
+    },
+    "text-18": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x51C72848 — 14 trades (largest: 77.7K)",
+        "variant": "body"
+      }
+    },
+    "text-19": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x7cDa585e — 4 trades (largest: 8K)",
+        "variant": "body"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain via Powerloom BDS CIDs",
+        "variant": "body"
+      }
+    }
+  }
+}
