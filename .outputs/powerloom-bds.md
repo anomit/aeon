@@ -1,1 +1,8 @@
-WHALE RADAR - Epochs 25191251-25191260 (52 trades). Mega: 567K wstETH/WETH, 344K USDC/WETH, 100K DAI/USDT, 100K USDC/USDT, 67K USDC/WETH, 57K USDC/WETH. Active wallets: 0x51C72848 (15+ trades), 0xE592427A (6 bot-like), 0xBdb3ba9f (4). ZAMA/USDT oracle anomaly. All verified on-chain via Powerloom BDS.
+## Summary
+
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Action**: Read `.bds-cache/alerts.json` — 79 alerts across epochs 25191352–25191361
+- **Notification**: Sent consolidated summary via `./notify` with top trades, active wallets, and ZAMA/USDT oracle anomaly flag
+- **Log**: Appended entry to `memory/logs/2026-05-28.md`
+- **State**: Did not modify `memory/powerloom-bds-state.json` (maintained by prefetch)
+- **Status**: OK
