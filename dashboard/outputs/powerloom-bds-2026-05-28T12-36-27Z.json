@@ -1,0 +1,60 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "BDS Consolidated: Epochs 25193847-25193853",
+        "description": "6 epochs, 28 trades"
+      },
+      "children": [
+        "grid-1",
+        "text-1",
+        "text-2",
+        "alert-1"
+      ]
+    },
+    "grid-1": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "text-3"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Notable:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Active: 0x51C72848 (7 multi-pair), 0xBdb3ba9f (4), 0xE592427A (3 bot)"
+      },
+      "children": []
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "25K wM/USDC x2 (bot), 7.4K USDC/WETH, 6.2K LINK/WETH, 5.8K+4.2K USDC/SEI, 5.3K USDC/WETH, 5.1K EURC/USDC, 4.0K WETH/USDT, 3.8K LINK, 3.2K LDO/WETH"
+      },
+      "children": []
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Oracle Anomaly",
+        "message": "ZAMA/USDT: 5 oracle anomalies (actual 82-1128 USDT)",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
