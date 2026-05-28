@@ -1,0 +1,99 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "amount",
+        "details",
+        "link",
+        "verification"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY LDO/WETH on Uniswap V3 (5%)",
+        "variant": "default"
+      }
+    },
+    "amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$1.3K"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail-row-1",
+        "detail-row-2",
+        "detail-row-3",
+        "detail-row-4"
+      ]
+    },
+    "detail-row-1": {
+      "type": "Text",
+      "props": {
+        "text": "⇢ 4,088.467 LDO",
+        "variant": "body"
+      }
+    },
+    "detail-row-2": {
+      "type": "Text",
+      "props": {
+        "text": "⇠ 0.65239265 WETH",
+        "variant": "body"
+      }
+    },
+    "detail-row-3": {
+      "type": "Text",
+      "props": {
+        "text": "🦊 0x7cDa585e…6694dc",
+        "variant": "body"
+      }
+    },
+    "detail-row-4": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25194756",
+        "variant": "body"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x843e5891fa231ea4744fa56b1ee6d8bcd7f3768042aede58563e86c123920941"
+      }
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "message": "CID: bafkreiecqwq44j2u7eqg5zd3gdl…\nEpoch: 25194756\nProject: allTradesSnapshot",
+        "type": "success"
+      }
+    }
+  }
+}
