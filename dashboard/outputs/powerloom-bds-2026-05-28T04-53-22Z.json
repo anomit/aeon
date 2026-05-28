@@ -1,0 +1,290 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "mega-section",
+        "separator1",
+        "mid-section",
+        "separator2",
+        "small-section",
+        "separator3",
+        "alert",
+        "wallets"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "Epochs 25191550–25191559",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alerts": {
+      "type": "Text",
+      "props": {
+        "text": "16 alerts",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "mega-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mega-heading",
+        "mega-items"
+      ]
+    },
+    "mega-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔴 Mega:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "mega-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mega1",
+        "mega2",
+        "mega3",
+        "mega4"
+      ]
+    },
+    "mega1": {
+      "type": "Text",
+      "props": {
+        "text": "• $14.6K WBTC/WETH (0xBdb3ba9f)"
+      },
+      "children": []
+    },
+    "mega2": {
+      "type": "Text",
+      "props": {
+        "text": "• $11.9K tBTC/cbBTC (0x8F10B468)"
+      },
+      "children": []
+    },
+    "mega3": {
+      "type": "Text",
+      "props": {
+        "text": "• $11.4K WETH/USDT (0xE592427A)"
+      },
+      "children": []
+    },
+    "mega4": {
+      "type": "Text",
+      "props": {
+        "text": "• $11.0K LINK/WETH (0x7cDa585e)"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "mid-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mid-heading",
+        "mid-items"
+      ]
+    },
+    "mid-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟡 Mid:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "mid-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mid1",
+        "mid2",
+        "mid3",
+        "mid4",
+        "mid5",
+        "mid6"
+      ]
+    },
+    "mid1": {
+      "type": "Text",
+      "props": {
+        "text": "• $6.1K WETH/USDT (0xBdb3ba9f)"
+      },
+      "children": []
+    },
+    "mid2": {
+      "type": "Text",
+      "props": {
+        "text": "• $5.1K USDC/USDT (0x490430e6)"
+      },
+      "children": []
+    },
+    "mid3": {
+      "type": "Text",
+      "props": {
+        "text": "• $4.6K USDC/WETH (0xBdb3ba9f)"
+      },
+      "children": []
+    },
+    "mid4": {
+      "type": "Text",
+      "props": {
+        "text": "• $3.4K USDC/WETH (0xBdb3ba9f)"
+      },
+      "children": []
+    },
+    "mid5": {
+      "type": "Text",
+      "props": {
+        "text": "• $2.8K LINK/WETH (0x7cDa585e)"
+      },
+      "children": []
+    },
+    "mid6": {
+      "type": "Text",
+      "props": {
+        "text": "• $2.4K EURCV/USDC (0x7f54F056)"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "small-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "small-heading",
+        "small-items"
+      ]
+    },
+    "small-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 Small:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "small-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ]
+    },
+    "small1": {
+      "type": "Text",
+      "props": {
+        "text": "• $1.5K USDC/WETH"
+      },
+      "children": []
+    },
+    "small2": {
+      "type": "Text",
+      "props": {
+        "text": "• $1.5K USDC/SEI"
+      },
+      "children": []
+    },
+    "small3": {
+      "type": "Text",
+      "props": {
+        "text": "• $1.2K WETH/ONDO"
+      },
+      "children": []
+    },
+    "small4": {
+      "type": "Text",
+      "props": {
+        "text": "• $1.1K WETH/ASTEROID"
+      },
+      "children": []
+    },
+    "small5": {
+      "type": "Text",
+      "props": {
+        "text": "• $1.0K MNT/USDe"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ Oracle Anomaly",
+        "message": "ZAMA/USDT: oracle anomaly (displayed ~$2.7e43, actual ~$1.4K USDT)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "wallets": {
+      "type": "Text",
+      "props": {
+        "text": "Top wallets: 0xBdb3ba9f (5), 0xE592427A (2), 0x7cDa585e (2), 0x7f54F056 (2), 0x8F10B468 (2)"
+      },
+      "children": []
+    }
+  }
+}
