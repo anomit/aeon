@@ -1,0 +1,87 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT"
+      },
+      "children": [
+        "alert",
+        "details_stack"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "message": "BUY USDC/WETH on Uniswap V3 (1%) - $1.0K swapped"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_amount",
+        "swap_details",
+        "address_text",
+        "block_text",
+        "tx_link",
+        "verification"
+      ]
+    },
+    "stat_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$1.0K",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "swap_details": {
+      "type": "Text",
+      "props": {
+        "text": "1,016.09 USDC for 0.51187865 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "address_text": {
+      "type": "Text",
+      "props": {
+        "text": "Address: 0x7f54F056",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "block_text": {
+      "type": "Text",
+      "props": {
+        "text": "Block 25193754",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tx_link": {
+      "type": "Link",
+      "props": {
+        "label": "TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xff3e81d0fe6d2c3732e7d29e1174b0bd5a49519f2e5058201c5ca3f8b60dc604"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "Verified on-chain Epoch 25193754",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
