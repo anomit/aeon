@@ -1,0 +1,56 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3",
+        "text4"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Batch summary: 12 smaller WETH/USDT swaps ($2.0K each) from wallets 0xE592427A and 0xe60fAE78 across blocks 25190355-25190364. All verified on-chain via Powerloom BDS.",
+        "variant": "lead"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "12 smaller WETH/USDT swaps",
+        "variant": "body"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "$2.0K each",
+        "variant": "body"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "From wallets: 0xE592427A and 0xe60fAE78 across blocks 25190355-25190364. All verified on-chain via Powerloom BDS.",
+        "variant": "body"
+      }
+    }
+  }
+}
