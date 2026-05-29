@@ -1,0 +1,271 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Digest"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "separator-1",
+        "mega-trades",
+        "separator-2",
+        "whales",
+        "separator-3",
+        "other-active",
+        "separator-4",
+        "alert",
+        "separator-5",
+        "summary"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25201723–25201732 (9 epochs, 64 trades)",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "mega-trades-title": {
+      "type": "Heading",
+      "props": {
+        "text": "MEGATRADES",
+        "level": "h3"
+      }
+    },
+    "mega-trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→WETH $3.12M (0x1f2F10D1…6Df387)",
+        "variant": "body"
+      }
+    },
+    "mega-trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→WETH $2.85M (0x1f2F10D1…6Df387)",
+        "variant": "body"
+      }
+    },
+    "mega-trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→WETH $2.85M (anonymous)",
+        "variant": "body"
+      }
+    },
+    "mega-trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "• RLUSD/USDC $450K (0x8F10B468…13f996)",
+        "variant": "body"
+      }
+    },
+    "mega-trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mega-trades-title",
+        "mega-trade-1",
+        "mega-trade-2",
+        "mega-trade-3",
+        "mega-trade-4"
+      ]
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "dominant-whale-title": {
+      "type": "Heading",
+      "props": {
+        "text": "DOMINANT WHALE 0x51C72848…502a7F",
+        "level": "h3"
+      }
+    },
+    "dominant-whale-details": {
+      "type": "Text",
+      "props": {
+        "text": "19 trades ~$496K — largest USDC→WETH $144K, WETH/USDT $90.5K, WBTC/USDT $18.9K",
+        "variant": "body"
+      }
+    },
+    "whale-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WHALE 0x1f2F10D1…6Df387",
+        "level": "h3"
+      }
+    },
+    "whale-details": {
+      "type": "Text",
+      "props": {
+        "text": "3 trades ~$5.97M — USDC/WETH megaswaps + GHO/USDC $3.4K",
+        "variant": "body"
+      }
+    },
+    "whale-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WHALE 0xBdb3ba9f…DF47B6",
+        "level": "h3"
+      }
+    },
+    "whale-2-details": {
+      "type": "Text",
+      "props": {
+        "text": "6 trades ~$51K — WBTC/WETH $15K, PAXG/USDC $24.8K, USDC/WETH $3.6K",
+        "variant": "body"
+      }
+    },
+    "whales": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dominant-whale-title",
+        "dominant-whale-details",
+        "whale-title",
+        "whale-details",
+        "whale-2-title",
+        "whale-2-details"
+      ]
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "other-active-title": {
+      "type": "Heading",
+      "props": {
+        "text": "OTHER ACTIVE",
+        "level": "h3"
+      }
+    },
+    "other-active-1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xE592427A…861564 (6 trades: EURC/USDC + USDC/WETH routing)",
+        "variant": "body"
+      }
+    },
+    "other-active-2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x278d858f…6eF8D2 (USDC/WETH + ZAMA buys)",
+        "variant": "body"
+      }
+    },
+    "other-active-3": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xe60fAE78…94347e (WETH/USDT $6K)",
+        "variant": "body"
+      }
+    },
+    "other-active-4": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x66a9893c…dBA8Af (USDC/WETH $17K)",
+        "variant": "body"
+      }
+    },
+    "other-active-5": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x98C3d318…8d6B8E (3 ZAMA buys)",
+        "variant": "body"
+      }
+    },
+    "other-active": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "other-active-title",
+        "other-active-1",
+        "other-active-2",
+        "other-active-3",
+        "other-active-4",
+        "other-active-5"
+      ]
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "ZAMA/USDT price oracle anomaly persists (7 trades, absurd USD values)"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "summary-stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total verified volume",
+        "value": "~$9.3M",
+        "delta": "excl. anomalous ZAMA",
+        "trend": "neutral"
+      }
+    },
+    "summary-stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Verification status",
+        "value": "All verified on-chain",
+        "delta": "via Powerloom BDS",
+        "trend": "up"
+      }
+    },
+    "summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-stat-1",
+        "summary-stat-2"
+      ]
+    }
+  }
+}
