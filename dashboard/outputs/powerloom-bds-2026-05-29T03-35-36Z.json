@@ -1,0 +1,164 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "Large USDC/WETH trade detected"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-buy",
+        "stack-tx-details",
+        "separator",
+        "stack-verification"
+      ]
+    },
+    "text-buy": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY USDC/WETH on Uniswap V3 (1%)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack-tx-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-amount",
+        "stack-addresses",
+        "text-block",
+        "link-tx"
+      ]
+    },
+    "text-amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $1.0K swapped"
+      },
+      "children": []
+    },
+    "stack-addresses": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-output",
+        "text-input",
+        "text-wallet"
+      ]
+    },
+    "text-output": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇒ 1,032.3077 USDC"
+      },
+      "children": []
+    },
+    "text-input": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇐ 0.5156049 WETH"
+      },
+      "children": []
+    },
+    "text-wallet": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xBdb3ba9f…DF47B6"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25198343"
+      },
+      "children": []
+    },
+    "link-tx": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX",
+        "href": "https://etherscan.io/tx/0xb0904e27b898fc12d0533fcda1434daaae5362fb9a722a1bc53d8acb90649e25"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-verified",
+        "stack-details"
+      ]
+    },
+    "text-verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-cid",
+        "text-epoch",
+        "text-project"
+      ]
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreihnszkskovrseaaprvffr6…"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25198343"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    }
+  }
+}
