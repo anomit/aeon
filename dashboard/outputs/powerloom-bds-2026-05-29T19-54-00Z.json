@@ -1,0 +1,127 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "Large WETH/USDT trade detected"
+      },
+      "children": [
+        "alert-content",
+        "trade-stack",
+        "verification-section"
+      ]
+    },
+    "alert-content": {
+      "type": "Alert",
+      "props": {
+        "title": "🟢 BUY WETH/USDT on Uniswap V3 (1%)",
+        "message": "💰 $4.8K swapped",
+        "type": "success"
+      },
+      "children": []
+    },
+    "trade-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trade-badge-1",
+        "trade-badge-2",
+        "trade-badge-3",
+        "trade-link"
+      ]
+    },
+    "trade-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "▸ ⇢ 2.3847 WETH",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "trade-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "▸ ⇠ 4,815.1308 USDT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "trade-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "▸ 🐊 0x51C72848…502a7F",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trade-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 📦 Block 25203227",
+        "href": "https://etherscan.io/tx/0x540c468ccd052d07b79e87e7442623754e497186c6e09869326d5ebedb96fdba"
+      },
+      "children": []
+    },
+    "verification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification-title",
+        "verification-details"
+      ]
+    },
+    "verification-title": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "verification-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification-line-1",
+        "verification-line-2",
+        "verification-line-3"
+      ]
+    },
+    "verification-line-1": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreidmiqguikpja522ga5g6os…",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "verification-line-2": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25203227",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "verification-line-3": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
