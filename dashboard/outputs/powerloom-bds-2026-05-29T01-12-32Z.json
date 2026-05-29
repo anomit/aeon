@@ -1,0 +1,89 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT 🟢 BUY USDC/WETH on Uniswap V3 (1%)",
+        "description": "Large trade detected"
+      },
+      "children": [
+        "alert1",
+        "stack1"
+      ]
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "WALE ALERT",
+        "message": "Large trade detected on Uniswap V3",
+        "type": "info"
+      },
+      "children": []
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "link1"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Amount: 1,004.45 USDC ↔ 0.499 WETH (~1.0K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Wallet: 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Block: 25197633",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "Verification: ✅ Verified on-chain: CID bafkreiav3yusctcfw7fz6h6f6k7… Epoch 25197633",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "TX:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "https://etherscan.io/tx/0x7aeac33dcb900afd79d6ee54a6700a642679d160f5721fbdf258abededa52e69",
+        "href": "https://etherscan.io/tx/0x7aeac33dcb900afd79d6ee54a6700a642679d160f5721fbdf258abededa52e69"
+      },
+      "children": []
+    }
+  }
+}
