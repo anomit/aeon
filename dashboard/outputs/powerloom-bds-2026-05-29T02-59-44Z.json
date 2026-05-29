@@ -1,0 +1,126 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT",
+        "description": "Buy WETH/USDT on Uniswap V3 (1%)"
+      },
+      "children": [
+        "header",
+        "stack1"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 🐋 WHALE ALERT 🟢",
+        "level": "h1"
+      },
+      "children": []
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat",
+        "stack2"
+      ]
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Swap Value",
+        "value": "$1.8K",
+        "delta": "100%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "separator",
+        "verification"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $1.8K swapped",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇒ 0.88952393 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1,780.9364 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x51C72848…502a7F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25198146",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:",
+        "type": "success",
+        "message": "CID: bafkreihge35oiurq5itr3fkrss…\nEpoch: 25198146\nProject: allTradesSnapshot"
+      },
+      "children": []
+    },
+    "tx_link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: Etherscan",
+        "href": "https://etherscan.io/tx/0xf9bdba31d65960d899fc79a56258cd47dae53b2958d144ccf9d732cc64bb77e2"
+      },
+      "children": []
+    }
+  }
+}
