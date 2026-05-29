@@ -1,0 +1,150 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-buy",
+        "text-amount",
+        "separator-1",
+        "stack-trade",
+        "separator-2",
+        "stack-verification"
+      ]
+    },
+    "text-buy": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY wTAO/USDC on Uniswap V3 (1%)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $5.2K swapped"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-trade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-in",
+        "text-out",
+        "text-wallet",
+        "text-block",
+        "link-tx"
+      ]
+    },
+    "text-in": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 20.4765 wTAO"
+      },
+      "children": []
+    },
+    "text-out": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 0 USDC"
+      },
+      "children": []
+    },
+    "text-wallet": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xC36442b4…11FE88"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25201232"
+      },
+      "children": []
+    },
+    "link-tx": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x7e20970c9ee428533dc00096f9950c5ebc400c85b82f96f93193fab0ef74cc96",
+        "href": "https://etherscan.io/tx/0x7e20970c9ee428533dc00096f9950c5ebc400c85b82f96f93193fab0ef74cc96"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-verified",
+        "text-cid",
+        "text-epoch",
+        "text-project"
+      ]
+    },
+    "text-verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:"
+      },
+      "children": []
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreibtnr3xnrxxis2voaqwfsa…"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25201232"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    }
+  }
+}
