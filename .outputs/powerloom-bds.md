@@ -1,15 +1,15 @@
-🟢 🐋 WHALE ALERT 🟢
+Whale Radar Digest — Epochs 25203316-25203323 (8 epochs, 15 trades)
 
-🟢 BUY WETH/USDT on Uniswap V3 (1%)
-💰 $4.8K swapped
+0xBdb3ba9f...DF47B6 — 6 trades (~178K USD)
+  USDC-WETH 136.0K | WBTC/USDT 18.0K | WETH/USDT 10.8K | USDC/WETH 5.1K | WETH/USDT 4.1K | WETH/USDT 2.7K
 
-▸ ⇢ 2.3847 WETH
-▸ ⇠ 4,815.1308 USDT
-▸ 🐊 0x51C72848…502a7F
-▸ 📦 Block 25203227
-▸ 🔍 TX: https://etherscan.io/tx/0x540c468ccd052d07b79e87e7442623754e497186c6e09869326d5ebedb96fdba
+0x51C72848...502a7F — 3 trades (~14.3K USD)
+  USDC/WETH 5.4K | WETH/USDT 4.5K | USDC/WETH 4.4K
 
-✅ Verified on-chain:
-  ├ CID: bafkreidmiqguikpja522ga5g6os…
-  ├ Epoch: 25203227
-  └ Project: allTradesSnapshot
+0x8F10B468...13f996 — USDC/WETH 8.2K USD
+0x4C82D1fB...60a2cCA — USDC/WETH 4.2K + WETH/ASTEROID 1.5K
+0x4c3ccC98...d1A6e3 — PRIME/WETH 1.4K
+0x71D5Dcd7...A955E0 — WETH/USDT 1.4K
+
+Total verified volume: ~209K USD | Pairs: USDC/WETH (6), WETH/USDT (5), WBTC/USDT, PRIME/WETH, WETH/ASTEROID
+Verified on-chain via Powerloom BDS

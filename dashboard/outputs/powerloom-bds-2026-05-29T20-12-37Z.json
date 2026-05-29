@@ -1,0 +1,183 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Radar Digest"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_title",
+        "stack_whale_1",
+        "stack_whale_2",
+        "stack_whale_3",
+        "stack_whale_4",
+        "stack_whale_5",
+        "stack_whale_6",
+        "text_summary",
+        "text_verification"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Whale Radar Digest — Epochs 25203316-25203323 (8 epochs, 15 trades)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_whale_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_whale_1_address",
+        "text_whale_1_details"
+      ]
+    },
+    "text_whale_1_address": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f...DF47B6 — 6 trades (~178K USD)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_whale_1_details": {
+      "type": "Text",
+      "props": {
+        "text": "USDC-WETH 136.0K | WBTC/USDT 18.0K | WETH/USDT 10.8K | USDC/WETH 5.1K | WETH/USDT 4.1K | WETH/USDT 2.7K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_whale_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_whale_2_address",
+        "text_whale_2_details"
+      ]
+    },
+    "text_whale_2_address": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848...502a7F — 3 trades (~14.3K USD)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_whale_2_details": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH 5.4K | WETH/USDT 4.5K | USDC/WETH 4.4K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_whale_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_whale_3_address"
+      ]
+    },
+    "text_whale_3_address": {
+      "type": "Text",
+      "props": {
+        "text": "0x8F10B468...13f996 — USDC/WETH 8.2K USD",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_whale_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_whale_4_address"
+      ]
+    },
+    "text_whale_4_address": {
+      "type": "Text",
+      "props": {
+        "text": "0x4C82D1fB...60a2cCA — USDC/WETH 4.2K + WETH/ASTEROID 1.5K",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_whale_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_whale_5_address"
+      ]
+    },
+    "text_whale_5_address": {
+      "type": "Text",
+      "props": {
+        "text": "0x4c3ccC98...d1A6e3 — PRIME/WETH 1.4K",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_whale_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_whale_6_address"
+      ]
+    },
+    "text_whale_6_address": {
+      "type": "Text",
+      "props": {
+        "text": "0x71D5Dcd7...A955E0 — WETH/USDT 1.4K",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Total verified volume: ~209K USD | Pairs: USDC/WETH (6), WETH/USDT (5), WBTC/USDT, PRIME/WETH, WETH/ASTEROID",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_verification": {
+      "type": "Text",
+      "props": {
+        "text": "Verified on-chain via Powerloom BDS",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
