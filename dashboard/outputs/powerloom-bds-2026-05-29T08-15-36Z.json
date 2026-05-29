@@ -1,0 +1,117 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "Large cryptocurrency trade detected"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "badge1",
+        "stat1",
+        "stack2",
+        "text2",
+        "link1",
+        "text3"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY WBTC/USDT on Uniswap V3 (5%)",
+        "variant": "body"
+      }
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "Buy Trade",
+        "variant": "default"
+      }
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$1.8K",
+        "delta": "5%",
+        "trend": "up"
+      }
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text4",
+        "text5",
+        "text6",
+        "text7"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇒ 0.02479708 WBTC",
+        "variant": "body"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇐ 1,823.7424 USDT",
+        "variant": "body"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25199735",
+        "variant": "body"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🔍 TX: https://etherscan.io/tx/0x00288d338b3ffcc08c88d9926e253e19de731ce4dc0cc75ad0b7d01266a3f332",
+        "variant": "body"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 View Transaction",
+        "href": "https://etherscan.io/tx/0x00288d338b3ffcc08c88d9926e253e19de731ce4dc0cc75ad0b7d01266a3f332"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      }
+    }
+  }
+}
