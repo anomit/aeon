@@ -1,0 +1,104 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "heading-1",
+        "stack-1"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "BDS Whale Radar",
+        "level": "h1"
+      }
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-1",
+        "text-1",
+        "stack-2",
+        "text-2",
+        "alert-1",
+        "text-3"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Alerts",
+        "value": "36"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "epochs 25201023-25201032"
+      }
+    },
+    "stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-2",
+        "stat-3",
+        "stat-4"
+      ]
+    },
+    "stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Top Transaction",
+        "value": "26K USDC>WETH"
+      }
+    },
+    "stat-3": {
+      "type": "Stat",
+      "props": {
+        "label": "Top Transaction",
+        "value": "18.2K PAXG>USDC"
+      }
+    },
+    "stat-4": {
+      "type": "Stat",
+      "props": {
+        "label": "Top Transaction",
+        "value": "7.6K USDC>WETH"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Pairs: USDC/WETH(18), WETH/USDT(4), ZAMA/USDT(3)"
+      }
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Alert",
+        "message": "3 ZAMA alerts show anomalous USD values",
+        "type": "warning"
+      }
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom BDS"
+      }
+    }
+  }
+}

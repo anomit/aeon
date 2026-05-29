@@ -1,17 +1,1 @@
-🐋 BDS Digest — Epochs 25200924–25200933 (10 epochs, 30 trades)
-
-Dominant whales:
-▸ 0x278d858f…6eF8D2: 5 ZAMA buys (~210K tokens, ~3.8K USDT)
-▸ 0xBdb3ba9f…DF47B6: 6 trades (~8K — ID/USDC, WETH/USDT, USDC/WETH + ZAMA)
-▸ 0xC36442b4…11FE88: 2 trades (BIGTIME/USDT 8.8K + USDT/SXT 3.5K)
-▸ 0x51C72848…502a7F: USDC→WETH 13.2K
-▸ 0x7f54F056…A3Be8A: USDC→WETH 20.0K (largest verified)
-▸ 0x4C82D1fB…60a2cCA: WBTC/USDT 4.2K + WETH/USDT 1.6K
-▸ 0x1f2F10D1…6Df387: USDC→WETH 5.9K
-▸ 0x68b34658…65Fc45: wstETH→WETH 12.1K
-
-Notable: USDC/WETH 20.0K, USDC/WETH 13.2K, wstETH/WETH 12.1K, BIGTIME/USDT 8.8K, USDT/SXT 3.5K x2, WBTC/USDT 4.2K.
-
-ZAMA/USDT price oracle anomaly persists (10 trades, absurd USD values — dispatched with token amounts only).
-
-Total verified volume: ~100K USD (excl. anomalous ZAMA). All verified on-chain via Powerloom BDS.
+BDS Whale Radar - 36 alerts, epochs 25201023-25201032. Top: 26K USDC>WETH, 18.2K PAXG>USDC, 7.6K USDC>WETH. Pairs: USDC/WETH(18), WETH/USDT(4), ZAMA/USDT(3). 3 ZAMA alerts show anomalous USD values. All verified on-chain via Powerloom BDS.
