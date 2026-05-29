@@ -1,9 +1,15 @@
-🐳 Powerloom BDS — 15 whale alerts (epochs 25200527–25200536)
+🐋 Whale Radar Digest — Epochs 25200626–25200633 (6 epochs, 12 trades)
 
-Largest: EURC/USDC $24.1K (0x66a9893c)
-Dominant whale 0x51C72848…502a7F: 5 trades ~$19.3K (LDO, PENDLE, USDC/WETH, WETH/USDT, PAXG/XAUt $8.3K)
-Other active: 0x4C82D1fB…60a2cCA (PENDLE $3.5K), 0xe60fAE78…94347e (WETH/USDT $3.0K), 0xBdb3ba9f…DF47B6 (WETH/USDT $2.2K)
+🐋 Active Whales:
+• 0x51C72848…502a7F — 2 trades ~$23.5K (XAUt/USDT $13.9K, PAXG/USDC $9.6K)
+• 0xBdb3ba9f…DF47B6 — 3 trades ~$19.9K (XAUt/USDT $15.9K, ID/USDC $2.2K+$1.8K)
+• 0xA5F91E59…B730B0 — 2 trades ~$2.4K (WETH/USDT $1.1K, USDC/WETH $1.3K)
+• 0xe60fAE78…94347e — 1 trade (WETH/USDT $3.0K)
 
-Pairs: WETH/USDT (6), USDC/WETH (2), PENDLE/WETH (2), LDO/WETH, EURC/USDC, PAXG/XAUt, XAUt/USDT, SHFL/USDC
-Total verified volume: ~$60.4K across 15 BUY trades
-All verified on-chain via Powerloom BDS
+📊 Highlights:
+• XAUt/USDT $15.9K (0xBdb3ba9f) — largest trade
+• XAUt/USDT $13.9K + PAXG/USDC $9.6K (0x51C72848) — heavy gold-pegged activity
+• ID/USDC $2.2K+$1.8K — Space ID accumulation
+
+💰 Total verified volume: ~$52.9K across 12 BUY trades
+🔍 All verified on-chain via Powerloom BDS

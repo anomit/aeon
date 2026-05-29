@@ -1,0 +1,101 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Radar Digest — Epochs 25200626–25200633"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "text6"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 Active Whales:",
+        "variant": "lead"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x51C72848…502a7F — 2 trades ~$23.5K (XAUt/USDT $13.9K, PAXG/USDC $9.6K)"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f…DF47B6 — 3 trades ~$19.9K (XAUt/USDT $15.9K, ID/USDC $2.2K+$1.8K)"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xA5F91E59…B730B0 — 2 trades ~$2.4K (WETH/USDT $1.1K, USDC/WETH $1.3K)"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xe60fAE78…94347e — 1 trade (WETH/USDT $3.0K)"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Highlights:",
+        "variant": "lead"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "• XAUt/USDT $15.9K (0xBdb3ba9f) — largest trade"
+      }
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "• XAUt/USDT $13.9K + PAXG/USDC $9.6K (0x51C72848) — heavy gold-pegged activity"
+      }
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "• ID/USDC $2.2K+$1.8K — Space ID accumulation"
+      }
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total verified volume",
+        "value": "~$52.9K",
+        "delta": "12 BUY trades"
+      }
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 All verified on-chain via Powerloom BDS",
+        "variant": "caption"
+      }
+    }
+  }
+}
