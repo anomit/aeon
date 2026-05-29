@@ -1,17 +1,17 @@
-Powerloom BDS Whale Digest — Epochs 25200726-25200735 (9 epochs, 39 trades)
+🐋 WHALE DIGEST · Epochs 25200825–25200834 (10 epochs, 48 trades)
 
-Top trades this cycle:
-- PAXG/USDC BUY 21.7K (gold) — 0x51C72848
-- USDC/WETH BUY 22.2K — 0xBdb3ba9f
-- WBTC/USDT BUY 8.2K — 0.111 WBTC
-- LINK/WETH BUY 5.0K — 557 LINK
-- XAUt/USDT BUY 5.1K (gold) — 0x51C72848
-- USDC/WETH BUY 4.5K — 0x4C82D1fB
-- ID/USDC BUY 3.7K — 93K ID
-- WETH/USDT BUY 3.2K — 1.6 WETH
+Top whale: 0x51C72848…502a7F — 17 trades ~$172K (largest USDC→WETH $92.3K, LINK/WETH $14.1K, USDC/SEI $11.5K)
 
-Active pairs: LINK/WETH (8 trades), ZAMA/USDT (10 trades), WETH/USDT (5), USDC/WETH (3)
+Active whales:
+• 0xBdb3ba9f…DF47B6 — 8 trades ~$43K (largest LINK/WETH $26K)
+• 0xe60fAE78…94347e — 4 USDC/WETH + LINK/WETH ~$12K
+• 0x7cDa585e…6694dc — LINK/WETH + USDC/SEI ~$16K
+• 0x25913A6f…166ABA — WBTC/USDC + WBTC/USDT ~$8.6K
+• 0x6747BcaF…dfACB5 — USD1/USDC + WBTC/WETH ~$16.5K
+• 0x09AD820a…024Afa — AUSD/USDC $51.4K (single large swap)
 
-Notable wallets: 0xBdb3ba9f (5 trades), 0xe60fAE78 (6 LINK buys), 0x51C72848 (4 trades including gold), 0x1103fC56 (3 ZAMA buys)
+Notable trades: USDC→WETH $92.3K · AUSD/USDC $51.4K · LINK/WETH $26K · LINK/WETH $14.1K · USDC/SEI $11.5K · USD1/USDC $10.1K
 
-All verified on-chain via Powerloom BDS.
+⚠️ ZAMA/USDT price oracle anomaly persists (3 trades with absurd USD values, dispatched with token amounts only)
+
+Total verified volume ~$327K (excl. anomalous ZAMA). All verified on-chain via Powerloom BDS.

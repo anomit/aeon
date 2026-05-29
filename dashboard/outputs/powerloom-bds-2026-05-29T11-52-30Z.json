@@ -1,0 +1,128 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE DIGEST"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "stack2",
+        "text3",
+        "text4",
+        "alert1",
+        "text5"
+      ]
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text6",
+        "text7",
+        "text8",
+        "text9",
+        "text10",
+        "text11",
+        "text12"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25200825–25200834 (10 epochs, 48 trades)",
+        "variant": "lead"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Top whale: 0x51C72848…502a7F — 17 trades ~$172K (largest USDC→WETH $92.3K, LINK/WETH $14.1K, USDC/SEI $11.5K)"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Active whales:"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f…DF47B6 — 8 trades ~$43K (largest LINK/WETH $26K)"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xe60fAE78…94347e — 4 USDC/WETH + LINK/WETH ~$12K"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x7cDa585e…6694dc — LINK/WETH + USDC/SEI ~$16K"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x25913A6f…166ABA — WBTC/USDC + WBTC/USDT ~$8.6K"
+      }
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x6747BcaF…dfACB5 — USD1/USDC + WBTC/WETH ~$16.5K"
+      }
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x09AD820a…024Afa — AUSD/USDC $51.4K (single large swap)"
+      }
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "Notable trades: USDC→WETH $92.3K · AUSD/USDC $51.4K · LINK/WETH $26K · LINK/WETH $14.1K · USDC/SEI $11.5K · USD1/USDC $10.1K"
+      }
+    },
+    "text11": {
+      "type": "Text",
+      "props": {
+        "text": "⚠️ ZAMA/USDT price oracle anomaly persists (3 trades with absurd USD values, dispatched with token amounts only)"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "Oracle Anomaly",
+        "message": "ZAMA/USDT price oracle anomaly persists (3 trades with absurd USD values, dispatched with token amounts only)",
+        "type": "warning"
+      }
+    },
+    "text12": {
+      "type": "Text",
+      "props": {
+        "text": "Total verified volume ~$327K (excl. anomalous ZAMA). All verified on-chain via Powerloom BDS."
+      }
+    }
+  }
+}
