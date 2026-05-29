@@ -1,0 +1,130 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 Whale Radar — Epochs 25198933–25198942",
+        "description": "10 trades | ~$118.5K total | All BUY | Verified on-chain"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable",
+        "active-wallets",
+        "verification",
+        "txs"
+      ]
+    },
+    "notable": {
+      "type": "Text",
+      "props": {
+        "text": "Notable:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDe/USDC $59.9K — 0x8F10B468…13f996"
+      },
+      "children": []
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "• BNB/WETH $35.3K — 0xC36442b4…11FE88"
+      },
+      "children": []
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $8.2K — 0x4c3ccC98…d1A6e3"
+      },
+      "children": []
+    },
+    "active-wallets": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets:"
+      },
+      "children": []
+    },
+    "wallet1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f…DF47B6 — 4 trades (~$10.2K, USDC/WETH + WETH/USDT)"
+      },
+      "children": []
+    },
+    "wallet2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x7cDa585e…6694dc — 2 trades (~$3.7K, USDC/WETH + WETH/USDT)"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "All trades verified on-chain via Powerloom BDS CIDs."
+      },
+      "children": []
+    },
+    "txs": {
+      "type": "Text",
+      "props": {
+        "text": "TXs:"
+      },
+      "children": [
+        "tx1",
+        "tx2",
+        "tx3",
+        "tx4"
+      ]
+    },
+    "tx1": {
+      "type": "Link",
+      "props": {
+        "label": "0x05b008a6…",
+        "href": "https://etherscan.io/tx/0x05b008a6…"
+      },
+      "children": []
+    },
+    "tx2": {
+      "type": "Link",
+      "props": {
+        "label": "0x5edcc222…",
+        "href": "https://etherscan.io/tx/0x5edcc222…"
+      },
+      "children": []
+    },
+    "tx3": {
+      "type": "Link",
+      "props": {
+        "label": "0x125d6bbd…",
+        "href": "https://etherscan.io/tx/0x125d6bbd…"
+      },
+      "children": []
+    },
+    "tx4": {
+      "type": "Link",
+      "props": {
+        "label": "0x53ba9759…",
+        "href": "https://etherscan.io/tx/0x53ba9759…"
+      },
+      "children": []
+    }
+  }
+}
