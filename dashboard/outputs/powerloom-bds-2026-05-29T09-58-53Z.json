@@ -1,0 +1,138 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Alert",
+        "description": "Large cryptocurrency trade detected"
+      },
+      "children": [
+        "header",
+        "trade-info",
+        "trade-amount",
+        "separator",
+        "trade-details",
+        "separator",
+        "verification-section"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 🐋 WHALE ALERT 🟢",
+        "level": "h1"
+      }
+    },
+    "trade-info": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY ZAMA/USDT on Uniswap V3 (5%)",
+        "variant": "lead"
+      }
+    },
+    "trade-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Amount Swapped",
+        "value": "139,886,061,274,224,049,011,844,614,941,950,959,681,536M"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trade-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "zama-amount",
+        "usdt-amount",
+        "fox-status",
+        "block-info",
+        "tx-link"
+      ]
+    },
+    "zama-amount": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 0 ZAMA",
+        "variant": "body"
+      }
+    },
+    "usdt-amount": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 399,999.5 USDT",
+        "variant": "body"
+      }
+    },
+    "fox-status": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 —",
+        "variant": "body"
+      }
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25200238",
+        "variant": "body"
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x30108a67773ca8c256ffd8b34fe566386b0a47f7d63ecb9a4718951f1a967fcb"
+      }
+    },
+    "verification-section": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      }
+    },
+    "verification-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid-info",
+        "epoch-info",
+        "project-info"
+      ]
+    },
+    "cid-info": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreidvdgrg3eh44pbkfkmplql…",
+        "variant": "body"
+      }
+    },
+    "epoch-info": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25200238",
+        "variant": "body"
+      }
+    },
+    "project-info": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      }
+    }
+  }
+}
