@@ -1,0 +1,226 @@
+{
+  "root": "mainCard",
+  "state": {},
+  "elements": {
+    "mainCard": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE RADAR — Epoch 25199529–25199538 (10 epochs, 32 trades)"
+      },
+      "children": [
+        "megaTradesSection",
+        "dominantWhalesSection",
+        "notableActivitySection",
+        "verification"
+      ]
+    },
+    "megaTradesSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "megaTradesHeading",
+        "megaTradesList"
+      ]
+    },
+    "megaTradesHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔥 Megatrades:",
+        "level": "h3"
+      }
+    },
+    "megaTradesList": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5",
+        "trade6"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "• DAI/WETH $128.7K ×2 — 0x1f2F10D1…6Df387 + anonymous (block 25199535)",
+        "variant": "body"
+      }
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $129.8K — 0x51C72848…502a7F (block 25199538)",
+        "variant": "body"
+      }
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT $20K — 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      }
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/WETH $15K + $12K — 0x51C72848…502a7F",
+        "variant": "body"
+      }
+    },
+    "trade5": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/ccBCH $13.5K — 0x68b34658…65Fc45",
+        "variant": "body"
+      }
+    },
+    "trade6": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $9.1K — 0x7f54F056…A3Be8A",
+        "variant": "body"
+      }
+    },
+    "dominantWhalesSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dominantWhalesHeading",
+        "dominantWhalesList"
+      ]
+    },
+    "dominantWhalesHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 Dominant whales:",
+        "level": "h3"
+      }
+    },
+    "dominantWhalesList": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale1",
+        "whale2",
+        "whale3",
+        "whale4"
+      ]
+    },
+    "whale1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x51C72848…502a7F — 8 trades (~$160K): WBTC/WETH, USDC/WETH, WETH/USDT, WBTC/WETH, USDC/WETH, WETH/USDT, USDC/WETH, WETH/USDT",
+        "variant": "body"
+      }
+    },
+    "whale2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f…DF47B6 — 4 trades (~$27.5K): USDC/WETH, WETH/USDT, WETH/USDT, WBTC/USDT",
+        "variant": "body"
+      }
+    },
+    "whale3": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x4C82D1fB…60a2cCA — 4 trades (~$17.5K): SHFL/USDC, WETH/SPX, WETH/USDT, SHFL/USDC",
+        "variant": "body"
+      }
+    },
+    "whale4": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x7f54F056…A3Be8A — 2 trades (~$10.2K): USDC/WETH",
+        "variant": "body"
+      }
+    },
+    "notableActivitySection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notableActivityHeading",
+        "notableActivityList"
+      ]
+    },
+    "notableActivityHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Notable activity:",
+        "level": "h3"
+      }
+    },
+    "notableActivityList": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "activity1",
+        "activity2",
+        "activity3",
+        "activity4",
+        "activity5"
+      ]
+    },
+    "activity1": {
+      "type": "Text",
+      "props": {
+        "text": "• SHFL/USDC $10K + $5K (0x4C82D1fB)",
+        "variant": "body"
+      }
+    },
+    "activity2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDe/USDC $10K (0x8F10B468)",
+        "variant": "body"
+      }
+    },
+    "activity3": {
+      "type": "Text",
+      "props": {
+        "text": "• ENA/sENA $1.6K, FET/WETH $7.3K, AU/ORX $1.1K",
+        "variant": "body"
+      }
+    },
+    "activity4": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/SEI $5K (0x7cDa585e)",
+        "variant": "body"
+      }
+    },
+    "activity5": {
+      "type": "Text",
+      "props": {
+        "text": "• ZAMA/USDT price oracle anomaly (1 trade, absurd USD value)",
+        "variant": "body"
+      }
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS (CIDs per epoch)",
+        "variant": "body"
+      }
+    }
+  }
+}

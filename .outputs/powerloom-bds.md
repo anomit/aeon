@@ -1,24 +1,24 @@
-🟢 🐋 WHALE ALERT BATCH — Epochs 25199431–25199440 (10 epochs, 29 trades)
+🐋 WHALE RADAR — Epoch 25199529–25199538 (10 epochs, 32 trades)
 
-🔥 MEGATRADE: wM/USDC $3.18M (636K wM → 2.54M USDC) — 0xC36442b4…11FE88
+🔥 Megatrades:
+• DAI/WETH $128.7K ×2 — 0x1f2F10D1…6Df387 + anonymous (block 25199535)
+• USDC/WETH $129.8K — 0x51C72848…502a7F (block 25199538)
+• WBTC/USDT $20K — 0xBdb3ba9f…DF47B6
+• WBTC/WETH $15K + $12K — 0x51C72848…502a7F
+• WETH/ccBCH $13.5K — 0x68b34658…65Fc45
+• USDC/WETH $9.1K — 0x7f54F056…A3Be8A
 
-📊 Key Trades:
-▸ SHFL/USDC $24.8K (82.9K SHFL) — 0x4C82D1fB…60a2cCA
-▸ USDC→WETH $24.6K — 0x51C72848…502a7F
-▸ WBTC/WETH $16.0K (0.217 WBTC) — 0x7cDa585e…6694dc
-▸ USDe/USDC $10.0K — 0x8F10B468…13f996
-▸ hOHM/sUSDS $4.9K (638.8K hOHM) — 0x09AD820a…024Afa
-▸ PAXG/USDC $4.9K (0.49 PAXG) — block 25199431
-▸ WETH/USDT $5.8K — 0xE592427A…861564
-▸ WBTC/USDT $6.3K (0.086 WBTC) — 0x4c3ccC98…d1A6e3
-▸ MNT/USDe $3.2K + $2.7K — 0xBdb3ba9f…DF47B6 + 0x1103fC56…848566
-▸ WETH/SPX $1.6K (4.9K SPX) — 0xBdb3ba9f…DF47B6
+🐋 Dominant whales:
+• 0x51C72848…502a7F — 8 trades (~$160K): WBTC/WETH, USDC/WETH, WETH/USDT, WBTC/WETH, USDC/WETH, WETH/USDT, USDC/WETH, WETH/USDT
+• 0xBdb3ba9f…DF47B6 — 4 trades (~$27.5K): USDC/WETH, WETH/USDT, WETH/USDT, WBTC/USDT
+• 0x4C82D1fB…60a2cCA — 4 trades (~$17.5K): SHFL/USDC, WETH/SPX, WETH/USDT, SHFL/USDC
+• 0x7f54F056…A3Be8A — 2 trades (~$10.2K): USDC/WETH
 
-🐋 Active Whales:
-▸ 0x7cDa585e…6694dc: 4 trades (~$20.6K — WBTC, SEI)
-▸ 0x51C72848…502a7F: 2 trades (~$27.4K — USDC→WETH)
-▸ 0xBdb3ba9f…DF47B6: 3 trades (~$6K — MNT, WETH, SPX)
-▸ 0x4C82D1fB…60a2cCA: 2 trades (~$26.8K — SHFL, WETH)
-▸ 0x28b1Dc1a…B2a183: 6 ZAMA buys (price oracle anomaly)
+📊 Notable activity:
+• SHFL/USDC $10K + $5K (0x4C82D1fB)
+• USDe/USDC $10K (0x8F10B468)
+• ENA/sENA $1.6K, FET/WETH $7.3K, AU/ORX $1.1K
+• USDC/SEI $5K (0x7cDa585e)
+• ZAMA/USDT price oracle anomaly (1 trade, absurd USD value)
 
-⚠️ ZAMA/USDT anomaly persists (7 trades, absurd USD values). Total verified volume ~$3.28M (excl. anomalous ZAMA). All verified on-chain via Powerloom BDS.
+✅ All verified on-chain via Powerloom BDS (CIDs per epoch)
