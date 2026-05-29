@@ -1,0 +1,154 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {},
+      "children": [
+        "heading",
+        "content-stack",
+        "verified-info"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 🐋 WHALE ALERT 🟢",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "buy-text",
+        "swap-amount",
+        "swap-details"
+      ]
+    },
+    "buy-text": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY USDC/WETH on Uniswap V3 (1%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "swap-amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $1.6K swapped",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "swap-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "usdc-stat",
+        "weth-stat",
+        "address",
+        "block",
+        "tx-link"
+      ]
+    },
+    "usdc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC Out",
+        "value": "1,563.9837",
+        "delta": null,
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "weth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "WETH In",
+        "value": "0.7766228",
+        "delta": null,
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "address": {
+      "type": "Text",
+      "props": {
+        "text": "🦊 0xBdb3ba9f…DF47B6",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25204022",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0x98448c88d0deed1ae58621cd48a581344713f8b383d0eb89338ffc73f4c05410",
+        "href": "https://etherscan.io/tx/0x98448c88d0deed1ae58621cd48a581344713f8b383d0eb89338ffc73f4c05410"
+      },
+      "children": []
+    },
+    "verified-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verified-text",
+        "cid-text",
+        "epoch-text",
+        "project-text"
+      ]
+    },
+    "verified-text": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cid-text": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ CID: bafkreiaiyu7umvbrursejxxyex6…",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "epoch-text": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ Epoch: 25204022",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "project-text": {
+      "type": "Text",
+      "props": {
+        "text": "  └ Project: allTradesSnapshot",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
