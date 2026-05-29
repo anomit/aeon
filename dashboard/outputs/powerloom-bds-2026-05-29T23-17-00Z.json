@@ -1,0 +1,96 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "platform-badge",
+        "amount-stat",
+        "trade-details",
+        "wallet-info",
+        "block-info",
+        "tx-link",
+        "separator",
+        "verification"
+      ]
+    },
+    "platform-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Uniswap V3 (1%)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "amount-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped Amount",
+        "value": "$1.3K"
+      },
+      "children": []
+    },
+    "trade-details": {
+      "type": "Text",
+      "props": {
+        "text": "0.6636364 WETH → 1,334.8024 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "wallet-info": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 0x1103fC56…848566",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25204215",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x1df87dd358bc5a18c67e745e9b014e41d626f4ba81108b92917ca123f28c2c6d"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:",
+        "message": "CID: bafkreibx66zphkoh6mbh4rsmqp6…\nEpoch: 25204215\nProject: allTradesSnapshot",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}

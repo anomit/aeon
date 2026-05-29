@@ -1,15 +1,14 @@
-## Summary
+🟢 🐋 WHALE ALERT 🟢
 
-**powerloom-bds** run completed successfully.
+🟢 BUY WETH/USDT on Uniswap V3 (1%)
+💰 $1.3K swapped
+▸ ⇢ 0.6636364 WETH
+▸ ⇠ 1,334.8024 USDT
+🐋 0x1103fC56…848566
+📦 Block 25204215
+🔍 TX: https://etherscan.io/tx/0x1df87dd358bc5a18c67e745e9b014e41d626f4ba81108b92917ca123f28c2c6d
 
-- **Epochs processed**: 25204112 → 25204121 (10 epochs)
-- **Alerts**: 20 whale alerts batched into a single digest notification
-- **Delivery**: Written to `.pending-notify/1780095141.md` for post-run delivery (sandbox blocked `./notify` due to shell expansion restrictions on `$` and `~` characters in the message)
-- **Log**: Appended to `memory/logs/2026-05-29.md`
-- **Commit**: `fa6e954` on main
-
-**Key activity this cycle:**
-- Dominant whale `0xBdb3ba9f…DF47B6` with 8 trades (~$159K, largest USDC→WETH $129.2K)
-- `0x51C72848…502a7F` with 5 trades (~$31K)
-- No ZAMA price oracle anomaly this cycle
-- Total verified volume: ~$210K across 20 BUY trades
+✅ Verified on-chain:
+  ├ CID: bafkreibx66zphkoh6mbh4rsmqp6…
+  ├ Epoch: 25204215
+  └ Project: allTradesSnapshot
