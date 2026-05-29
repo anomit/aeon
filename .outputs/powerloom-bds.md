@@ -1,15 +1,1 @@
-🟢 🐋 WHALE ALERT 🟢
-
-🟢 BUY WETH/USDT on Uniswap V3 (1%)
-💰 $2.4K swapped
-
-▸ ⇢ 1.2131 WETH
-▸ ⇠ 2,448.4872 USDT
-▸ 🐊 0x51C72848…502a7F
-▸ 📦 Block 25202924
-▸ 🔍 TX: https://etherscan.io/tx/0x2e1307c4cdc1957c5d4615a1d3dab549f73849cf322781b4abcad9ff33c7c25b
-
-✅ Verified on-chain:
-  ├ CID: bafkreigbkqxff7jrkqy6tj3lwoe…
-  ├ Epoch: 25202924
-  └ Project: allTradesSnapshot
+🐳 WHALE ALERT — 34 trades detected, epoch 25203018–25203027. Top: 43.9K WBTC/USDT, 34.8K XAUt/USDT, 25.2K wTAO/WETH, 20K wTAO/WETH, 19.7K WBTC/WETH. Key wallets: 0x51C72848, 0xBdb3ba9f, 0xEff6cb8b, 0x8F10B468.

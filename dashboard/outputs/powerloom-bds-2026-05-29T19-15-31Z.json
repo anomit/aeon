@@ -1,0 +1,112 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "badge",
+        "trades",
+        "wallets"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "icon",
+        "text"
+      ]
+    },
+    "icon": {
+      "type": "Text",
+      "props": {
+        "text": "🐳",
+        "variant": "body"
+      }
+    },
+    "text": {
+      "type": "Text",
+      "props": {
+        "text": "34 trades detected, epoch 25203018–25203027",
+        "variant": "body"
+      }
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "High Volume Trading",
+        "variant": "destructive"
+      }
+    },
+    "trades": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Trades:",
+        "level": "h3"
+      }
+    },
+    "trades_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Amount",
+          "Trading Pair"
+        ],
+        "rows": [
+          [
+            "43.9K",
+            "WBTC/USDT"
+          ],
+          [
+            "34.8K",
+            "XAUt/USDT"
+          ],
+          [
+            "25.2K",
+            "wTAO/WETH"
+          ],
+          [
+            "20K",
+            "wTAO/WETH"
+          ],
+          [
+            "19.7K",
+            "WBTC/WETH"
+          ]
+        ]
+      }
+    },
+    "wallets": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Wallets:",
+        "level": "h3"
+      }
+    },
+    "wallets_text": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848, 0xBdb3ba9f, 0xEff6cb8b, 0x8F10B468",
+        "variant": "body"
+      }
+    }
+  }
+}
