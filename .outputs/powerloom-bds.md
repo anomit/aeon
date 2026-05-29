@@ -1,13 +1,15 @@
-## Summary
+🟢 🐋 WHALE ALERT 🟢
 
-**powerloom-bds skill executed successfully.**
+🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
+💰 $179.9 USDT swapped (4,673.5713 ZAMA)
 
-- **Alerts cache**: Read 24 whale alerts from `.bds-cache/alerts.json` (epochs 25199930–25199939, 10 epochs processed)
-- **Dispatch**: Sandbox blocked `./notify` calls (shell escaping restrictions). All 24 alerts written as individual `.pending-notify/bds_alert_*.md` files for the workflow's "Re-deliver pending notifications" post-run step to deliver via Telegram/Discord/Slack.
-- **Key trades**: 
-  - 🐋 0x51C72848…502a7F dominated with 9 trades (~$175.8K, largest USDC→WETH $111.8K)
-  - WBTC/USDT $23.9K, EURC/USDC $13.2K, ENA/sENA $15.0K, XAUt/USDT $17.0K
-  - ZAMA/USDT price oracle anomaly persists (3 trades with absurd USD values)
-  - Total verified volume ~$236K (excl. anomalous ZAMA)
-- **Log**: Appended entry to `memory/logs/2026-05-29.md`
-- **Commit**: `97291ef` — chore(cron): powerloom-bds success
+▸ ⇒ 4,673.5713 ZAMA
+▸ ⇐ 179.9315 USDT
+▸ 🐳 0x278d858f…6eF8D2
+▸ 📦 Block 25200037
+▸ 🔍 TX: https://etherscan.io/tx/0x5f01b89e5b9b9b98c2bfa213445a567b67e9f075b708cfd9e36659d7c49f090e
+
+✅ Verified on-chain:
+  ├ CID: bafkreihyf7utotjpxb77qsnxj7n…
+  ├ Epoch: 25200037
+  └ Project: allTradesSnapshot
