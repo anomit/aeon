@@ -1,27 +1,11 @@
-🐋 WHALE DIGEST — Epochs 25201522–25201526 (4 epochs, 21 trades)
+🐋 Whale Radar Digest — Epochs 25201624–25201631 (8 epochs, 45 trades)
 
-🔥 MEGA TRADES
-• USDC→WETH $3.04M — 0x1f2F10D1…6Df387 (2.70M USDC → 172.1 WETH)
-• USDC→WETH $3.04M — anonymous (2.49M USDC → 276.6 WETH)
+Largest: wTAO/USDC $219.5K (0xC36442b4), USDC→WETH $155.2K (0x51C72848), USDC→WETH $103K×2 (0x1f2F10D1 + anon), WBTC/USDC $39.3K (anon).
 
-💰 LARGE TRADES
-• USDC→WETH $366.1K — 0x51C72848…502a7F
-• USDC→WETH $13.5K — anonymous (30% tier)
-• WBTC→USDT $34.2K — 0x51C72848
-• XAUt→USDT $29.5K — 0x51C72848
-• WETH→USDT $29.0K — 0x51C72848…502a7F
-• WETH→USDT $14.9K — 0x66a9893c
-• USDC→WETH $5.3K + $1.7K — 0x51C72848 + 0xEDeC9D3E
-• PAXG→USDC $9.5K — 0x51C72848
-• USDC→USDT $10.7K — 0xE592427A (router)
-• WBTC→USDT $2.2K + $2.1K — smaller buys
+Dominant whale 0x51C72848…502a7F: 18 trades (~$442K). Heavy WBTC + gold-pegged activity (XAUt $28.7K, PAXG $11.7K, WBTC $12.3K+$14.9K+$14.4K+$7.7K).
 
-👤 DOMINANT WHALE: 0x51C72848…502a7F
-8 trades (~$460K): USDC/WETH $366K, WBTC $34.2K, XAUt $29.5K, WETH $29K, PAXG $9.5K, USDC/WETH $5.3K, WETH $4.1K
+Other active: 0x278d858f…6eF8D2 (4 trades, 2 ZAMA + 2 USDC/WETH), 0xBdb3ba9f…DF47B6 (2 trades ~$4.2K), 0x66a9893c…dBA8Af ($28K), 0xe60fAE78…94347e (2× WETH/USDT ~$3.8K), 0x4C82D1fB…60a2cCA ($24.6K).
 
-👤 WHALE 0x1f2F10D1…6Df387: 2 megatrades ~$6.08M combined (USDC→WETH)
+ZAMA/USDT price oracle anomaly persists (2 trades, absurd USD values). Pairs: USDC/WETH (16), WETH/USDT (10), WBTC/WETH+USDT (5), ZAMA/USDT (2), PAXG/USDC, XAUt/USDT, wTAO/USDC+WETH, SAFE/WETH, LDO/WETH, ALCX/WETH, SLVon, USDC/USDT, SEI.
 
-👤 WHALE 0xBdb3ba9f…DF47B6: 3 trades (~$14K) — WETH/USDT + USDC/WETH
-
-📊 Total verified volume: ~$6.96M across 21 BUY trades
-✅ All verified on-chain via Powerloom BDS
+Total verified volume ~$980K (excl. anomalous ZAMA). All verified on-chain via Powerloom BDS.
