@@ -1,0 +1,113 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 Whale Radar",
+        "description": "Epochs 25198234–25198240 (7 epochs, 28 trades)"
+      },
+      "children": [
+        "text-whales-title",
+        "stack-whale-list",
+        "separator-warning",
+        "alert-warning",
+        "separator-verification",
+        "text-verification"
+      ]
+    },
+    "text-whales-title": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 0x51C72848…502a7F: 13 buys totaling ~$291K (USDC→WETH $209.6K, WBTC/USDT $20.3K, WBTC/WETH $11.2K, WETH/USDT pool x5, USDC/SEI $9.4K, more)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack-whale-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-whale-2",
+        "text-whale-3",
+        "text-whale-4",
+        "text-whale-5",
+        "text-others"
+      ]
+    },
+    "text-whale-2": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 0xBdb3ba9f…DF47B6: USDC→WETH $57.8K + LDO/WETH $2.1K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-whale-3": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 0x7cDa585e…6694dc: USDC→SEI $14K + WBTC/USDT $4.5K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-whale-4": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 0x66a9893c…dBA8Af: EURC/USDC $8.6K + ZAMA/USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-whale-5": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 0x278d858f…6eF8D2: ZAMA/USDT 12K tokens bought",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-others": {
+      "type": "Text",
+      "props": {
+        "text": "Others: ICP/WETH $1K, wTAO/WETH $3.5K, WETH/ASTEROID $2.7K, USDC/SEI $1.3K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-warning": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-warning": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "⚠️ ZAMA/USDT price oracle anomaly persists (absurd USD values in 2 trades — token amounts only)"
+      },
+      "children": []
+    },
+    "separator-verification": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All trades verified on-chain via Powerloom BDS",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
