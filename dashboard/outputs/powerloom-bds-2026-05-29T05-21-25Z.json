@@ -1,0 +1,142 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": null
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-action",
+        "stack-details",
+        "separator-1",
+        "stack-verification"
+      ]
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "BUY USDC/SEI on Uniswap V3 (30%)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $5.3K swapped",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-out",
+        "text-in",
+        "text-wallet",
+        "text-block",
+        "link-tx"
+      ]
+    },
+    "text-out": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 5,251.9998 USDC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-in": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 79,107.7292 SEI",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-wallet": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦂 0x51C72848…502a7F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25198841",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tx": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x832565a5085abc465353c32870e3d174efc6691ea66d1f0673d6bcc8fa62f35b",
+        "href": "https://etherscan.io/tx/0x832565a5085abc465353c32870e3d174efc6691ea66d1f0673d6bcc8fa62f35b"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-verified",
+        "text-cid",
+        "text-project"
+      ]
+    },
+    "badge-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreih4of2n4u7ugnzrs3wlbr3…",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
