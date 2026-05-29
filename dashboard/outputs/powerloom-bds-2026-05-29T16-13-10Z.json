@@ -1,0 +1,210 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE DIGEST"
+      },
+      "children": [
+        "heading-1",
+        "stack-1",
+        "separator-1",
+        "stack-2",
+        "separator-2",
+        "stack-3",
+        "alert-1",
+        "stack-4"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Epochs 25202123–25202132 · 62 BUY trades",
+        "level": "h2"
+      }
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-1",
+        "stat-2"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Verified Volume",
+        "value": "$790K",
+        "delta": "",
+        "trend": "neutral"
+      }
+    },
+    "stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Trades",
+        "value": "62",
+        "delta": "",
+        "trend": "neutral"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 Dominant whale 0x51C72848…502a7F with 29 trades (~$645K, largest USDC→WETH $201.4K + WBTC/USDT $49.9K + USDC/WETH $95.4K). Heavy routing across USDC/WETH, WETH/USDT, WBTC/USDT, XAUt/USDT, FET, COW.",
+        "variant": "body"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "🥈 0xBdb3ba9f…DF47B6 (3 trades ~$19.6K, WBTC/USDT $11.6K + PAXG/USDC $5.4K)",
+        "variant": "body"
+      }
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "🔄 0xE592427A…861564 (10 trades ~$33K, stablecoin routing via USDC/WETH + USDC/USDT)",
+        "variant": "body"
+      }
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "📊 0x25913A6f…166ABA (USDC/WETH $38K)",
+        "variant": "body"
+      }
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "🪙 XAUt/USDT $28.3K (0x11111112) + $8.3K (0x51C72848) + $4.5K (0x6A000F20) — heavy gold-pegged activity",
+        "variant": "body"
+      }
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "💲 USN/USDT $20K (0x68b34658)",
+        "variant": "body"
+      }
+    },
+    "text-7": {
+      "type": "Text",
+      "props": {
+        "text": "⚖️ rETH/WETH $6.8K (0x66a9893c) · WPRL/USDT $2.7K+$1.6K · ICP/WETH $1K · LDO/WETH $1K · APEX/USDT $2K · GMT/WETH $1.2K · FET/WETH $1.4K",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-2",
+        "stack-4"
+      ]
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pairs",
+        "level": "h3"
+      }
+    },
+    "stack-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "badge-2",
+        "badge-3",
+        "badge-4"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "USDC/WETH (20+)",
+        "variant": "default"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "WETH/USDT (10+)",
+        "variant": "default"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "WBTC/USDT (4)",
+        "variant": "default"
+      }
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "XAUt/USDT (3)",
+        "variant": "default"
+      }
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ Price Oracle Anomaly",
+        "message": "ZAMA/USDT price oracle anomaly persists (1 trade, absurd USD value — actual: 13.7K ZAMA → 506 USDT)",
+        "type": "warning"
+      }
+    },
+    "text-8": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom BDS.",
+        "variant": "caption"
+      }
+    }
+  }
+}
