@@ -1,0 +1,190 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 WHALE ALERT BATCH — Epochs 25199232–25199241 (10 epochs, 29 trades)"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-volume",
+        "alert-anomaly",
+        "stack-content"
+      ]
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Verified Volume",
+        "value": "~$248.5K",
+        "delta": "excl. anomalous ZAMA"
+      }
+    },
+    "alert-anomaly": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ Oracle Anomaly",
+        "message": "ZAMA/USDT price oracle anomaly persists (4 trades, absurd USD values — 0x278d858f…6eF8D2)",
+        "type": "warning"
+      }
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-dominant",
+        "section-active"
+      ]
+    },
+    "section-dominant": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-dominant-label",
+        "text-dominant",
+        "text-dominant-trades"
+      ]
+    },
+    "text-dominant-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Dominant Whale",
+        "level": "h3"
+      }
+    },
+    "text-dominant": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848…502a7F",
+        "variant": "lead"
+      }
+    },
+    "text-dominant-trades": {
+      "type": "Text",
+      "props": {
+        "text": "10 trades (~$98.6K — WBTC/WETH $13.4K, USDC→WETH $75.7K, WETH/USDT $4.8K, WBTC/USDT $4.7K)"
+      }
+    },
+    "section-active": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-active-label",
+        "stack-whales"
+      ]
+    },
+    "text-active-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Whales",
+        "level": "h3"
+      }
+    },
+    "stack-whales": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-whale-1",
+        "text-whale-2",
+        "text-whale-3",
+        "text-whale-4",
+        "text-whale-5",
+        "text-whale-6",
+        "text-whale-7",
+        "text-whale-8",
+        "text-whale-9",
+        "text-whale-10",
+        "text-whale-11"
+      ]
+    },
+    "text-whale-1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f…DF47B6: 2 trades ~$9.6K (WETH/USDT + USDC/WETH)"
+      }
+    },
+    "text-whale-2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x1f2F10D1…6Df387: USDC→ASTEROID $8.0K"
+      }
+    },
+    "text-whale-3": {
+      "type": "Text",
+      "props": {
+        "text": "• Anonymous: USDC→ASTEROID $8.0K"
+      }
+    },
+    "text-whale-4": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x8F10B468…13f996: WBTC/WETH $7.0K"
+      }
+    },
+    "text-whale-5": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x4c3ccC98…d1A6e3: USDC/WETH $3.6K"
+      }
+    },
+    "text-whale-6": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x4C82D1fB…0a2cCA: ASTEROID + WETH ~$2.7K"
+      }
+    },
+    "text-whale-7": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x7f54F056…A3Be8A: USDC/WETH $2.0K"
+      }
+    },
+    "text-whale-8": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x76600115…EE5EFe: ASTEROID ~$2.2K"
+      }
+    },
+    "text-whale-9": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x6747BcaF…dfACB5: WPRL/USDT $1.2K"
+      }
+    },
+    "text-whale-10": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 Largest single trade: WETH→ULTI $104.3K (anonymous, block 25199235)"
+      }
+    },
+    "text-whale-11": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom BDS."
+      }
+    }
+  }
+}
