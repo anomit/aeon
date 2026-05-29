@@ -1,0 +1,108 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds",
+        "description": null
+      },
+      "children": [
+        "alert",
+        "separator1",
+        "trade-details",
+        "separator2",
+        "transaction-info",
+        "verification"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "type": "success",
+        "message": null
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trade-details": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY WETH/USDT on Uniswap V3 (1%)\n💰 $2.1K swapped"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "transaction-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eth-sent",
+        "usdt-received",
+        "wallet",
+        "block",
+        "tx-link"
+      ]
+    },
+    "eth-sent": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.0208 WETH"
+      },
+      "children": []
+    },
+    "usdt-received": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 2,060.6265 USDT"
+      },
+      "children": []
+    },
+    "wallet": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x4C82D1fB…0a2cCA"
+      },
+      "children": []
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25203622"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x4fe13d28c495444a7ee4b596987d3d4b3ccec4d63bc01858dc57e783bcbac619",
+        "href": "https://etherscan.io/tx/0x4fe13d28c495444a7ee4b596987d3d4b3ccec4d63bc01858dc57e783bcbac619"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:\n  ├ CID: bafkreidvt7ojngv2melsd3rkrtk…\n  ├ Epoch: 25203622\n  └ Project: allTradesSnapshot"
+      },
+      "children": []
+    }
+  }
+}
