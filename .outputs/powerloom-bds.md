@@ -1,1 +1,8 @@
-🟢 🐋 WHALE ALERT 🟢 ⚠️ ZAMA/USDT price anomaly — 7,844.91 ZAMA → 295.84 USDT | 🐊 0x1f2F10D1…6Df387 | Block 25197938 | TX: https://etherscan.io/tx/0x98cb9be85f8fd999b974bf2fb793110da882c48da6ed44e5688f638dc9b09bb3 ✅ Verified on-chain Epoch: 25197938
+## Summary
+
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Alerts cache**: `.bds-cache/alerts.json` — 30 whale alerts across epochs 25198033–25198042 (10 epochs processed)
+- **Dispatched**: Single batched summary notification via `./notify` covering all 30 alerts. Top trades: $160.1K USDC→WETH, $152.8K WETH→USDT, $89.9K USDe→USDT. Dominant whale `0x51C72848…502a7F` accounted for 19 of 30 trades. All verified on-chain via Powerloom BDS.
+- **State**: `memory/powerloom-bds-state.json` left untouched (cursor at epoch 25198042, maintained by prefetch script)
+- **Log**: Appended to `memory/logs/2026-05-29.md`
+- **Committed**: `148ccc2`
