@@ -1,12 +1,15 @@
-## Summary
+🟢 🐋 WHALE ALERT 🟢
 
-**Powerloom BDS whale-radar** run completed successfully.
+🟢 BUY USDC/WETH on Uniswap V3 (1%)
+💰 $1.2K swapped
 
-- **Epochs processed:** 7 (25203417–25203423)
-- **Alerts dispatched:** 19 trades, batched into a single digest notification via `./notify`
-- **Top trades:** USDC/WETH $46.1K, wTAO/WETH $38.4K, USDC/USDi $31.3K, USDC/USDi $30.0K, XAUt/USDT $18.8K
-- **Active whales:** 0xBdb3ba9f…DF47B6 (4 trades ~$78K), 0x51C72848…502a7F (4 trades ~$35K)
-- **Known anomaly:** ZAMA/USDT price oracle persists (1 trade with absurd USD value)
-- **Total verified volume:** ~$205K (excluding anomalous ZAMA)
-- **Files modified:** `memory/logs/2026-05-29.md` (appended log entry)
-- **Status:** OK — POWERLOOM_BDS_OK
+▸ ⇢ 1,242.2553 USDC
+▸ ⇠ 0.61541055 WETH
+▸ 🐋 0xBdb3ba9f…DF47B6
+▸ 📦 Block 25203525
+▸ 🔍 TX: https://etherscan.io/tx/0xca35a58055ea1358bcc364a2629ea3fb2018f3d0ad2f090e18ef50827703cf86
+
+✅ Verified on-chain:
+  ├ CID: bafkreidteio7j2ry6ebe7zrhlfa…
+  ├ Epoch: 25203525
+  └ Project: allTradesSnapshot
