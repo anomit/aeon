@@ -1,0 +1,238 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE DIGEST",
+        "description": "Epochs 25201123–25201131"
+      },
+      "children": [
+        "header-stack",
+        "top-trades-section",
+        "active-whales-section",
+        "pairs-section",
+        "warning-alert",
+        "volume-section"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "epochs-badge",
+        "trades-badge"
+      ]
+    },
+    "epochs-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "9 epochs",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trades-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "17 trades",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "top-trades-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-trades-heading",
+        "top-trades-list"
+      ]
+    },
+    "top-trades-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔵 Top trades:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "top-trades-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade-1",
+        "trade-2",
+        "trade-3",
+        "trade-4",
+        "trade-5"
+      ]
+    },
+    "trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ wTAO/USDC $16.4K (anonymous) — Block 25201128",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ wTAO/USDC $14.8K (anonymous) — Block 25201128",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC→WETH $7.0K (0x51C72848…502a7F) — Block 25201130",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC→WETH $5.2K (0x8F10B468…13f996) — Block 25201123",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ wTAO/WETH $5.4K (0x68b34658…65Fc45) — Block 25201130",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "active-whales-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "active-whales-heading",
+        "active-whales-list"
+      ]
+    },
+    "active-whales-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔑 Active whales:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "active-whales-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale-1",
+        "whale-2",
+        "whale-3"
+      ]
+    },
+    "whale-1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x51C72848…502a7F — 3 trades ~$10.7K (USDC/WETH $7K+$2.2K, LDO/WETH $1.5K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale-2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xBdb3ba9f…DF47B6 — 3 trades (WETH/USDT $1.8K+$1.4K, ZAMA/USDT)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale-3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x8F10B468…13f996 — 2 trades ~$6.4K (USDC/WETH)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pairs-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pairs-heading",
+        "pairs-text"
+      ]
+    },
+    "pairs-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Pairs:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pairs-text": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH (8), WETH/USDT (3), wTAO/USDC (2), wTAO/WETH (1), LDO/WETH (1), ZAMA/USDT (1⚠️)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "warning-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "ZAMA/USDT price oracle anomaly persists (1 trade with absurd USD value)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "volume-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "volume-text",
+        "verification-text"
+      ]
+    },
+    "volume-text": {
+      "type": "Text",
+      "props": {
+        "text": "💰 Total verified volume ~$78K (excl. anomalous ZAMA)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "verification-text": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
