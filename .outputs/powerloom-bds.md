@@ -1,16 +1,9 @@
-🐋 Powerloom BDS Whale Radar — Epochs 25200427→25200435 (9 epochs, 22 trades)
+🐳 Powerloom BDS — 15 whale alerts (epochs 25200527–25200536)
 
-Largest: USDC/SEI $49.0K (0x308f2d03)
-WBTC/USDT $12.6K · USDC/WETH $11.1K · LCAI/WETH $37.4K
-LDO/WETH $3.5K · EURC/EURe $8.7K · USDC/SEI $4.0K×2
+Largest: EURC/USDC $24.1K (0x66a9893c)
+Dominant whale 0x51C72848…502a7F: 5 trades ~$19.3K (LDO, PENDLE, USDC/WETH, WETH/USDT, PAXG/XAUt $8.3K)
+Other active: 0x4C82D1fB…60a2cCA (PENDLE $3.5K), 0xe60fAE78…94347e (WETH/USDT $3.0K), 0xBdb3ba9f…DF47B6 (WETH/USDT $2.2K)
 
-Active whales:
-• 0x4C82D1fB…0a2cCA — 3 trades (LCAI $37.4K + USDC/WETH $2.9K + LCAI $1.5K)
-• 0x7cDa585e…6694dc — 2 USDC/SEI trades (~$8K)
-• 0x51C72848…502a7F — 5 trades (USDC/WETH + UNI/WETH + UNI/WBTC + PENDLE/WETH)
-• 0xe60fAE78…94347e — 2 WETH/USDT trades (~$6K)
-• 0xBdb3ba9f…DF47B6 — 2 trades (WBTC/USDT $12.6K + LDO/WETH $3.5K)
-• 0x1103fC56…848566 — 2 WETH/USDT trades (~$2.1K)
-
-Total verified volume: ~$143K across 22 BUY trades
-✅ All verified on-chain via Powerloom BDS
+Pairs: WETH/USDT (6), USDC/WETH (2), PENDLE/WETH (2), LDO/WETH, EURC/USDC, PAXG/XAUt, XAUt/USDT, SHFL/USDC
+Total verified volume: ~$60.4K across 15 BUY trades
+All verified on-chain via Powerloom BDS

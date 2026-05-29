@@ -1,0 +1,99 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS — 15 whale alerts"
+      },
+      "children": [
+        "heading1",
+        "stack1"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Epochs 25200527–25200536",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "text1",
+        "stack2",
+        "text3",
+        "text4",
+        "text5"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Volume",
+        "value": "$60.4K",
+        "delta": "15 BUY trades"
+      },
+      "children": []
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Largest: EURC/USDC $24.1K (0x66a9893c)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text2",
+        "text3"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Dominant whale 0x51C72848…502a7F: 5 trades ~$19.3K (LDO, PENDLE, USDC/WETH, WETH/USDT, PAXG/XAUt $8.3K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Other active: 0x4C82D1fB…60a2cCA (PENDLE $3.5K), 0xe60fAE78…94347e (WETH/USDT $3.0K), 0xBdb3ba9f…DF47B6 (WETH/USDT $2.2K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "Pairs: WETH/USDT (6), USDC/WETH (2), PENDLE/WETH (2), LDO/WETH, EURC/USDC, PAXG/XAUt, XAUt/USDT, SHFL/USDC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom BDS",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
