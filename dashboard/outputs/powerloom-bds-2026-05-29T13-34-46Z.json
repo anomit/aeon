@@ -1,0 +1,140 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT",
+        "description": "🟢 🐋"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "stat1",
+        "table1",
+        "link1",
+        "alert1"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "BUY USDC/SEI on Uniswap V3 (30%)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Whale Alert Detected"
+      },
+      "children": []
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Value Swapped",
+        "value": "$2.9K",
+        "delta": "30%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "table1": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Direction",
+          "Asset",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Out",
+            "USDC",
+            "2,916.6391"
+          ],
+          [
+            "In",
+            "SEI",
+            "45,842.8441"
+          ],
+          [
+            "Whale",
+            "Address",
+            "0xBdb3ba9f…DF47B6"
+          ],
+          [
+            "Block",
+            "Number",
+            "25201331"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View Transaction",
+        "href": "https://etherscan.io/tx/0xae77b58940c55e7844649270324b79793ca5cbc7b14b7ec582158cd942f9a371"
+      },
+      "children": []
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "Verified on-chain",
+        "type": "success"
+      },
+      "children": [
+        "stack2"
+      ]
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text2",
+        "text3",
+        "text4"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "CID: bafkreigoxplextgrsywrtepnwra…"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch: 25201331"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "Project: allTradesSnapshot"
+      },
+      "children": []
+    }
+  }
+}

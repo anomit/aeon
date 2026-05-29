@@ -1,15 +1,15 @@
 🟢 🐋 WHALE ALERT 🟢
 
-🟢 BUY wTAO/USDC on Uniswap V3 (1%)
-💰 $5.2K swapped
+🟢 BUY USDC/SEI on Uniswap V3 (30%)
+💰 $2.9K swapped
 
-▸ ⇢ 20.4765 wTAO
-▸ ⇠ 0 USDC
-▸ 🦊 0xC36442b4…11FE88
-▸ 📦 Block 25201232
-▸ 🔍 TX: https://etherscan.io/tx/0x7e20970c9ee428533dc00096f9950c5ebc400c85b82f96f93193fab0ef74cc96
+▸ ⇢ 2,916.6391 USDC
+▸ ⇠ 45,842.8441 SEI
+▸ 🐳 0xBdb3ba9f…DF47B6
+▸ 📦 Block 25201331
+▸ 🔍 TX: https://etherscan.io/tx/0xae77b58940c55e7844649270324b79793ca5cbc7b14b7ec582158cd942f9a371
 
 ✅ Verified on-chain:
-  ├ CID: bafkreibtnr3xnrxxis2voaqwfsa…
-  ├ Epoch: 25201232
+  ├ CID: bafkreigoxplextgrsywrtepnwra…
+  ├ Epoch: 25201331
   └ Project: allTradesSnapshot
