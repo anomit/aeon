@@ -1,0 +1,134 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Whale Digest",
+        "description": "Epochs 25202225-25202234 (10 epochs) - 42 whale alerts detected"
+      },
+      "children": [
+        "text-1",
+        "stat-1",
+        "heading-1",
+        "table-1",
+        "heading-2",
+        "table-2",
+        "text-2"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Skill: powerloom-bds"
+      },
+      "children": []
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Whale Alerts",
+        "value": "42",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Trades",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table-1": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Trade",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "RLUSD/USDC",
+            "149.9K"
+          ],
+          [
+            "USDC/WETH",
+            "125.4K"
+          ],
+          [
+            "USDC/WETH",
+            "89.1K"
+          ],
+          [
+            "wstETH/WETH",
+            "71.9K"
+          ],
+          [
+            "USDC/WETH",
+            "46.5K"
+          ],
+          [
+            "WBTC/USDT",
+            "35.1K"
+          ],
+          [
+            "SHFL/USDC",
+            "25.1K"
+          ],
+          [
+            "USDC/WETH",
+            "16.5K"
+          ],
+          [
+            "WBTC/USDT",
+            "16.3K"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Wallets",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table-2": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Wallet",
+          "Trades"
+        ],
+        "rows": [
+          [
+            "0x51C72848",
+            "6"
+          ],
+          [
+            "0xBdb3ba9f",
+            "5"
+          ],
+          [
+            "0x278d858f",
+            "4"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom BDS",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
