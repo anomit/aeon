@@ -1,15 +1,12 @@
-Whale Radar Digest — Epochs 25203316-25203323 (8 epochs, 15 trades)
+## Summary
 
-0xBdb3ba9f...DF47B6 — 6 trades (~178K USD)
-  USDC-WETH 136.0K | WBTC/USDT 18.0K | WETH/USDT 10.8K | USDC/WETH 5.1K | WETH/USDT 4.1K | WETH/USDT 2.7K
+**Powerloom BDS whale-radar** run completed successfully.
 
-0x51C72848...502a7F — 3 trades (~14.3K USD)
-  USDC/WETH 5.4K | WETH/USDT 4.5K | USDC/WETH 4.4K
-
-0x8F10B468...13f996 — USDC/WETH 8.2K USD
-0x4C82D1fB...60a2cCA — USDC/WETH 4.2K + WETH/ASTEROID 1.5K
-0x4c3ccC98...d1A6e3 — PRIME/WETH 1.4K
-0x71D5Dcd7...A955E0 — WETH/USDT 1.4K
-
-Total verified volume: ~209K USD | Pairs: USDC/WETH (6), WETH/USDT (5), WBTC/USDT, PRIME/WETH, WETH/ASTEROID
-Verified on-chain via Powerloom BDS
+- **Epochs processed:** 7 (25203417–25203423)
+- **Alerts dispatched:** 19 trades, batched into a single digest notification via `./notify`
+- **Top trades:** USDC/WETH $46.1K, wTAO/WETH $38.4K, USDC/USDi $31.3K, USDC/USDi $30.0K, XAUt/USDT $18.8K
+- **Active whales:** 0xBdb3ba9f…DF47B6 (4 trades ~$78K), 0x51C72848…502a7F (4 trades ~$35K)
+- **Known anomaly:** ZAMA/USDT price oracle persists (1 trade with absurd USD value)
+- **Total verified volume:** ~$205K (excluding anomalous ZAMA)
+- **Files modified:** `memory/logs/2026-05-29.md` (appended log entry)
+- **Status:** OK — POWERLOOM_BDS_OK
