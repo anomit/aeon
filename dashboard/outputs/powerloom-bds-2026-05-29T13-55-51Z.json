@@ -1,0 +1,191 @@
+{
+  "root": "card-whale-digest",
+  "state": {},
+  "elements": {
+    "card-whale-digest": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE DIGEST — Epochs 25201422–25201431 (10 epochs, 39 trades)"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-dominant",
+        "stat-dominant",
+        "separator-1",
+        "text-zchf-header",
+        "text-zchf-trades",
+        "separator-2",
+        "text-best-trades",
+        "separator-3",
+        "text-whales-header",
+        "stack-whales",
+        "separator-4",
+        "text-anomaly",
+        "separator-5",
+        "stat-volume"
+      ]
+    },
+    "text-dominant": {
+      "type": "Text",
+      "props": {
+        "text": "🏆 Dominant whale 0x51C72848…502a7F — 14 trades (~$441K)",
+        "variant": "lead"
+      }
+    },
+    "stat-dominant": {
+      "type": "Text",
+      "props": {
+        "text": "USDC→WETH $153.7K | USDC→WETH $136.2K | PAXG/USDC $29.6K | XAUt/USDT $22.6K | WBTC/USDT $23.9K + $15.7K | WETH/USDT $12.4K + $11.3K + $4.9K + $2.9K | USDC/WETH $2.5K + $1.7K | PAXG/USDC $16K | XAUt/USDT $7.7K",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-zchf-header": {
+      "type": "Text",
+      "props": {
+        "text": "💎 ZCHF/USDT megatrades:",
+        "variant": "lead"
+      }
+    },
+    "text-zchf-trades": {
+      "type": "Text",
+      "props": {
+        "text": "$601.1K (anonymous, block 25201423)\n$599.4K (0xC36442b4, block 25201427)\n$32.8K (0xa8F8296f) | $26.6K ×2 | $8K | $2.5K | $1.4K | $1.2K",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-best-trades": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 BEST/WETH $151.7K ×2 (0x1f2F10D1 + anonymous)",
+        "variant": "lead"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-whales-header": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Other active whales:",
+        "variant": "lead"
+      }
+    },
+    "stack-whales": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-whale-1",
+        "text-whale-2",
+        "text-whale-3",
+        "text-whale-4",
+        "text-whale-5",
+        "text-whale-6",
+        "text-whale-7"
+      ]
+    },
+    "text-whale-1": {
+      "type": "Text",
+      "props": {
+        "text": "0x7f54F056…A3Be8A — USDC/WETH $16.8K",
+        "variant": "body"
+      }
+    },
+    "text-whale-2": {
+      "type": "Text",
+      "props": {
+        "text": "0x1f2F10D1…6Df387 — ZCHF $26.6K + BEST $151.7K",
+        "variant": "body"
+      }
+    },
+    "text-whale-3": {
+      "type": "Text",
+      "props": {
+        "text": "0x278d858f…6eF8D2 — USDC/WETH $6.4K",
+        "variant": "body"
+      }
+    },
+    "text-whale-4": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f…DF47B6 — LIT $1.2K + ID $1.3K + ZAMA",
+        "variant": "body"
+      }
+    },
+    "text-whale-5": {
+      "type": "Text",
+      "props": {
+        "text": "0x09AD820a…024Afa — USDC/WETH $5K",
+        "variant": "body"
+      }
+    },
+    "text-whale-6": {
+      "type": "Text",
+      "props": {
+        "text": "0x66a9893c…dBA8Af — USDC/USDT $3K",
+        "variant": "body"
+      }
+    },
+    "text-whale-7": {
+      "type": "Text",
+      "props": {
+        "text": "0x7cDa585e…6694dc — LDO/WETH $1.1K",
+        "variant": "body"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-anomaly": {
+      "type": "Text",
+      "props": {
+        "text": "⚠️ ZAMA/USDT price oracle anomaly (1 trade, absurd USD — dispatched with token amounts only)",
+        "variant": "body"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Total verified volume",
+        "value": "~$2.09M",
+        "delta": "(excl. anomalous ZAMA)",
+        "trend": "neutral"
+      }
+    }
+  }
+}
