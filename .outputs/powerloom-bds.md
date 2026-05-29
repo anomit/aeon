@@ -1,22 +1,24 @@
-The pool metadata is large but doesn't need updating for this run. The skill execution is complete. Let me finalize:
+🟢 🐋 WHALE ALERT BATCH — Epochs 25199431–25199440 (10 epochs, 29 trades)
 
-## Summary
+🔥 MEGATRADE: wM/USDC $3.18M (636K wM → 2.54M USDC) — 0xC36442b4…11FE88
 
-**Powerloom BDS Whale Radar** — Epochs 25199332–25199341 completed successfully.
+📊 Key Trades:
+▸ SHFL/USDC $24.8K (82.9K SHFL) — 0x4C82D1fB…60a2cCA
+▸ USDC→WETH $24.6K — 0x51C72848…502a7F
+▸ WBTC/WETH $16.0K (0.217 WBTC) — 0x7cDa585e…6694dc
+▸ USDe/USDC $10.0K — 0x8F10B468…13f996
+▸ hOHM/sUSDS $4.9K (638.8K hOHM) — 0x09AD820a…024Afa
+▸ PAXG/USDC $4.9K (0.49 PAXG) — block 25199431
+▸ WETH/USDT $5.8K — 0xE592427A…861564
+▸ WBTC/USDT $6.3K (0.086 WBTC) — 0x4c3ccC98…d1A6e3
+▸ MNT/USDe $3.2K + $2.7K — 0xBdb3ba9f…DF47B6 + 0x1103fC56…848566
+▸ WETH/SPX $1.6K (4.9K SPX) — 0xBdb3ba9f…DF47B6
 
-**What I did:**
-1. **Read alerts cache** (`.bds-cache/alerts.json`) — found 17 whale alerts across 10 epochs (25199332–25199341)
-2. **Analyzed alerts** — identified two WETH/USDT megatrades at 2.05M USD each, a 451.1K wstETH/WETH swap, and persistent ZAMA/USDT price oracle anomaly
-3. **Dispatched notification** — queued batched summary to `.pending-notify/powerloom-bds-whale-radar.md` for post-run delivery (sandbox blocked `./notify` due to `$` in message content triggering expansion detection)
-4. **Logged run** to `memory/logs/2026-05-29.md`
+🐋 Active Whales:
+▸ 0x7cDa585e…6694dc: 4 trades (~$20.6K — WBTC, SEI)
+▸ 0x51C72848…502a7F: 2 trades (~$27.4K — USDC→WETH)
+▸ 0xBdb3ba9f…DF47B6: 3 trades (~$6K — MNT, WETH, SPX)
+▸ 0x4C82D1fB…60a2cCA: 2 trades (~$26.8K — SHFL, WETH)
+▸ 0x28b1Dc1a…B2a183: 6 ZAMA buys (price oracle anomaly)
 
-**Key findings:**
-- **Dominant whales:** `0x51C72848…502a7F` (4 trades, ~18.7K), `0xBdb3ba9f…DF47B6` (3 trades, ~8.6K)
-- **Largest trades:** 2 × WETH/USDT ~2.05M, wstETH/WETH 451.1K
-- **Total verified volume:** ~4.55M USD (excluding anomalous ZAMA)
-- **Known issue:** ZAMA/USDT price oracle anomaly persists (1 trade)
-
-**Files modified:**
-- `memory/logs/2026-05-29.md` — appended run log entry
-- `.pending-notify/powerloom-bds-whale-radar.md` — queued notification
-- `.bds-cache/notify-msg.txt` — temporary message file
+⚠️ ZAMA/USDT anomaly persists (7 trades, absurd USD values). Total verified volume ~$3.28M (excl. anomalous ZAMA). All verified on-chain via Powerloom BDS.
