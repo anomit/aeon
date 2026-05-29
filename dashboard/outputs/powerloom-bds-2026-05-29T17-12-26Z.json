@@ -1,0 +1,186 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE DIGEST — Epochs 25202420–25202424 (5 blocks)"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "subtitle",
+        "trades-section",
+        "whales-section",
+        "anomaly",
+        "volume",
+        "tx-links"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "12 BUY alerts | All verified on-chain via Powerloom BDS"
+      }
+    },
+    "trades-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trades-heading",
+        "trades-list"
+      ]
+    },
+    "trades-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔥 TOP TRADES:",
+        "level": "h3"
+      }
+    },
+    "trades-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $119.4K — 0xBdb3ba9f…DF47B6 (blk 25202422)"
+      }
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT $36.7K — 0xBdb3ba9f…DF47B6 (blk 25202422)"
+      }
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $11.8K — 0xBdb3ba9f…DF47B6 (blk 25202422)"
+      }
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $6.2K — 0xBdb3ba9f…DF47B6 (blk 25202422)"
+      }
+    },
+    "trade5": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $5.7K — 0xE592427A…861564 (blk 25202424)"
+      }
+    },
+    "whales-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whales-heading",
+        "whales-list"
+      ]
+    },
+    "whales-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 ACTIVE WHALES:",
+        "level": "h3"
+      }
+    },
+    "whales-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale1",
+        "whale2",
+        "whale3"
+      ]
+    },
+    "whale1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f…DF47B6 — 6 trades (~$180K) — WBTC/USDT + USDC/WETH + WETH/USDT routing"
+      }
+    },
+    "whale2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x278d858f…6eF8D2 — 2 trades — USDC/WETH + ZAMA/USDT"
+      }
+    },
+    "whale3": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xE592427A…861564 — 3 trades (~$11K) — WETH/USDT + USDC/WETH routing"
+      }
+    },
+    "anomaly": {
+      "type": "Alert",
+      "props": {
+        "message": "ZAMA/USDT anomaly persists: 1 trade with absurd USD value (actual: 23,631 ZAMA → 901 USDT)",
+        "type": "warning"
+      }
+    },
+    "volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Total verified volume:",
+        "value": "~$194K",
+        "delta": "excl. anomalous ZAMA",
+        "trend": "neutral"
+      }
+    },
+    "tx-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tx-heading",
+        "tx-link"
+      ]
+    },
+    "tx-heading": {
+      "type": "Text",
+      "props": {
+        "text": "🔗 TXs:"
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://etherscan.io/tx/0x698e6698863170b076ab66e92c7e21dc778285535e16f9cac83d454fe9b37b01 + 11 others",
+        "href": "https://etherscan.io/tx/0x698e6698863170b076ab66e92c7e21dc778285535e16f9cac83d454fe9b37b01"
+      }
+    }
+  }
+}
