@@ -1,0 +1,133 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Radar Digest · Epochs 25199825–25199833 (10 epochs, 22 trades)"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-general-info",
+        "separator-1",
+        "heading-top-whale",
+        "text-whale-1",
+        "text-whale-2",
+        "separator-2",
+        "heading-notable-trades",
+        "text-trade-1",
+        "text-trade-2",
+        "text-trade-3",
+        "text-trade-4",
+        "separator-3",
+        "stat-volume",
+        "text-verification",
+        "text-epochs"
+      ]
+    },
+    "text-general-info": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 Whale Radar Digest · Epochs 25199825–25199833 (10 epochs, 22 trades)"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-top-whale": {
+      "type": "Heading",
+      "props": {
+        "text": "🏆 Top whale: 0x51C72848…502a7F (8 trades ~$120.8K)",
+        "level": "h3"
+      }
+    },
+    "text-whale-1": {
+      "type": "Text",
+      "props": {
+        "text": "  USDC→WETH $64.2K · WBTC→WETH $22.2K · XAUt→USDT $6.5K"
+      }
+    },
+    "text-whale-2": {
+      "type": "Text",
+      "props": {
+        "text": "  USDC→WETH $7.8K · WETH→USDT $9.8K · +3 smaller"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-notable-trades": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Notable trades:",
+        "level": "h3"
+      }
+    },
+    "text-trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "  ▸ USDC/ASTEROID $28.0K (anon)"
+      }
+    },
+    "text-trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "  ▸ USDC/SEI $7.3K (0xD249942f)"
+      }
+    },
+    "text-trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "  ▸ USDC/USDT $4.5K (0x4C82D1fB)"
+      }
+    },
+    "text-trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "  ▸ USDC/WETH $5.0K (0xBc1D9760)"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "💰 Total verified volume",
+        "value": "~$178K",
+        "delta": "22 BUY trades"
+      }
+    },
+    "text-verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS"
+      }
+    },
+    "text-epochs": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Epochs: 25199824 → 25199833"
+      }
+    }
+  }
+}
