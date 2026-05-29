@@ -1,0 +1,129 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS — Epochs 25198433–25198442",
+        "description": "9 epochs, 11 trades"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "heading2",
+        "whales_stack",
+        "stats_stack",
+        "status"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Key whales active:",
+        "variant": "body"
+      }
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Largest Trades",
+        "level": "h3"
+      }
+    },
+    "whales_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale1",
+        "whale2",
+        "whale3",
+        "whale4",
+        "whale5"
+      ]
+    },
+    "whale1": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848…502a7F — 5 trades (UNI/WETH $2.5K, UNI/WBTC $3.9K, WETH/USDT $1.6K, USDC/WETH $1.5K, PAXG/XAUt $7.1K)",
+        "variant": "body"
+      }
+    },
+    "whale2": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f…DF47B6 — 2 trades (USDC/WETH $1.2K, WETH/USDT $4.0K)",
+        "variant": "body"
+      }
+    },
+    "whale3": {
+      "type": "Text",
+      "props": {
+        "text": "0x278d858f…6eF8D2 — 3 ZAMA/USDT buys (6,686 + 4,446 + 13,368 ZAMA)",
+        "variant": "body"
+      }
+    },
+    "whale4": {
+      "type": "Text",
+      "props": {
+        "text": "0x4C82D1fB…0a2cCA — WETH/USDT $2.3K",
+        "variant": "body"
+      }
+    },
+    "whale5": {
+      "type": "Text",
+      "props": {
+        "text": "0x98C3d318…8d6B8E — ZAMA/USDT 13,368 ZAMA",
+        "variant": "body"
+      }
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "stat2"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Largest Trade",
+        "value": "PAXG→XAUt $7.1K",
+        "delta": null,
+        "trend": null
+      }
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Volume",
+        "value": "~$23.6K",
+        "delta": null,
+        "trend": null
+      }
+    },
+    "status": {
+      "type": "Alert",
+      "props": {
+        "message": "⚠️ Price oracle anomalies detected on ZAMA trades • ✅ All verified on-chain via Powerloom BDS",
+        "type": "info"
+      }
+    }
+  }
+}
