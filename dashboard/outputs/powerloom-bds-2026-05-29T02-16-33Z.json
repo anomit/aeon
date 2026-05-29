@@ -1,0 +1,62 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "⚠️ ZAMA/USDT price anomaly"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price-section",
+        "wallet-section",
+        "block-info",
+        "tx-link",
+        "verification"
+      ]
+    },
+    "price-section": {
+      "type": "Text",
+      "props": {
+        "text": "7,844.91 ZAMA → 295.84 USDT",
+        "variant": "lead"
+      }
+    },
+    "wallet-section": {
+      "type": "Text",
+      "props": {
+        "text": "🐊 0x1f2F10D1…6Df387"
+      }
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "Block 25197938"
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "View Transaction",
+        "href": "https://etherscan.io/tx/0x98cb9be85f8fd999b974bf2fb793110da882c48da6ed44e5688f638dc9b09bb3"
+      }
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain Epoch: 25197938"
+      }
+    }
+  }
+}
