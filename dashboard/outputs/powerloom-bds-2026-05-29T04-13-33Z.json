@@ -1,0 +1,169 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE RADAR — Epochs 25198531–25198540 (51 trades)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "whale_main",
+        "stack_whale_details",
+        "hot_pair",
+        "heading_other",
+        "stack_other_whales",
+        "anomaly_alert"
+      ]
+    },
+    "whale_main": {
+      "type": "Heading",
+      "props": {
+        "text": "👑 0x51C72848…502a7F — 17 trades (~$313K total)",
+        "level": "h2"
+      }
+    },
+    "stack_whale_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_trade1",
+        "text_trade2",
+        "text_trade3",
+        "text_trade4",
+        "text_trade5"
+      ]
+    },
+    "text_trade1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→WETH $154.3K (largest)"
+      }
+    },
+    "text_trade2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→WETH $82.6K"
+      }
+    },
+    "text_trade3": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC→WETH $19.8K"
+      }
+    },
+    "text_trade4": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC→USDT $6.0K, USDC→SEI $6.1K"
+      }
+    },
+    "text_trade5": {
+      "type": "Text",
+      "props": {
+        "text": "• + WETH/USDT, LINK, DAI, UNI, SPX"
+      }
+    },
+    "hot_pair": {
+      "type": "Heading",
+      "props": {
+        "text": "🔥 sato/WETH — 2 trades ~$464K",
+        "level": "h2"
+      }
+    },
+    "stack_hot_pair_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_hot1",
+        "text_hot2"
+      ]
+    },
+    "text_hot1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x1f2F10D1…6Df387 → 116.16 WETH"
+      }
+    },
+    "text_hot2": {
+      "type": "Text",
+      "props": {
+        "text": "• Unknown → 116.06 WETH"
+      }
+    },
+    "heading_other": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Other active whales:",
+        "level": "h2"
+      }
+    },
+    "stack_other_whales": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_whale1",
+        "text_whale2",
+        "text_whale3",
+        "text_whale4"
+      ]
+    },
+    "text_whale1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f…DF47B6 — 7 trades (~$20K)"
+      }
+    },
+    "text_whale2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xe60fAE78…94347e — 5 LINK buys (~$8K)"
+      }
+    },
+    "text_whale3": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x4c3ccC98…d1A6e3 — 2 WBTC buys (~$7K)"
+      }
+    },
+    "text_whale4": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x66a9893c…dBA8Af — USDC→WETH $17.2K"
+      }
+    },
+    "anomaly_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ ZAMA/USDT — 4 trades, price oracle anomaly (absurd USD values). Token amounts: 18.4K, 2.2K, 13.2K, 12.3K, 39.9K ZAMA.",
+        "type": "warning"
+      }
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS CIDs",
+        "variant": "success"
+      }
+    }
+  }
+}
