@@ -1,0 +1,192 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "POWERLOOM BDS — 30 Whale Alerts (Epochs 25202620–25202629)",
+        "description": ""
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-trades",
+        "stack-top-trades",
+        "heading-dominant-whales",
+        "stack-dominant-whales",
+        "heading-pairs",
+        "stack-pairs",
+        "stat-summary"
+      ]
+    },
+    "heading-top-trades": {
+      "type": "Heading",
+      "props": {
+        "text": "💎 Top Trades:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-top-trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade-1",
+        "trade-2",
+        "trade-3",
+        "trade-4",
+        "trade-5",
+        "trade-6",
+        "trade-7"
+      ]
+    },
+    "trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $199.7K (0xBdb3ba9f) — Block 25202626",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/WETH $69.3K (0x51C72848) — Block 25202626",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $62.7K (0x51C72848) — Block 25202626",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $31.2K (0xBdb3ba9f) — Block 25202627",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-5": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $20.4K (0xBdb3ba9f) — Block 25202628",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-6": {
+      "type": "Text",
+      "props": {
+        "text": "• PRIME/USDC $50.0K (0x8F10B468) — Block 25202624",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-7": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC/USDT $23.3K (0xBdb3ba9f) — Block 25202624",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading-dominant-whales": {
+      "type": "Heading",
+      "props": {
+        "text": "🏦 Dominant Whales:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-dominant-whales": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale-1",
+        "whale-2",
+        "whale-3"
+      ]
+    },
+    "whale-1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x51C72848…502a7F — 12 trades (~$192K, WETH/USDT + WBTC/WETH + DAI/WETH + PAXG/XAUt routing)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale-2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f…DF47B6 — 9 trades (~$310K, USDC/WETH $199.7K + WETH/USDT + WBTC/USDT)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale-3": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x7cDa585e…6694dc — 4 trades (~$45K, USDC/WETH + WBTC/USDT + WETH/USDT + USDC/SEI)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading-pairs": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Pairs:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-pairs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pairs-text"
+      ]
+    },
+    "pairs-text": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH (11), WETH/USDT (10), WBTC/USDT (2), DAI/WETH (2), WBTC/WETH (1), PRIME/USDC (1), FET/WETH (1), USDe/USDC (1), LINK/USDT (1), SHFL/USDC (1), PAXG/XAUt (1), USDC/ZARP (1), USDC/SEI (1)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat-summary": {
+      "type": "Stat",
+      "props": {
+        "label": "Summary",
+        "value": "9 epochs processed · ~$525K total verified volume",
+        "delta": "All verified on-chain via Powerloom BDS",
+        "trend": "neutral"
+      },
+      "children": []
+    }
+  }
+}

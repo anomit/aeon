@@ -1,26 +1,19 @@
-The sandbox blocks `rm` even in the working directory. The helper scripts are harmless — they can be cleaned up later.
+🐋 POWERLOOM BDS — 30 Whale Alerts (Epochs 25202620–25202629)
 
-## Summary
+💎 Top Trades:
+• USDC/WETH $199.7K (0xBdb3ba9f) — Block 25202626
+• WBTC/WETH $69.3K (0x51C72848) — Block 25202626
+• WETH/USDT $62.7K (0x51C72848) — Block 25202626
+• WETH/USDT $31.2K (0xBdb3ba9f) — Block 25202627
+• WETH/USDT $20.4K (0xBdb3ba9f) — Block 25202628
+• PRIME/USDC $50.0K (0x8F10B468) — Block 25202624
+• WBTC/USDT $23.3K (0xBdb3ba9f) — Block 25202624
 
-**Skill:** powerloom-bds (whale-radar mode) — completed successfully.
+🏦 Dominant Whales:
+• 0x51C72848…502a7F — 12 trades (~$192K, WETH/USDT + WBTC/WETH + DAI/WETH + PAXG/XAUt routing)
+• 0xBdb3ba9f…DF47B6 — 9 trades (~$310K, USDC/WETH $199.7K + WETH/USDT + WBTC/USDT)
+• 0x7cDa585e…6694dc — 4 trades (~$45K, USDC/WETH + WBTC/USDT + WETH/USDT + USDC/SEI)
 
-**What I did:**
-1. Read `.bds-cache/alerts.json` — found 25 whale alerts spanning epochs 25202521–25202530 (9 epochs processed)
-2. Dispatched all 25 alerts by writing them to `.pending-notify/*.md` files — the post-run "Send pending notifications" workflow step will deliver them to Telegram/Discord/Slack
-3. Logged results to `memory/logs/2026-05-29.md`
+📊 Pairs: USDC/WETH (11), WETH/USDT (10), WBTC/USDT (2), DAI/WETH (2), WBTC/WETH (1), PRIME/USDC (1), FET/WETH (1), USDe/USDC (1), LINK/USDT (1), SHFL/USDC (1), PAXG/XAUt (1), USDC/ZARP (1), USDC/SEI (1)
 
-**Key alerts in this cycle:**
-- **USDC/WETH $827.3K** — 0x51C72848…502a7F (largest)
-- **WETH/USDT $103.2K + $101.9K** — two separate whales
-- **USDC/WETH $56.1K** — 0x51C72848…502a7F
-- **XAUt/USDT $30.8K + $23.2K** — heavy gold-pegged activity
-- **ZAMA/USDT** — 1 trade with price oracle anomaly (absurd USD value, actual ~367 USDT)
-
-**Dominant whale:** 0x51C72848…502a7F with 9 trades totaling ~$1.07M. Total verified volume ~$1.16M (excl. anomalous ZAMA).
-
-**Files created:**
-- 25 files in `.pending-notify/` (1780076550.md through 1780076574.md)
-- `dispatch_all_alerts.sh` / `dispatch_all_alerts.py` (temporary, cleanup needed)
-
-**Follow-up:**
-- Temp helper scripts (`dispatch_all_alerts.py`, `dispatch_all_alerts.sh`) should be removed on next run or manually
+🔢 9 epochs processed · ~$525K total verified volume · All verified on-chain via Powerloom BDS
