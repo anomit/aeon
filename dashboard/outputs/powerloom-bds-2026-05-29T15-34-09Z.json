@@ -1,0 +1,239 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Digest · Epochs 25201919–25201928 (10 epochs)",
+        "description": "122 verified BUY trades across Uniswap V3"
+      },
+      "children": [
+        "trades-summary",
+        "separator1",
+        "megatrades-title",
+        "megatrades-list",
+        "separator2",
+        "whales-title",
+        "whales-list",
+        "separator3",
+        "pairs-title",
+        "pairs-list",
+        "separator4",
+        "anomaly-warning",
+        "verification-status"
+      ]
+    },
+    "trades-summary": {
+      "type": "Text",
+      "props": {
+        "text": "122 verified BUY trades across Uniswap V3. All verified on-chain via Powerloom BDS.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "megatrades-title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔥 Notable megatrades:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "megatrades-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5",
+        "trade6"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/WETH $142.9K (0xBdb3ba9f) — 1.9463 WBTC ↔ 70.68 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $172.5K (0xBdb3ba9f) — 172,478 USDC ↔ 85.32 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $101.2K (0x51C72848) — 101,109 USDC ↔ 50 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $75.6K (0x51C72848) — 75,483 USDC ↔ 37.32 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/WETH $48.1K (0x51C72848) — 0.655 WBTC ↔ 23.79 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WETH/USDT $44.1K (0x51C72848) — 21.74 WETH ↔ 44,031 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "whales-title": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Top whales:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "whales-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale1",
+        "whale2",
+        "whale3",
+        "whale4",
+        "whale5",
+        "whale6"
+      ]
+    },
+    "whale1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x51C72848…502a7F — 35+ trades (~$500K+): heavy USDC/WETH + WBTC/WETH + WETH/USDT routing. Gold-pegged: PAXG/XAUt $12.9K.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xBdb3ba9f…DF47B6 — 20+ trades (~$350K+): WBTC megaswap + USDC/WETH + WETH/USDT + DAI/WETH + ZAMA.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xEff6cb8b…1aA167 — 6 wTAO buys (~$31K total). wTAO/USDC + wTAO/WETH accumulation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xE592427A…861564 — USDC/USDT + WETH/USDT stablecoin routing (~$27K).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x7cDa585e…6694dc — USDC/SEI + NEAR/USDC + LINK/WETH $16K.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x4C82D1fB…60a2cCA — WPRL, ONDO, MNT/USDe, WETH/USDT, RLB/USDC (alt-coin rotation).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "pairs-title": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top pairs:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pairs-list": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH (25+), WETH/USDT (20+), AAVE/WETH (8), wTAO/WETH (6), WBTC/WETH (5), WBTC/USDT (3), DAI/USDT (3), NEAR/USDC (3)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "anomaly-warning": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ ZAMA/USDT price oracle anomaly",
+        "message": "3 trades with absurd USD values. Token amounts dispatched normally.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "verification-status": {
+      "type": "Alert",
+      "props": {
+        "message": "✅ All 122 trades verified on-chain via Powerloom BDS CIDs.",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
