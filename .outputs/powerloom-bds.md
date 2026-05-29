@@ -1,19 +1,18 @@
-🐋 POWERLOOM BDS — 30 Whale Alerts (Epochs 25202620–25202629)
+🐋 Powerloom BDS — Epochs 25202720→25202729 (9 epochs, 29 alerts)
 
-💎 Top Trades:
-• USDC/WETH $199.7K (0xBdb3ba9f) — Block 25202626
-• WBTC/WETH $69.3K (0x51C72848) — Block 25202626
-• WETH/USDT $62.7K (0x51C72848) — Block 25202626
-• WETH/USDT $31.2K (0xBdb3ba9f) — Block 25202627
-• WETH/USDT $20.4K (0xBdb3ba9f) — Block 25202628
-• PRIME/USDC $50.0K (0x8F10B468) — Block 25202624
-• WBTC/USDT $23.3K (0xBdb3ba9f) — Block 25202624
+Largest trades:
+▸ WETH/USDT $237.5K + $237.4K (blocks 25202726, 0x0906a879 + anonymous)
+▸ WBTC/kBTC $73.7K (block 25202726, 0x66a9893c)
 
-🏦 Dominant Whales:
-• 0x51C72848…502a7F — 12 trades (~$192K, WETH/USDT + WBTC/WETH + DAI/WETH + PAXG/XAUt routing)
-• 0xBdb3ba9f…DF47B6 — 9 trades (~$310K, USDC/WETH $199.7K + WETH/USDT + WBTC/USDT)
-• 0x7cDa585e…6694dc — 4 trades (~$45K, USDC/WETH + WBTC/USDT + WETH/USDT + USDC/SEI)
+Active whales:
+▸ 0x278d858f…6eF8D2 — 6 trades (USDC/WETH + ZAMA buys, ~$16.5K non-ZAMA)
+▸ 0xBdb3ba9f…DF47B6 — 4 trades (WETH/USDT + ZAMA, ~$5K non-ZAMA)
+▸ 0x4C82D1fB…60a2cCA — 3 trades (USDC/WETH + WETH/USDT, ~$5.2K)
+▸ 0xE592427A…861564 — 2 trades (ADI/USDC + USDC/USDT routing, ~$2.4K)
+▸ 0xe60fAE78…94347e — 2 trades (WETH/USDT + FET/WETH, ~$4.2K)
 
-📊 Pairs: USDC/WETH (11), WETH/USDT (10), WBTC/USDT (2), DAI/WETH (2), WBTC/WETH (1), PRIME/USDC (1), FET/WETH (1), USDe/USDC (1), LINK/USDT (1), SHFL/USDC (1), PAXG/XAUt (1), USDC/ZARP (1), USDC/SEI (1)
+Pairs: USDC/WETH (8), WETH/USDT (5), ZAMA/USDT (4), USDC/USDT (1), FET/WETH (2), WPRL/USDT (2), WBTC/kBTC (1), CFG/USDT (1)
 
-🔢 9 epochs processed · ~$525K total verified volume · All verified on-chain via Powerloom BDS
+⚠️ ZAMA/USDT price oracle anomaly persists — 4 trades show absurd USD values (actual: ~10K-20K ZAMA for $500-960 USDT)
+
+Total verified volume ~$497K (excl. anomalous ZAMA). All verified on-chain via Powerloom BDS.

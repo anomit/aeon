@@ -1,0 +1,234 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Powerloom BDS",
+        "description": "Epochs 25202720→25202729 (9 epochs, 29 alerts)"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "stack2",
+        "stack3",
+        "stack4",
+        "stack5"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Largest trades",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text1",
+        "text2"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WETH/USDT $237.5K + $237.4K (blocks 25202726, 0x0906a879 + anonymous)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/kBTC $73.7K (block 25202726, 0x66a9893c)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Active whales",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text3",
+        "text4",
+        "text5",
+        "text6",
+        "text7"
+      ]
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x278d858f…6eF8D2 — 6 trades (USDC/WETH + ZAMA buys, ~$16.5K non-ZAMA)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xBdb3ba9f…DF47B6 — 4 trades (WETH/USDT + ZAMA, ~$5K non-ZAMA)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x4C82D1fB…60a2cCA — 3 trades (USDC/WETH + WETH/USDT, ~$5.2K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xE592427A…861564 — 2 trades (ADI/USDC + USDC/USDT routing, ~$2.4K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xe60fAE78…94347e — 2 trades (WETH/USDT + FET/WETH, ~$4.2K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "Pairs",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3",
+        "badge4",
+        "badge5",
+        "badge6",
+        "badge7",
+        "badge8"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "USDC/WETH (8)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "WETH/USDT (5)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "ZAMA/USDT (4)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge4": {
+      "type": "Badge",
+      "props": {
+        "text": "USDC/USDT (1)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge5": {
+      "type": "Badge",
+      "props": {
+        "text": "FET/WETH (2)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge6": {
+      "type": "Badge",
+      "props": {
+        "text": "WPRL/USDT (2)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge7": {
+      "type": "Badge",
+      "props": {
+        "text": "WBTC/kBTC (1)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge8": {
+      "type": "Badge",
+      "props": {
+        "text": "CFG/USDT (1)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "ZAMA/USDT Price Oracle Anomaly",
+        "message": "4 trades show absurd USD values (actual: ~10K-20K ZAMA for $500-960 USDT)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total verified volume",
+        "value": "~$497K",
+        "message": "excl. anomalous ZAMA. All verified on-chain via Powerloom BDS."
+      },
+      "children": []
+    }
+  }
+}
