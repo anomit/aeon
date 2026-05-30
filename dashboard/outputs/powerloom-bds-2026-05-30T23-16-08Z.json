@@ -1,0 +1,169 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-1",
+        "stack-2",
+        "stat-1",
+        "grid-1",
+        "link-1",
+        "separator-1",
+        "stack-3"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-1",
+        "text-2"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "LDO/WETH on Uniswap V3"
+      },
+      "children": []
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "(5%)"
+      },
+      "children": []
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "value": "$1.3K"
+      },
+      "children": []
+    },
+    "grid-1": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6"
+      ]
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "⇢ 4,035.9927 LDO"
+      },
+      "children": []
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "⇠ 0.64661842 WETH"
+      },
+      "children": []
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 0x51C72848…502a7F"
+      },
+      "children": []
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25211382"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0x0064a9ffbe50cb882683c896c8ffa572120a605fa606480f4f35c8a9f9e0f771",
+        "href": "https://etherscan.io/tx/0x0064a9ffbe50cb882683c896c8ffa572120a605fa606480f4f35c8a9f9e0f771"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10"
+      ]
+    },
+    "text-7": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-8": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ CID: bafkreiemi472ryuhdotmpztmt3o…"
+      },
+      "children": []
+    },
+    "text-9": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ Epoch: 25211382"
+      },
+      "children": []
+    },
+    "text-10": {
+      "type": "Text",
+      "props": {
+        "text": "  └ Project: allTradesSnapshot"
+      },
+      "children": []
+    }
+  }
+}
