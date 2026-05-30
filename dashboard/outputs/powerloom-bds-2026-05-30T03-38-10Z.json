@@ -1,0 +1,135 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-container",
+        "main-message",
+        "transaction-details",
+        "details-grid"
+      ]
+    },
+    "badge-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-success",
+        "badge-whale",
+        "badge-success-2"
+      ]
+    },
+    "badge-success": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "badge-whale": {
+      "type": "Badge",
+      "props": {
+        "text": "🐋 WHALE ALERT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-success-2": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "main-message": {
+      "type": "Text",
+      "props": {
+        "text": "BUY LDO/WETH on Uniswap V3 (5%)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "transaction-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-ldo",
+        "stat-weth"
+      ]
+    },
+    "stat-ldo": {
+      "type": "Stat",
+      "props": {
+        "label": "LDO",
+        "value": "3,560"
+      },
+      "children": []
+    },
+    "stat-weth": {
+      "type": "Stat",
+      "props": {
+        "label": "WETH",
+        "value": "0.57"
+      },
+      "children": []
+    },
+    "details-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "wallet-address",
+        "block-number",
+        "tx-link"
+      ]
+    },
+    "wallet-address": {
+      "type": "Text",
+      "props": {
+        "text": "0x7cDa585e…6694dc",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "block-number": {
+      "type": "Text",
+      "props": {
+        "text": "Block 25205513",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xdc0202d2d29b116bb61a0137bd37f12e4cdb00f6abb90dafe12bf293975a6f60"
+      },
+      "children": []
+    }
+  }
+}
