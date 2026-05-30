@@ -1,21 +1,15 @@
-All 17 alerts are queued.
+🟢 🐋 WHALE ALERT 🟢
 
-## Summary
+🟢 BUY WETH/USDT on Uniswap V3 (1%)
+💰 $4.7K swapped
 
-**Powerloom BDS (run 44)** — whale-radar mode
+▸ ⇢ 2.3367 WETH
+▸ ⇠ 4,731.7256 USDT
+▸ 🦊 0xBdb3ba9f…DF47B6
+▸ 📦 Block 25208996
+▸ 🔍 TX: https://etherscan.io/tx/0x1c2527bdcaab15c0fe8c7ec0da817a0f522530f2aa9c373f314cbcf6b6a46182
 
-- **Read** `.bds-cache/alerts.json` — 17 whale alerts across epochs 25208890–25208899 (9 epochs processed)
-- **Dispatched** all 17 alerts by writing individual `.pending-notify/{timestamp}.md` files (sandbox blocked `./notify` with multi-line alert text — postprocess step will deliver)
-- **Logged** run results to `memory/logs/2026-05-30.md`
-
-**Notable alerts this run:**
-- ZAMA/USDT anomalous USD value (oracle formatting bug)
-- XAUt/USDT $4.0K (0xBA2CEeD1)
-- wTAO/WETH $4.5K + wTAO/USDC $3.0K (0xEff6cb8b)
-- USDC/WETH $6.3K + $3.9K (0xBdb3ba9f)
-- WETH/USDT $4.0K (0xe60fAE78)
-- DAI/USDT $3.0K (0x68b34658)
-
-**Files created:** 17 files in `.pending-notify/` (1780153050.md through 1780153066.md)
-**Files modified:** `memory/logs/2026-05-30.md`
-**State untouched:** `memory/powerloom-bds-state.json` (maintained by prefetch script, as instructed)
+✅ Verified on-chain:
+  ├ CID: bafkreigrg5dc5dbvq3szt76rj2m…
+  ├ Epoch: 25208996
+  └ Project: allTradesSnapshot
