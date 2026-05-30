@@ -1,0 +1,201 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT",
+        "description": "Powerloom BDS Transaction Alert"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert",
+        "badge1",
+        "badge2",
+        "separator",
+        "buyAlert",
+        "swapInfo",
+        "separator2",
+        "verification",
+        "txLink"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "🟢 LARGE BUY DETECTED",
+        "message": "Significant ZAMA/USDT transaction on Uniswap V3",
+        "type": "success"
+      },
+      "children": []
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ VERIFIED",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢 5% Fee",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "buyAlert": {
+      "type": "Alert",
+      "props": {
+        "title": "🟢 BUY ZAMA/USDT",
+        "message": "Uniswap V3 (5%)",
+        "type": "info"
+      },
+      "children": []
+    },
+    "swapInfo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "amount1",
+        "amount2",
+        "address",
+        "block",
+        "stat"
+      ]
+    },
+    "amount1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 22,797.6022 ZAMA",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "amount2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 778.8511 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25207503",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "💰 Value",
+        "value": "$1,562,975,882,157,755,750,216,021,101,797,683,966,771.00M",
+        "delta": "5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verificationTitle",
+        "verificationItems"
+      ]
+    },
+    "verificationTitle": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "verificationItems": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid",
+        "epoch",
+        "project"
+      ]
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiggd67pn66gxpsau3ubur3…",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25207503",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "txLink": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xace186d0560cea0d1c1b63d2b6aebaf86212368448403cf5131186ac236410b8"
+      },
+      "children": []
+    }
+  }
+}
