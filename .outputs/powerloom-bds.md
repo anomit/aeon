@@ -1,15 +1,30 @@
-🟢 🐋 WHALE ALERT 🟢
+Not critical — the dispatch script is harmless in the cache directory.
 
-🟢 BUY LIT/WETH on Uniswap V3 (1%)
-💰 $1.7K swapped
+## Summary
 
-▸ ⇢ 1,243.5212 LIT
-▸ ⇠ 0.86557944 WETH
-▸ 🦊 0xfbEedCFe…768737
-▸ 📦 Block 25207604
-▸ 🔍 TX: https://etherscan.io/tx/0xd185bd10f56b7fc0d36244cf720a161d65bb6ccd3e0f7b130761dd2f312ce599
+**Powerloom BDS run 32** completed successfully:
 
-✅ Verified on-chain:
-  ├ CID: bafkreibsqotjnf35hfp7f6cd6kn…
-  ├ Epoch: 25207604
-  └ Project: allTradesSnapshot
+| Field | Value |
+|-------|-------|
+| Epoch begin | 25207694 |
+| Epoch end | 25207703 |
+| Epochs processed | 10 |
+| Alerts cached | 26 |
+| Status | OK |
+
+**Notable alerts:**
+- 2× **$2.30M USDC/USDT** swaps (block 25207703) — large stablecoin flows
+- **$140.0K USDC/USDT** (0x8F10B468, block 25207699)
+- **$19.5K PAXG/USDC** gold token swap (block 25207699)
+- 4× **$3.0K WETH/USDT** from recurring wallet 0xe60fAE78
+- 8× ZAMA/USDT buys with anomalous USD values (oracle formatting bug — actual swaps 84–3,185 USDT)
+
+**Most active wallets:**
+- `0x278d858f` — 6 ZAMA/USDT accumulation trades
+- `0xe60fAE78` — 5 WETH/USDT + USDC/WETH trades
+- `0xBdb3ba9f` — 4 trades across WETH/USDT, ZAMA/USDT
+
+**Files modified:**
+- `memory/logs/2026-05-30.md` — appended run 32 log entry
+
+**Dispatch:** All 26 alerts were pre-staged in `.pending-notify/bds-alerts.txt` by the prefetch step for post-run delivery (sandbox blocked inline `./notify` calls with multi-line alert text containing special characters).
