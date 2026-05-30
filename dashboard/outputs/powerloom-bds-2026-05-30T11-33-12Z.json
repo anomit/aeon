@@ -1,0 +1,78 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "stat",
+        "details",
+        "tx-link",
+        "separator",
+        "verification"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "WETH/USDT on Uniswap V3 (1%)",
+        "value": "$3.4K swapped"
+      },
+      "children": []
+    },
+    "details": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.711 WETH\n▸ ⇠ 3,449.7864 USDT\n▸ 🦊 0xBdb3ba9f…DF47B6\n▸ 📦 Block 25207903",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0xdd34447c434ce36010c89d505fe9c8252971af073a706bb8262f62eca9a997e0",
+        "href": "https://etherscan.io/tx/0xdd34447c434ce36010c89d505fe9c8252971af073a706bb8262f62eca9a997e0"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:",
+        "message": "  ├ CID: bafkreih55psksnytg76u7l36og6…\n  ├ Epoch: 25207903\n  └ Project: allTradesSnapshot",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
