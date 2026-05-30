@@ -1,0 +1,136 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT 🟢",
+        "description": "PowerLoom BDS Whale Transaction"
+      },
+      "children": [
+        "alert-buy",
+        "transaction-stack",
+        "verification-section"
+      ]
+    },
+    "alert-buy": {
+      "type": "Alert",
+      "props": {
+        "title": "🟢 BUY USDC/WETH on Uniswap V3 (1%)",
+        "message": "💰 1.0K USD swapped",
+        "type": "success"
+      },
+      "children": []
+    },
+    "transaction-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "usdc-amount",
+        "weth-amount",
+        "wallet-address",
+        "block-info",
+        "tx-link"
+      ]
+    },
+    "usdc-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC Out",
+        "value": "1,015.3328"
+      },
+      "children": []
+    },
+    "weth-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "WETH In",
+        "value": "0.50239921"
+      },
+      "children": []
+    },
+    "wallet-address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25209691",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xbffac9ce7587d7ac693315d26d89e4d23075042201be287eca3898a4e0ae30e5"
+      },
+      "children": []
+    },
+    "verification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification-header",
+        "verification-items"
+      ]
+    },
+    "verification-header": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "verification-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid-item",
+        "epoch-item",
+        "project-item"
+      ]
+    },
+    "cid-item": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreigugivu4ctzt6m2aar4ctz…",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "epoch-item": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25209691",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "project-item": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
