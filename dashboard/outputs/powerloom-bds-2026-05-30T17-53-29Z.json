@@ -1,0 +1,96 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Run 53"
+      },
+      "children": [
+        "heading",
+        "text_main",
+        "stat_alerts",
+        "separator1",
+        "table_transactions",
+        "separator2",
+        "text_wallets"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 Powerloom BDS Run 53 — Epochs 25209778→25209786 (9 epochs)"
+      }
+    },
+    "text_main": {
+      "type": "Text",
+      "props": {
+        "text": "22 alerts dispatched"
+      }
+    },
+    "stat_alerts": {
+      "type": "Stat",
+      "props": {
+        "label": "Alerts",
+        "value": "22",
+        "trend": "neutral"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "table_transactions": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Pair",
+          "Amount",
+          "Address",
+          "Block"
+        ],
+        "rows": [
+          [
+            "WETH/USDT",
+            "$528.2K",
+            "0xC36442b4",
+            "25209784"
+          ],
+          [
+            "PAXG/USDC",
+            "$11.2K",
+            "0xBA2CEeD1",
+            "25209782"
+          ],
+          [
+            "AUSD/USDT",
+            "$8.6K",
+            "0x4C82D1fB",
+            "25209786"
+          ],
+          [
+            "WETH/USDT",
+            "$6.0K",
+            "0xBdb3ba9f",
+            "25209781"
+          ]
+        ]
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_wallets": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets: 0xBdb3ba9f (6 trades), 0x51C72848, 0x4C82D1fB, 0x7f54F056"
+      }
+    }
+  }
+}

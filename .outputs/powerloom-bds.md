@@ -1,15 +1,1 @@
-🟢 🐋 WHALE ALERT 🟢
-
-🟢 BUY USDC/WETH on Uniswap V3 (1%)
-💰 1.0K USD swapped
-
-▸ ⇢ 1,015.3328 USDC
-▸ ⇠ 0.50239921 WETH
-▸ 🦊 0xBdb3ba9f…DF47B6
-▸ 📦 Block 25209691
-▸ 🔍 TX: https://etherscan.io/tx/0xbffac9ce7587d7ac693315d26d89e4d23075042201be287eca3898a4e0ae30e5
-
-✅ Verified on-chain:
-  ├ CID: bafkreigugivu4ctzt6m2aar4ctz…
-  ├ Epoch: 25209691
-  └ Project: allTradesSnapshot
+🐋 Powerloom BDS Run 53 — Epochs 25209778→25209786 (9 epochs) — 22 alerts dispatched. Notable: $528.2K WETH/USDT (0xC36442b4, block 25209784), $11.2K PAXG/USDC (0xBA2CEeD1, block 25209782), $8.6K AUSD/USDT (0x4C82D1fB, block 25209786), $6.0K WETH/USDT (0xBdb3ba9f, block 25209781). Active wallets: 0xBdb3ba9f (6 trades), 0x51C72848, 0x4C82D1fB, 0x7f54F056.
