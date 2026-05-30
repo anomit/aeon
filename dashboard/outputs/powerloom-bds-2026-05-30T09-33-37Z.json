@@ -1,0 +1,133 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT"
+      },
+      "children": [
+        "whale-badge",
+        "separator1",
+        "platform-badge",
+        "amount-stat",
+        "details-stack",
+        "separator2",
+        "verification-info",
+        "tx-link"
+      ]
+    },
+    "whale-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WHALE ALERT",
+        "variant": "default"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "platform-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY WETH/USDT on Uniswap V3 (1%)",
+        "variant": "secondary"
+      }
+    },
+    "amount-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$3.0K",
+        "label": "swapped",
+        "delta": "+3,022.93",
+        "trend": "up"
+      }
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail-weth",
+        "detail-usdt",
+        "detail-address",
+        "detail-block"
+      ]
+    },
+    "detail-weth": {
+      "type": "Text",
+      "props": {
+        "text": "⇢ 1.4998 WETH",
+        "variant": "body"
+      }
+    },
+    "detail-usdt": {
+      "type": "Text",
+      "props": {
+        "text": "⇠ 3,022.9318 USDT",
+        "variant": "body"
+      }
+    },
+    "detail-address": {
+      "type": "Text",
+      "props": {
+        "text": "🦊 0xe60fAE78…94347e",
+        "variant": "caption"
+      }
+    },
+    "detail-block": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25207305",
+        "variant": "caption"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verification-info": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      }
+    },
+    "verification-details": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiatkstysgau7wvuyl45235…",
+        "variant": "body"
+      }
+    },
+    "verification-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25207305",
+        "variant": "body"
+      }
+    },
+    "verification-project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xb36fd2fb227e51b0ec604e16d9e8e6ba9c5e3538c519b701ca6baad10ffac70a"
+      }
+    }
+  }
+}

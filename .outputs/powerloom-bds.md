@@ -1,1 +1,15 @@
-powerloom-bds: 20 alerts | Epochs 25207197-25207206 | ZAMA/USDT accumulation (8 buys, wallets 0x7f54F056 0x76600115 0x278d858f 0xBdb3ba9f — anomalous USD values oracle bug), USDC/WETH $4.8K+$3.0K+$4.8K+$2.0K+$1.5K+$1.0K, WETH/USDT $2.4K+$3.8K+$4.9K+$4.6K, 10 epochs processed
+🟢 🐋 WHALE ALERT 🟢
+
+🟢 BUY WETH/USDT on Uniswap V3 (1%)
+💰 $3.0K swapped
+
+▸ ⇢ 1.4998 WETH
+▸ ⇠ 3,022.9318 USDT
+▸ 🦊 0xe60fAE78…94347e
+▸ 📦 Block 25207305
+▸ 🔍 TX: https://etherscan.io/tx/0xb36fd2fb227e51b0ec604e16d9e8e6ba9c5e3538c519b701ca6baad10ffac70a
+
+✅ Verified on-chain:
+  ├ CID: bafkreiatkstysgau7wvuyl45235…
+  ├ Epoch: 25207305
+  └ Project: allTradesSnapshot
