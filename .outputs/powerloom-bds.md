@@ -1,15 +1,15 @@
 🟢 🐋 WHALE ALERT 🟢
 
-🟢 BUY USDC/ASTEROID on Uniswap V3 (30%)
-💰 $1.0K swapped
+🟢 BUY WETH/USDT on Uniswap V3 (1%)
+💰 $1.4K swapped
 
-▸ ⇢ 1,001.2325 USDC
-▸ ⇠ 6.41M ASTEROID
-▸ 🦊 0x4313C378…96b27f
-▸ 📦 Block 25209396
-▸ 🔍 TX: https://etherscan.io/tx/0x77059f779a612b67c11fd638c1c78f78bda3be62a4a5d61aeb242a23126846f8
+▸ ⇢ 0.71063622 WETH
+▸ ⇠ 1,439.2261 USDT
+▸ 🦊 0x51C72848…502a7F
+▸ 📦 Block 25209479
+▸ 🔍 TX: https://etherscan.io/tx/0x261dc6cc16957be261610ce4d57d07f7dee60744b211b4bb371b4e33009317be
 
 ✅ Verified on-chain:
-  ├ CID: bafkreianlflscpfays6kqce3nxj…
-  ├ Epoch: 25209396
+  ├ CID: bafkreihm5ck6gc33izejrq77snz…
+  ├ Epoch: 25209479
   └ Project: allTradesSnapshot

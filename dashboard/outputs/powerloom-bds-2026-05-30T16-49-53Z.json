@@ -1,0 +1,98 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "🟢 BUY WETH/USDT on Uniswap V3 (1%)"
+      },
+      "children": [
+        "stack-trade",
+        "stat-amount",
+        "stack-details",
+        "separator-1",
+        "verification"
+      ]
+    },
+    "stack-trade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-bought",
+        "text-sold"
+      ]
+    },
+    "stat-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$1.4K"
+      }
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-address",
+        "text-block",
+        "tx-link"
+      ]
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "type": "success"
+      }
+    },
+    "text-bought": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 0.71063622 WETH",
+        "variant": "body"
+      }
+    },
+    "text-sold": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1,439.2261 USDT",
+        "variant": "body"
+      }
+    },
+    "text-address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x51C72848…502a7F",
+        "variant": "body"
+      }
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25209479",
+        "variant": "body"
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX",
+        "href": "https://etherscan.io/tx/0x261dc6cc16957be261610ce4d57d07f7dee60744b211b4bb371b4e33009317be"
+      }
+    }
+  }
+}
