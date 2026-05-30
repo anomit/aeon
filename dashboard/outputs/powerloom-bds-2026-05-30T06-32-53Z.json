@@ -1,0 +1,154 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT 🐋",
+        "description": "Buy transaction detected on Uniswap V3"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge1",
+        "stat1",
+        "stack2",
+        "stack3",
+        "separator1",
+        "stack4"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ BUY",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Swapped",
+        "value": "$8.0K",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3",
+        "text4"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 3.995 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 8,056.2356 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25206401",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link1"
+      ]
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x32fa59356e1a6ee30cd8421f5cb0dd0294dcf812c414d1954f333e671bbfbdad"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text5",
+        "text6",
+        "text7"
+      ]
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiawg3d4i3mlsouxi47265w…",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25206401",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
