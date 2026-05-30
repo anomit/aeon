@@ -1,1 +1,15 @@
-powerloom-bds: 4 alerts queued (epochs 25208091-25208094). 2x ZAMA/USDT buys (anomalous USD, oracle bug), 1x Clutch/WETH 1.6K, 1x USDC/WETH 1.1K. Active: 0xBdb3ba9f, 0x278d858f, 0x28b1Dc1a, 0xBc1D9760.
+🐳 WHALE ALERT 🐳
+
+🟢 BUY USDC/ASTEROID on Uniswap V3 (30%)
+💰 $1.2K swapped
+
+▸ ⇒ 1,190.2835 USDC
+▸ ⇐ 7.45M ASTEROID
+▸ 🐳 0xA5F91E59…B730B0
+▸ 📦 Block 25208195
+▸ 🔍 TX: https://etherscan.io/tx/0x524ae0f42b71c166283b8159417970c1811fccf5d768e793eaad01078d1e85fb
+
+✅ Verified on-chain:
+  ├ CID: bafkreihgzs6bpblqwy37sy2brmh…
+  ├ Epoch: 25208195
+  └ Project: allTradesSnapshot

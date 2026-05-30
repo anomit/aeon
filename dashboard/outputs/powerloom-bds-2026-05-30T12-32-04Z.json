@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 WHALE ALERT 🐳"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "badge1",
+        "stat1",
+        "grid1",
+        "separator1",
+        "alert1"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 BUY USDC/ASTEROID on Uniswap V3",
+        "level": "h2"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $1.2K swapped"
+      }
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "30%",
+        "variant": "default"
+      }
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Amount",
+        "value": "$1.2K"
+      }
+    },
+    "grid1": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "link1"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇒ 1,190.2835 USDC"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇐ 7.45M ASTEROID"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0xA5F91E59…B730B0"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25208195"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x524ae0f42b71c166283b8159417970c1811fccf5d768e793eaad01078d1e85fb",
+        "href": "https://etherscan.io/tx/0x524ae0f42b71c166283b8159417970c1811fccf5d768e793eaad01078d1e85fb"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:",
+        "message": "  ├ CID: bafkreihgzs6bpblqwy37sy2brmh…  ├ Epoch: 25208195  └ Project: allTradesSnapshot",
+        "type": "success"
+      }
+    }
+  }
+}
