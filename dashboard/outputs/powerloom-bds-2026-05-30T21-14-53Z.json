@@ -1,0 +1,115 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 BDS Alert Batch"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-summary",
+        "swaps-section",
+        "zama-alerts",
+        "dispatch"
+      ]
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "29 whale alerts queued for epochs 25210777-25210786",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "swaps-section": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Swaps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "swaps-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "sm"
+      },
+      "children": [
+        "swap1",
+        "swap2",
+        "swap3",
+        "swap4",
+        "swap5"
+      ]
+    },
+    "swap1": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC/WETH",
+        "value": "26.3K"
+      },
+      "children": []
+    },
+    "swap2": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC/WETH",
+        "value": "25.1K"
+      },
+      "children": []
+    },
+    "swap3": {
+      "type": "Stat",
+      "props": {
+        "label": "USDe/USDT",
+        "value": "10.8K"
+      },
+      "children": []
+    },
+    "swap4": {
+      "type": "Stat",
+      "props": {
+        "label": "MNT/USDe",
+        "value": "7.4K"
+      },
+      "children": []
+    },
+    "swap5": {
+      "type": "Stat",
+      "props": {
+        "label": "PAXG/XAUt",
+        "value": "6.3K"
+      },
+      "children": []
+    },
+    "zama-alerts": {
+      "type": "Stat",
+      "props": {
+        "label": "ZAMA Alerts",
+        "value": "4",
+        "delta": "oracle bug"
+      },
+      "children": []
+    },
+    "dispatch": {
+      "type": "Text",
+      "props": {
+        "text": "Dispatching via postprocess",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
