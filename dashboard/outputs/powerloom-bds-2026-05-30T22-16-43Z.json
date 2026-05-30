@@ -1,0 +1,1023 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "Large Uniswap V3 trades detected"
+      },
+      "children": [
+        "alert"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Multiple large trades detected on Uniswap V3"
+      },
+      "children": []
+    },
+    "trade1": {
+      "type": "Card",
+      "props": {
+        "description": "🟢 BUY WETH/USDT on Uniswap V3 (1%)"
+      },
+      "children": [
+        "stat1",
+        "detail1",
+        "link1",
+        "verified1"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$3.0K"
+      },
+      "children": []
+    },
+    "detail1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3",
+        "text4"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.5 WETH"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 3,035.5497 USDT"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0xe60fAE78…94347e"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211082"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x7ace923aa970d370c5a7e19329bc2b7b97049dfb29e446c7fa96e194b5dd42e2"
+      },
+      "children": []
+    },
+    "verified1": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verifiedDetail1"
+      ]
+    },
+    "verifiedDetail1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verifiedText1",
+        "verifiedText2",
+        "verifiedText3"
+      ]
+    },
+    "verifiedText1": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiarnqvukle5r776csk2mve…"
+      },
+      "children": []
+    },
+    "verifiedText2": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211082"
+      },
+      "children": []
+    },
+    "verifiedText3": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    },
+    "trade2": {
+      "type": "Card",
+      "props": {
+        "description": "🟢 BUY WETH/USDT on Uniswap V3 (5%)"
+      },
+      "children": [
+        "stat2",
+        "detail2",
+        "link2",
+        "verified2"
+      ]
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$2.9K"
+      },
+      "children": []
+    },
+    "detail2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text5",
+        "text6",
+        "text7",
+        "text8"
+      ]
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.4325 WETH"
+      },
+      "children": []
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 2,899.5976 USDT"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0x51C72848…502a7F"
+      },
+      "children": []
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211083"
+      },
+      "children": []
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xa17801117b57e5746408d3e7009de99a05646217c289dcc7ec7e70b12930f409"
+      },
+      "children": []
+    },
+    "verified2": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verifiedDetail2"
+      ]
+    },
+    "verifiedDetail2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verifiedText4",
+        "verifiedText5",
+        "verifiedText6"
+      ]
+    },
+    "verifiedText4": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreih2a2etomi2kssgm6htrqj…"
+      },
+      "children": []
+    },
+    "verifiedText5": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211083"
+      },
+      "children": []
+    },
+    "verifiedText6": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    },
+    "trade3": {
+      "type": "Card",
+      "props": {
+        "description": "🟢 BUY ZAMA/USDT on Uniswap V3 (5%)"
+      },
+      "children": [
+        "stat3",
+        "detail3",
+        "link3",
+        "verified3"
+      ]
+    },
+    "stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$5191929865804078587638542796607207768064.00M"
+      },
+      "children": []
+    },
+    "detail3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text9",
+        "text10",
+        "text11",
+        "text12"
+      ]
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 7,549.1282 ZAMA"
+      },
+      "children": []
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 272.4754 USDT"
+      },
+      "children": []
+    },
+    "text11": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0x278d858f…6eF8D2"
+      },
+      "children": []
+    },
+    "text12": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211083"
+      },
+      "children": []
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x7b67e43d86ada3a4a91aff1d8c9b88d3e78cdb12472c9d590c15f42d509e9bcc"
+      },
+      "children": []
+    },
+    "verified3": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verifiedDetail3"
+      ]
+    },
+    "verifiedDetail3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verifiedText7",
+        "verifiedText8",
+        "verifiedText9"
+      ]
+    },
+    "verifiedText7": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreih2a2etomi2kssgm6htrqj…"
+      },
+      "children": []
+    },
+    "verifiedText8": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211083"
+      },
+      "children": []
+    },
+    "verifiedText9": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    },
+    "trade4": {
+      "type": "Card",
+      "props": {
+        "description": "🟢 BUY USDC/WETH on Uniswap V3 (5%)"
+      },
+      "children": [
+        "stat4",
+        "detail4",
+        "link4",
+        "verified4"
+      ]
+    },
+    "stat4": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$67.2K"
+      },
+      "children": []
+    },
+    "detail4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text13",
+        "text14",
+        "text15",
+        "text16"
+      ]
+    },
+    "text13": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 67,131.3057 USDC"
+      },
+      "children": []
+    },
+    "text14": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 33.1988 WETH"
+      },
+      "children": []
+    },
+    "text15": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0xBdb3ba9f…DF47B6"
+      },
+      "children": []
+    },
+    "text16": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211083"
+      },
+      "children": []
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x32ac5a56d50c5b9ed8ed92fe2325d911294885b25511eb1aeaa8ac849d8824bf"
+      },
+      "children": []
+    },
+    "verified4": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verifiedDetail4"
+      ]
+    },
+    "verifiedDetail4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verifiedText10",
+        "verifiedText11",
+        "verifiedText12"
+      ]
+    },
+    "verifiedText10": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreih2a2etomi2kssgm6htrqj…"
+      },
+      "children": []
+    },
+    "verifiedText11": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211083"
+      },
+      "children": []
+    },
+    "verifiedText12": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    },
+    "trade5": {
+      "type": "Card",
+      "props": {
+        "description": "🟢 BUY WETH/USDT on Uniswap V3 (1%)"
+      },
+      "children": [
+        "stat5",
+        "detail5",
+        "link5",
+        "verified5"
+      ]
+    },
+    "stat5": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$2.6K"
+      },
+      "children": []
+    },
+    "detail5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text17",
+        "text18",
+        "text19",
+        "text20"
+      ]
+    },
+    "text17": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.2754 WETH"
+      },
+      "children": []
+    },
+    "text18": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 2,581.5853 USDT"
+      },
+      "children": []
+    },
+    "text19": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0x51C72848…502a7F"
+      },
+      "children": []
+    },
+    "text20": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211083"
+      },
+      "children": []
+    },
+    "link5": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x978bc127344038375be21f5b20be8430971c0e5da5bfe9f2020a4a564960cd08"
+      },
+      "children": []
+    },
+    "verified5": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verifiedDetail5"
+      ]
+    },
+    "verifiedDetail5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verifiedText13",
+        "verifiedText14",
+        "verifiedText15"
+      ]
+    },
+    "verifiedText13": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreih2a2etomi2kssgm6htrqj…"
+      },
+      "children": []
+    },
+    "verifiedText14": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211083"
+      },
+      "children": []
+    },
+    "verifiedText15": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    },
+    "trade6": {
+      "type": "Card",
+      "props": {
+        "description": "🟢 BUY ZAMA/USDT on Uniswap V3 (5%)"
+      },
+      "children": [
+        "stat6",
+        "detail6",
+        "link6",
+        "verified6"
+      ]
+    },
+    "stat6": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$2437274935030485228125398896376251678720.00M"
+      },
+      "children": []
+    },
+    "detail6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text21",
+        "text22",
+        "text23",
+        "text24"
+      ]
+    },
+    "text21": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 3,543.826 ZAMA"
+      },
+      "children": []
+    },
+    "text22": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 127.884 USDT"
+      },
+      "children": []
+    },
+    "text23": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0x278d858f…6eF8D2"
+      },
+      "children": []
+    },
+    "text24": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211084"
+      },
+      "children": []
+    },
+    "link6": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x7923467ad23088ae2db11362db1979a7ecda1365460e2db2e05ddf15417dd21f"
+      },
+      "children": []
+    },
+    "verified6": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verifiedDetail6"
+      ]
+    },
+    "verifiedDetail6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verifiedText16",
+        "verifiedText17",
+        "verifiedText18"
+      ]
+    },
+    "verifiedText16": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreichbosmm7g3lt4qoxtyluk…"
+      },
+      "children": []
+    },
+    "verifiedText17": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211084"
+      },
+      "children": []
+    },
+    "verifiedText18": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    },
+    "trade7": {
+      "type": "Card",
+      "props": {
+        "description": "🟢 BUY WETH/USDT on Uniswap V3 (5%)"
+      },
+      "children": [
+        "stat7",
+        "detail7",
+        "link7",
+        "verified7"
+      ]
+    },
+    "stat7": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$8.3K"
+      },
+      "children": []
+    },
+    "detail7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text25",
+        "text26",
+        "text27",
+        "text28"
+      ]
+    },
+    "text25": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 4.129 WETH"
+      },
+      "children": []
+    },
+    "text26": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 8,359.6897 USDT"
+      },
+      "children": []
+    },
+    "text27": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0xBdb3ba9f…DF47B6"
+      },
+      "children": []
+    },
+    "text28": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211085"
+      },
+      "children": []
+    },
+    "link7": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xb102e081c678008d6c2f81452e5db24064b8c0c446de2426cca77c0580db407a"
+      },
+      "children": []
+    },
+    "verified7": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verifiedDetail7"
+      ]
+    },
+    "verifiedDetail7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verifiedText19",
+        "verifiedText20",
+        "verifiedText21"
+      ]
+    },
+    "verifiedText19": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiaohnpsihh7egz4j3qgsjn…"
+      },
+      "children": []
+    },
+    "verifiedText20": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211085"
+      },
+      "children": []
+    },
+    "verifiedText21": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    },
+    "trade8": {
+      "type": "Card",
+      "props": {
+        "description": "🟢 BUY USDC/USDT on Uniswap V3 (1%)"
+      },
+      "children": [
+        "stat8",
+        "detail8",
+        "link8",
+        "verified8"
+      ]
+    },
+    "stat8": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$1.6K"
+      },
+      "children": []
+    },
+    "detail8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text29",
+        "text30",
+        "text31",
+        "text32"
+      ]
+    },
+    "text29": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1,624.1469 USDC"
+      },
+      "children": []
+    },
+    "text30": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1,625.9236 USDT"
+      },
+      "children": []
+    },
+    "text31": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0xE592427A…861564"
+      },
+      "children": []
+    },
+    "text32": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211085"
+      },
+      "children": []
+    },
+    "link8": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xa4bc37e2105eafaaf46b120cc17f6d59dcb0043cf6ca2207d3c84f4465005c6e"
+      },
+      "children": []
+    },
+    "verified8": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verifiedDetail8"
+      ]
+    },
+    "verifiedDetail8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verifiedText22",
+        "verifiedText23",
+        "verifiedText24"
+      ]
+    },
+    "verifiedText22": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiaohnpsihh7egz4j3qgsjn…"
+      },
+      "children": []
+    },
+    "verifiedText23": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211085"
+      },
+      "children": []
+    },
+    "verifiedText24": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    },
+    "trade9": {
+      "type": "Card",
+      "props": {
+        "description": "🟢 BUY LDO/WETH on Uniswap V3 (5%)"
+      },
+      "children": [
+        "stat9",
+        "detail9",
+        "link9",
+        "verified9"
+      ]
+    },
+    "stat9": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$2.2K"
+      },
+      "children": []
+    },
+    "detail9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text33",
+        "text34",
+        "text35",
+        "text36"
+      ]
+    },
+    "text33": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 6,784.7724 LDO"
+      },
+      "children": []
+    },
+    "text34": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1.091 WETH"
+      },
+      "children": []
+    },
+    "text35": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0x51C72848…502a7F"
+      },
+      "children": []
+    },
+    "text36": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211085"
+      },
+      "children": []
+    },
+    "link9": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xa18606ab4d2ab34d01f43942051c9307506da8966661a03d84fd1a6467535d39"
+      },
+      "children": []
+    },
+    "verified9": {
+      "type": "Card",
+      "props": {
+        "description": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verifiedDetail9"
+      ]
+    },
+    "verifiedDetail9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verifiedText25",
+        "verifiedText26",
+        "verifiedText27"
+      ]
+    },
+    "verifiedText25": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiaohnpsihh7egz4j3qgsjn…"
+      },
+      "children": []
+    },
+    "verifiedText26": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211085"
+      },
+      "children": []
+    },
+    "verifiedText27": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    }
+  }
+}
