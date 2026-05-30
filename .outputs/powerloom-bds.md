@@ -1,9 +1,15 @@
-🐋 BDS Run 14 — Epochs 25205803–25205812 (10 epochs, 35 alerts)
+🟢 🐋 WHALE ALERT 🟢
 
-🔥 Notable: $103.2K WETH→ULTI swap (block 25205812), $14.0K WETH→USDT (0xBdb3b), $7.7K USDC→WETH (0xC10eE), $4.8K USDC→WETH (0x51C72), $4.5K LINK/WETH + $4.5K USDC/SEI (0x7cDa5)
+🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
+💰 $3365399366335968973873274142613473067008.00M swapped
 
-📊 Active wallets: 0xBdb3ba9f (10+ trades: USDC/WETH, WETH/USDT, WETH/SPX, MNT/USDe), 0x7cDa585e (4: LINK/WETH, USDC/SEI), 0xe60fAE78 (3: LINK/WETH, WETH/USDT), 0x51C72848 (2: USDC/WETH, FET/WETH)
+▸ ⇢ 4,929.2215 ZAMA
+▸ ⇠ 189.6339 USDT
+▸ 🦊 0x278d858f…6eF8D2
+▸ 📦 Block 25205908
+▸ 🔍 TX: https://etherscan.io/tx/0x9239bf3aa54daa477fc5a3d7c5eabe97810dad602ca4c42735cf526827969a3b
 
-⚠️ 1 ZAMA/USDT alert with anomalous USD value (oracle formatting bug)
-
-✅ All 35 individual alerts queued for post-run delivery
+✅ Verified on-chain:
+  ├ CID: bafkreifee3wjzhesh57n7loos2h…
+  ├ Epoch: 25205908
+  └ Project: allTradesSnapshot

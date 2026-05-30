@@ -1,0 +1,138 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack",
+        "verification"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "info",
+        "details"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BUY ZAMA/USDT on Uniswap V3 (5%)",
+        "level": "h2"
+      }
+    },
+    "info": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $3365399366335968973873274142613473067008.00M swapped",
+        "variant": "lead"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail1",
+        "detail2",
+        "detail3",
+        "detail4",
+        "link"
+      ]
+    },
+    "detail1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 4,929.2215 ZAMA"
+      }
+    },
+    "detail2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 189.6339 USDT"
+      }
+    },
+    "detail3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x278d858f…6eF8D2"
+      }
+    },
+    "detail4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25205908"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0x9239bf3aa54daa477fc5a3d7c5eabe97810dad602ca4c42735cf526827969a3b",
+        "href": "https://etherscan.io/tx/0x9239bf3aa54daa477fc5a3d7c5eabe97810dad602ca4c42735cf526827969a3b"
+      }
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification-title",
+        "verification-details"
+      ]
+    },
+    "verification-title": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      }
+    },
+    "verification-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "verification1",
+        "verification2",
+        "verification3"
+      ]
+    },
+    "verification1": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreifee3wjzhesh57n7loos2h…",
+        "variant": "muted"
+      }
+    },
+    "verification2": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25205908",
+        "variant": "muted"
+      }
+    },
+    "verification3": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "muted"
+      }
+    }
+  }
+}
