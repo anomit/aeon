@@ -1,0 +1,105 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status",
+        "main-info",
+        "stack2"
+      ]
+    },
+    "status": {
+      "type": "Badge",
+      "props": {
+        "text": "🐋 WHALE ALERT",
+        "variant": "info"
+      }
+    },
+    "main-info": {
+      "type": "Text",
+      "props": {
+        "text": "BUY USDC/WETH on Uniswap V3 (5%) | $33.8K swapped",
+        "variant": "lead"
+      }
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "usdc-stat",
+        "weth-stat"
+      ]
+    },
+    "usdc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC",
+        "value": "33,778.4"
+      }
+    },
+    "weth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "WETH",
+        "value": "16.797"
+      }
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "wallet-badge",
+        "block-info"
+      ]
+    },
+    "wallet-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🐋 0x35631153…3a6b29",
+        "variant": "outline"
+      }
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25206298",
+        "variant": "caption"
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0xebfb26ad8d7fe84b06ba70f62061f37a5073726586ef85e990155af8f0b70f46"
+      }
+    },
+    "verified-info": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain (CID: bafkreie3cgvkxoofiw57jik27dz… Epoch: 25206298)",
+        "variant": "muted"
+      }
+    }
+  }
+}
