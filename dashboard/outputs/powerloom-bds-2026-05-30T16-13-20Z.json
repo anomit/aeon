@@ -1,0 +1,173 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge1",
+        "stat1",
+        "stack2",
+        "separator1",
+        "stack3",
+        "alert1",
+        "stack4"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "ZAMA/USDT on Uniswap V3 (5%)",
+        "value": "$1,064,260,844,676,880,909,579,507,394,556,324,741.00M",
+        "delta": "5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text1",
+        "text2"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1,544.9506 ZAMA",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 52.8579 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text3",
+        "text4",
+        "text5"
+      ]
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x278d858f…6eF8D2",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25209296",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🔍",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "https://etherscan.io/tx/0xa210dc34f226272cb70e7c09149601b525e18ade455aa8c7c0d575f5729f0d13",
+        "href": "https://etherscan.io/tx/0xa210dc34f226272cb70e7c09149601b525e18ade455aa8c7c0d575f5729f0d13"
+      },
+      "children": []
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "type": "success"
+      },
+      "children": [
+        "stack4"
+      ]
+    },
+    "stack4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text6",
+        "text7",
+        "text8"
+      ]
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreif7zbpwk77mrwczn7vp2iz…",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25209296",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

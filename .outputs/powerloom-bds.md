@@ -1,8 +1,15 @@
-🐋 BDS Run 47: 30 alerts | Epoch 25209181–25209190 (10 epochs)
-⭐ 2× $289.5K USDC/PROS buys (0x1f2F10D1 + anon, block 25209185)
-⭐ $55.3K WBTC/LBTC (0x6A000F20, block 25209190)
-⭐ $34.1K USDC/WETH (0x4c3ccC98), $19.8K USDC/WETH (anon)
-$15.8K PAXG/USDC (0x8F10B468), $10.2K USDC/WETH (0xBdb3ba9f)
-$8.4K msUSD/USDC, $7.0K WETH/USDT, $6.4K msUSD/USDC
-3× ZAMA/USDT anomalous USD (oracle bug)
-Active: 0xBdb3ba9f (3), 0x51C72848 (3), 0xe60fAE78 (2), 0x278d858f (2)
+🟢 🐋 WHALE ALERT 🟢
+
+🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
+💰 $1064260844676884090957950739455632474112.00M swapped
+
+▸ ⇢ 1,544.9506 ZAMA
+▸ ⇠ 52.8579 USDT
+▸ 🦊 0x278d858f…6eF8D2
+▸ 📦 Block 25209296
+▸ 🔍 TX: https://etherscan.io/tx/0xa210dc34f226272cb70e7c09149601b525e18ade455aa8c7c0d575f5729f0d13
+
+✅ Verified on-chain:
+  ├ CID: bafkreif7zbpwk77mrwczn7vp2iz…
+  ├ Epoch: 25209296
+  └ Project: allTradesSnapshot
