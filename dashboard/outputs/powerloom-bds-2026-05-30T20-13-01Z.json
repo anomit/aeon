@@ -1,0 +1,111 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT"
+      },
+      "children": [
+        "heading",
+        "separator1",
+        "buy-text",
+        "stat",
+        "separator2",
+        "stack-details",
+        "tx-link",
+        "separator3",
+        "alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 🐋 WHALE ALERT 🟢",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "buy-text": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY ZAMA/USDT on Uniswap V3 (5%)"
+      }
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Amount Swapped",
+        "value": "463.94 USDT"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zama-text",
+        "usdt-text",
+        "address-text",
+        "block-text"
+      ]
+    },
+    "zama-text": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 13,179.3422 ZAMA"
+      }
+    },
+    "usdt-text": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 463.939 USDT"
+      }
+    },
+    "address-text": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0x278d858f…6eF8D2"
+      }
+    },
+    "block-text": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25210480"
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0x1e299fc043e3edf5128b083aa94c280096c0b1125d8a4c74f47e88fc83c6b3c0",
+        "href": "https://etherscan.io/tx/0x1e299fc043e3edf5128b083aa94c280096c0b1125d8a4c74f47e88fc83c6b3c0"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:"
+      }
+    }
+  }
+}

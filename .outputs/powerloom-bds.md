@@ -1,15 +1,15 @@
 🟢 🐋 WHALE ALERT 🟢
 
-🟢 BUY USDC/WETH on Uniswap V3 (1%)
-💰 $7.6K swapped
+🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
+💰 463.94 USDT swapped
 
-▸ ⇢ 7,635.2284 USDC
-▸ ⇠ 3.7686 WETH
-▸ 🦊 0xBdb3ba9f…DF47B6
-▸ 📦 Block 25210381
-▸ 🔍 TX: https://etherscan.io/tx/0xfd4adcccafc9abe1f1709b0a295d688fe87aaee2e4c6e2b3bc9ed915021b76b7
+▸ ⇢ 13,179.3422 ZAMA
+▸ ⇠ 463.939 USDT
+▸ 🐳 0x278d858f…6eF8D2
+▸ 📦 Block 25210480
+▸ 🔍 TX: https://etherscan.io/tx/0x1e299fc043e3edf5128b083aa94c280096c0b1125d8a4c74f47e88fc83c6b3c0
 
 ✅ Verified on-chain:
-  ├ CID: bafkreiglz5a5b7sthrgj6xxigbp…
-  ├ Epoch: 25210381
+  ├ CID: bafkreidx6nzz35lqgccgamc2oyp…
+  ├ Epoch: 25210480
   └ Project: allTradesSnapshot
