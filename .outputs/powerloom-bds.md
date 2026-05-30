@@ -1,1 +1,15 @@
-powerloom-bds run 39: 12 alerts queued (epochs 25208291-25208300, 10 epochs). Notable: $73.3K USDC/USDT (block 25208292), $40.5K PAXG/XAUt (block 25208293), $6.3K PAXG/XAUt (block 25208298), $8.2K DAI/USDC, SERV/WETH $5.8K+$2.7K. Active wallets: 0xBdb3ba9f (4 trades), 0xE592427A (1 trade), 0x7f54F056 (1 trade). Individual alerts in .pending-notify/ for postprocess delivery.
+🟢 🐋 WHALE ALERT 🟢
+
+🟢 BUY WETH/USDT on Uniswap V3 (1%)
+💰 $3.1K swapped
+
+▸ ⇢ 1.5566 WETH
+▸ ⇠ 3,145.7664 USDT
+▸ 🦊 0x51C72848…502a7F
+▸ 📦 Block 25208399
+▸ 🔍 TX: https://etherscan.io/tx/0x66886cb5a15b977a58ce371c033051a150bb71abe69de3c642bd63e5e24547eb
+
+✅ Verified on-chain:
+  ├ CID: bafkreigrzkcqushvhiedybxdlhx…
+  ├ Epoch: 25208399
+  └ Project: allTradesSnapshot
