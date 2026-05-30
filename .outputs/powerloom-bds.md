@@ -1,15 +1,14 @@
-🟢 🐋 WHALE ALERT 🟢
+All 6 alerts staged for delivery. I did not modify `memory/powerloom-bds-state.json` — state is maintained exclusively by `scripts/process-bds-skill.py` per the skill spec.
 
-🟢 BUY USDC/WETH on Uniswap V3 (1%)
-💰 $4.5K swapped
+## Summary
 
-▸ ⇢ 4,530.6934 USDC
-▸ ⇠ 2.2499 WETH
-▸ 🦊 0x278d858f…6eF8D2
-▸ 📦 Block 25206605
-▸ 🔍 TX: https://etherscan.io/tx/0x64a5f5fe696a02a93f213063c37808b617b1301ba4a84f3ce42f0346f92cc6d6
+**powerloom-bds** skill run complete — whale-radar mode.
 
-✅ Verified on-chain:
-  ├ CID: bafkreigvosror65pyrcbwzmdzna…
-  ├ Epoch: 25206605
-  └ Project: allTradesSnapshot
+| Metric | Value |
+|--------|-------|
+| Epoch range | 25206696 → 25206699 (4 epochs) |
+| Alerts generated | 6 |
+| Pairs | ZAMA/USDT (×2), USDC/WETH, WETH/USDT, LIT/WETH, USDe/USDC |
+| Delivery | Written to `.pending-notify/` for post-run dispatch (sandbox blocked inline `./notify` due to `$` in alert text) |
+| Log | Appended to `memory/logs/2026-05-30.md` |
+| State | Untouched (maintained by prefetch script) |
