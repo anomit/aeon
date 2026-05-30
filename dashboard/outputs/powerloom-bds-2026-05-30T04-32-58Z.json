@@ -1,0 +1,164 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 BDS Run 14 — Epochs 25205803–25205812",
+        "description": "10 epochs, 35 alerts"
+      },
+      "children": [
+        "heading-notable",
+        "stack-notable",
+        "heading-wallets",
+        "grid-wallets",
+        "alert-warning",
+        "badge-status"
+      ]
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "🔥 Notable Swaps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-swap1",
+        "text-swap2",
+        "text-swap3",
+        "text-swap4",
+        "text-swap5"
+      ]
+    },
+    "text-swap1": {
+      "type": "Text",
+      "props": {
+        "text": "$103.2K WETH→ULTI swap (block 25205812)"
+      },
+      "children": []
+    },
+    "text-swap2": {
+      "type": "Text",
+      "props": {
+        "text": "$14.0K WETH→USDT (0xBdb3b)"
+      },
+      "children": []
+    },
+    "text-swap3": {
+      "type": "Text",
+      "props": {
+        "text": "$7.7K USDC→WETH (0xC10eE)"
+      },
+      "children": []
+    },
+    "text-swap4": {
+      "type": "Text",
+      "props": {
+        "text": "$4.8K USDC→WETH (0x51C72)"
+      },
+      "children": []
+    },
+    "text-swap5": {
+      "type": "Text",
+      "props": {
+        "text": "$4.5K LINK/WETH + $4.5K USDC/SEI (0x7cDa5)"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-wallets": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Active Wallets",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "grid-wallets": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "sm"
+      },
+      "children": [
+        "text-wallet1",
+        "text-wallet2",
+        "text-wallet3",
+        "text-wallet4"
+      ]
+    },
+    "text-wallet1": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (10+ trades: USDC/WETH, WETH/USDT, WETH/SPX, MNT/USDe)"
+      },
+      "children": []
+    },
+    "text-wallet2": {
+      "type": "Text",
+      "props": {
+        "text": "0x7cDa585e (4: LINK/WETH, USDC/SEI)"
+      },
+      "children": []
+    },
+    "text-wallet3": {
+      "type": "Text",
+      "props": {
+        "text": "0xe60fAE78 (3: LINK/WETH, WETH/USDT)"
+      },
+      "children": []
+    },
+    "text-wallet4": {
+      "type": "Text",
+      "props": {
+        "text": "0x51C72848 (2: USDC/WETH, FET/WETH)"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-warning": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "1 ZAMA/USDT alert with anomalous USD value (oracle formatting bug)"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ All 35 individual alerts queued for post-run delivery",
+        "variant": "success"
+      },
+      "children": []
+    }
+  }
+}
