@@ -1,0 +1,143 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-buy",
+        "text-amount",
+        "stack-details",
+        "separator",
+        "verification"
+      ]
+    },
+    "badge-buy": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢 BUY WETH/USDT on Uniswap V3 (1%)",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "text-amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $1.7K swapped",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail-1",
+        "detail-2",
+        "detail-3",
+        "detail-4",
+        "detail-5"
+      ]
+    },
+    "detail-1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 0.84892263 WETH"
+      },
+      "children": []
+    },
+    "detail-2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1,718.6188 USDT"
+      },
+      "children": []
+    },
+    "detail-3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x51C72848…502a7F"
+      },
+      "children": []
+    },
+    "detail-4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25209592"
+      },
+      "children": []
+    },
+    "detail-5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🔍 TX: https://etherscan.io/tx/0x58cfa3044e61e8ae5198af8782e002515092961dd6758fd99baf4789d31efdb0"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Card",
+      "props": {
+        "title": "✅ Verified on-chain:"
+      },
+      "children": [
+        "verification-stack"
+      ]
+    },
+    "verification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verify-cid",
+        "verify-epoch",
+        "verify-project"
+      ]
+    },
+    "verify-cid": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ CID: bafkreiedabfpp2vust5few2nozy…"
+      },
+      "children": []
+    },
+    "verify-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ Epoch: 25209592"
+      },
+      "children": []
+    },
+    "verify-project": {
+      "type": "Text",
+      "props": {
+        "text": "  └ Project: allTradesSnapshot"
+      },
+      "children": []
+    }
+  }
+}
