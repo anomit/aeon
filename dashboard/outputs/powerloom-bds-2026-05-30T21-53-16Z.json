@@ -1,0 +1,152 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-swap",
+        "text-amount",
+        "stack-details",
+        "separator",
+        "stack-verification"
+      ]
+    },
+    "heading-swap": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 BUY WBTC/WETH on Uniswap V3 (5%)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $4.4K swapped",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-btc",
+        "text-eth",
+        "text-address",
+        "text-block",
+        "text-tx"
+      ]
+    },
+    "text-btc": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 0.0589726 WBTC"
+      },
+      "children": []
+    },
+    "text-eth": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 2.1443 WETH"
+      },
+      "children": []
+    },
+    "text-address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xBdb3ba9f…DF47B6"
+      },
+      "children": []
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25210985"
+      },
+      "children": []
+    },
+    "text-tx": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🔍 TX:"
+      },
+      "children": [
+        "link-tx"
+      ]
+    },
+    "link-tx": {
+      "type": "Link",
+      "props": {
+        "label": "https://etherscan.io/tx/0x90bf76028379b2480fd11b6d7b4126191743f5a3ab1f363435825aa5bb852797",
+        "href": "https://etherscan.io/tx/0x90bf76028379b2480fd11b6d7b4126191743f5a3ab1f363435825aa5bb852797"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-verified",
+        "text-cid",
+        "text-epoch",
+        "text-project"
+      ]
+    },
+    "text-verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:"
+      },
+      "children": []
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiajpuzor3kl36kuonpvinl…"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25210985"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot"
+      },
+      "children": []
+    }
+  }
+}

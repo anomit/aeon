@@ -1,15 +1,15 @@
 🟢 🐋 WHALE ALERT 🟢
 
-🟢 BUY WETH/ONDO on Uniswap V3 (30%)
-💰 $1.1K swapped
+🟢 BUY WBTC/WETH on Uniswap V3 (5%)
+💰 $4.4K swapped
 
-▸ ⇢ 0.53006934 WETH
-▸ ⇠ 2,937.2437 ONDO
-▸ 🦊 0x51C72848…502a7F
-▸ 📦 Block 25210876
-▸ 🔍 TX: https://etherscan.io/tx/0xffddb73c45e6766d100387ed56219c256cd2588c6f4bb3786fa26f4bdf5c843b
+▸ ⇢ 0.0589726 WBTC
+▸ ⇠ 2.1443 WETH
+▸ 🦊 0xBdb3ba9f…DF47B6
+▸ 📦 Block 25210985
+▸ 🔍 TX: https://etherscan.io/tx/0x90bf76028379b2480fd11b6d7b4126191743f5a3ab1f363435825aa5bb852797
 
 ✅ Verified on-chain:
-  ├ CID: bafkreihctjljappohjavmkism7s…
-  ├ Epoch: 25210876
+  ├ CID: bafkreiajpuzor3kl36kuonpvinl…
+  ├ Epoch: 25210985
   └ Project: allTradesSnapshot
