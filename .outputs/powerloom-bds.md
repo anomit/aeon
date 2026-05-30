@@ -1,15 +1,15 @@
 🟢 🐋 WHALE ALERT 🟢
 
-🟢 BUY WETH/USDT on Uniswap V3 (1%)
-💰 $4.7K swapped
+🟢 BUY USDC/WETH on Uniswap V3 (1%)
+💰 $1.5K swapped
 
-▸ ⇢ 2.3367 WETH
-▸ ⇠ 4,731.7256 USDT
-▸ 🦊 0xBdb3ba9f…DF47B6
-▸ 📦 Block 25208996
-▸ 🔍 TX: https://etherscan.io/tx/0x1c2527bdcaab15c0fe8c7ec0da817a0f522530f2aa9c373f314cbcf6b6a46182
+▸ ⇢ 1,538.2836 USDC
+▸ ⇠ 0.75967358 WETH
+▸ 🦊 0x278d858f…6eF8D2
+▸ 📦 Block 25209097
+▸ 🔍 TX: https://etherscan.io/tx/0x117ae7352de73f3e79634df18e59c355a2fba23c586b36c0e254b6fa2a9e9409
 
 ✅ Verified on-chain:
-  ├ CID: bafkreigrg5dc5dbvq3szt76rj2m…
-  ├ Epoch: 25208996
+  ├ CID: bafkreidexaxbfqp4smuurj6ghtv…
+  ├ Epoch: 25209097
   └ Project: allTradesSnapshot
