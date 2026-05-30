@@ -1,0 +1,142 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-action",
+        "stat-swap",
+        "separator-1",
+        "text-address",
+        "text-weth",
+        "text-usdt",
+        "text-block",
+        "separator-2",
+        "link-tx",
+        "separator-3",
+        "alert-verify"
+      ]
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "BUY WETH/USDT on Uniswap V3 (1%)",
+        "variant": "lead"
+      }
+    },
+    "stat-swap": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$1.6K"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-address": {
+      "type": "Text",
+      "props": {
+        "text": "🐊 0x1103fC56…848566",
+        "variant": "body"
+      }
+    },
+    "text-weth": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 0.78217806 WETH",
+        "variant": "body"
+      }
+    },
+    "text-usdt": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1,575.1028 USDT",
+        "variant": "body"
+      }
+    },
+    "text-block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25206106",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tx": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0x6fe8fcf68f1bee2952dfe380891258b819370ec9b48bda80c01d44d8f678fcdc",
+        "href": "https://etherscan.io/tx/0x6fe8fcf68f1bee2952dfe380891258b819370ec9b48bda80c01d44d8f678fcdc"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-verify": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:",
+        "type": "success"
+      }
+    },
+    "stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-cid",
+        "text-epoch",
+        "text-project"
+      ]
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreifqfyupsqa5nuyo44px6qx…",
+        "variant": "muted"
+      }
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25206106",
+        "variant": "muted"
+      }
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "muted"
+      }
+    }
+  }
+}
