@@ -1,0 +1,189 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds",
+        "description": "12 alerts queued"
+      },
+      "children": [
+        "epochs-stack",
+        "separator-1",
+        "notable-transactions",
+        "separator-2",
+        "special-alerts",
+        "separator-3",
+        "active-wallets"
+      ]
+    },
+    "epochs-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "epochs-text"
+      ]
+    },
+    "epochs-text": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25205604-25205613",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-transactions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "transaction-1",
+        "transaction-2",
+        "transaction-3",
+        "transaction-4",
+        "transaction-5"
+      ]
+    },
+    "transaction-1": {
+      "type": "Text",
+      "props": {
+        "text": "$37.4K + $41.2K USDC/WETH (0xBdb3ba9f)",
+        "variant": "body"
+      }
+    },
+    "transaction-2": {
+      "type": "Text",
+      "props": {
+        "text": "$25.2K USDC/WETH",
+        "variant": "body"
+      }
+    },
+    "transaction-3": {
+      "type": "Text",
+      "props": {
+        "text": "$11.3K USDC/WETH",
+        "variant": "body"
+      }
+    },
+    "transaction-4": {
+      "type": "Text",
+      "props": {
+        "text": "$8.0K WETH/USDT (0x51C72848)",
+        "variant": "body"
+      }
+    },
+    "transaction-5": {
+      "type": "Text",
+      "props": {
+        "text": "$9.6K USDC/USDT",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "special-alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zama-alert",
+        "asteroid-alert",
+        "aave-alert"
+      ]
+    },
+    "zama-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Oracle Bug",
+        "message": "9x ZAMA/USDT anomalous USD",
+        "type": "warning"
+      }
+    },
+    "asteroid-alert": {
+      "type": "Text",
+      "props": {
+        "text": "4x ASTEROID swaps",
+        "variant": "body"
+      }
+    },
+    "aave-alert": {
+      "type": "Text",
+      "props": {
+        "text": "AAVE/WETH buys",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "active-wallets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wallet-1",
+        "wallet-2",
+        "wallet-3",
+        "wallet-4",
+        "wallet-5"
+      ]
+    },
+    "wallet-1": {
+      "type": "Badge",
+      "props": {
+        "text": "0xBdb3ba9f (7 alerts)",
+        "variant": "default"
+      }
+    },
+    "wallet-2": {
+      "type": "Badge",
+      "props": {
+        "text": "0x278d858f (7x ZAMA)",
+        "variant": "default"
+      }
+    },
+    "wallet-3": {
+      "type": "Badge",
+      "props": {
+        "text": "0x51C72848 (3)",
+        "variant": "default"
+      }
+    },
+    "wallet-4": {
+      "type": "Badge",
+      "props": {
+        "text": "0xe60fAE78 (3x WETH/USDT)",
+        "variant": "default"
+      }
+    },
+    "wallet-5": {
+      "type": "Badge",
+      "props": {
+        "text": "0xA5F91E59 (3x ASTEROID)",
+        "variant": "default"
+      }
+    }
+  }
+}
