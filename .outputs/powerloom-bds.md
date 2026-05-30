@@ -1,20 +1,23 @@
-All 16 alert files + 1 summary queued in `.pending-notify/`. The postprocess step will deliver them to configured channels.
-
 ## Summary
 
-**powerloom-bds (run 25)** — completed successfully.
+**powerloom-bds (run 26)** — completed successfully.
 
-- **Epochs processed:** 25206997 → 25207002 (6 epochs)
-- **Alerts dispatched:** 16 whale alerts queued to `.pending-notify/` for post-run delivery
-- **State file:** Unmodified (`lastStreamEpoch: 25207002` — maintained by prefetch)
-- **Log:** Appended to `memory/logs/2026-05-30.md`
+- **Epochs processed:** 3 (25207097–25207099)
+- **Alerts dispatched:** 6
+- **Status:** OK
 
-**Notable activity:**
-- 🐋 **0xBdb3ba9f** accumulated ~196K ZAMA across 4 buys (blocks 25206998–25207001)
-- 🪙 **PAXG/XAUt** gold stablecoin swap $6.0K (0xBA2CEeD1)
-- 💱 WETH/USDT swaps: $3.0K, $1.7K, $1.1K; USDC/WETH: $2.3K+$2.4K
-- ⚠️ 7× ZAMA/USDT alerts with anomalous USD values (known oracle formatting bug — actual swaps were $445–$3,249 USDT range)
+**Alerts queued in `.pending-notify/`:**
+| # | Trade | Amount | Block | Wallet |
+|---|-------|--------|-------|--------|
+| 1 | ID/USDC BUY | $3.0K | 25207097 | 0xBdb3ba9f |
+| 2 | ZAMA/USDT BUY | 22,329 ZAMA | 25207097 | 0x278d858f |
+| 3 | SKY/UNKNOWN BUY | $1.9K | 25207097 | 0x4c3ccC98 |
+| 4 | PAXG/XAUt BUY | $5.9K | 25207097 | 0x4C82D1fB |
+| 5 | ZAMA/USDT BUY | 44,756 ZAMA | 25207098 | 0x278d858f |
+| 6 | ZAMA/USDT BUY | 519,274 ZAMA | 25207099 | 0xBdb3ba9f |
 
-**Files created/modified:**
-- `.pending-notify/1780130010.md` through `.pending-notify/1780130025.md` (16 alerts + 1 summary)
-- `memory/logs/2026-05-30.md` (appended run 25 entry)
+**Notes:**
+- 3 ZAMA/USDT alerts had anomalous USD values (oracle formatting bug) — sanitized to show actual token/USDT amounts instead of the broken $XX-quadrillion figures
+- Sandbox blocked inline `./notify` calls — all alerts written directly to `.pending-notify/` (alert-1.md through alert-6.md) for postprocess delivery
+- Log entry appended to `memory/logs/2026-05-30.md`
+- State file (`memory/powerloom-bds-state.json`) untouched as instructed
