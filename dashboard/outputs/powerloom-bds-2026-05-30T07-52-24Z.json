@@ -1,0 +1,151 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT"
+      },
+      "children": [
+        "header",
+        "main-content",
+        "verification"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert-badge",
+        "trade-type",
+        "amount"
+      ]
+    },
+    "alert-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢 ALERT",
+        "variant": "success"
+      }
+    },
+    "trade-type": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY LDO/WETH on Uniswap V3 (5%)",
+        "variant": "lead"
+      }
+    },
+    "amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$1.7K",
+        "delta": "swapped"
+      }
+    },
+    "main-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator1",
+        "trade-details",
+        "tx-link"
+      ]
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trade-details": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Field",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Received",
+            "5,258.1199 LDO"
+          ],
+          [
+            "Sent",
+            "0.83689871 WETH"
+          ],
+          [
+            "Address",
+            "0x51C72848…502a7F"
+          ],
+          [
+            "Block",
+            "25206805"
+          ]
+        ]
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 View Transaction",
+        "href": "https://etherscan.io/tx/0xc41266a1372653c545bec1e4f8e671bcd22e99c78bcea88e6756909eb6a7d364"
+      }
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "separator2",
+        "verified-title",
+        "verified-details"
+      ]
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verified-title": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      }
+    },
+    "verified-details": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Field",
+          "Value"
+        ],
+        "rows": [
+          [
+            "CID",
+            "bafkreielflkiyulmrqmieu7kabg…"
+          ],
+          [
+            "Epoch",
+            "25206805"
+          ],
+          [
+            "Project",
+            "allTradesSnapshot"
+          ]
+        ]
+      }
+    }
+  }
+}
