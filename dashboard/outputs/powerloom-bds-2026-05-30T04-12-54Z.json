@@ -1,0 +1,296 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Run 13",
+        "description": "Epochs 25205702→25205711 (10 epochs)"
+      },
+      "children": [
+        "stack1",
+        "stack2",
+        "stack3"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "moves-stack"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Alerts Queued",
+        "value": "40"
+      }
+    },
+    "moves-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "move1",
+        "move2",
+        "move3",
+        "move4",
+        "move5",
+        "move6",
+        "move7",
+        "move8"
+      ]
+    },
+    "move1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat2",
+        "text1"
+      ]
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "value": "$100.6K"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "USDC→WETH (0x51C72848)"
+      }
+    },
+    "move2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat3",
+        "text2"
+      ]
+    },
+    "stat3": {
+      "type": "Stat",
+      "props": {
+        "value": "$96.6K"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "USDC→WETH (0x51C72848)"
+      }
+    },
+    "move3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat4",
+        "text3"
+      ]
+    },
+    "stat4": {
+      "type": "Stat",
+      "props": {
+        "value": "$84.5K"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "WETH→USDT (0x51C72848)"
+      }
+    },
+    "move4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat5",
+        "text4"
+      ]
+    },
+    "stat5": {
+      "type": "Stat",
+      "props": {
+        "value": "$78.8K"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "WETH→USDT (0x51C72848)"
+      }
+    },
+    "move5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat6",
+        "text5"
+      ]
+    },
+    "stat6": {
+      "type": "Stat",
+      "props": {
+        "value": "$76.1K"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "USDC→WETH (block 25205702)"
+      }
+    },
+    "move6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat7",
+        "text6"
+      ]
+    },
+    "stat7": {
+      "type": "Stat",
+      "props": {
+        "value": "$67.9K"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "WBTC→WETH (0x51C72848)"
+      }
+    },
+    "move7": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat8",
+        "text7"
+      ]
+    },
+    "stat8": {
+      "type": "Stat",
+      "props": {
+        "value": "$58.1K"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "USDC→WETH (0x91f56424)"
+      }
+    },
+    "move8": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat9",
+        "text8"
+      ]
+    },
+    "stat9": {
+      "type": "Stat",
+      "props": {
+        "value": "$46.6K"
+      }
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "USDC→WETH (0x51C72848)"
+      }
+    },
+    "stack2": {
+      "type": "Alert",
+      "props": {
+        "title": "ZAMA/USDT Alerts",
+        "message": "5 ZAMA/USDT alerts with anomalous USD values (oracle formatting bug)",
+        "type": "warning"
+      }
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text9",
+        "active-stack"
+      ]
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 Active:",
+        "variant": "lead"
+      }
+    },
+    "active-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "0x51C72848 (20+ trades)",
+        "variant": "default"
+      }
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "0xBdb3ba9f (8+ trades)",
+        "variant": "default"
+      }
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "0xe60fAE78 (3 trades)",
+        "variant": "default"
+      }
+    }
+  }
+}
