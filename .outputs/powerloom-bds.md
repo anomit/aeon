@@ -1,15 +1,15 @@
-WHALE ALERT BATCH - 30 on-chain trades detected (epochs 25209879-25209888)
+🟢 🐋 WHALE ALERT 🟢
 
-Notable swaps:
-- 70K USDC to USDT (0xE592427A, block 25209885)
-- 22.3K USDC to USDT (0xE592427A, block 25209880)
-- 20K DAI to USDT (0x4C82D1fB, block 25209888)
-- 18.4K USDe to USDT (0xBA2CEeD1, block 25209882)
-- 9K WBTC to WETH (0x7cDa585e, block 25209880)
-- 7.1K WETH to USDT (0xe60fAE78, block 25209886)
-- 6.8K USDC to WETH (0x51C72848, block 25209885)
-- 6K USDC to WETH (0xBdb3ba9f, block 25209882)
+🟢 BUY USDC/WETH on Uniswap V3 (5%)
+💰 $3.0K swapped
 
-Active wallets: 0xBdb3ba9f (7 trades), 0xe60fAE78 (6 trades), 0x51C72848 (4 trades), 0xE592427A (3 trades)
+▸ ⇢ 2,971.7387 USDC
+▸ ⇠ 1.4693 WETH
+▸ 🐳 0xE08D97e1…72D015
+▸ 📦 Block 25209981
+▸ 🔍 TX: https://etherscan.io/tx/0x5396c2a623ebe7145adab0885a6edf251c52c4b43225cc93dbb02c566d8a5cd3
 
-Verified on-chain via Powerloom BDS allTradesSnapshot
+✅ Verified on-chain:
+  ├ CID: bafkreiddiyv7vklt5wl2gkzmev3…
+  ├ Epoch: 25209981
+  └ Project: allTradesSnapshot

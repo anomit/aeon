@@ -1,0 +1,154 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT"
+      },
+      "children": [
+        "header",
+        "trade_info",
+        "details",
+        "verification"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 🐋 WHALE ALERT 🟢",
+        "level": "h1"
+      },
+      "children": []
+    },
+    "trade_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "buy_badge",
+        "amount",
+        "token_trade"
+      ]
+    },
+    "buy_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢 BUY USDC/WETH on Uniswap V3 (5%)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "amount": {
+      "type": "Stat",
+      "props": {
+        "label": "💰 Swapped",
+        "value": "$3.0K",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "token_trade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "usdc",
+        "weth",
+        "whale_addr",
+        "block",
+        "tx_link"
+      ]
+    },
+    "usdc": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 2,971.7387 USDC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "weth": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1.4693 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale_addr": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0xE08D97e1…72D015",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25209981",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx_link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x5396c2a623ebe7145adab0885a6edf251c52c4b43225cc93dbb02c566d8a5cd3"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification_header",
+        "cid",
+        "epoch",
+        "project"
+      ]
+    },
+    "verification_header": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiddiyv7vklt5wl2gkzmev3…",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25209981",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
