@@ -1,15 +1,15 @@
 🟢 🐋 WHALE ALERT 🟢
 
-🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
-💰 $1064260844676884090957950739455632474112.00M swapped
+🟢 BUY USDC/ASTEROID on Uniswap V3 (30%)
+💰 $1.0K swapped
 
-▸ ⇢ 1,544.9506 ZAMA
-▸ ⇠ 52.8579 USDT
-▸ 🦊 0x278d858f…6eF8D2
-▸ 📦 Block 25209296
-▸ 🔍 TX: https://etherscan.io/tx/0xa210dc34f226272cb70e7c09149601b525e18ade455aa8c7c0d575f5729f0d13
+▸ ⇢ 1,001.2325 USDC
+▸ ⇠ 6.41M ASTEROID
+▸ 🦊 0x4313C378…96b27f
+▸ 📦 Block 25209396
+▸ 🔍 TX: https://etherscan.io/tx/0x77059f779a612b67c11fd638c1c78f78bda3be62a4a5d61aeb242a23126846f8
 
 ✅ Verified on-chain:
-  ├ CID: bafkreif7zbpwk77mrwczn7vp2iz…
-  ├ Epoch: 25209296
+  ├ CID: bafkreianlflscpfays6kqce3nxj…
+  ├ Epoch: 25209396
   └ Project: allTradesSnapshot

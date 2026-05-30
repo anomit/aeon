@@ -1,0 +1,85 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "whale-alert",
+        "swap-details",
+        "transaction-info",
+        "verification"
+      ]
+    },
+    "whale-alert": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 🐋 WHALE ALERT 🟢",
+        "variant": "lead"
+      }
+    },
+    "swap-details": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY USDC/ASTEROID on Uniswap V3 (30%)\n💰 $1.0K swapped"
+      }
+    },
+    "transaction-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "swap-amounts",
+        "address",
+        "block",
+        "tx-link"
+      ]
+    },
+    "swap-amounts": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1,001.2325 USDC\n▸ ⇠ 6.41M ASTEROID"
+      }
+    },
+    "address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x4313C378…96b27f"
+      }
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25209396"
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x77059f779a612b67c11fd638c1c78f78bda3be62a4a5d61aeb242a23126846f8",
+        "href": "https://etherscan.io/tx/0x77059f779a612b67c11fd638c1c78f78bda3be62a4a5d61aeb242a23126846f8"
+      }
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:"
+      }
+    }
+  }
+}
