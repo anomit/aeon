@@ -1,0 +1,99 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT 🐋"
+      },
+      "children": [
+        "badge",
+        "text_swap",
+        "divider1",
+        "stat_amount",
+        "text_details",
+        "divider2",
+        "text_address",
+        "text_block",
+        "link_tx",
+        "divider3",
+        "text_verified"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SUCCESS",
+        "variant": "success"
+      }
+    },
+    "text_swap": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY USDC/WETH on Uniswap V3 (1%)",
+        "variant": "lead"
+      }
+    },
+    "divider1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$1.7K"
+      }
+    },
+    "text_details": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇒ 1,659.8518 USDC\n▸ ⇐ 0.8235818 WETH",
+        "variant": "body"
+      }
+    },
+    "divider2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐋 0x278d858f…6eF8D2",
+        "variant": "body"
+      }
+    },
+    "text_block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25206506",
+        "variant": "body"
+      }
+    },
+    "link_tx": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x511adbb59943698077cda3f064b459db423670aa12801b01deb75e15bed1be48",
+        "href": "https://etherscan.io/tx/0x511adbb59943698077cda3f064b459db423670aa12801b01deb75e15bed1be48"
+      }
+    },
+    "divider3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:\n  ├ CID: bafkreid42xapsr5kelawuz76ype…\n  ├ Epoch: 25206506\n  └ Project: allTradesSnapshot",
+        "variant": "body"
+      }
+    }
+  }
+}
