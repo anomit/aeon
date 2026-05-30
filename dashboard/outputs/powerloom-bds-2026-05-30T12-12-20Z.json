@@ -1,0 +1,77 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "description",
+        "alerts_separator",
+        "alert1",
+        "alert2",
+        "alert3",
+        "active_separator",
+        "active_addresses_title",
+        "active_addresses"
+      ]
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "4 alerts queued (epochs 25208091-25208094)"
+      }
+    },
+    "alerts_separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "ZAMA/USDT buys",
+        "message": "2x trades - anomalous USD, oracle bug",
+        "type": "warning"
+      }
+    },
+    "alert2": {
+      "type": "Alert",
+      "props": {
+        "title": "Clutch/WETH",
+        "message": "1.6K trade",
+        "type": "info"
+      }
+    },
+    "alert3": {
+      "type": "Alert",
+      "props": {
+        "title": "USDC/WETH",
+        "message": "1.1K trade",
+        "type": "info"
+      }
+    },
+    "active_separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "active_addresses_title": {
+      "type": "Text",
+      "props": {
+        "text": "Active:",
+        "variant": "lead"
+      }
+    },
+    "active_addresses": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f, 0x278d858f, 0x28b1Dc1a, 0xBc1D9760"
+      }
+    }
+  }
+}
