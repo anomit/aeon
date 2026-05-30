@@ -1,0 +1,75 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Powerloom BDS Batch",
+        "description": "Epochs 25208590→25208599 (10 epochs, 34 alerts)"
+      },
+      "children": [
+        "heading1",
+        "separator1",
+        "text1",
+        "separator2",
+        "badge1",
+        "separator3",
+        "text2"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "$100.9K LINK/WETH buy (0xC36442b4, block 25208593), $8.8K PAXG/XAUt gold swap (0x51C72848, block 25208595), $7.7K WETH/USDT (0xBdb3ba9f), $6.2K WETH/USDT (0x4C82D1fB), $5.9K USDC/WETH (0xBdb3ba9f), 2× ZAMA/USDT anomalous USD (oracle formatting bug), WETH/RAIL $1.7K, USDC/SWEAT $1.0K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified on-chain via Powerloom BDS allTradesSnapshot",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets: 0xBdb3ba9f (8 trades: USDC/WETH, WETH/USDT, WBTC/WETH, tBTC/WBTC), 0x51C72848 (4 trades: PAXG/XAUt, USDC/WETH), 0x4C82D1fB (5 trades: USDC/WETH, WETH/USDT, WETH/RAIL), 0xC36442b4 (1 trade: LINK/WETH $100.9K)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
