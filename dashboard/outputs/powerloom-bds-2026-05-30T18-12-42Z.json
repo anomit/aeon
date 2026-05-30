@@ -1,0 +1,152 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT BATCH"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "separator1",
+        "stack1",
+        "separator2",
+        "stack2",
+        "text2"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "30 on-chain trades detected (epochs 25209879-25209888)",
+        "level": "h2"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Notable swaps:",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "text6",
+        "text7",
+        "text8",
+        "text9"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "- 70K USDC to USDT (0xE592427A, block 25209885)"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "- 22.3K USDC to USDT (0xE592427A, block 25209880)"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "- 20K DAI to USDT (0x4C82D1fB, block 25209888)"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "- 18.4K USDe to USDT (0xBA2CEeD1, block 25209882)"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "- 9K WBTC to WETH (0x7cDa585e, block 25209880)"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "- 7.1K WETH to USDT (0xe60fAE78, block 25209886)"
+      }
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "- 6.8K USDC to WETH (0x51C72848, block 25209885)"
+      }
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "- 6K USDC to WETH (0xBdb3ba9f, block 25209882)"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text10",
+        "text11",
+        "text12",
+        "text13"
+      ]
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets:",
+        "variant": "lead"
+      }
+    },
+    "text11": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (7 trades), 0xe60fAE78 (6 trades), 0x51C72848 (4 trades), 0xE592427A (3 trades)"
+      }
+    },
+    "text12": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "muted"
+      }
+    },
+    "text13": {
+      "type": "Text",
+      "props": {
+        "text": "Verified on-chain via Powerloom BDS allTradesSnapshot",
+        "variant": "muted"
+      }
+    }
+  }
+}
