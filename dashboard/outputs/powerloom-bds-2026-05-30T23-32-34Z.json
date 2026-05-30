@@ -1,0 +1,149 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "stat",
+        "details",
+        "separator",
+        "verification"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢 BUY DAI/USDC on Uniswap V3 (1%)",
+        "variant": "default"
+      }
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$126.2K"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail1",
+        "detail2",
+        "detail3",
+        "detail4"
+      ]
+    },
+    "detail1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 126,185.471 DAI",
+        "variant": "body"
+      }
+    },
+    "detail2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 126,181.3509 USDC",
+        "variant": "body"
+      }
+    },
+    "detail3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0x4C82D1fB…0a2cCA",
+        "variant": "body"
+      }
+    },
+    "detail4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25211475",
+        "variant": "body"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification_header",
+        "verification_details",
+        "link"
+      ]
+    },
+    "verification_header": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      }
+    },
+    "verification_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verify1",
+        "verify2",
+        "verify3"
+      ]
+    },
+    "verify1": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreig7rshq7qmgvt4n7vrxhhh…",
+        "variant": "caption"
+      }
+    },
+    "verify2": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25211475",
+        "variant": "caption"
+      }
+    },
+    "verify3": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "caption"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: https://etherscan.io/tx/0x9189d0e33bc346926de9e8a221fbb42c5c1ee6b3262b913a52e4254e85f42234",
+        "href": "https://etherscan.io/tx/0x9189d0e33bc346926de9e8a221fbb42c5c1ee6b3262b913a52e4254e85f42234"
+      }
+    }
+  }
+}
