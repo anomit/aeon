@@ -1,0 +1,141 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-1",
+        "separator-1",
+        "stack-2",
+        "separator-2",
+        "stack-3",
+        "separator-3",
+        "alert-1"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY ZAMA/USDT on Uniswap V3 (5%)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-1",
+        "stat-2"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "ZAMA Out",
+        "value": "6,086.8153"
+      },
+      "children": []
+    },
+    "stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "USDT In",
+        "value": "223.0896"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-2",
+        "text-3",
+        "text-4",
+        "link-1"
+      ]
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "🦊 0x278d858f…6eF8D2",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25211181",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "💰 ~$223 swapped (display anomaly)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 View Transaction",
+        "href": "https://etherscan.io/tx/0x397f2821c9fdfa19e638dd39fa1cf4d63888eb078395359499f9efc0a1e4151a"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "message": "CID: bafkreibjkwlkuyhsqbohs2x3mzv…\nEpoch: 25211181\nProject: allTradesSnapshot",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
