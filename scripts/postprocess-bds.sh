@@ -41,4 +41,18 @@ else:
     print(f"postprocess-bds: cursor already at {prev}")
 PYTHON
 
+# Dispatch cached alerts via ./notify (LLM can't run bash/python3 in sandbox)
+ALERTS_FILE=".bds-cache/alerts.json"
+if [ -f "$ALERTS_FILE" ]; then
+    ALERT_COUNT=$(jq '.alerts | length' "$ALERTS_FILE" 2>/dev/null || echo 0)
+    if [ "$ALERT_COUNT" -gt 0 ]; then
+        echo "postprocess-bds: dispatching $ALERT_COUNT alerts"
+        for i in $(seq 0 $((ALERT_COUNT - 1))); do
+            ALERT=$(jq -r ".alerts[$i]" "$ALERTS_FILE")
+            ./notify "$ALERT" || true
+        done
+        echo "postprocess-bds: dispatched $ALERT_COUNT alerts"
+    fi
+fi
+
 exit 0
