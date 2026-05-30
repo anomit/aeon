@@ -1,15 +1,15 @@
 🟢 🐋 WHALE ALERT 🟢
 
-🟢 BUY DAI/USDC on Uniswap V3 (1%)
-💰 $126.2K swapped
+🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
+💰 High-value swap
 
-▸ ⇢ 126,185.471 DAI
-▸ ⇠ 126,181.3509 USDC
-▸ 🐊 0x4C82D1fB…0a2cCA
-▸ 📦 Block 25211475
-▸ 🔍 TX: https://etherscan.io/tx/0x9189d0e33bc346926de9e8a221fbb42c5c1ee6b3262b913a52e4254e85f42234
+▸ ⇢ 5,497.3351 ZAMA
+▸ ⇠ 199.9262 USDT
+▸ 🦊 0x278d858f…6eF8D2
+▸ 📦 Block 25211581
+▸ 🔍 TX: https://etherscan.io/tx/0x426b3809821230792c7363b884526e93d20b04c9d7d0bb23dd68b433dc7b979e
 
 ✅ Verified on-chain:
-  ├ CID: bafkreig7rshq7qmgvt4n7vrxhhh…
-  ├ Epoch: 25211475
+  ├ CID: bafkreig4tx4ehfhhxdcsiojsnaa…
+  ├ Epoch: 25211581
   └ Project: allTradesSnapshot
