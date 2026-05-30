@@ -1,16 +1,1 @@
-BDS Run 6 - Epoch 25205008-25205016 (9 epochs, 33 alerts)
-
-Notable swaps:
-- $9.6K WBTC/WETH (0x8F10B)
-- $9.5K USDC/WETH (0xBdb3b)  
-- $8.1K WBTC/BBTC
-- $6.6K + $5.4K syBTC/WBTC (0x66a98)
-- $6.4K PAXG/XAUt (0x51C72)
-- $4.5K + $3.6K USDC/SEI
-- $4.1K WETH/USDT (0x51C72)
-
-Active wallets: 0x51C72848 across 5 pairs (WETH, UNI, WBTC, PAXG), 0x7f54F056 across USDC/WETH
-
-5 ZAMA/USDT alerts with anomalous USD values (oracle formatting bug)
-
-33 individual alerts queued in .pending-notify/
+Powerloom BDS - 12 whale alerts (epochs 25205107-25205116). Notable: 1.0M AUSD/USDC buy, 7 ZAMA/USDT buys by 0x278d858f, USDC/WETH swaps. All verified on-chain via Powerloom CID snapshots.

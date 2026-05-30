@@ -1,0 +1,78 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS"
+      },
+      "children": [
+        "text-alerts",
+        "separator-1",
+        "text-notable",
+        "stat-ausd",
+        "text-zama",
+        "text-swaps",
+        "separator-2",
+        "text-verified"
+      ]
+    },
+    "text-alerts": {
+      "type": "Text",
+      "props": {
+        "text": "12 whale alerts (epochs 25205107-25205116)",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-notable": {
+      "type": "Text",
+      "props": {
+        "text": "Notable transactions:",
+        "variant": "body"
+      }
+    },
+    "stat-ausd": {
+      "type": "Stat",
+      "props": {
+        "label": "AUSD/USDC buy",
+        "value": "1.0M",
+        "delta": "significant",
+        "trend": "up"
+      }
+    },
+    "text-zama": {
+      "type": "Text",
+      "props": {
+        "text": "7 ZAMA/USDT buys by 0x278d858f",
+        "variant": "body"
+      }
+    },
+    "text-swaps": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH swaps",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-verified": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom CID snapshots",
+        "variant": "muted"
+      }
+    }
+  }
+}
