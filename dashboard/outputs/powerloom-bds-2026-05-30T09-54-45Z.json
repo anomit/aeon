@@ -1,0 +1,83 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BDS Run 29 Summary"
+      },
+      "children": [
+        "heading",
+        "epoch-text",
+        "stat-alerts",
+        "separator",
+        "wallet-heading",
+        "wallet-text",
+        "swap-heading",
+        "swap-text",
+        "verification-text"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BDS Run 29 Summary",
+        "level": "h1"
+      }
+    },
+    "epoch-text": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25207395–25207403 (9 epochs)"
+      }
+    },
+    "stat-alerts": {
+      "type": "Stat",
+      "props": {
+        "label": "Alerts",
+        "value": "20",
+        "delta": "+20",
+        "trend": "up"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "wallet-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Heavy ZAMA/USDT Accumulation",
+        "level": "h3"
+      }
+    },
+    "wallet-text": {
+      "type": "Text",
+      "props": {
+        "text": "Wallets: 0x278d858f, 0x76600115, 0x98C3d318, 0x68b34658, 0xC0b7D8dE"
+      }
+    },
+    "swap-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Swap Pairs",
+        "level": "h3"
+      }
+    },
+    "swap-text": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH, WETH/USDT, PENDLE/WETH"
+      }
+    },
+    "verification-text": {
+      "type": "Text",
+      "props": {
+        "text": "All verified on-chain via Powerloom BDS."
+      }
+    }
+  }
+}
