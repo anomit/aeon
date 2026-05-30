@@ -1,15 +1,1 @@
-🐳 WHALE ALERT 🐳
-
-🟢 BUY USDC/ASTEROID on Uniswap V3 (30%)
-💰 $1.2K swapped
-
-▸ ⇒ 1,190.2835 USDC
-▸ ⇐ 7.45M ASTEROID
-▸ 🐳 0xA5F91E59…B730B0
-▸ 📦 Block 25208195
-▸ 🔍 TX: https://etherscan.io/tx/0x524ae0f42b71c166283b8159417970c1811fccf5d768e793eaad01078d1e85fb
-
-✅ Verified on-chain:
-  ├ CID: bafkreihgzs6bpblqwy37sy2brmh…
-  ├ Epoch: 25208195
-  └ Project: allTradesSnapshot
+powerloom-bds run 39: 12 alerts queued (epochs 25208291-25208300, 10 epochs). Notable: $73.3K USDC/USDT (block 25208292), $40.5K PAXG/XAUt (block 25208293), $6.3K PAXG/XAUt (block 25208298), $8.2K DAI/USDC, SERV/WETH $5.8K+$2.7K. Active wallets: 0xBdb3ba9f (4 trades), 0xE592427A (1 trade), 0x7f54F056 (1 trade). Individual alerts in .pending-notify/ for postprocess delivery.

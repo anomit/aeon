@@ -1,0 +1,150 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "stack2",
+        "stack3",
+        "text4",
+        "text5",
+        "text6",
+        "text7"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "run 39: 12 alerts queued (epochs 25208291-25208300, 10 epochs)",
+        "variant": "body"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Notable:",
+        "variant": "lead"
+      }
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat1",
+        "stat2",
+        "stat3",
+        "stat4",
+        "stat5"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC/USDT",
+        "value": "$73.3K",
+        "delta": "block 25208292"
+      }
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "PAXG/XAUt",
+        "value": "$40.5K",
+        "delta": "block 25208293"
+      }
+    },
+    "stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "PAXG/XAUt",
+        "value": "$6.3K",
+        "delta": "block 25208298"
+      }
+    },
+    "stat4": {
+      "type": "Stat",
+      "props": {
+        "label": "DAI/USDC",
+        "value": "$8.2K"
+      }
+    },
+    "stat5": {
+      "type": "Stat",
+      "props": {
+        "label": "SERV/WETH",
+        "value": "$5.8K+$2.7K"
+      }
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "separator1",
+        "text3"
+      ]
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Active wallets:",
+        "variant": "lead"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (4 trades)",
+        "variant": "body"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "0xE592427A (1 trade)",
+        "variant": "body"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "0x7f54F056 (1 trade)",
+        "variant": "body"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "Individual alerts in .pending-notify/ for postprocess delivery",
+        "variant": "caption"
+      }
+    }
+  }
+}
