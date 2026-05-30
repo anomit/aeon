@@ -1,15 +1,2 @@
-🟢 🐋 WHALE ALERT 🟢
-
-🟢 BUY FIDD/USDC on Uniswap V3 (1%)
-💰 $1.2K swapped
-
-▸ ⇢ 1,250.2792 FIDD
-▸ ⇠ 1,250 USDC
-▸ 🦊 0x7f54F056…A3Be8A
-▸ 📦 Block 25210085
-▸ 🔍 TX: https://etherscan.io/tx/0x06628fe2fb106e7acca36a4c48908e3bc1e0b93fca415a7e797da920322e132b
-
-✅ Verified on-chain:
-  ├ CID: bafkreigtc6uk2rq5rggieexerxt…
-  ├ Epoch: 25210085
-  └ Project: allTradesSnapshot
+🐋 BDS Run Summary — Epochs 25210169–25210178 (10 epochs)
+16 alerts dispatched | Notable: $690.9K wM/USDC swap (0xE592427A, block 25210178), $37.9K USDC/WETH (0xBdb3ba9f, block 25210177), $189.69M LUNC/WETH anomalous USD (0xC36442b4, block 25210171 — oracle formatting bug), $3.7K USDC/WETH (0x278d858f), $2.0K LINK/WETH (0x51C72848) | Active wallets: 0xBdb3ba9f (4 trades), 0x51C72848 (2 trades), 0x278d858f (2 trades)
