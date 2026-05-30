@@ -1,0 +1,323 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds: 20 alerts",
+        "description": "Epochs 25207197-25207206"
+      },
+      "children": [
+        "main-stack",
+        "separator-1"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "zama-section",
+        "usdc-weth-section",
+        "weth-usdt-section",
+        "progress-section"
+      ]
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "zama-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "zama-icon",
+        "zama-details"
+      ]
+    },
+    "zama-icon": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️",
+        "variant": "warning"
+      },
+      "children": []
+    },
+    "zama-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zama-title",
+        "zama-description",
+        "wallet-list"
+      ]
+    },
+    "zama-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZAMA/USDT accumulation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "zama-description": {
+      "type": "Text",
+      "props": {
+        "text": "8 buys - anomalous USD values oracle bug",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "wallet-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "wallet-1",
+        "wallet-2",
+        "wallet-3",
+        "wallet-4"
+      ]
+    },
+    "wallet-1": {
+      "type": "Badge",
+      "props": {
+        "text": "0x7f54F056",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "wallet-2": {
+      "type": "Badge",
+      "props": {
+        "text": "0x76600115",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "wallet-3": {
+      "type": "Badge",
+      "props": {
+        "text": "0x278d858f",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "wallet-4": {
+      "type": "Badge",
+      "props": {
+        "text": "0xBdb3ba9f",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "usdc-weth-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "usdc-weth-title",
+        "usdc-weth-values"
+      ]
+    },
+    "usdc-weth-title": {
+      "type": "Heading",
+      "props": {
+        "text": "USDC/WETH",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "usdc-weth-values": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "usdc-value-1",
+        "usdc-value-2",
+        "usdc-value-3",
+        "usdc-value-4",
+        "usdc-value-5",
+        "usdc-value-6"
+      ]
+    },
+    "usdc-value-1": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$4.8K",
+        "delta": "high",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "usdc-value-2": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$3.0K",
+        "delta": "medium",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "usdc-value-3": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$4.8K",
+        "delta": "high",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "usdc-value-4": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$2.0K",
+        "delta": "medium",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "usdc-value-5": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$1.5K",
+        "delta": "low",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "usdc-value-6": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$1.0K",
+        "delta": "low",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "weth-usdt-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "weth-usdt-title",
+        "weth-usdt-values"
+      ]
+    },
+    "weth-usdt-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WETH/USDT",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "weth-usdt-values": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "weth-value-1",
+        "weth-value-2",
+        "weth-value-3",
+        "weth-value-4"
+      ]
+    },
+    "weth-value-1": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$2.4K",
+        "delta": "medium",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "weth-value-2": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$3.8K",
+        "delta": "high",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "weth-value-3": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$4.9K",
+        "delta": "high",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "weth-value-4": {
+      "type": "Stat",
+      "props": {
+        "label": "",
+        "value": "$4.6K",
+        "delta": "high",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "progress-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "progress-label",
+        "progress-bar"
+      ]
+    },
+    "progress-label": {
+      "type": "Text",
+      "props": {
+        "text": "10 epochs processed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "progress-bar": {
+      "type": "Progress",
+      "props": {
+        "value": 100,
+        "max": 100,
+        "label": "Complete"
+      },
+      "children": []
+    }
+  }
+}
