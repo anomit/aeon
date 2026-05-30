@@ -1,0 +1,162 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "main_content"
+      ]
+    },
+    "main_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_info",
+        "trade_details",
+        "transaction_info",
+        "verification"
+      ]
+    },
+    "alert_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action_text",
+        "value_stat"
+      ]
+    },
+    "action_text": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY LIT/WETH on Uniswap V3 (1%)",
+        "variant": "lead"
+      }
+    },
+    "value_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped Amount",
+        "value": "$1.7K"
+      }
+    },
+    "trade_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lit_amount",
+        "weth_amount"
+      ]
+    },
+    "lit_amount": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1,243.5212 LIT",
+        "variant": "body"
+      }
+    },
+    "weth_amount": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 0.86557944 WETH",
+        "variant": "body"
+      }
+    },
+    "transaction_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wallet",
+        "block",
+        "tx_link"
+      ]
+    },
+    "wallet": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xfbEedCFe…768737",
+        "variant": "body"
+      }
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25207604",
+        "variant": "body"
+      }
+    },
+    "tx_link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0xd185bd10f56b7fc0d36244cf720a161d65bb6ccd3e0f7b130761dd2f312ce599",
+        "href": "https://etherscan.io/tx/0xd185bd10f56b7fc0d36244cf720a161d65bb6ccd3e0f7b130761dd2f312ce599"
+      }
+    },
+    "verification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification_heading",
+        "verification_details"
+      ]
+    },
+    "verification_heading": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      }
+    },
+    "verification_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid",
+        "epoch",
+        "project"
+      ]
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreibsqotjnf35hfp7f6cd6kn…",
+        "variant": "body"
+      }
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25207604",
+        "variant": "body"
+      }
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      }
+    }
+  }
+}
