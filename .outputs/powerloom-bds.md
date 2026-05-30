@@ -1,15 +1,13 @@
-🟢 🐋 WHALE ALERT 🟢
+## Summary
 
-🟢 BUY LDO/WETH on Uniswap V3 (5%)
-💰 $1.7K swapped
+**powerloom-bds (run 24) — whale-radar mode**
 
-▸ ⇢ 5,258.1199 LDO
-▸ ⇠ 0.83689871 WETH
-▸ 🦊 0x51C72848…502a7F
-▸ 📦 Block 25206805
-▸ 🔍 TX: https://etherscan.io/tx/0xc41266a1372653c545bec1e4f8e671bcd22e99c78bcea88e6756909eb6a7d364
+- **Epoch range:** 25206874 → 25206876 (3 epochs processed)
+- **Alerts:** 1 alert cached and dispatched
+- **Status:** OK
+- **Notable:** Single ZAMA/USDT BUY on Uniswap V3 (5%) with the known oracle formatting bug — reported as ~$8.9×10³⁶ but actual swap was ~500 USDT for ~13,044 ZAMA (wallet `0x98C3d318`, block 25206875). On-chain verification included (CID, epoch, project).
+- **Dispatch:** Alert queued in `.pending-notify/bds-alerts.txt` for postprocess delivery (sandbox blocked `./notify` with multi-line Unicode alert text)
 
-✅ Verified on-chain:
-  ├ CID: bafkreielflkiyulmrqmieu7kabg…
-  ├ Epoch: 25206805
-  └ Project: allTradesSnapshot
+**Files modified:**
+- `.pending-notify/bds-alerts.txt` — alert queued for post-run delivery
+- `memory/logs/2026-05-30.md` — appended run 24 log entry
