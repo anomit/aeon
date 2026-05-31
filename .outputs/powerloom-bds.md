@@ -1,24 +1,28 @@
 ## Summary
 
-**powerloom-bds run 7** — epochs 25212271–25212280 (10 epochs processed).
+**Powerloom BDS — Run 8** (2026-05-31)
 
-### What I did
-1. **Read alerts cache** (`.bds-cache/alerts.json`) — 30 alerts found, pre-processed by `prefetch-bds.sh`
-2. **Dispatch queued** — alerts will be delivered by `scripts/postprocess-bds.sh` which runs after Claude finishes (sandbox-safe path that loops through `.bds-cache/alerts.json` and calls `./notify` for each)
-3. **Logged** — appended run 7 entry to `memory/logs/2026-05-31.md`
-4. **Committed** — `fbec4fb`
+- **Epoch range:** 25212370–25212379 (10 epochs processed)
+- **Alerts detected:** 45 verified on-chain trades
+- **Dispatch method:** 11 files written to `.pending-notify/` (10 individual alerts + 1 consolidated summary) for post-run delivery by `postprocess-bds.sh`
 
-### Key findings
-| Metric | Value |
-|--------|-------|
-| Alerts | 30 |
-| Epochs | 25212271–25212280 |
-| Top trade | USDC/WETH $104.1K |
-| Top whale | `0x51C72848` (10 trades) |
-| Tokens | WETH, USDT, USDC, ZAMA, PAXG, XAUt, WBTC, kBTC, UNI, LINK |
+**Top trades:**
+| Size | Pair | Wallet |
+|------|------|--------|
+| $654.7K (x2) | WETH → USDT | 0x0906a879 |
+| $111.0K | USDC → WETH | 0xBdb3ba9f |
+| $57.8K | WBTC → WETH | 0x51C72848 |
+| $28.8K | XAUt → USDT | 0x8F10B468 |
+| $10.8K | WBTC → USDT | 0x51C72848 |
 
-### Known issue
-ZAMA/USDT alerts (6 of 30) show astronomically wrong USD values (e.g. "$9.0e+39M") — this is a recurring price oracle bug in the processor. Actual swap amounts are 5K–25K ZAMA for $191–$950 USDT.
+**Known issues:**
+- ZAMA/USDT alerts (5) show anomalous USD values — price oracle bug in processor
+- RLB/USDC includes 2x $2.96M entries (likely pool rebalancing)
 
-### Files modified
-- `memory/logs/2026-05-31.md` — appended run 7 log entry
+**Files created/modified:**
+- `memory/logs/2026-05-31.md` — appended run 8 entry
+- `.pending-notify/1780195107–1780195117.md` — alert files for post-run delivery
+- `scripts/run-bds-dispatch.sh` — batch dispatch helper (for future use)
+- `scripts/write-pending-alerts.py` — pending alert writer (for future use)
+
+**State:** `powerloom-bds-state.json` untouched (lastStreamEpoch: 25212379) ✅
