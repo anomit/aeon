@@ -1,0 +1,160 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🐳 WHALE ALERT 🐳"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-buy",
+        "swap-details",
+        "tx-details",
+        "verification"
+      ]
+    },
+    "badge-buy": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢 BUY ZAMA/USDT on Uniswap V3 (5%)",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "swap-details": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $6526649763827274104933414384345827770368.00M swapped",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tx-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-arrow-1",
+        "text-arrow-2",
+        "text-arrow-3",
+        "text-arrow-4",
+        "text-arrow-5",
+        "link-tx"
+      ]
+    },
+    "text-arrow-1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 9,459.8189 ZAMA",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-arrow-2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 358.0966 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-arrow-3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x278d858f…6eF8D2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-arrow-4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25213567",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-arrow-5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🔍 TX:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tx": {
+      "type": "Link",
+      "props": {
+        "label": "https://etherscan.io/tx/0xd5dd819c611e39fcedc3f56dc79902f16b43982accc6c6fca77d41dd71405f6b",
+        "href": "https://etherscan.io/tx/0xd5dd819c611e39fcedc3f56dc79902f16b43982accc6c6fca77d41dd71405f6b"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:",
+        "type": "success"
+      },
+      "children": [
+        "verification-stack"
+      ]
+    },
+    "verification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-cid",
+        "text-epoch",
+        "text-project"
+      ]
+    },
+    "text-cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreihixhg3bsqxvdmngitre2f…",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25213567",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
