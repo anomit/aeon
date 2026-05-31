@@ -1,20 +1,31 @@
-🐋 WHALE ALERT DIGEST — Epochs 25216850–25216859
+Whale Radar - 7 trades across 4 epochs (25216950-25216953)
 
-💰 MEGA SWAP: USDC/WETH $170.7K (0xBdb3ba9f) — 170,663 USDC → 85.27 WETH
-• WETH/USDT $12.7K (0xBdb3ba9f) — 6.32 WETH
-• WBTC/USDT $12.6K (0x51C72848) — 0.17 WBTC
-• WETH/LYX $4.1K — 1.02 WETH → 10,612 LYX
-• USDC/WETH $5.1K (0xBdb3ba9f)
-• USDC/WETH $6.2K (0xBdb3ba9f)
-• WETH/USDT $4.1K (0xBdb3ba9f)
-• WETH/USDT $2.0K (0x8F10B468)
-• WETH/USDT $1.8K x2
-• USDC/WETH $1.6K x2
-• USDC/SEI $1.7K (30% pool)
-• WBTC/WETH $1.2K (0x856b40F7)
-• USDC/WETH $1.2K (0x856b40F7)
-• ZAMA/USDT $1.2K (0x278d858f)
-• LDO/WETH $1.6K (0x51C72848) — 4,955 LDO
+BUY WETH/swETH 13.5K - Uniswap V3 5%
+> 6.7544 WETH for 6.0265 swETH | Whale 0x8F10B468
+> TX: https://etherscan.io/tx/0xc682037a468e0e6a1c3ffba84e5daaa1b61b0ea6af73a5145aa884b243311eb5
 
-📊 22 trades | Top whales: 0xBdb3ba9f (8 trades ~$210K), 0x51C72848 (2 trades ~$13.8K), 0x8F10B468 (2 trades), 0x856b40F7 (2 trades)
-✅ Verified on-chain via Powerloom BDS
+BUY EURC/EURe 10.5K - Uniswap V3 5%
+> 9,005 EURC for 9,000 EURe | Whale 0x4C82D1fB
+> TX: https://etherscan.io/tx/0x0760d935ed883039ea402235cb8c37b6b7711deba4de4bb0d1094f191d80ef5c
+
+BUY WETH/swETH 10.6K - Uniswap V3 5%
+> 5.276 WETH for 4.7031 swETH | Whale 0x66a9893c
+> TX: https://etherscan.io/tx/0x360c6dd13330eb0b305e5635eba01d73886e962206f3b3c6f9fcad2a350c0242
+
+BUY USDC/WETH 3.8K - Uniswap V3 1%
+> 3,820 USDC for 1.9063 WETH | Whale 0x51C72848
+> TX: https://etherscan.io/tx/0xf1ec86b23a36ae4973c03d913827be10f7a084dd454e251757377adb7472f94b
+
+BUY WETH/USDT 1.5K - Uniswap V3 1%
+> 0.7431 WETH for 1,490 USDT | Whale 0x51C72848
+> TX: https://etherscan.io/tx/0x179f1e90822bab609086e270b821d933ddfda728503753a2d4fa4bc3d8fb4f18
+
+BUY USDC/ASTEROID 1.0K - Uniswap V3 30%
+> 1,025 USDC for 6.74M ASTEROID | Whale 0x4C82D1fB
+> TX: https://etherscan.io/tx/0x718cc33a19c8c16345ac0254831e9d6ce2eba5c4b97cbef19ab0aa9d3e62d5f2
+
+BUY WETH/USDT 1.2K - Uniswap V3 5%
+> 0.5873 WETH for 1,178 USDT | Whale 0x6487986A
+> TX: https://etherscan.io/tx/0xf682c5a267d4474e94adf1b9483a62bd9a99d853523c50ebfac8edb967f3a247
+
+All verified on-chain via Powerloom BDS (allTradesSnapshot)
