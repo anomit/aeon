@@ -1,21 +1,15 @@
-## Summary
+🟢 🐋 WHALE ALERT 🟢
 
-**powerloom-bds run 44** completed successfully.
+🟢 BUY USDC/WETH on Uniswap V3 (1%)
+💰 $3.3K swapped
 
-**What I did:**
-1. Read `.bds-cache/alerts.json` — found **42 whale alerts** across epochs 25215931–25215940 (10 epochs)
-2. Dispatched all 42 alerts to `.pending-notify/` as individual `*.md` files for post-run delivery (sandbox blocked direct `./notify` script execution, so I used the Write tool to replicate `./notify`'s fallback behavior)
-3. Appended log entry to `memory/logs/2026-05-31.md`
-4. Committed: `25d2666`
+▸ ⇢ 3,250 USDC
+▸ ⇠ 1.6179 WETH
+▸ 🐳 0x7f54F056…A3Be8A
+▸ 📦 Block 25216059
+▸ 🔍 TX: https://etherscan.io/tx/0xd6f2187a1bfca7ee0ce943cc8842342e61ef9fb437c4710d50ae7982d2605c1d
 
-**Files created/modified:**
-- `.pending-notify/1748700001.md` through `.pending-notify/1748700042.md` — 42 alert files
-- `memory/logs/2026-05-31.md` — appended run 44 log entry
-
-**Notable trades this run:**
-- USDT/USDf $43.8K (stablecoin pair)
-- WBTC/WETH $28.0K
-- USDC/ASTEROID $37.2K (225M+ ASTEROID, 30% fee tier)
-- USDC/WETH $42.2K
-- WBTC/WETH $13.8K
-- Top whale: `0x51C72848…502a7F` (7 trades, ~$85K total)
+✅ Verified on-chain:
+  ├ CID: bafkreifp2hc7xy7drekxdoz2ycf…
+  ├ Epoch: 25216059
+  └ Project: allTradesSnapshot

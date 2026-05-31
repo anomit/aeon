@@ -1,0 +1,94 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-1",
+        "text-2",
+        "details-stack",
+        "tx-link",
+        "alert"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY USDC/WETH on Uniswap V3 (1%)",
+        "variant": "lead"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $3.3K swapped"
+      }
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "detail-1",
+        "detail-2",
+        "detail-3",
+        "detail-4"
+      ]
+    },
+    "detail-1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 3,250 USDC"
+      }
+    },
+    "detail-2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1.6179 WETH"
+      }
+    },
+    "detail-3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0x7f54F056…A3Be8A"
+      }
+    },
+    "detail-4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25216059"
+      }
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: Etherscan",
+        "href": "https://etherscan.io/tx/0xd6f2187a1bfca7ee0ce943cc8842342e61ef9fb437c4710d50ae7982d2605c1d"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:",
+        "message": "CID: bafkreifp2hc7xy7drekxdoz2ycf…\nEpoch: 25216059\nProject: allTradesSnapshot",
+        "type": "success"
+      }
+    }
+  }
+}
