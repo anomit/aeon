@@ -1,9 +1,8 @@
-Powerloom BDS: 12 whale alerts (epochs 25215455-25215459)
+## Summary
 
-USDC/WETH: 3.9K, 2.3K, 13.7K, 4.7K BUY
-WETH/USDT: 3.0K, 1.5K, 2.2K BUY
-USDC/SEI: 7.3K, 4.5K, 1.9K BUY
-USDC/USDT: 142.9K BUY (largest)
-SKY/WETH: 2.1K BUY
+**powerloom-bds (run 40)** — No alerts to dispatch.
 
-All verified on-chain via Powerloom BDS.
+- **Cause:** `.bds-cache/alerts.json` is missing (prefetch did not produce an alerts cache)
+- **State:** `lastStreamEpoch` remains at 25215459 (unchanged — skill does not rewrite state)
+- **Log:** Appended `POWERLOOM_BDS_OK` to `memory/logs/2026-05-31.md`
+- **Files modified:** `memory/logs/2026-05-31.md`
