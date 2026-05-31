@@ -1,15 +1,15 @@
 🟢 🐋 WHALE ALERT 🟢
 
-🟢 BUY WETH/USDT on Uniswap V3 (5%)
-💰 $2.2K swapped
+🟢 BUY PAXG/XAUt on Uniswap V3 (5%)
+💰 $5.7K swapped
 
-▸ ⇢ 1.0722 WETH
-▸ ⇠ 2,177.4868 USDT
-▸ 🐳 0xBdb3ba9f…DF47B6
-▸ 📦 Block 25213666
-▸ 🔍 TX: https://etherscan.io/tx/0x1714e0f79b9f4919dbeeed56b6c73e688e953202c2c505515d00f0b2cc660ba9
+▸ ⇢ 1.263 PAXG
+▸ ⇠ 1.2659 XAUt
+▸ 🦊 0x51C72848…502a7F
+▸ 📦 Block 25213771
+▸ 🔍 TX: https://etherscan.io/tx/0xd93a44963ccda8187db3fe6d9227395b736c4cda7b204a86a358737c040918c9
 
 ✅ Verified on-chain:
-  ├ CID: bafkreigl52excmilyxpzao7fqod…
-  ├ Epoch: 25213666
+  ├ CID: bafkreie7xpttddxhufra35poktf…
+  ├ Epoch: 25213771
   └ Project: allTradesSnapshot

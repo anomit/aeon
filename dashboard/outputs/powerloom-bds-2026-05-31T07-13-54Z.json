@@ -1,0 +1,159 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "main-content"
+      ]
+    },
+    "main-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "buy-badge",
+        "amount-stat",
+        "separator-1",
+        "transaction-details",
+        "separator-2",
+        "verification-info"
+      ]
+    },
+    "buy-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY PAXG/XAUt on Uniswap V3 (5%)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "amount-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$5.7K",
+        "label": "swapped"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "transaction-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail-out",
+        "detail-in",
+        "detail-wallet",
+        "detail-block",
+        "detail-tx-link"
+      ]
+    },
+    "detail-out": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.263 PAXG",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "detail-in": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1.2659 XAUt",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "detail-wallet": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x51C72848…502a7F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "detail-block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25213771",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "detail-tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: Etherscan",
+        "href": "https://etherscan.io/tx/0xd93a44963ccda8187db3fe6d9227395b736c4cda7b204a86a358737c040918c9"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification-title",
+        "verification-cid",
+        "verification-epoch",
+        "verification-project"
+      ]
+    },
+    "verification-title": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "verification-cid": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ CID: bafkreie7xpttddxhufra35poktf…",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "verification-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ Epoch: 25213771",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "verification-project": {
+      "type": "Text",
+      "props": {
+        "text": "  └ Project: allTradesSnapshot",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
