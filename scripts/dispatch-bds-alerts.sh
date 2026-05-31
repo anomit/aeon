@@ -2,35 +2,25 @@
 set -euo pipefail
 cd /home/runner/work/aeon/aeon
 
-# Dispatch BDS alerts from cached JSON via Python (avoids shell expansion issues with $ in alerts)
-python3 << 'PYEOF'
-import json, subprocess, sys, os
+# Dispatch BDS alerts from cached JSON
+# Uses jq to extract each alert string and sends via ./notify
+TOTAL=$(jq '.alerts | length' .bds-cache/alerts.json)
+SENT=0
+SKIP=0
 
-os.chdir("/home/runner/work/aeon/aeon")
+for i in $(seq 0 $((TOTAL - 1))); do
+    ALERT=$(jq -r ".alerts[$i]" .bds-cache/alerts.json)
+    OUT=$(./notify "$ALERT" 2>&1) && RC=$? || RC=$?
+    if [ $RC -eq 0 ]; then
+        case "$OUT" in
+            *uppressing*|*uplicate*) SKIP=$((SKIP + 1)); echo "  [$((i+1))/$TOTAL] skipped" ;;
+            *) SENT=$((SENT + 1)); echo "  [$((i+1))/$TOTAL] sent" ;;
+        esac
+    else
+        echo "  [$((i+1))/$TOTAL] FAIL: $OUT"
+    fi
+done
 
-with open(".bds-cache/alerts.json") as f:
-    data = json.load(f)
-
-alerts = data.get("alerts", [])
-sent = 0
-skipped = 0
-
-for i, alert in enumerate(alerts):
-    result = subprocess.run(
-        ["./notify", alert],
-        capture_output=True, text=True
-    )
-    if result.returncode == 0:
-        out = result.stdout.strip() or result.stderr.strip() or ""
-        if "duplicate" in out.lower() or "suppressing" in out.lower():
-            skipped += 1
-            print(f"  [{i+1}/{len(alerts)}] skipped: {out}")
-        else:
-            sent += 1
-            print(f"  [{i+1}/{len(alerts)}] sent OK")
-    else:
-        print(f"  [{i+1}/{len(alerts)}] FAIL: {result.stderr.strip()}")
-
-print(f"\nDispatched {sent}/{len(alerts)} alerts ({skipped} skipped/deduped)")
-print(f"epoch_end: {data.get('epoch_end')}")
-PYEOF
+echo ""
+echo "Dispatched $SENT/$TOTAL alerts ($SKIP skipped/deduped)"
+echo "epoch_end: $(jq -r '.epoch_end' .bds-cache/alerts.json)"
