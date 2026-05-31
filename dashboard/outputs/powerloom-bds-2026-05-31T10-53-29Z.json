@@ -1,0 +1,124 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 MEGA SWAP — DAI/WETH $484.3K",
+        "description": "Large cryptocurrency swap detected on Ethereum"
+      },
+      "children": [
+        "swap-details",
+        "divider-1",
+        "trader-info",
+        "divider-2",
+        "transaction-info"
+      ]
+    },
+    "swap-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "amount-details",
+        "platform-info"
+      ]
+    },
+    "amount-details": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "input-amount",
+        "output-amount"
+      ]
+    },
+    "input-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Input",
+        "value": "249,559 DAI",
+        "delta": "$484.3K",
+        "trend": "neutral"
+      }
+    },
+    "output-amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Output",
+        "value": "116.63 WETH"
+      }
+    },
+    "platform-info": {
+      "type": "Text",
+      "props": {
+        "text": "Performed on Uniswap V3 (30% fee tier)",
+        "variant": "lead"
+      }
+    },
+    "divider-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trader-info": {
+      "type": "Text",
+      "props": {
+        "text": "鲸鱼 0x1f2F10D1…6Df387",
+        "variant": "body"
+      }
+    },
+    "divider-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transaction-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "block-info",
+        "etherscan-link",
+        "verification-info"
+      ]
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "区块 25214863",
+        "variant": "muted"
+      }
+    },
+    "etherscan-link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 View Transaction",
+        "href": "https://etherscan.io/tx/0x74e6657de0700fcb78458e8a1ca806d01b6b12d36a8f9d5e36f5e2b964545739"
+      }
+    },
+    "verification-info": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ 已在链上验证",
+        "variant": "success"
+      }
+    },
+    "verification-details": {
+      "type": "Text",
+      "props": {
+        "text": "CID: bafkreidvh3dp7eu7r5s73c33bv7… | Epoch: 25214863",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -1,15 +1,7 @@
-🟢 🐋 WHALE ALERT 🟢
+🚨 MEGA SWAP — DAI/WETH $484.3K
 
-🟢 BUY WETH/USDT on Uniswap V3 (5%)
-💰 $1.6K swapped
+鲸鱼 0x1f2F10D1…6Df387 在 Uniswap V3 (30%) 上，将 249,559 DAI 兑换成 116.63 WETH。
 
-▸ ⇒ 0.78430976 WETH
-▸ ⇐ 1,583.9585 USDT
-▸ 🐳 0xfd9C2B42…BF3089
-▸ 📦 Block 25214764
-▸ 🔍 TX: https://etherscan.io/tx/0xd7dae0e6310c83a2d22df3ebc79338bafee278bb0ec8da0eeea1855b8fa9a626
-
-✅ Verified on-chain:
-  ├ CID: bafkreihywnxaauj6b4edsgccsho…
-  ├ Epoch: 25214764
-  └ Project: allTradesSnapshot
+区块 25214863
+🔍 https://etherscan.io/tx/0x74e6657de0700fcb78458e8a1ca806d01b6b12d36a8f9d5e36f5e2b964545739
+✅ 已在链上验证 — CID: bafkreidvh3dp7eu7r5s73c33bv7… | Epoch: 25214863
