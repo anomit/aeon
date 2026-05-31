@@ -1,0 +1,154 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "Powerloom BDS Alert"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "swap_details",
+        "verification"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "buy_badge",
+        "amount_stat"
+      ]
+    },
+    "buy_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY USDC/WETH on Uniswap V3 (5%)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "amount_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$3.0K",
+        "label": "swapped"
+      },
+      "children": []
+    },
+    "swap_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "usdc_amount",
+        "weth_amount",
+        "wallet_address",
+        "block_number",
+        "tx_link"
+      ]
+    },
+    "usdc_amount": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 3,042.4697 USDC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "weth_amount": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1.4991 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "wallet_address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0xe60fAE78…94347e",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block_number": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25212180",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx_link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0xf493c7ade10fa0beb5d6ff07aaf3e63e1b65058d539a3bae3904c488dcb2aef3",
+        "href": "https://etherscan.io/tx/0xf493c7ade10fa0beb5d6ff07aaf3e63e1b65058d539a3bae3904c488dcb2aef3"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Card",
+      "props": {
+        "title": "✅ Verified on-chain:"
+      },
+      "children": [
+        "stack2"
+      ]
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid",
+        "epoch",
+        "project"
+      ]
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreidzbx5kbhjrqyzjrrxszih…",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25212180",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
