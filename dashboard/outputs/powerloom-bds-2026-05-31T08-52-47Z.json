@@ -1,0 +1,143 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT",
+        "description": "Large trade detected on Uniswap V3"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-buy",
+        "badge-trade",
+        "badge-usdc",
+        "badge-sei",
+        "badge-wallet",
+        "badge-block",
+        "link-tx",
+        "separator",
+        "verified"
+      ]
+    },
+    "badge-buy": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢 BUY USDC/SEI on Uniswap V3 (30%)",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "badge-trade": {
+      "type": "Badge",
+      "props": {
+        "text": "💰 $1.3K swapped",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-usdc": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1,317.1352 USDC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge-sei": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 20,000 SEI",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge-wallet": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0x68b34658…65Fc45",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge-block": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25214265",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tx": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0xe5293e17c0ca5708b607819185ad14392b9483f35a4b3117b6db5949a2dfb32d",
+        "href": "https://etherscan.io/tx/0xe5293e17c0ca5708b607819185ad14392b9483f35a4b3117b6db5949a2dfb32d"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": [
+        "verified-list"
+      ]
+    },
+    "verified-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verified-cid",
+        "verified-epoch",
+        "verified-project"
+      ]
+    },
+    "verified-cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreidud5obiz3kkv4sjtm3za7…",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "verified-epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25214265",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "verified-project": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
