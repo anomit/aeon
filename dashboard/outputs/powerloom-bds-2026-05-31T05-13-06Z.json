@@ -1,0 +1,168 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS Whale Alert"
+      },
+      "children": [
+        "stack1",
+        "stack2",
+        "stack3",
+        "stack4"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "🟢",
+        "variant": "body"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 WHALE ALERT 🟢",
+        "variant": "body"
+      }
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text3",
+        "text4"
+      ]
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY ZAMA/USDT on Uniswap V3 (5%)",
+        "variant": "body"
+      }
+    },
+    "text4": {
+      "type": "Stat",
+      "props": {
+        "value": "$14,500,305,068,487,538,490,624,383,754,534,066,847,744.00M",
+        "label": "swapped"
+      }
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text5",
+        "text6",
+        "text7",
+        "text8",
+        "text9"
+      ]
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 20,984.7201 ZAMA",
+        "variant": "body"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 796.2593 USDT",
+        "variant": "body"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      }
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25213172",
+        "variant": "body"
+      }
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🔍 TX: https://etherscan.io/tx/0x0ff9ab6fc13470ece0e019c69da58d0f7fcee8325bd1a031defb9cbbbf4d948c",
+        "variant": "body"
+      }
+    },
+    "stack4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text10",
+        "stack5"
+      ]
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      }
+    },
+    "stack5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text11",
+        "text12",
+        "text13"
+      ]
+    },
+    "text11": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreihqhp7hptbkqg3mgfqlqco…",
+        "variant": "body"
+      }
+    },
+    "text12": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25213172",
+        "variant": "body"
+      }
+    },
+    "text13": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      }
+    }
+  }
+}
