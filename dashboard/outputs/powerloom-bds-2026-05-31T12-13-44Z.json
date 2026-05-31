@@ -1,0 +1,241 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT — BDS Digest",
+        "description": "Epochs 25215253-25215262, 13 trades"
+      },
+      "children": [
+        "stack-main",
+        "separator-1",
+        "stack-notable",
+        "separator-2",
+        "stack-whales",
+        "separator-3",
+        "alert-zama",
+        "text-verify"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-subtitle"
+      ]
+    },
+    "text-subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Notable trades:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-ausd",
+        "stat-usdcweth",
+        "stat-uscdec",
+        "stat-bigtime",
+        "stat-eurceurcv",
+        "stat-wbtc",
+        "stat-wtao",
+        "stat-wethspx",
+        "stat-usdcsei",
+        "stat-usdcweth2"
+      ]
+    },
+    "stat-ausd": {
+      "type": "Stat",
+      "props": {
+        "label": "AUSD/USDC",
+        "value": "506.5K USD",
+        "delta": "506K AUSD → 506K USDC"
+      },
+      "children": []
+    },
+    "stat-usdcweth": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC/WETH",
+        "value": "44.9K USD",
+        "delta": "45K USDC → 22.3 WETH"
+      },
+      "children": []
+    },
+    "stat-uscdec": {
+      "type": "Stat",
+      "props": {
+        "label": "USDe/USDC",
+        "value": "30.0K USD",
+        "delta": "30K USDe → 30K USDC"
+      },
+      "children": []
+    },
+    "stat-bigtime": {
+      "type": "Stat",
+      "props": {
+        "label": "BIGTIME/USDT",
+        "value": "8.6K USD",
+        "delta": "x2"
+      },
+      "children": []
+    },
+    "stat-eurceurcv": {
+      "type": "Stat",
+      "props": {
+        "label": "EURC/EURCV",
+        "value": "5.8K USD"
+      },
+      "children": []
+    },
+    "stat-wbtc": {
+      "type": "Stat",
+      "props": {
+        "label": "WBTC/USDT",
+        "value": "4.1K USD",
+        "delta": "0.055 WBTC"
+      },
+      "children": []
+    },
+    "stat-wtao": {
+      "type": "Stat",
+      "props": {
+        "label": "wTAO/WETH",
+        "value": "2.2K USD",
+        "delta": "0.113 wTAO"
+      },
+      "children": []
+    },
+    "stat-wethspx": {
+      "type": "Stat",
+      "props": {
+        "label": "WETH/SPX",
+        "value": "1.8K USD"
+      },
+      "children": []
+    },
+    "stat-usdcsei": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC/SEI",
+        "value": "1.5K USD"
+      },
+      "children": []
+    },
+    "stat-usdcweth2": {
+      "type": "Stat",
+      "props": {
+        "label": "USDC/WETH",
+        "value": "1.0K USD"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-whales": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-whale-title",
+        "text-whale-1",
+        "text-whale-2",
+        "text-whale-3",
+        "text-whale-4",
+        "text-whale-5"
+      ]
+    },
+    "text-whale-title": {
+      "type": "Text",
+      "props": {
+        "text": "Top whales:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-whale-1": {
+      "type": "Text",
+      "props": {
+        "text": "0x4C82D1fB (2 trades)"
+      },
+      "children": []
+    },
+    "text-whale-2": {
+      "type": "Text",
+      "props": {
+        "text": "0xC36442b4 (2)"
+      },
+      "children": []
+    },
+    "text-whale-3": {
+      "type": "Text",
+      "props": {
+        "text": "0x278d858f (2 ZAMA)"
+      },
+      "children": []
+    },
+    "text-whale-4": {
+      "type": "Text",
+      "props": {
+        "text": "0x6A000F20 (506K AUSD)"
+      },
+      "children": []
+    },
+    "text-whale-5": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (1)"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-zama": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "ZAMA/USDT Alerts",
+        "message": "Oracle-bugged USD values - actual amounts ~2.8K-3.5K ZAMA for ~100-127 USDT"
+      },
+      "children": []
+    },
+    "text-verify": {
+      "type": "Text",
+      "props": {
+        "text": "Verified on-chain via Powerloom BDS allTradesSnapshot"
+      },
+      "children": []
+    }
+  }
+}

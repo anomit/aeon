@@ -1,19 +1,19 @@
-Whale Digest - Epochs 25215153-25215157 (5 epochs)
+🐋 WHALE ALERT — BDS Digest (Epochs 25215253-25215262, 13 trades)
 
-Notable trades:
-- wTAO/WETH $8.0K BUY (31.28 wTAO, 0x7f54F056)
-- wTAO/WETH $4.6K BUY (18.10 wTAO, 0xBdb3ba9f)
-- USDC/WETH $4.6K BUY (4,584 USDC, 0xBdb3ba9f)
-- WETH/USDT $4.3K BUY (2.11 WETH, 0xBdb3ba9f)
-- WETH/USDT $2.9K BUY (1.41 WETH, 0xBdb3ba9f)
-- EURC/USDC $3.4K BUY (2,932 EURC, 0x7f54F056)
-- PAXG/USDC $2.3K BUY (0.30 PAXG, 0xC36442b4)
-- WALLET/WETH $1.4K BUY (88,670 WALLET, 0x9C8F4F00)
-- OHM/sUSDS $1.2K BUY (62.61 OHM, 0x7f54F056)
-- WETH/USDT $2.0K BUY (0.99 WETH, 0x4C82D1fB)
+Notable:
+- AUSD/USDC 506.5K USD (506K AUSD swapped for 506K USDC)
+- USDC/WETH 44.9K USD (45K USDC for 22.3 WETH)
+- USDe/USDC 30.0K USD (30K USDe for 30K USDC)
+- BIGTIME/USDT 8.6K USD x2
+- EURC/EURCV 5.8K USD
+- WBTC/USDT 4.1K USD (0.055 WBTC)
+- wTAO/WETH 2.2K USD (0.113 wTAO)
+- WETH/SPX 1.8K USD
+- USDC/SEI 1.5K USD
+- USDC/WETH 1.0K USD
 
-Note: ZAMA/USDT alert has oracle-bugged USD value - 4,770 ZAMA for ~$175 USDT
+Top whales: 0x4C82D1fB (2 trades), 0xC36442b4 (2), 0x278d858f (2 ZAMA), 0x6A000F20 (506K AUSD), 0xBdb3ba9f (1)
 
-Top whales: 0xBdb3ba9f (4 trades), 0x7f54F056 (3 trades), 0xC36442b4 (1), 0x9C8F4F00 (1), 0x4C82D1fB (1)
-Tokens: wTAO, WETH, USDC, USDT, EURC, PAXG, WALLET, OHM, sUSDS, ZAMA
-All verified on-chain
+ZAMA/USDT alerts (2) have oracle-bugged USD values - actual amounts ~2.8K-3.5K ZAMA for ~100-127 USDT
+
+Verified on-chain via Powerloom BDS allTradesSnapshot
