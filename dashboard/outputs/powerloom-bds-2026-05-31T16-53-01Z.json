@@ -1,0 +1,140 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS — Run 50 Digest"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "epoch-info",
+        "notable-heading",
+        "whale-alerts",
+        "tokens",
+        "top-whale",
+        "verification"
+      ]
+    },
+    "epoch-info": {
+      "type": "Text",
+      "props": {
+        "text": "Epoch 25216649–25216658 (10 epochs) · 23 whale alerts"
+      }
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable:",
+        "level": "h3"
+      }
+    },
+    "whale-alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert1",
+        "alert2",
+        "alert3",
+        "alert4",
+        "alert5",
+        "alert6",
+        "alert7",
+        "alert8",
+        "alert9",
+        "alert10"
+      ]
+    },
+    "alert1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/cbBTC $200.1K → 0x51C72848"
+      }
+    },
+    "alert2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/kBTC $35.0K → 0x51C72848"
+      }
+    },
+    "alert3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/kBTC $25.1K → 0x51C72848"
+      }
+    },
+    "alert4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/kBTC $22.1K → 0x51C72848"
+      }
+    },
+    "alert5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $22.7K → 0x51C72848"
+      }
+    },
+    "alert6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $9.6K → 0x7f54F056"
+      }
+    },
+    "alert7": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $9.0K → 0x4c3ccC98"
+      }
+    },
+    "alert8": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $6.8K → 0xBdb3ba9f"
+      }
+    },
+    "alert9": {
+      "type": "Text",
+      "props": {
+        "text": "▸ LINK/WETH $4.2K (30% pool) → 0x51C72848"
+      }
+    },
+    "alert10": {
+      "type": "Text",
+      "props": {
+        "text": "▸ AAVE/USDT $3.2K (30% pool) → 0x51C72848"
+      }
+    },
+    "tokens": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Tokens: WBTC, cbBTC, kBTC, WETH, USDC, USDT, AAVE, LINK, LDO, SEI"
+      }
+    },
+    "top-whale": {
+      "type": "Text",
+      "props": {
+        "text": "🐋 Top whale: 0x51C72848 (12 trades, ~$340K)"
+      }
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS"
+      }
+    }
+  }
+}
