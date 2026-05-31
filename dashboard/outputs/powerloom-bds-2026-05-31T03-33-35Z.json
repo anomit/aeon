@@ -1,0 +1,93 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Radar Digest — Epochs 25212666–25212675 (10 epochs)"
+      },
+      "children": [
+        "stack",
+        "separator1",
+        "trades",
+        "separator2",
+        "wallets",
+        "separator3",
+        "status"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trades": {
+      "type": "Text",
+      "props": {
+        "text": "📊 23 trades across 4 pools:\n• USDC/WETH (1%): 11 buys, $1.1K–$3.1K\n• WETH/USDT (1%): 7 buys, $1.0K–$3.1K\n• LDO/WETH (5%): 1 buy, $1.7K (5,281 LDO)\n• ZAMA/USDT (5%): 3 buys — ⚠️ anomalous USD values",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "wallets": {
+      "type": "Text",
+      "props": {
+        "text": "🔑 Active wallets: 0xe60fAE78 (6 txs), 0x51C72848 (3 txs), 0xBdb3ba9f (4 txs), 0x51Af6D81 (2 txs), 0x4C82D1fB (2 txs)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification",
+        "transactions"
+      ]
+    },
+    "verification": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "transactions": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TXs: etherscan.io/tx/0x8479…881e (+22 more)",
+        "href": "https://etherscan.io/tx/0x8479…881e"
+      },
+      "children": []
+    }
+  }
+}
