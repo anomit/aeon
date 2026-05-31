@@ -1,1 +1,15 @@
-🟢 🐋 WHALE ALERT 🟢 BUY ZAMA/USDT on Uniswap V3 (5%) — 14,684.64 ZAMA in — 546.45 USDT out — 🐋 0x278d858f…6eF8D2 — Block 25214562 — TX: https://etherscan.io/tx/0xdfa592d0e48619a626f42b48e00de8479a4a081e8b2e4e81f5e1d9cd62e153cc — Verified on-chain: CID bafkreihhxdszjr2kltin7asc6mj… Epoch 25214562
+🟢 🐋 WHALE ALERT 🟢
+
+🟢 BUY ADI/USDC on Uniswap V3 (5%)
+💰 $1.5K swapped
+
+▸ ⇢ 400.03 ADI
+▸ ⇠ 1,497.8313 USDC
+▸ 🦊 0xd862CDcf…fd42e2
+▸ 📦 Block 25214663
+▸ 🔍 TX: https://etherscan.io/tx/0xa26d31c83a5e31329afcf594338a8c46e34726054a0d6bd5eea3747ecb76aab9
+
+✅ Verified on-chain:
+  ├ CID: bafkreiam5xjehv5of4ku2lwrqeg…
+  ├ Epoch: 25214663
+  └ Project: allTradesSnapshot

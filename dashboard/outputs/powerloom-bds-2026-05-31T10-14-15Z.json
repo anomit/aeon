@@ -1,0 +1,158 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE ALERT",
+        "description": "Uniswap V3 Trade Alert"
+      },
+      "children": [
+        "alert_buy",
+        "separator1",
+        "trade_details",
+        "separator2",
+        "tx_details",
+        "separator3",
+        "verification"
+      ]
+    },
+    "alert_buy": {
+      "type": "Alert",
+      "props": {
+        "title": "BUY ADI/USDC on Uniswap V3",
+        "message": "5% signal strength",
+        "type": "success"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trade_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "amount",
+        "pair"
+      ]
+    },
+    "amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $1.5K swapped",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pair": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "buy_amount",
+        "sell_amount"
+      ]
+    },
+    "buy_amount": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 400.03 ADI"
+      },
+      "children": []
+    },
+    "sell_amount": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1,497.8313 USDC"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tx_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "block",
+        "tx_link"
+      ]
+    },
+    "block": {
+      "type": "Text",
+      "props": {
+        "text": "📦 Block 25214663"
+      },
+      "children": []
+    },
+    "tx_link": {
+      "type": "Link",
+      "props": {
+        "label": "🔍 TX: 0xa26d31c8…76aab9",
+        "href": "https://etherscan.io/tx/0xa26d31c83a5e31329afcf594338a8c46e34726054a0d6bd5eea3747ecb76aab9"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain",
+        "message": "Project: allTradesSnapshot",
+        "type": "info"
+      },
+      "children": [
+        "verification_details"
+      ]
+    },
+    "verification_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid",
+        "epoch"
+      ]
+    },
+    "cid": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreiam5xjehv5of4ku2lwrqeg…"
+      },
+      "children": []
+    },
+    "epoch": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25214663"
+      },
+      "children": []
+    }
+  }
+}
