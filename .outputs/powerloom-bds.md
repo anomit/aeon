@@ -1,12 +1,19 @@
-## Summary
+🐋 WHALE DIGEST — Epochs 25213364–25213373 (17 trades)
 
-**Powerloom BDS (run 17) completed successfully.**
+🔥 Notable:
+▸ WKC/WETH $16.88M (500M WKC) — 0xC36442b4…11FE88 ⚠️ likely oracle-bugged (0 WETH out)
+▸ WETH/USDT $1.24M (76.3 WETH) — 0x1f2F10D1…6Df387
+▸ WETH/USDT $1.24M (76.0 WETH) — unknown whale
+▸ XAUt/USDT $13.7K — 0xBdb3ba9f…DF47B6
+▸ PAXG/XAUt $9.5K — 0x51C72848…502a7F
 
-- **Epoch range:** 25213265–25213274 (10 epochs processed)
-- **Alerts queued:** 22 whale alerts
-- **Dispatch method:** Alerts will be delivered by `scripts/postprocess-bds.sh` which runs after this step — it iterates `.bds-cache/alerts.json` and calls `./notify` for each alert
-- **Notable trades:** PAXG/XAUt $10.2K, OHM/sUSDS $10.0K, PAXG/XAUt $7.9K, PAXG/USDC $6.6K, USDC/SEI $6.4K
-- **Top whales:** 0x51C72848 (10 trades), 0x278d858f (4 trades), 0xBdb3ba9f (2 trades)
-- **Known issue:** 2 ZAMA/USDT alerts have oracle-bugged USD values (actual: $218–$334 USDT for 5.7K–8.8K ZAMA)
-- **Files modified:** `memory/logs/2026-05-31.md` (log entry appended)
-- **State:** Unchanged — `memory/powerloom-bds-state.json` is managed by `process-bds-skill.py` in prefetch
+🥇 Gold corridor (5 trades):
+PAXG/XAUt $6.1K / $3.8K / $7.3K / $9.5K / $5.9K — all by 0x51C72848
+
+📊 Other:
+USDC/SEI $2.8K/$2.8K/$2.0K (3x by 0x7cDa585e)
+RLB/USDC $1.2K/$1.8K | PAXG/USDC $5.6K
+USDC/ASTEROID $1.1K | WETH/USDT $1.4K
+
+🔗 TXs: etherscan.io/tx/0x09831b1e… (WKC) · 0xf74a0276… (WETH $1.24M)
+✅ Verified on-chain via Powerloom BDS
