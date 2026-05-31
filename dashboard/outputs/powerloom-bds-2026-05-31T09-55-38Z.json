@@ -1,0 +1,89 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "badge1",
+        "grid1",
+        "separator1",
+        "link1",
+        "text1"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 🐋 WHALE ALERT 🟢",
+        "level": "h2"
+      }
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "5% fee",
+        "variant": "default"
+      }
+    },
+    "grid1": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "stat2"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "ZAMA In",
+        "value": "14,684.64"
+      }
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "USDT Out",
+        "value": "546.45"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View Transaction on Etherscan",
+        "href": "https://etherscan.io/tx/0xdfa592d0e48619a626f42b48e00de8479a4a081e8b2e4e81f5e1d9cd62e153cc"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Uniswap V3 — Block 25214562 — TX: 0xdfa592d0e48619a626f42b48e00de8479a4a081e8b2e4e81f5e1d9cd62e153cc — Verified on-chain: CID bafkreihhxdszjr2kltin7asc6mj…",
+        "variant": "body"
+      }
+    }
+  }
+}
