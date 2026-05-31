@@ -1,0 +1,225 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE DIGEST"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "separator1",
+        "heading2",
+        "stack2",
+        "heading3",
+        "stack3",
+        "text2",
+        "heading4",
+        "stack4",
+        "text3"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "WHALE DIGEST",
+        "level": "h1"
+      },
+      "children": []
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25216551–25216560 (24 trades, 10 epochs)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "💰 Mega swaps",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text3",
+        "text4",
+        "text5",
+        "text6",
+        "text7"
+      ]
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All trades verified on-chain via Powerloom BDS",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ RLUSD/USDC $40.0K — 0x11111112…842A65",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $32.0K — 0x51C72848…502a7F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $21.5K — 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/USDT $15.7K — 0x51C72848…502a7F",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Top whales",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text8",
+        "text9",
+        "text10",
+        "text11"
+      ]
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x51C72848…502a7F — 10 trades (~$207K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xBdb3ba9f…DF47B6 — 2 trades (~$25.5K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x11111112…842A65 — 1 trade ($40K RLUSD)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text11": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x4C82D1fB…0a2cCA — 1 trade ($5K WETH/USDT)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "🪙 Tokens: USDC, WETH, USDT, WBTC, RLUSD, LINK, LYX, XAUt",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading4": {
+      "type": "Heading",
+      "props": {
+        "text": "⚠️ Warnings",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text12",
+        "text13",
+        "text14"
+      ]
+    },
+    "text12": {
+      "type": "Text",
+      "props": {
+        "text": "⚠️ LINK/WETH $5.2K on 30% fee tier — 567 LINK swapped",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text13": {
+      "type": "Text",
+      "props": {
+        "text": "⚠️ WETH/LYX $4.1K — 10,708 LYX (anonymized whale)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text14": {
+      "type": "Text",
+      "props": {
+        "text": "⚠️ XAUt/USDT $2.1K — gold token swap",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
