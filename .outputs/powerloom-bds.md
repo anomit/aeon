@@ -1,19 +1,15 @@
-🐳 Powerloom BDS — Run 50 Digest
+🟢 🐋 WHALE ALERT 🟢
 
-Epoch 25216649–25216658 (10 epochs) · 23 whale alerts
+🟢 BUY WETH/USDT on Uniswap V3 (1%)
+💰 $4.8K swapped
 
-🔥 Notable:
-▸ WBTC/cbBTC $200.1K → 0x51C72848
-▸ WBTC/kBTC $35.0K → 0x51C72848
-▸ WBTC/kBTC $25.1K → 0x51C72848
-▸ WBTC/kBTC $22.1K → 0x51C72848
-▸ USDC/WETH $22.7K → 0x51C72848
-▸ USDC/WETH $9.6K → 0x7f54F056
-▸ USDC/WETH $9.0K → 0x4c3ccC98
-▸ USDC/WETH $6.8K → 0xBdb3ba9f
-▸ LINK/WETH $4.2K (30% pool) → 0x51C72848
-▸ AAVE/USDT $3.2K (30% pool) → 0x51C72848
+▸ ⇢ 2.4015 WETH
+▸ ⇠ 4,799.5972 USDT
+▸ 🦊 0xCCCD04c4…45B36A
+▸ 📦 Block 25216758
+▸ 🔍 TX: https://etherscan.io/tx/0x08e962c013f4fa20e77fbe89ff44f3e9fdbc69767f2d33cdc2d4b97a16fdcc76
 
-📊 Tokens: WBTC, cbBTC, kBTC, WETH, USDC, USDT, AAVE, LINK, LDO, SEI
-🐋 Top whale: 0x51C72848 (12 trades, ~$340K)
-✅ All verified on-chain via Powerloom BDS
+✅ Verified on-chain:
+  ├ CID: bafkreihgcbhmpjk3veacpenj4f3…
+  ├ Epoch: 25216758
+  └ Project: allTradesSnapshot

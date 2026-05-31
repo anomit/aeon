@@ -1,0 +1,127 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "stat1",
+        "separator1",
+        "heading2",
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "link1",
+        "separator2",
+        "heading3",
+        "text6",
+        "text7",
+        "text8"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 BUY WETH/USDT on Uniswap V3 (1%)",
+        "level": "h2"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $4.8K swapped",
+        "variant": "lead"
+      }
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Swapped",
+        "value": "$4.8K",
+        "delta": "1%",
+        "trend": "up"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Transaction Details",
+        "level": "h3"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 2.4015 WETH"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 4,799.5972 USDT"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🦊 0xCCCD04c4…45B36A"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25216758"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: Etherscan",
+        "href": "https://etherscan.io/tx/0x08e962c013f4fa20e77fbe89ff44f3e9fdbc69767f2d33cdc2d4b97a16fdcc76"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "Verification",
+        "level": "h3"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreihgcbhmpjk3veacpenj4f3…"
+      }
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25216758"
+      }
+    }
+  }
+}
