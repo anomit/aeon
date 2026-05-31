@@ -1,0 +1,203 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Whale Radar Digest — Epochs 25213463-25213472 (22 trades)",
+        "description": "Powerloom BDS on-chain verification"
+      },
+      "children": [
+        "top-trades",
+        "top-whales",
+        "alerts"
+      ]
+    },
+    "top-trades": {
+      "type": "Heading",
+      "props": {
+        "text": "🏆 Top Trades:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trade-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade-1",
+        "trade-2",
+        "trade-3",
+        "trade-4",
+        "trade-5",
+        "trade-6",
+        "trade-7",
+        "trade-8",
+        "trade-9",
+        "trade-10"
+      ]
+    },
+    "trade-1": {
+      "type": "Text",
+      "props": {
+        "text": "• PAXG/XAUt $14.2K — 0x51C72848",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDT/SXT $89.3K x2 (0 SXT out — oracle bug)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-3": {
+      "type": "Text",
+      "props": {
+        "text": "• FT/USDC $6.9K — 0x4C82D1fB",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-4": {
+      "type": "Text",
+      "props": {
+        "text": "• PAXG/XAUt $8.4K — 0x00000000",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-5": {
+      "type": "Text",
+      "props": {
+        "text": "• PAXG/XAUt $8.1K — 0x51C72848",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-6": {
+      "type": "Text",
+      "props": {
+        "text": "• PAXG/XAUt $7.8K — 0x51C72848",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-7": {
+      "type": "Text",
+      "props": {
+        "text": "• FT/USDC $4.4K — 0x4C82D1fB",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-8": {
+      "type": "Text",
+      "props": {
+        "text": "• PAXG/XAUt $4.4K — 0x51C72848",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-9": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $3.3K — 0xC10eE903",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-10": {
+      "type": "Text",
+      "props": {
+        "text": "• USDT/SXT $3.2K x2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "top-whales": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 Top Whales:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "whale-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale-1",
+        "whale-2",
+        "whale-3",
+        "whale-4"
+      ]
+    },
+    "whale-1": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x51C72848…502a7F — 5 PAXG/XAUt (~$43K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale-2": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x4C82D1fB…0a2cCA — 2 FT/USDC (~$11.3K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale-3": {
+      "type": "Text",
+      "props": {
+        "text": "• 0xBdb3ba9f…DF47B6 — 3 trades (~$5.6K + ZAMA)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale-4": {
+      "type": "Text",
+      "props": {
+        "text": "• 0x278d858f…6eF8D2 — 3 trades (ZAMA + USDC/WETH)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alerts": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ Oracle Bug Alerts",
+        "message": "ZAMA/USDT (4) oracle bug — actual $52-$373 USDT",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert-secondary": {
+      "type": "Alert",
+      "props": {
+        "message": "USDT/SXT $89.3K shows 0 SXT output — likely oracle bug",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "verification": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS",
+        "variant": "success"
+      },
+      "children": []
+    }
+  }
+}

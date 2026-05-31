@@ -1,19 +1,24 @@
-🐋 WHALE DIGEST — Epochs 25213364–25213373 (17 trades)
+🐳 Whale Radar Digest — Epochs 25213463-25213472 (22 trades)
 
-🔥 Notable:
-▸ WKC/WETH $16.88M (500M WKC) — 0xC36442b4…11FE88 ⚠️ likely oracle-bugged (0 WETH out)
-▸ WETH/USDT $1.24M (76.3 WETH) — 0x1f2F10D1…6Df387
-▸ WETH/USDT $1.24M (76.0 WETH) — unknown whale
-▸ XAUt/USDT $13.7K — 0xBdb3ba9f…DF47B6
-▸ PAXG/XAUt $9.5K — 0x51C72848…502a7F
+🏆 Top Trades:
+• PAXG/XAUt $14.2K — 0x51C72848
+• USDT/SXT $89.3K x2 (0 SXT out — oracle bug)
+• FT/USDC $6.9K — 0x4C82D1fB
+• PAXG/XAUt $8.4K — 0x00000000
+• PAXG/XAUt $8.1K — 0x51C72848
+• PAXG/XAUt $7.8K — 0x51C72848
+• FT/USDC $4.4K — 0x4C82D1fB
+• PAXG/XAUt $4.4K — 0x51C72848
+• USDC/WETH $3.3K — 0xC10eE903
+• USDT/SXT $3.2K x2
 
-🥇 Gold corridor (5 trades):
-PAXG/XAUt $6.1K / $3.8K / $7.3K / $9.5K / $5.9K — all by 0x51C72848
+🐋 Top Whales:
+• 0x51C72848…502a7F — 5 PAXG/XAUt (~$43K)
+• 0x4C82D1fB…0a2cCA — 2 FT/USDC (~$11.3K)
+• 0xBdb3ba9f…DF47B6 — 3 trades (~$5.6K + ZAMA)
+• 0x278d858f…6eF8D2 — 3 trades (ZAMA + USDC/WETH)
 
-📊 Other:
-USDC/SEI $2.8K/$2.8K/$2.0K (3x by 0x7cDa585e)
-RLB/USDC $1.2K/$1.8K | PAXG/USDC $5.6K
-USDC/ASTEROID $1.1K | WETH/USDT $1.4K
+⚠️ ZAMA/USDT (4) oracle bug — actual $52-$373 USDT
+⚠️ USDT/SXT $89.3K shows 0 SXT output — likely oracle bug
 
-🔗 TXs: etherscan.io/tx/0x09831b1e… (WKC) · 0xf74a0276… (WETH $1.24M)
-✅ Verified on-chain via Powerloom BDS
+✅ All verified on-chain via Powerloom BDS
