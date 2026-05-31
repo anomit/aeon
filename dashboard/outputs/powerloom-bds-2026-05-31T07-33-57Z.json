@@ -1,0 +1,93 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE DIGEST"
+      },
+      "children": [
+        "header",
+        "stat",
+        "separator",
+        "badges",
+        "whale-text",
+        "link"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "9 trades (epochs 25213863-25213868)"
+      },
+      "children": []
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total trades",
+        "value": "9"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "LINK/WETH 6.5K",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "USDC/SEI 7K",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "WBTC/USDT 2.7K",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "whale-text": {
+      "type": "Text",
+      "props": {
+        "text": "Top whale: 0x51C72848 (3 trades)"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest in .pending-notify/",
+        "href": ".pending-notify/"
+      },
+      "children": []
+    }
+  }
+}
