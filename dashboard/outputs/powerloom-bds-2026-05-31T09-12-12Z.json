@@ -1,0 +1,158 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE DIGEST — Run 28",
+        "description": ""
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "separator1",
+        "stack2",
+        "separator2",
+        "alert1",
+        "separator3",
+        "stack3",
+        "text6"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Epochs 25214358–25214367 (9 processed) · 13 alerts"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "text7",
+        "text8",
+        "text9",
+        "text10",
+        "text11"
+      ]
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $20.6K — 0xBdb3ba9f"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $14.5K x2 — 0x1f2F10D1"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC/WETH $6.4K — 0x7f54F056"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "• USDT/wA7A5 $3.9K — 0x8D7512e5"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $3.0K — 0xe60fAE78"
+      }
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $2.6K — 0xBdb3ba9f"
+      }
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $2.2K — 0x7cDa585e"
+      }
+    },
+    "text10": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH/USDT $1.7K — 0x7cDa585e"
+      }
+    },
+    "text11": {
+      "type": "Text",
+      "props": {
+        "text": "• RLUSD/USDC $1.4K — 0x603206D6"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "message": "ZAMA/USDT x3 (oracle bug — 13K/13K/45K ZAMA for ~$493/$500/$1,679)",
+        "type": "warning"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text12"
+      ]
+    },
+    "text12": {
+      "type": "Text",
+      "props": {
+        "text": "0xBdb3ba9f (3 trades), 0x1f2F10D1 (2x $14.5K), 0x7cDa585e (2 trades)"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS"
+      }
+    }
+  }
+}
