@@ -1,0 +1,139 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert1",
+        "text1",
+        "text2",
+        "separator1",
+        "text3",
+        "text4",
+        "text5",
+        "text6",
+        "link1",
+        "separator2",
+        "text7",
+        "text8",
+        "text9"
+      ]
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "message": "🐋 WHALE ALERT 🟢"
+      },
+      "children": []
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY WETH/USDT on Uniswap V3 (1%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $3.0K swapped",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.5 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 3,039.4793 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0xe60fAE78…94347e",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25214167",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x7ed1e2414999fe883fb952d59e0927fd04db953d1fb9bcf3dc5d686643acd979",
+        "href": "https://etherscan.io/tx/0x7ed1e2414999fe883fb952d59e0927fd04db953d1fb9bcf3dc5d686643acd979"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text8": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ CID: bafkreic2l3gxekh4irhszdo27rv…",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text9": {
+      "type": "Text",
+      "props": {
+        "text": "  ├ Epoch: 25214167",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
