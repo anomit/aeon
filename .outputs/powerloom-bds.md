@@ -1,12 +1,15 @@
-🐋 Whale Radar Digest — Epochs 25212666–25212675 (10 epochs)
+🟢 🐋 WHALE ALERT 🟢
 
-📊 23 trades across 4 pools:
-• USDC/WETH (1%): 11 buys, $1.1K–$3.1K
-• WETH/USDT (1%): 7 buys, $1.0K–$3.1K
-• LDO/WETH (5%): 1 buy, $1.7K (5,281 LDO)
-• ZAMA/USDT (5%): 3 buys — ⚠️ anomalous USD values
+🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
+💰 $4991525671295385322622341191235841032192.00M swapped
 
-🔑 Active wallets: 0xe60fAE78 (6 txs), 0x51C72848 (3 txs), 0xBdb3ba9f (4 txs), 0x51Af6D81 (2 txs), 0x4C82D1fB (2 txs)
+▸ ⇒ 7,218.0634 ZAMA
+▸ ⇐ 274.2518 USDT
+▸ 🦊 0x278d858f…6eF8D2
+▸ 📦 Block 25212773
+▸ 🔍 TX: https://etherscan.io/tx/0x63ad4a7bfb08ab3ff609b840ac1efc2ca9b02d0ba83e22cb94eb78d69ae11cc2
 
-✅ All verified on-chain via Powerloom BDS
-🔍 TXs: etherscan.io/tx/0x8479…881e (+22 more)
+✅ Verified on-chain:
+  ├ CID: bafkreidmdodtmvt35kee56a76zn…
+  ├ Epoch: 25212773
+  └ Project: allTradesSnapshot
