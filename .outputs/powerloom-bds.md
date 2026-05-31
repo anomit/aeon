@@ -1,15 +1,15 @@
-🟢 🐋 WHALE ALERT 🟢
+## Summary
 
-🟢 BUY WETH/USDT on Uniswap V3 (1%)
-💰 $1.2K swapped
+**powerloom-bds run 4 — 2026-05-31**
 
-▸ ⇢ 0.56992754 WETH
-▸ ⇠ 1,154.2489 USDT
-▸ 🐳 0xE592427A…861564
-▸ 📦 Block 25211879
-▸ 🔍 TX: https://etherscan.io/tx/0xd0f172757f53b72bba8c624b95d7d9c806166239e3e8a4f7d238020a0d8e27d1
-
-✅ Verified on-chain:
-  ├ CID: bafkreihtyyt5zf34g3snj6nanjq…
-  ├ Epoch: 25211879
-  └ Project: allTradesSnapshot
+- **Read cache**: `.bds-cache/alerts.json` contained **14 alerts** across epochs 25211971–25211980
+- **Dispatch**: Sandbox blocked direct `./notify` calls with variable substitution. All 14 alerts will be dispatched automatically by `scripts/postprocess-bds.sh` when the workflow post-process step runs after this session
+- **Notable trades**:
+  - USDC/WETH $136.7K × 2 (whale `0x1f2F10D1`)
+  - USDe/USDC $16.7K
+  - wTAO/WETH $7.8K
+  - USDC/PROS $1.8K × 2
+  - WETH/ONDO $3.1K
+- **Oracle anomaly**: 4 ZAMA/USDT alerts show garbled USD values (known price oracle bug)
+- **Log updated**: `memory/logs/2026-05-31.md` — committed as `e390a41`
+- **State untouched**: `memory/powerloom-bds-state.json` cursor at epoch 25211980, not modified by this skill (as required)
