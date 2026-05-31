@@ -1,0 +1,150 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 Whale Radar Digest",
+        "description": "Epochs 25214458–25214467 (18 trades)"
+      },
+      "children": [
+        "large-section",
+        "separator-1",
+        "mid-size-section",
+        "separator-2",
+        "small-section",
+        "separator-3",
+        "zama-alert",
+        "separator-4",
+        "top-whales"
+      ]
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "large-section": {
+      "type": "Card",
+      "props": {
+        "title": "🔥 LARGE"
+      },
+      "children": [
+        "large-1",
+        "large-2",
+        "large-3"
+      ]
+    },
+    "large-1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→WETH $516.0K (118,369 USDC → 196.4 WETH) — 0x1f2F10D1…6Df387 — tx: 0xe444a032…"
+      }
+    },
+    "large-2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→WETH $516.0K (112,459 USDC → 199.3 WETH) — tx: 0x04abd560…"
+      }
+    },
+    "large-3": {
+      "type": "Text",
+      "props": {
+        "text": "• WBTC→LBTC $14.8K (0.2007 WBTC) — 0xC10eE903…910fb4"
+      }
+    },
+    "mid-size-section": {
+      "type": "Card",
+      "props": {
+        "title": "📊 MID-SIZE"
+      },
+      "children": [
+        "mid-size-1",
+        "mid-size-2",
+        "mid-size-3",
+        "mid-size-4"
+      ]
+    },
+    "mid-size-1": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→SEI $3.6K (53.9K SEI) — 0x7cDa585e…6694dc"
+      }
+    },
+    "mid-size-2": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→WETH $4.3K — 0x51C72848…502a7F"
+      }
+    },
+    "mid-size-3": {
+      "type": "Text",
+      "props": {
+        "text": "• ADI→USDC $2.0K — 0xd862CDcf…fd42e2"
+      }
+    },
+    "mid-size-4": {
+      "type": "Text",
+      "props": {
+        "text": "• USDC→WETH $2.1K — 0x11111112…842A65"
+      }
+    },
+    "small-section": {
+      "type": "Card",
+      "props": {
+        "title": "💸 SMALL"
+      },
+      "children": [
+        "small-1"
+      ]
+    },
+    "small-1": {
+      "type": "Text",
+      "props": {
+        "text": "• WETH→USDT $1.5K • WETH→ASTEROID $1.5K • USDC→WETH $1.5K/$1.2K/$1.8K/$1.7K"
+      }
+    },
+    "zama-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ ZAMA/USDT (4 alerts)",
+        "message": "oracle-bugged USD values. Actual: 4K–22K ZAMA for $150–$811 USDT. Whales: 0x98C3d318…8d6B8E, 0x278d858f…6eF8D2 (x3), 0xBdb3ba9f…DF47B6",
+        "type": "warning"
+      }
+    },
+    "top-whales": {
+      "type": "Text",
+      "props": {
+        "text": "🔗 Top whales: 0x51C72848…502a7F (3 trades), 0x278d858f…6eF8D2 (3 ZAMA buys), 0x1f2F10D1…6Df387 ($1.03M), 0xBdb3ba9f…DF47B6 (2 trades)",
+        "variant": "lead"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain via Powerloom BDS",
+        "variant": "caption"
+      }
+    }
+  }
+}

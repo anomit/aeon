@@ -1,21 +1,20 @@
-🐋 WHALE DIGEST — Run 28
+🐋 Whale Radar Digest — Epochs 25214458–25214467 (18 trades)
 
-Epochs 25214358–25214367 (9 processed) · 13 alerts
+🔥 LARGE:
+• USDC→WETH $516.0K (118,369 USDC → 196.4 WETH) — 0x1f2F10D1…6Df387 — tx: 0xe444a032…
+• USDC→WETH $516.0K (112,459 USDC → 199.3 WETH) — tx: 0x04abd560…
+• WBTC→LBTC $14.8K (0.2007 WBTC) — 0xC10eE903…910fb4
 
-🔥 Notable:
-• USDC/WETH $20.6K — 0xBdb3ba9f
-• WETH/USDT $14.5K x2 — 0x1f2F10D1
-• USDC/WETH $6.4K — 0x7f54F056
-• USDT/wA7A5 $3.9K — 0x8D7512e5
-• WETH/USDT $3.0K — 0xe60fAE78
-• WETH/USDT $2.6K — 0xBdb3ba9f
-• WETH/USDT $2.2K — 0x7cDa585e
-• WETH/USDT $1.7K — 0x7cDa585e
-• RLUSD/USDC $1.4K — 0x603206D6
+📊 MID-SIZE:
+• USDC→SEI $3.6K (53.9K SEI) — 0x7cDa585e…6694dc
+• USDC→WETH $4.3K — 0x51C72848…502a7F
+• ADI→USDC $2.0K — 0xd862CDcf…fd42e2
+• USDC→WETH $2.1K — 0x11111112…842A65
 
-⚠️ ZAMA/USDT x3 (oracle bug — 13K/13K/45K ZAMA for ~$493/$500/$1,679)
+💸 SMALL:
+• WETH→USDT $1.5K • WETH→ASTEROID $1.5K • USDC→WETH $1.5K/$1.2K/$1.8K/$1.7K
 
-📊 Top whales:
-0xBdb3ba9f (3 trades), 0x1f2F10D1 (2x $14.5K), 0x7cDa585e (2 trades)
+⚠️ ZAMA/USDT (4 alerts) — oracle-bugged USD values. Actual: 4K–22K ZAMA for $150–$811 USDT. Whales: 0x98C3d318…8d6B8E, 0x278d858f…6eF8D2 (x3), 0xBdb3ba9f…DF47B6
 
-✅ All verified on-chain via Powerloom BDS
+🔗 Top whales: 0x51C72848…502a7F (3 trades), 0x278d858f…6eF8D2 (3 ZAMA buys), 0x1f2F10D1…6Df387 ($1.03M), 0xBdb3ba9f…DF47B6 (2 trades)
+✅ Verified on-chain via Powerloom BDS
