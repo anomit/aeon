@@ -1,0 +1,84 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "📊 Whale Radar Digest — Epochs 25214954–25214963"
+      },
+      "children": [
+        "heading-swaps",
+        "text-swaps",
+        "separator-1",
+        "badge-tokens",
+        "stat-total",
+        "separator-2",
+        "alert-zama",
+        "alert-verify"
+      ]
+    },
+    "heading-swaps": {
+      "type": "Heading",
+      "props": {
+        "text": "🐋 Notable Swaps:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-swaps": {
+      "type": "Text",
+      "props": {
+        "text": "• $29.9K wTAO → USDC (0xC36442b4…11FE88)\n• $14.2K USDC → WETH (0x4C82D1fB…0a2cCA)\n• $6.7K USDC → SEI (0xBdb3ba9f…DF47B6)\n• $5.0K WBTC → WETH (0x4C82D1fB…0a2cCA)\n• $4.5K USDC → WETH (0xBdb3ba9f…DF47B6)\n• $4.1K USDC → WETH (0x42E213a3…b84748)\n• $3.4K WETH → USDT (0xE592427A…861564)\n• $3.0K WETH → USDT (0xe60fAE78…94347e)\n• $3.0K WETH → ASTEROID (0x4C82D1fB…0a2cCA)\n• $2.7K BOLD → USDC (0x00000000…120E49)\n• $2.0K USDC → WETH (0x4C82D1fB…0a2cCA)\n• $1.5K USDC → WETH (0xBdb3ba9f…DF47B6)\n• $1.3K USDC → WETH (0x6747BcaF…dfACB5)\n• $1.1K USDC → WETH (0x0F317aD1…2B4486)\n• $1.0K USDC → WETH (0x7f54F056…A3Be8A)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "badge-tokens": {
+      "type": "Badge",
+      "props": {
+        "text": "🏷 Tokens: USDC, WETH, USDT, wTAO, WBTC, SEI, BOLD, ASTEROID",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat-total": {
+      "type": "Stat",
+      "props": {
+        "label": "📈 Total tracked:",
+        "value": "~$830K across 18 swaps"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-zama": {
+      "type": "Alert",
+      "props": {
+        "message": "⚠ Note: 1 ZAMA/USDT alert skipped — oracle price bug (inflated USD value)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert-verify": {
+      "type": "Alert",
+      "props": {
+        "message": "✅ All on-chain verified via Powerloom BDS",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
