@@ -1,15 +1,15 @@
-🐋 Powerloom BDS — Epochs 25212864–25212873 (10 epochs)
+🟢 🐋 WHALE ALERT 🟢
 
-Notable trades:
-• wM/USDC $5.0K — 5,000 wM → 4,999.9 USDC (0x865Daf2A)
-• WETH/USDT $2.9K — 1.45 WETH (0xBdb3ba9f)
-• USDT/wA7A5 $2.3K — 2,351 USDT → 161.9K wA7A5 (0x8D7512e5)
-• WETH/USDT $1.9K — 0.92 WETH (0xBdb3ba9f)
-• USDC/WETH $1.4K — 1,366.7 USDC (0x278d858f)
-• USDC/WETH $1.1K — 1,055.1 USDC (0x278d858f)
-• WETH/USDT $1.8K, $1.3K (0xBdb3ba9f)
+🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
+💰 $4901593660236928467702932379750191071232.00M swapped
 
-ZAMA/USDT — 8 buys (4.3K–25.7K ZAMA) by 0x278d858f & 0xBdb3ba9f. USD values inflated by oracle bug; real totals $164–$975 USDT.
+▸ ⇢ 7,088.641 ZAMA
+▸ ⇠ 270.725 USDT
+▸ 🦊 0x278d858f…6eF8D2
+▸ 📦 Block 25212968
+▸ 🔍 TX: https://etherscan.io/tx/0x23b652798c93d0a2e1e80fd619489c6e9894b9063604c078cf78379c9d80f48c
 
-Active whales: 0x278d858f (8 trades), 0xBdb3ba9f (5 trades), 0x66a9893c (1 trade), 0x865Daf2A (1 trade), 0x8D7512e5 (1 trade)
-✅ All verified on-chain via Powerloom BDS
+✅ Verified on-chain:
+  ├ CID: bafkreihpggkzx7cyn725nosf2q2…
+  ├ Epoch: 25212968
+  └ Project: allTradesSnapshot
