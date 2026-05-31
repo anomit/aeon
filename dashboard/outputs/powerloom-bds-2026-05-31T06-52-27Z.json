@@ -1,0 +1,122 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "🟢 BUY WETH/USDT on Uniswap V3 (5%)"
+      },
+      "children": [
+        "stack1",
+        "stack2"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "text1",
+        "text2",
+        "text3",
+        "text4",
+        "link1"
+      ]
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator1",
+        "alert1",
+        "text5",
+        "text6",
+        "text7"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$2.2K"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 1.0722 WETH",
+        "variant": "body"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 2,177.4868 USDT",
+        "variant": "body"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      }
+    },
+    "text4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25213666",
+        "variant": "body"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: View on Etherscan",
+        "href": "https://etherscan.io/tx/0x1714e0f79b9f4919dbeeed56b6c73e688e953202c2c505515d00f0b2cc660ba9"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ Verified on-chain:",
+        "type": "success"
+      }
+    },
+    "text5": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreigl52excmilyxpzao7fqod…",
+        "variant": "body"
+      }
+    },
+    "text6": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25213666",
+        "variant": "body"
+      }
+    },
+    "text7": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      }
+    }
+  }
+}
