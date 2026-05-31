@@ -1,0 +1,68 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Powerloom BDS: 12 whale alerts (epochs 25215455-25215459)",
+        "description": "All verified on-chain via Powerloom BDS."
+      },
+      "children": [
+        "separator",
+        "usdc_weth",
+        "weth_usdt",
+        "usdc_sei",
+        "usdc_usdt",
+        "sky_weth"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "usdc_weth": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/WETH: 3.9K, 2.3K, 13.7K, 4.7K BUY",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "weth_usdt": {
+      "type": "Text",
+      "props": {
+        "text": "WETH/USDT: 3.0K, 1.5K, 2.2K BUY",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "usdc_sei": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/SEI: 7.3K, 4.5K, 1.9K BUY",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "usdc_usdt": {
+      "type": "Text",
+      "props": {
+        "text": "USDC/USDT: 142.9K BUY (largest)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sky_weth": {
+      "type": "Text",
+      "props": {
+        "text": "SKY/WETH: 2.1K BUY",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
