@@ -1,16 +1,20 @@
+## HEARTBEAT_OK · STATUS_PAGE=OK
+
+All systems operational:
+
+**P0 - Skills:** `powerloom-bds` (445 runs, 100% success) and `heartbeat` (41 runs, 100% success) both healthy. No failed, stuck, or degraded skills.
+
+**P1 - PRs/Issues:** No open PRs, no urgent issues.
+
+**P2 - Memory:** No flagged items requiring follow-up.
+
+**P3 - Schedule:** All enabled skills running on schedule.
+
+**Status page updated:** `docs/status.md` with current skill health metrics.
+
+---
+
 ## Summary
 
-**HEARTBEAT_OK** · STATUS_PAGE=OK
-
-All checks passed:
-
-| Priority | Status |
-|----------|--------|
-| P0: Failed/stuck skills | ✅ None (powerloom-bds: 100% success, 427 runs; heartbeat: 100% success) |
-| P1: Stalled PRs/urgent issues | ✅ None |
-| P2: Flagged memory items | ✅ None |
-| P3: Missing scheduled skills | ✅ All enabled skills running |
-
-**Actions taken:**
-- Updated `docs/status.md` (🟢 OK, updated 2026-05-31 08:00 UTC)
-- Logged result to `memory/logs/2026-05-31.md`
+- **Files created/modified:** `docs/status.md`, `memory/logs/2026-05-31.md`
+- **Actions taken:** Ran all priority checks, updated public status page, logged results

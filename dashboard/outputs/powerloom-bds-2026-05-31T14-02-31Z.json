@@ -1,0 +1,106 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🟢 🐋 WHALE ALERT 🟢",
+        "description": "🟢 BUY WETH/USDT on Uniswap V3 (1%)"
+      },
+      "children": [
+        "stack",
+        "separator",
+        "verified"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "amount",
+        "trade-grid"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "verified": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $1.0K swapped",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "sm"
+      },
+      "children": [
+        "from-text",
+        "to-text",
+        "wallet-text",
+        "block-text",
+        "tx-link"
+      ]
+    },
+    "from-text": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 0.51776874 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "to-text": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 1,046.9442 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "wallet-text": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐊 0xBdb3ba9f…DF47B6",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block-text": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25215757",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tx-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: https://etherscan.io/tx/0x7b6149940d2d5e4466da119c5e4873d26232d61cd5a7b75b0338e51977042083",
+        "href": "https://etherscan.io/tx/0x7b6149940d2d5e4466da119c5e4873d26232d61cd5a7b75b0338e51977042083"
+      },
+      "children": []
+    }
+  }
+}
