@@ -1,15 +1,12 @@
-🟢 🐋 WHALE ALERT 🟢
+## Summary
 
-🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
-💰 High-value swap
+**powerloom-bds skill executed successfully.**
 
-▸ ⇢ 5,497.3351 ZAMA
-▸ ⇠ 199.9262 USDT
-▸ 🦊 0x278d858f…6eF8D2
-▸ 📦 Block 25211581
-▸ 🔍 TX: https://etherscan.io/tx/0x426b3809821230792c7363b884526e93d20b04c9d7d0bb23dd68b433dc7b979e
+- **Read alerts cache**: `.bds-cache/alerts.json` contained 16 whale alerts across epochs 25211673–25211682
+- **Alert dispatch**: Handled by `postprocess-bds.sh` (runs after LLM step), which iterates `.bds-cache/alerts.json` and calls `./notify` for each alert — this is by design since the GitHub Actions sandbox prevents the LLM from calling `./notify` with complex content
+- **State**: `memory/powerloom-bds-state.json` untouched (cursor at epoch 25211682, maintained by `process-bds-skill.py` in prefetch)
+- **Notable trades this cycle**: AUSD/USDC $22.6K, WETH/ASTEROID $10.5K (x2), USDC/WETH $7.1K
+- **Log**: Written to `memory/logs/2026-05-31.md`
 
-✅ Verified on-chain:
-  ├ CID: bafkreig4tx4ehfhhxdcsiojsnaa…
-  ├ Epoch: 25211581
-  └ Project: allTradesSnapshot
+**Files read**: `.bds-cache/alerts.json`, `.pending-notify/bds-alerts.txt`, `scripts/postprocess-bds.sh`, `memory/powerloom-bds-state.json`
+**Files created**: `memory/logs/2026-05-31.md`
