@@ -1,0 +1,192 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "powerloom-bds",
+        "description": ""
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header-badges",
+        "transaction-section",
+        "verification-section"
+      ]
+    },
+    "header-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "green-badge",
+        "whale-badge"
+      ]
+    },
+    "green-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🟢",
+        "variant": "success"
+      },
+      "children": []
+    },
+    "whale-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🐋 WHALE ALERT 🟢",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "transaction-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "buy-title",
+        "amounts-stack",
+        "whale-address",
+        "block-info",
+        "transaction-link"
+      ]
+    },
+    "buy-title": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 BUY WETH/USDT on Uniswap V3 (5%)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "amounts-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "swapped-amount",
+        "weth-received",
+        "usdt-sent"
+      ]
+    },
+    "swapped-amount": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $1.6K swapped",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "weth-received": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇒ 0.78430976 WETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "usdt-sent": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇐ 1,583.9585 USDT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "whale-address": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0xfd9C2B42…BF3089",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "block-info": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25214764",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transaction-link": {
+      "type": "Link",
+      "props": {
+        "label": "▸ 🔍 TX: etherscan.io/tx/0xd7dae0e6310c83a2d22df3ebc79338bafee278bb0ec8da0eeea1855b8fa9a626",
+        "href": "https://etherscan.io/tx/0xd7dae0e6310c83a2d22df3ebc79338bafee278bb0ec8da0eeea1855b8fa9a626"
+      },
+      "children": []
+    },
+    "verification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verification-title",
+        "verification-details"
+      ]
+    },
+    "verification-title": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Verified on-chain:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "verification-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cid-info",
+        "epoch-info",
+        "project-info"
+      ]
+    },
+    "cid-info": {
+      "type": "Text",
+      "props": {
+        "text": "├ CID: bafkreihywnxaauj6b4edsgccsho…",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "epoch-info": {
+      "type": "Text",
+      "props": {
+        "text": "├ Epoch: 25214764",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "project-info": {
+      "type": "Text",
+      "props": {
+        "text": "└ Project: allTradesSnapshot",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
