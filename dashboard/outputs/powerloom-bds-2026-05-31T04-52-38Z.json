@@ -1,0 +1,287 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐋 WHALE DIGEST — Epoch 25213064–25213073"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "stack2",
+        "heading2",
+        "stack3",
+        "heading3",
+        "stack4",
+        "heading4",
+        "stack5"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Top trades",
+        "level": "h3"
+      }
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade1",
+        "trade2",
+        "trade3",
+        "trade4",
+        "trade5",
+        "trade6",
+        "trade7",
+        "trade8",
+        "trade9",
+        "trade10"
+      ]
+    },
+    "trade1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/USDT $23.3K — 0x51C72848…502a7F"
+      }
+    },
+    "trade2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/WETH $8.5K — 0x7f54F056…A3Be8A"
+      }
+    },
+    "trade3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WBTC/WETH $8.4K — 0x51C72848…502a7F"
+      }
+    },
+    "trade4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $7.1K — 0xe60fAE78…94347e"
+      }
+    },
+    "trade5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/SEI $5.4K — 0x51C72848…502a7F"
+      }
+    },
+    "trade6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/SEI $4.0K — 0x7cDa585e…6694dc"
+      }
+    },
+    "trade7": {
+      "type": "Text",
+      "props": {
+        "text": "▸ USDC/WETH $3.3K — 0x51C72848…502a7F"
+      }
+    },
+    "trade8": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WETH/USDT $3.2K — 0x81463B0f…5b5128"
+      }
+    },
+    "trade9": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WETH/USDT $3.1K — 0xBA2CEeD1…2F9Dd6"
+      }
+    },
+    "trade10": {
+      "type": "Text",
+      "props": {
+        "text": "▸ WETH/USDT $3.0K (x3) — 0xe60fAE78…94347e"
+      }
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Top whales",
+        "level": "h3"
+      }
+    },
+    "stack3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "whale1",
+        "whale2",
+        "whale3",
+        "whale4"
+      ]
+    },
+    "whale1": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x51C72848…502a7F — 9 trades (~$48K: WBTC, USDC, SEI, WETH, LIT, AAVE)"
+      }
+    },
+    "whale2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0xe60fAE78…94347e — 4 trades (~$16K: USDC/WETH, WETH/USDT)"
+      }
+    },
+    "whale3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x7f54F056…A3Be8A — 2 trades (~$11K: WBTC/WETH, WETH/USDT)"
+      }
+    },
+    "whale4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 0x7cDa585e…6694dc — 2 SEI buys (~$7K)"
+      }
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "Tokens",
+        "level": "h3"
+      }
+    },
+    "stack4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "token1",
+        "token2",
+        "token3",
+        "token4",
+        "token5",
+        "token6",
+        "token7",
+        "token8",
+        "token9",
+        "token10",
+        "token11"
+      ]
+    },
+    "token1": {
+      "type": "Badge",
+      "props": {
+        "text": "WBTC"
+      }
+    },
+    "token2": {
+      "type": "Badge",
+      "props": {
+        "text": "WETH"
+      }
+    },
+    "token3": {
+      "type": "Badge",
+      "props": {
+        "text": "USDC"
+      }
+    },
+    "token4": {
+      "type": "Badge",
+      "props": {
+        "text": "USDT"
+      }
+    },
+    "token5": {
+      "type": "Badge",
+      "props": {
+        "text": "SEI"
+      }
+    },
+    "token6": {
+      "type": "Badge",
+      "props": {
+        "text": "NEXO"
+      }
+    },
+    "token7": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT"
+      }
+    },
+    "token8": {
+      "type": "Badge",
+      "props": {
+        "text": "AAVE"
+      }
+    },
+    "token9": {
+      "type": "Badge",
+      "props": {
+        "text": "LINK"
+      }
+    },
+    "token10": {
+      "type": "Badge",
+      "props": {
+        "text": "ZAMA*"
+      }
+    },
+    "token11": {
+      "type": "Badge",
+      "props": {
+        "text": "RLP*"
+      }
+    },
+    "heading4": {
+      "type": "Heading",
+      "props": {
+        "text": "Oracle alerts",
+        "level": "h3"
+      }
+    },
+    "stack5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert1"
+      ]
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "3 oracle-bugged alerts",
+        "message": "ZAMA/USDT (26K ZAMA ~$998), RLP/USDC (2x dust)",
+        "type": "warning"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All verified on-chain via Powerloom BDS",
+        "variant": "caption"
+      }
+    }
+  }
+}

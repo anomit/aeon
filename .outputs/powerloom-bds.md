@@ -1,15 +1,24 @@
-🟢 🐋 WHALE ALERT 🟢
+🐋 WHALE DIGEST — Epoch 25213064–25213073 (10 epochs, 24 trades)
 
-🟢 BUY ZAMA/USDT on Uniswap V3 (5%)
-💰 $4901593660236928467702932379750191071232.00M swapped
+🔥 Top trades:
+▸ WBTC/USDT $23.3K — 0x51C72848…502a7F
+▸ WBTC/WETH $8.5K — 0x7f54F056…A3Be8A
+▸ WBTC/WETH $8.4K — 0x51C72848…502a7F
+▸ USDC/WETH $7.1K — 0xe60fAE78…94347e
+▸ USDC/SEI $5.4K — 0x51C72848…502a7F
+▸ USDC/SEI $4.0K — 0x7cDa585e…6694dc
+▸ USDC/WETH $3.3K — 0x51C72848…502a7F
+▸ WETH/USDT $3.2K — 0x81463B0f…5b5128
+▸ WETH/USDT $3.1K — 0xBA2CEeD1…2F9Dd6
+▸ WETH/USDT $3.0K (x3) — 0xe60fAE78…94347e
 
-▸ ⇢ 7,088.641 ZAMA
-▸ ⇠ 270.725 USDT
-▸ 🦊 0x278d858f…6eF8D2
-▸ 📦 Block 25212968
-▸ 🔍 TX: https://etherscan.io/tx/0x23b652798c93d0a2e1e80fd619489c6e9894b9063604c078cf78379c9d80f48c
+🐋 Top whales:
+▸ 0x51C72848…502a7F — 9 trades (~$48K: WBTC, USDC, SEI, WETH, LIT, AAVE)
+▸ 0xe60fAE78…94347e — 4 trades (~$16K: USDC/WETH, WETH/USDT)
+▸ 0x7f54F056…A3Be8A — 2 trades (~$11K: WBTC/WETH, WETH/USDT)
+▸ 0x7cDa585e…6694dc — 2 SEI buys (~$7K)
 
-✅ Verified on-chain:
-  ├ CID: bafkreihpggkzx7cyn725nosf2q2…
-  ├ Epoch: 25212968
-  └ Project: allTradesSnapshot
+📊 Tokens: WBTC, WETH, USDC, USDT, SEI, NEXO, LIT, AAVE, LINK, ZAMA*, RLP*
+
+⚠️ 3 oracle-bugged alerts: ZAMA/USDT (26K ZAMA ~$998), RLP/USDC (2x dust)
+✅ All verified on-chain via Powerloom BDS
