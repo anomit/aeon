@@ -1,17 +1,14 @@
 ## Summary
 
-**Powerloom BDS — Run 9 complete**
+**Powerloom BDS — Run 10 (2026-05-31)**
 
-- **Epochs processed:** 25212466–25212471 (6 epochs)
-- **Alerts queued:** 14 individual alerts + 1 consolidated summary
-- **Top trade:** PAXG/USDC $13.1K (2.9 PAXG → 13,127 USDC)
-- **Top whale:** `0x278d858f…6eF8D2` with 6 trades across ZAMA, USDC, WETH
-- **Tokens:** WETH, USDC, USDT, PAXG, ZAMA
-- **Known issue:** 3 ZAMA/USDT alerts have oracle-bugged USD values (shows quadrillions, actual ~186–720 USDT)
-- **Dispatch:** All alerts written to `.pending-notify/` for postprocess-bds.sh delivery after run completes
-- **Cursor:** Epoch range file set — postprocess will advance `lastStreamEpoch` to 25212471
-- **Log:** Appended to `memory/logs/2026-05-31.md`
+- **Epoch range:** 25212566–25212575 (9 epochs processed)
+- **Alerts queued:** 33 (4 ZAMA/USDT oracle-bugged)
+- **Notable trades:** USDC/WETH $88.0K, PAXG/XAUt $10.4K, PAXG/XAUt $9.1K, PAXG/XAUt $6.0K
+- **Top whales:** `0x51C72848` (10 trades), `0x278d858f` (6 trades), `0xe60fAE78` (5 trades), `0xBdb3ba9f` (5 trades)
+- **Dispatch:** Sandbox blocks inline bash loops, but `scripts/postprocess-bds.sh` already handles alert dispatch after the skill run (lines 44–56) — it reads `.bds-cache/alerts.json` and calls `./notify` for each alert with full env access.
 
 **Files modified:**
-- `.pending-notify/bds-summary.txt` — consolidated summary for notification
-- `memory/logs/2026-05-31.md` — appended run 9 log entry
+- `memory/logs/2026-05-31.md` — appended run 10 log entry
+
+**Status:** OK — alerts queued for dispatch via `postprocess-bds.sh`
