@@ -1,0 +1,100 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "WHALE ALERT",
+        "description": "Large WETH/USDT transaction detected on Uniswap V3"
+      },
+      "children": [
+        "heading-1",
+        "text-1",
+        "stat-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "alert-1"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 BUY WETH/USDT on Uniswap V3 (1%)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "💰 $4.1K swapped",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Transaction Value",
+        "value": "$4.1K"
+      },
+      "children": []
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇢ 2.0446 WETH"
+      },
+      "children": []
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "▸ ⇠ 4,110.2554 USDT"
+      },
+      "children": []
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🐳 0xBdb3ba9f…DF47B6"
+      },
+      "children": []
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 📦 Block 25216454"
+      },
+      "children": []
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "▸ 🔍 TX:"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "https://etherscan.io/tx/0x6a9e90c183398bc6fc6c4845ab5a98e45f454d1ed652c71bd55218d209811712",
+        "href": "https://etherscan.io/tx/0x6a9e90c183398bc6fc6c4845ab5a98e45f454d1ed652c71bd55218d209811712"
+      },
+      "children": []
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Verified on-chain:",
+        "message": "CID: bafkreie6oq7xfu4dbdnbtldkp3a…\nEpoch: 25216454\nProject: allTradesSnapshot",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
