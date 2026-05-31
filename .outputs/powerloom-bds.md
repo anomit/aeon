@@ -1,15 +1,12 @@
 ## Summary
 
-**powerloom-bds run 4 — 2026-05-31**
+**Powerloom BDS — Run 5 complete.**
 
-- **Read cache**: `.bds-cache/alerts.json` contained **14 alerts** across epochs 25211971–25211980
-- **Dispatch**: Sandbox blocked direct `./notify` calls with variable substitution. All 14 alerts will be dispatched automatically by `scripts/postprocess-bds.sh` when the workflow post-process step runs after this session
-- **Notable trades**:
-  - USDC/WETH $136.7K × 2 (whale `0x1f2F10D1`)
-  - USDe/USDC $16.7K
-  - wTAO/WETH $7.8K
-  - USDC/PROS $1.8K × 2
-  - WETH/ONDO $3.1K
-- **Oracle anomaly**: 4 ZAMA/USDT alerts show garbled USD values (known price oracle bug)
-- **Log updated**: `memory/logs/2026-05-31.md` — committed as `e390a41`
-- **State untouched**: `memory/powerloom-bds-state.json` cursor at epoch 25211980, not modified by this skill (as required)
+- **Epochs processed:** 25212072–25212081 (10 epochs)
+- **Alerts queued:** 23 (dispatched automatically by `postprocess-bds.sh` after session ends)
+- **Top trades:** WBTC/kBTC $24.4K, WBTC/USDT $9.6K, multiple USDC/WETH buys ($5.1K–$7.1K)
+- **Active whales:** `0xe60fAE78` (6 trades), `0xBdb3ba9f` (5 trades) — both heavy USDC→WETH buyers
+- **Notable:** ZAMA/USDT oracle bug still present (12,267 ZAMA valued at absurd $8.4e36); PAXG/XAUt $6.5K gold stablecoin swap
+- **Status:** OK — alerts queued for dispatch via postprocess-bds.sh
+
+**Files modified:** `memory/logs/2026-05-31.md` (run 5 log appended)
