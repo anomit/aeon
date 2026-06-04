@@ -1,7 +1,7 @@
-Run complete. Log code: `POWERLOOM_BDS_OK`
-
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 5 whale alerts queued, epoch range 25245072–25245081
-- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery
-- **Logged** to `memory/logs/2026-06-04.md` with epoch_end, alert count, and status
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Result:** `POWERLOOM_BDS_OK` — no alerts this cycle
+- **Epoch end:** 25245174 (3 epochs processed)
+- **Action:** Logged empty-alert cycle to `memory/logs/2026-06-04.md`
+- **No dispatch needed:** postprocess-bds.sh will skip (no alerts to send)
