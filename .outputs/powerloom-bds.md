@@ -1,6 +1,7 @@
+Run complete. Log code: `POWERLOOM_BDS_OK`
+
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 12 whale alerts queued, epoch range 25244970–25244979
+- **Read** `.bds-cache/alerts.json` — 5 whale alerts queued, epoch range 25245072–25245081
 - **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery
-- **Logged** to `memory/logs/2026-06-04.md`: epoch end 25244979, 12 alerts queued, status OK
-- **Committed** log entry to main
+- **Logged** to `memory/logs/2026-06-04.md` with epoch_end, alert count, and status
