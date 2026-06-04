@@ -1,6 +1,9 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (🟢 BUY USDC/WETH on Uniswap V3, $225.7K, block 25247163)
-- **No dispatch** — per skill rules, `scripts/postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **Logged** run to `memory/logs/2026-06-04.md` — epoch end 25247167, 1 alert queued, status OK
-- **State untouched** — `memory/powerloom-bds-state.json` remains as-is (managed by prefetch)
+**powerloom-bds skill run complete** — `POWERLOOM_BDS_OK`
+
+- **Alerts cached:** 9 whale alerts from epoch 25247265 (whale-radar mode)
+- **Key activity:** `0x51C72848…502a7F` executed 8 of the 9 trades — aggressive WETH, WBTC, and USDC accumulation across Uniswap V3 pools, largest single swap $90.7K WETH/USDT. One trade from `0xa0F1C3aD…5275ea` ($30.4K WETH). All BUY-side.
+- **Dispatch:** Queued for `postprocess-bds.sh` (Telegram/Discord/Slack delivery handled there)
+- **File modified:** `memory/logs/2026-06-04.md` — appended log entry
+- **Committed:** `40188ef` on `main`
