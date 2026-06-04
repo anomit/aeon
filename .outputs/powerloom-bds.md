@@ -1,7 +1,9 @@
-`POWERLOOM_BDS_OK` — run complete.
-
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 5 whale alerts queued across epochs 25246064–25246073 (10 epochs processed)
-- **Did not dispatch** — no `./notify` calls; postprocess-bds.sh handles delivery
-- **Logged** run to `memory/logs/2026-06-04.md` with epoch range, alert count, and OK status
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Alerts cache**: `.bds-cache/alerts.json` contained 3 alerts (epoch end: 25246174)
+  - USDC/WETH $77.8K BUY on Uniswap V3
+  - WBTC/USDT $26.1K BUY on Uniswap V3
+  - USDC/WETH $55.0K BUY on Uniswap V3
+- **Action**: Logged to `memory/logs/2026-06-04.md` — no dispatch (postprocess-bds.sh handles delivery)
+- **Committed**: `a650451 chore(cron): powerloom-bds success`
