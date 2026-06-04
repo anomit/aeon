@@ -1,8 +1,14 @@
 ## Summary
 
-**powerloom-bds** skill run complete.
+**powerloom-bds skill completed successfully.**
 
-- **Read** `.bds-cache/alerts.json` — 9 whale alerts queued, epoch range 25246758–25246767 (10 epochs)
-- **Did not dispatch** — postprocess-bds.sh handles notification delivery (per skill rules)
-- **Logged** to `memory/logs/2026-06-04.md` with epoch end, alert count, and OK status
-- **Committed and pushed** to main (`03d3474`)
+- **Alerts cache**: `.bds-cache/alerts.json` contained 2 whale alerts at epoch_end 25246862
+  - Two wTAO/WETH buys on Uniswap V3 (1%) — ~$58.9K and $59.9K, same block (25246861), same wallet (`0xC36442b4…11FE88`)
+  - Both verified on-chain via Powerloom BDS snapshots
+- **Dispatch**: Skipped — `scripts/postprocess-bds.sh` owns notification delivery
+- **Log**: Appended run entry to `memory/logs/2026-06-04.md`
+  - Epoch range: 25246858–25246862 (5 epochs processed)
+  - Alerts queued: 2
+  - Status: OK
+
+**Status code**: `POWERLOOM_BDS_OK`
