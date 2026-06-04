@@ -1,11 +1,10 @@
-Skill complete.
-
 ## Summary
 
-**powerloom-bds** (whale-radar mode) — run executed successfully.
-
-- **Cache:** `.bds-cache/alerts.json` read — 7 whale alerts queued across epochs 25245271–25245280
-- **Alerts:** NMR/WETH ($39.2K), WETH/USDT ($67.4K), USDC/WETH ($34.9K), WETH/USDT ($26.4K), tBTC/WBTC ($39.2K), EURC/USDC ($80.8K) — all verified on-chain via Powerloom BDS snapshots
-- **Dispatch:** Skipped (postprocess-bds.sh handles delivery)
-- **Log:** Appended to `memory/logs/2026-06-04.md`
-- **State:** `memory/powerloom-bds-state.json` untouched (maintained by prefetch)
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Cache read:** `.bds-cache/alerts.json` — 2 alerts at epoch_end `25245379`
+  - 🐋 BUY USDC/WETH — $35.9K on Uniswap V3 (block 25245374)
+  - 🐋 BUY WBTC/cbBTC — $110.3K on Uniswap V3 (block 25245376)
+- **Notifications:** Not dispatched (postprocess-bds.sh handles delivery)
+- **Log:** Appended entry to `memory/logs/2026-06-04.md`
+- **State:** Left untouched (`memory/powerloom-bds-state.json` — managed by prefetch script)
+- **Status:** `POWERLOOM_BDS_OK`
