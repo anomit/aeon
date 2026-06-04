@@ -1,9 +1,12 @@
-Done.
-
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 9 whale alerts queued, epoch range 25244476–25244485
-- **Skipped dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery (per skill spec)
-- **Logged** run to `memory/logs/2026-06-04.md` with epoch end, alert count, and OK status
-- Did **not** rewrite `memory/powerloom-bds-state.json` (maintained by `scripts/process-bds-skill.py` only)
-- Status: `POWERLOOM_BDS_OK`
+**powerloom-bds (whale-radar)** — skill executed successfully.
+
+| Item | Detail |
+|------|--------|
+| Alerts queued | 4 (dispatch via `postprocess-bds.sh`) |
+| Epoch range | 25244573–25244582 (10 epochs) |
+| Notable activity | $432.8K WETH buy, plus 3 USDC→WETH buys ($72.7K, $48.1K, $46.8K) |
+| Dispatch | Skipped per skill spec — postprocess script handles delivery |
+| File modified | `memory/logs/2026-06-04.md` — log entry appended |
+| Commit | `5d456ed` on `main` |
