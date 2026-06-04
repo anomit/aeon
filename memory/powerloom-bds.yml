@@ -1,0 +1,17 @@
+# Powerloom BDS configuration
+# Copy to memory/powerloom-bds.yml
+
+mode: whale-radar  # whale-radar | token-flow | pulse | defi-analyst
+
+thresholds:
+  whale_usd: 25000  # Minimum USD for whale alert
+
+# Pulse-specific (only used when mode: pulse)
+pulse:
+  window_minutes: 5
+  cooldown_minutes: 10
+
+# DeFi Analyst specific (only used when mode: defi-analyst)
+analyst:
+  report_cadence: hourly
+  include_verification_probe: true
