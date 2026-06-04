@@ -1,11 +1,17 @@
-Push succeeded. Skill execution complete.
+Skill complete. Here's the summary:
 
 ## Summary
 
-**powerloom-bds (whale-radar)** — executed successfully.
+**Skill:** `powerloom-bds` (whale-radar mode)
 
-- **Epoch range:** 25246269–25246276 (8 epochs processed)
-- **Alerts queued:** 10 — dispatch handled by `postprocess-bds.sh`
-- **Whale activity:** 0x51C72848 active across USDC/WETH, WBTC/WETH, WBTC/USDT, PAXG/XAUt, WBTC/cbBTC pools. 0x1f2F10D1 buying PENDLE. 0xBdb3ba9f buying WETH via USDC. BUY-side dominant.
-- **No dispatch from LLM** — per skill spec, postprocess owns Telegram/Discord/Slack delivery.
-- **Committed & pushed:** `62bb54f` to `main`
+**What happened:**
+- Read `.bds-cache/alerts.json` — found **9 whale alerts** across epochs 25246364–25246373
+- Notable activity: 0xBdb3ba9f accumulated WBTC aggressively ($29.5K, $46.4K, $76.3K), 0x51C72848 rotated across PAXG/XAUt and USDC pools, 0x1f2F10D1 did two ~$93K USDC→WETH swaps
+- Did **not** dispatch notifications (per skill spec — `postprocess-bds.sh` handles delivery)
+- Did **not** modify `memory/powerloom-bds-state.json` (maintained by `process-bds-skill.py` only)
+- Appended run log to `memory/logs/2026-06-04.md`
+
+**Files modified:**
+- `memory/logs/2026-06-04.md` — appended epoch 25246373 entry
+
+**Status:** `POWERLOOM_BDS_OK`
