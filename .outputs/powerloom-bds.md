@@ -1,9 +1,11 @@
 ## Summary
 
-**powerloom-bds skill run complete — `POWERLOOM_BDS_OK`**
+**powerloom-bds skill run complete.**
 
-- **Epoch end:** 25253776 (range 25253767–25253776, 10 epochs processed)
-- **Alerts queued:** 1 — a 🐋 BUY rETH/WETH swap on Uniswap V3 ($26.6K), block 25253767, verified on-chain
-- **Dispatch:** Handled by `postprocess-bds.sh` (not by this skill)
-- **Log:** Appended to `memory/logs/2026-06-05.md` and committed (`71160b6`)
-- **State:** `memory/powerloom-bds-state.json` untouched (managed by prefetch script)
+- **Epoch range:** 25253868–25253877 (10 epochs processed)
+- **Alerts queued:** 1 — 🐳 BUY USDC/USDT on Uniswap V3 (1%), $61.9K swapped at block 25253874 (verified on-chain)
+- **Dispatch:** Not dispatched here — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **State:** `lastStreamEpoch` now at 25253877, untouched as required
+- **Log:** Appended to `memory/logs/2026-06-05.md`
+
+**Status:** `POWERLOOM_BDS_OK` ✅
