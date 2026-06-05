@@ -1,9 +1,6 @@
-Pushed successfully.
-
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — 8 whale alerts queued, epoch range 25249148–25249157
-- **Did not dispatch** — per skill instructions, postprocess-bds.sh handles notification delivery
-- **Logged run** to `memory/logs/2026-06-05.md` with epoch_end 25249157, 8 alerts queued
-- **Committed and pushed** to main (`6182810`)
-- Status: **OK**
+- **Read** `.bds-cache/alerts.json` — found **25 whale alerts** queued for dispatch, covering epochs 25249249–25249258
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Logged** run to `memory/logs/2026-06-05.md` with epoch end 25249258, 25 alerts queued
+- **Status:** `POWERLOOM_BDS_OK`
