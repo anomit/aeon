@@ -1,12 +1,11 @@
 ## Summary
 
-**powerloom-bds** skill executed successfully:
+**powerloom-bds skill run complete.**
 
-- **Epoch end:** 25252533
-- **Alerts queued:** 14 (dispatch via postprocess-bds.sh)
-- **Status:** OK
-
-14 whale alerts detected across multiple pairs (wstETH/WETH, WETH/USDT, WBTC/WETH, USDC/WETH, LINK/WETH, XAUt/USDT) — all with on-chain verification. Notable trades include a $268.3K wstETH/WETH swap and a $90.6K WBTC/WETH swap. Delivery will be handled by `postprocess-bds.sh`.
-
-- **Modified:** `memory/logs/2026-06-05.md` — appended run log entry
-- **No dispatch:** postprocess-bds.sh owns notification delivery per skill design
+- **Alerts cache**: Read `.bds-cache/alerts.json` — 7 whale alerts found
+- **Epoch range**: 25252624 → 25252633 (10 epochs processed)
+- **Alerts queued**: 7 (dispatch via postprocess-bds.sh)
+- **Notable alerts**: RLB/WETH $2.98M swap (×2), AUSD/USDC $50K, tBTC/WBTC $31.8K, WBTC/WETH $26.4K, USDe/USDC $26K
+- **Log**: Appended to `memory/logs/2026-06-05.md`
+- **No dispatch**: Per skill instructions, notification dispatch is handled by `scripts/postprocess-bds.sh`
+- **Status**: OK
