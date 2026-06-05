@@ -1,10 +1,8 @@
 ## Summary
 
-**powerloom-bds skill run completed — POWERLOOM_BDS_OK**
+- **Read alerts cache** (`.bds-cache/alerts.json`): 13 whale alerts queued, epoch range 25248550–25248558
+- **Did not dispatch** — per skill spec, `postprocess-bds.sh` handles notification delivery
+- **Logged** to `memory/logs/2026-06-05.md`: epoch end 25248558, 13 alerts queued
+- **Committed** as `f406343` — `chore(cron): powerloom-bds success`
 
-- **Alerts cache**: `.bds-cache/alerts.json` found with **8 whale alerts**
-- **Epoch range**: 25248451–25248460 (10 epochs processed)
-- **Dispatch**: Skipped (per skill spec — `postprocess-bds.sh` owns notification delivery)
-- **Log**: Appended entry to `memory/logs/2026-06-05.md`
-
-Notable alerts this run include a $1.53M USDC→ASTEROID swap on Uniswap V3, a $160.2K wTAO buy, and several WETH/USDC and WBTC/WETH trades — all with on-chain CID verification.
+Status: `POWERLOOM_BDS_OK`
