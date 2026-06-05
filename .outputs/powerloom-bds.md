@@ -1,6 +1,7 @@
+Skill complete. Log code: `POWERLOOM_BDS_OK`
+
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — found **25 whale alerts** queued for dispatch, covering epochs 25249249–25249258
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **Logged** run to `memory/logs/2026-06-05.md` with epoch end 25249258, 25 alerts queued
-- **Status:** `POWERLOOM_BDS_OK`
+- **Read** `.bds-cache/alerts.json` — 30 whale alerts across epochs 25249344–25249353
+- **Logged** to `memory/logs/2026-06-05.md`: epoch end 25249353, 30 alerts queued for dispatch via `postprocess-bds.sh`
+- **Did not dispatch** — postprocess script owns notification delivery per skill design
