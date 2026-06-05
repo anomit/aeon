@@ -1,7 +1,7 @@
+Skill complete. `POWERLOOM_BDS_OK`
+
 ## Summary
 
-- **Alerts found:** 1 — whale buy of 8.032 XAUt ($35.7K) on Uniswap V3, block 25250238
-- **Epoch range:** 25250237–25250241 (5 epochs processed)
-- **Dispatch:** Skipped (postprocess-bds.sh owns Telegram/Discord/Slack delivery)
-- **Log:** Appended to `memory/logs/2026-06-05.md`, committed as `39ac9e4`
-- **Status:** `POWERLOOM_BDS_OK`
+- **Read** `.bds-cache/alerts.json` — 3 whale alerts queued (epochs 25250336–25250339)
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` owns notification delivery
+- **Logged** run to `memory/logs/2026-06-05.md` with epoch_end 25250339, 3 alerts queued
