@@ -1,10 +1,7 @@
 ## Summary
 
-**Powerloom BDS skill run completed — `POWERLOOM_BDS_OK`**
-
-- **Alerts cache:** `.bds-cache/alerts.json` contained 7 whale alerts (epochs 25251328–25251337)
-- **No dispatch:** Per SKILL.md, did not call `./notify` — postprocess-bds.sh handles delivery
-- **No state mutation:** Did not rewrite `memory/powerloom-bds-state.json` (owned by prefetch script)
-- **Logged:** Appended run entry to `memory/logs/2026-06-05.md` with epoch end 25251337, 7 alerts queued
-
-**Alerts in this batch:** XAUt/USDT buys (~$59K, ~$101K), WETH/USDT buys (~$66K, ~$33K), LINK/WETH buy (~$42K), WBTC/WETH buys (~$32K, ~$63K) — all on Uniswap V3 with on-chain verification.
+- **Read alerts cache** (`.bds-cache/alerts.json`): 7 whale alerts across epochs 25251426–25251435
+- **Notable alerts**: $3.45M USDC/WETH swap, $1.18M WETH/USDT (×2), plus four WBTC buys ($49.7K, $40.0K, $31.6K, $39.3K) — all verified on-chain with CIDs
+- **Did not dispatch** — postprocess-bds.sh handles delivery per skill spec
+- **Did not rewrite state** — state file managed exclusively by `scripts/process-bds-skill.py`
+- **Logged** run to `memory/logs/2026-06-05.md`: epoch_end 25251435, 7 alerts queued, status OK
