@@ -1,8 +1,9 @@
 ## Summary
 
-**powerloom-bds** skill executed successfully.
+**powerloom-bds skill completed successfully.**
 
-- **Alerts cache**: `.bds-cache/alerts.json` — 21 whale alerts queued across epochs 25252124–25252133
-- **Dispatch**: Skipped (per skill spec — `postprocess-bds.sh` owns notification delivery)
-- **Log**: Appended to `memory/logs/2026-06-05.md` with epoch end 25252133, 21 alerts queued, Status: OK
-- **State**: Unchanged — `memory/powerloom-bds-state.json` maintained by prefetch script, not touched
+- **Alerts cache**: 12 whale alerts read from `.bds-cache/alerts.json`
+- **Epoch range**: 25252226–25252235 (10 epochs processed)
+- **Dispatch**: Skipped (per skill instructions — `postprocess-bds.sh` handles notification delivery)
+- **Log**: Appended entry to `memory/logs/2026-06-05.md`
+- **Commit**: `edea16b` on `main`
