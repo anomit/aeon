@@ -1,10 +1,8 @@
+`POWERLOOM_BDS_OK` — empty alerts cycle, logged and done.
+
 ## Summary
 
-**Powerloom BDS skill executed successfully.**
-
-- **Alerts cache**: Read `.bds-cache/alerts.json` — 1 whale alert queued
-  - 🐳 BUY WBTC/cbBTC on Uniswap V3 (1%), $100.7K swapped, block 25250442
-- **Dispatch**: Skipped (per skill instructions — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery)
-- **State**: Left untouched (`lastStreamEpoch: 25250442`) as instructed
-- **Log**: Appended entry to `memory/logs/2026-06-05.md`
-- **Status**: OK
+- **Read `.bds-cache/alerts.json`** — `alerts: []`, epoch range 25250533–25250540 (7 epochs processed by prefetch)
+- **No dispatch needed** — per skill instructions, postprocess-bds.sh handles delivery; empty alerts means nothing to queue
+- **Logged** `powerloom-bds — no alerts` to `memory/logs/2026-06-05.md`
+- **State untouched** — `memory/powerloom-bds-state.json` (lastStreamEpoch: 25250540) left as-is
