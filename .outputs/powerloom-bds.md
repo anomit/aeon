@@ -1,9 +1,7 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Alerts cache:** `.bds-cache/alerts.json` — 5 whale alerts queued, epoch_end 25249751
-  - WETH/USDT buy $25.2K, WETH/USDT buy $33.7K, wTAO/WETH buy $60.3K, WBTC/WETH buy $45.8K, USDC/WETH buy $47.5K
-- **Dispatch:** Skipped (per skill spec — `postprocess-bds.sh` handles delivery)
-- **Logged:** Appended entry to `memory/logs/2026-06-05.md`
-- **Committed & pushed:** `51f5dfc` to main
-- **Status:** POWERLOOM_BDS_OK
+**powerloom-bds skill run complete — `POWERLOOM_BDS_OK`**
+
+- **Read** `.bds-cache/alerts.json` — 3 whale alerts queued (epoch 25249843–25249849)
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Logged** run to `memory/logs/2026-06-05.md` with epoch_end 25249849, 3 alerts queued, status OK
