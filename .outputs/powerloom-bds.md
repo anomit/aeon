@@ -1,12 +1,7 @@
-Done. Skill executed cleanly:
-
-- **Alerts cache**: 3 whale alerts at epoch_end 25250840
-- **Dispatch**: Skipped (postprocess-bds.sh owns notification delivery)
-- **State**: Left untouched (managed by prefetch script)
-- **Logged**: Appended run entry to `memory/logs/2026-06-05.md`
-
 ## Summary
-- Read `.bds-cache/alerts.json` — 3 alerts (WETH/USDT $359.1K buy, WETH/USDT $52.5K buy, WBTC/WETH $29.0K buy), epoch_end 25250840
-- Confirmed `memory/powerloom-bds-state.json` unchanged (lastStreamEpoch: 25250840)
-- Appended log entry to `memory/logs/2026-06-05.md` with alert count and epoch
-- No notifications dispatched (postprocess-bds.sh handles delivery)
+
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (EURC/EURCV $62K swap, USDC/USDT $81.5K swap), epoch range 25250928–25250937
+- **Logged** to `memory/logs/2026-06-05.md`: epoch_end 25250937, 2 alerts queued, dispatch via postprocess-bds.sh
+- **Did not** dispatch notifications or rewrite state — postprocess-bds.sh owns delivery
+- State file `memory/powerloom-bds-state.json` untouched (maintained by prefetch script)
+- Exit code: `POWERLOOM_BDS_OK`
