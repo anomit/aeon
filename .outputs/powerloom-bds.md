@@ -1,10 +1,7 @@
 ## Summary
 
-**powerloom-bds skill run complete.**
-
-- **Alerts cache**: 25 whale alerts across epochs 25252313–25252322 (blocks 25252314–25252322)
-- **Mode**: whale-radar (default)
-- **State**: untouched — `lastStreamEpoch` remains 25252322, managed by `scripts/process-bds-skill.py`
-- **Notifications**: not dispatched here — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **Log**: appended entry to `memory/logs/2026-06-05.md` (epoch end 25252322, 25 alerts queued, Status: OK)
-- **Commit**: `4737b1b` — `chore(cron): powerloom-bds success`
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Alerts cache**: `.bds-cache/alerts.json` — **9 alerts** queued, epoch range 25252424–25252433
+- **No dispatch**: Per skill instructions, did not call `./notify` or write alert summaries — `postprocess-bds.sh` handles delivery
+- **State untouched**: Did not modify `memory/powerloom-bds-state.json` (managed by prefetch)
+- **Logged**: Appended run entry to `memory/logs/2026-06-05.md` with epoch_end 25252433, 9 alerts queued, status OK
