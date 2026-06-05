@@ -1,9 +1,8 @@
+`POWERLOOM_BDS_OK` — no new alerts this cycle.
+
 ## Summary
 
-**powerloom-bds** run completed:
-
-- **Epoch end:** 25254366 (epochs 25254362–25254366, 5 epochs processed)
-- **Alerts queued:** 6 — includes wstETH/WETH, WBTC/WETH, WBTC/USDT, and USDC/WETH swaps on Uniswap V3, all verified on-chain
-- **Status:** OK
-- **Dispatch:** Handled by `postprocess-bds.sh` (not this step)
-- **Log:** Appended to `memory/logs/2026-06-05.md`, committed as `25a5083`
+- **Read** `.bds-cache/alerts.json` — `alerts` array is empty, `epoch_end: 25254467`
+- **Logged** `powerloom-bds — no alerts` + `Status: OK` to `memory/logs/2026-06-05.md`
+- **Did not** call `./notify` or write alert summaries (postprocess handles dispatch)
+- **Did not** modify `memory/powerloom-bds-state.json` (owned by prefetch script)
