@@ -1,8 +1,9 @@
-`POWERLOOM_BDS_OK` — empty alerts cycle, logged and done.
-
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — `alerts: []`, epoch range 25250533–25250540 (7 epochs processed by prefetch)
-- **No dispatch needed** — per skill instructions, postprocess-bds.sh handles delivery; empty alerts means nothing to queue
-- **Logged** `powerloom-bds — no alerts` to `memory/logs/2026-06-05.md`
-- **State untouched** — `memory/powerloom-bds-state.json` (lastStreamEpoch: 25250540) left as-is
+**Powerloom BDS skill executed successfully.**
+
+- **Alerts cache**: 5 whale alerts read from `.bds-cache/alerts.json` (epoch 25250634–25250640)
+- **Dispatch**: Skipped (per skill instructions — `postprocess-bds.sh` handles notification delivery)
+- **Log**: Appended entry to `memory/logs/2026-06-05.md` with epoch end 25250640, 5 alerts queued
+- **State**: Left `memory/powerloom-bds-state.json` untouched (managed by `process-bds-skill.py`)
+- **Status**: `POWERLOOM_BDS_OK`
