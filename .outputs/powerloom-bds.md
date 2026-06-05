@@ -1,7 +1,9 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 5 whale alerts queued (epoch end 25253329, epoch begin 25253320)
-- **Logged** run to `memory/logs/2026-06-05.md` with alert count and epoch
-- **Committed** log entry (`d80f231`)
-- Did **not** dispatch alerts — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- Status: **POWERLOOM_BDS_OK**
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **What I did:**
+  1. Read `.bds-cache/alerts.json` — 11 whale alerts queued, epoch range 25253420–25253429
+  2. Verified state file `memory/powerloom-bds-state.json` — cursor at epoch 25253429, no state mutations needed
+  3. Logged the run to `memory/logs/2026-06-05.md` (epoch end: 25253429, 11 alerts queued)
+  4. Did **not** dispatch notifications — `postprocess-bds.sh` owns delivery per skill design
+- **Status:** `POWERLOOM_BDS_OK`
