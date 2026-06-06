@@ -1,13 +1,10 @@
 ## Summary
 
-**powerloom-bds** skill executed successfully:
+**powerloom-bds whale-radar** run completed successfully.
 
-| Item | Value |
-|------|-------|
-| Mode | `whale-radar` |
-| Epoch range | 25258650–25258659 (10 epochs) |
-| Alerts queued | 13 (dispatch via postprocess-bds.sh) |
-| State | `lastStreamEpoch: 25258659` — untouched by this skill |
-| Notifications | Not dispatched here — postprocess-bds.sh handles delivery |
-
-**File modified:** `memory/logs/2026-06-06.md` — appended run log entry, committed as `936f97d`.
+- **Epoch range:** 25258748–25258757 (9 epochs processed)
+- **Alerts queued:** 2 (dispatched via `postprocess-bds.sh`)
+  - 🟢 BUY LINK/WETH on Uniswap V3 — $28.5K
+  - 🟢 BUY WBTC/WETH on Uniswap V3 — $32.7K
+- **Status:** OK — logged to `memory/logs/2026-06-06.md`
+- **No dispatch from skill layer** — postprocess handles notification delivery
