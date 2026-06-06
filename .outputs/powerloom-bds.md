@@ -1,11 +1,5 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Epoch end:** 25259755 (10 epochs processed: 25259746–25259755)
-- **Alerts queued:** 3 — dispatched via `postprocess-bds.sh`
-  1. 🐳 BUY WBTC/WETH on Uniswap V3 — $40.0K
-  2. 🐳 BUY USDC/WETH on Uniswap V3 — $52.2K
-  3. 🐳 BUY USDC/cUSDO on Uniswap V3 — $472.6K
-- **Status:** OK
-- **Files modified:** `memory/logs/2026-06-06.md` (log entry appended)
-- **Commit:** `da9d142` — `chore(cron): powerloom-bds success`
+- **Read alerts cache** (`.bds-cache/alerts.json`): 2 whale alerts found — both BUY USDC/WETH on Uniswap V3 (5% fee tier), $31K and $29K, at blocks 25259845 and 25259853, both verified on-chain with CIDs.
+- **Did not dispatch** — postprocess-bds.sh owns delivery per skill spec.
+- **Logged** to `memory/logs/2026-06-06.md`: epoch_end 25259853, 10 epochs processed (25259844–25259853), 2 alerts queued, Status OK.
