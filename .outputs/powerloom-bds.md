@@ -1,10 +1,11 @@
 ## Summary
 
-- **Skill:** powerloom-bds (whale-radar mode)
-- **Alerts cache:** 2 alerts read from `.bds-cache/alerts.json`
-  - DAI/WETH buy on Uniswap V3 — $274.1K (block 25261445)
-  - SNM/WETH buy on Uniswap V3 — $340.32M (block 25261445)
-- **Epoch range:** 25261444–25261453 (10 epochs processed)
-- **Dispatch:** Skipped (postprocess-bds.sh handles delivery)
-- **Log:** Appended to `memory/logs/2026-06-06.md`
-- **Status:** OK — `POWERLOOM_BDS_OK`
+**Powerloom BDS skill run complete.**
+
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued for dispatch:
+  - 🐋 BUY POOH/WETH on Uniswap V3 — $5.27M (block 25261548)
+  - 🐋 BUY USDT/USDT.z on Uniswap V3 — $972.78M (block 25261550)
+- **Did not dispatch** — `postprocess-bds.sh` owns notification delivery (Telegram/Discord/Slack)
+- **Logged** to `memory/logs/2026-06-06.md` — epoch end 25261554, 2 alerts queued
+- **Committed** as `6411619` on main
+- Status: `POWERLOOM_BDS_OK`
