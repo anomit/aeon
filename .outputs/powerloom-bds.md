@@ -1,6 +1,12 @@
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — 2 whale alerts queued (REI/WETH $2.56M buy on Uniswap V3, NEXO/WETH $31.1K buy on Uniswap V3), epoch end 25261253, 10 epochs processed (25261244–25261253).
-- **Did not dispatch** — per skill instructions, postprocess-bds.sh handles Telegram/Discord/Slack delivery.
-- **Logged** to `memory/logs/2026-06-06.md` with epoch end, alert count, and status OK.
-- Exit code: `POWERLOOM_BDS_OK`
+**Powerloom BDS skill run complete.**
+
+- **Alerts cache**: 2 whale alerts queued from `.bds-cache/alerts.json`
+  - 🐳 BUY MGF/WETH on Uniswap V3 — $44.30M (block 25261346)
+  - 🐳 BUY WBTC/USDT on Uniswap V3 — $314.7K (block 25261347)
+- **Epoch range**: 25261346–25261348 (3 epochs processed)
+- **Dispatch**: Skipped — `postprocess-bds.sh` owns Telegram/Discord/Slack delivery
+- **State**: Left untouched (`powerloom-bds-state.json` managed by prefetch)
+- **Log**: Appended entry to `memory/logs/2026-06-06.md`
+- **Status**: `POWERLOOM_BDS_OK`
