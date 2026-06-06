@@ -1,10 +1,8 @@
 ## Summary
 
-**powerloom-bds** skill executed successfully.
+**powerloom-bds run complete.**
 
-- **Epoch range:** 25258148–25258157 (10 epochs processed)
-- **Alerts queued:** 0 — no whale alerts in this batch
-- **Status:** OK (`POWERLOOM_BDS_OK`)
-- **Log updated:** `memory/logs/2026-06-06.md`
-
-No dispatch needed (postprocess-bds.sh will see empty alerts and skip). State file was not modified — cursor management stays with `scripts/process-bds-skill.py`.
+- **Alerts cached:** 12 whale alerts from epochs 25258248–25258257 (10 epochs processed)
+- **Notable trades:** DAI/USDC, USDC/WETH, DAI/USDT, WETH/USDT, WBTC/WETH across Uniswap V3 — all on-chain verified
+- **Dispatch:** Deferred to `postprocess-bds.sh` (per skill spec — skill does not dispatch directly)
+- **Files updated:** `memory/logs/2026-06-06.md` (appended run log), committed and pushed as `4a2ce51`
