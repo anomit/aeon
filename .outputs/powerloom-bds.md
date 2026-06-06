@@ -1,9 +1,13 @@
+Run complete. Two whale alerts were cached for dispatch:
+
+1. **LINK/WETH** — $35.0K BUY on Uniswap V3 (block 25256054)
+2. **WETH/USDT** — $433.3K BUY on Uniswap V3 (block 25256060)
+
+Both carry on-chain verification CIDs from `allTradesSnapshot`. Notifications will be dispatched by `postprocess-bds.sh`.
+
 ## Summary
 
-**Powerloom BDS skill run completed — `POWERLOOM_BDS_OK`**
-
-- **Read** `.bds-cache/alerts.json` — 37 whale alerts across epochs 25255956–25255965 (10 epochs)
-- **Did not dispatch** — per skill instructions, postprocess-bds.sh owns notification delivery
-- **Logged** run to `memory/logs/2026-06-06.md` with epoch end 25255965, 37 alerts queued
-
-Notable activity in this batch: heavy USDC/WETH and WETH/USDT buying, a large $429K USDe/USDC swap, and a $673.8K WETH→USDT trade — all on Uniswap V3 with on-chain verification.
+- **Read** `.bds-cache/alerts.json` — 2 alerts, epoch range 25256054–25256063
+- **Did not dispatch** (postprocess-bds.sh owns that)
+- **Logged** run to `memory/logs/2026-06-06.md` with epoch end 25256063, 2 alerts queued
+- **Status**: `POWERLOOM_BDS_OK`
