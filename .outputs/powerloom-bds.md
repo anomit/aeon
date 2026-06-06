@@ -1,6 +1,9 @@
+Done. Logged and exiting.
+
+**POWERLOOM_BDS_OK**
+
 ## Summary
 
-- **Skill executed:** `powerloom-bds` (whale-radar mode)
-- **Alerts cache:** `.bds-cache/alerts.json` — 0 alerts at epoch end 25255468
-- **Action taken:** Logged `no alerts` to `memory/logs/2026-06-06.md`, committed
-- **Exit code:** `POWERLOOM_BDS_OK` (clean run, no alerts to dispatch)
+- **Read** `.bds-cache/alerts.json` — 5 whale alerts queued (epoch 25255558–25255567), all verified on-chain
+- **Did not dispatch** — postprocess-bds.sh owns delivery
+- **Logged** run to `memory/logs/2026-06-06.md` with epoch_end 25255567, 5 alerts queued
