@@ -1,10 +1,9 @@
 ## Summary
 
-**Powerloom BDS skill executed successfully.**
+**powerloom-bds skill executed (whale-radar mode)**
 
-- **Alerts cache**: 7 whale alerts queued (epoch range 25257551–25257560)
-- **Dispatch**: Deferred to `scripts/postprocess-bds.sh` (as designed — skill does not dispatch directly)
-- **Log**: Appended entry to `memory/logs/2026-06-06.md`
-- **Commit**: `7dec4c9` on `main`
-
-Notable whale activity this epoch: heavy buying from `0x51C72848…502a7F` across WBTC/WETH, WETH/USDT, and USDC/WETH pools on Uniswap V3, with individual swaps ranging from $29K–$82K.
+- **Alerts cache**: 1 whale alert queued (🟢 BUY WETH/USDT on Uniswap V3 — $216.7K swapped, block 25257656, verified on-chain)
+- **Epoch range**: 25257650–25257659 (9 epochs processed)
+- **Dispatch**: Skipped — `postprocess-bds.sh` handles notification delivery per skill design
+- **State**: `lastStreamEpoch` at 25257659, maintained by `process-bds-skill.py` (not rewritten)
+- **Logged** to `memory/logs/2026-06-06.md` and committed
