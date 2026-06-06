@@ -1,14 +1,10 @@
 ## Summary
 
-**powerloom-bds** whale-radar run complete.
+**powerloom-bds** run completed — `POWERLOOM_BDS_OK`
 
-| Item | Value |
-|------|-------|
-| Epoch range | 25256754–25256763 (8 epochs) |
-| Alerts queued | 3 |
-| Notable alert | $213.13M STRK/WETH swap on Uniswap V3 |
-| Dispatch | Handled by `postprocess-bds.sh` (not by this skill) |
-| Log | Appended to `memory/logs/2026-06-06.md` |
-| State | `memory/powerloom-bds-state.json` untouched (managed by prefetch) |
+- **Epoch end:** 25256863 (epochs 25256854–25256863, 10 processed)
+- **Alerts queued:** 0 — no whale alerts in this epoch range
+- **Status:** OK
 
-`POWERLOOM_BDS_OK`
+**Files modified:**
+- `memory/logs/2026-06-06.md` — appended run log entry
