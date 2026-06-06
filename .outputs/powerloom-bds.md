@@ -1,9 +1,8 @@
 ## Summary
 
-**powerloom-bds** skill executed successfully.
+- **Read** `.bds-cache/alerts.json` — alerts array is empty, epoch range 25256455–25256461 (6 epochs processed)
+- **No dispatch needed** — per skill instructions, postprocess-bds.sh handles delivery; no `./notify` calls made
+- **Logged** to `memory/logs/2026-06-06.md`: epoch end 25256461, 0 alerts, status OK
+- **State untouched** — `memory/powerloom-bds-state.json` left as-is (managed by `scripts/process-bds-skill.py`)
 
-- **Cache read:** `.bds-cache/alerts.json` — 4 whale alerts queued across epochs 25256353–25256356
-- **Alerts:** WETH/USDT buy $35.4K, WBTC/WETH buy $38.2K, WETH/USDT buy $123.5K, USDC/WETH buy $32.0K — all verified on-chain
-- **No dispatch performed** (postprocess-bds.sh handles Telegram/Discord/Slack delivery)
-- **Logged** to `memory/logs/2026-06-06.md`
-- **Committed & pushed:** `9ac85b9` on `main`
+`POWERLOOM_BDS_OK`
