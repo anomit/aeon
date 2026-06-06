@@ -1,8 +1,6 @@
 ## Summary
 
-**powerloom-bds run complete.**
-
-- **Alerts cached:** 12 whale alerts from epochs 25258248–25258257 (10 epochs processed)
-- **Notable trades:** DAI/USDC, USDC/WETH, DAI/USDT, WETH/USDT, WBTC/WETH across Uniswap V3 — all on-chain verified
-- **Dispatch:** Deferred to `postprocess-bds.sh` (per skill spec — skill does not dispatch directly)
-- **Files updated:** `memory/logs/2026-06-06.md` (appended run log), committed and pushed as `4a2ce51`
+- **Read alerts cache** (`.bds-cache/alerts.json`): 3 whale alerts at epoch end 25258357, epoch range 25258348–25258357
+- **Did not dispatch** — postprocess-bds.sh owns Telegram/Discord/Slack delivery per skill rules
+- **Logged run** to `memory/logs/2026-06-06.md` with epoch end, alert count, and status OK
+- **Status**: `POWERLOOM_BDS_OK` — 3 alerts queued for dispatch
