@@ -1,18 +1,28 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
+---
+
 ## Summary
 
-All fleet health checks passed. No action required.
+**Health Check Results:**
 
-**Files modified:**
-- `docs/status.md` — regenerated with current skill health
-- `memory/logs/2026-06-05.md` — appended heartbeat run log
-- `memory/cron-state.json` — updated heartbeat state (run #5, 100% success)
+| Tier | Status | Details |
+|------|--------|---------|
+| 🔴 P0 | ✅ PASS | No failed/stuck skills (powerloom-bds: 100% success, heartbeat: 100% success) |
+| 🟡 P1 | ✅ PASS | No open PRs, no urgent issues |
+| 🔵 P2 | ✅ PASS | No flagged memory items |
+| ⚪ P3 | ✅ PASS | No missing scheduled skills |
 
-**Checks performed:**
-- ✅ P0: No failed/stuck skills (powerloom-bds: 100% success, last run 2m ago; heartbeat: 100% success)
-- ✅ P1: No open PRs, no urgent issues (issues disabled on repo)
-- ✅ P2: No flagged memory items
-- ✅ P3: All scheduled skills accounted for
+**Overall Status:** 🟢 OK
 
-**Next scheduled run:** heartbeat at 08:00 UTC (tomorrow)
+**Actions taken:**
+1. Checked cron-state.json for skill health
+2. Verified no stalled PRs or urgent GitHub issues
+3. Confirmed no flagged memory items
+4. Validated all enabled skills have state entries
+5. Regenerated `docs/status.md` with current fleet health
+6. Logged results to `memory/logs/2026-06-06.md`
+
+**Files created/modified:**
+- `docs/status.md` — regenerated with latest skill health data
+- `memory/logs/2026-06-06.md` — appended heartbeat log entry
