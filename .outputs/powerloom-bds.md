@@ -1,10 +1,9 @@
-Done. Log entry appended. `postprocess-bds.sh` will handle dispatching the 1 queued alert (a $819.8K wM/USDC buy on Uniswap V3).
-
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (epoch 25259450, epochs 25259445–25259450)
-- **Did not dispatch** — per skill rules, `postprocess-bds.sh` owns notification delivery
-- **Logged** to `memory/logs/2026-06-06.md` with epoch, count, and status OK
-- **No state mutations** — `powerloom-bds-state.json` untouched (managed by prefetch)
+**powerloom-bds** skill executed successfully.
 
-`POWERLOOM_BDS_OK`
+- **Alerts cache**: `.bds-cache/alerts.json` — 1 whale alert found (🟢 BUY AUSD/USDC on Uniswap V3, $100K swapped, block 25259647)
+- **Epoch range**: 25259645–25259648 (4 epochs processed)
+- **Dispatch**: Skipped — postprocess-bds.sh owns notification delivery per skill design
+- **Log**: Appended entry to `memory/logs/2026-06-06.md`
+- **Status**: `POWERLOOM_BDS_OK`
