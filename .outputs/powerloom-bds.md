@@ -1,13 +1,11 @@
-Run complete. Two whale alerts were cached for dispatch:
-
-1. **LINK/WETH** — $35.0K BUY on Uniswap V3 (block 25256054)
-2. **WETH/USDT** — $433.3K BUY on Uniswap V3 (block 25256060)
-
-Both carry on-chain verification CIDs from `allTradesSnapshot`. Notifications will be dispatched by `postprocess-bds.sh`.
-
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 2 alerts, epoch range 25256054–25256063
-- **Did not dispatch** (postprocess-bds.sh owns that)
-- **Logged** run to `memory/logs/2026-06-06.md` with epoch end 25256063, 2 alerts queued
-- **Status**: `POWERLOOM_BDS_OK`
+**powerloom-bds skill run complete — `POWERLOOM_BDS_OK`**
+
+- **Epoch end:** 25256160
+- **Epochs processed:** 7 (25256154–25256160)
+- **Alerts queued:** 17 (dispatch via postprocess-bds.sh)
+- **File modified:** `memory/logs/2026-06-06.md` — appended log entry
+- **Committed:** `c4a19d7` on `main`
+
+No dispatch performed from this step — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery.
