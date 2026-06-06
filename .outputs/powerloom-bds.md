@@ -1,6 +1,6 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (BUY DAVE/WETH on Uniswap V3, $31.09M, epoch 25261154)
-- **No dispatch** — per skill instructions, did not call `./notify` or write alert summaries; `postprocess-bds.sh` handles delivery
-- **Logged** run to `memory/logs/2026-06-06.md` — epoch end 25261154, 9 epochs processed, 1 alert queued
-- Status: `POWERLOOM_BDS_OK`
+- **Read `.bds-cache/alerts.json`** — 2 whale alerts queued (REI/WETH $2.56M buy on Uniswap V3, NEXO/WETH $31.1K buy on Uniswap V3), epoch end 25261253, 10 epochs processed (25261244–25261253).
+- **Did not dispatch** — per skill instructions, postprocess-bds.sh handles Telegram/Discord/Slack delivery.
+- **Logged** to `memory/logs/2026-06-06.md` with epoch end, alert count, and status OK.
+- Exit code: `POWERLOOM_BDS_OK`
