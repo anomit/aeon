@@ -1,14 +1,13 @@
-Skill execution complete.
+Skill complete. Here's the summary:
 
 ## Summary
 
-**Powerloom BDS whale-radar** — read cached alerts from `.bds-cache/alerts.json`:
+**Powerloom BDS — whale-radar mode** run executed successfully.
 
-- **3 alerts queued** for dispatch by `postprocess-bds.sh`:
-  - 🐋 BUY Hold/WETH on Uniswap V3 — $98.99M (block 25260546)
-  - 🐋 BUY WBTC/WETH on Uniswap V3 — $112.0K (block 25260548)
-  - 🐋 BUY WBTC/WETH on Uniswap V3 — $58.3K (block 25260548)
-- **Epoch range:** 25260545–25260554 (10 epochs processed)
-- Did **not** dispatch alerts — postprocess script owns delivery
-- Logged run to `memory/logs/2026-06-06.md`
-- Status: **OK**
+- **Read** `.bds-cache/alerts.json`: 2 whale alerts queued (both USDC/WETH buys on Uniswap V3, ~$63.4K each, block 25260648, same wallet `0x1f2F10D1…6Df387`)
+- **Epoch range**: 25260645–25260654 (10 epochs processed)
+- **Did not dispatch** — per skill instructions, `scripts/postprocess-bds.sh` handles notification delivery
+- **Logged** to `memory/logs/2026-06-06.md`
+
+**Files modified:**
+- `memory/logs/2026-06-06.md` — appended powerloom-bds run entry
