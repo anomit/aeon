@@ -1,15 +1,7 @@
+Done. `POWERLOOM_BDS_OK`
+
 ## Summary
-
-**powerloom-bds** skill executed successfully.
-
-| Item | Value |
-|------|-------|
-| Mode | `whale-radar` |
-| Epoch end | 25257361 |
-| Epochs processed | 10 (25257352–25257361) |
-| Alerts queued | 1 (🟢 BUY USDe/USDC — $132.3K on Uniswap V3) |
-| Dispatch | Handled by `postprocess-bds.sh` (not LLM) |
-| Status | OK |
-
-**Files modified:**
-- `memory/logs/2026-06-06.md` — appended run log entry
+- **Read** `.bds-cache/alerts.json` — 5 whale alerts queued (epoch range 25257453–25257462)
+- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery
+- **Logged** to `memory/logs/2026-06-06.md` with epoch end, alert count, and status
+- **State untouched** — `memory/powerloom-bds-state.json` remains as set by prefetch
