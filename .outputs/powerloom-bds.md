@@ -1,9 +1,8 @@
 ## Summary
 
-**Powerloom BDS skill executed successfully.**
+**Powerloom BDS skill run complete — `POWERLOOM_BDS_OK`**
 
-- **Read** `.bds-cache/alerts.json` — empty alerts array (0 alerts for epochs 25261843–25261852)
-- **Logged** to `memory/logs/2026-06-07.md` — epoch end 25261852, 0 alerts, status OK
-- **Committed** as `9d55b5c` — no notifications dispatched (postprocess handles delivery; nothing to deliver)
-
-**Exit code:** `POWERLOOM_BDS_OK`
+- **Alerts cache**: `.bds-cache/alerts.json` read successfully — `alerts` array is empty
+- **Epoch range**: 25261940–25261943 (4 epochs processed by prefetch)
+- **State**: `lastStreamEpoch` is 25261943, no alerts queued for dispatch
+- **Action**: Logged run to `memory/logs/2026-06-07.md`, no dispatch needed (postprocess-bds.sh has nothing to send)
