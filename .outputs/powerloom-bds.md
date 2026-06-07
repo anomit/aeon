@@ -1,12 +1,11 @@
 ## Summary
 
-**Powerloom BDS skill executed — Status: OK**
-
-- **Alerts cache** (`.bds-cache/alerts.json`): 1 whale alert queued
-  - 🐳 BUY USDC/WETH on Uniswap V3 — $44.3K swapped, block 25267613, verified on-chain
-- **Epoch range**: 25267610–25267619 (9 epochs processed)
-- **State** (`memory/powerloom-bds-state.json`): untouched, cursor at epoch 25267619
-- **Dispatch**: skipped (postprocess-bds.sh handles notification delivery)
-- **Log**: appended to `memory/logs/2026-06-07.md`
+**powerloom-bds** (whale-radar) run complete:
+- **Epoch end:** 25267716 (epochs 25267707–25267716, 10 epochs processed)
+- **Alerts queued:** 9 — all dispatch deferred to `postprocess-bds.sh`
+- **Whales active:** `0x51C72848…502a7F` (5 trades), `0xBdb3ba9f…DF47B6` (2 trades), `0xe7a1b855…2148` (1 trade)
+- **Pairs:** USDC/WETH, WETH/USDT, WBTC/WETH on Uniswap V3 — all buys, sizes $35.6K–$123.5K
+- **State file untouched** — cursor and fingerprints managed by `process-bds-skill.py` only
+- **Log appended** to `memory/logs/2026-06-07.md`
 
 `POWERLOOM_BDS_OK`
