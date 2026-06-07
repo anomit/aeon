@@ -1,8 +1,9 @@
-Run complete. Log code: `POWERLOOM_BDS_OK`.
-
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (WBTC/WETH $42.5K buy on Uniswap V3, block 25265621, verified on-chain CID)
-- **Did not dispatch** — postprocess-bds.sh owns notification delivery
-- **Logged** to `memory/logs/2026-06-07.md` — epoch 25265630, 1 alert queued, status OK
-- **State untouched** — `memory/powerloom-bds-state.json` lastStreamEpoch remains 25265630
+**Powerloom BDS skill run complete.**
+
+- **Alerts cache**: `.bds-cache/alerts.json` contained 4 whale alerts (3 WBTC/WETH buys on Uniswap V3, 1 wM/USDC swap)
+- **Epoch range**: 25265720–25265729 (10 epochs processed)
+- **Dispatch**: Skipped — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Log**: Appended to `memory/logs/2026-06-07.md`, committed as `72e58e5`
+- **Status**: OK
