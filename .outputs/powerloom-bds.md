@@ -1,11 +1,9 @@
+Done. The skill executed successfully.
+
 ## Summary
 
-**powerloom-bds skill run completed.**
-
-- **Epoch end:** 25267223 (processed epochs 25267214–25267223)
-- **Alerts queued:** 1 — a DAI/USDT buy on Uniswap V3 (~$26.2K), verified on-chain with CID and block 25267222
-- **Dispatch:** Handled by `scripts/postprocess-bds.sh` (not by this skill step)
-- **Log:** Appended to `memory/logs/2026-06-07.md`
-- **Status:** OK — `POWERLOOM_BDS_OK`
-
-No re-fetching, no state rewriting, no direct notification dispatch — all per skill spec.
+- **Read** `.bds-cache/alerts.json` — found **3 whale alerts** for epoch range 25267313–25267322
+- **Alerts**: 2× cbETH/WETH buys on Uniswap V3 (~$70.7K each) and 1× WBTC/USDT buy (~$61.8K)
+- **Logged** to `memory/logs/2026-06-07.md` with epoch end 25267322, 3 alerts queued, status OK
+- **Did not dispatch** — `scripts/postprocess-bds.sh` handles notification delivery
+- **Status**: `POWERLOOM_BDS_OK`
