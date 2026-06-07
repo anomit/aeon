@@ -1,10 +1,6 @@
-## Summary
+Done. `POWERLOOM_BDS_OK` — 4 whale alerts queued for postprocess-bds.sh dispatch at epoch 25263044.
 
-- **Read `.bds-cache/alerts.json`**: 5 whale alerts queued, epoch range 25262934–25262943
-  - AUSD/USDC $50K buy on Uniswap V3
-  - tBTC/WBTC $208K buy on Uniswap V3
-  - UCN/WETH $8.50M buy on Uniswap V3
-  - WETH/ASTEROID $66.5K buy (×2) on Uniswap V3
-- **Did not dispatch** — postprocess-bds.sh handles notification delivery
-- **Appended log** to `memory/logs/2026-06-07.md`
-- **Status**: `POWERLOOM_BDS_OK`
+## Summary
+- **Read** `.bds-cache/alerts.json` — 4 verified on-chain whale alerts (SPC/USDC $29.9K, USDC/WETH $31K, BENJI/WETH $866.4K, WBTC/WETH $32.8K)
+- **Did not dispatch** — postprocess-bds.sh owns Telegram/Discord/Slack delivery
+- **Logged** run to `memory/logs/2026-06-07.md` with epoch_end 25263044, 4 alerts queued, status OK
