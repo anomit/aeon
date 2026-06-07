@@ -1,8 +1,20 @@
-`POWERLOOM_BDS_OK`
-
 ## Summary
-- **Skill**: `powerloom-bds` (whale-radar mode)
-- **Action**: Read `.bds-cache/alerts.json` — alerts array is empty, epoch_end 25262047, 10 epochs processed (25262038–25262047)
-- **No dispatch**: postprocess-bds.sh handles notification delivery; nothing queued
-- **Log**: Appended entry to `memory/logs/2026-06-07.md` with epoch 25262047, 0 alerts, OK status
-- **State**: `memory/powerloom-bds-state.json` untouched (maintained by prefetch script)
+
+**powerloom-bds** (whale-radar mode) — run completed.
+
+| Item | Detail |
+|------|--------|
+| Epoch range | 25262139–25262147 |
+| Alerts queued | 6 (dispatch via postprocess-bds.sh) |
+| Status | OK |
+| Log file | `memory/logs/2026-06-07.md` |
+| Commit | `eb66606a` on main |
+
+**Alerts cached (not dispatched here — postprocess owns delivery):**
+- 🟢 WETH/USDT $55K buy on Uniswap V3
+- 🟢 wM/USDC $732K buy on Uniswap V3
+- 🟢 USDC/WETH $28.5K buy on Uniswap V3
+- 🟢 QNT/WETH $87K buy (×2) on Uniswap V3
+- 🟢 wM/USDC $3.66M buy on Uniswap V3
+
+No state was modified — `lastStreamEpoch` and `emittedFingerprints` remain as set by `process-bds-skill.py`.
