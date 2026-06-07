@@ -1,10 +1,12 @@
 {
   "skill": "powerloom-bds",
-  "last_analyzed": "2026-06-07T17:09:35Z",
-  "quality_score": 4,
-  "assessment": "Good — properly handled BDS alerts with queued notifications and logging",
-  "flags": [],
-  "avg_score": 3.73,
+  "last_analyzed": "2026-06-07T17:32:01Z",
+  "quality_score": 1,
+  "assessment": "Failed/empty output - skill ran but found 0 alerts and logged only basic metadata",
+  "flags": [
+    "empty_output"
+  ],
+  "avg_score": 3.67,
   "history": [
     {
       "date": "2026-06-06",
@@ -12,10 +14,6 @@
     },
     {
       "date": "2026-06-06",
-      "score": 3
-    },
-    {
-      "date": "2026-06-06",
       "score": 4
     },
     {
@@ -125,6 +123,10 @@
     {
       "date": "2026-06-07",
       "score": 4
+    },
+    {
+      "date": "2026-06-07",
+      "score": 1
     }
   ]
 }
