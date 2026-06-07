@@ -1,6 +1,10 @@
 ## Summary
 
-- **Skill**: `powerloom-bds` (whale-radar mode)
-- **Read `.bds-cache/alerts.json`**: alerts array is empty, epoch_end=25264925, 4 epochs processed (25264922–25264925)
-- **Action**: No alerts to dispatch (postprocess-bds.sh has nothing to send). Logged run to `memory/logs/2026-06-07.md`
-- **Status**: `POWERLOOM_BDS_OK` — no alerts this cycle
+**Powerloom BDS skill run complete.**
+
+- **Read** `.bds-cache/alerts.json` — 7 whale alerts queued across epochs 25265019–25265026
+- **Did not dispatch** (per skill spec, `postprocess-bds.sh` owns Telegram/Discord/Slack delivery)
+- **Logged** run to `memory/logs/2026-06-07.md` with epoch end 25265026, 7 alerts, status OK
+- **State file** (`memory/powerloom-bds-state.json`) left untouched — managed by prefetch script
+
+`POWERLOOM_BDS_OK`
