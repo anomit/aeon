@@ -1,9 +1,10 @@
 ## Summary
 
-- **Skill:** powerloom-bds (whale-radar mode)
-- **Alerts cache:** 11 whale alerts queued across epochs 25263730–25263739
-- **Action:** Logged the run to `memory/logs/2026-06-07.md`
-- **Dispatch:** Skipped (per skill spec — `postprocess-bds.sh` owns notification delivery)
-- **Status:** `POWERLOOM_BDS_OK`
+**Powerloom BDS skill run complete — `POWERLOOM_BDS_OK`**
 
-Notable activity: Multiple large swaps from two wallets (`0xBdb3ba9f…DF47B6` and `0x51C72848…502a7F`), including a $200.4K WBTC/USDC buy, a $98.2K WETH/USDC swap, and several $25–40K trades across WETH, WBTC, and USDC pairs on Uniswap V3.
+- **Epoch end:** 25263838 (range 25263829–25263838)
+- **Alerts queued:** 2 (dispatch via `postprocess-bds.sh`)
+  - 🐳 BUY WETH/USDT — $27.5K on Uniswap V3 (block 25263832)
+  - 🐳 BUY GMEE/WETH — $3.15M on Uniswap V3 (block 25263837)
+- **Status:** OK — alerts not dispatched here (postprocess step handles Telegram/Discord/Slack delivery)
+- **File modified:** `memory/logs/2026-06-07.md` — appended run log entry
