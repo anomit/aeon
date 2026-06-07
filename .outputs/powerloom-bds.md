@@ -1,9 +1,12 @@
+Skill complete.
+
+**POWERLOOM_BDS_OK**
+
 ## Summary
 
-**powerloom-bds (whale-radar) — run complete**
+- **Read** `.bds-cache/alerts.json` — found 6 whale alerts for epoch range 25262635–25262641
+- **Did not dispatch** — postprocess-bds.sh owns notification delivery per skill instructions
+- **Logged** to `memory/logs/2026-06-07.md`: epoch_end 25262641, 6 alerts queued, status OK
 
-- **Epoch range:** 25262537–25262544 (8 epochs processed)
-- **Alerts queued:** 1 — 🐋 BUY 125,163 EMP on Uniswap V3 (~$1.22M)
-- **Dispatch:** Alert handed off to `postprocess-bds.sh` for Telegram/Discord/Slack delivery
-- **State:** Cursor at epoch 25262544, 110 emitted fingerprints tracked
-- **Log:** Appended to `memory/logs/2026-06-07.md`, committed
+**Files modified:**
+- `memory/logs/2026-06-07.md` — appended powerloom-bds run entry
