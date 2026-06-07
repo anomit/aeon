@@ -2,9 +2,11 @@
 
 **Powerloom BDS skill run complete.**
 
-- **Mode:** `whale-radar` (default)
-- **Epochs processed:** 10 (25266118–25266127)
-- **Alerts queued:** 6 — dispatch will be handled by `scripts/postprocess-bds.sh`
-- **Log:** Appended to `memory/logs/2026-06-07.md`
+- **Alerts cache**: Read `.bds-cache/alerts.json` — 4 whale alerts queued for dispatch by `postprocess-bds.sh`
+- **Epoch range**: 25266219–25266228 (10 epochs processed)
+- **Dispatch**: Skipped (postprocess script owns Telegram/Discord/Slack delivery)
+- **State**: Untouched — `lastStreamEpoch` at 25266228, `emittedFingerprints` managed by prefetch
+- **Log**: Appended entry to `memory/logs/2026-06-07.md`
 
-The 6 queued whale alerts cover buys across msUSD/USDC, USDC/WETH, and WETH/USDT pools on Uniswap V3 ($28K–$60K), all with on-chain CID verification. No notifications were sent from this step — postprocess owns delivery.
+**Files modified:**
+- `memory/logs/2026-06-07.md` — appended powerloom-bds log entry
