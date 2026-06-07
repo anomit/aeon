@@ -1,10 +1,12 @@
 ## Summary
 
-- **Skill**: `powerloom-bds` (whale-radar mode)
-- **Alerts cache**: `.bds-cache/alerts.json` contained **2 whale alerts** at epoch end **25264138** (10 epochs processed: 25264129–25264138)
-  - 🟢 BUY AUSD/USDC on Uniswap V3 — $50K swapped (block 25264130)
-  - 🟢 BUY pepecoin/WETH on Uniswap V3 — $4.28M swapped (block 25264134)
-- **Dispatch**: Skipped — `postprocess-bds.sh` handles notification delivery
-- **State**: Unchanged (`lastStreamEpoch: 25264138`, maintained by `process-bds-skill.py`)
-- **Log**: Appended entry to `memory/logs/2026-06-07.md`
-- **Status**: OK
+**Powerloom BDS skill run complete.**
+
+- **Read** `.bds-cache/alerts.json` — found **3 whale alerts** (epoch range 25264229–25264238):
+  - 🟢 BUY USDC/WETH on Uniswap V3 — $28.6K (block 25264229)
+  - 🟢 BUY USDC/WETH on Uniswap V3 — $25.4K (block 25264231)
+  - 🟢 BUY USDe/USDC on Uniswap V3 — $38.5K (block 25264238)
+- **Did not dispatch** — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery.
+- **Did not rewrite state** — `memory/powerloom-bds-state.json` is managed by the prefetch script.
+- **Logged** run to `memory/logs/2026-06-07.md` with epoch_end: 25264238, 3 alerts queued.
+- **Committed** as `94deaa4`.
