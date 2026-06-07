@@ -1,6 +1,5 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (wstETH/WETH swap on Uniswap V3, $84.1K, block 25266815, verified on-chain)
-- **Did not dispatch** — postprocess-bds.sh owns delivery per SKILL.md
-- **Logged** run to `memory/logs/2026-06-07.md` (epoch end: 25266824, 1 alert queued)
-- **Committed** as `c0d3ed7`
+- **Read alerts cache** (`.bds-cache/alerts.json`): 2 whale alerts queued, epoch range 25266901–25266910
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Logged** to `memory/logs/2026-06-07.md`: epoch end 25266910, 2 alerts queued, Status: OK
