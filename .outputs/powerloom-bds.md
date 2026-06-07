@@ -1,9 +1,10 @@
 ## Summary
 
-**Powerloom BDS skill run complete.**
+**powerloom-bds** skill completed successfully.
 
-- **Alerts cache**: Read `.bds-cache/alerts.json` — 4 whale alerts queued, epoch range 25264524–25264531
-- **Dispatch**: Skipped (per skill spec — `postprocess-bds.sh` handles notification delivery)
-- **State**: Did not modify `memory/powerloom-bds-state.json` (maintained by prefetch script)
-- **Log**: Appended entry to `memory/logs/2026-06-07.md` with epoch_end 25264531, 4 alerts queued, status OK
-- **Status**: `POWERLOOM_BDS_OK`
+- **Epoch end:** 25264633
+- **Alerts queued:** 1 (🟢 BUY USDe/USDC on Uniswap V3 — $289.9K whale swap, dispatched via postprocess-bds.sh)
+- **Status:** OK
+
+**Files modified:**
+- `memory/logs/2026-06-07.md` — appended run log entry
