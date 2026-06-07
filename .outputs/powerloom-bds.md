@@ -1,11 +1,8 @@
 ## Summary
 
-**powerloom-bds skill run complete — `POWERLOOM_BDS_OK`**
+- **Read `.bds-cache/alerts.json`** — 1 whale alert queued (WBTC/USDC buy on Uniswap V3, $33.6K, block 25266028)
+- **No dispatch** — per skill instructions, `postprocess-bds.sh` handles delivery
+- **Logged** to `memory/logs/2026-06-07.md`: epoch end 25266029, 1 alert queued, status OK
+- **State untouched** — `memory/powerloom-bds-state.json` managed by prefetch script only
 
-- **Epoch range processed:** 25265919–25265928 (10 epochs)
-- **Alerts queued:** 1 (EURC/USDC whale buy on Uniswap V3, $31.6K — dispatch via `postprocess-bds.sh`)
-- **State cursor:** `lastStreamEpoch` advanced to 25265928 by prefetch
-- **Actions taken:**
-  - Read `.bds-cache/alerts.json` — 1 alert present with on-chain verification
-  - Logged run to `memory/logs/2026-06-07.md`
-  - Did **not** dispatch notifications (postprocess step owns delivery)
+`POWERLOOM_BDS_OK`
