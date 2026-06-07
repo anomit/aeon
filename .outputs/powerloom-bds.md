@@ -1,7 +1,11 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Alerts cache:** `.bds-cache/alerts.json` — 3 whale alerts queued for epoch range 25267114–25267119
-- **Action taken:** Logged the run to `memory/logs/2026-06-07.md` (epoch end 25267119, 3 alerts queued for postprocess-bds.sh dispatch)
-- **Did NOT dispatch** — per skill rules, `scripts/postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **Committed:** `chore(cron): powerloom-bds success`
+**powerloom-bds skill run completed.**
+
+- **Epoch end:** 25267223 (processed epochs 25267214–25267223)
+- **Alerts queued:** 1 — a DAI/USDT buy on Uniswap V3 (~$26.2K), verified on-chain with CID and block 25267222
+- **Dispatch:** Handled by `scripts/postprocess-bds.sh` (not by this skill step)
+- **Log:** Appended to `memory/logs/2026-06-07.md`
+- **Status:** OK — `POWERLOOM_BDS_OK`
+
+No re-fetching, no state rewriting, no direct notification dispatch — all per skill spec.
