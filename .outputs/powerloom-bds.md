@@ -1,8 +1,9 @@
-`POWERLOOM_BDS_OK` — no alerts in this cycle (epoch 25262444).
-
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — `alerts` array is empty, epoch range 25262438–25262444
-- **Logged** run to `memory/logs/2026-06-07.md` — 0 alerts queued, dispatch via postprocess-bds.sh
-- **Did not** call `./notify` or dispatch — postprocess owns delivery per skill spec
-- **Did not** modify `memory/powerloom-bds-state.json` — maintained by prefetch script only
+**powerloom-bds (whale-radar) — run complete**
+
+- **Epoch range:** 25262537–25262544 (8 epochs processed)
+- **Alerts queued:** 1 — 🐋 BUY 125,163 EMP on Uniswap V3 (~$1.22M)
+- **Dispatch:** Alert handed off to `postprocess-bds.sh` for Telegram/Discord/Slack delivery
+- **State:** Cursor at epoch 25262544, 110 emitted fingerprints tracked
+- **Log:** Appended to `memory/logs/2026-06-07.md`, committed
