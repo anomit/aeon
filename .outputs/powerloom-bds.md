@@ -1,6 +1,9 @@
-Done. `POWERLOOM_BDS_OK` — 4 whale alerts queued for postprocess-bds.sh dispatch at epoch 25263044.
-
 ## Summary
-- **Read** `.bds-cache/alerts.json` — 4 verified on-chain whale alerts (SPC/USDC $29.9K, USDC/WETH $31K, BENJI/WETH $866.4K, WBTC/WETH $32.8K)
-- **Did not dispatch** — postprocess-bds.sh owns Telegram/Discord/Slack delivery
-- **Logged** run to `memory/logs/2026-06-07.md` with epoch_end 25263044, 4 alerts queued, status OK
+
+**Powerloom BDS run complete — `POWERLOOM_BDS_OK`**
+
+- **Epoch end:** 25263141
+- **Alerts queued:** 0 (no whale alerts in this epoch window)
+- **No dispatch needed** — postprocess-bds.sh has nothing to send
+- **State file untouched** — cursor managed by prefetch script
+- **Log updated** at `memory/logs/2026-06-07.md`
