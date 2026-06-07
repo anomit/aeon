@@ -1,9 +1,9 @@
 ## Summary
 
-**Powerloom BDS run complete — `POWERLOOM_BDS_OK`**
+**powerloom-bds skill executed successfully.**
 
-- **Epoch end:** 25263141
-- **Alerts queued:** 0 (no whale alerts in this epoch window)
-- **No dispatch needed** — postprocess-bds.sh has nothing to send
-- **State file untouched** — cursor managed by prefetch script
-- **Log updated** at `memory/logs/2026-06-07.md`
+- **Alerts cache**: 1 alert found — 🐋 BUY ZRX/WETH on Uniswap V3, $52.41M swapped (500M ZRX), block 25263238, verified on-chain
+- **Dispatch**: Skipped (handled by `scripts/postprocess-bds.sh` per skill design)
+- **Log**: Appended entry to `memory/logs/2026-06-07.md` with epoch 25263238, 1 alert queued, status OK
+- **State**: Left `memory/powerloom-bds-state.json` untouched (managed by prefetch script)
+- **Exit code**: `POWERLOOM_BDS_OK`
