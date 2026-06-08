@@ -1,11 +1,8 @@
 ## Summary
 
-**Powerloom BDS — run 12 complete (POWERLOOM_BDS_OK)**
+**Powerloom BDS (run 13) — complete.**
 
-- **Read** `.bds-cache/alerts.json` — alerts array was empty (epoch 25270115, epochs 25270106–25270115 processed)
-- **No alerts** to dispatch — no notification calls made (postprocess-bds.sh will also find nothing)
-- **Logged** to `memory/logs/2026-06-08.md` — run 12 entry appended with 0 alerts queued
-- **Committed** as `9a62aa0`
-
-Files modified:
-- `memory/logs/2026-06-08.md` — appended run 12 log entry
+- **Alerts cache**: 1 alert found in `.bds-cache/alerts.json` — a whale buy of WETH/USDT ($376.7K on Uniswap V3) at block 25270213, verified on-chain.
+- **Dispatch**: Skipped (as required — `postprocess-bds.sh` owns delivery to Telegram/Discord/Slack).
+- **Log**: Appended run 13 entry to `memory/logs/2026-06-08.md` with epoch end 25270214, 1 alert queued, status OK.
+- **State**: Did not modify `memory/powerloom-bds-state.json` (managed by prefetch script).
