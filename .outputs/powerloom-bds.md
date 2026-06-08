@@ -1,6 +1,13 @@
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — 7 whale alerts found across epochs 25269107–25269116 (9 epochs processed)
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles notification delivery
-- **Logged** run to `memory/logs/2026-06-08.md` with epoch range, alert count, and OK status
-- **Committed** as `b850992`
+Executed **powerloom-bds** skill (whale-radar mode):
+
+- **Read** `.bds-cache/alerts.json` — found **16 whale alerts** across epochs 25269207–25269211 (5 epochs processed)
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Logged** run 3 to `memory/logs/2026-06-08.md`
+- **Committed** as `25fbb60`
+
+**Files modified:**
+- `memory/logs/2026-06-08.md` — appended run 3 entry
+
+**Status:** `POWERLOOM_BDS_OK` — alerts queued for postprocess dispatch.
