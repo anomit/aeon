@@ -1,10 +1,9 @@
 ## Summary
 
-**powerloom-bds run 31** — completed successfully.
+**Powerloom BDS — run 32 completed.**
 
-- **Epoch range:** 25272001–25272010 (10 epochs processed)
-- **Alerts queued:** 1 — a 🐋 BUY AUSD/USDC on Uniswap V3 for ~$45K, verified on-chain (CID `bafkreihhs2wdzpinjq4akokkpmd…`)
-- **Dispatch:** Skipped in-skill (per SKILL.md). `scripts/postprocess-bds.sh` will handle Telegram/Discord/Slack delivery.
-- **Log:** Appended to `memory/logs/2026-06-08.md` (run 31).
-
-No dispatch, no state mutation, no re-fetch — exactly as specified.
+- **Alerts cache**: 1 whale alert found (🟢 BUY LINK/WETH on Uniswap V3, $28.4K, block 25272109, verified on-chain)
+- **Epoch range**: 25272102–25272111 (10 epochs processed)
+- **Dispatch**: Postprocess will handle delivery — no `./notify` call made here
+- **Log**: Appended to `memory/logs/2026-06-08.md` (run 32)
+- **State untouched**: `memory/powerloom-bds-state.json` not modified
