@@ -1,15 +1,10 @@
 ## Summary
 
-**powerloom-bds (run 55) — completed successfully.**
+**powerloom-bds run 56** complete.
 
-- **Epoch end:** 25274402 (10 epochs processed, starting from 25274393)
-- **Alerts queued:** 2 — dispatched via `postprocess-bds.sh` (not by the skill itself)
-  - 🟢 BUY EURC/USDC on Uniswap V3 — $25.3K swapped
-  - 🟢 BUY WBTC/cbBTC on Uniswap V3 — $44.6K swapped
-- **State:** `lastStreamEpoch` = 25274402 (maintained by `process-bds-skill.py`, untouched by skill)
-- **Log:** Appended to `memory/logs/2026-06-08.md`
+- **Alerts cache**: `.bds-cache/alerts.json` read — 4 whale alerts queued (2 × REQ/WETH buys ~$87.4K, 2 × USDC/WETH buys ~$45.8K)
+- **Epoch end**: 25274496
+- **Dispatch**: Skipped (postprocess-bds.sh owns delivery per skill spec)
+- **Log**: Appended run 56 entry to `memory/logs/2026-06-08.md`
 
-**Files modified:**
-- `memory/logs/2026-06-08.md` — appended run 55 entry
-
-**No follow-up actions needed.** Postprocess will handle notification delivery.
+No alerts were dispatched from this step — `scripts/postprocess-bds.sh` handles Telegram/Discord/Slack delivery.
