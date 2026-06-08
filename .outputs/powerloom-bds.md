@@ -1,10 +1,17 @@
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — found 3 whale alerts across epoch range 25272994–25273003 (10 epochs processed):
-  - 🟢 BUY USDe/USDC — $36.4K on Uniswap V3 (1%) — block 25272995
-  - 🟢 BUY USDC/WETH — $51.1K on Uniswap V3 (5%) — block 25272999
-  - 🟢 BUY USDC/WETH — $32.3K on Uniswap V3 (5%) — block 25272999
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **Logged** run 41 to `memory/logs/2026-06-08.md` — 3 alerts queued, epoch end 25273003
-- **Committed** as `38e454a`
-- **State file untouched** — `memory/powerloom-bds-state.json` is managed by `process-bds-skill.py` only
+**powerloom-bds (run 42)** — completed successfully.
+
+- **Alerts cache**: Read `.bds-cache/alerts.json` — 5 whale alerts queued at epoch end `25273096` (5 epochs processed, range `25273092–25273096`)
+- **Dispatch**: Skipped (per skill spec — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery)
+- **Logging**: Appended entry to `memory/logs/2026-06-08.md`
+- **State**: Did not modify `memory/powerloom-bds-state.json` (maintained by `process-bds-skill.py`)
+
+**Alerts queued for dispatch:**
+| Pair | Amount | Pool | TX |
+|------|--------|------|----|
+| WETH/USDT | $35.4K | Uni V3 (5%) | `0x31d2…7b01` |
+| WBTC/WETH | $48.6K | Uni V3 (5%) | `0x8f95…0d84` |
+| WETH/USDT | $154.6K | Uni V3 (30%) | `0xd05a…5452` |
+| USDC/WETH | $70.9K | Uni V3 (5%) | `0xe36e…1317` |
+| USDC/WETH | $28.7K | Uni V3 (30%) | `0xfdf3…b1bd` |
