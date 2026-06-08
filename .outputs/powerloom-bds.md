@@ -1,16 +1,10 @@
-Skill complete. Here's the summary:
-
 ## Summary
 
-**Skill:** `powerloom-bds` (whale-radar mode)
+**powerloom-bds skill executed — OK**
 
-**What happened:**
-- Read `.bds-cache/alerts.json` — found **4 whale alerts** at epoch_end **25268909** (epochs 25268906–25268909)
-- Alerts cover WETH/USDT and USDC/WETH swaps on Uniswap V3, ranging from $28K–$139K, all verified on-chain with CIDs
-- Did **not** dispatch (per skill instructions — `postprocess-bds.sh` handles delivery)
-- Appended log entry to `memory/logs/2026-06-07.md`
+- **Alerts cache**: Read `.bds-cache/alerts.json` — 5 whale alerts queued across epochs 25269007–25269016
+- **Dispatch**: Skipped (per skill spec — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery)
+- **Log**: Written to `memory/logs/2026-06-08.md` with epoch range, alert count, and status
+- **State**: No modifications to `memory/powerloom-bds-state.json` (maintained exclusively by `process-bds-skill.py`)
 
-**Files modified:**
-- `memory/logs/2026-06-07.md` — appended epoch 25268909 entry (4 alerts queued, status OK)
-
-**No follow-up actions needed.** `POWERLOOM_BDS_OK`
+Notable alerts in this batch include buys on WETH/USDT (~$30–32K), USDC/WETH (~$28–62K), and a WBTC/cbBTC swap (~$135K) — all on Uniswap V3 with on-chain verification.
