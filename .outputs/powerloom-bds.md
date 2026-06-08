@@ -1,8 +1,11 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 4 whale alerts queued from epochs 25270007–25270016 (9 epochs processed)
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` owns notification delivery
-- **Logged** run 11 to `memory/logs/2026-06-08.md` with epoch_end 25270016, 4 alerts queued, status OK
-- **State untouched** — `memory/powerloom-bds-state.json` (lastStreamEpoch: 25270016) left as-is
+**Powerloom BDS — run 12 complete (POWERLOOM_BDS_OK)**
 
-`POWERLOOM_BDS_OK`
+- **Read** `.bds-cache/alerts.json` — alerts array was empty (epoch 25270115, epochs 25270106–25270115 processed)
+- **No alerts** to dispatch — no notification calls made (postprocess-bds.sh will also find nothing)
+- **Logged** to `memory/logs/2026-06-08.md` — run 12 entry appended with 0 alerts queued
+- **Committed** as `9a62aa0`
+
+Files modified:
+- `memory/logs/2026-06-08.md` — appended run 12 log entry
