@@ -1,9 +1,6 @@
 ## Summary
 
-- **Read alerts cache** (`.bds-cache/alerts.json`): 3 whale alerts queued, epoch range 25270805–25270814 (10 epochs processed)
-  - 🟢 BUY USDC/WETH on Uniswap V3 — $26.4K (block 25270807)
-  - 🟢 BUY WETH/USDT on Uniswap V3 — $90.0K (block 25270810)
-  - 🟢 BUY AUSD/USDC on Uniswap V3 — $47.5K (block 25270811)
-- **Did not dispatch** — postprocess-bds.sh handles delivery
-- **Logged** run 19 to `memory/logs/2026-06-08.md`
-- Status: **OK**
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (USDC/USDT $500K swap on Uniswap V3, USDC/WETH $25K swap on Uniswap V3), epoch range 25270906–25270915 (9 epochs processed)
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` owns Telegram/Discord/Slack delivery
+- **Logged** run 20 to `memory/logs/2026-06-08.md`
+- Status: OK
