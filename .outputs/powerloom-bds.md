@@ -1,9 +1,9 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Cache read:** `.bds-cache/alerts.json` — 1 whale alert queued (WETH/USDT BUY $466.2K on Uniswap V3, block 25272403)
-- **Epoch range:** 25272401–25272410 (10 epochs processed)
-- **Dispatch:** Skipped — `postprocess-bds.sh` handles notification delivery
-- **Log:** Appended run 35 entry to `memory/logs/2026-06-08.md`
-- **State:** Untouched (maintained by `scripts/process-bds-skill.py`)
-- **Status:** OK
+**powerloom-bds run 36 complete.**
+
+- **Alerts cache**: `.bds-cache/alerts.json` read — 1 whale alert queued (USDC/WETH buy $35.3K on Uniswap V3, block 25272503, verified on-chain).
+- **Dispatch**: Skipped (per skill instructions — `postprocess-bds.sh` handles delivery).
+- **State**: `memory/powerloom-bds-state.json` untouched (`lastStreamEpoch: 25272504`).
+- **Log**: Appended run 36 entry to `memory/logs/2026-06-08.md`.
+- **Status**: POWERLOOM_BDS_OK
