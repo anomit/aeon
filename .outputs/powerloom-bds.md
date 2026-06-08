@@ -1,12 +1,10 @@
 ## Summary
 
-**Powerloom BDS skill — run 33 complete.**
+**Powerloom BDS (run 34) — completed.**
 
-- **Read** `.bds-cache/alerts.json` — 3 whale alerts queued (WBTC/WETH $52.6K buy, two USDC/WETH $58.4K buys), epoch 25272203, 3 epochs processed
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` owns notification delivery
-- **Logged** to `memory/logs/2026-06-08.md` as run 33
-
-**Files modified:**
-- `memory/logs/2026-06-08.md` — appended run 33 entry
-
-**Status:** `POWERLOOM_BDS_OK`
+- **Cache:** `.bds-cache/alerts.json` read successfully
+- **Epoch range:** 25272299–25272303 (5 epochs processed by prefetch)
+- **Alerts:** 0 — no qualifying whale trades this cycle
+- **Action:** Logged `POWERLOOM_BDS_OK` to `memory/logs/2026-06-08.md`
+- **Notifications:** None dispatched (postprocess handles delivery; nothing to send)
+- **State:** `memory/powerloom-bds-state.json` untouched (managed by `process-bds-skill.py`)
