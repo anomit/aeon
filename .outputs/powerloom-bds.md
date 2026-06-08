@@ -1,11 +1,12 @@
 ## Summary
 
-**Powerloom BDS whale-radar run completed successfully.**
+**powerloom-bds (run 5)** — completed successfully.
 
-- **Epoch end:** 25269310
-- **Alerts queued:** 1 (a USDC/WETH buy on Uniswap V3, $27.6K — dispatch handled by `postprocess-bds.sh`)
-- **Status:** OK
+- **Alerts cache**: 1 whale alert read from `.bds-cache/alerts.json`
+  - BUY WETH/USDT on Uniswap V3, $30.1K swapped, block 25269414
+- **Epoch end**: 25269414 (6 epochs processed)
+- **Dispatch**: Not dispatched here — `postprocess-bds.sh` handles delivery
+- **Log**: Appended to `memory/logs/2026-06-08.md`
 
 **Files modified:**
-- `memory/logs/2026-06-08.md` — appended run 4 log entry
-- Committed as `191eff0`
+- `memory/logs/2026-06-08.md` — added run 5 log entry
