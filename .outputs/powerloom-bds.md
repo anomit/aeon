@@ -1,13 +1,11 @@
 ## Summary
 
-Executed **powerloom-bds** skill (whale-radar mode):
+**Powerloom BDS whale-radar run completed successfully.**
 
-- **Read** `.bds-cache/alerts.json` — found **16 whale alerts** across epochs 25269207–25269211 (5 epochs processed)
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **Logged** run 3 to `memory/logs/2026-06-08.md`
-- **Committed** as `25fbb60`
+- **Epoch end:** 25269310
+- **Alerts queued:** 1 (a USDC/WETH buy on Uniswap V3, $27.6K — dispatch handled by `postprocess-bds.sh`)
+- **Status:** OK
 
 **Files modified:**
-- `memory/logs/2026-06-08.md` — appended run 3 entry
-
-**Status:** `POWERLOOM_BDS_OK` — alerts queued for postprocess dispatch.
+- `memory/logs/2026-06-08.md` — appended run 4 log entry
+- Committed as `191eff0`
