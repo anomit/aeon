@@ -1,11 +1,12 @@
 ## Summary
 
-**powerloom-bds (run 69)** completed successfully.
+**Skill:** powerloom-bds (run 70, whale-radar mode)
 
-- **Epoch end:** 25275791 (10 epochs processed)
-- **Alerts queued:** 3 whale alerts dispatched to `postprocess-bds.sh` for delivery:
-  - 🟢 BUY PRIME/USDC on Uniswap V3 — $137.9K
-  - 🟢 BUY PRIME/USDC on Uniswap V3 — $147.3K
-  - 🟢 BUY USDC/WETH on Uniswap V3 — $35.7K
-- **Status:** OK
-- **File modified:** `memory/logs/2026-06-08.md`
+**What happened:**
+- Read `.bds-cache/alerts.json` — 8 whale alerts queued from epochs 25275888–25275891 (4 epochs processed)
+- Alerts are all large Uniswap V3 swaps (WETH/USDT, USDC/WETH, WBTC/WETH) from two whale wallets (`0x51C72848…` and `0x4C82D1fB…`), ranging from $35.9K to $176.1K, all with on-chain CID verification
+- Did **not** dispatch — per skill spec, `postprocess-bds.sh` owns delivery
+- Logged run 70 to `memory/logs/2026-06-08.md`
+
+**Files modified:**
+- `memory/logs/2026-06-08.md` — appended run 70 log entry
