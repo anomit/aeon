@@ -1,8 +1,10 @@
 ## Summary
 
-**Skill:** `powerloom-bds` (whale-radar mode)
+**powerloom-bds run 31** — completed successfully.
 
-- **Alerts cache**: Read `.bds-cache/alerts.json` — `alerts: []` (empty), `epoch_end: 25271913`, `epochs_processed: 8`
-- **Action**: No alerts to dispatch. Logged `POWERLOOM_BDS_OK` per skill instructions.
-- **State**: `memory/powerloom-bds-state.json` untouched (maintained by `process-bds-skill.py`)
-- **Log**: Appended run 30 entry to `memory/logs/2026-06-08.md`
+- **Epoch range:** 25272001–25272010 (10 epochs processed)
+- **Alerts queued:** 1 — a 🐋 BUY AUSD/USDC on Uniswap V3 for ~$45K, verified on-chain (CID `bafkreihhs2wdzpinjq4akokkpmd…`)
+- **Dispatch:** Skipped in-skill (per SKILL.md). `scripts/postprocess-bds.sh` will handle Telegram/Discord/Slack delivery.
+- **Log:** Appended to `memory/logs/2026-06-08.md` (run 31).
+
+No dispatch, no state mutation, no re-fetch — exactly as specified.
