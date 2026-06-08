@@ -1,6 +1,8 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (USDC/USDT $500K swap on Uniswap V3, USDC/WETH $25K swap on Uniswap V3), epoch range 25270906–25270915 (9 epochs processed)
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` owns Telegram/Discord/Slack delivery
-- **Logged** run 20 to `memory/logs/2026-06-08.md`
-- Status: OK
+- **Read** `.bds-cache/alerts.json` — `alerts` array is empty, `epoch_end: 25271005`, `epochs_processed: 3`
+- **No dispatch needed** — per skill rules, empty alerts means no notification call
+- **Logged** run 21 to `memory/logs/2026-06-08.md` with `POWERLOOM_BDS_OK` status
+- **State untouched** — `memory/powerloom-bds-state.json` left as-is (maintained by prefetch scripts)
+
+`POWERLOOM_BDS_OK` — no alerts this cycle.
