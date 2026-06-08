@@ -1,15 +1,4 @@
 ## Summary
-
-**powerloom-bds run 8** — completed successfully.
-
-- **Epoch end:** 25269716 (10 epochs processed, range 25269707–25269716)
-- **Alerts queued:** 2 whale alerts dispatched via postprocess-bds.sh:
-  - 🟢 BUY WBTC/USDT on Uniswap V3 — $25.8K swapped (block 25269713)
-  - 🟢 BUY USDC/WETH on Uniswap V3 — $43.8K swapped (block 25269713)
-- **State:** Cursor advanced to epoch 25269716, fingerprints updated. No state rewritten.
-- **Log:** Appended to `memory/logs/2026-06-08.md` (run 8).
-
-**Files modified:**
-- `memory/logs/2026-06-08.md` — appended run 8 log entry
-
-**No follow-up actions needed.** Postprocess-bds.sh will handle Telegram/Discord/Slack delivery.
+- **Read** `.bds-cache/alerts.json` — 4 whale alerts queued (PENDLE/WETH $30.5K, USDC/WETH $27.2K, USDC/WETH $42.6K, WBTC/WETH $1.92M), epoch_end: 25269815
+- **Did not dispatch** — postprocess-bds.sh owns notification delivery
+- **Logged** run 9 to `memory/logs/2026-06-08.md` — 4 alerts queued, status OK
