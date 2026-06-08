@@ -1,8 +1,9 @@
 ## Summary
 
-- **Skill**: `powerloom-bds` (whale-radar mode)
-- **Action**: Read `.bds-cache/alerts.json` — 1 alert queued for dispatch
-- **Epoch end**: 25272799 (4 epochs processed)
-- **Log**: Appended run 39 to `memory/logs/2026-06-08.md`
-- **State**: Did not touch `powerloom-bds-state.json` (maintained by prefetch). Did not dispatch alerts (owned by `postprocess-bds.sh`)
-- **Status**: OK
+**powerloom-bds (run 40)** completed successfully.
+
+- **Epoch end:** 25272905 (10 epochs processed, 25272896–25272905)
+- **Alerts queued:** 8 — including wstETH/WETH, USDC/USDT, USDC/WETH, wM/USDC ($3.27M), WBTC/WETH, WETH/ULTI trades
+- **Status:** OK — dispatch handled by `postprocess-bds.sh`
+- **File modified:** `memory/logs/2026-06-08.md` (run 40 entry appended)
+- **Committed:** `a1f71a2`
