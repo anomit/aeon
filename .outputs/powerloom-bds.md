@@ -1,9 +1,12 @@
 ## Summary
 
-**Powerloom BDS — run 32 completed.**
+**Powerloom BDS skill — run 33 complete.**
 
-- **Alerts cache**: 1 whale alert found (🟢 BUY LINK/WETH on Uniswap V3, $28.4K, block 25272109, verified on-chain)
-- **Epoch range**: 25272102–25272111 (10 epochs processed)
-- **Dispatch**: Postprocess will handle delivery — no `./notify` call made here
-- **Log**: Appended to `memory/logs/2026-06-08.md` (run 32)
-- **State untouched**: `memory/powerloom-bds-state.json` not modified
+- **Read** `.bds-cache/alerts.json` — 3 whale alerts queued (WBTC/WETH $52.6K buy, two USDC/WETH $58.4K buys), epoch 25272203, 3 epochs processed
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` owns notification delivery
+- **Logged** to `memory/logs/2026-06-08.md` as run 33
+
+**Files modified:**
+- `memory/logs/2026-06-08.md` — appended run 33 entry
+
+**Status:** `POWERLOOM_BDS_OK`
