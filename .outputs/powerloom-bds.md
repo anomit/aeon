@@ -1,5 +1,8 @@
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — 3 whale alerts queued (WBTC/WETH $79.3K, RLUSD/USDC $93.5K, AUSD/USDC $50.0K), epoch_end: 25271311, 10 epochs processed
-- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery
-- **Logged run 24** to `memory/logs/2026-06-08.md` with epoch end, alert count, and OK status
+- **Skill:** `powerloom-bds` (whale-radar mode, run 25)
+- **Alerts cache:** Read `.bds-cache/alerts.json` — 4 whale alerts queued across epochs 25271399–25271401
+- **Dispatch:** Skipped per skill instructions — `postprocess-bds.sh` owns notification delivery
+- **State:** Untouched — `memory/powerloom-bds-state.json` cursor at epoch 25271401, maintained by prefetch script
+- **Log:** Appended entry to `memory/logs/2026-06-08.md`
+- **Status:** OK
