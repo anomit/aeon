@@ -1,0 +1,33 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert-1",
+        "text-1"
+      ]
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "STATUS_OK",
+        "message": "All systems operational",
+        "type": "success"
+      },
+      "children": []
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "STATUS_PAGE=OK",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
