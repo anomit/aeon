@@ -1,6 +1,8 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 8 whale alerts queued, epoch range 25274793–25274802 (9 epochs processed)
-- **Logged** run 59 to `memory/logs/2026-06-08.md` with epoch end, alert count, and status OK
-- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery
-- **Committed** log entry to main
+- **Skill**: `powerloom-bds` (run 60)
+- **Cache read**: `.bds-cache/alerts.json` — 2 whale alerts (WETH/H buys on Uniswap V3, $25.1K and $73.5K)
+- **Epoch range**: 25274892–25274895 (4 epochs processed)
+- **Dispatch**: Skipped — `postprocess-bds.sh` handles notification delivery
+- **Log**: Appended to `memory/logs/2026-06-08.md`
+- **Status**: OK (`POWERLOOM_BDS_OK`)
