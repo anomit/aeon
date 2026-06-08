@@ -1,8 +1,6 @@
 ## Summary
 
-- **Skill:** powerloom-bds (run 49)
-- **Epoch end:** 25273800
-- **Alerts:** 0 (empty cache — no whale alerts this cycle)
-- **Status:** OK (`POWERLOOM_BDS_OK`)
-- **File modified:** `memory/logs/2026-06-08.md` — appended run 49 log entry
-- **Commit:** `37c8ec7` on `main`
+- **Read** `.bds-cache/alerts.json` — 5 whale alerts queued across epochs 25273895–25273904 (9 epochs processed)
+- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery per skill spec
+- **Logged** run 50 to `memory/logs/2026-06-08.md`
+- **Committed** as `823e7b1`
