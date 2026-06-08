@@ -1,8 +1,23 @@
 ## Summary
 
-**powerloom-bds (run 47)** completed successfully.
+**powerloom-bds run 48** — completed successfully.
 
-- **Epoch end:** 25273605
-- **Alerts queued:** 19 — all dispatched via `postprocess-bds.sh` (did not call `./notify` per skill instructions)
-- **State file:** untouched (`memory/powerloom-bds-state.json` maintained by prefetch)
-- **Log:** appended entry to `memory/logs/2026-06-08.md`
+| Item | Value |
+|------|-------|
+| Epoch end | 25273706 |
+| Epochs processed | 10 |
+| Alerts queued | 6 |
+| Dispatch | Handled by `postprocess-bds.sh` (not this step) |
+| Status | OK |
+
+**Alerts breakdown** — 6 whale buys detected on Uniswap V3:
+- USDC/WETH ($34.9K)
+- WBTC/WETH ($38.7K)
+- WETH/USDT ($79.1K, $80.0K, $79.8K, $28.5K)
+
+All carry on-chain verification (CID + epoch + project).
+
+**Files modified:**
+- `memory/logs/2026-06-08.md` — appended run 48 entry
+
+**Commit:** `f442161` on `main`
