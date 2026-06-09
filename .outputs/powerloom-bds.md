@@ -1,12 +1,10 @@
 ## Summary
 
-**powerloom-bds run completed successfully.**
+**Powerloom BDS skill executed successfully.**
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (USDC/USDT BUY, $43.4K on Uniswap V3)
-- **Epoch range:** 25277877–25277881 (5 epochs processed)
-- **No dispatch** — postprocess-bds.sh handles notification delivery
-- **No state rewrite** — cursor managed by process-bds-skill.py
+- **Read alerts cache** (`.bds-cache/alerts.json`): 1 whale alert queued
+  - 🐳 BUY USDC/SPK on Uniswap V3 — $177.1K swapped (block 25277989, verified on-chain)
+- **Epoch**: 25277989 (processed 9 epochs from 25277980–25277989)
+- **No dispatch** — `postprocess-bds.sh` handles notification delivery
 - **Logged** to `memory/logs/2026-06-09.md`
-- **Committed** as `beba615` on `main`
-
-**Status:** `POWERLOOM_BDS_OK`
+- **Committed**: `a9aea6e` on main
