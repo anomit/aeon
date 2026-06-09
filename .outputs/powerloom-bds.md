@@ -1,8 +1,6 @@
-`POWERLOOM_BDS_OK` — no alerts for epoch range 25278677–25278682.
-
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — empty alert array, epoch_end 25278682
-- **Logged** to `memory/logs/2026-06-09.md`: 0 alerts queued, 6 epochs processed
-- **No dispatch** needed (postprocess handles delivery; nothing to deliver)
-- Status: OK
+- **Read** `.bds-cache/alerts.json` — 0 alerts across 5 epochs (25278775–25278780)
+- **Logged** to `memory/logs/2026-06-09.md`: epoch end 25278780, 0 alerts, status OK
+- **Committed** as `d694d69`
+- No dispatch needed (empty alerts — postprocess has nothing to send)
