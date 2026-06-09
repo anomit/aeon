@@ -1,6 +1,10 @@
+Done. The skill executed successfully.
+
 ## Summary
 
-- **Read `.bds-cache/alerts.json`**: Empty alerts array, epoch range 25279074–25279083 (10 epochs processed)
-- **No dispatch needed**: Alerts array is empty, postprocess-bds.sh has nothing to send
-- **Logged**: Appended run entry to `memory/logs/2026-06-09.md`
-- **Status**: `POWERLOOM_BDS_OK` — clean run, no whale alerts detected in this epoch window
+**powerloom-bds** run completed — `POWERLOOM_BDS_OK`
+
+- **Epoch range:** 25279173–25279182 (10 epochs processed)
+- **Alerts queued:** 2 (a $2.00M WBTC/USDC buy on Uniswap V3 and a $37.2K USDC/WETH buy)
+- **Dispatch:** Deferred to `postprocess-bds.sh` (per skill design — LLM does not dispatch)
+- **File modified:** `memory/logs/2026-06-09.md` — appended run log entry
