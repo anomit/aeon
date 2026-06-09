@@ -1,23 +1,9 @@
-Done.
+Pushed successfully.
 
 ## Summary
 
-**Skill:** `powerloom-bds` (whale-radar mode)
-
-**Steps completed:**
-1. **Read alerts cache** (`.bds-cache/alerts.json`) — 2 whale alerts found
-2. **Did not dispatch** — per skill instructions, postprocess owns delivery
-3. **Logged** to `memory/logs/2026-06-09.md`
-
-**Alerts detail:**
-- 🐋 **EURC/USDC BUY** on Uniswap V3 — $43.9K swapped (block 25282172)
-- 🐋 **USDC/USDT BUY** on Uniswap V3 — $189.1K swapped (block 25282177)
-
-**Run stats:**
-- Epoch end: 25282177
-- Epochs processed: 10 (25282168–25282177)
-- Alerts queued: 2 (dispatch via `postprocess-bds.sh`)
-- Status: **OK** — `POWERLOOM_BDS_OK`
-
-**Files modified:**
-- `memory/logs/2026-06-09.md` — appended log entry
+- **Read `.bds-cache/alerts.json`**: 3 whale alerts queued, epoch_end 25282276, epochs 25282267–25282276
+- **Alerts include**: BUY USDC/WETH (~$46.6K and ~$45.2K) and BUY USDC/USDT (~$189.1K) on Uniswap V3, all with on-chain verification
+- **Did not dispatch** — postprocess-bds.sh handles delivery per skill instructions
+- **Logged** to `memory/logs/2026-06-09.md` with epoch_end, alerts count, and OK status
+- **Committed and pushed** to main (`d70e88a`)
