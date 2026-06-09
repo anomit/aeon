@@ -1,9 +1,7 @@
-Pushed successfully.
-
 ## Summary
 
-- **Read `.bds-cache/alerts.json`**: 3 whale alerts queued, epoch_end 25282276, epochs 25282267–25282276
-- **Alerts include**: BUY USDC/WETH (~$46.6K and ~$45.2K) and BUY USDC/USDT (~$189.1K) on Uniswap V3, all with on-chain verification
-- **Did not dispatch** — postprocess-bds.sh handles delivery per skill instructions
-- **Logged** to `memory/logs/2026-06-09.md` with epoch_end, alerts count, and OK status
-- **Committed and pushed** to main (`d70e88a`)
+- **Read** `.bds-cache/alerts.json` — alerts array is empty, epoch end 25282374 (10 epochs processed: 25282365–25282374)
+- **Logged** to `memory/logs/2026-06-09.md` with 0 alerts queued
+- **Committed** as `bffe944` — `chore(cron): powerloom-bds — no alerts (epoch 25282374)`
+- No dispatch needed (empty alerts, postprocess-bds.sh will skip)
+- Exit code: `POWERLOOM_BDS_OK`
