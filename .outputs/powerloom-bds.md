@@ -1,15 +1,8 @@
 ## Summary
 
-**Skill executed:** `powerloom-bds` (whale-radar mode)
-
-- **Alerts cache:** Read `.bds-cache/alerts.json` — 2 whale alerts found
-  - 🐋 BUY ZCHF/USDT on Uniswap V3 — $450.0K swapped (Block 25280275)
-  - 🐋 BUY XAUt/USDT on Uniswap V3 — $46.1K swapped (Block 25280276)
-- **Epoch range:** 25280274–25280276 (3 epochs processed)
-- **Dispatch:** Did not call `./notify` — postprocess-bds.sh handles delivery
-- **State:** Did not modify `memory/powerloom-bds-state.json` (maintained by prefetch script)
-
-**File modified:**
-- `memory/logs/2026-06-09.md` — appended powerloom-bds run entry (epoch 25280276, 2 alerts queued, Status: OK)
-
-**Log code:** `POWERLOOM_BDS_OK`
+- **Skill**: powerloom-bds (whale-radar mode)
+- **Alerts cache**: 1 alert queued — 🐳 BUY PRIME/USDC on Uniswap V3, $526.2K swapped, block 25280375
+- **Epoch end**: 25280375 (4 epochs processed: 25280371–25280375)
+- **Dispatch**: Skipped (postprocess-bds.sh handles delivery)
+- **Log**: Appended to `memory/logs/2026-06-09.md`
+- **Status**: OK
