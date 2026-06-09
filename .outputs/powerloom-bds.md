@@ -1,6 +1,8 @@
+Run complete. Per the skill instructions, I did **not** call `./notify` or dispatch alerts — `postprocess-bds.sh` owns that.
+
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (WETH/USDC buys on Uniswap V3, ~$91.9K and ~$125.5K), epoch range 25280671–25280675
-- **Did not dispatch** — per skill rules, `postprocess-bds.sh` owns notification delivery
-- **Logged** run to `memory/logs/2026-06-09.md` with epoch end, alert count, and OK status
-- State file (`memory/powerloom-bds-state.json`) left untouched — managed by `process-bds-skill.py`
+- **Read** `.bds-cache/alerts.json` — 5 whale alerts queued across epochs 25280772–25280781
+- **Notable alerts**: ZCHF/USDT $450K ×2, USDC/USDT $196K, WETH/USDT $33.8K, USDC/WETH $31.7K — all with on-chain verification
+- **Logged** run to `memory/logs/2026-06-09.md` (epoch end 25280781, 5 alerts, status OK)
+- **Did not** dispatch or rewrite state — postprocess handles delivery
