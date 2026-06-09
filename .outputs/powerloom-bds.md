@@ -1,8 +1,12 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 alert queued (🐳 AUSD/USDC whale buy, $50K on Uniswap V3, block 25277488, verified on-chain)
-- **Did not dispatch** — postprocess-bds.sh owns Telegram/Discord/Slack delivery per skill spec
-- **Logged** to `memory/logs/2026-06-09.md`: epoch 25277489, 7 epochs processed, 1 alert queued, Status: OK
-- **State untouched** — `memory/powerloom-bds-state.json` cursor (25277489) and fingerprints managed solely by `process-bds-skill.py`
+**powerloom-bds** run complete.
 
-Exit code: `POWERLOOM_BDS_OK`
+- **Epoch end:** 25277588 (epochs 25277579–25277588, 10 processed)
+- **Alerts queued:** 5 (dispatch via postprocess-bds.sh)
+- **Status:** OK
+
+5 whale alerts cached — including WETH/USDC buys ($96K, $103.5K), USDC/WETH ($35.4K, $45.6K), and WBTC/WETH ($35.8K) — all with on-chain verification. Postprocess will handle delivery to Telegram/Discord/Slack.
+
+- **File modified:** `memory/logs/2026-06-09.md` — appended run log
+- **Committed:** `94d29f2` — `chore(cron): powerloom-bds success`
