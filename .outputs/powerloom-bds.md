@@ -1,8 +1,6 @@
 ## Summary
 
-**Powerloom BDS skill executed successfully.**
-
-- **Alerts cache**: Read `.bds-cache/alerts.json` — 4 whale alerts queued for epochs 25277678–25277685
-- **No dispatch**: Per skill instructions, did not call `./notify` — `postprocess-bds.sh` handles delivery
-- **Logged**: Appended entry to `memory/logs/2026-06-09.md` with epoch end 25277685, 4 alerts queued
-- **Committed**: `3db5abc` — `chore(cron): powerloom-bds success`
+- **Read** `.bds-cache/alerts.json` — alerts array is empty, epoch_end: 25277790, 10 epochs processed (25277781–25277790)
+- **Logged** to `memory/logs/2026-06-09.md`: no alerts queued, status OK
+- **Committed** log entry (`64bf915`)
+- No alerts to dispatch — `postprocess-bds.sh` will have nothing to send.
