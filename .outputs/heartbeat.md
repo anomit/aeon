@@ -1,19 +1,20 @@
-## Summary
-
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-**P0 — Failed & stuck skills**: All clear
-- powerloom-bds: 100% success rate (344/344 runs), last run ~10 min ago
-- heartbeat: 100% success rate (15/15 runs), last success ~12h ago
+## Summary
 
-**P1 — Stalled PRs & urgent issues**: All clear
-- No open PRs
-- Issues disabled on this repo
+All systems operational. Completed the following:
 
-**P2 — Flagged memory items**: All clear
+1. **P0 checks**: No failed or stuck skills. Both `powerloom-bds` (100% success, 362 runs) and `heartbeat` (100% success, 16 runs) are healthy.
 
-**P3 — Missing scheduled skills**: All clear
+2. **P1 checks**: No open PRs requiring attention, no urgent GitHub issues.
 
-**Files updated:**
-- docs/status.md — regenerated with current skill health
-- memory/logs/2026-06-09.md — logged heartbeat run
+3. **P2 checks**: No flagged memory items needing follow-up.
+
+4. **P3 checks**: All enabled skills have entries in cron-state.json and are running within their schedule intervals.
+
+5. **Status page regenerated**: Updated `docs/status.md` with current fleet health (🟢 OK).
+
+**Files modified:**
+- `docs/status.md` — Updated timestamp and skill health table
+
+**No notification sent** — all checks passed.
