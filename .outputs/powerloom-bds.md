@@ -1,8 +1,6 @@
 ## Summary
 
-**powerloom-bds** run completed — `POWERLOOM_BDS_OK`
-
-- **Epoch end:** 25278984 (epochs 25278975–25278984, 8 epochs processed)
-- **Alerts queued:** 0 (no whale activity in this batch)
-- **Action taken:** Logged to `memory/logs/2026-06-09.md`, committed and pushed to main
-- **Postprocess:** `postprocess-bds.sh` will handle any dispatch (none needed this cycle)
+- **Read `.bds-cache/alerts.json`**: Empty alerts array, epoch range 25279074–25279083 (10 epochs processed)
+- **No dispatch needed**: Alerts array is empty, postprocess-bds.sh has nothing to send
+- **Logged**: Appended run entry to `memory/logs/2026-06-09.md`
+- **Status**: `POWERLOOM_BDS_OK` — clean run, no whale alerts detected in this epoch window
