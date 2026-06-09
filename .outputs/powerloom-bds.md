@@ -1,10 +1,8 @@
-Done. The skill executed successfully.
-
 ## Summary
 
-**powerloom-bds** run completed — `POWERLOOM_BDS_OK`
+**Powerloom BDS run complete — 2 alerts queued, epoch 25279283**
 
-- **Epoch range:** 25279173–25279182 (10 epochs processed)
-- **Alerts queued:** 2 (a $2.00M WBTC/USDC buy on Uniswap V3 and a $37.2K USDC/WETH buy)
-- **Dispatch:** Deferred to `postprocess-bds.sh` (per skill design — LLM does not dispatch)
-- **File modified:** `memory/logs/2026-06-09.md` — appended run log entry
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts found (both BUY WETH/USDT on Uniswap V3, ~$2.22M each, block 25279283, on-chain verified)
+- **Did not dispatch** — per skill rules, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Logged** run to `memory/logs/2026-06-09.md` with epoch range 25279274–25279283 (10 epochs processed)
+- **State untouched** — `memory/powerloom-bds-state.json` cursor remains at 25279283
