@@ -1,9 +1,9 @@
 ## Summary
 
-**Powerloom BDS skill run complete — `POWERLOOM_BDS_OK`**
+**powerloom-bds** run complete.
 
-- **Cache:** `.bds-cache/alerts.json` contained **2 whale alerts** (wM/USDC $58.9K, RLUSD/USDC $93.8K)
-- **Epoch range:** 25277084–25277092 (9 epochs processed)
-- **Dispatch:** Deferred to `scripts/postprocess-bds.sh` (per skill spec — skill does not notify)
-- **State:** `memory/powerloom-bds-state.json` left untouched (cursor already advanced by prefetch)
-- **Log:** Appended entry to `memory/logs/2026-06-09.md`
+- **Alerts cache**: 1 alert (WETH/ZRC buy, $32.9K, block 25277185, verified on-chain)
+- **Epoch end**: 25277193 (10 epochs processed: 25277184–25277193)
+- **Dispatch**: Skipped — `scripts/postprocess-bds.sh` handles notification delivery
+- **Log**: Appended to `memory/logs/2026-06-09.md`
+- **Status**: OK
