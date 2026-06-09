@@ -1,9 +1,8 @@
 ## Summary
 
-**Powerloom BDS skill executed successfully.**
+**powerloom-bds skill executed successfully.**
 
-- **Alerts cache**: `.bds-cache/alerts.json` contained **16 whale alerts** across epochs 25276186–25276195
-- **Notable activity**: Large USDC/WETH buys ($267K, $267K, $81K, $81K), a $1.79M WBTC/cbBTC swap, multiple WETH/USDT trades, and a $70K USDC/USDT stablecoin swap
-- **Dispatch**: Alerts queued for `postprocess-bds.sh` — no notification called from this skill (per spec)
-- **Log**: Written to `memory/logs/2026-06-09.md`
-- **Committed & pushed**: `068a7e3` on `main`
+- **Read alerts cache** (`.bds-cache/alerts.json`): 5 whale alerts queued across epochs 25276287–25276295
+- **No dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Logged** run to `memory/logs/2026-06-09.md` with epoch end 25276295, 5 alerts queued, status OK
+- **Committed** log entry: `6c58bfa chore(cron): powerloom-bds success`
