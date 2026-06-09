@@ -1,10 +1,11 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 3 whale alerts queued for dispatch:
-  - 🐳 WBTC/LBTC swap — $243.3K on Uniswap V3 (block 25281970)
-  - 🐳 wstETH/WETH swap — $208.2K on Uniswap V3 (block 25281977)
-  - 🐳 USDC/WETH swap — $31.9K on Uniswap V3 (block 25281977)
-- **Did not** dispatch alerts — `postprocess-bds.sh` owns that step
-- **Logged** run to `memory/logs/2026-06-09.md` — epoch end 25281978, 3 alerts queued
-- **Did not** touch `memory/powerloom-bds-state.json` (maintained by prefetch script only)
-- Status: `POWERLOOM_BDS_OK`
+**powerloom-bds skill run completed — POWERLOOM_BDS_OK**
+
+- **Alerts cache**: `.bds-cache/alerts.json` — 3 whale alerts found
+- **Epoch range**: 25282066–25282069 (4 epochs processed)
+- **Dispatch**: Not handled here — `scripts/postprocess-bds.sh` will send alerts to Telegram/Discord/Slack
+- **Log**: Appended entry to `memory/logs/2026-06-09.md`
+
+**Files modified:**
+- `memory/logs/2026-06-09.md` — appended powerloom-bds run log
