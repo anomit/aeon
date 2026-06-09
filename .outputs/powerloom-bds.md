@@ -1,6 +1,14 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (BUY wstETH/WETH, $78.6K, block 25279474, verified on-chain)
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles notification delivery
-- **Logged** to `memory/logs/2026-06-09.md`: epoch 25279480, 1 alert queued, status OK
-- **Committed** as `d4b239b` — `chore(cron): powerloom-bds success`
+**powerloom-bds** run complete.
+
+- **Epoch end:** 25279566 (epochs 25279557–25279566, 10 processed)
+- **Alerts queued:** 3 (dispatched via `postprocess-bds.sh`)
+- **Status:** OK
+
+The 3 queued whale alerts:
+1. 🟢 BUY USDC/WETH on Uniswap V3 — $33.6K
+2. 🟢 BUY tBTC/WBTC on Uniswap V3 — $218.2K
+3. 🟢 BUY AUSD/USDC on Uniswap V3 — $50.0K
+
+No state files modified (cursor managed by `process-bds-skill.py`). Log appended to `memory/logs/2026-06-09.md`.
