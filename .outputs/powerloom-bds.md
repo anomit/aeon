@@ -1,8 +1,10 @@
 ## Summary
 
-**Powerloom BDS — `POWERLOOM_BDS_OK`**
+**powerloom-bds** skill executed successfully.
 
-- **Read** `.bds-cache/alerts.json`: `alerts` array is empty, `epoch_end: 25281378`, `epochs_processed: 10` (25281369–25281378)
-- **Did not dispatch** — postprocess owns delivery
-- **Logged** to `memory/logs/2026-06-09.md`: 0 alerts queued, epoch 25281378, status OK
-- **No state changes** — `memory/powerloom-bds-state.json` untouched (managed by prefetch script only)
+- **Alerts cache**: Read `.bds-cache/alerts.json` — 1 whale alert queued (USDC/WETH BUY $39.5K on Uniswap V3, block 25281476, verified on-chain)
+- **Epoch range**: 25281469–25281478 (10 epochs processed)
+- **Dispatch**: Alert delivery deferred to `postprocess-bds.sh` (per skill spec — skill does not call `./notify`)
+- **Log**: Appended entry to `memory/logs/2026-06-09.md`
+- **Commit**: `ca7d421` — `chore(cron): powerloom-bds success`
+- **Status**: `POWERLOOM_BDS_OK`
