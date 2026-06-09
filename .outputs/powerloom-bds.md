@@ -1,8 +1,10 @@
 ## Summary
 
-**powerloom-bds skill executed successfully.**
+**powerloom-bds skill run complete — `POWERLOOM_BDS_OK`**
 
-- **Read alerts cache** (`.bds-cache/alerts.json`): 5 whale alerts queued across epochs 25276287–25276295
-- **No dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **Logged** run to `memory/logs/2026-06-09.md` with epoch end 25276295, 5 alerts queued, status OK
-- **Committed** log entry: `6c58bfa chore(cron): powerloom-bds success`
+- **Read** `.bds-cache/alerts.json` — 10 whale alerts across epochs 25276385–25276394
+- **Did not dispatch** — per skill design, `scripts/postprocess-bds.sh` handles notification delivery
+- **Logged** run to `memory/logs/2026-06-09.md` with epoch end, alert count, and status
+- **State untouched** — `memory/powerloom-bds-state.json` remains at `lastStreamEpoch: 25276394` as set by prefetch
+
+Alerts include WETH/USDT, USDC/WETH, and WBTC/WETH buys on Uniswap V3, all with on-chain CID verification, ranging from ~$34K to ~$150K. Ready for postprocess dispatch.
