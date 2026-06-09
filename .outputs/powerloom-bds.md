@@ -1,14 +1,9 @@
 ## Summary
 
-**powerloom-bds** run complete.
+**powerloom-bds** skill executed successfully.
 
-- **Epoch end:** 25279566 (epochs 25279557–25279566, 10 processed)
-- **Alerts queued:** 3 (dispatched via `postprocess-bds.sh`)
-- **Status:** OK
-
-The 3 queued whale alerts:
-1. 🟢 BUY USDC/WETH on Uniswap V3 — $33.6K
-2. 🟢 BUY tBTC/WBTC on Uniswap V3 — $218.2K
-3. 🟢 BUY AUSD/USDC on Uniswap V3 — $50.0K
-
-No state files modified (cursor managed by `process-bds-skill.py`). Log appended to `memory/logs/2026-06-09.md`.
+- **Cache read:** `.bds-cache/alerts.json` — alerts array was empty
+- **Epoch range:** 25279672–25279675 (4 epochs processed)
+- **Alerts queued:** 0 — no whale alerts in this batch
+- **Action:** Logged no-alerts entry to `memory/logs/2026-06-09.md`, no dispatch needed
+- **Status:** `POWERLOOM_BDS_OK`
