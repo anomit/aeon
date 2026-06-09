@@ -1,8 +1,6 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Action:** Read `.bds-cache/alerts.json` — found **2 whale alerts** queued at epoch 25276887 (4 epochs processed: 25276884–25276887)
-- **Alerts:** Two large USDC/WETH buys on Uniswap V3 (~$1.75M each), both verified on-chain with CIDs
-- **Log:** Appended run entry to `memory/logs/2026-06-09.md`
-- **Dispatch:** Not handled here — `postprocess-bds.sh` will deliver alerts via notification channels
-- **Status:** OK
+- **Read `.bds-cache/alerts.json`**: Alerts array is empty for epoch range 25276982–25276985 (4 epochs processed)
+- **No dispatch needed**: Per skill instructions, postprocess-bds.sh handles notification delivery — no `./notify` call
+- **Logged run** to `memory/logs/2026-06-09.md`: epoch 25276985, 0 alerts, status OK
+- **Committed** as `4ee187e`
