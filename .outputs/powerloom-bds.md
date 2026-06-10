@@ -1,7 +1,7 @@
 ## Summary
 
-- **Skill executed:** `powerloom-bds` (whale-radar mode)
-- **Alerts cache:** Read `.bds-cache/alerts.json` — 3 alerts queued, epoch range 25285955–25285964
-- **Dispatch:** Skipped per skill spec — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **State:** Left `memory/powerloom-bds-state.json` untouched (managed by prefetch script)
-- **Log:** Appended entry to `memory/logs/2026-06-10.md` with epoch 25285964, 3 alerts queued, status OK
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (USDC/USDT swaps, $55.1K and $1.09M)
+- **Epoch range**: 25286054–25286061 (8 epochs processed)
+- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery
+- **Logged** run to `memory/logs/2026-06-10.md`
+- **Status**: `POWERLOOM_BDS_OK`
