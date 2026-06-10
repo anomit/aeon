@@ -1,6 +1,14 @@
-Done. Two whale alerts queued for dispatch:
+## Summary
 
-1. **WBTC/kBTC** on Uniswap V3 — $52.8K swap
-2. **WETH/USDT** on Uniswap V3 — $1.85M swap
+**powerloom-bds** run completed:
 
-Postprocess will handle delivery. `POWERLOOM_BDS_OK`
+- **Epoch end:** 25285363
+- **Alerts queued:** 3 (dispatched via postprocess-bds.sh)
+- **Status:** OK
+
+Alerts included:
+- WETH/USDT BUY on Uniswap V3 — $1.17M
+- WETH/USDT BUY on Uniswap V3 — $1.17M
+- PAXG/USDC BUY on Uniswap V3 — $37.1K
+
+**Files modified:** `memory/logs/2026-06-10.md` (appended log entry)
