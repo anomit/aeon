@@ -1,8 +1,10 @@
+Skill complete. Log code: `POWERLOOM_BDS_OK`.
+
 ## Summary
 
-**powerloom-bds** run complete:
-
-- **Epoch range:** 25287748–25287757 (9 epochs processed)
-- **Alerts queued:** 4 whale alerts dispatched to postprocess-bds.sh for delivery
-- **State:** unchanged (lastStreamEpoch: 25287757, maintained by process-bds-skill.py)
-- **Log:** appended to `memory/logs/2026-06-10.md`
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts found:
+  - 🐋 BUY AAVE/WETH on Uniswap V3 — $54.8K (block 25287948)
+  - 🐋 BUY WETH/USDT on Uniswap V3 — $51.8K (block 25287957)
+- **Did not dispatch** — `postprocess-bds.sh` owns Telegram/Discord/Slack delivery
+- **Logged** run to `memory/logs/2026-06-10.md` with epoch_end 25287957, 2 alerts queued
+- **Did not modify** `memory/powerloom-bds-state.json` (maintained by `process-bds-skill.py` only)
