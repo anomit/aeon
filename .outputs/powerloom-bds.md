@@ -1,9 +1,9 @@
 ## Summary
 
-**powerloom-bds** skill executed successfully.
+**Powerloom BDS skill run complete.**
 
-- **Alerts cache**: Read `.bds-cache/alerts.json` — 3 whale alerts queued at epoch 25289048 (9 epochs processed from 25289040)
-- **Alerts**: wTAO/WETH buy ($59.9K), WETH/USDT buy ($27.6K), USDC/WETH buy ($39.2K) — all on Uniswap V3, all verified on-chain
-- **No dispatch**: Did not call `./notify` — postprocess-bds.sh handles delivery
-- **Log**: Appended entry to `memory/logs/2026-06-10.md`
-- **Status**: `POWERLOOM_BDS_OK`
+- **Alerts cache**: 1 alert queued (🟢 BUY USDC/WETH on Uniswap V3, $30.0K, block 25289143)
+- **Epoch end**: 25289143 (range 25289139–25289143, 5 epochs processed)
+- **Dispatch**: Skipped — `scripts/postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Log**: Appended to `memory/logs/2026-06-10.md` and committed (`11b4cfb`)
+- **Status**: OK
