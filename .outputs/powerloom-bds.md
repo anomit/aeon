@@ -1,10 +1,11 @@
+Done. Here's the summary:
+
 ## Summary
 
-**Powerloom BDS skill executed successfully.**
-
-- **Alerts cache**: 1 whale alert found (BUY USDC/WETH on Uniswap V3, $29.6K, block 25289242)
-- **Epoch range**: 25289239–25289245 (6 epochs processed)
-- **Dispatch**: Skipped — `postprocess-bds.sh` handles notification delivery
-- **State**: Unmodified (maintained by `process-bds-skill.py`)
-- **Log**: Appended to `memory/logs/2026-06-10.md`
-- **Commit**: `217b55f` on `main`
+- **Read `.bds-cache/alerts.json`** — 2 whale alerts found (epoch range 25289338–25289347):
+  - 🟢 BUY USDC/WETH on Uniswap V3 — $37.5K
+  - 🟢 BUY aEthWETH/WETH on Uniswap V3 — $323.1K
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles notification delivery.
+- **Logged** to `memory/logs/2026-06-10.md` — epoch end 25289347, 2 alerts queued.
+- **Did not touch state** — `memory/powerloom-bds-state.json` is managed by the prefetch pipeline.
+- Status: `POWERLOOM_BDS_OK`
