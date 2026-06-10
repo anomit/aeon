@@ -1,18 +1,7 @@
-Done. Here's the summary:
-
 ## Summary
 
-**Skill:** `powerloom-bds` (whale-radar mode)
-
-**What I did:**
-1. Read `.bds-cache/alerts.json` — found **4 alerts** queued from epoch range 25289439–25289448
-2. Did **not** dispatch (per skill instructions, `postprocess-bds.sh` owns delivery)
-3. Logged the run to `memory/logs/2026-06-10.md`
-
-**Alerts queued for dispatch:**
-- 🟢 BUY USDC/WETH on Uniswap V3 — $40.2K (block 25289445)
-- 🟢 BUY DAI/HOPR on Uniswap V3 — $128.8K (block 25289446)
-- 🟢 BUY DAI/HOPR on Uniswap V3 — $128.8K (block 25289446)
-- 🟢 BUY USDC/USDT on Uniswap V3 — $402.6K (block 25289448)
-
-**Status:** `POWERLOOM_BDS_OK`
+- **Read** `.bds-cache/alerts.json` — 5 whale alerts queued at epoch 25289547 (9 epochs processed from 25289539)
+- **Alerts include**: USDC/WETH buys ($35K, $40.3K, $33.2K), WBTC/USDT buy ($359.2K), and GYEIH/WETH ($162.77M) — all verified on-chain with CID references
+- **Logged** run to `memory/logs/2026-06-10.md` — epoch 25289547, 5 alerts queued for dispatch
+- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery
+- **Committed** log entry: `bcdb200 chore(cron): powerloom-bds success`
