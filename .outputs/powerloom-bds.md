@@ -1,6 +1,5 @@
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — `alerts` array is empty, `epoch_end: 25286558`
-- **No dispatch** — per skill instructions, did not call `./notify` or generate summary posts
-- **Logged** to `memory/logs/2026-06-10.md`: epoch 25286558, 0 alerts, status OK
-- **Status:** `POWERLOOM_BDS_OK` — no alerts this cycle
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued at epoch 25286657 (USDC/USDT swap $28.9K, WETH/USDT swap $43.2K)
+- **No dispatch** — per skill instructions, postprocess-bds.sh handles notification delivery
+- **Logged** run to `memory/logs/2026-06-10.md` with epoch end, alert count, and OK status
