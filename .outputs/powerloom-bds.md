@@ -1,9 +1,10 @@
+Push succeeded.
+
 ## Summary
 
-**powerloom-bds run complete — `POWERLOOM_BDS_OK`**
+**powerloom-bds** run completed — `POWERLOOM_BDS_OK`
 
-- **Alerts queued:** 1 (whale buy: 30,757 USDC → 18.99 WETH on Uniswap V3, block 25286262)
-- **Epoch range:** 25286254–25286263 (10 epochs processed)
-- **Dispatch:** Handled by `postprocess-bds.sh` — no notify called from skill
-- **Logged:** `memory/logs/2026-06-10.md` updated and committed (`89aed1f`)
-- **State:** `memory/powerloom-bds-state.json` untouched (managed by prefetch)
+- **Epoch range:** 25286353–25286357
+- **Alerts:** 0 (no new whale alerts this cycle)
+- **Action:** Logged to `memory/logs/2026-06-10.md`, committed and pushed (`3d491ea`)
+- **State file:** Untouched (maintained by `scripts/process-bds-skill.py` in prefetch)
