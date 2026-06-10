@@ -1,6 +1,9 @@
 ## Summary
 
-- **Read `.bds-cache/alerts.json`**: 1 whale alert queued — BUY USDC/WETH on Uniswap V3, $44.7K, block 25285067, verified on-chain.
-- **No dispatch**: Postprocess (`scripts/postprocess-bds.sh`) handles notification delivery — did not call `./notify`.
-- **Logged**: Appended entry to `memory/logs/2026-06-10.md` with epoch 25285067, 1 alert queued, status OK.
-- **State untouched**: Did not modify `memory/powerloom-bds-state.json`.
+**powerloom-bds skill completed — `POWERLOOM_BDS_OK`**
+
+- **Alerts cache**: 1 whale alert queued (USDC/WETH BUY on Uniswap V3, $35.3K)
+- **Epoch end**: 25285161
+- **Dispatch**: Postprocess-bds.sh will handle notification delivery — no notify calls made here per skill instructions
+- **Log**: Appended to `memory/logs/2026-06-10.md`
+- **Commit**: `07105b3` on main
