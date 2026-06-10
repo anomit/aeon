@@ -1,5 +1,6 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (WBTC/WETH BUY on Uniswap V3, $93.3K, block 25284362, verified on-chain)
-- **Did not dispatch** — postprocess-bds.sh owns notification delivery per skill spec
-- **Logged** to `memory/logs/2026-06-10.md`: epoch 25284366, 1 alert queued, status OK
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts found (FORTH/WETH buys on Uniswap V3, ~$158.8K each, epoch 25284458, verified on-chain)
+- **Logged** run to `memory/logs/2026-06-10.md` — epoch_end 25284463, 2 alerts queued for dispatch via postprocess-bds.sh
+- **Committed** log update to main (`81e6d48`)
+- Did **not** dispatch alerts — postprocess script owns delivery per skill design
