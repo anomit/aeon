@@ -1,13 +1,10 @@
 ## Summary
 
-**powerloom-bds** skill executed successfully.
+**Powerloom BDS skill run — epoch 25290240**
 
-- **Epoch range:** 25290138–25290146 (9 epochs processed)
-- **Alerts queued:** 2 — dispatched via `postprocess-bds.sh` (not by this step)
-  1. 🐳 AUSD/USDC BUY on Uniswap V3 — $726.4K (block 25290140)
-  2. 🐳 USDe/USDC BUY on Uniswap V3 — $69.8K (block 25290145)
-- **State:** `memory/powerloom-bds-state.json` untouched (managed by prefetch script)
-- **Log:** Appended to `memory/logs/2026-06-10.md`
+- **Alerts cache**: `.bds-cache/alerts.json` had an empty `alerts` array — no new whale alerts in this epoch range (25290236–25290240).
+- **No dispatch needed**: Per skill rules, `./notify` was not called — postprocess-bds.sh handles delivery.
+- **Logged**: Appended no-alerts entry to `memory/logs/2026-06-10.md`.
+- **Committed**: `58e8c32` — `chore(cron): powerloom-bds — no alerts (epoch 25290240)`
 
-**Files modified:**
-- `memory/logs/2026-06-10.md` — appended run log entry
+**Exit code**: `POWERLOOM_BDS_OK`
