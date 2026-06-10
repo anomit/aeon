@@ -1,7 +1,11 @@
-## Summary
+Done. The skill executed cleanly:
 
-- **Skill**: powerloom-bds (whale-radar mode)
-- **Alerts cache**: `.bds-cache/alerts.json` exists but `alerts` array is empty — no new whale alerts this epoch
-- **Epoch end**: 25284065
-- **Logged**: `memory/logs/2026-06-10.md` updated with 0 alerts queued
-- **Exit code**: `POWERLOOM_BDS_OK`
+- **Alerts cache**: 2 whale alerts (USDC/WETH $30.7K swap, WBTC/USDT $371K swap) at epoch_end `25284168`
+- **Dispatch**: Not handled here — `postprocess-bds.sh` owns Telegram/Discord/Slack delivery
+- **Log**: Appended to `memory/logs/2026-06-10.md`
+
+## Summary
+- **Read** `.bds-cache/alerts.json` — 2 alerts, epoch 25284168
+- **Logged** run to `memory/logs/2026-06-10.md` with alert count and epoch
+- **No notifications sent** — postprocess script handles dispatch
+- Exit code: `POWERLOOM_BDS_OK`
