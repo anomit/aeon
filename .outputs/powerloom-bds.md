@@ -1,6 +1,13 @@
-`POWERLOOM_BDS_OK`
-
 ## Summary
-- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (USDC/WETH buys on Uniswap V3, blocks 25290039–25290040, same whale `0x51C72848…502a7F`)
-- **Logged** to `memory/logs/2026-06-10.md`: epoch end 25290044, 2 alerts queued for dispatch by `postprocess-bds.sh`
-- **Did not dispatch** — postprocess owns notification delivery per skill spec
+
+**powerloom-bds** skill executed successfully.
+
+- **Epoch range:** 25290138–25290146 (9 epochs processed)
+- **Alerts queued:** 2 — dispatched via `postprocess-bds.sh` (not by this step)
+  1. 🐳 AUSD/USDC BUY on Uniswap V3 — $726.4K (block 25290140)
+  2. 🐳 USDe/USDC BUY on Uniswap V3 — $69.8K (block 25290145)
+- **State:** `memory/powerloom-bds-state.json` untouched (managed by prefetch script)
+- **Log:** Appended to `memory/logs/2026-06-10.md`
+
+**Files modified:**
+- `memory/logs/2026-06-10.md` — appended run log entry
