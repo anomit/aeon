@@ -1,5 +1,9 @@
+Log entry appended. The skill run is complete.
+
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued at epoch 25286657 (USDC/USDT swap $28.9K, WETH/USDT swap $43.2K)
-- **No dispatch** — per skill instructions, postprocess-bds.sh handles notification delivery
-- **Logged** run to `memory/logs/2026-06-10.md` with epoch end, alert count, and OK status
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Alerts cache:** `.bds-cache/alerts.json` — `alerts: []`, epoch range 25286754–25286763
+- **Action taken:** No alerts to dispatch. Logged `powerloom-bds — no alerts` with epoch end 25286763 and alert count 0.
+- **File modified:** `memory/logs/2026-06-10.md` — appended run log entry
+- **Status:** `POWERLOOM_BDS_OK`
