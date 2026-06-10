@@ -1,7 +1,6 @@
 ## Summary
 
 - **Skill:** `powerloom-bds` (whale-radar mode)
-- **Alerts cache:** `.bds-cache/alerts.json` — **missing** (prefetch produced no alerts this cycle)
-- **Action taken:** Logged `powerloom-bds — no alerts` to `memory/logs/2026-06-10.md` per skill instructions
-- **No dispatch:** Did not call `./notify` or write any alert summaries — postprocess owns delivery
-- **Exit code:** `POWERLOOM_BDS_OK` (silent, no alerts to process)
+- **Action:** Read `.bds-cache/alerts.json` — `alerts` array was empty for epoch range 25290436–25290442
+- **Log:** Appended "no alerts" entry to `memory/logs/2026-06-10.md`
+- **Exit code:** `POWERLOOM_BDS_OK` — no alerts to dispatch, postprocess step will be a no-op
