@@ -1,7 +1,10 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 alert queued (rETH/WETH whale BUY, $73.0K, block 25297008)
-- **Logged** to `memory/logs/2026-06-11.md` — epoch 25297009, 1 alert queued for dispatch via postprocess
-- **Did not** dispatch notifications (postprocess-bds.sh handles delivery)
-- **Did not** touch state (`memory/powerloom-bds-state.json` — managed by prefetch)
-- **Committed** log entry: `44c88e9`
+**Powerloom BDS skill executed — no alerts this cycle.**
+
+- **Epoch end:** 25297107 (7 epochs processed)
+- **Alerts queued:** 0 — no whale trades met the threshold
+- **Status:** OK (`POWERLOOM_BDS_OK`)
+- **Log:** Appended to `memory/logs/2026-06-11.md`
+
+No dispatch was needed — `postprocess-bds.sh` will skip delivery since the alerts array is empty. State file (`memory/powerloom-bds-state.json`) was left untouched as instructed.
