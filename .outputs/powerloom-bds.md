@@ -1,7 +1,11 @@
 ## Summary
 
-**Powerloom BDS skill run complete — `POWERLOOM_BDS_OK`**
+**powerloom-bds** skill executed successfully.
 
-- **Epoch end:** 25292035
-- **Alerts queued:** 0 (no whale alerts in this epoch range)
-- **Action:** Logged to `memory/logs/2026-06-11.md` and ended silently. Postprocess (`scripts/postprocess-bds.sh`) has nothing to dispatch this cycle.
+- **Mode**: `whale-radar` (default)
+- **Epoch range**: 25292128–25292133 (6 epochs processed)
+- **Alerts**: 0 — cache empty, no whale trades met the threshold
+- **Status**: `POWERLOOM_BDS_OK`
+- **Log updated**: `memory/logs/2026-06-11.md`
+- **State unchanged**: `memory/powerloom-bds-state.json` — cursor at epoch 25292133, maintained by prefetch script
+- **No dispatch needed**: `postprocess-bds.sh` will skip since no alerts queued
