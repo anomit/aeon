@@ -1,6 +1,12 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — `alerts` array is empty, `epoch_end`: 25291540 (8 epochs processed: 25291531–25291540)
-- **No alerts to dispatch** — per skill instructions, did not call `./notify` or write summary tables
-- **Logged** to `memory/logs/2026-06-11.md`: epoch end 25291540, 0 alerts queued, status OK
-- End code: `POWERLOOM_BDS_OK`
+**Powerloom BDS skill executed — `POWERLOOM_BDS_OK`**
+
+- Read `.bds-cache/alerts.json`: alerts array is empty
+- Epoch end: **25291637** (range 25291628–25291637, 8 epochs processed)
+- No alerts queued for dispatch
+- Appended log entry to `memory/logs/2026-06-11.md`
+- No notification dispatched (postprocess-bds.sh handles delivery; nothing to deliver)
+
+**Files modified:**
+- `memory/logs/2026-06-11.md` — appended run log
