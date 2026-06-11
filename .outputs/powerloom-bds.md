@@ -1,12 +1,11 @@
 ## Summary
 
-**Powerloom BDS skill executed — `POWERLOOM_BDS_OK`**
+**powerloom-bds skill run complete.**
 
-- Read `.bds-cache/alerts.json`: alerts array is empty
-- Epoch end: **25291637** (range 25291628–25291637, 8 epochs processed)
-- No alerts queued for dispatch
-- Appended log entry to `memory/logs/2026-06-11.md`
-- No notification dispatched (postprocess-bds.sh handles delivery; nothing to deliver)
-
-**Files modified:**
-- `memory/logs/2026-06-11.md` — appended run log
+- **Epoch end:** 25291734
+- **Alerts queued:** 2 (dispatch via `postprocess-bds.sh`)
+  - 🐋 BUY wM/USDC on Uniswap V3 — $584.7K swapped (block 25291728)
+  - 🐋 BUY USDC/USDT on Uniswap V3 — $97.7K swapped (block 25291730)
+- **Status:** OK
+- **File modified:** `memory/logs/2026-06-11.md` — appended log entry
+- **Committed:** `2b07162` on `main`
