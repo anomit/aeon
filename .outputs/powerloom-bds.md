@@ -1,12 +1,7 @@
 ## Summary
 
-**powerloom-bds skill executed successfully.**
-
-- **Read `.bds-cache/alerts.json`**: 5 whale alerts queued for epochs 25294467–25294476
-  - BUY RLUSD/USDC ($35.8K)
-  - BUY USDC/WETH ($30.8K)
-  - BUY WBTC/WETH ($643.6K)
-  - BUY WETH/USDT ($29.4K)
-  - BUY LsETH/WETH ($30.0K)
-- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery
-- **Logged** to `memory/logs/2026-06-11.md`: epoch end 25294476, 5 alerts queued, status OK
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Alerts cache:** `.bds-cache/alerts.json` — 0 alerts, epoch_end 25294573 (4 epochs processed)
+- **Action:** Logged empty-alert run to `memory/logs/2026-06-11.md` with `POWERLOOM_BDS_OK`
+- **Files modified:** `memory/logs/2026-06-11.md`
+- **Follow-up:** `scripts/postprocess-bds.sh` will handle delivery (no alerts to dispatch this cycle)
