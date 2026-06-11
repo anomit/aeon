@@ -1,8 +1,7 @@
 ## Summary
 
-**Powerloom BDS skill run (whale-radar)**
-
-- Read `.bds-cache/alerts.json` — epoch range 25290536–25290545, 10 epochs processed, **0 alerts** generated
-- No alerts to dispatch; postprocess step (`scripts/postprocess-bds.sh`) will have nothing to send
-- Logged to `memory/logs/2026-06-11.md` with `POWERLOOM_BDS_OK`
-- No state modifications — `memory/powerloom-bds-state.json` untouched as required
+- **Read `.bds-cache/alerts.json`** — `alerts` array is empty, `epoch_end: 25290616`
+- **No dispatch** — per skill instructions, postprocess-bds.sh handles delivery; LLM does not call `./notify`
+- **Logged** to `memory/logs/2026-06-11.md` with epoch end, alert count (0), and OK status
+- **Committed** as `38a2035`
+- **Exit code:** `POWERLOOM_BDS_OK`
