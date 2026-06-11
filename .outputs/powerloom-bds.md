@@ -1,10 +1,10 @@
 ## Summary
 
-**Powerloom BDS skill executed — no alerts this cycle.**
+**Powerloom BDS skill run complete.**
 
-- **Epoch end:** 25297107 (7 epochs processed)
-- **Alerts queued:** 0 — no whale trades met the threshold
-- **Status:** OK (`POWERLOOM_BDS_OK`)
-- **Log:** Appended to `memory/logs/2026-06-11.md`
-
-No dispatch was needed — `postprocess-bds.sh` will skip delivery since the alerts array is empty. State file (`memory/powerloom-bds-state.json`) was left untouched as instructed.
+- **Alerts cache**: `.bds-cache/alerts.json` contained **2 alerts** (epoch_end: 25297209)
+  - WETH/VVV swap — $578.96M on Uniswap V3
+  - XAUt/USDT swap — $25.2K on Uniswap V3
+- **Dispatch**: Skipped (postprocess-bds.sh handles delivery)
+- **State**: Left untouched (`memory/powerloom-bds-state.json`)
+- **Log**: Appended entry to `memory/logs/2026-06-11.md`
