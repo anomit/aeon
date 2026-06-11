@@ -1,8 +1,6 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 6 whale alerts queued for epoch range 25291330–25291339
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles delivery
-- **Logged** run to `memory/logs/2026-06-11.md` with epoch end 25291339, 6 alerts queued
-- **Committed** log entry to main
-
-Status: `POWERLOOM_BDS_OK`
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued for epoch range 25291429–25291438
+- **Logged** entry to `memory/logs/2026-06-11.md`: epoch end 25291438, 2 alerts queued, status OK
+- **Did not dispatch** — `scripts/postprocess-bds.sh` handles notification delivery
+- **Committed** log update to `main`
