@@ -1,7 +1,10 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Alerts cache:** `.bds-cache/alerts.json` read — `alerts` array is empty, epoch range 25293577–25293586 (10 epochs)
-- **Action:** No alerts to dispatch. Logged run to `memory/logs/2026-06-11.md` with `POWERLOOM_BDS_OK`.
-- **Files modified:** `memory/logs/2026-06-11.md` (appended log entry)
-- **Follow-up:** None needed — postprocess-bds.sh will be a no-op since no alerts are queued.
+**powerloom-bds — whale-radar mode** ran successfully.
+
+- **Epoch end:** 25293674 (6 epochs processed, range 25293668–25293674)
+- **Alerts queued:** 0 — no whale-sized trades detected in this batch
+- **Status:** OK (`POWERLOOM_BDS_OK`)
+- **State:** `lastStreamEpoch` at 25293674, maintained by prefetch (untouched)
+- **Dispatch:** postprocess-bds.sh will handle notification delivery (nothing to send this cycle)
+- **Log:** Appended to `memory/logs/2026-06-11.md`
