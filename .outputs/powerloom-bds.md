@@ -1,11 +1,16 @@
 ## Summary
 
-**Powerloom BDS skill run complete.**
+**Powerloom BDS whale-radar run completed successfully.**
 
-- **Epochs processed:** 25292926–25292934 (9 epochs)
-- **Alerts queued:** 0 — no whale alerts in this window
-- **Status:** OK (`POWERLOOM_BDS_OK`)
-- **State:** Cursor at epoch 25292934, unchanged by this step (managed by `process-bds-skill.py` in prefetch)
-- **Log:** Appended entry to `memory/logs/2026-06-11.md`
+- **Epoch range:** 25293025–25293034 (9 epochs processed)
+- **Alerts queued:** 3 (dispatch via postprocess-bds.sh)
+  - $105.0K USDC → cUSDO on Uniswap V3 (block 25293031)
+  - $52.3K WETH → USDT on Uniswap V3 (block 25293033, two trades)
+- **Status:** OK
 
-No dispatch needed — postprocess will pick up any queued alerts on next cycle.
+**Files modified:**
+- `memory/logs/2026-06-11.md` — appended run log entry
+- `memory/powerloom-bds-state.json` — updated by prefetch (committed)
+- `memory/powerloom-bds-pool-metadata.json` — updated by prefetch (committed)
+
+**No dispatch from this step** — `scripts/postprocess-bds.sh` handles Telegram/Discord/Slack delivery for the 3 queued alerts.
