@@ -1,6 +1,9 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — alerts array is empty, epoch_end 25290741 (9 epochs processed).
-- **No dispatch** needed — per skill rules, postprocess-bds.sh owns delivery.
-- **Logged** silent run to `memory/logs/2026-06-11.md`.
-- Status: `POWERLOOM_BDS_OK` — no alerts this cycle.
+**powerloom-bds (whale-radar)** — ran successfully.
+
+- Read `.bds-cache/alerts.json`: alerts array is empty, epoch_end = 25290833
+- No alerts to dispatch (postprocess-bds.sh will be a no-op)
+- Logged run to `memory/logs/2026-06-11.md`
+- State file `memory/powerloom-bds-state.json` left untouched (as required)
+- Status: **POWERLOOM_BDS_OK**
