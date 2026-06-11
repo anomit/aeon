@@ -1,13 +1,7 @@
 ## Summary
 
-**powerloom-bds (whale-radar)** — run completed.
-
-- **Epoch end:** 25293483 (9 epochs processed, range 25293474–25293483)
-- **Alerts queued:** 4 → dispatched via `postprocess-bds.sh`
-  - 🐋 $330.3K aEthWETH/WETH on Uniswap V3 (block 25293476)
-  - 🐋 $3.49M wM/USDC on Uniswap V3 (block 25293479)
-  - 🐋 $765.5K USDC/WETH on Uniswap V3 (block 25293482)
-  - 🐋 $757.4K USDC/WETH on Uniswap V3 (block 25293482)
-- **Status:** OK
-- **Log:** Appended to `memory/logs/2026-06-11.md` and committed.
-- Notifications handled by postprocess — not dispatched from this step.
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Alerts cache:** `.bds-cache/alerts.json` read — `alerts` array is empty, epoch range 25293577–25293586 (10 epochs)
+- **Action:** No alerts to dispatch. Logged run to `memory/logs/2026-06-11.md` with `POWERLOOM_BDS_OK`.
+- **Files modified:** `memory/logs/2026-06-11.md` (appended log entry)
+- **Follow-up:** None needed — postprocess-bds.sh will be a no-op since no alerts are queued.
