@@ -1,7 +1,7 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Alerts cache:** `.bds-cache/alerts.json` — 0 alerts, epoch_end 25294573 (4 epochs processed)
-- **Action:** Logged empty-alert run to `memory/logs/2026-06-11.md` with `POWERLOOM_BDS_OK`
-- **Files modified:** `memory/logs/2026-06-11.md`
-- **Follow-up:** `scripts/postprocess-bds.sh` will handle delivery (no alerts to dispatch this cycle)
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Epoch range**: 25294672–25294680 (8 epochs processed by prefetch)
+- **Alerts**: 0 — cache was empty, no whale alerts in this window
+- **Action**: Logged `POWERLOOM_BDS_OK — no alerts` to `memory/logs/2026-06-11.md`
+- **No dispatch**: postprocess-bds.sh handles notification delivery; nothing queued this run
