@@ -1,9 +1,7 @@
 ## Summary
 
-**powerloom-bds** skill run complete.
-
-- **Cache read**: `.bds-cache/alerts.json` — `alerts` array is empty, epoch end `25291038`
-- **No alerts**: 0 alerts queued for dispatch via `postprocess-bds.sh`
-- **Log updated**: Appended entry to `memory/logs/2026-06-11.md`
-- **Committed**: `d6e2c3f` on `main`
-- **Status**: `POWERLOOM_BDS_OK`
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Alerts cache**: `.bds-cache/alerts.json` — present, `alerts` array empty
+- **Epoch end**: 25291141 (9 epochs processed: 25291132–25291141)
+- **Action**: Logged run to `memory/logs/2026-06-11.md` with `POWERLOOM_BDS_OK` — no alerts to dispatch
+- **Committed**: `f923cb0` on `main`
