@@ -1,7 +1,6 @@
+`POWERLOOM_BDS_OK` — 5 whale alerts queued for dispatch by `postprocess-bds.sh`.
+
 ## Summary
-
-**powerloom-bds skill executed — POWERLOOM_BDS_OK**
-
-- Read `.bds-cache/alerts.json`: 4 whale alerts queued (WETH/ASTEROID ×2, WBTC/WETH, KIN/WETH), epoch 25292625–25292634
-- Did **not** dispatch — postprocess-bds.sh owns Telegram/Discord/Slack delivery
-- Appended log entry to `memory/logs/2026-06-11.md`
+- **Read** `.bds-cache/alerts.json` — 5 alerts (epoch 25292726–25292732), largest: $7.66M QRL/WETH buy
+- **Did not dispatch** — postprocess owns delivery per skill rules
+- **Logged** to `memory/logs/2026-06-11.md` with alert count and epoch end
