@@ -1,9 +1,8 @@
-Skill complete. Here's what happened:
+## Summary
 
-- **Alerts cache** (`.bds-cache/alerts.json`): 8 whale alerts found across epochs 25295067–25295076
-- **Notable activity**: Several large swaps from `0xBdb3ba9f` ($131.4K WETH→USDT, $64K USDC→WETH, $32.7K WETH→USDT, $32.8K WBTC→WETH) plus a $58.8K WBTC/LBTC swap and $25.4K USDC/WETH swaps
-- **No dispatch**: Per skill instructions, `postprocess-bds.sh` handles delivery via `./notify`
-- **State untouched**: `memory/powerloom-bds-state.json` left as-is (managed by `process-bds-skill.py`)
-- **Logged**: Appended run entry to `memory/logs/2026-06-11.md`
-
-`POWERLOOM_BDS_OK`
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Epoch range**: 25295167–25295176 (10 epochs processed)
+- **Alerts queued**: 0 — no whale alerts in this epoch window
+- **Status**: OK (`POWERLOOM_BDS_OK`)
+- **Action**: Logged to `memory/logs/2026-06-11.md`. No dispatch needed (postprocess-bds.sh handles delivery; empty alerts = nothing to send).
+- **State unchanged**: `memory/powerloom-bds-state.json` left untouched (cursor at epoch 25295176, maintained by prefetch script).
