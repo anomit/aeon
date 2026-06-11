@@ -1,10 +1,6 @@
-Skill execution complete. Here's what happened:
-
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — found **4 whale alerts** queued for dispatch
-- **Alerts**: USDC/WETH buy ($34.1K), WETH/USDT buy ($27.3K), wM/USDC buy ($130.3K), USDC/WETH buy ($35.0K) — all on Uniswap V3, all verified on-chain with CID/epoch
-- **Epoch range**: 25294767–25294774 (8 epochs processed)
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (WETH/CRV $98.5K BUY, WBTC/WETH $35.9K BUY), epoch range 25294869–25294874
 - **Did not dispatch** — postprocess-bds.sh owns Telegram/Discord/Slack delivery
-- **Logged** to `memory/logs/2026-06-11.md`: epoch end 25294774, 4 alerts queued, status OK
-- **State untouched** — `memory/powerloom-bds-state.json` is managed by prefetch/scripts only
+- **Logged** run to `memory/logs/2026-06-11.md` with epoch 25294874, 2 alerts, status OK
+- **Status:** `POWERLOOM_BDS_OK`
