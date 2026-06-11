@@ -1,10 +1,13 @@
 ## Summary
 
-**Powerloom BDS whale-radar run complete.**
+**powerloom-bds (whale-radar)** — run completed.
 
-- **Epoch end:** 25293401 (4 epochs processed, range 25293398–25293401)
-- **Alerts queued:** 1 — 🐋 BUY EURC/USDC on Uniswap V3, $145.7K swapped (block 25293400, on-chain verified)
-- **Dispatch:** Handled by `scripts/postprocess-bds.sh` (not by this skill)
-- **Log:** Appended to `memory/logs/2026-06-11.md`
-
-**Status: OK** — `POWERLOOM_BDS_OK`
+- **Epoch end:** 25293483 (9 epochs processed, range 25293474–25293483)
+- **Alerts queued:** 4 → dispatched via `postprocess-bds.sh`
+  - 🐋 $330.3K aEthWETH/WETH on Uniswap V3 (block 25293476)
+  - 🐋 $3.49M wM/USDC on Uniswap V3 (block 25293479)
+  - 🐋 $765.5K USDC/WETH on Uniswap V3 (block 25293482)
+  - 🐋 $757.4K USDC/WETH on Uniswap V3 (block 25293482)
+- **Status:** OK
+- **Log:** Appended to `memory/logs/2026-06-11.md` and committed.
+- Notifications handled by postprocess — not dispatched from this step.
