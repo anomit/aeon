@@ -1,11 +1,9 @@
 ## Summary
 
-**powerloom-bds skill run complete.**
+**powerloom-bds** run complete.
 
-- **Epoch end:** 25291734
-- **Alerts queued:** 2 (dispatch via `postprocess-bds.sh`)
-  - 🐋 BUY wM/USDC on Uniswap V3 — $584.7K swapped (block 25291728)
-  - 🐋 BUY USDC/USDT on Uniswap V3 — $97.7K swapped (block 25291730)
-- **Status:** OK
-- **File modified:** `memory/logs/2026-06-11.md` — appended log entry
-- **Committed:** `2b07162` on `main`
+- **Epoch end:** 25291834
+- **Alerts queued:** 0 — no whale alerts in this epoch range (25291830–25291834, 5 epochs processed)
+- **Status:** OK (`POWERLOOM_BDS_OK`)
+- **State:** Unmodified — `memory/powerloom-bds-state.json` left as-is (cursor at epoch 25291834)
+- **Log:** Appended entry to `memory/logs/2026-06-11.md`
