@@ -1,7 +1,9 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Epoch end:** 25297310 (6 epochs processed, from 25297304)
-- **Alerts:** 0 — no whale alerts in this window
-- **Action:** Logged `POWERLOOM_BDS_OK — no alerts` to `memory/logs/2026-06-11.md`. No dispatch needed; postprocess will skip.
-- **State:** `memory/powerloom-bds-state.json` untouched (cursor managed by prefetch script).
+**Powerloom BDS run complete.**
+
+- **Alerts cache:** 1 whale alert queued (🟢 BUY SN3/WETH on Uniswap V3, $14.85M swapped, block 25297410)
+- **Epoch end:** 25297413 (epochs 25297404–25297413, 10 processed)
+- **Dispatch:** Skipped — `scripts/postprocess-bds.sh` handles notification delivery
+- **Log:** Appended entry to `memory/logs/2026-06-11.md`
+- **Status:** OK
