@@ -1,9 +1,6 @@
 ## Summary
 
-**Powerloom BDS run complete.**
-
-- **Alerts cache:** 1 whale alert queued (🟢 BUY SN3/WETH on Uniswap V3, $14.85M swapped, block 25297410)
-- **Epoch end:** 25297413 (epochs 25297404–25297413, 10 processed)
-- **Dispatch:** Skipped — `scripts/postprocess-bds.sh` handles notification delivery
-- **Log:** Appended entry to `memory/logs/2026-06-11.md`
-- **Status:** OK
+- **Read** `.bds-cache/alerts.json` — `alerts` array is empty, `epoch_end: 25297509`, 4 epochs processed
+- **Did not dispatch** — per skill rules, postprocess-bds.sh owns notification delivery
+- **Logged** `POWERLOOM_BDS_OK` to `memory/logs/2026-06-11.md` with epoch end 25297509 and 0 alerts queued
+- **No state changes** — `powerloom-bds-state.json` left untouched (maintained by prefetch script)
