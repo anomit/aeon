@@ -1,8 +1,8 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — found **2 whale alerts** at epoch end `25292337`:
-  - 🟢 BUY msUSD/USDC on Uniswap V3 — $30.1K swapped
-  - 🟢 BUY RLUSD/USDC on Uniswap V3 — $405.6K swapped
-- **Did not dispatch** — per skill rules, `postprocess-bds.sh` owns notification delivery
-- **Logged** run to `memory/logs/2026-06-11.md` (2 alerts queued, status OK)
-- **Committed** log update to main
+**powerloom-bds skill run complete.**
+
+- **Alerts cache**: `.bds-cache/alerts.json` contained 3 whale alerts for epoch range 25292428–25292437
+- **Actions taken**: Logged the run to `memory/logs/2026-06-11.md` with epoch end 25292437, 3 alerts queued
+- **No dispatch**: Per skill instructions, did not call `./notify` — `postprocess-bds.sh` handles delivery
+- **Committed**: `c3585d8` — chore(cron): powerloom-bds success
