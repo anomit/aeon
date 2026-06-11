@@ -1,9 +1,18 @@
+Skill execution complete. Here's the summary:
+
 ## Summary
 
-**powerloom-bds** run complete.
+**Skill:** `powerloom-bds` (whale-radar mode)
+**Mode:** Default (`whale-radar`) — non-whale modes skipped as expected.
 
-- **Epoch end:** 25291834
-- **Alerts queued:** 0 — no whale alerts in this epoch range (25291830–25291834, 5 epochs processed)
-- **Status:** OK (`POWERLOOM_BDS_OK`)
-- **State:** Unmodified — `memory/powerloom-bds-state.json` left as-is (cursor at epoch 25291834)
-- **Log:** Appended entry to `memory/logs/2026-06-11.md`
+**What happened:**
+- Read `.bds-cache/alerts.json` — found **2 whale alerts** at epoch end **25291936**:
+  1. 🐳 BUY USDC/WETH on Uniswap V3 — $29.0K (block 25291930)
+  2. 🐳 BUY wstETH/WETH on Uniswap V3 — $31.1K (block 25291931)
+- Did **not** dispatch — `postprocess-bds.sh` owns Telegram/Discord/Slack delivery.
+- Logged run to `memory/logs/2026-06-11.md`.
+
+**Files modified:**
+- `memory/logs/2026-06-11.md` — appended epoch 25291936 entry (2 alerts queued)
+
+**No follow-up actions needed.** Dispatch will happen via the postprocess step.
