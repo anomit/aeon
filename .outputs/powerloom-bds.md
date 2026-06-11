@@ -1,10 +1,7 @@
+Done. `POWERLOOM_BDS_OK` — 7 whale alerts queued for `postprocess-bds.sh` dispatch, epoch end 25293781.
+
 ## Summary
-
-**powerloom-bds — whale-radar mode** ran successfully.
-
-- **Epoch end:** 25293674 (6 epochs processed, range 25293668–25293674)
-- **Alerts queued:** 0 — no whale-sized trades detected in this batch
-- **Status:** OK (`POWERLOOM_BDS_OK`)
-- **State:** `lastStreamEpoch` at 25293674, maintained by prefetch (untouched)
-- **Dispatch:** postprocess-bds.sh will handle notification delivery (nothing to send this cycle)
-- **Log:** Appended to `memory/logs/2026-06-11.md`
+- **Read** `.bds-cache/alerts.json` — 7 alerts across epoch range 25293772–25293781 (WBTC/WETH, WETH/USDT ×2, USDC/USDT ×2, WBTC/USDT, USDC/WETH)
+- **Did not** call `./notify` or write alert tables — postprocess owns delivery
+- **Did not** modify `memory/powerloom-bds-state.json` — managed by `process-bds-skill.py`
+- **Logged** run to `memory/logs/2026-06-11.md` with epoch end 25293781, 7 alerts queued
