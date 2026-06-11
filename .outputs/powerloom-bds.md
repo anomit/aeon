@@ -1,8 +1,6 @@
 ## Summary
 
-- **Skill**: powerloom-bds (whale-radar mode)
-- **Epoch range**: 25295364–25295369 (5 epochs processed by prefetch)
-- **Alerts queued**: 0 — no whale-sized trades detected in this epoch window
-- **Log code**: `POWERLOOM_BDS_OK`
-- **File modified**: `memory/logs/2026-06-11.md` — appended run entry
-- **No dispatch needed** — postprocess-bds.sh will skip since alerts array is empty
+- **Read `.bds-cache/alerts.json`** — 1 whale alert queued (USDC/WETH buy on Uniswap V3, $37.5K, block 25295469, with on-chain CID verification)
+- **Logged** to `memory/logs/2026-06-11.md`: epoch end 25295475, 1 alert queued, status OK
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles notification delivery
+- **Committed** as `c639d1f`
