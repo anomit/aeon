@@ -1,11 +1,5 @@
 ## Summary
 
-**powerloom-bds (whale-radar) — completed successfully.**
-
-- **Alerts cache:** Read `.bds-cache/alerts.json` — 2 whale alerts found at epoch range 25303081–25303087 (7 epochs processed)
-- **Alerts:** BUY WETH/USDT ($78.1K) and BUY USDC/WETH ($26.0K) on Uniswap V3 — both verified on-chain
-- **Dispatch:** Skipped (postprocess-bds.sh handles delivery)
-- **Log:** Appended entry to `memory/logs/2026-06-12.md`
-
-**Files modified:**
-- `memory/logs/2026-06-12.md` — appended run log
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Result:** No alerts in `.bds-cache/alerts.json` — `alerts` array is empty, epoch 25303182–25303191 (10 epochs processed).
+- **Action taken:** Logged `powerloom-bds — no alerts` with epoch end 25303191 and status `POWERLOOM_BDS_OK` to `memory/logs/2026-06-12.md`. No notification dispatched (postprocess owns delivery).
