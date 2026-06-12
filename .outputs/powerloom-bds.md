@@ -1,6 +1,11 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert (USDe/USDC buy, $59K, epoch 25299706)
-- **Logged** the run to `memory/logs/2026-06-12.md` with epoch end 25299706, 1 alert queued
-- **Did not** dispatch notifications — `postprocess-bds.sh` owns delivery per skill instructions
-- Status: `POWERLOOM_BDS_OK`
+**powerloom-bds run complete.**
+
+- **Epoch end:** 25299806 (epochs 25299797–25299806, 10 processed)
+- **Alerts queued:** 3 — dispatched via `postprocess-bds.sh` (not by this skill)
+  - 🐋 BUY NAORIS/USDT — $1.09M on Uniswap V3 (block 25299798) — 2 alerts
+  - 🐋 BUY RLUSD/USDC — $46.7K on Uniswap V3 (block 25299799) — 1 alert
+- **State:** `memory/powerloom-bds-state.json` untouched (maintained by prefetch)
+- **Log:** Appended to `memory/logs/2026-06-12.md`
+- **Status:** OK (`POWERLOOM_BDS_OK`)
