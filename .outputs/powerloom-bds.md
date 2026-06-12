@@ -1,10 +1,10 @@
 ## Summary
 
-- **Skill**: `powerloom-bds` (whale-radar mode)
-- **Alerts**: 2 queued from epoch range 25300193–25300202 (9 epochs processed)
-  - 🟢 BUY USDC/WETH on Uniswap V3 — $25.1K, block 25300195
-  - 🟢 BUY ROBOT/WETH on Uniswap V3 — $1.64M, block 25300198
-- **Dispatch**: Not dispatched here — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **State**: `powerloom-bds-state.json` untouched (managed by prefetch)
-- **Log**: Appended to `memory/logs/2026-06-12.md`
-- **Exit code**: `POWERLOOM_BDS_OK`
+**powerloom-bds run complete.**
+
+- **Epoch end:** 25300302 (epochs 25300293–25300302, 10 processed)
+- **Alerts queued:** 5 — dispatched by `postprocess-bds.sh` (not by this skill)
+- **Status:** OK
+- **Log updated:** `memory/logs/2026-06-12.md`
+
+Alerts include whale buys: AUSD/USDC ($50K), BTCFund/USDT ($101.7K), USDC/WETH ($71.4K), USDC/WETH ($71.5K), USDe/USDC ($28K) — all verified on-chain via Powerloom BDS snapshots.
