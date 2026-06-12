@@ -1,9 +1,9 @@
 ## Summary
 
-**powerloom-bds** run completed for `whale-radar` mode.
+**powerloom-bds run complete** — `POWERLOOM_BDS_OK`
 
-- **Epoch range:** 25298901–25298904 (4 epochs processed)
-- **Alerts queued:** 2 (DEVVE/WETH whale buys on Uniswap V3, ~$445.4K each, block 25298902)
-- **Dispatch:** Postprocess script (`scripts/postprocess-bds.sh`) handles notification delivery — not this step
-- **Log:** Appended to `memory/logs/2026-06-12.md`
-- **Status:** OK
+- **Epoch range**: 25299001–25299010 (10 epochs processed)
+- **Alerts**: 0 — no whale alerts in this epoch range
+- **Log**: Appended entry to `memory/logs/2026-06-12.md`
+- **State**: `lastStreamEpoch` remains at 25299010 (managed by prefetch script, not rewritten)
+- **No dispatch needed** — postprocess-bds.sh skipped since alert queue is empty
