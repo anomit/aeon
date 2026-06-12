@@ -1,9 +1,6 @@
 ## Summary
 
-**powerloom-bds** — whale-radar mode completed successfully.
-
-- **Epoch end:** 25299608
-- **Alerts queued:** 1 (BTCFund/USDT BUY on Uniswap V3, $100.4K swapped, block 25299607 — verified on-chain)
-- **Dispatch:** Handled by `postprocess-bds.sh` (not by this skill)
-- **Log:** Appended to `memory/logs/2026-06-12.md`
-- **Status:** OK — `POWERLOOM_BDS_OK`
+- **Read** `.bds-cache/alerts.json` — 1 whale alert (USDe/USDC buy, $59K, epoch 25299706)
+- **Logged** the run to `memory/logs/2026-06-12.md` with epoch end 25299706, 1 alert queued
+- **Did not** dispatch notifications — `postprocess-bds.sh` owns delivery per skill instructions
+- Status: `POWERLOOM_BDS_OK`
