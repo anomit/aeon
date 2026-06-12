@@ -1,8 +1,9 @@
 ## Summary
 
-**Powerloom BDS skill run — epoch 25304386**
+**powerloom-bds** skill completed successfully.
 
-- Read `.bds-cache/alerts.json`: alerts array was empty, 10 epochs processed (25304377–25304386)
-- No alerts to dispatch — postprocess-bds.sh will skip
-- Logged `POWERLOOM_BDS_OK` to `memory/logs/2026-06-12.md`
-- Committed: `aa1cff5` — `chore(cron): powerloom-bds — no alerts (epoch 25304386)`
+- **Epoch end:** 25304485 (8 epochs processed, range 25304476–25304485)
+- **Alerts queued:** 1 — a WETH/LTC whale swap on Uniswap V3 (~$536.99M), with on-chain CID verification. Dispatch handled by `postprocess-bds.sh` (not this step).
+- **Log:** Appended to `memory/logs/2026-06-12.md`
+- **Commit:** `a25a6e0` — `chore(cron): powerloom-bds success`
+- **Status:** POWERLOOM_BDS_OK
