@@ -1,7 +1,8 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 3 whale alerts queued at epoch end 25303384 (6 epochs processed)
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` owns Telegram/Discord/Slack delivery
-- **Logged** run to `memory/logs/2026-06-12.md` with epoch, alert count, and OK status
-
-`POWERLOOM_BDS_OK`
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Epoch range:** 25303480–25303483 (4 epochs processed)
+- **Alerts:** 0 — no whale alerts in this window
+- **Action:** Logged `POWERLOOM_BDS_OK` to `memory/logs/2026-06-12.md`
+- **Dispatch:** Skipped (no alerts to postprocess)
+- **State file:** Untouched (`memory/powerloom-bds-state.json` managed by prefetch)
