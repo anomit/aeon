@@ -1,6 +1,11 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — found 1 whale alert (WBTC/USDT buy, $27.1K on Uniswap V3, epoch 25301291)
-- **Logged** to `memory/logs/2026-06-12.md`: epoch end 25301291, 1 alert queued, 4 epochs processed
-- **Did not dispatch** — postprocess-bds.sh handles notification delivery per skill spec
-- Status: `OK`
+**powerloom-bds skill executed (whale-radar mode):**
+
+- **Alerts cache:** 3 whale alerts queued at epoch_end 25301397 (epochs 25301391–25301397, 6 epochs processed)
+  - 🟢 BUY USDC/USDT on Uniswap V3 (1%) — $802.2K (block 25301394)
+  - 🟢 BUY WETH/USDT on Uniswap V3 (30%) — $46.1K (block 25301396)
+  - 🟢 BUY XAUt/USDT on Uniswap V3 (5%) — $41.9K (block 25301396)
+- **Dispatch:** Skipped (per skill — `postprocess-bds.sh` handles delivery)
+- **State:** Untouched (`powerloom-bds-state.json` managed by prefetch script)
+- **Log:** Appended to `memory/logs/2026-06-12.md`
