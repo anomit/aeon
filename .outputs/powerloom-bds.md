@@ -1,9 +1,7 @@
 ## Summary
 
-**powerloom-bds (whale-radar)** — run complete.
-
-- **Cache:** `.bds-cache/alerts.json` — 2 whale alerts queued (WETH/ASTEROID buys on Uniswap V3, ~$56.1K each, block 25301496)
-- **Epoch range:** 25301489–25301498 (10 epochs processed)
-- **Dispatch:** Skipped in-skill — `scripts/postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **Log:** Appended to `memory/logs/2026-06-12.md`
-- **Status:** OK
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Alerts cache:** `.bds-cache/alerts.json` — 1 alert found (🟢 BUY USDC/USDA on Uniswap V3, $99.94M swapped, epoch 25301599)
+- **Action taken:** Logged run to `memory/logs/2026-06-12.md` with epoch end 25301599 and alert count 1
+- **Dispatch:** Not handled here — `scripts/postprocess-bds.sh` owns notification delivery
+- **Status:** OK (`POWERLOOM_BDS_OK`)
