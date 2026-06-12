@@ -1,8 +1,8 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Epoch range:** 25303480–25303483 (4 epochs processed)
-- **Alerts:** 0 — no whale alerts in this window
-- **Action:** Logged `POWERLOOM_BDS_OK` to `memory/logs/2026-06-12.md`
-- **Dispatch:** Skipped (no alerts to postprocess)
-- **State file:** Untouched (`memory/powerloom-bds-state.json` managed by prefetch)
+**powerloom-bds** run completed successfully.
+
+- **Epoch end:** 25303589 (8 epochs processed, range 25303580–25303589)
+- **Alerts queued:** 3 — dispatched via `postprocess-bds.sh` (not by the skill)
+- **State file:** untouched (maintained by `process-bds-skill.py`)
+- **Log:** appended to `memory/logs/2026-06-12.md`, committed
