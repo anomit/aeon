@@ -1,7 +1,11 @@
 ## Summary
 
-- **Skill:** `powerloom-bds` (whale-radar mode)
-- **Alerts cache:** `.bds-cache/alerts.json` — `alerts: []`, epoch range 25299996–25300005 (8 epochs processed)
-- **Action:** No alerts to dispatch. Logged `POWERLOOM_BDS_OK` to `memory/logs/2026-06-12.md`
-- **State:** `memory/powerloom-bds-state.json` untouched (maintained by prefetch)
-- **Postprocess:** `postprocess-bds.sh` will find no alerts to send — nothing further needed
+**powerloom-bds skill run complete.**
+
+- **Read alerts cache** (`.bds-cache/alerts.json`): 5 whale alerts queued across epochs 25300097–25300106
+  - 2× NAORIS/USDT buys on Uniswap V3 ($345K each)
+  - 2× WETH/USDT buys on Uniswap V3 ($49K, $91K)
+  - 1× USDC/WETH swap on Uniswap V3 ($30K)
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles notification delivery
+- **Logged run** to `memory/logs/2026-06-12.md` with epoch end 25300106, 5 alerts queued, status OK
+- **State untouched** — `memory/powerloom-bds-state.json` maintained by prefetch process only
