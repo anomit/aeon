@@ -1,14 +1,14 @@
-Done.
-
 ## Summary
 
-**Skill:** `powerloom-bds` (whale-radar mode)
+**powerloom-bds (whale-radar)** — run complete.
 
-**Actions:**
-1. Read `.bds-cache/alerts.json` — 2 alerts queued from epochs 25301885–25301889:
-   - 🐋 BUY RLUSD/USDC on Uniswap V3 — $287.8K (block 25301888)
-   - 🐋 BUY USDe/USDC on Uniswap V3 — $49.7K (block 25301888)
-2. Did **not** dispatch (postprocess-bds.sh handles Telegram/Discord/Slack delivery).
-3. Logged run to `memory/logs/2026-06-12.md` — epoch end 25301889, 2 alerts queued, status OK.
-
-**Status:** `POWERLOOM_BDS_OK`
+- **Epoch range:** 25301985–25301994 (10 epochs processed)
+- **Alerts queued:** 6 — dispatched via `postprocess-bds.sh` (not by this skill)
+  - 🟢 BUY AUSD/USDC — $95.5K on Uniswap V3
+  - 🟢 BUY USDC/USDT — $102.2K on Uniswap V3
+  - 🟢 BUY DAI/USDT — $32.8K on Uniswap V3
+  - 🟢 BUY USDC/USDT — $105.0K on Uniswap V3
+  - 🟢 BUY XAUt/USDT — $50.0K on Uniswap V3 (5%)
+  - 🟢 BUY XAUt/USDT — $43.6K on Uniswap V3 (5%)
+- **State:** untouched (maintained by `process-bds-skill.py`)
+- **Log:** appended to `memory/logs/2026-06-12.md`
