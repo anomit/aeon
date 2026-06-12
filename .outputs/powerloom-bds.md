@@ -1,10 +1,7 @@
 ## Summary
 
-**powerloom-bds** skill completed — `POWERLOOM_BDS_OK`
-
-- **Epoch end:** 25297606 (4 epochs processed: 25297602–25297606)
-- **Alerts queued:** 0 — no whale trades met the threshold this cycle
-- **Dispatch:** None needed (postprocess-bds.sh will skip with empty alerts)
-- **State:** `memory/powerloom-bds-state.json` preserved as-is (cursor at 25297606)
-- **Log:** Appended entry to `memory/logs/2026-06-11.md`
-- **Commit:** `dfc447e` on main
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Read `.bds-cache/alerts.json`**: alerts array is empty — no new whale alerts in epoch range 25297703–25297711
+- **Did not dispatch**: per skill rules, postprocess owns notification delivery
+- **Logged**: `memory/logs/2026-06-12.md` — no alerts, epoch end 25297711, status `POWERLOOM_BDS_OK`
+- **State untouched**: `memory/powerloom-bds-state.json` left as-is (managed by `process-bds-skill.py`)
