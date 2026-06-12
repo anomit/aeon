@@ -1,9 +1,12 @@
 ## Summary
 
-Executed **powerloom-bds** skill (whale-radar mode):
-
-- **Read alerts cache** (`.bds-cache/alerts.json`): 1 alert queued — a 🐳 BUY WETH/ZAMA on Uniswap V3 for $104.51M (5.51B ZAMA), verified on-chain at block 25304579.
-- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery.
-- **Logged** to `memory/logs/2026-06-12.md`: Epoch end 25304579, 4 epochs processed, 1 alert queued.
-
-No state was rewritten. The alert is ready for postprocess to dispatch.
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Action**: Read `.bds-cache/alerts.json` — found **3 alerts** queued for dispatch:
+  1. 🟢 BUY USDC/USDT on Uniswap V3 — $1.25M swapped (block 25304679)
+  2. 🟢 BUY USDC/USDT on Uniswap V3 — $1.25M swapped (block 25304679)
+  3. 🟢 BUY WETH/CREPE on Uniswap V3 — $4.96M swapped (block 25304681)
+- **Epoch**: 25304677→25304686 (10 epochs processed)
+- **Dispatch**: Not done here — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **State**: Left untouched (`lastStreamEpoch: 25304686`)
+- **Log**: Appended entry to `memory/logs/2026-06-12.md`
+- **Status**: `POWERLOOM_BDS_OK`
