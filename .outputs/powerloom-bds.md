@@ -1,8 +1,7 @@
 ## Summary
 
-**powerloom-bds run complete — POWERLOOM_BDS_OK**
-
-- **Alerts cache**: `.bds-cache/alerts.json` — 2 whale alerts (AUSD/USDC $50K swap, USDC/USDT $40.1K swap)
-- **Epoch range**: 25302482 → 25302491 (10 epochs processed)
-- **Dispatch**: Skipped (postprocess-bds.sh handles delivery)
-- **Log**: Appended to `memory/logs/2026-06-12.md`
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Alerts cache**: `.bds-cache/alerts.json` — `alerts` array is empty, `epoch_end: 25302593`, `epochs_processed: 9`
+- **Action**: Logged `powerloom-bds — no alerts` with epoch end 25302593 to `memory/logs/2026-06-12.md`
+- **Status**: `POWERLOOM_BDS_OK` — no alerts to dispatch, postprocess not needed
+- **Commit**: `b419abf` — `chore(cron): powerloom-bds success`
