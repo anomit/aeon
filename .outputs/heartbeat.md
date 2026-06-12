@@ -1,18 +1,20 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+All checks pass. No notification needed.
 
 ## Summary
 
-**Health Check Results:**
+**HEARTBEAT_OK · STATUS_PAGE=OK**
 
-| Priority | Status | Details |
-|----------|--------|---------|
-| P0 | ✅ Clear | No failed/stuck skills. powerloom-bds: 100% success (559 runs), heartbeat: 100% success (25 runs) |
-| P1 | ✅ Clear | No open PRs, no urgent issues |
-| P2 | ✅ Clear | No flagged memory items |
-| P3 | ✅ Clear | All enabled skills have state entries |
+### Checks performed:
+- **P0 (Failed/Stuck Skills)**: ✅ None
+  - powerloom-bds: 100% success (577/577 runs), last success ~5m ago
+  - heartbeat: 100% success (26/26 runs), last success ~6h ago
+- **P1 (Stalled PRs/Issues)**: ✅ None
+  - No open PRs
+  - Issues disabled in this repo
+- **P2 (Flagged Memory)**: ✅ None
+- **P3 (Missing Skills)**: ✅ None
+  - All enabled skills have state entries
 
-**Files updated:**
-- `docs/status.md` — Regenerated with current fleet health (🟢 OK)
-- `memory/logs/2026-06-12.md` — Logged heartbeat run
-
-**Next scheduled run:** powerloom-bds at 08:05 UTC (every 5 minutes)
+### Files updated:
+- `docs/status.md` — regenerated with latest skill health
+- `memory/logs/2026-06-12.md` — appended heartbeat run log
