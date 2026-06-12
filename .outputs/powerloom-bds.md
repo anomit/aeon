@@ -1,9 +1,9 @@
 ## Summary
 
-**powerloom-bds** skill completed successfully.
+Executed **powerloom-bds** skill (whale-radar mode):
 
-- **Epoch end:** 25304485 (8 epochs processed, range 25304476–25304485)
-- **Alerts queued:** 1 — a WETH/LTC whale swap on Uniswap V3 (~$536.99M), with on-chain CID verification. Dispatch handled by `postprocess-bds.sh` (not this step).
-- **Log:** Appended to `memory/logs/2026-06-12.md`
-- **Commit:** `a25a6e0` — `chore(cron): powerloom-bds success`
-- **Status:** POWERLOOM_BDS_OK
+- **Read alerts cache** (`.bds-cache/alerts.json`): 1 alert queued — a 🐳 BUY WETH/ZAMA on Uniswap V3 for $104.51M (5.51B ZAMA), verified on-chain at block 25304579.
+- **Did not dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery.
+- **Logged** to `memory/logs/2026-06-12.md`: Epoch end 25304579, 4 epochs processed, 1 alert queued.
+
+No state was rewritten. The alert is ready for postprocess to dispatch.
