@@ -1,6 +1,13 @@
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — `alerts` array is empty, `epoch_end: 25298306`
-- **Logged** no-alerts entry to `memory/logs/2026-06-12.md` with status `POWERLOOM_BDS_OK`
-- **No dispatch needed** — postprocess-bds.sh only fires when alerts are queued
-- State file (`memory/powerloom-bds-state.json`) left untouched as instructed
+**powerloom-bds** skill run complete.
+
+- **Alerts cache**: 4 whale alerts queued (epochs 25298401–25298410)
+- **Trades detected**:
+  - USDC/USDT buy — $76.1K on Uniswap V3
+  - XAUt/USDT buy — $31.0K on Uniswap V3
+  - USDC/USDT buy — $50.0K on Uniswap V3
+  - AUSD/USDC buy — $200.0K on Uniswap V3
+- **Dispatch**: Not dispatched here — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Log**: Appended to `memory/logs/2026-06-12.md`
+- **Status**: OK
