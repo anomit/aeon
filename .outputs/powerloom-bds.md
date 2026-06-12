@@ -1,6 +1,10 @@
 ## Summary
 
-- **Read `.bds-cache/alerts.json`**: 4 whale alerts queued for epochs 25300692–25300701
-- **Did not dispatch** (postprocess-bds.sh owns Telegram/Discord/Slack delivery)
-- **Logged** run to `memory/logs/2026-06-12.md` — epoch end 25300701, 4 alerts queued, status OK
-- **State file untouched** — `memory/powerloom-bds-state.json` managed by `scripts/process-bds-skill.py`
+**powerloom-bds run complete.**
+
+- **Cache read:** `.bds-cache/alerts.json` — 2 whale alerts at epoch 25300801
+  - 🟢 BUY USDC/WETH on Uniswap V3 — $36.5K (block 25300798)
+  - 🟢 BUY B3/WETH on Uniswap V3 — $185.77M (block 25300801)
+- **Dispatch:** Skipped (postprocess-bds.sh handles Telegram/Discord/Slack delivery)
+- **State:** No mutations — `powerloom-bds-state.json` untouched (cursor at epoch 25300801)
+- **Log:** Appended to `memory/logs/2026-06-12.md`
