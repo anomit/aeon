@@ -1,7 +1,7 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — `alerts: []`, epoch end 25300397, 5 epochs processed
-- **No alerts** this cycle — logged `powerloom-bds — no alerts` to `memory/logs/2026-06-12.md`
-- **Did not dispatch** — per skill instructions, postprocess-bds.sh owns notification delivery
-- **Did not modify** `memory/powerloom-bds-state.json` — maintained exclusively by `scripts/process-bds-skill.py`
-- Status: `POWERLOOM_BDS_OK`
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Alerts cache**: `.bds-cache/alerts.json` — `alerts` array is empty, epoch_end `25300496`, 4 epochs processed
+- **Action**: Logged `powerloom-bds — no alerts` with epoch end 25300496 to `memory/logs/2026-06-12.md`
+- **Status**: `POWERLOOM_BDS_OK` — no alerts to dispatch, postprocess not needed
+- **Files modified**: `memory/logs/2026-06-12.md`
