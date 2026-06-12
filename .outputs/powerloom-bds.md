@@ -1,10 +1,7 @@
 ## Summary
 
-**powerloom-bds run complete.**
-
-- **Epoch end:** 25300302 (epochs 25300293–25300302, 10 processed)
-- **Alerts queued:** 5 — dispatched by `postprocess-bds.sh` (not by this skill)
-- **Status:** OK
-- **Log updated:** `memory/logs/2026-06-12.md`
-
-Alerts include whale buys: AUSD/USDC ($50K), BTCFund/USDT ($101.7K), USDC/WETH ($71.4K), USDC/WETH ($71.5K), USDe/USDC ($28K) — all verified on-chain via Powerloom BDS snapshots.
+- **Read** `.bds-cache/alerts.json` — `alerts: []`, epoch end 25300397, 5 epochs processed
+- **No alerts** this cycle — logged `powerloom-bds — no alerts` to `memory/logs/2026-06-12.md`
+- **Did not dispatch** — per skill instructions, postprocess-bds.sh owns notification delivery
+- **Did not modify** `memory/powerloom-bds-state.json` — maintained exclusively by `scripts/process-bds-skill.py`
+- Status: `POWERLOOM_BDS_OK`
