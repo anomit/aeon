@@ -1,7 +1,7 @@
-Skill complete. `POWERLOOM_BDS_OK`
-
 ## Summary
-- **Read `.bds-cache/alerts.json`**: `alerts` array is empty, `epoch_end: 25299201`, 3 epochs processed
-- **No dispatch**: Per skill instructions, no `./notify` call — postprocess-bds.sh owns delivery
-- **Logged**: Appended `powerloom-bds — no alerts` entry to `memory/logs/2026-06-12.md` with epoch end 25299201
-- **Status**: `POWERLOOM_BDS_OK`
+
+- **Read `.bds-cache/alerts.json`** — 2 whale alerts found in epochs 25299299–25299306:
+  - 🐳 **PAXG/XAUt** — $41.7K BUY on Uniswap V3 (block 25299300)
+  - 🐳 **USDe/USDC** — $100.0K BUY on Uniswap V3 (block 25299303)
+- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles Telegram/Discord/Slack delivery.
+- **Logged** run to `memory/logs/2026-06-12.md` with epoch end 25299306, 2 alerts queued, status OK.
