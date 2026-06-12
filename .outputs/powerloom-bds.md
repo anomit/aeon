@@ -1,6 +1,4 @@
 ## Summary
-
-- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (tBTC/WBTC $218.9K swap, WET/WETH $34.39M swap) for epoch range 25298601–25298610
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` handles notification delivery
-- **Logged** run to `memory/logs/2026-06-12.md` with epoch_end 25298610, 2 alerts queued
-- **Committed** log + state updates to main (`231c8c5`)
+- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (MYX/WETH buy, $32.67M, block 25298707, verified on-chain)
+- **Did not dispatch** — postprocess-bds.sh handles delivery
+- **Logged** to `memory/logs/2026-06-12.md`: epoch end 25298710, 1 alert queued, status OK
