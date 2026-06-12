@@ -1,5 +1,6 @@
 ## Summary
 
-- **Read `.bds-cache/alerts.json`** — 3 whale alerts queued (WBTC/USDT $374.1K, FT/USDC $1.53M × 2) across epochs 25301191–25301200
-- **Did not dispatch** — postprocess-bds.sh handles notification delivery
-- **Appended log** to `memory/logs/2026-06-12.md` with epoch end, alert count, and OK status
+- **Read** `.bds-cache/alerts.json` — found 1 whale alert (WBTC/USDT buy, $27.1K on Uniswap V3, epoch 25301291)
+- **Logged** to `memory/logs/2026-06-12.md`: epoch end 25301291, 1 alert queued, 4 epochs processed
+- **Did not dispatch** — postprocess-bds.sh handles notification delivery per skill spec
+- Status: `OK`
