@@ -1,9 +1,6 @@
 ## Summary
 
-**powerloom-bds run complete** — `POWERLOOM_BDS_OK`
-
-- **Epoch range**: 25299001–25299010 (10 epochs processed)
-- **Alerts**: 0 — no whale alerts in this epoch range
-- **Log**: Appended entry to `memory/logs/2026-06-12.md`
-- **State**: `lastStreamEpoch` remains at 25299010 (managed by prefetch script, not rewritten)
-- **No dispatch needed** — postprocess-bds.sh skipped since alert queue is empty
+- **Read `.bds-cache/alerts.json`**: `alerts` array is empty, `epoch_end: 25299101`, 5 epochs processed (25299097–25299101).
+- **No dispatch needed**: Per skill instructions, postprocess-bds.sh handles delivery — no `./notify` call.
+- **Logged**: Appended `POWERLOOM_BDS_OK` entry to `memory/logs/2026-06-12.md`.
+- **Committed**: `948ba40` — `chore(cron): powerloom-bds — no alerts (epoch 25299101)`.
