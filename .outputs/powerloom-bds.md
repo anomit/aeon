@@ -1,8 +1,10 @@
 ## Summary
 
-**Powerloom BDS skill executed** — no alerts this cycle.
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Alerts cache**: `.bds-cache/alerts.json` — 1 whale alert (XAUt/USDT BUY, $25.4K on Uniswap V3, block 25301098)
+- **Epoch range**: 25301092–25301099 (8 epochs processed)
+- **No dispatch** — `postprocess-bds.sh` handles notification delivery
+- **State untouched** — `memory/powerloom-bds-state.json` cursor at 25301099
+- **Logged** to `memory/logs/2026-06-12.md`
 
-- **Epoch range:** 25300991–25300995 (4 epochs processed)
-- **Alerts:** 0 (empty cache)
-- **Action:** Logged no-alerts entry to `memory/logs/2026-06-12.md` with status `POWERLOOM_BDS_OK`
-- **State:** `memory/powerloom-bds-state.json` left untouched (cursor at epoch 25300995)
+`POWERLOOM_BDS_OK`
