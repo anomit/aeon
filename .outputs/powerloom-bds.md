@@ -1,4 +1,6 @@
 ## Summary
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (MYX/WETH buy, $32.67M, block 25298707, verified on-chain)
-- **Did not dispatch** — postprocess-bds.sh handles delivery
-- **Logged** to `memory/logs/2026-06-12.md`: epoch end 25298710, 1 alert queued, status OK
+
+- **Skill**: `powerloom-bds` (whale-radar mode)
+- **Epoch range**: 25298799–25298808 (10 epochs processed by prefetch)
+- **Alerts**: 0 — no whale-sized trades detected in this batch
+- **Action**: Logged `POWERLOOM_BDS_OK` to `memory/logs/2026-06-12.md` and exited silently. No notify/dispatch needed (postprocess handles delivery when alerts exist).
