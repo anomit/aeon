@@ -1,15 +1,14 @@
-Done. The powerloom-bds skill ran in `whale-radar` mode (default).
+Done.
 
 ## Summary
 
-**What I did:**
-- Read `.bds-cache/alerts.json` — found **2 verified whale alerts** (epoch_end `25301797`, 10 epochs processed)
-  - 🐋 BUY USDC/WETH on Uniswap V3 — $43.0K
-  - 🐋 BUY USDe/USDC on Uniswap V3 — $145.6K
-- Per the skill contract, I did **not** dispatch — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery.
-- Appended the run log to `memory/logs/2026-06-12.md`.
+**Skill:** `powerloom-bds` (whale-radar mode)
 
-**File modified:**
-- `memory/logs/2026-06-12.md` — added powerloom-bds entry (Epoch end 25301797, 2 alerts queued, Status OK)
+**Actions:**
+1. Read `.bds-cache/alerts.json` — 2 alerts queued from epochs 25301885–25301889:
+   - 🐋 BUY RLUSD/USDC on Uniswap V3 — $287.8K (block 25301888)
+   - 🐋 BUY USDe/USDC on Uniswap V3 — $49.7K (block 25301888)
+2. Did **not** dispatch (postprocess-bds.sh handles Telegram/Discord/Slack delivery).
+3. Logged run to `memory/logs/2026-06-12.md` — epoch end 25301889, 2 alerts queued, status OK.
 
-**Follow-up:** `postprocess-bds.sh` will dispatch the 2 alerts to configured channels automatically. Status: `POWERLOOM_BDS_OK`.
+**Status:** `POWERLOOM_BDS_OK`
