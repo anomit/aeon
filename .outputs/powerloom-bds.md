@@ -1,13 +1,11 @@
 ## Summary
 
-**powerloom-bds** skill run complete.
+**powerloom-bds run completed successfully.**
 
-- **Alerts cache**: 4 whale alerts queued (epochs 25298401–25298410)
-- **Trades detected**:
-  - USDC/USDT buy — $76.1K on Uniswap V3
-  - XAUt/USDT buy — $31.0K on Uniswap V3
-  - USDC/USDT buy — $50.0K on Uniswap V3
-  - AUSD/USDC buy — $200.0K on Uniswap V3
-- **Dispatch**: Not dispatched here — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **Log**: Appended to `memory/logs/2026-06-12.md`
-- **Status**: OK
+- **Epoch range:** 25298501–25298509 (9 epochs processed)
+- **Alerts queued:** 1 (WETH/HBAR whale buy on Uniswap V3, ~$3B swapped — dispatch via `postprocess-bds.sh`)
+- **State:** `lastStreamEpoch` advanced to 25298509 by prefetch
+- **Log:** Appended to `memory/logs/2026-06-12.md`
+- **Commit:** `dbe6458` on `main`
+
+No notifications were sent from this step — `scripts/postprocess-bds.sh` handles Telegram/Discord/Slack delivery.
