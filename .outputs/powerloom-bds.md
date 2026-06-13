@@ -1,12 +1,13 @@
-Done. The skill ran in `whale-radar` mode (default). Per the spec, dispatch is owned by `scripts/postprocess-bds.sh` — I did not call `./notify` or rewrite cursor state, only logged.
+Done. The `powerloom-bds` skill ran in `whale-radar` mode (default).
+
+**What happened:** Prefetch advanced the epoch cursor to `25308670` and wrote `.bds-cache/alerts.json`, but `alerts` was empty (`[]`) — no qualifying whale trades this cycle. Per the skill's empty-alerts path, I logged the run and ended silently with code `POWERLOOM_BDS_OK`. No notification was dispatched (postprocess owns delivery).
+
+**Modified:**
+- `memory/logs/2026-06-13.md` — appended epoch `25308670` entry (0 alerts, OK)
+
+**Follow-up:** None. State file and cursor are untouched (maintained by `scripts/process-bds-skill.py`). Exit code: `POWERLOOM_BDS_OK`.
 
 ## Summary
-
-- **Mode:** `whale-radar` (default)
-- **Cache read:** `.bds-cache/alerts.json` — 2 alerts queued, epoch end `25308571` (10 epochs processed)
-- **Alerts:** 2 whale BUY WBTC/WETH on Uniswap V3 (≈$29.4K and $28.6K), both with on-chain CID verification
-- **Dispatch:** Not performed here — postprocess-bds.sh owns Telegram/Discord/Slack delivery
-- **Log:** Appended entry to `memory/logs/2026-06-13.md` (Status: OK)
-- **State:** Untouched (cursor maintained by `process-bds-skill.py`)
-
-Exit code: `POWERLOOM_BDS_OK`
+- Read `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25308670`
+- Appended a `POWERLOOM_BDS_OK` log entry for today; ended silently without dispatching
+- No files created, no state mutated, no PR needed (memory/log append only)
