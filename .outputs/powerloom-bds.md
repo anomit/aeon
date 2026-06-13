@@ -1,16 +1,12 @@
-Done. The Powerloom BDS skill ran in its default `whale-radar` mode (the only mode with deterministic prefetch).
+Done. The `powerloom-bds` skill run completed on the `whale-radar` mode (default).
+
+- `.bds-cache/alerts.json` exists with `alerts: []` and epoch end `25309665` → no alerts this cycle.
+- Appended the no-alerts entry to `memory/logs/2026-06-13.md` (epoch 25309665, 0 queued).
+- No dispatch performed (postprocess owns Telegram/Discord/Slack delivery), no state rewritten.
+
+Log code: `POWERLOOM_BDS_OK` — ending silently.
 
 ## Summary
-
-**Read** `.bds-cache/alerts.json` — 1 whale alert queued for dispatch:
-- 🐋 BUY wTAO/WETH on Uniswap V3, $30.6K swapped (78.333 wTAO ⇄ 5.9778 WETH), block 25309556, verified on-chain (CID `bafkreib4omexlej2dlb3rlmn2ks…`)
-- Epoch end: 25309564 (10 epochs processed, 25309555–25309564)
-
-**Did not dispatch** — per the skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery after this step. No notify call, no markdown table.
-
-**Logged** the run to `memory/logs/2026-06-13.md` — Status: OK.
-
-**Files modified:**
-- `memory/logs/2026-06-13.md` (appended run entry)
-
-**Follow-up:** postprocess-bds.sh will fan out the queued alert to configured channels. Log code: `POWERLOOM_BDS_OK`.
+- **What I did:** Executed `powerloom-bds` skill in `whale-radar` mode. Confirmed the prefetch/processing pipeline advanced the cursor to epoch end `25309665`. Alerts cache held no whale alerts this cycle, so I logged the no-alerts result and ended without dispatching (per skill design — `postprocess-bds.sh` handles delivery).
+- **Files modified:** `memory/logs/2026-06-13.md` (appended one entry).
+- **Follow-up:** None — postprocess step will run after this and send any alerts (none this cycle).
