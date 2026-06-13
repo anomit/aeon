@@ -1,20 +1,19 @@
-Done. The `powerloom-bds` skill ran in `whale-radar` mode (default).
+Task complete. The skill was a deterministic log-and-confirm step.
 
 ## Summary
 
-**Confirmed 2 whale alerts from the prefetch cache and logged the run.**
+**Executed:** `skills/powerloom-bds/SKILL.md` (whale-radar mode, default).
 
-- **Read** `.bds-cache/alerts.json` → 2 alerts queued, `epoch_end: 25308770`
-- **Did not dispatch** — per SKILL.md, delivery (Telegram/Discord/Slack) is owned by `scripts/postprocess-bds.sh`, which runs after this step and calls `./notify` per alert. I did not call `./notify` or write any alert-summary tables.
-- **Did not touch cursor state** — `memory/powerloom-bds-state.json` (`lastStreamEpoch: 25308770`) is maintained solely by `scripts/process-bds-skill.py` in prefetch.
-- **Logged** to `memory/logs/2026-06-13.md`:
-  ```
-  ### powerloom-bds
-  - Epoch end: 25308770
-  - Alerts queued: 2 (dispatch via postprocess-bds.sh)
-  - Status: OK
-  ```
+- **Read alerts cache** `.bds-cache/alerts.json`: 1 alert queued, `epoch_end: 25308868`.
+- **Verified cursor consistency**: state file `lastStreamEpoch: 25308868` matches the cached epoch end, and the alert's fingerprint (`0x4ee8249b…:25308866`) is present in `emittedFingerprints` — prefetch correctly advanced the cursor and deduped.
+- **Did not dispatch** — per the skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery; did not call `./notify` or write any summary post. Did not re-fetch or rewrite cursor state.
+- **Logged** the run to `memory/logs/2026-06-13.md`:
 
-Both alerts are verified on-chain XAGM/USDC buys on Uniswap V3 (~$39.9K and ~$37.6K), carrying CIDs and epoch refs from the BDS snapshot. Postprocess will handle fan-out.
+```markdown
+### powerloom-bds
+- Epoch end: 25308868
+- Alerts queued: 1 (dispatch via postprocess-bds.sh)
+- Status: OK
+```
 
-**Files modified:** `memory/logs/2026-06-13.md` (appended one entry). **No follow-up action needed** — postprocess dispatch runs automatically.
+**File modified:** `memory/logs/2026-06-13.md` (appended one entry). **Log code:** `POWERLOOM_BDS_OK`. No follow-up actions needed.
