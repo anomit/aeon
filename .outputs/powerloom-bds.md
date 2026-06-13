@@ -1,10 +1,9 @@
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 4 whale alerts queued (epoch 25307263–25307272)
-  - 🐳 BUY WBTC/WETH — $68.0K (Uniswap V3)
-  - 🐳 BUY USDC/WETH — $34.6K (Uniswap V3)
-  - 🐳 BUY AUSD/USDC — $25.0K (Uniswap V3)
-  - 🐳 BUY WETH/USDT — $40.4K (Uniswap V3)
-- **No dispatch** — postprocess-bds.sh handles Telegram/Discord/Slack delivery
-- **Logged** run to `memory/logs/2026-06-13.md` with epoch_end 25307272, 4 alerts queued
-- **Status**: OK — `POWERLOOM_BDS_OK`
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Alerts cache:** 2 whale alerts found at `.bds-cache/alerts.json`
+  - AERO/WETH BUY on Uniswap V3 — $1471.65M (block 25307367)
+  - WBTC/WETH BUY on Uniswap V3 — $36.3K (block 25307369)
+- **Dispatch:** Not dispatched from here — `postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- **Log:** Appended to `memory/logs/2026-06-13.md` (epoch 25307369, 2 alerts queued)
+- **State:** `powerloom-bds-state.json` left untouched (cursor at epoch 25307369)
