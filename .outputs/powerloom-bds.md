@@ -1,7 +1,15 @@
-Skill executed. The alerts cache (`.bds-cache/alerts.json`) had an empty `alerts` array for epoch 25311450, so per the skill's empty-alerts handling I logged a no-alerts entry and ended silently — no dispatch (postprocess owns that).
+The skill is complete. I followed the deterministic whale-radar path: read the pre-processed alerts cache, did **not** dispatch (postprocess owns Telegram/Discord/Slack delivery), and logged the run. I left `powerloom-bds-state.json` untouched — `process-bds-skill.py` in prefetch owns cursor and fingerprint state.
 
 ## Summary
-- **Read** `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25311450`
-- **No dispatch** — empty alerts means nothing for `scripts/postprocess-bds.sh` to send
-- **Logged** no-alerts entry to `memory/logs/2026-06-13.md`
-- **Exit code:** `POWERLOOM_BDS_OK`
+
+**What I did:** Executed the Powerloom BDS whale-radar skill (default mode).
+
+**Steps performed:**
+1. Read `.bds-cache/alerts.json` → **1 alert** queued (KNDX/WETH whale buy, $572.3K, block 25311558, with on-chain CID verification)
+2. Did **not** call `./notify` or write alert tables — `scripts/postprocess-bds.sh` handles dispatch
+3. Appended run log to `memory/logs/2026-06-13.md`
+
+**Files modified:**
+- `memory/logs/2026-06-13.md` — appended epoch 25311558 entry (1 alert queued, Status: OK)
+
+**No follow-up actions needed** — postprocess will dispatch the queued alert to configured channels. End code: `POWERLOOM_BDS_OK`.
