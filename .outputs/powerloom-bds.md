@@ -1,16 +1,10 @@
-Skill complete. The log entry is appended.
+Done. The skill ran its normal path (default `whale-radar` mode).
 
 ## Summary
+- Read `.bds-cache/alerts.json`: **1 alert** queued at epoch_end **25309164** (WETH/USDT whale buy, $153.6K, verified on-chain — CID + epoch + project in the cached snapshot).
+- Per the skill, I did **not** dispatch (`postprocess-bds.sh` owns Telegram/Discord/Slack delivery) and did **not** rewrite state (`process-bds-skill.py` in prefetch owns the cursor).
+- Appended the run entry to `memory/logs/2026-06-13.md`.
+- End code: `POWERLOOM_BDS_OK`.
 
-Executed the **Powerloom BDS** skill (`whale-radar` mode) for the 2026-06-13 run.
-
-**What I did:**
-1. Read `.bds-cache/alerts.json` — prefetch + `process-bds-skill.py` had already advanced the epoch cursor and queued **2 whale alerts** (epoch_end `25309069`, epochs 25309060–25309069).
-2. Did **not** dispatch or write alert tables — per the skill, `postprocess-bds.sh` owns Telegram/Discord/Slack delivery.
-3. Did **not** rewrite `powerloom-bds-state.json` — that's owned by the prefetch processor.
-4. Appended a log entry to `memory/logs/2026-06-13.md`.
-
-**Files modified:**
-- `memory/logs/2026-06-13.md` — appended powerloom-bds run log (epoch 25309069, 2 alerts queued, OK).
-
-**Status:** `POWERLOOM_BDS_OK` — 2 alerts queued for dispatch by postprocess-bds.sh. No follow-up actions needed from this step.
+**Files modified:** `memory/logs/2026-06-13.md` (appended one entry).
+**Follow-up:** `scripts/postprocess-bds.sh` (runs after this step) will call `./notify` for the queued alert.
