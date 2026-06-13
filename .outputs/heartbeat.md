@@ -1,19 +1,29 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
----
-
 ## Summary
 
-Executed heartbeat skill at 14:00 UTC (scheduled run). All checks passed:
+Executed the heartbeat skill with all checks passing:
 
-**P0 - Failed & stuck skills:** None
-- `powerloom-bds`: 100% success rate (649/649 runs), last success ~7 min ago
-- `heartbeat`: 100% success rate (29/29 runs), last success ~6 hours ago
+**P0 (Failed & Stuck Skills):** ✅ Clear
+- powerloom-bds: 100% success rate, 668 runs, last success 11m ago
+- heartbeat: 100% success rate, 30 runs, last success 6h ago
 
-**P1 - Stalled PRs & urgent issues:** None (no open PRs, no urgent issues)
+**P1 (Stalled PRs & Urgent Issues):** ✅ Clear
+- No open PRs
+- No urgent issues
 
-**P2 - Flagged memory items:** None
+**P2 (Flagged Memory Items):** ✅ Clear
+- No flagged follow-up items
 
-**P3 - Missing scheduled skills:** None (both `powerloom-bds` and `heartbeat` are tracked and current)
+**P3 (Missing Scheduled Skills):** ✅ Clear
+- Both enabled skills (powerloom-bds, heartbeat) present in state file
 
-**Status page:** Updated `docs/status.md` with 🟢 OK status
+**Status Page:** Updated `docs/status.md` with:
+- Overall: 🟢 OK
+- Updated: 2026-06-13 20:04 UTC
+- Open issues: 0
+- Skill health table showing both skills at 100% success rate
+
+**Files modified:**
+- `docs/status.md` — Regenerated status page
+- `memory/logs/2026-06-13.md` — Appended heartbeat run log
