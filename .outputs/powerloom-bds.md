@@ -1,8 +1,10 @@
-Done. The skill executed cleanly.
-
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (USOR/WETH $7.94M buy, DAI/USDT $50K buy) at epoch range 25305274–25305283
-- **Did not dispatch** — postprocess-bds.sh handles delivery
-- **Logged** run to `memory/logs/2026-06-13.md` with epoch end 25305283, 2 alerts queued
-- State file (`memory/powerloom-bds-state.json`) untouched as instructed
+**powerloom-bds skill executed (whale-radar mode)**
+
+- **Alerts cache**: 1 whale alert queued — BUY WETH/LUNA on Uniswap V3, $40.87M swapped (block 25305375, TX `0x28950ef8…0ceb`), verified on-chain with CID.
+- **Epoch range**: 25305372 → 25305376 (5 epochs processed)
+- **Dispatch**: Skipped (per SKILL.md — `postprocess-bds.sh` handles delivery)
+- **State**: Untouched (`lastStreamEpoch: 25305376` maintained by prefetch script)
+- **Log**: Appended to `memory/logs/2026-06-13.md`
+- **Status**: OK
