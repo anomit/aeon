@@ -1,9 +1,6 @@
-## Summary
+Done. The skill ran cleanly:
 
-**Powerloom BDS skill run complete.**
-
-- **Epoch range:** 25306666–25306671 (5 epochs processed by prefetch)
-- **Alerts queued:** 0 — no whale alerts in this batch
-- **Status:** `POWERLOOM_BDS_OK` (silent end, no dispatch needed)
-- **File modified:** `memory/logs/2026-06-13.md` — appended log entry
-- **Committed:** `9556062` on `main`
+- **Alerts cached:** 7 whale alerts across epochs 25306766–25306775 (AUSD/USDC, PAXG/XAUt ×2, WETH/USDT ×2, USDC/WETH, WBTC/USDT)
+- **Dispatch:** Deferred to `postprocess-bds.sh` as designed — no notify calls from the LLM
+- **State:** Untouched; cursor at epoch 25306775 with 425 emitted fingerprints
+- **Log:** Appended to `memory/logs/2026-06-13.md`, committed
