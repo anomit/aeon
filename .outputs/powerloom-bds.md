@@ -1,7 +1,9 @@
-Done. `POWERLOOM_BDS_OK`.
+Skill executed. The alerts cache was empty for this epoch, so no dispatch was needed (postprocess owns notification delivery regardless).
 
 ## Summary
-- Read `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25311055`, `epochs_processed: 8`
-- Empty-alerts path: appended a `### powerloom-bds` log entry to `memory/logs/2026-06-13.md` with status `OK (POWERLOOM_BDS_OK)`
-- Did not dispatch (postprocess owns Telegram/Discord/Slack delivery) and did not touch `memory/powerloom-bds-state.json`
-- File modified: `memory/logs/2026-06-13.md` (log append only). No follow-up actions needed.
+- **Read** `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25311157` (9 epochs processed)
+- **Did not dispatch** — per skill spec, `postprocess-bds.sh` owns Telegram/Discord/Slack delivery; the LLM step never calls `./notify` or writes alert tables
+- **Did not rewrite** `memory/powerloom-bds-state.json` (maintained solely by `process-bds-skill.py` in prefetch)
+- **Logged** to `memory/logs/2026-06-13.md`: epoch end 25311157, 0 alerts queued, `POWERLOOM_BDS_OK`
+
+No follow-up actions needed. Ending silently with code **POWERLOOM_BDS_OK**.
