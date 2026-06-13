@@ -1,9 +1,10 @@
-Skill executed. The alerts cache was empty for this epoch, so no dispatch was needed (postprocess owns notification delivery regardless).
+Ran the Powerloom BDS skill. The prefetch already advanced the epoch cursor and wrote `.bds-cache/alerts.json` with an empty `alerts` array (epoch range 25311249–25311258, 10 epochs processed, 0 alerts sent).
+
+Per the skill, no dispatch happens from the LLM step (postprocess owns Telegram/Discord/Slack), and state is not rewritten. Logged the empty-alerts result.
 
 ## Summary
-- **Read** `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25311157` (9 epochs processed)
-- **Did not dispatch** — per skill spec, `postprocess-bds.sh` owns Telegram/Discord/Slack delivery; the LLM step never calls `./notify` or writes alert tables
-- **Did not rewrite** `memory/powerloom-bds-state.json` (maintained solely by `process-bds-skill.py` in prefetch)
-- **Logged** to `memory/logs/2026-06-13.md`: epoch end 25311157, 0 alerts queued, `POWERLOOM_BDS_OK`
-
-No follow-up actions needed. Ending silently with code **POWERLOOM_BDS_OK**.
+- **Skill:** powerloom-bds (whale-radar, default mode)
+- **Result:** No whale alerts in epoch 25311258. Log code `POWERLOOM_BDS_OK`
+- **Modified:** `memory/logs/2026-06-13.md` — appended run entry (epoch end 25311258, 0 alerts)
+- **Not changed:** `memory/powerloom-bds-state.json` (maintained by prefetch only), `.bds-cache/alerts.json`
+- **Follow-up:** None — `scripts/postprocess-bds.sh` will no-op on empty alerts.
