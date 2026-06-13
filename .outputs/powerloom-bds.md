@@ -1,15 +1,16 @@
-Done. The skill ran cleanly in `whale-radar` mode.
+Skill complete. Mode `whale-radar` ran deterministically — prefetch had already advanced the epoch cursor to `25311756`, deduplicated trades, and written 2 verified alerts to the cache.
 
 ## Summary
 
-**What I did:** Executed the `powerloom-bds` skill per `SKILL.md`.
+**powerloom-bds** (whale-radar) — `Status: OK`
 
-- Read `.bds-cache/alerts.json` — **1 alert queued** (BUY wTAO/WETH on Uniswap V3, ~$63.7K, block 25311649, verified on-chain) at `epoch_end` 25311652.
-- Did **not** dispatch (no `./notify`, no summary tables) — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery.
-- Did **not** rewrite cursor state (`powerloom-bds-state.json` is maintained by the prefetch processor).
-- Appended the run log to `memory/logs/2026-06-13.md`.
+- **Epoch end:** `25311756` (range `25311747–25311756`, 10 epochs processed)
+- **Alerts queued:** 2 — both verified on-chain (allTradesSnapshot CIDs), dispatched by `scripts/postprocess-bds.sh` (not this step)
+  1. 🐋 BUY WETH/JESUS on Uniswap V3 (1%) — **$5.19M** swapped, block 25311750
+  2. 🐋 BUY wTAO/WETH on Uniswap V3 (1%) — **$59.6K** swapped, block 25311754
+- **State:** Confirmed `lastStreamEpoch=25311756`, both new fingerprints already recorded in `powerloom-bds-state.json` by prefetch — no rewrite performed.
 
 **Files modified:**
-- `memory/logs/2026-06-13.md` — appended epoch 25311652 entry (Alerts queued: 1, Status: OK).
+- `memory/logs/2026-06-13.md` — appended run entry (2 alerts queued, dispatch via postprocess).
 
-**Follow-up:** `postprocess-bds.sh` (the next workflow step) will call `./notify` to deliver the queued whale alert.
+**Follow-up:** None from this step. `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery of the 2 queued alerts.
