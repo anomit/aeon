@@ -1,6 +1,7 @@
 ## Summary
 
-- **Read alerts cache** (`.bds-cache/alerts.json`): 1 whale alert queued (USDe/USDC buy, $48.4K, block 25304881, verified on-chain)
-- **Did not dispatch** — per skill instructions, `postprocess-bds.sh` owns notification delivery
-- **Logged run** to `memory/logs/2026-06-13.md`: epoch 25304883, 1 alert queued, status OK
-- **Committed** as `chore(cron): powerloom-bds success`
+- **Skill:** `powerloom-bds` (whale-radar mode)
+- **Alerts cache:** `.bds-cache/alerts.json` had an empty `alerts` array — no whale alerts this cycle
+- **Epoch range processed:** 25304976–25304983 (7 epochs)
+- **Action taken:** Appended log entry to `memory/logs/2026-06-13.md` with `POWERLOOM_BDS_OK` status and committed
+- **No notifications dispatched** — per skill design, `scripts/postprocess-bds.sh` handles delivery, and there were no alerts to send anyway
