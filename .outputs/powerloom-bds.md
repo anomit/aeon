@@ -1,13 +1,7 @@
-Done. The skill ran its full cycle: the prefetch step already advanced the cursor to epoch `25311357`, deduplicated trades, and wrote `.bds-cache/alerts.json` with 2 verified whale alerts. Per the skill's strict rules, this step only confirms the cache and logs — it does **not** dispatch (that's `postprocess-bds.sh`'s job, which runs after and calls `./notify` for each alert).
+Skill executed. The alerts cache (`.bds-cache/alerts.json`) had an empty `alerts` array for epoch 25311450, so per the skill's empty-alerts handling I logged a no-alerts entry and ended silently — no dispatch (postprocess owns that).
 
 ## Summary
-- **Read** `.bds-cache/alerts.json`: 2 alerts queued, `epoch_end` 25311357 (epoch range 25311348–25311357, 10 epochs processed).
-- **Alerts** (dispatch handled by postprocess, not here):
-  - BUY USDC/WETH on Uniswap V3 — $25.9K — block 25311348
-  - BUY WETH/USDT on Uniswap V3 — $266.8K — block 25311350
-  - Both carry on-chain CID/epoch verification in the cached snapshot.
-- **Did not** re-fetch, summarize into tables, call `./notify`, or rewrite cursor state — per skill constraints.
-- **Logged** the run to `memory/logs/2026-06-13.md` (mode `whale-radar`, Status: OK).
-
-**Files modified:** `memory/logs/2026-06-13.md` (appended entry).
-**Follow-up:** `postprocess-bds.sh` delivers the 2 alerts via Telegram/Discord/Slack.
+- **Read** `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25311450`
+- **No dispatch** — empty alerts means nothing for `scripts/postprocess-bds.sh` to send
+- **Logged** no-alerts entry to `memory/logs/2026-06-13.md`
+- **Exit code:** `POWERLOOM_BDS_OK`
