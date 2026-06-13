@@ -1,8 +1,11 @@
+Skill execution complete.
+
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (BigSB/WETH BUY on Uniswap V3, $6.37M, block 25306968, verified on-chain)
-- **Did not dispatch** — postprocess-bds.sh handles notification delivery
-- **Logged** to `memory/logs/2026-06-13.md` — epoch 25306970, 1 alert, status OK
-- **State untouched** — `memory/powerloom-bds-state.json` remains as maintained by prefetch
+**Powerloom BDS (whale-radar)** — run completed successfully.
 
-`POWERLOOM_BDS_OK`
+- **Alerts cache** (`.bds-cache/alerts.json`): 4 whale alerts queued across epochs 25307066–25307071 (6 epochs processed)
+- **Notable alerts**: WETH/USDT $104.2K buy, two USDC/WETH ~$25.7K buys, and a large USRNR/WETH $2.46M swap — all with on-chain verification
+- **No dispatch**: Per skill instructions, `./notify` was not called; `postprocess-bds.sh` handles delivery
+- **State untouched**: `memory/powerloom-bds-state.json` (cursor at epoch 25307071) not modified
+- **Log appended**: `memory/logs/2026-06-13.md` updated with this run's entry
