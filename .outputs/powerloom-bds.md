@@ -1,16 +1,21 @@
-Skill complete. Mode `whale-radar` ran deterministically — prefetch had already advanced the epoch cursor to `25311756`, deduplicated trades, and written 2 verified alerts to the cache.
+Skill complete. The alerts cache was empty, so per the skill spec I logged the no-alerts run and ended silently — no dispatch and no state rewrite (both owned by prefetch/postprocess).
 
 ## Summary
 
-**powerloom-bds** (whale-radar) — `Status: OK`
+**Executed:** `skills/powerloom-bds/SKILL.md` (mode: `whale-radar`, the default)
 
-- **Epoch end:** `25311756` (range `25311747–25311756`, 10 epochs processed)
-- **Alerts queued:** 2 — both verified on-chain (allTradesSnapshot CIDs), dispatched by `scripts/postprocess-bds.sh` (not this step)
-  1. 🐋 BUY WETH/JESUS on Uniswap V3 (1%) — **$5.19M** swapped, block 25311750
-  2. 🐋 BUY wTAO/WETH on Uniswap V3 (1%) — **$59.6K** swapped, block 25311754
-- **State:** Confirmed `lastStreamEpoch=25311756`, both new fingerprints already recorded in `powerloom-bds-state.json` by prefetch — no rewrite performed.
+**Findings:**
+- `.bds-cache/alerts.json` → `"alerts": []` (empty), `epoch_end: 25311856`
+- State file `powerloom-bds-state.json` already advanced by prefetch (`lastStreamEpoch: 25311856`); left untouched as instructed
+
+**Actions taken:**
+- Appended a no-alerts entry to `memory/logs/2026-06-13.md` with status `POWERLOOM_BDS_OK`
+- Did **not** call `./notify` (postprocess-bds.sh owns dispatch)
+- Did **not** rewrite cursor state or `emittedFingerprints`
 
 **Files modified:**
-- `memory/logs/2026-06-13.md` — appended run entry (2 alerts queued, dispatch via postprocess).
+- `memory/logs/2026-06-13.md` — appended powerloom-bds log block
 
-**Follow-up:** None from this step. `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery of the 2 queued alerts.
+**Log code:** `POWERLOOM_BDS_OK`
+
+No follow-up actions needed.
