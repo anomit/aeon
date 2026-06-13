@@ -1,12 +1,8 @@
-Done. The `powerloom-bds` skill run completed on the `whale-radar` mode (default).
-
-- `.bds-cache/alerts.json` exists with `alerts: []` and epoch end `25309665` → no alerts this cycle.
-- Appended the no-alerts entry to `memory/logs/2026-06-13.md` (epoch 25309665, 0 queued).
-- No dispatch performed (postprocess owns Telegram/Discord/Slack delivery), no state rewritten.
-
-Log code: `POWERLOOM_BDS_OK` — ending silently.
+Logged. The skill ran its deterministic path: cache had 1 verified whale alert (epoch 25309764), so I noted the count and ended without dispatching — `scripts/postprocess-bds.sh` owns the Telegram/Discord/Slack delivery.
 
 ## Summary
-- **What I did:** Executed `powerloom-bds` skill in `whale-radar` mode. Confirmed the prefetch/processing pipeline advanced the cursor to epoch end `25309665`. Alerts cache held no whale alerts this cycle, so I logged the no-alerts result and ended without dispatching (per skill design — `postprocess-bds.sh` handles delivery).
-- **Files modified:** `memory/logs/2026-06-13.md` (appended one entry).
-- **Follow-up:** None — postprocess step will run after this and send any alerts (none this cycle).
+- **Read** `.bds-cache/alerts.json` → 1 alert queued (🟢 BUY WETH/UNI on Uniswap V3, ~$1455.16M, verified on-chain at block 25309762), `epoch_end` 25309764.
+- **Appended** a `powerloom-bds` entry to `memory/logs/2026-06-13.md` matching the established format (epoch end, alerts queued, status OK).
+- **Did not** call `./notify`, write summary tables, or touch cursor state — per the skill, postprocess owns dispatch and prefetch owns state.
+- Files modified: `memory/logs/2026-06-13.md`.
+- Follow-up: none from this step; `postprocess-bds.sh` will dispatch the queued alert.
