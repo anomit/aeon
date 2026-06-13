@@ -1,12 +1,12 @@
-Skill execution complete. Per the SKILL.md contract, I confirmed the pre-processed alerts and logged the run — I did **not** dispatch (that's owned by `scripts/postprocess-bds.sh`), re-fetch, or rewrite cursor state.
+Skill complete. This step is intentionally thin (postprocess owns dispatch), so there's nothing else to do.
 
 ## Summary
 
-**powerloom-bds** (`whale-radar` mode) — run OK.
+Executed `skills/powerloom-bds/SKILL.md` in default `whale-radar` mode.
 
-- **Read** `.bds-cache/alerts.json`: 3 whale alerts queued, `epoch_end` = 25307672, `epochs_processed` = 10.
-- **Alerts queued:** 3 (WBTC/USDT $34.3K, wTAO/USDC $32.9K, wTAO/USDC $35.4K — all verified on-chain with CIDs). Dispatch handled by `postprocess-bds.sh`, not this step.
-- **Logged** to `memory/logs/2026-06-13.md`: epoch end, alert count, status OK.
-- **No dispatch / no cursor rewrite**, per skill contract. `lastStreamEpoch` (25307672) and `emittedFingerprints` left untouched.
+- **Read** `.bds-cache/alerts.json` → 1 whale alert (BUY USDC/USDT on Uniswap V3, $34.7K, block 25307767, CID-verified), `epoch_end` 25307771.
+- **Logged** the run to `memory/logs/2026-06-13.md`: epoch end 25307771, 1 alert queued, Status OK.
+- **Did not** call `./notify`, write alert-summary tables, or touch `memory/powerloom-bds-state.json` — per skill spec, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery and prefetch owns cursor state.
 
-Status: `POWERLOOM_BDS_OK`.
+**Files modified:** `memory/logs/2026-06-13.md` (appended one log block).
+**Follow-up:** none from this step; postprocess will dispatch the queued alert.
