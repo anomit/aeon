@@ -1,15 +1,15 @@
-The skill is complete. I followed the deterministic whale-radar path: read the pre-processed alerts cache, did **not** dispatch (postprocess owns Telegram/Discord/Slack delivery), and logged the run. I left `powerloom-bds-state.json` untouched — `process-bds-skill.py` in prefetch owns cursor and fingerprint state.
+Done. The skill ran cleanly in `whale-radar` mode.
 
 ## Summary
 
-**What I did:** Executed the Powerloom BDS whale-radar skill (default mode).
+**What I did:** Executed the `powerloom-bds` skill per `SKILL.md`.
 
-**Steps performed:**
-1. Read `.bds-cache/alerts.json` → **1 alert** queued (KNDX/WETH whale buy, $572.3K, block 25311558, with on-chain CID verification)
-2. Did **not** call `./notify` or write alert tables — `scripts/postprocess-bds.sh` handles dispatch
-3. Appended run log to `memory/logs/2026-06-13.md`
+- Read `.bds-cache/alerts.json` — **1 alert queued** (BUY wTAO/WETH on Uniswap V3, ~$63.7K, block 25311649, verified on-chain) at `epoch_end` 25311652.
+- Did **not** dispatch (no `./notify`, no summary tables) — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery.
+- Did **not** rewrite cursor state (`powerloom-bds-state.json` is maintained by the prefetch processor).
+- Appended the run log to `memory/logs/2026-06-13.md`.
 
 **Files modified:**
-- `memory/logs/2026-06-13.md` — appended epoch 25311558 entry (1 alert queued, Status: OK)
+- `memory/logs/2026-06-13.md` — appended epoch 25311652 entry (Alerts queued: 1, Status: OK).
 
-**No follow-up actions needed** — postprocess will dispatch the queued alert to configured channels. End code: `POWERLOOM_BDS_OK`.
+**Follow-up:** `postprocess-bds.sh` (the next workflow step) will call `./notify` to deliver the queued whale alert.
