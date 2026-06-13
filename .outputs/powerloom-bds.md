@@ -1,21 +1,16 @@
-Powerloom BDS skill run complete.
+Done. The Powerloom BDS skill ran in its default `whale-radar` mode (the only mode with deterministic prefetch).
 
 ## Summary
 
-**Mode:** `whale-radar` (default)
+**Read** `.bds-cache/alerts.json` — 1 whale alert queued for dispatch:
+- 🐋 BUY wTAO/WETH on Uniswap V3, $30.6K swapped (78.333 wTAO ⇄ 5.9778 WETH), block 25309556, verified on-chain (CID `bafkreib4omexlej2dlb3rlmn2ks…`)
+- Epoch end: 25309564 (10 epochs processed, 25309555–25309564)
 
-**Result:** Read `.bds-cache/alerts.json` — 2 whale alerts queued, epoch end 25309467.
+**Did not dispatch** — per the skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery after this step. No notify call, no markdown table.
 
-**Alerts found (dispatch handled by `postprocess-bds.sh`, not this step):**
-- 🐳 BUY msUSD/USDC on Uniswap V3 (1%) — $30.0K swapped, block 25309462
-- 🐳 BUY WETH/USDT on Uniswap V3 (30%) — $34.0K swapped, block 25309463
+**Logged** the run to `memory/logs/2026-06-13.md` — Status: OK.
 
-Both carry on-chain CID verification from the cached snapshot.
+**Files modified:**
+- `memory/logs/2026-06-13.md` (appended run entry)
 
-**What I did:**
-- Read the prefetch-populated alerts cache (did not re-fetch)
-- Did **not** call `./notify` or write any alert summary — postprocess owns delivery
-- Did **not** touch cursor state (`memory/powerloom-bds-state.json`)
-- Appended a log entry to `memory/logs/2026-06-13.md`
-
-**Status:** `POWERLOOM_BDS_OK` — alerts queued for downstream dispatch.
+**Follow-up:** postprocess-bds.sh will fan out the queued alert to configured channels. Log code: `POWERLOOM_BDS_OK`.
