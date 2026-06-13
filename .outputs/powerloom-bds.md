@@ -1,11 +1,8 @@
 ## Summary
 
-**Powerloom BDS skill run complete — no alerts.**
+- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (WBTC/WETH BUY on Uniswap V3, $37.6K, epoch 25306475)
+- **Logged** run to `memory/logs/2026-06-13.md` with epoch_end, alert count, and OK status
+- **Did not dispatch** — `scripts/postprocess-bds.sh` handles Telegram/Discord/Slack delivery
+- No state rewriting; `powerloom-bds-state.json` untouched
 
-- **Epoch end:** 25306374
-- **Alerts queued:** 0
-- **Status:** OK (`POWERLOOM_BDS_OK`)
-- **Log updated:** `memory/logs/2026-06-13.md`
-- **Committed:** `658f78e` on `main`
-
-No whale alerts were detected in this epoch window (25306365–25306374). Postprocess step has nothing to dispatch.
+`POWERLOOM_BDS_OK`
