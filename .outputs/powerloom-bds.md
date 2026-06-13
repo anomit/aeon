@@ -1,14 +1,20 @@
-Task tracking isn't needed for this short, single-step skill. Done — the skill completed its only responsibility (read cache, log). Dispatch is intentionally deferred to `postprocess-bds.sh` per the skill's instructions.
+Skill complete. The prefetch pipeline already advanced the epoch cursor and wrote 2 verified whale alerts to `.bds-cache/alerts.json`; per the skill, dispatch is owned by `scripts/postprocess-bds.sh` (next step), not this skill — so I only logged the run.
 
 ## Summary
 
-**powerloom-bds** (`whale-radar` mode) ran successfully.
+**Ran:** `skills/powerloom-bds/SKILL.md` (mode: `whale-radar`, default — the only deterministic mode)
 
-- Read `.bds-cache/alerts.json` → **4 alerts queued**, epoch_end `25310456` (epochs 25310451–25310456, 5 processed)
-- Alerts: 2× WBTC/USDT buys, 1× USDC/WETH buy, 1× KISHU/WETH buy ($835.5K) — all with on-chain CID/epoch verification
-- Logged entry to `memory/logs/2026-06-13.md`
-- Did **not** dispatch — `postprocess-bds.sh` owns Telegram/Discord/Slack delivery per the skill
+**What happened:**
+- Read `.bds-cache/alerts.json` → 2 verified whale alerts at `epoch_end: 25310560` (wTAO/WETH $59.7K BUY, USDe/USDC $27.8K BUY), both with on-chain CIDs.
+- Cross-checked against `memory/powerloom-bds-state.json` → `lastStreamEpoch: 25310560` (cursor already advanced by prefetch). Consistent; no state rewrite.
 
-**Files modified:** `memory/logs/2026-06-13.md` (appended log entry)
+**Did NOT do (per skill contract):**
+- Did not call `./notify` — postprocess owns Telegram/Discord/Slack delivery.
+- Did not write alert-summary tables.
+- Did not touch cursor state (`lastStreamEpoch` / `emittedFingerprints`).
 
-**Follow-up:** `postprocess-bds.sh` will fan out the 4 alerts via `./notify`. No action needed from this step.
+**Files modified:**
+- `memory/logs/2026-06-13.md` — appended run entry: Epoch end 25310560, 2 alerts queued, Status OK.
+
+**Follow-up actions needed:**
+- `scripts/postprocess-bds.sh` runs after this step to dispatch the 2 alerts via `./notify`.
