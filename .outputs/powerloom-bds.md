@@ -1,17 +1,7 @@
-Log entry appended. The skill run is complete.
+Skill executed. The prefetch/cache had no alerts this epoch (`alerts: []`, epoch_end 25308470), so per the skill's empty-alerts path I logged the run and ended silently.
 
 ## Summary
-
-Executed **Powerloom BDS** (`whale-radar` mode, the deterministic default).
-
-**What I did:**
-- Read `.bds-cache/alerts.json` — found **1 alert**: a 🐋 whale BUY of AUSD/USDC on Uniswap V3 (~$25.0K), block 25308369, with on-chain CID verification.
-- Did **not** dispatch (`scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery) and did **not** rewrite state — per skill instructions.
-- Appended the log entry to `memory/logs/2026-06-13.md` (epoch end `25308370`, 1 alert queued, status OK).
-
-**Files modified:**
-- `memory/logs/2026-06-13.md` — appended run log.
-
-**Follow-up:**
-- `postprocess-bds.sh` runs next and dispatches the queued alert via `./notify`.
-- No further action needed from this step — ending with log code `POWERLOOM_BDS_OK`.
+- Read `.bds-cache/alerts.json` → empty `alerts` array, epoch end 25308470.
+- Appended a `### powerloom-bds` entry to `memory/logs/2026-06-13.md`: Alerts queued 0, Status `OK (POWERLOOM_BDS_OK)`.
+- Did not re-fetch, did not call `./notify`, did not touch `memory/powerloom-bds-state.json` (postprocess owns dispatch; cursor state is maintained by prefetch).
+- Log code: `POWERLOOM_BDS_OK`.
