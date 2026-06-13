@@ -1,19 +1,17 @@
-Task complete. The skill was a deterministic log-and-confirm step.
+Skill executed. The prefetch + `process-bds-skill.py` already advanced the epoch cursor and wrote the cache; I confirmed the queued alerts and logged the run.
 
 ## Summary
 
-**Executed:** `skills/powerloom-bds/SKILL.md` (whale-radar mode, default).
+**powerloom-bds** (`whale-radar` mode) — verified the pre-processed cache:
 
-- **Read alerts cache** `.bds-cache/alerts.json`: 1 alert queued, `epoch_end: 25308868`.
-- **Verified cursor consistency**: state file `lastStreamEpoch: 25308868` matches the cached epoch end, and the alert's fingerprint (`0x4ee8249b…:25308866`) is present in `emittedFingerprints` — prefetch correctly advanced the cursor and deduped.
-- **Did not dispatch** — per the skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery; did not call `./notify` or write any summary post. Did not re-fetch or rewrite cursor state.
-- **Logged** the run to `memory/logs/2026-06-13.md`:
+- Read `.bds-cache/alerts.json` → **7 whale alerts** queued, epoch end `25308969` (epochs 25308960–25308969, all carrying on-chain CID verification).
+- **Did not dispatch** — per skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery of each alert.
+- **Did not rewrite state** — `memory/powerloom-bds-state.json` is maintained solely by `process-bds-skill.py`.
+- Appended the run entry to `memory/logs/2026-06-13.md`.
 
-```markdown
-### powerloom-bds
-- Epoch end: 25308868
-- Alerts queued: 1 (dispatch via postprocess-bds.sh)
-- Status: OK
-```
+**Files modified:**
+- `memory/logs/2026-06-13.md` — appended powerloom-bds log entry (Epoch end: 25308969, Alerts queued: 7, Status: OK).
 
-**File modified:** `memory/logs/2026-06-13.md` (appended one entry). **Log code:** `POWERLOOM_BDS_OK`. No follow-up actions needed.
+**Follow-up:** None from this step. The subsequent `postprocess-bds.sh` workflow step will fan the 7 alerts out to configured notification channels.
+
+Log code: `POWERLOOM_BDS_OK` (alerts present, dispatch delegated to postprocess).
