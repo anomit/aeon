@@ -1,9 +1,11 @@
-Run complete. No alerts to dispatch.
-
 ## Summary
 
-- **Skill**: `powerloom-bds` (whale-radar mode)
-- **Epoch range**: 25306266–25306275 (10 epochs processed)
-- **Alerts queued**: 0 — no whale activity detected in this window
-- **Action taken**: Logged `POWERLOOM_BDS_OK` to `memory/logs/2026-06-13.md`. No notify/postprocess dispatch needed (postprocess-bds.sh will see empty alerts and skip).
-- **State untouched**: `memory/powerloom-bds-state.json` remains at `lastStreamEpoch: 25306275` (managed by prefetch, not by this skill).
+**Powerloom BDS skill run complete — no alerts.**
+
+- **Epoch end:** 25306374
+- **Alerts queued:** 0
+- **Status:** OK (`POWERLOOM_BDS_OK`)
+- **Log updated:** `memory/logs/2026-06-13.md`
+- **Committed:** `658f78e` on `main`
+
+No whale alerts were detected in this epoch window (25306365–25306374). Postprocess step has nothing to dispatch.
