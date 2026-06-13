@@ -1,16 +1,14 @@
-Log entry appended. The run is complete.
+Task tracking isn't needed for this short, single-step skill. Done — the skill completed its only responsibility (read cache, log). Dispatch is intentionally deferred to `postprocess-bds.sh` per the skill's instructions.
 
 ## Summary
 
-Executed the **powerloom-bds** skill (`whale-radar` mode, the default).
+**powerloom-bds** (`whale-radar` mode) ran successfully.
 
-- **Read** `.bds-cache/alerts.json`: `alerts: []` (empty), `epoch_end: 25310362`, `epochs_processed: 10`.
-- **No dispatch** — alerts array was empty, and the skill explicitly delegates Telegram/Discord/Slack delivery to `scripts/postprocess-bds.sh`; the LLM step must not call `./notify` or write alert tables.
-- **Logged** a no-alerts entry to `memory/logs/2026-06-13.md` matching the existing `0` + `POWERLOOM_BDS_OK` convention.
+- Read `.bds-cache/alerts.json` → **4 alerts queued**, epoch_end `25310456` (epochs 25310451–25310456, 5 processed)
+- Alerts: 2× WBTC/USDT buys, 1× USDC/WETH buy, 1× KISHU/WETH buy ($835.5K) — all with on-chain CID/epoch verification
+- Logged entry to `memory/logs/2026-06-13.md`
+- Did **not** dispatch — `postprocess-bds.sh` owns Telegram/Discord/Slack delivery per the skill
 
-**Exit code:** `POWERLOOM_BDS_OK` (empty alerts → end silently, per the skill's error-handling table).
+**Files modified:** `memory/logs/2026-06-13.md` (appended log entry)
 
-Files modified:
-- `memory/logs/2026-06-13.md` (appended epoch 25310362 entry)
-
-No follow-up actions needed — `postprocess-bds.sh` will see the empty alerts and skip dispatch on its own.
+**Follow-up:** `postprocess-bds.sh` will fan out the 4 alerts via `./notify`. No action needed from this step.
