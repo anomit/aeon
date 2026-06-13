@@ -1,17 +1,16 @@
-Skill executed. The prefetch + `process-bds-skill.py` already advanced the epoch cursor and wrote the cache; I confirmed the queued alerts and logged the run.
+Skill complete. The log entry is appended.
 
 ## Summary
 
-**powerloom-bds** (`whale-radar` mode) — verified the pre-processed cache:
+Executed the **Powerloom BDS** skill (`whale-radar` mode) for the 2026-06-13 run.
 
-- Read `.bds-cache/alerts.json` → **7 whale alerts** queued, epoch end `25308969` (epochs 25308960–25308969, all carrying on-chain CID verification).
-- **Did not dispatch** — per skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery of each alert.
-- **Did not rewrite state** — `memory/powerloom-bds-state.json` is maintained solely by `process-bds-skill.py`.
-- Appended the run entry to `memory/logs/2026-06-13.md`.
+**What I did:**
+1. Read `.bds-cache/alerts.json` — prefetch + `process-bds-skill.py` had already advanced the epoch cursor and queued **2 whale alerts** (epoch_end `25309069`, epochs 25309060–25309069).
+2. Did **not** dispatch or write alert tables — per the skill, `postprocess-bds.sh` owns Telegram/Discord/Slack delivery.
+3. Did **not** rewrite `powerloom-bds-state.json` — that's owned by the prefetch processor.
+4. Appended a log entry to `memory/logs/2026-06-13.md`.
 
 **Files modified:**
-- `memory/logs/2026-06-13.md` — appended powerloom-bds log entry (Epoch end: 25308969, Alerts queued: 7, Status: OK).
+- `memory/logs/2026-06-13.md` — appended powerloom-bds run log (epoch 25309069, 2 alerts queued, OK).
 
-**Follow-up:** None from this step. The subsequent `postprocess-bds.sh` workflow step will fan the 7 alerts out to configured notification channels.
-
-Log code: `POWERLOOM_BDS_OK` (alerts present, dispatch delegated to postprocess).
+**Status:** `POWERLOOM_BDS_OK` — 2 alerts queued for dispatch by postprocess-bds.sh. No follow-up actions needed from this step.
