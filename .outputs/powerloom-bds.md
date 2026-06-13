@@ -1,9 +1,8 @@
+Done. The skill executed cleanly.
+
 ## Summary
 
-**Powerloom BDS whale-radar run complete.**
-
-- **Alerts cache:** `.bds-cache/alerts.json` — 1 whale alert queued (Story/WETH BUY ~$844.37M on Uniswap V3, block 25305179, verified on-chain)
-- **Epoch range:** 25305173–25305182 (9 epochs processed)
-- **Dispatch:** Skipped per skill spec — `scripts/postprocess-bds.sh` handles Telegram/Discord/Slack delivery
-- **State:** `memory/powerloom-bds-state.json` untouched (managed by prefetch)
-- **Log:** Appended run entry to `memory/logs/2026-06-13.md`
+- **Read** `.bds-cache/alerts.json` — 2 whale alerts queued (USOR/WETH $7.94M buy, DAI/USDT $50K buy) at epoch range 25305274–25305283
+- **Did not dispatch** — postprocess-bds.sh handles delivery
+- **Logged** run to `memory/logs/2026-06-13.md` with epoch end 25305283, 2 alerts queued
+- State file (`memory/powerloom-bds-state.json`) untouched as instructed
