@@ -1,7 +1,6 @@
 ## Summary
 
-- **Skill**: `powerloom-bds` (whale-radar mode)
-- **Read**: `.bds-cache/alerts.json` — empty alerts array, epoch range 25305968–25305972 (5 epochs processed)
-- **Action**: No alerts to dispatch. Logged `POWERLOOM_BDS_OK` to `memory/logs/2026-06-13.md`
-- **No notify call** — postprocess-bds.sh handles delivery; nothing queued this cycle
-- **Files modified**: `memory/logs/2026-06-13.md` (appended log entry)
+- **Read `.bds-cache/alerts.json`**: 1 whale alert queued — 🐋 BUY USDe/USDC on Uniswap V3 (1%), $51.5K swapped, verified on-chain (CID: `bafkreiftfmcfn4sl3u34lzheayb…`)
+- **Did not dispatch** — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery
+- **Logged** to `memory/logs/2026-06-13.md`: epoch 25306079, 1 alert queued, status OK
+- **Exit code**: `POWERLOOM_BDS_OK`
