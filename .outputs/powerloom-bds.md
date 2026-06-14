@@ -1,15 +1,9 @@
-Skill executed. The task is a single deterministic run and is already complete — no task tracking needed.
+Skill complete. The prefetch already advanced the epoch cursor (now at `lastStreamEpoch: 25312355`) and wrote `.bds-cache/alerts.json` with an empty `alerts` array — no whale trades crossed the threshold this epoch.
 
 ## Summary
+- **Read** `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25312355`
+- **No dispatch** (empty alerts → postprocess owns delivery; nothing to send)
+- **Logged** `POWERLOOM_BDS_OK` (no alerts) to `memory/logs/2026-06-14.md`
+- **State left untouched** — `memory/powerloom-bds-state.json` managed by `process-bds-skill.py`; cursor already advanced
 
-**`powerloom-bds` skill** (whale-radar mode, default) ran for epoch end **25312256**.
-
-- **Read** `.bds-cache/alerts.json` → `alerts` array empty (`epoch_end: 25312256`, 10 epochs processed).
-- **Did not dispatch** — per the skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery via `./notify`. No notify call made.
-- **Did not rewrite state** — `memory/powerloom-bds-state.json` is owned by `scripts/process-bds-skill.py` in prefetch; left untouched.
-- **Logged** the no-alerts entry to `memory/logs/2026-06-14.md` with code `POWERLOOM_BDS_OK`.
-
-**Files modified:**
-- `memory/logs/2026-06-14.md` — appended run entry.
-
-**Result:** `POWERLOOM_BDS_OK` — ended silently, no alerts to dispatch.
+End code: `POWERLOOM_BDS_OK`.
