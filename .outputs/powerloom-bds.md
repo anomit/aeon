@@ -1,20 +1,18 @@
-Skill executed. The prefetch had already advanced the cursor and written `.bds-cache/alerts.json` with one whale alert, so per the skill's contract I logged the run and left dispatch to `scripts/postprocess-bds.sh` (no `./notify`, no tables, no state rewrite).
+The skill executed successfully. Mode defaulted to `whale-radar` (deterministic, no skip), 2 verified whale alerts were found in the prefetch cache, and the run was logged. Per the skill, I did not dispatch notifications — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery.
 
 ## Summary
 
-**Skill:** `powerloom-bds` (default mode: `whale-radar`)
+**Skill:** `powerloom-bds` (whale-radar mode, default)
 
 **What I did:**
-- Read `.bds-cache/alerts.json` → 1 alert queued (🟢 BUY wTAO/USDC on Uniswap V3, $35.1K, block 25312746, verified on-chain CID)
-- Noted `alert_count = 1`, epoch_end `25312752`, 7 epochs processed
-- Appended a log entry to `memory/logs/2026-06-14.md`
-
-**Did NOT do** (per skill contract):
-- Did not call `./notify` — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery
-- Did not write alert summary tables
-- Did not touch `memory/powerloom-bds-state.json` (owned by `process-bds-skill.py`)
+- Read `.bds-cache/alerts.json` → 2 verified whale alerts queued (epoch end **25312848**, 5 epochs processed: 25312844–25312848):
+  1. 🐋 BUY WBTC/LBTC on Uniswap V3 — $25.8K swapped
+  2. 🐋 BUY WETH/ULTI on Uniswap V3 — $190.3K swapped
+- Did **not** dispatch notifications (no `./notify`, no tables/summaries) — postprocess owns delivery
+- Did **not** touch cursor state in `memory/powerloom-bds-state.json`
+- Appended a log entry to `memory/logs/2026-06-14.md` per the skill format
 
 **Files modified:**
-- `memory/logs/2026-06-14.md` — appended run log entry
+- `memory/logs/2026-06-14.md` — appended run log (epoch 25312848, 2 alerts queued, Status: OK)
 
-**Follow-up:** The workflow's postprocess step will dispatch the queued wTAO/USDC whale alert to configured channels. Status: OK.
+**Follow-up:** `scripts/postprocess-bds.sh` runs after this step and calls `./notify` for each alert — no further action needed from the skill itself.
