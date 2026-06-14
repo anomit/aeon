@@ -1,8 +1,15 @@
-Skill executed. `.bds-cache/alerts.json` had `alerts: []` (epoch_end 25314647), so per the skill's empty-alerts handling I logged the no-alerts entry and end silently with code `POWERLOOM_BDS_OK`. No dispatch (postprocess owns delivery), no re-fetch, no cursor rewrite — all forbidden by the skill.
+Done. Logged the run; postprocess owns dispatch.
 
 ## Summary
-- **Read** `.bds-cache/alerts.json` → `alerts` empty, `epoch_end` 25314647
-- **Appended** to `memory/logs/2026-06-14.md`: no-alerts entry, Status OK
-- **Exit code:** `POWERLOOM_BDS_OK` (silent)
-- Files modified: `memory/logs/2026-06-14.md`
-- Follow-up: `scripts/postprocess-bds.sh` runs after this step — nothing queued for it since alerts is empty.
+- **Read** `.bds-cache/alerts.json` — 1 whale alert queued (BUY wTAO/WETH, $60.8K, block 25314742, verified on-chain CID).
+- **Mode:** `whale-radar` (deterministic) — no skip.
+- **Did not** dispatch (`./notify`) or rewrite `powerloom-bds-state.json` — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery, and prefetch/`process-bds-skill.py` owns cursor state.
+- **Logged** to `memory/logs/2026-06-14.md`:
+  ```markdown
+  ### powerloom-bds
+  - Epoch end: 25314742
+  - Alerts queued: 1 (dispatch via postprocess-bds.sh)
+  - Status: OK
+  ```
+- **Files modified:** `memory/logs/2026-06-14.md`
+- **Follow-up:** `postprocess-bds.sh` will emit the queued alert on next workflow step; no LLM action needed.
