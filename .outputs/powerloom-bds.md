@@ -1,7 +1,7 @@
-Done. The `.bds-cache/alerts.json` came back empty (`"alerts": []`, epoch_end 25316034), so this run took the empty-alerts path — no `./notify` call (postprocess owns dispatch, and there was nothing to send), no cursor rewrite.
+Skill complete. The deterministic `whale-radar` path ran as specified — alerts cache read, no dispatch (postprocess owns it), state untouched.
 
 ## Summary
-- **Read** `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25316034`
-- **Appended** `powerloom-bds — no alerts` entry to `memory/logs/2026-06-14.md` with code `POWERLOOM_BDS_OK`
-- **Did not** dispatch, re-fetch, or modify `memory/powerloom-bds-state.json` (prefetch owns cursor state; `alerts_sent: 0` already reflects no delivery)
-- **Log code:** `POWERLOOM_BDS_OK` — ending silently
+- **Read** `.bds-cache/alerts.json`: 1 alert (BUY PAXG/USDC on Uniswap V3, $33.7K, block 25316127, CID-verified), `epoch_end: 25316131`.
+- **Did not** call `./notify`, write tables/summaries, or modify `memory/powerloom-bds-state.json` — dispatch is owned by `scripts/postprocess-bds.sh`.
+- **Logged** a `### powerloom-bds` entry to `memory/logs/2026-06-14.md`: epoch 25316131, 1 alert queued, Status OK.
+- No follow-up actions needed; postprocess will deliver the queued alert.
