@@ -1,18 +1,15 @@
-Powerloom BDS skill executed successfully.
+Skill run complete.
 
 ## Summary
 
-**What I did:** Executed the `powerloom-bds` skill in default `whale-radar` mode.
+**powerloom-bds** (whale-radar mode) — read `.bds-cache/alerts.json`, confirmed 2 verified whale alerts, logged the run.
 
-- **Read alerts cache** (`.bds-cache/alerts.json`): 2 whale alerts queued at `epoch_end: 25315144`
-  - BUY USDe/USDC on Uniswap V3 — $40.0K swapped
-  - BUY wTAO/WETH on Uniswap V3 — $31.0K swapped
-  - Both verified on-chain (CIDs + epochs present in snapshot)
-- **Did not dispatch** — per skill design, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery for each alert.
-- **Did not rewrite cursor state** — `memory/powerloom-bds-state.json` is maintained exclusively by `scripts/process-bds-skill.py` in prefetch.
-- **Logged the run** to `memory/logs/2026-06-14.md` with epoch end and alert count, status `OK`.
+**What I did:**
+- Read the alerts cache: 2 whale alerts queued (PAXG/XAUt buys on Uniswap V3, $58.7K and $100.3K, epochs 25315236–25315242), each carrying on-chain CID verification.
+- Logged to `memory/logs/2026-06-14.md` — Epoch end: 25315242, Alerts queued: 2, Status: OK.
+- Did **not** dispatch (per skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery) and did **not** rewrite `memory/powerloom-bds-state.json`.
 
 **Files modified:**
-- `memory/logs/2026-06-14.md` — appended run entry.
+- `memory/logs/2026-06-14.md` (appended one entry)
 
-**No follow-up actions needed** from this step; postprocess will handle alert dispatch.
+**Log code:** `POWERLOOM_BDS_OK`
