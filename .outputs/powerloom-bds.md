@@ -1,12 +1,8 @@
-Powerloom BDS skill run complete.
-
-- **Mode:** `whale-radar` (default)
-- **Cache:** `.bds-cache/alerts.json` present, **3 alerts** queued, epoch_end `25314550`
-- **Dispatch:** skipped per skill — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery
-- **Log:** appended run to `memory/logs/2026-06-14.md`
+Skill executed. `.bds-cache/alerts.json` had `alerts: []` (epoch_end 25314647), so per the skill's empty-alerts handling I logged the no-alerts entry and end silently with code `POWERLOOM_BDS_OK`. No dispatch (postprocess owns delivery), no re-fetch, no cursor rewrite — all forbidden by the skill.
 
 ## Summary
-- **Read** `.bds-cache/alerts.json` — 3 verified whale alerts for epoch_end 25314550 (prefetch/`process-bds-skill.py` already advanced the cursor and deduplicated).
-- **Did not** call `./notify`, write alert tables, or rewrite cursor state (per skill constraints — postprocess owns delivery).
-- **Appended** a log entry to `memory/logs/2026-06-14.md` recording epoch_end, 3 alerts queued, Status: OK.
-- **No state changes** to `memory/powerloom-bds-state.json`.
+- **Read** `.bds-cache/alerts.json` → `alerts` empty, `epoch_end` 25314647
+- **Appended** to `memory/logs/2026-06-14.md`: no-alerts entry, Status OK
+- **Exit code:** `POWERLOOM_BDS_OK` (silent)
+- Files modified: `memory/logs/2026-06-14.md`
+- Follow-up: `scripts/postprocess-bds.sh` runs after this step — nothing queued for it since alerts is empty.
