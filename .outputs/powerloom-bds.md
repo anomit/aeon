@@ -1,9 +1,15 @@
-Skill complete. The prefetch had already advanced the epoch cursor and the alerts cache held `alerts: []` (epoch_end `25315637`), so this was the empty-alerts path — no dispatch (postprocess owns delivery), no re-fetch, no state rewrite.
+Skill executed. The `powerloom-bds` skill (whale-radar mode) ran successfully.
 
 ## Summary
-- **Read** `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25315637`
-- **Logged** the empty-alerts entry to `memory/logs/2026-06-14.md` (Epoch end 25315637, 0 alerts queued, Status OK, `POWERLOOM_BDS_OK`)
-- **Did not** call `./notify` or rewrite cursor state — per skill, dispatch is owned by `scripts/postprocess-bds.sh`
-- **Exit code:** `POWERLOOM_BDS_OK`
 
-Files modified: `memory/logs/2026-06-14.md`.
+**What I did:**
+- Read the pre-processed alerts cache at `.bds-cache/alerts.json` — found **1 whale alert** queued (wTAO/WETH BUY, $85.3K, block 25315728, verified on-chain).
+- Per the skill instructions, **did not dispatch** — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery of the queued alert. I also did not rewrite cursor state in `memory/powerloom-bds-state.json`.
+- Appended a log entry to `memory/logs/2026-06-14.md`.
+
+**Files modified:**
+- `memory/logs/2026-06-14.md` — appended `### powerloom-bds` entry (Epoch end: 25315737, Alerts queued: 1, Status: OK).
+
+**Follow-up:**
+- `postprocess-bds.sh` will fire the queued alert to configured channels.
+- End code: `POWERLOOM_BDS_OK`.
