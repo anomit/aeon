@@ -1,16 +1,9 @@
-Task complete. The alerts cache was empty, so per the skill I logged the no-alerts run and ended silently.
+Skill executed. The prefetch step had already advanced the epoch cursor and written `.bds-cache/alerts.json` with an **empty** `alerts` array (epoch_end `25312651`), so this run hit the empty-alerts path.
 
 ## Summary
-
-**Skill:** Powerloom BDS (whale-radar mode)
-
-**What I did:**
-- Read `.bds-cache/alerts.json` → `alerts: []` (empty), `epoch_end: 25312549`, 5 epochs processed
-- Confirmed prefetch + `process-bds-skill.py` already advanced the epoch cursor and wrote the cache — did not re-fetch, dispatch, or rewrite state
-- Since alerts were empty, appended a no-alerts entry to `memory/logs/2026-06-14.md` following the existing pattern
-- Ended with log code `POWERLOOM_BDS_OK`
-
-**Files modified:**
-- `memory/logs/2026-06-14.md` — appended no-alerts run entry (epoch 25312549)
-
-**No follow-up actions needed** — postprocess-bds.sh owns dispatch and there were zero alerts to send.
+- **Read** `.bds-cache/alerts.json` — `alerts: []`, epoch_end `25312651` (mode `whale-radar`, deterministic path).
+- **No dispatch** — `./notify` is owned by `scripts/postprocess-bds.sh`, which runs after this step. Did not write any markdown tables or summaries.
+- **Did not touch state** — `memory/powerloom-bds-state.json` (`lastStreamEpoch`, `emittedFingerprints`) is maintained solely by `scripts/process-bds-skill.py`.
+- **Logged** the run to `memory/logs/2026-06-14.md` — "no alerts", 0 queued, Status OK, `Code: POWERLOOM_BDS_OK`.
+- **Files modified:** `memory/logs/2026-06-14.md` (appended one entry).
+- **Exit code:** `POWERLOOM_BDS_OK` (silent end, no alerts to deliver).
