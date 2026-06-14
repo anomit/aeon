@@ -1,9 +1,10 @@
-Skill executed. This was a simple 3-step run, so no task tracking needed.
+Skill executed. The prefetch step had already advanced the epoch cursor (to `lastStreamEpoch: 25313348`) and `process-bds-skill.py` deduplicated trades into `.bds-cache/alerts.json` — no whale alerts qualified this cycle (`alerts: []`).
 
 ## Summary
+- **Read** `.bds-cache/alerts.json` → `alerts` empty, epoch range `25313343–25313348`.
+- **Did not dispatch** — per skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery; no tables or summaries written.
+- **Did not rewrite** `memory/powerloom-bds-state.json` — cursor owned by `process-bds-skill.py`.
+- **Logged** `powerloom-bds — no alerts` (Epoch end 25313348, 0 queued) to `memory/logs/2026-06-14.md`.
+- **Exit code:** `POWERLOOM_BDS_OK`.
 
-Read `.bds-cache/alerts.json` — `alerts` was empty (`epoch_end: 25313250`, `epochs_processed: 8`). Per the skill's empty-alerts branch, I did **not** dispatch (postprocess-bds.sh owns notification delivery) and appended the no-alert log entry.
-
-- **Modified:** `memory/logs/2026-06-14.md` — appended `powerloom-bds — no alerts` entry (epoch end 25313250, 0 alerts queued)
-- **State:** `memory/powerloom-bds-state.json` left untouched (maintained by `process-bds-skill.py` in prefetch)
-- **End code:** `POWERLOOM_BDS_OK` — silent end, no follow-up actions needed
+No alerts queued for postprocess this cycle; no follow-up actions needed.
