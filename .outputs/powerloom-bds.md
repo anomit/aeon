@@ -1,15 +1,16 @@
-Skill complete. The task was a single deterministic path (read cache → log), so no task list was needed.
+Skill run complete.
 
 ## Summary
 
-Executed `skills/powerloom-bds/SKILL.md` in `whale-radar` mode.
+**powerloom-bds** — `whale-radar` mode, ended with code `POWERLOOM_BDS_OK`.
 
-- **Alerts cache** (`.bds-cache/alerts.json`): 4 verified whale alerts queued — all BUY PRIME/USDC on Uniswap V3 (1%), $1.00M each, across blocks 25314043–25314050.
-- **Epoch end**: 25314050 (10 epochs processed: 25314041–25314050).
-- **Dispatch**: intentionally **not** performed here — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery.
-- **Cursor state** (`memory/powerloom-bds-state.json`): left untouched, as required.
+What I did:
+- Read `.bds-cache/alerts.json`: **1 alert** queued — a verified whale alert (BUY NOX/WETH on Uniswap V3, $650.9K swapped, block 25314142, with on-chain CID/epoch verification).
+- Confirmed dedup is sound: prefetch's `process-bds-skill.py` already recorded the trade fingerprint `0x6da059c8…:25314142` in `emittedFingerprints`, so the next run won't re-queue it — no double-dispatch risk.
+- **Did not** dispatch (per skill, `scripts/postprocess-bds.sh` owns `./notify` delivery) and **did not** touch cursor state.
+- Appended the run log to `memory/logs/2026-06-14.md` (epoch 25314145, 1 alert queued, status OK).
 
-**Files modified:**
-- `memory/logs/2026-06-14.md` — appended run entry (Epoch 25314050, 4 alerts queued, Status: OK).
+Files modified:
+- `memory/logs/2026-06-14.md` — appended powerloom-bds entry.
 
-**Follow-up:** `postprocess-bds.sh` will fan the 4 alerts out to configured channels. Log code `POWERLOOM_BDS_OK`.
+Follow-up (handled outside this step): `scripts/postprocess-bds.sh` will dispatch the queued alert via `./notify` to Telegram/Discord/Slack.
