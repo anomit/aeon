@@ -1,13 +1,16 @@
-Skill complete. The task was a single deterministic step — no task tracking needed.
+Task complete. The alerts cache was empty, so per the skill I logged the no-alerts run and ended silently.
 
 ## Summary
 
-Executed **powerloom-bds** (default `whale-radar` mode).
+**Skill:** Powerloom BDS (whale-radar mode)
 
-- Read `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25312453`, 7 epochs processed.
-- **Empty alerts** case: logged to `memory/logs/2026-06-14.md` with code `POWERLOOM_BDS_OK` and ended silently.
-- Did **not** call `./notify`, did **not** write summary tables, did **not** touch `memory/powerloom-bds-state.json` — postprocess owns dispatch and `process-bds-skill.py` owns cursor state.
+**What I did:**
+- Read `.bds-cache/alerts.json` → `alerts: []` (empty), `epoch_end: 25312549`, 5 epochs processed
+- Confirmed prefetch + `process-bds-skill.py` already advanced the epoch cursor and wrote the cache — did not re-fetch, dispatch, or rewrite state
+- Since alerts were empty, appended a no-alerts entry to `memory/logs/2026-06-14.md` following the existing pattern
+- Ended with log code `POWERLOOM_BDS_OK`
 
-**Files modified:** `memory/logs/2026-06-14.md` (appended no-alerts entry).
+**Files modified:**
+- `memory/logs/2026-06-14.md` — appended no-alerts run entry (epoch 25312549)
 
-**Log code:** `POWERLOOM_BDS_OK` — no follow-up actions needed.
+**No follow-up actions needed** — postprocess-bds.sh owns dispatch and there were zero alerts to send.
