@@ -1,18 +1,21 @@
-Task is complete. This was a single linear skill run (read cache → log), so task tracking isn't warranted here.
+Skill executed. The alerts cache had `alerts: []`, so this was the empty-alerts path.
 
 ## Summary
 
-Executed `skills/powerloom-bds/SKILL.md` in `whale-radar` mode (default).
+**Read** `.bds-cache/alerts.json` — `alerts: []`, epoch_end `25316933`, 9 epochs processed.
 
-**What I did:**
-- Read `.bds-cache/alerts.json` — **1 whale alert** queued (epoch end `25316828`, USDC/WETH buy on Uniswap V3, $27.1K, CID-verified on-chain)
-- Followed the skill's contract strictly:
-  - ✅ Did **not** re-fetch (prefetch already advanced the cursor)
-  - ✅ Did **not** call `./notify` or write alert-summary tables — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack dispatch
-  - ✅ Did **not** rewrite `memory/powerloom-bds-state.json` (cursor `lastStreamEpoch: 25316828` and `emittedFingerprints` left intact)
-- Appended the "alerts present" log entry to `memory/logs/2026-06-14.md`
+**Logged** to `memory/logs/2026-06-14.md`:
+```markdown
+### powerloom-bds
+- powerloom-bds — no alerts
+- Epoch end: 25316933
+- Alerts queued: 0 (dispatch via postprocess-bds.sh)
+- Status: OK
+- Code: POWERLOOM_BDS_OK
+```
 
-**Files modified:**
-- `memory/logs/2026-06-14.md` — appended powerloom-bds entry (epoch 25316828, 1 alert queued)
+- Did **not** dispatch — `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery.
+- Did **not** rewrite state — `powerloom-bds-state.json` (`lastStreamEpoch` 25316933, 61 fingerprints) is maintained by prefetch's `process-bds-skill.py`.
+- Mode: `whale-radar` (default, confirmed in state).
 
-**Follow-up:** `scripts/postprocess-bds.sh` runs after this step and dispatches the 1 alert to configured channels. Log code: **POWERLOOM_BDS_OK**.
+**Exit code: `POWERLOOM_BDS_OK`** — no alerts this cycle.
