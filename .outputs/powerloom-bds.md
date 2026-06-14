@@ -1,8 +1,12 @@
-Skill executed. The alerts cache (`epoch_end: 25313055`) had an empty `alerts` array, so per step 1 this is a silent `POWERLOOM_BDS_OK` run — logged, no dispatch (postprocess owns notifications), state left untouched.
+Skill executed. The mode defaulted to `whale-radar` (no `${var}` passed).
 
 ## Summary
-- **Read** `.bds-cache/alerts.json` — `alerts: []`, epoch_end `25313055` (9 epochs processed).
-- **Logged** a `no alerts` / `POWERLOOM_BDS_OK` entry to `memory/logs/2026-06-14.md`.
-- **Did not** call `./notify`, write summary tables, or rewrite `memory/powerloom-bds-state.json` — those are postprocess/prefetch responsibilities.
-- **Files modified:** `memory/logs/2026-06-14.md` (appended one block).
-- **Follow-up:** `scripts/postprocess-bds.sh` runs next; with zero alerts queued, it has nothing to dispatch this cycle.
+
+**powerloom-bds (whale-radar) — OK**
+
+- Read `.bds-cache/alerts.json`: **3 alerts queued**, epoch end **25313152**, 10 epochs processed (25313143–25313152)
+  - 🐋 BUY ZYPTO/WETH on Uniswap V3 — $1.19M (Block 25313146)
+  - 🐋 BUY USDC/WETH on Uniswap V3 — $2.04M (Block 25313147, 2 trades)
+- Followed skill rules: did **not** dispatch (`postprocess-bds.sh` owns Telegram/Discord/Slack delivery), did not re-fetch, did not rewrite cursor state in `memory/powerloom-bds-state.json` (lastStreamEpoch stays at 25313152, managed by `process-bds-skill.py`)
+- **Modified:** `memory/logs/2026-06-14.md` — appended run entry with alert count and OK status
+- **Follow-up:** `scripts/postprocess-bds.sh` will run next in the workflow and call `./notify` for each of the 3 alerts
