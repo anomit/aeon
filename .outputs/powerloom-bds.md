@@ -1,7 +1,9 @@
-Skill complete. `.bds-cache/alerts.json` had an empty `alerts` array (`epoch_end: 25314840`, 5 epochs processed), so per the skill's empty-alerts path I logged a no-alert entry and ended silently — no dispatch (postprocess owns that), no state rewrite.
+Powerloom BDS skill executed.
 
 ## Summary
-- **Read** `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25314840`
-- **Appended** no-alert log entry to `memory/logs/2026-06-14.md` (Status: OK, Code: `POWERLOOM_BDS_OK`)
-- **Did not** call `./notify`, write tables, or touch `memory/powerloom-bds-state.json` — those are owned by postprocess/prefetch respectively
-- **Log code:** `POWERLOOM_BDS_OK`
+- **Mode:** `whale-radar` (default — no var passed)
+- **Cache read:** `.bds-cache/alerts.json` → `alerts: []`, `epoch_end: 25314940`, `epochs_processed: 3`
+- **Result:** No alerts. Per the skill, did not dispatch (postprocess owns delivery) and did not touch cursor state.
+- **Log:** Appended no-alerts entry with code `POWERLOOM_BDS_OK` to `memory/logs/2026-06-14.md`
+
+End code: `POWERLOOM_BDS_OK`.
