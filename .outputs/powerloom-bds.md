@@ -1,11 +1,14 @@
-Skill executed. Default `whale-radar` mode.
+Skill complete.
 
 ## Summary
 
-- **Read** `.bds-cache/alerts.json` → `alerts: []` (empty), `epoch_end: 25316427`, 4 epochs processed.
-- **No dispatch** — per skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery; the LLM does not call `./notify` or write alert summaries.
-- **Logged** a "no alerts" entry to `memory/logs/2026-06-14.md` (epoch end 25316427, 0 alerts queued, Status OK).
-- **State left untouched** — did not rewrite `memory/powerloom-bds-state.json` (owned by `scripts/process-bds-skill.py`).
-- **End code:** `POWERLOOM_BDS_OK` (empty-alerts path — ended silently, no notification).
+Executed `skills/powerloom-bds/SKILL.md` (default `whale-radar` mode):
 
-Files modified: `memory/logs/2026-06-14.md`. No follow-up actions needed.
+- **Read** `.bds-cache/alerts.json` → `alerts: []`, epoch_end `25316533` (10 epochs processed by prefetch).
+- **No alerts** → followed the empty-alerts path: no dispatch (postprocess owns Telegram/Discord/Slack delivery, and there was nothing to send), no table/summary written.
+- **Logged** a `powerloom-bds — no alerts` entry to `memory/logs/2026-06-14.md`, ending silently with code `POWERLOOM_BDS_OK`.
+- Did **not** touch `memory/powerloom-bds-state.json` (maintained by `process-bds-skill.py`).
+
+**Files modified:** `memory/logs/2026-06-14.md` (appended log entry).
+
+**Follow-up:** None — `scripts/postprocess-bds.sh` will run next and no-op since no alerts were queued.
