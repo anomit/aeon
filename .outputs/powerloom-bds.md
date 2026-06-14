@@ -1,16 +1,19 @@
-Task tracking isn't warranted here — this is a single-step skill execution that's now complete.
+Skill complete. The `powerloom-bds` skill is a single linear read-and-log step — no task tracking needed.
 
 ## Summary
 
-Executed **powerloom-bds** (`whale-radar` mode, default).
+Executed `skills/powerloom-bds/SKILL.md`:
 
-- **Read** `.bds-cache/alerts.json`: 2 verified whale alerts queued, epoch end **25315831**
-  - 🐋 BUY AUSD/USDC on Uniswap V3 — $100.0K swapped (block 25315828)
-  - 🐋 BUY USDC/WETH on Uniswap V3 — $38.9K swapped (block 25315831)
-  - Both carry on-chain CID/epoch verification
-- **Did not dispatch** — per skill spec, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery. No `./notify` call, no summary tables.
-- **Logged** to `memory/logs/2026-06-14.md` with epoch end, alert count (2), and OK status.
-- State (`memory/powerloom-bds-state.json`) left untouched — `lastStreamEpoch` and `emittedFingerprints` are managed by `process-bds-skill.py`.
+1. **Read alerts cache** (`.bds-cache/alerts.json`) — 3 whale alerts queued at epoch end `25315934` (epochs 25315925–25315934). All carry on-chain CID verification (project: `allTradesSnapshot`).
+2. **Did not dispatch** — per skill spec, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery. Only counted `alert_count` for logging.
+3. **Logged** to `memory/logs/2026-06-14.md`:
+   - Epoch end: 25315934
+   - Alerts queued: 3 (dispatch via postprocess-bds.sh)
+   - Status: OK
 
-**Files modified:** `memory/logs/2026-06-14.md` (appended entry).
-**Follow-up:** None — dispatch handled by the postprocess step. Exit code: `POWERLOOM_BDS_OK`.
+**Status:** `POWERLOOM_BDS_OK` — 3 alerts queued for postprocess dispatch.
+
+**Files modified:**
+- `memory/logs/2026-06-14.md` (appended run entry)
+
+No follow-up actions from this step — postprocess will handle the notifications.
