@@ -1,7 +1,18 @@
-Skill executed. `.bds-cache/alerts.json` had empty alerts (`alerts: []`, `epoch_end: 25317128`) in default `whale-radar` mode, so no dispatch was performed — `scripts/postprocess-bds.sh` owns delivery. Logged the run and ended silently with code `POWERLOOM_BDS_OK`.
+Skill complete. This was a single-pass execution, so no task tracking was needed.
 
 ## Summary
-- **Read** `.bds-cache/alerts.json` — 0 alerts for epoch range 25317124–25317128 (5 epochs processed, all deduplicated/already emitted).
-- **Did not dispatch** — per skill, postprocess owns Telegram/Discord/Slack delivery; state was left untouched.
-- **Appended** to `memory/logs/2026-06-14.md` a `### powerloom-bds` entry noting no alerts, `Alerts queued: 0`, status OK, code `POWERLOOM_BDS_OK`.
-- **No follow-up actions needed** — prefetch already advanced the epoch cursor; next 5-min tick will pick up from 25317128.
+
+Executed `skills/powerloom-bds/SKILL.md` (whale-radar mode, the deterministic default).
+
+- **Read** `.bds-cache/alerts.json` — 1 alert queued: 🐋 BUY WETH/ULTI on Uniswap V3 (1%), $181.0K, block 25317226, verified on-chain (epoch 25317226, allTradesSnapshot).
+- **Epoch end:** 25317234 (10 epochs processed, range 25317225–25317234).
+- **Did not dispatch** — per the skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery. Did not re-fetch, did not summarize into a table, did not rewrite cursor state (`memory/powerloom-bds-state.json` is owned by `process-bds-skill.py`).
+- **Logged** the run to `memory/logs/2026-06-14.md`:
+  ```markdown
+  ### powerloom-bds
+  - Epoch end: 25317234
+  - Alerts queued: 1 (dispatch via postprocess-bds.sh)
+  - Status: OK
+  ```
+
+End code: `POWERLOOM_BDS_OK`. Postprocess will fan out the queued alert via `./notify`.
