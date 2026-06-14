@@ -1,6 +1,8 @@
-Skill executed. End code: **POWERLOOM_BDS_OK**.
+Skill complete. The prefetch had already advanced the epoch cursor and written `.bds-cache/alerts.json` — this run found an empty `alerts` array, so no delivery was needed.
 
 ## Summary
-- Read `.bds-cache/alerts.json`: `alerts: []`, epoch end `25314244` (mode `whale-radar`, deterministic path)
-- Empty alerts → no dispatch (postprocess-bds.sh owns delivery); did not call `./notify` or rewrite state
-- Appended a `powerloom-bds — no alerts` entry (`Status: OK`, `Code: POWERLOOM_BDS_OK`) to `memory/logs/2026-06-14.md`
+- **Mode:** `whale-radar` (default)
+- **Result:** No alerts queued for epoch 25314346 (range 25314341–25314346, 6 epochs processed)
+- **Action taken:** Appended `powerloom-bds — no alerts` entry to `memory/logs/2026-06-14.md`; did not dispatch (postprocess-bds.sh owns Telegram/Discord/Slack delivery); did not rewrite state (owned by `scripts/process-bds-skill.py`).
+- **File modified:** `memory/logs/2026-06-14.md`
+- **Exit code:** `POWERLOOM_BDS_OK`
