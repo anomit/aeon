@@ -1,15 +1,18 @@
-Skill run complete.
+Done. The `powerloom-bds` skill run is complete.
 
 ## Summary
 
-**powerloom-bds** (whale-radar mode) — read `.bds-cache/alerts.json`, confirmed 2 verified whale alerts, logged the run.
+**Mode:** `whale-radar` (default)
 
-**What I did:**
-- Read the alerts cache: 2 whale alerts queued (PAXG/XAUt buys on Uniswap V3, $58.7K and $100.3K, epochs 25315236–25315242), each carrying on-chain CID verification.
-- Logged to `memory/logs/2026-06-14.md` — Epoch end: 25315242, Alerts queued: 2, Status: OK.
-- Did **not** dispatch (per skill, `scripts/postprocess-bds.sh` owns Telegram/Discord/Slack delivery) and did **not** rewrite `memory/powerloom-bds-state.json`.
+The prefetch step (`prefetch-bds.sh` + `process-bds-skill.py`) had already advanced the epoch cursor to **25315341**, deduplicated trades, and written 3 verified whale alerts to `.bds-cache/alerts.json`. Per the skill, I only confirmed and logged the run — I did **not** re-fetch, dispatch notifications, write summary tables, or touch `powerloom-bds-state.json`.
+
+**Alerts queued (dispatch owned by `postprocess-bds.sh`):**
+- 2× 🐋 BUY USDC/WETH on Uniswap V3 (5%), $855.5K — block 25315339
+- 1× 🐋 BUY WBTC/USDC on Uniswap V3 (30%), $204.5K — block 25315341
+
+All three carry on-chain CID/epoch verification from the snapshot.
 
 **Files modified:**
-- `memory/logs/2026-06-14.md` (appended one entry)
+- `memory/logs/2026-06-14.md` — appended run entry (epoch end 25315341, 3 alerts queued, Status: OK)
 
-**Log code:** `POWERLOOM_BDS_OK`
+**Follow-up:** `postprocess-bds.sh` runs next and calls `./notify` for each of the 3 alerts — no action needed from this step.
